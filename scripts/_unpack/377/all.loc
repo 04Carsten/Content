@@ -1,4 +1,4 @@
-[mcannonremains]
+[loc_0]
 name=Crate
 desc=I wonder what's inside.
 unpacked_1=model_2141,_8
@@ -1405,7 +1405,7 @@ width=2
 length=2
 op1=Search
 
-[taverley_dragon_jumpup]
+[loc_154]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
 unpacked_1=model_1475,_8
@@ -21469,7 +21469,7 @@ length=2
 op1=Look at
 op2=Search
 
-[tourtrap_qip_cell_bars_multi]
+[loc_2679]
 name=Captain Siad's Desk
 desc=A sturdy looking desk on which the Captain works.
 unpacked_1=model_1213,_8
@@ -27629,7 +27629,7 @@ desc=This lever can be operated.
 unpacked_1=model_1774,_8
 op1=Pull
 
-[elemental_workshop_bellows_multiloc]
+[loc_3407]
 name=Water wheel
 desc=It spins.
 unpacked_1=model_3468,_8
@@ -60613,7 +60613,7 @@ unpacked_1=model_6905,_8
 width=2
 active=no
 
-[tithe_door_new_m]
+[loc_6943]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -60627,7 +60627,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 
-[hos_stall_empty]
+[loc_6944]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -60641,7 +60641,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 
-[hos_stall_bread]
+[loc_6945]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -60655,7 +60655,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 
-[hos_stall_utensil]
+[loc_6946]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -60669,7 +60669,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 
-[hos_stall_seeds]
+[loc_6947]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -60683,7 +60683,7 @@ op3=hidden
 mapscene=12
 blockrange=no
 
-[hos_stall_herbs]
+[loc_6948]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -79689,7 +79689,7 @@ ambient=25
 op2=Inspect
 op4=Guide
 
-[bankbooth_end_right]
+[loc_8139]
 name=Herbs
 desc=Some herb seeds have been sown in this patch.
 unpacked_1=model_7871,_8
@@ -79698,7 +79698,7 @@ ambient=25
 op2=Inspect
 op4=Guide
 
-[bankbooth_end_left]
+[loc_8140]
 name=Herbs
 desc=A herb is growing in this patch.
 unpacked_1=model_7872,_8
@@ -79707,7 +79707,7 @@ ambient=25
 op2=Inspect
 op4=Guide
 
-[bankboothclosed_end_right]
+[loc_8141]
 name=Herbs
 desc=A herb is growing in this patch.
 unpacked_1=model_7873,_8
@@ -79716,7 +79716,7 @@ ambient=25
 op2=Inspect
 op4=Guide
 
-[bankboothclosed_end_left]
+[loc_8142]
 name=Herbs
 desc=A herb is growing in this patch.
 unpacked_1=model_7874,_8
@@ -79725,7 +79725,7 @@ ambient=25
 op2=Inspect
 op4=Guide
 
-[hos_roof_fix1]
+[loc_8143]
 name=Herbs
 desc=A fully grown herb.
 unpacked_1=model_7875,_8
@@ -79834,62 +79834,62 @@ multiloc=0,herb_patch_weeds_3
 multiloc=1,herb_patch_weeds_2
 multiloc=2,herb_patch_weeds_1
 multiloc=3,herb_patch_weeded
-multiloc=4,bankbooth_end_right
-multiloc=5,bankbooth_end_left
-multiloc=6,bankboothclosed_end_right
-multiloc=7,bankboothclosed_end_left
-multiloc=8,hos_roof_fix1
-multiloc=9,hos_roof_fix1
-multiloc=10,hos_roof_fix1
-multiloc=11,bankbooth_end_right
-multiloc=12,bankbooth_end_left
-multiloc=13,bankboothclosed_end_right
-multiloc=14,bankboothclosed_end_left
-multiloc=15,hos_roof_fix1
-multiloc=16,hos_roof_fix1
-multiloc=17,hos_roof_fix1
-multiloc=18,bankbooth_end_right
-multiloc=19,bankbooth_end_left
-multiloc=20,bankboothclosed_end_right
-multiloc=21,bankboothclosed_end_left
-multiloc=22,hos_roof_fix1
-multiloc=23,hos_roof_fix1
-multiloc=24,hos_roof_fix1
-multiloc=25,bankbooth_end_right
-multiloc=26,bankbooth_end_left
-multiloc=27,bankboothclosed_end_right
-multiloc=28,bankboothclosed_end_left
-multiloc=29,hos_roof_fix1
-multiloc=30,hos_roof_fix1
-multiloc=31,hos_roof_fix1
-multiloc=32,bankbooth_end_right
-multiloc=33,bankbooth_end_left
-multiloc=34,bankboothclosed_end_right
-multiloc=35,bankboothclosed_end_left
-multiloc=36,hos_roof_fix1
-multiloc=37,hos_roof_fix1
-multiloc=38,hos_roof_fix1
-multiloc=39,bankbooth_end_right
-multiloc=40,bankbooth_end_left
-multiloc=41,bankboothclosed_end_right
-multiloc=42,bankboothclosed_end_left
-multiloc=43,hos_roof_fix1
-multiloc=44,hos_roof_fix1
-multiloc=45,hos_roof_fix1
-multiloc=46,bankbooth_end_right
-multiloc=47,bankbooth_end_left
-multiloc=48,bankboothclosed_end_right
-multiloc=49,bankboothclosed_end_left
-multiloc=50,hos_roof_fix1
-multiloc=51,hos_roof_fix1
-multiloc=52,hos_roof_fix1
-multiloc=53,bankbooth_end_right
-multiloc=54,bankbooth_end_left
-multiloc=55,bankboothclosed_end_right
-multiloc=56,bankboothclosed_end_left
-multiloc=57,hos_roof_fix1
-multiloc=58,hos_roof_fix1
-multiloc=59,hos_roof_fix1
+multiloc=4,loc_8139
+multiloc=5,loc_8140
+multiloc=6,loc_8141
+multiloc=7,loc_8142
+multiloc=8,loc_8143
+multiloc=9,loc_8143
+multiloc=10,loc_8143
+multiloc=11,loc_8139
+multiloc=12,loc_8140
+multiloc=13,loc_8141
+multiloc=14,loc_8142
+multiloc=15,loc_8143
+multiloc=16,loc_8143
+multiloc=17,loc_8143
+multiloc=18,loc_8139
+multiloc=19,loc_8140
+multiloc=20,loc_8141
+multiloc=21,loc_8142
+multiloc=22,loc_8143
+multiloc=23,loc_8143
+multiloc=24,loc_8143
+multiloc=25,loc_8139
+multiloc=26,loc_8140
+multiloc=27,loc_8141
+multiloc=28,loc_8142
+multiloc=29,loc_8143
+multiloc=30,loc_8143
+multiloc=31,loc_8143
+multiloc=32,loc_8139
+multiloc=33,loc_8140
+multiloc=34,loc_8141
+multiloc=35,loc_8142
+multiloc=36,loc_8143
+multiloc=37,loc_8143
+multiloc=38,loc_8143
+multiloc=39,loc_8139
+multiloc=40,loc_8140
+multiloc=41,loc_8141
+multiloc=42,loc_8142
+multiloc=43,loc_8143
+multiloc=44,loc_8143
+multiloc=45,loc_8143
+multiloc=46,loc_8139
+multiloc=47,loc_8140
+multiloc=48,loc_8141
+multiloc=49,loc_8142
+multiloc=50,loc_8143
+multiloc=51,loc_8143
+multiloc=52,loc_8143
+multiloc=53,loc_8139
+multiloc=54,loc_8140
+multiloc=55,loc_8141
+multiloc=56,loc_8142
+multiloc=57,loc_8143
+multiloc=58,loc_8143
+multiloc=59,loc_8143
 multiloc=60,herb_patch_weeds_3
 multiloc=61,herb_patch_weeds_3
 multiloc=62,herb_patch_weeds_3
@@ -79898,48 +79898,48 @@ multiloc=64,herb_patch_weeds_3
 multiloc=65,herb_patch_weeds_3
 multiloc=66,herb_patch_weeds_3
 multiloc=67,herb_patch_weeds_3
-multiloc=68,bankbooth_end_right
-multiloc=69,bankbooth_end_left
-multiloc=70,bankboothclosed_end_right
-multiloc=71,bankboothclosed_end_left
-multiloc=72,hos_roof_fix1
-multiloc=73,hos_roof_fix1
-multiloc=74,hos_roof_fix1
-multiloc=75,bankbooth_end_right
-multiloc=76,bankbooth_end_left
-multiloc=77,bankboothclosed_end_right
-multiloc=78,bankboothclosed_end_left
-multiloc=79,hos_roof_fix1
-multiloc=80,hos_roof_fix1
-multiloc=81,hos_roof_fix1
-multiloc=82,bankbooth_end_right
-multiloc=83,bankbooth_end_left
-multiloc=84,bankboothclosed_end_right
-multiloc=85,bankboothclosed_end_left
-multiloc=86,hos_roof_fix1
-multiloc=87,hos_roof_fix1
-multiloc=88,hos_roof_fix1
-multiloc=89,bankbooth_end_right
-multiloc=90,bankbooth_end_left
-multiloc=91,bankboothclosed_end_right
-multiloc=92,bankboothclosed_end_left
-multiloc=93,hos_roof_fix1
-multiloc=94,hos_roof_fix1
-multiloc=95,hos_roof_fix1
-multiloc=96,bankbooth_end_right
-multiloc=97,bankbooth_end_left
-multiloc=98,bankboothclosed_end_right
-multiloc=99,bankboothclosed_end_left
-multiloc=100,hos_roof_fix1
-multiloc=101,hos_roof_fix1
-multiloc=102,hos_roof_fix1
-multiloc=103,bankbooth_end_right
-multiloc=104,bankbooth_end_left
-multiloc=105,bankboothclosed_end_right
-multiloc=106,bankboothclosed_end_left
-multiloc=107,hos_roof_fix1
-multiloc=108,hos_roof_fix1
-multiloc=109,hos_roof_fix1
+multiloc=68,loc_8139
+multiloc=69,loc_8140
+multiloc=70,loc_8141
+multiloc=71,loc_8142
+multiloc=72,loc_8143
+multiloc=73,loc_8143
+multiloc=74,loc_8143
+multiloc=75,loc_8139
+multiloc=76,loc_8140
+multiloc=77,loc_8141
+multiloc=78,loc_8142
+multiloc=79,loc_8143
+multiloc=80,loc_8143
+multiloc=81,loc_8143
+multiloc=82,loc_8139
+multiloc=83,loc_8140
+multiloc=84,loc_8141
+multiloc=85,loc_8142
+multiloc=86,loc_8143
+multiloc=87,loc_8143
+multiloc=88,loc_8143
+multiloc=89,loc_8139
+multiloc=90,loc_8140
+multiloc=91,loc_8141
+multiloc=92,loc_8142
+multiloc=93,loc_8143
+multiloc=94,loc_8143
+multiloc=95,loc_8143
+multiloc=96,loc_8139
+multiloc=97,loc_8140
+multiloc=98,loc_8141
+multiloc=99,loc_8142
+multiloc=100,loc_8143
+multiloc=101,loc_8143
+multiloc=102,loc_8143
+multiloc=103,loc_8139
+multiloc=104,loc_8140
+multiloc=105,loc_8141
+multiloc=106,loc_8142
+multiloc=107,loc_8143
+multiloc=108,loc_8143
+multiloc=109,loc_8143
 multiloc=128,herb_1_diseased
 multiloc=129,herb_2_diseased
 multiloc=130,herb_3_diseased
@@ -80077,62 +80077,62 @@ multiloc=0,herb_patch_weeds_3
 multiloc=1,herb_patch_weeds_2
 multiloc=2,herb_patch_weeds_1
 multiloc=3,herb_patch_weeded
-multiloc=4,bankbooth_end_right
-multiloc=5,bankbooth_end_left
-multiloc=6,bankboothclosed_end_right
-multiloc=7,bankboothclosed_end_left
-multiloc=8,hos_roof_fix1
-multiloc=9,hos_roof_fix1
-multiloc=10,hos_roof_fix1
-multiloc=11,bankbooth_end_right
-multiloc=12,bankbooth_end_left
-multiloc=13,bankboothclosed_end_right
-multiloc=14,bankboothclosed_end_left
-multiloc=15,hos_roof_fix1
-multiloc=16,hos_roof_fix1
-multiloc=17,hos_roof_fix1
-multiloc=18,bankbooth_end_right
-multiloc=19,bankbooth_end_left
-multiloc=20,bankboothclosed_end_right
-multiloc=21,bankboothclosed_end_left
-multiloc=22,hos_roof_fix1
-multiloc=23,hos_roof_fix1
-multiloc=24,hos_roof_fix1
-multiloc=25,bankbooth_end_right
-multiloc=26,bankbooth_end_left
-multiloc=27,bankboothclosed_end_right
-multiloc=28,bankboothclosed_end_left
-multiloc=29,hos_roof_fix1
-multiloc=30,hos_roof_fix1
-multiloc=31,hos_roof_fix1
-multiloc=32,bankbooth_end_right
-multiloc=33,bankbooth_end_left
-multiloc=34,bankboothclosed_end_right
-multiloc=35,bankboothclosed_end_left
-multiloc=36,hos_roof_fix1
-multiloc=37,hos_roof_fix1
-multiloc=38,hos_roof_fix1
-multiloc=39,bankbooth_end_right
-multiloc=40,bankbooth_end_left
-multiloc=41,bankboothclosed_end_right
-multiloc=42,bankboothclosed_end_left
-multiloc=43,hos_roof_fix1
-multiloc=44,hos_roof_fix1
-multiloc=45,hos_roof_fix1
-multiloc=46,bankbooth_end_right
-multiloc=47,bankbooth_end_left
-multiloc=48,bankboothclosed_end_right
-multiloc=49,bankboothclosed_end_left
-multiloc=50,hos_roof_fix1
-multiloc=51,hos_roof_fix1
-multiloc=52,hos_roof_fix1
-multiloc=53,bankbooth_end_right
-multiloc=54,bankbooth_end_left
-multiloc=55,bankboothclosed_end_right
-multiloc=56,bankboothclosed_end_left
-multiloc=57,hos_roof_fix1
-multiloc=58,hos_roof_fix1
-multiloc=59,hos_roof_fix1
+multiloc=4,loc_8139
+multiloc=5,loc_8140
+multiloc=6,loc_8141
+multiloc=7,loc_8142
+multiloc=8,loc_8143
+multiloc=9,loc_8143
+multiloc=10,loc_8143
+multiloc=11,loc_8139
+multiloc=12,loc_8140
+multiloc=13,loc_8141
+multiloc=14,loc_8142
+multiloc=15,loc_8143
+multiloc=16,loc_8143
+multiloc=17,loc_8143
+multiloc=18,loc_8139
+multiloc=19,loc_8140
+multiloc=20,loc_8141
+multiloc=21,loc_8142
+multiloc=22,loc_8143
+multiloc=23,loc_8143
+multiloc=24,loc_8143
+multiloc=25,loc_8139
+multiloc=26,loc_8140
+multiloc=27,loc_8141
+multiloc=28,loc_8142
+multiloc=29,loc_8143
+multiloc=30,loc_8143
+multiloc=31,loc_8143
+multiloc=32,loc_8139
+multiloc=33,loc_8140
+multiloc=34,loc_8141
+multiloc=35,loc_8142
+multiloc=36,loc_8143
+multiloc=37,loc_8143
+multiloc=38,loc_8143
+multiloc=39,loc_8139
+multiloc=40,loc_8140
+multiloc=41,loc_8141
+multiloc=42,loc_8142
+multiloc=43,loc_8143
+multiloc=44,loc_8143
+multiloc=45,loc_8143
+multiloc=46,loc_8139
+multiloc=47,loc_8140
+multiloc=48,loc_8141
+multiloc=49,loc_8142
+multiloc=50,loc_8143
+multiloc=51,loc_8143
+multiloc=52,loc_8143
+multiloc=53,loc_8139
+multiloc=54,loc_8140
+multiloc=55,loc_8141
+multiloc=56,loc_8142
+multiloc=57,loc_8143
+multiloc=58,loc_8143
+multiloc=59,loc_8143
 multiloc=60,herb_patch_weeds_3
 multiloc=61,herb_patch_weeds_3
 multiloc=62,herb_patch_weeds_3
@@ -80141,48 +80141,48 @@ multiloc=64,herb_patch_weeds_3
 multiloc=65,herb_patch_weeds_3
 multiloc=66,herb_patch_weeds_3
 multiloc=67,herb_patch_weeds_3
-multiloc=68,bankbooth_end_right
-multiloc=69,bankbooth_end_left
-multiloc=70,bankboothclosed_end_right
-multiloc=71,bankboothclosed_end_left
-multiloc=72,hos_roof_fix1
-multiloc=73,hos_roof_fix1
-multiloc=74,hos_roof_fix1
-multiloc=75,bankbooth_end_right
-multiloc=76,bankbooth_end_left
-multiloc=77,bankboothclosed_end_right
-multiloc=78,bankboothclosed_end_left
-multiloc=79,hos_roof_fix1
-multiloc=80,hos_roof_fix1
-multiloc=81,hos_roof_fix1
-multiloc=82,bankbooth_end_right
-multiloc=83,bankbooth_end_left
-multiloc=84,bankboothclosed_end_right
-multiloc=85,bankboothclosed_end_left
-multiloc=86,hos_roof_fix1
-multiloc=87,hos_roof_fix1
-multiloc=88,hos_roof_fix1
-multiloc=89,bankbooth_end_right
-multiloc=90,bankbooth_end_left
-multiloc=91,bankboothclosed_end_right
-multiloc=92,bankboothclosed_end_left
-multiloc=93,hos_roof_fix1
-multiloc=94,hos_roof_fix1
-multiloc=95,hos_roof_fix1
-multiloc=96,bankbooth_end_right
-multiloc=97,bankbooth_end_left
-multiloc=98,bankboothclosed_end_right
-multiloc=99,bankboothclosed_end_left
-multiloc=100,hos_roof_fix1
-multiloc=101,hos_roof_fix1
-multiloc=102,hos_roof_fix1
-multiloc=103,bankbooth_end_right
-multiloc=104,bankbooth_end_left
-multiloc=105,bankboothclosed_end_right
-multiloc=106,bankboothclosed_end_left
-multiloc=107,hos_roof_fix1
-multiloc=108,hos_roof_fix1
-multiloc=109,hos_roof_fix1
+multiloc=68,loc_8139
+multiloc=69,loc_8140
+multiloc=70,loc_8141
+multiloc=71,loc_8142
+multiloc=72,loc_8143
+multiloc=73,loc_8143
+multiloc=74,loc_8143
+multiloc=75,loc_8139
+multiloc=76,loc_8140
+multiloc=77,loc_8141
+multiloc=78,loc_8142
+multiloc=79,loc_8143
+multiloc=80,loc_8143
+multiloc=81,loc_8143
+multiloc=82,loc_8139
+multiloc=83,loc_8140
+multiloc=84,loc_8141
+multiloc=85,loc_8142
+multiloc=86,loc_8143
+multiloc=87,loc_8143
+multiloc=88,loc_8143
+multiloc=89,loc_8139
+multiloc=90,loc_8140
+multiloc=91,loc_8141
+multiloc=92,loc_8142
+multiloc=93,loc_8143
+multiloc=94,loc_8143
+multiloc=95,loc_8143
+multiloc=96,loc_8139
+multiloc=97,loc_8140
+multiloc=98,loc_8141
+multiloc=99,loc_8142
+multiloc=100,loc_8143
+multiloc=101,loc_8143
+multiloc=102,loc_8143
+multiloc=103,loc_8139
+multiloc=104,loc_8140
+multiloc=105,loc_8141
+multiloc=106,loc_8142
+multiloc=107,loc_8143
+multiloc=108,loc_8143
+multiloc=109,loc_8143
 multiloc=128,herb_1_diseased
 multiloc=129,herb_2_diseased
 multiloc=130,herb_3_diseased
@@ -80320,62 +80320,62 @@ multiloc=0,herb_patch_weeds_3
 multiloc=1,herb_patch_weeds_2
 multiloc=2,herb_patch_weeds_1
 multiloc=3,herb_patch_weeded
-multiloc=4,bankbooth_end_right
-multiloc=5,bankbooth_end_left
-multiloc=6,bankboothclosed_end_right
-multiloc=7,bankboothclosed_end_left
-multiloc=8,hos_roof_fix1
-multiloc=9,hos_roof_fix1
-multiloc=10,hos_roof_fix1
-multiloc=11,bankbooth_end_right
-multiloc=12,bankbooth_end_left
-multiloc=13,bankboothclosed_end_right
-multiloc=14,bankboothclosed_end_left
-multiloc=15,hos_roof_fix1
-multiloc=16,hos_roof_fix1
-multiloc=17,hos_roof_fix1
-multiloc=18,bankbooth_end_right
-multiloc=19,bankbooth_end_left
-multiloc=20,bankboothclosed_end_right
-multiloc=21,bankboothclosed_end_left
-multiloc=22,hos_roof_fix1
-multiloc=23,hos_roof_fix1
-multiloc=24,hos_roof_fix1
-multiloc=25,bankbooth_end_right
-multiloc=26,bankbooth_end_left
-multiloc=27,bankboothclosed_end_right
-multiloc=28,bankboothclosed_end_left
-multiloc=29,hos_roof_fix1
-multiloc=30,hos_roof_fix1
-multiloc=31,hos_roof_fix1
-multiloc=32,bankbooth_end_right
-multiloc=33,bankbooth_end_left
-multiloc=34,bankboothclosed_end_right
-multiloc=35,bankboothclosed_end_left
-multiloc=36,hos_roof_fix1
-multiloc=37,hos_roof_fix1
-multiloc=38,hos_roof_fix1
-multiloc=39,bankbooth_end_right
-multiloc=40,bankbooth_end_left
-multiloc=41,bankboothclosed_end_right
-multiloc=42,bankboothclosed_end_left
-multiloc=43,hos_roof_fix1
-multiloc=44,hos_roof_fix1
-multiloc=45,hos_roof_fix1
-multiloc=46,bankbooth_end_right
-multiloc=47,bankbooth_end_left
-multiloc=48,bankboothclosed_end_right
-multiloc=49,bankboothclosed_end_left
-multiloc=50,hos_roof_fix1
-multiloc=51,hos_roof_fix1
-multiloc=52,hos_roof_fix1
-multiloc=53,bankbooth_end_right
-multiloc=54,bankbooth_end_left
-multiloc=55,bankboothclosed_end_right
-multiloc=56,bankboothclosed_end_left
-multiloc=57,hos_roof_fix1
-multiloc=58,hos_roof_fix1
-multiloc=59,hos_roof_fix1
+multiloc=4,loc_8139
+multiloc=5,loc_8140
+multiloc=6,loc_8141
+multiloc=7,loc_8142
+multiloc=8,loc_8143
+multiloc=9,loc_8143
+multiloc=10,loc_8143
+multiloc=11,loc_8139
+multiloc=12,loc_8140
+multiloc=13,loc_8141
+multiloc=14,loc_8142
+multiloc=15,loc_8143
+multiloc=16,loc_8143
+multiloc=17,loc_8143
+multiloc=18,loc_8139
+multiloc=19,loc_8140
+multiloc=20,loc_8141
+multiloc=21,loc_8142
+multiloc=22,loc_8143
+multiloc=23,loc_8143
+multiloc=24,loc_8143
+multiloc=25,loc_8139
+multiloc=26,loc_8140
+multiloc=27,loc_8141
+multiloc=28,loc_8142
+multiloc=29,loc_8143
+multiloc=30,loc_8143
+multiloc=31,loc_8143
+multiloc=32,loc_8139
+multiloc=33,loc_8140
+multiloc=34,loc_8141
+multiloc=35,loc_8142
+multiloc=36,loc_8143
+multiloc=37,loc_8143
+multiloc=38,loc_8143
+multiloc=39,loc_8139
+multiloc=40,loc_8140
+multiloc=41,loc_8141
+multiloc=42,loc_8142
+multiloc=43,loc_8143
+multiloc=44,loc_8143
+multiloc=45,loc_8143
+multiloc=46,loc_8139
+multiloc=47,loc_8140
+multiloc=48,loc_8141
+multiloc=49,loc_8142
+multiloc=50,loc_8143
+multiloc=51,loc_8143
+multiloc=52,loc_8143
+multiloc=53,loc_8139
+multiloc=54,loc_8140
+multiloc=55,loc_8141
+multiloc=56,loc_8142
+multiloc=57,loc_8143
+multiloc=58,loc_8143
+multiloc=59,loc_8143
 multiloc=60,herb_patch_weeds_3
 multiloc=61,herb_patch_weeds_3
 multiloc=62,herb_patch_weeds_3
@@ -80384,48 +80384,48 @@ multiloc=64,herb_patch_weeds_3
 multiloc=65,herb_patch_weeds_3
 multiloc=66,herb_patch_weeds_3
 multiloc=67,herb_patch_weeds_3
-multiloc=68,bankbooth_end_right
-multiloc=69,bankbooth_end_left
-multiloc=70,bankboothclosed_end_right
-multiloc=71,bankboothclosed_end_left
-multiloc=72,hos_roof_fix1
-multiloc=73,hos_roof_fix1
-multiloc=74,hos_roof_fix1
-multiloc=75,bankbooth_end_right
-multiloc=76,bankbooth_end_left
-multiloc=77,bankboothclosed_end_right
-multiloc=78,bankboothclosed_end_left
-multiloc=79,hos_roof_fix1
-multiloc=80,hos_roof_fix1
-multiloc=81,hos_roof_fix1
-multiloc=82,bankbooth_end_right
-multiloc=83,bankbooth_end_left
-multiloc=84,bankboothclosed_end_right
-multiloc=85,bankboothclosed_end_left
-multiloc=86,hos_roof_fix1
-multiloc=87,hos_roof_fix1
-multiloc=88,hos_roof_fix1
-multiloc=89,bankbooth_end_right
-multiloc=90,bankbooth_end_left
-multiloc=91,bankboothclosed_end_right
-multiloc=92,bankboothclosed_end_left
-multiloc=93,hos_roof_fix1
-multiloc=94,hos_roof_fix1
-multiloc=95,hos_roof_fix1
-multiloc=96,bankbooth_end_right
-multiloc=97,bankbooth_end_left
-multiloc=98,bankboothclosed_end_right
-multiloc=99,bankboothclosed_end_left
-multiloc=100,hos_roof_fix1
-multiloc=101,hos_roof_fix1
-multiloc=102,hos_roof_fix1
-multiloc=103,bankbooth_end_right
-multiloc=104,bankbooth_end_left
-multiloc=105,bankboothclosed_end_right
-multiloc=106,bankboothclosed_end_left
-multiloc=107,hos_roof_fix1
-multiloc=108,hos_roof_fix1
-multiloc=109,hos_roof_fix1
+multiloc=68,loc_8139
+multiloc=69,loc_8140
+multiloc=70,loc_8141
+multiloc=71,loc_8142
+multiloc=72,loc_8143
+multiloc=73,loc_8143
+multiloc=74,loc_8143
+multiloc=75,loc_8139
+multiloc=76,loc_8140
+multiloc=77,loc_8141
+multiloc=78,loc_8142
+multiloc=79,loc_8143
+multiloc=80,loc_8143
+multiloc=81,loc_8143
+multiloc=82,loc_8139
+multiloc=83,loc_8140
+multiloc=84,loc_8141
+multiloc=85,loc_8142
+multiloc=86,loc_8143
+multiloc=87,loc_8143
+multiloc=88,loc_8143
+multiloc=89,loc_8139
+multiloc=90,loc_8140
+multiloc=91,loc_8141
+multiloc=92,loc_8142
+multiloc=93,loc_8143
+multiloc=94,loc_8143
+multiloc=95,loc_8143
+multiloc=96,loc_8139
+multiloc=97,loc_8140
+multiloc=98,loc_8141
+multiloc=99,loc_8142
+multiloc=100,loc_8143
+multiloc=101,loc_8143
+multiloc=102,loc_8143
+multiloc=103,loc_8139
+multiloc=104,loc_8140
+multiloc=105,loc_8141
+multiloc=106,loc_8142
+multiloc=107,loc_8143
+multiloc=108,loc_8143
+multiloc=109,loc_8143
 multiloc=128,herb_1_diseased
 multiloc=129,herb_2_diseased
 multiloc=130,herb_3_diseased
@@ -80563,62 +80563,62 @@ multiloc=0,herb_patch_weeds_3_mory
 multiloc=1,herb_patch_weeds_2_mory
 multiloc=2,herb_patch_weeds_1_mory
 multiloc=3,herb_patch_weeded
-multiloc=4,bankbooth_end_right
-multiloc=5,bankbooth_end_left
-multiloc=6,bankboothclosed_end_right
-multiloc=7,bankboothclosed_end_left
-multiloc=8,hos_roof_fix1
-multiloc=9,hos_roof_fix1
-multiloc=10,hos_roof_fix1
-multiloc=11,bankbooth_end_right
-multiloc=12,bankbooth_end_left
-multiloc=13,bankboothclosed_end_right
-multiloc=14,bankboothclosed_end_left
-multiloc=15,hos_roof_fix1
-multiloc=16,hos_roof_fix1
-multiloc=17,hos_roof_fix1
-multiloc=18,bankbooth_end_right
-multiloc=19,bankbooth_end_left
-multiloc=20,bankboothclosed_end_right
-multiloc=21,bankboothclosed_end_left
-multiloc=22,hos_roof_fix1
-multiloc=23,hos_roof_fix1
-multiloc=24,hos_roof_fix1
-multiloc=25,bankbooth_end_right
-multiloc=26,bankbooth_end_left
-multiloc=27,bankboothclosed_end_right
-multiloc=28,bankboothclosed_end_left
-multiloc=29,hos_roof_fix1
-multiloc=30,hos_roof_fix1
-multiloc=31,hos_roof_fix1
-multiloc=32,bankbooth_end_right
-multiloc=33,bankbooth_end_left
-multiloc=34,bankboothclosed_end_right
-multiloc=35,bankboothclosed_end_left
-multiloc=36,hos_roof_fix1
-multiloc=37,hos_roof_fix1
-multiloc=38,hos_roof_fix1
-multiloc=39,bankbooth_end_right
-multiloc=40,bankbooth_end_left
-multiloc=41,bankboothclosed_end_right
-multiloc=42,bankboothclosed_end_left
-multiloc=43,hos_roof_fix1
-multiloc=44,hos_roof_fix1
-multiloc=45,hos_roof_fix1
-multiloc=46,bankbooth_end_right
-multiloc=47,bankbooth_end_left
-multiloc=48,bankboothclosed_end_right
-multiloc=49,bankboothclosed_end_left
-multiloc=50,hos_roof_fix1
-multiloc=51,hos_roof_fix1
-multiloc=52,hos_roof_fix1
-multiloc=53,bankbooth_end_right
-multiloc=54,bankbooth_end_left
-multiloc=55,bankboothclosed_end_right
-multiloc=56,bankboothclosed_end_left
-multiloc=57,hos_roof_fix1
-multiloc=58,hos_roof_fix1
-multiloc=59,hos_roof_fix1
+multiloc=4,loc_8139
+multiloc=5,loc_8140
+multiloc=6,loc_8141
+multiloc=7,loc_8142
+multiloc=8,loc_8143
+multiloc=9,loc_8143
+multiloc=10,loc_8143
+multiloc=11,loc_8139
+multiloc=12,loc_8140
+multiloc=13,loc_8141
+multiloc=14,loc_8142
+multiloc=15,loc_8143
+multiloc=16,loc_8143
+multiloc=17,loc_8143
+multiloc=18,loc_8139
+multiloc=19,loc_8140
+multiloc=20,loc_8141
+multiloc=21,loc_8142
+multiloc=22,loc_8143
+multiloc=23,loc_8143
+multiloc=24,loc_8143
+multiloc=25,loc_8139
+multiloc=26,loc_8140
+multiloc=27,loc_8141
+multiloc=28,loc_8142
+multiloc=29,loc_8143
+multiloc=30,loc_8143
+multiloc=31,loc_8143
+multiloc=32,loc_8139
+multiloc=33,loc_8140
+multiloc=34,loc_8141
+multiloc=35,loc_8142
+multiloc=36,loc_8143
+multiloc=37,loc_8143
+multiloc=38,loc_8143
+multiloc=39,loc_8139
+multiloc=40,loc_8140
+multiloc=41,loc_8141
+multiloc=42,loc_8142
+multiloc=43,loc_8143
+multiloc=44,loc_8143
+multiloc=45,loc_8143
+multiloc=46,loc_8139
+multiloc=47,loc_8140
+multiloc=48,loc_8141
+multiloc=49,loc_8142
+multiloc=50,loc_8143
+multiloc=51,loc_8143
+multiloc=52,loc_8143
+multiloc=53,loc_8139
+multiloc=54,loc_8140
+multiloc=55,loc_8141
+multiloc=56,loc_8142
+multiloc=57,loc_8143
+multiloc=58,loc_8143
+multiloc=59,loc_8143
 multiloc=60,herb_patch_weeds_3_mory
 multiloc=61,herb_patch_weeds_3_mory
 multiloc=62,herb_patch_weeds_3_mory
@@ -80627,48 +80627,48 @@ multiloc=64,herb_patch_weeds_3_mory
 multiloc=65,herb_patch_weeds_3_mory
 multiloc=66,herb_patch_weeds_3_mory
 multiloc=67,herb_patch_weeds_3_mory
-multiloc=68,bankbooth_end_right
-multiloc=69,bankbooth_end_left
-multiloc=70,bankboothclosed_end_right
-multiloc=71,bankboothclosed_end_left
-multiloc=72,hos_roof_fix1
-multiloc=73,hos_roof_fix1
-multiloc=74,hos_roof_fix1
-multiloc=75,bankbooth_end_right
-multiloc=76,bankbooth_end_left
-multiloc=77,bankboothclosed_end_right
-multiloc=78,bankboothclosed_end_left
-multiloc=79,hos_roof_fix1
-multiloc=80,hos_roof_fix1
-multiloc=81,hos_roof_fix1
-multiloc=82,bankbooth_end_right
-multiloc=83,bankbooth_end_left
-multiloc=84,bankboothclosed_end_right
-multiloc=85,bankboothclosed_end_left
-multiloc=86,hos_roof_fix1
-multiloc=87,hos_roof_fix1
-multiloc=88,hos_roof_fix1
-multiloc=89,bankbooth_end_right
-multiloc=90,bankbooth_end_left
-multiloc=91,bankboothclosed_end_right
-multiloc=92,bankboothclosed_end_left
-multiloc=93,hos_roof_fix1
-multiloc=94,hos_roof_fix1
-multiloc=95,hos_roof_fix1
-multiloc=96,bankbooth_end_right
-multiloc=97,bankbooth_end_left
-multiloc=98,bankboothclosed_end_right
-multiloc=99,bankboothclosed_end_left
-multiloc=100,hos_roof_fix1
-multiloc=101,hos_roof_fix1
-multiloc=102,hos_roof_fix1
-multiloc=103,bankbooth_end_right
-multiloc=104,bankbooth_end_left
-multiloc=105,bankboothclosed_end_right
-multiloc=106,bankboothclosed_end_left
-multiloc=107,hos_roof_fix1
-multiloc=108,hos_roof_fix1
-multiloc=109,hos_roof_fix1
+multiloc=68,loc_8139
+multiloc=69,loc_8140
+multiloc=70,loc_8141
+multiloc=71,loc_8142
+multiloc=72,loc_8143
+multiloc=73,loc_8143
+multiloc=74,loc_8143
+multiloc=75,loc_8139
+multiloc=76,loc_8140
+multiloc=77,loc_8141
+multiloc=78,loc_8142
+multiloc=79,loc_8143
+multiloc=80,loc_8143
+multiloc=81,loc_8143
+multiloc=82,loc_8139
+multiloc=83,loc_8140
+multiloc=84,loc_8141
+multiloc=85,loc_8142
+multiloc=86,loc_8143
+multiloc=87,loc_8143
+multiloc=88,loc_8143
+multiloc=89,loc_8139
+multiloc=90,loc_8140
+multiloc=91,loc_8141
+multiloc=92,loc_8142
+multiloc=93,loc_8143
+multiloc=94,loc_8143
+multiloc=95,loc_8143
+multiloc=96,loc_8139
+multiloc=97,loc_8140
+multiloc=98,loc_8141
+multiloc=99,loc_8142
+multiloc=100,loc_8143
+multiloc=101,loc_8143
+multiloc=102,loc_8143
+multiloc=103,loc_8139
+multiloc=104,loc_8140
+multiloc=105,loc_8141
+multiloc=106,loc_8142
+multiloc=107,loc_8143
+multiloc=108,loc_8143
+multiloc=109,loc_8143
 multiloc=128,herb_1_diseased
 multiloc=129,herb_2_diseased
 multiloc=130,herb_3_diseased
@@ -100568,7 +100568,7 @@ recol4s=11456
 recol4d=3266
 active=no
 
-[newbiegateclosedl2]
+[loc_9470]
 name=Staircase
 desc=I can climb these stairs.
 unpacked_1=model_9506,_8
@@ -100579,7 +100579,7 @@ forceapproach=south
 sharelight=yes
 mapscene=7
 
-[willow_tree2or3or4_stump]
+[loc_9471]
 name=Staircase
 desc=They go down.
 unpacked_1=model_9507,_8
@@ -100590,7 +100590,7 @@ forceapproach=north
 sharelight=yes
 mapscene=7
 
-[wildoutlever_default]
+[loc_9472]
 name=Trapdoor
 desc=What could be down here?
 unpacked_1=model_9503,_8
@@ -110400,7 +110400,7 @@ ambient=35
 hillskew=yes
 active=no
 
-[cata_hole_hidden]
+[loc_10354]
 unpacked_1=model_4401,_0
 recol1s=21140
 recol1d=23214
@@ -110412,7 +110412,7 @@ hillskew=yes
 active=no
 ambient=20
 
-[bankbooth]
+[loc_10355]
 unpacked_1=model_4402,_0
 recol1s=21140
 recol1d=23214
@@ -110424,7 +110424,7 @@ hillskew=yes
 active=no
 ambient=20
 
-[bankbooth_multi]
+[loc_10356]
 unpacked_1=model_4403,_0
 recol1s=21140
 recol1d=23214
@@ -110436,7 +110436,7 @@ hillskew=yes
 active=no
 ambient=20
 
-[bankbooth_deadman]
+[loc_10357]
 unpacked_1=model_4404,_0
 recol1s=21140
 recol1d=23214
@@ -116442,10 +116442,10 @@ length=2
 active=no
 offsety=-512
 
-[copperrock1]
+[loc_10943]
 unpacked_1=model_10826,_q
 
-[cw_bank_boxes_3]
+[loc_10944]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -116460,7 +116460,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[cw_bank_boxes_4]
+[loc_10945]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -116475,7 +116475,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[piscarilius_fisherman]
+[loc_10946]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -116488,7 +116488,7 @@ op2=Prospect
 op3=hidden
 hillskew=yes
 
-[grapevine_empty_w]
+[loc_10947]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -116501,7 +116501,7 @@ op2=Prospect
 op3=hidden
 hillskew=yes
 
-[grapevine_empty_e]
+[loc_10948]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -116516,7 +116516,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[grapevine_clickzone_empty]
+[loc_10949]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -119101,7 +119101,7 @@ hillskew=yes
 active=no
 forcedecor=yes
 
-[copperrock2]
+[loc_11161]
 unpacked_1=model_1032,_0
 recol1s=13505
 recol1d=17895
@@ -119113,7 +119113,7 @@ ambient=35
 hillskew=yes
 active=no
 
-[grapevine_treated_w]
+[loc_11162]
 name=Loader
 desc=A big grinding thing.
 unpacked_1=model_11023,_8
@@ -119121,7 +119121,7 @@ width=2
 forceapproach=east
 sharelight=yes
 
-[grapevine_treated_e]
+[loc_11163]
 name=Bone grinder
 desc=A big grinding thing.
 unpacked_1=model_11022,_8
@@ -119131,7 +119131,7 @@ op2=Status
 forceapproach=east
 sharelight=yes
 
-[grapevine_clickzone_treated]
+[loc_11164]
 name=Bin
 desc=A big grinding thing.
 unpacked_1=model_11021,_8
@@ -119140,7 +119140,7 @@ op1=Empty
 forceapproach=east
 sharelight=yes
 
-[grapevine_seedling]
+[loc_11165]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_9527,_8
@@ -119153,7 +119153,7 @@ op1=Mine
 op2=Prospect
 op3=hidden
 
-[grapevine_clickzone_seedling]
+[loc_11166]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119169,7 +119169,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_growing_1]
+[loc_11167]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119185,7 +119185,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_clickzone_growing_1]
+[loc_11168]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119201,7 +119201,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_growing_2]
+[loc_11169]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119217,7 +119217,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_clickzone_growing_2]
+[loc_11170]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -119233,7 +119233,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_growing_3]
+[loc_11171]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119249,7 +119249,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_clickzone_growing_3]
+[loc_11172]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119265,7 +119265,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[grapevine_growing_4]
+[loc_11173]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -119281,7 +119281,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[caverocks1]
+[loc_11174]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119297,7 +119297,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[caverocks2]
+[loc_11175]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119313,7 +119313,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_floor_detail_1]
+[loc_11176]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -119329,7 +119329,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_floor_detail_2]
+[loc_11177]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119345,7 +119345,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_step_1]
+[loc_11178]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119361,7 +119361,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_step_2]
+[loc_11179]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -119377,7 +119377,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_step_3]
+[loc_11180]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119393,7 +119393,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[basalt_step_4]
+[loc_11181]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119409,7 +119409,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[moss_covered_rock_1]
+[loc_11182]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -119425,7 +119425,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[moss_covered_rock_2]
+[loc_11183]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -119440,7 +119440,7 @@ mapscene=12
 blockrange=no
 ambient=10
 
-[rockcolumn1]
+[loc_11184]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -119455,7 +119455,7 @@ mapscene=12
 blockrange=no
 ambient=10
 
-[rockcolumn2]
+[loc_11185]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3195,_8
@@ -119470,7 +119470,7 @@ mapscene=12
 blockrange=no
 ambient=10
 
-[rockcolumn3]
+[loc_11186]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -119485,7 +119485,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[stalagtite_small]
+[loc_11187]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -119500,7 +119500,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[stalagmite_twin]
+[loc_11188]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3195,_8
@@ -119515,7 +119515,7 @@ mapscene=12
 blockrange=no
 ambient=10
 
-[stalagtite_twin]
+[loc_11189]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -119530,7 +119530,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[rockslide1]
+[loc_11190]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -119545,7 +119545,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[rockslide2]
+[loc_11191]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3195,_8
@@ -119560,7 +119560,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[rockslide3]
+[loc_11192]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119576,7 +119576,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide4]
+[loc_11193]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -119592,7 +119592,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide5]
+[loc_11194]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -119608,7 +119608,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide6]
+[loc_11195]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -121461,7 +121461,7 @@ active=yes
 multivar=slayer_killerwatt_portal_check
 multiloc=1,draynor_killerwatt_portal
 
-[tinrock1]
+[loc_11360]
 name=Pie stall
 desc=This stall smells great.
 unpacked_1=model_1421,_8
@@ -121472,28 +121472,28 @@ active=yes
 contrast=10
 ambient=10
 
-[tinrock2]
+[loc_11361]
 name=Raw chompy bird
 desc=It's a raw chompybird on a spit.
 unpacked_1=model_11291,_8
 unpacked_2=model_11292,_8
 anim=spit_anim
 
-[clayrock1]
+[loc_11362]
 name=Raw Rabbit
 desc=It's a raw Rabbit on a spit.
 unpacked_1=model_11293,_8
 unpacked_2=model_11292,_8
 anim=spit_anim
 
-[clayrock2]
+[loc_11363]
 name=Iron spit
 desc=It's an iron spit.
 unpacked_1=model_11294,_8
 unpacked_2=model_11292,_8
 anim=spit_anim
 
-[ironrock1]
+[loc_11364]
 name=Decorative Pillar
 desc=A stone pillar that looks like Bob the Cat.
 unpacked_1=model_11314,_8
@@ -121501,7 +121501,7 @@ unpacked_2=model_11317,_8
 unpacked_3=model_11019,_8
 anim=candle_effect
 
-[ironrock2]
+[loc_11365]
 name=Decorative Pillar
 desc=A stone pillar that looks like Zamorak.
 unpacked_1=model_11324,_8
@@ -121509,7 +121509,7 @@ unpacked_2=model_11317,_8
 unpacked_3=model_11019,_8
 anim=candle_effect
 
-[coalrock1]
+[loc_11366]
 name=Decorative Pillar
 desc=A stone pillar that looks like Guthix.
 unpacked_1=model_11315,_8
@@ -121517,7 +121517,7 @@ unpacked_2=model_11317,_8
 unpacked_3=model_11019,_8
 anim=candle_effect
 
-[coalrock2]
+[loc_11367]
 name=Decorative Pillar
 desc=A stone pillar that looks like Saradomin.
 unpacked_1=model_11316,_8
@@ -121525,98 +121525,98 @@ unpacked_2=model_11317,_8
 unpacked_3=model_11019,_8
 anim=candle_effect
 
-[silverrock1]
+[loc_11368]
 anim=candle_effect
-multivar=runefest_2014_emote
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1771
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[silverrock2]
+[loc_11369]
 anim=candle_effect
-multivar=runefest_2014_emote_selected
-multiloc=0,rocks1
-multiloc=1,ironrock2
-multiloc=2,rocks2
+multivar=varbit_1772
+multiloc=0,loc_11390
+multiloc=1,loc_11365
+multiloc=2,loc_11391
 
-[goldrock1]
+[loc_11370]
 anim=candle_effect
-multivar=magic_carpet_hidecarpets
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1773
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[goldrock2]
+[loc_11371]
 anim=candle_effect
-multivar=ironman_downgradedate
-multiloc=0,enakh_granite_rocks
-multiloc=1,coalrock1
-multiloc=2,amethystrock1
+multivar=varbit_1774
+multiloc=0,loc_11387
+multiloc=1,loc_11366
+multiloc=2,loc_11388
 
-[mithrilrock1]
+[loc_11372]
 anim=candle_effect
-multivar=ironman_downgradetype
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1775
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[mithrilrock2]
+[loc_11373]
 anim=candle_effect
-multivar=ironman_downgradepermitted
-multiloc=0,limestone_rock3
-multiloc=1,coalrock2
-multiloc=2,limestone_rock_noore
+multivar=varbit_1776
+multiloc=0,loc_11384
+multiloc=1,loc_11367
+multiloc=2,loc_11385
 
-[adamantiterock1]
+[loc_11374]
 anim=candle_effect
-multivar=ironman
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1777
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[adamantiterock2]
+[loc_11375]
 anim=candle_effect
-multivar=hw07_garden_route_out
-multiloc=0,enakh_granite_rocks
-multiloc=1,coalrock1
-multiloc=2,amethystrock1
+multivar=varbit_1778
+multiloc=0,loc_11387
+multiloc=1,loc_11366
+multiloc=2,loc_11388
 
-[runiterock1]
+[loc_11376]
 anim=candle_effect
-multivar=hw07_lounge_read_book
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1779
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[runiterock2]
+[loc_11377]
 anim=candle_effect
-multivar=hw07_garden_skull_multi
-multiloc=0,rocks1
-multiloc=1,ironrock2
-multiloc=2,rocks2
+multivar=varbit_1780
+multiloc=0,loc_11390
+multiloc=1,loc_11365
+multiloc=2,loc_11391
 
-[blurite_rock_1]
+[loc_11378]
 anim=candle_effect
-multivar=hw07_workout_slideused
-multiloc=0,amethystrock_empty
-multiloc=1,ironrock1
-multiloc=2,corscurs_bankbooth_multi
+multivar=varbit_1781
+multiloc=0,loc_11393
+multiloc=1,loc_11364
+multiloc=2,loc_11394
 
-[blurite_rock_2]
+[loc_11379]
 name=Large door
 desc=A large church door.
 unpacked_1=model_639,_1
 op1=Open
 raiseobject=no
 
-[gemrock1]
+[loc_11380]
 name=Large door
 desc=A large church door.
 unpacked_1=model_639,_1
 op1=Close
 raiseobject=no
 
-[gemrock]
+[loc_11381]
 name=Large door
 desc=A large church door.
 unpacked_1=model_639,_1
@@ -121624,7 +121624,7 @@ op1=Open
 mirror=yes
 raiseobject=no
 
-[limestone_rock1]
+[loc_11382]
 name=Large door
 desc=A large church door.
 unpacked_1=model_639,_1
@@ -121632,121 +121632,121 @@ op1=Close
 mirror=yes
 raiseobject=no
 
-[limestone_rock2]
+[loc_11383]
 name=Decorative Pillar
 desc=A stone pillar that looks like Saradomin.
 unpacked_1=model_11316,_8
 
-[limestone_rock3]
+[loc_11384]
 name=Decorative Pillar
 desc=A stone pillar that looks like Saradomin.
 unpacked_1=model_11316,_8
 unpacked_2=model_11317,_8
 
-[limestone_rock_noore]
+[loc_11385]
 name=Decorative Pillar
 desc=A stone pillar that looks like Saradomin.
 unpacked_1=model_11316,_8
 unpacked_2=model_11322,_8
 
-[enakh_sandstone_rocks]
+[loc_11386]
 name=Decorative Pillar
 desc=A stone pillar that looks like Guthix.
 unpacked_1=model_11315,_8
 
-[enakh_granite_rocks]
+[loc_11387]
 name=Decorative Pillar
 desc=A stone pillar that looks like Guthix.
 unpacked_1=model_11315,_8
 unpacked_2=model_11317,_8
 
-[amethystrock1]
+[loc_11388]
 name=Decorative Pillar
 desc=A stone pillar that looks like Guthix.
 unpacked_1=model_11315,_8
 unpacked_2=model_11322,_8
 
-[amethystrock2]
+[loc_11389]
 name=Decorative Pillar
 desc=A stone pillar that looks like Zamorak.
 unpacked_1=model_11324,_8
 
-[rocks1]
+[loc_11390]
 name=Decorative Pillar
 desc=A stone pillar that looks like Zamorak.
 unpacked_1=model_11324,_8
 unpacked_2=model_11317,_8
 
-[rocks2]
+[loc_11391]
 name=Decorative Pillar
 desc=A stone pillar that looks like Zamorak.
 unpacked_1=model_11324,_8
 unpacked_2=model_11322,_8
 
-[rocks3]
+[loc_11392]
 name=Decorative Pillar
 desc=A stone pillar that looks like Bob the Cat.
 unpacked_1=model_11314,_8
 
-[amethystrock_empty]
+[loc_11393]
 name=Decorative Pillar
 desc=A stone pillar that looks like Bob the Cat.
 unpacked_1=model_11314,_8
 unpacked_2=model_11317,_8
 
-[corscurs_bankbooth_multi]
+[loc_11394]
 name=Decorative Pillar
 desc=A stone pillar that looks like Bob the Cat.
 unpacked_1=model_11314,_8
 unpacked_2=model_11322,_8
 
-[rooftops_tightrope_fordiagonal_3]
+[loc_11395]
 name=Pillar candle.
 desc=A candle in a holder.
 unpacked_1=model_11317,_8
 
-[rooftops_tightrope_fordiagonal_4]
+[loc_11396]
 name=Melted candle.
 desc=A melted candle.
 unpacked_1=model_11322,_8
 
-[rooftops_tightrope_fordiagonal_6]
+[loc-11397]
 name=Pillar candle flame.
 desc=A candle flame.
 unpacked_1=model_11019,_8
 anim=candle_effect
 
-[dream_plinth]
+[loc_11398]
 name=Interface surround.
 desc=Interface surround.
 unpacked_1=model_11312,_8
 
-[dream_cave_wall_entrance]
+[loc_11399]
 name=Interface button up.
 desc=Interface button up.
 unpacked_1=model_11311,_8
 
-[bigweb_slashable_shape1]
+[loc_11400]
 name=Interface button down.
 desc=Interface button down.
 unpacked_1=model_11307,_8
 
-[bigweb_slashed_shape1]
+[loc_11401]
 name=Interface button left.
 desc=Interface button left.
 unpacked_1=model_11309,_8
 
-[rooftops_arrowsign]
+[loc_11402]
 name=Interface button right.
 desc=Interface button right.
 unpacked_1=model_11310,_8
 
-[ikov_luciendoor_open]
+[loc_11403]
 name=Interface button ignite.
 desc=Interface button ignite.
 unpacked_1=model_11308,_8
 
-[rooftops_draynor_wallclimb]
+[loc_11404]
 name=Fire
 desc=Hot!
 unpacked_1=model_2260,_8
@@ -121766,7 +121766,7 @@ blockrange=no
 ambient=75
 contrast=75
 
-[rooftops_draynor_tightrope_1]
+[loc_11405]
 name=Fire
 desc=Hot!
 unpacked_1=model_2260,_8
@@ -121786,7 +121786,7 @@ blockrange=no
 ambient=75
 contrast=75
 
-[rooftops_draynor_tightrope_2]
+[loc_11406]
 name=Fire
 desc=Hot!
 unpacked_1=model_2260,_8
@@ -121913,7 +121913,7 @@ unpacked_1=model_11436,_q
 active=yes
 op1=Open
 
-[swamp_moss_covered_rock_1]
+[loc_11424]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -121929,7 +121929,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[swamp_moss_covered_rock_2]
+[loc_11425]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -121945,7 +121945,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_grey1]
+[loc_11426]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -121961,7 +121961,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_grey2]
+[loc_11427]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -121977,7 +121977,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_grey3]
+[loc_11428]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -121993,7 +121993,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rooftops_draynor_tightrope_end]
+[loc_11429]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -122009,7 +122009,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rooftops_draynor_wallcrossing]
+[loc_11430]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -122025,7 +122025,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_grey4]
+[loc_11431]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -122041,7 +122041,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey1]
+[loc_11432]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -122057,7 +122057,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey2]
+[loc_11433]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -122073,7 +122073,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey3]
+[loc_11434]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -122089,7 +122089,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey4]
+[loc_11435]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -122105,7 +122105,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey5]
+[loc_11436]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -122121,7 +122121,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[rockslide_lightgrey6]
+[loc_11437]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -122137,7 +122137,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[dugupsmallrocks_lightgrey1]
+[loc_11438]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -122153,7 +122153,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[dugupsmallrocks_lightgrey2]
+[loc_11439]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -122169,7 +122169,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[dugupsmallrocks_lightgrey3]
+[loc_11440]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -122185,7 +122185,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[volcano_entrance]
+[loc_11441]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -122201,7 +122201,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[greatrunestone]
+[loc_11442]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11025,_8
@@ -122217,7 +122217,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[greatrunestone_mid]
+[loc_11443]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11026,_8
@@ -122233,7 +122233,7 @@ mapscene=12
 anim=gas
 blockrange=no
 
-[greatrunestone_uppermid]
+[loc_11444]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_11027,_8
@@ -123639,7 +123639,7 @@ width=2
 ambient=12
 contrast=10
 
-[greatrunestone_top]
+[loc_11552]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -123654,7 +123654,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[greatrunestone_top2]
+[loc_11553]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -123669,7 +123669,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[greatrunestone_decking]
+[loc_11554]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3195,_8
@@ -123684,7 +123684,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[greatrunestone_decking_2]
+[loc_11555]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3184,_8
@@ -123699,7 +123699,7 @@ mapscene=24
 blockrange=no
 ambient=10
 
-[greatrunestone_decking_5]
+[loc_11556]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3183,_8
@@ -123714,7 +123714,7 @@ mapscene=25
 blockrange=no
 ambient=10
 
-[greatrunestone_decking_6]
+[loc_11557]
 name=Rocks
 desc=A rocky outcrop.
 unpacked_1=model_3195,_8

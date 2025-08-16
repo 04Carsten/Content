@@ -8853,57 +8853,57 @@ basevar=ogre_area_extra
 startbit=0
 endbit=7
 
-[runefest_2014_emote]
+[varbit_1771]
 basevar=varp_666
 startbit=1
 endbit=2
 
-[runefest_2014_emote_selected]
+[varbit_1772]
 basevar=varp_666
 startbit=3
 endbit=4
 
-[magic_carpet_hidecarpets]
+[varbit_1773]
 basevar=varp_666
 startbit=5
 endbit=6
 
-[ironman_downgradedate]
+[varbit_1774]
 basevar=varp_666
 startbit=7
 endbit=8
 
-[ironman_downgradetype]
+[varbit_1775]
 basevar=varp_666
 startbit=9
 endbit=10
 
-[ironman_downgradepermitted]
+[varbit_1776]
 basevar=varp_666
 startbit=11
 endbit=12
 
-[ironman]
+[varbit_1777]
 basevar=varp_666
 startbit=13
 endbit=14
 
-[hw07_garden_route_out]
+[varbit_1778]
 basevar=varp_666
 startbit=15
 endbit=16
 
-[hw07_lounge_read_book]
+[varbit_1779]
 basevar=varp_666
 startbit=17
 endbit=18
 
-[hw07_garden_skull_multi]
+[varbit_1780]
 basevar=varp_666
 startbit=19
 endbit=20
 
-[hw07_workout_slideused]
+[varbit_1781]
 basevar=varp_666
 startbit=21
 endbit=22
