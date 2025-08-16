@@ -115486,7 +115486,7 @@ contrast=100
 [loc_10821]
 active=yes
 length=2
-multivar=macro_transmitted
+multivar=varbit_1547
 multiloc=0,loc_10820
 multiloc=1,loc_10820
 multiloc=2,loc_10820
@@ -115494,14 +115494,14 @@ multiloc=2,loc_10820
 [loc_10822]
 active=yes
 length=2
-multivar=macro_transmitted
+multivar=varbit_1547
 multiloc=0,loc_10820
 multiloc=1,loc_10820
 
 [loc_10823]
 active=yes
 length=2
-multivar=macro_transmitted
+multivar=varbit_1547
 multiloc=0,loc_10820
 
 [draynor_fireplace]

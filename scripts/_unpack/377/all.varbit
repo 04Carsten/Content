@@ -118,32 +118,32 @@ basevar=varp_350
 startbit=11
 endbit=11
 
-[stamina_duration]
+[varbit_24]
 basevar=varp_350
 startbit=12
 endbit=12
 
-[stamina_active]
+[varbit_25]
 basevar=varp_350
 startbit=13
 endbit=13
 
-[game_filter]
+[varbit_26]
 basevar=varp_350
 startbit=14
 endbit=14
 
-[raids_itemloss_warning]
+[varbit_27]
 basevar=varp_350
 startbit=15
 endbit=15
 
-[clan_leader]
+[varbit_28]
 basevar=varp_350
 startbit=16
 endbit=16
 
-[rune_pouch_type_1]
+[varbit_29]
 basevar=varp_350
 startbit=17
 endbit=17
@@ -163,7 +163,7 @@ basevar=varp_350
 startbit=20
 endbit=20
 
-[dorgesh_light_bulb_00]
+[varbit_33]
 basevar=varp_350
 startbit=21
 endbit=21
@@ -353,7 +353,7 @@ basevar=varp_357
 startbit=16
 endbit=31
 
-[settings_minimenu_scrollbar_toggle]
+[varbit_71]
 basevar=misc_varbit_1
 startbit=0
 endbit=17
@@ -373,7 +373,7 @@ basevar=misc_varbit_2
 startbit=0
 endbit=26
 
-[settings_warning_confirmation_charter_ships]
+[varbit_75]
 basevar=misc_varbit_2
 startbit=28
 endbit=28
@@ -488,7 +488,7 @@ basevar=misc_varbit_3
 startbit=28
 endbit=28
 
-[settings_warning_confirmation_farming_protection]
+[varbit_98]
 basevar=misc_varbit_3
 startbit=29
 endbit=29
@@ -1018,7 +1018,7 @@ basevar=fenk_flags
 startbit=23
 endbit=23
 
-[pet_insurance_abyssalsirepet]
+[varbit_204]
 basevar=ahoy_varbits_1
 startbit=0
 endbit=5
@@ -1178,7 +1178,7 @@ basevar=marketthief
 startbit=14
 endbit=15
 
-[bounty_teleport_warning]
+[varbit_236]
 basevar=onesmallfavourmulti
 startbit=1
 endbit=1
@@ -1198,22 +1198,22 @@ basevar=onesmallfavourmulti
 startbit=4
 endbit=4
 
-[slayer_unlock_fossilwyvernblock]
+[varbit_240]
 basevar=onesmallfavourmulti
 startbit=5
 endbit=5
 
-[fossil_taskrewards_camp]
+[varbit_241]
 basevar=onesmallfavourmulti
 startbit=6
 endbit=6
 
-[fossil_driftnet_unlimitedaccess]
+[varbit_242]
 basevar=onesmallfavourmulti
 startbit=7
 endbit=7
 
-[fossil_driftnet_store]
+[varbit_243]
 basevar=onesmallfavourmulti
 startbit=8
 endbit=8
@@ -1223,42 +1223,42 @@ basevar=onesmallfavourmulti
 startbit=1
 endbit=8
 
-[fossil_activity_driftnet]
+[varbit_245]
 basevar=onesmallfavourmulti
 startbit=9
 endbit=9
 
-[fossil_activity_seaweed]
+[varbit_246]
 basevar=onesmallfavourmulti
 startbit=10
 endbit=10
 
-[fossil_activity_taskonlywyverncave]
+[varbit_247]
 basevar=onesmallfavourmulti
 startbit=11
 endbit=11
 
-[fossil_taskrewards_north]
+[varbit_248]
 basevar=onesmallfavourmulti
 startbit=12
 endbit=12
 
-[fossil_activity_sulliuscepchop]
+[varbit_249]
 basevar=onesmallfavourmulti
 startbit=13
 endbit=13
 
-[fossil_activity_sulliusceppoison]
+[varbit_250]
 basevar=onesmallfavourmulti
 startbit=14
 endbit=14
 
-[fossil_activity_mushroombed]
+[varbit_251]
 basevar=onesmallfavourmulti
 startbit=15
 endbit=15
 
-[fossil_activity_stuntarmonster]
+[varbit_252]
 basevar=onesmallfavourmulti
 startbit=16
 endbit=16
@@ -1483,12 +1483,12 @@ basevar=varp_117
 startbit=16
 endbit=16
 
-[dorgesh_light_bulb_01]
+[varbit_297]
 basevar=easter_2005
 startbit=2
 endbit=31
 
-[slayer_smoke_toggle]
+[varbit_298]
 basevar=easter_2005
 startbit=0
 endbit=1
@@ -1783,7 +1783,7 @@ basevar=golem_quest
 startbit=18
 endbit=18
 
-[combat_weapon_category]
+[varbit_357]
 basevar=alternate_spells
 startbit=0
 endbit=0
@@ -2268,7 +2268,7 @@ basevar=tog_minigame
 startbit=6
 endbit=6
 
-[gotr_amulet_colour]
+[varbit_454]
 basevar=tog_minigame
 startbit=7
 endbit=11
@@ -3493,7 +3493,7 @@ basevar=varp_79
 startbit=15
 endbit=17
 
-[chat_filter_assistsystem]
+[varbit_699]
 basevar=varp_79
 startbit=18
 endbit=31
@@ -3958,17 +3958,17 @@ basevar=varp_501
 startbit=24
 endbit=24
 
-[osb5_progress]
+[varbit_792]
 basevar=varp_501
 startbit=26
 endbit=26
 
-[osb5_gold_dye]
+[varbit_793]
 basevar=varp_501
 startbit=27
 endbit=27
 
-[osb5_silver_dye]
+[varbit_794]
 basevar=varp_501
 startbit=28
 endbit=28
@@ -4353,7 +4353,7 @@ basevar=forget_puzzle_var2
 startbit=29
 endbit=29
 
-[osb5_green_imp]
+[varbit_871]
 basevar=farming_state_temp_3
 startbit=0
 endbit=7
@@ -5003,58 +5003,58 @@ basevar=varp_562
 startbit=12
 endbit=15
 
-[hw07_prog]
+[varbit_1001]
 basevar=varp_562
 startbit=16
 endbit=19
 
-[hw07_loung_scythe_placed]
+[varbit_1002]
 basevar=varp_562
 startbit=20
 endbit=23
 
-[hw07_loung_robe_placed]
+[varbit_1003]
 basevar=varp_562
 startbit=24
 endbit=27
 
-[hw07_loung_eye_placed]
+[varbit_1004]
 basevar=varp_562
 startbit=28
 endbit=31
 
-[hw07_loung_potion_placed]
-basevar=bankpin_2
+[varbit_1005]
+basevar=varp_563
 startbit=0
 endbit=3
 
-[hw07_loung_will_placed]
-basevar=bankpin_2
+[varbit_1006]
+basevar=varp_563
 startbit=4
 endbit=7
 
-[hw07_loung_bones_placed]
-basevar=bankpin_2
+[varbit_1007]
+basevar=varp_563
 startbit=8
 endbit=21
 
 [varbit_1008]
-basevar=bankpin_2
+basevar=varp_563
 startbit=22
 endbit=22
 
-[hw07_loung_hour_placed]
-basevar=bankpin_2
+[varbit_1009]
+basevar=varp_563
 startbit=23
 endbit=25
 
-[hw07_garden_route_in]
-basevar=bankpin_2
+[varbit_1010]
+basevar=varp_563
 startbit=26
 endbit=28
 
-[bankpin_anticracker]
-basevar=bankpin_2
+[varbit_1011]
+basevar=varp_563
 startbit=29
 endbit=30
 
@@ -7483,7 +7483,7 @@ basevar=varp_627
 startbit=18
 endbit=28
 
-[deadman_tournament_finalarea]
+[varbit_1497]
 basevar=varp_628
 startbit=29
 endbit=31
@@ -7733,7 +7733,7 @@ basevar=varp_79
 startbit=24
 endbit=26
 
-[macro_transmitted]
+[varbit_1547]
 basevar=swansong_temp
 startbit=5
 endbit=7
@@ -7743,7 +7743,7 @@ basevar=tzhaar_temp
 startbit=8
 endbit=8
 
-[prisonpete_multinpcs]
+[varbit_1549]
 basevar=varp_639
 startbit=0
 endbit=5
@@ -8908,7 +8908,7 @@ basevar=varp_666
 startbit=21
 endbit=22
 
-[qp_max]
+[varbit_1782]
 basevar=varp_666
 startbit=23
 endbit=25
@@ -10048,8 +10048,8 @@ basevar=myreque2_extravar
 startbit=8
 endbit=9
 
-[bounty_target_teleport]
-basevar=bankpin_2
+[varbit_2010]
+basevar=varp_563
 startbit=31
 endbit=31
 
@@ -10063,7 +10063,7 @@ basevar=soulbane
 startbit=5
 endbit=8
 
-[poh_menagerie_closed]
+[varbit_2013]
 basevar=soulbane
 startbit=9
 endbit=12
@@ -10428,7 +10428,7 @@ basevar=varp_66
 startbit=18
 endbit=18
 
-[motherlode_in_restricted_area]
+[varbit_2086]
 basevar=varp_719
 startbit=0
 endbit=8
