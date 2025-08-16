@@ -1,5 +1,5 @@
 [logout,_]()(boolean)
 return (true);
 
-[if_button,inter_55:com_8]
+[if_button,logout:com_8]
 p_logout;

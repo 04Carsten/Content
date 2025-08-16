@@ -10,19 +10,25 @@ bas_walk_r(human_walk_r);
 bas_running(human_running);
 buildappearance(worn);
 
-inv_transmit(inv, inter_69:com_0);
-inv_transmit(worn, inter_38:com_43);
+inv_transmit(inv, inventory:inv);
+inv_transmit(worn, wornitems:worn);
 
-if_settab(inter_127, ^tab_combat);
-if_settab(inter_82, ^tab_stats);
-if_settab(inter_22, ^tab_quests);
-if_settab(inter_69, ^tab_inv);
-if_settab(inter_38, ^tab_worn);
-if_settab(inter_121, ^tab_prayer);
-if_settab(inter_37, ^tab_magic);
-if_settab(inter_115, ^tab_friend);
-if_settab(inter_124, ^tab_ignore);
-if_settab(inter_55, ^tab_logout);
-if_settab(inter_29, ^tab_settings);
-if_settab(inter_2, ^tab_controls);
-if_settab(inter_30, ^tab_music);
+if_settab("combat-unarmed", ^tab_combat);
+if_settab(stats, ^tab_stats);
+if_settab(questlist, ^tab_quests);
+if_settab(inventory, ^tab_inv);
+if_settab(wornitems, ^tab_worn);
+if_settab(prayer, ^tab_prayer);
+if_settab(magic, ^tab_magic);
+if_settab(friends, ^tab_friend);
+if_settab(ignore, ^tab_ignore);
+if_settab(logout, ^tab_logout);
+if_settab(controls, ^tab_controls);
+
+if (lowmemory = false) {
+    if_settab(options, ^tab_options);
+    if_settab(music, ^tab_music);
+} else {
+    if_settab(options_ld, ^tab_options);
+    if_settab(music_ld, ^tab_music);
+}
