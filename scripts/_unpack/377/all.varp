@@ -1207,7 +1207,7 @@ transmit=yes
 [tai_bwo_cleanup]
 
 [tai_bwo_villagerchat]
-tranasmit=yes
+transmit=yes
 
 [tbw_cleanup_temp]
 transmit=yes

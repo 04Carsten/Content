@@ -11910,7 +11910,7 @@ mirror=yes
 blockrange=no
 raiseobject=no
 
-[prisondoor_l]
+[loc_1551]
 name=Gate
 desc=A wooden gate.
 unpacked_1=model_966,_1
@@ -11921,7 +11921,7 @@ active=yes
 blockrange=no
 raiseobject=no
 
-[prisondooropen_l]
+[loc_1552]
 name=Gate
 desc=A wooden gate.
 unpacked_1=model_966,_1
@@ -11931,7 +11931,7 @@ op1=Close
 active=yes
 raiseobject=no
 
-[inactiveprisondoor_l]
+[loc_1553]
 name=Gate
 desc=A wooden gate.
 unpacked_1=model_966,_1

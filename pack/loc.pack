@@ -1549,9 +1549,9 @@
 1548=inactiveprisondoor
 1549=prisondoor_r
 1550=prisondooropen_r
-1551=prisondoor_l
-1552=prisondooropen_l
-1553=inactiveprisondoor_l
+1551=loc_1551
+1552=loc_1552
+1553=loc_1553
 1554=portcullis_1l
 1555=portcullis_1r
 1556=portcullis_2l

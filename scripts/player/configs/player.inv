@@ -1,8 +1,12 @@
 [inv]
+scope=perm
 size=28
 
 [worn]
+scope=perm
 size=14
 
 [bank]
+scope=perm
 size=240
+stackall=yes
