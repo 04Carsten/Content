@@ -23,6 +23,7 @@
 [fishingcompo]
 
 [garlicpipe]
+transmit=yes
 
 [varp_13]
 
@@ -35,20 +36,28 @@
 [arenaquest]
 
 [musicplay]
+transmit=yes
 
 [musicloop]
+transmit=yes
 
 [musicmulti_1]
+transmit=yes
 
 [musicmulti_2]
+transmit=yes
 
 [musicmulti_3]
+transmit=yes
 
 [musicmulti_4]
+transmit=yes
 
 [musicmulti_5]
+transmit=yes
 
 [musicmulti_6]
+transmit=yes
 
 [ikov]
 
@@ -65,6 +74,7 @@
 [haunted]
 
 [ernestlever]
+transmit=yes
 
 [varp_34]
 
@@ -85,6 +95,7 @@
 [varp_42]
 
 [com_mode]
+transmit=yes
 
 [com_ammo]
 
@@ -149,6 +160,7 @@
 [varp_74]
 
 [journey_number]
+transmit=yes
 
 [scorpcatcher]
 
@@ -165,42 +177,61 @@
 [varp_82]
 
 [prayer0]
+transmit=yes
 
 [prayer1]
+transmit=yes
 
 [varp_85]
+transmit=yes
 
 [varp_86]
+transmit=yes
 
 [varp_87]
+transmit=yes
 
 [varp_88]
+transmit=yes
 
 [varp_89]
+transmit=yes
 
 [varp_90]
+transmit=yes
 
 [varp_91]
+transmit=yes
 
 [prayer9]
+transmit=yes
 
 [prayer10]
+transmit=yes
 
 [prayer11]
+transmit=yes
 
 [prayer12]
+transmit=yes
 
 [varp_96]
+transmit=yes
 
 [varp_97]
+transmit=yes
 
 [prayer15]
+transmit=yes
 
 [varp_99]
+transmit=yes
 
 [varp_100]
+transmit=yes
 
 [qp]
+transmit=yes
 
 [poison]
 
@@ -211,10 +242,12 @@
 [varp_105]
 
 [varp_106]
+transmit=yes
 
 [prieststart]
 
 [lastcastspell]
+transmit=yes
 
 [trawler]
 
@@ -229,6 +262,7 @@
 [varp_114]
 
 [bankcert]
+transmit=yes
 
 [zombiequeen]
 
@@ -285,6 +319,7 @@
 [varp_142]
 
 [score_gnomeball_game]
+transmit=yes
 
 [rjquest]
 
@@ -305,16 +340,20 @@
 [varp_152]
 
 [pilot_journey]
+transmit=yes
 
 [varp_154]
 
 [varp_155]
 
 [targetcount]
+transmit=yes
 
 [targetscore]
+transmit=yes
 
 [targethit]
+transmit=yes
 
 [seaslugquest]
 
@@ -331,29 +370,38 @@
 [elenaquest]
 
 [option_brightness]
+transmit=yes
 clientcode=1
 
 [option_jingles]
+transmit=yes
 clientcode=2
 
 [option_music]
+transmit=yes
 clientcode=3
 
 [option_sounds]
+transmit=yes
 clientcode=4
 
 [option_mouse]
+transmit=yes
 clientcode=5
 
 [option_chat]
+transmit=yes
 clientcode=6
 
 [option_nodef]
+transmit=yes
 
 [option_run]
+transmit=yes
 clientcode=7
 
 [marketthief]
+transmit=yes
 
 [junglepotion]
 
@@ -426,8 +474,10 @@ clientcode=7
 [varp_209]
 
 [smithbars]
+transmit=yes
 
 [modified_smith]
+transmit=yes
 
 [itwatchtower]
 
@@ -528,16 +578,22 @@ clientcode=7
 [varp_260]
 
 [if1]
+transmit=yes
 
 [if2]
+transmit=yes
 
 [if3]
+transmit=yes
 
 [if4]
+transmit=yes
 
 [if5]
+transmit=yes
 
 [if6]
+transmit=yes
 
 [magearena]
 
@@ -578,8 +634,10 @@ clientcode=7
 [varp_285]
 
 [dueloptions]
+transmit=yes
 
 [option_pm]
+transmit=yes
 clientcode=8
 
 [varp_288]
@@ -603,18 +661,22 @@ clientcode=8
 [musiclength]
 
 [musicmulti_7]
+transmit=yes
 
 [elemental_workshop_bits]
 
 [sa_energy]
+transmit=yes
 
 [sa_attack]
+transmit=yes
 
 [priestperil]
 
 [varp_303]
 
 [bankinsert]
+transmit=yes
 clientcode=9
 
 [varp_305]
@@ -626,14 +688,17 @@ clientcode=9
 [varp_308]
 
 [agilityarena_varbit]
+transmit=yes
 
 [varp_310]
 
 [musicmulti_8]
+transmit=yes
 
 [varp_312]
 
 [emote_access]
+transmit=yes
 
 [death_equiproom]
 
@@ -648,6 +713,7 @@ clientcode=9
 [varp_319]
 
 [tbwt_main]
+transmit=yes
 
 [varp_321]
 
@@ -668,8 +734,10 @@ clientcode=9
 [regicide_bits]
 
 [regicide_still_total]
+transmit=yes
 
 [regicide_still_settings]
+transmit=yes
 
 [varp_332]
 
@@ -694,12 +762,16 @@ clientcode=9
 [varp_342]
 
 [temple_repaired_p]
+transmit=yes
 
 [temple_resources_p]
+transmit=yes
 
 [temple_sanctity_p]
+transmit=yes
 
 [musicmulti_9]
+transmit=yes
 
 [viking]
 
@@ -714,12 +786,16 @@ clientcode=9
 [varp_352]
 
 [boardgames_runelink_rank]
+transmit=yes
 
 [boardgames_draughts_rank]
+transmit=yes
 
 [boardgames_varbit]
+transmit=yes
 
 [boardgames_varbit2]
+transmit=yes
 
 [varp_357]
 
@@ -732,8 +808,10 @@ clientcode=9
 [misc_varbit_1]
 
 [misc_varbit_2]
+transmit=yes
 
 [misc_varbit_3]
+transmit=yes
 
 [varp_364]
 
@@ -762,18 +840,22 @@ clientcode=9
 [varp_376]
 
 [castlewars_zamorak]
+transmit=yes
 
 [castlewars_saradomin]
+transmit=yes
 
 [castlewars_main]
 
 [castlewars_timer]
+transmit=yes
 
 [varp_381]
 
 [hauntedmine]
 
 [hauntedmine_bits]
+transmit=yes
 
 [varp_384]
 
@@ -790,6 +872,7 @@ clientcode=9
 [varp_390]
 
 [trawler_water_overlay]
+transmit=yes
 
 [varp_392]
 
@@ -806,8 +889,10 @@ clientcode=9
 [varp_398]
 
 [fenk_quest]
+transmit=yes
 
 [fenk_flags]
+transmit=yes
 
 [varp_401]
 
@@ -820,10 +905,12 @@ clientcode=9
 [varp_405]
 
 [tutorial_progress_overlay]
+transmit=yes
 
 [varp_407]
 
 [ahoy_varbits_1]
+transmit=yes
 
 [varp_409]
 
@@ -834,14 +921,17 @@ clientcode=9
 [varp_412]
 
 [varp_413]
+transmit=yes
 
 [musicmulti_10]
+transmit=yes
 
 [roving_update_ilfeen_chant]
 
 [onesmallfavour]
 
 [onesmallfavourmulti]
+transmit=yes
 
 [varp_418]
 
@@ -854,14 +944,17 @@ clientcode=9
 [varp_422]
 
 [mdaughter_var]
+transmit=yes
 
 [varp_424]
 
 [goblin_caves]
+transmit=yes
 
 [varp_426]
 
 [option_aid]
+transmit=yes
 
 [varp_428]
 
@@ -874,26 +967,33 @@ clientcode=9
 [varp_432]
 
 [dwarfrock_main]
+transmit=yes
 
 [varp_434]
 
 [main_feud_var]
+transmit=yes
 
 [feud_var_multi]
 
 [golem_quest]
+transmit=yes
 
 [varp_438]
 
 [alternate_spells]
 
 [deserttreasuremain]
+transmit=yes
 
 [deserttreasurevarbit]
+transmit=yes
 
 [deserttreasurevarbit2]
+transmit=yes
 
 [ics_little_multi]
+transmit=yes
 
 [varp_444]
 
@@ -906,18 +1006,22 @@ clientcode=9
 [varp_448]
 
 [tog_minigame]
+transmit=yes
 
 [varp_450]
 
 [varp_451]
 
 [barrows]
+transmit=yes
 
 [barrows_kills]
+transmit=yes
 
 [worn_set]
 
 [zombie_ogre]
+transmit=yes
 
 [disease]
 
@@ -936,8 +1040,10 @@ clientcode=9
 [varp_463]
 
 [musicmulti_11]
+transmit=yes
 
 [lost_tribe]
+transmit=yes
 
 [cutscene_var]
 
@@ -972,6 +1078,7 @@ clientcode=9
 [varp_481]
 
 [giantdwarf_main]
+transmit=yes
 
 [varp_483]
 
@@ -990,48 +1097,66 @@ clientcode=9
 [rcu_pouch_degradation_giant]
 
 [abyssal_warp]
+transmit=yes
 
 [abyssal_miniquest]
+transmit=yes
 
 [roguesden_puzzle]
+transmit=yes
 
 [varp_494]
 
 [varp_495]
 
 [recruitmentdrive]
+transmit=yes
 
 [rd_rooms_tempvar]
+transmit=yes
 
 [rd_rooms_tempvar2]
+transmit=yes
 
 [magic_carpet_var]
+transmit=yes
 
 [varp_500]
 
 [varp_501]
 
 [varp_502]
+transmit=yes
 
 [varp_503]
+transmit=yes
 
 [varp_504]
+transmit=yes
 
 [varp_505]
+transmit=yes
 
 [varp_506]
+transmit=yes
 
 [varp_507]
+transmit=yes
 
 [varp_508]
+transmit=yes
 
 [varp_509]
+transmit=yes
 
 [farming_varp_9]
+transmit=yes
 
 [varp_511]
+transmit=yes
 
 [varp_512]
+transmit=yes
 
 [varp_513]
 
@@ -1044,20 +1169,25 @@ clientcode=9
 [mourning_quest]
 
 [mourning_quest_bits]
+transmit=yes
 
 [varp_519]
 
 [dagganoth_area_project]
+transmit=yes
 
 [forget_main_var]
+transmit=yes
 
 [varp_522]
 
 [varp_523]
 
 [forget_puzzle_var]
+transmit=yes
 
 [forget_puzzle_var2]
+transmit=yes
 
 [varp_526]
 
@@ -1070,14 +1200,17 @@ clientcode=9
 [varp_530]
 
 [macro_transmit]
+transmit=yes
 
 [varp_532]
 
 [tai_bwo_cleanup]
 
 [tai_bwo_villagerchat]
+tranasmit=yes
 
 [tbw_cleanup_temp]
+transmit=yes
 
 [varp_536]
 
@@ -1088,24 +1221,31 @@ clientcode=9
 [varp_539]
 
 [roguetrader_var]
+transmit=yes
 
 [rogue_suduku1]
 
 [varp_542]
 
 [blast_furnace_readings]
+transmit=yes
 
 [varp_544]
 
 [blast_furnace_1]
+transmit=yes
 
 [blast_furnace_2]
+transmit=yes
 
 [blast_furnace_3]
+transmit=yes
 
 [blast_furnace_4]
+transmit=yes
 
 [blast_furnace_5]
+transmit=yes
 
 [varp_550]
 
@@ -1114,8 +1254,10 @@ clientcode=9
 [varp_552]
 
 [garden_varp_1]
+transmit=yes
 
 [garden_varp_2]
+transmit=yes
 
 [varp_555]
 
@@ -1128,8 +1270,10 @@ clientcode=9
 [varp_559]
 
 [tzhaar_fightpit_remaining]
+transmit=yes
 
 [tzhaar_temp]
+transmit=yes
 
 [varp_562]
 
@@ -1144,14 +1288,17 @@ clientcode=9
 [varp_567]
 
 [twocats_varbit]
+transmit=yes
 
 [varp_569]
 
 [varp_570]
 
 [quest_wanted]
+transmit=yes
 
 [quest_wanted2]
+transmit=yes
 
 [varp_573]
 
@@ -1166,70 +1313,95 @@ clientcode=9
 [varp_578]
 
 [mourning_quest_light_doors]
+transmit=yes
 
 [mourning_quest_beams1]
+transmit=yes
 
 [mourning_quest_beams2]
+transmit=yes
 
 [mourning_quest_beams3]
+transmit=yes
 
 [mourning_quest_beams4]
+transmit=yes
 
 [mourning_quest_beams5]
+transmit=yes
 
 [mourning_quest_beams6]
+transmit=yes
 
 [mourning_quest_vert_beams1]
+transmit=yes
 
 [mourning_quest_vert_beams2]
+transmit=yes
 
 [mourning_quest_vert_beams3]
+transmit=yes
 
 [mourning_quest_vert_beams4]
+transmit=yes
 
 [mourning_quest_vert_beams5]
+transmit=yes
 
 [mourning_quest_beam_cross1]
+transmit=yes
 
 [mourning_quest_beam_cross2]
+transmit=yes
 
 [varp_593]
 
 [mourning_part2_basevar2]
+transmit=yes
 
 [varp_595]
 
 [varp_596]
 
 [rimmington_extras_var]
+transmit=yes
 
 [musicmulti_12]
+transmit=yes
 
 [desert]
+transmit=yes
 
 [deal_quest]
 
 [deal_var]
+transmit=yes
 
 [agrith_quest_varp]
+transmit=yes
 
 [varp_603]
 
 [makinghistory]
+transmit=yes
 
 [varp_605]
 
 [varp_606]
 
 [main_ratcatch_var]
+transmit=yes
 
 [varp_608]
 
 [ratcatch_var_multi]
+transmit=yes
 
 [ratcatch_var_temp1]
+transmit=yes
 
 [ratcatch_var_temp2]
+transmit=yes
 
 [varp_612]
 
@@ -1238,22 +1410,29 @@ clientcode=9
 [varp_614]
 
 [farming_tools]
+transmit=yes
 
 [elid_main]
+transmit=yes
 
 [champions_defeated]
+transmit=yes
 
 [varp_618]
 
 [varp_619]
 
 [varp_620]
+transmit=yes
 
 [varp_621]
+transmit=yes
 
 [devious_base]
+transmit=yes
 
 [win05_var]
+transmit=yes
 
 [varp_624]
 
@@ -1280,32 +1459,42 @@ clientcode=9
 [handsand]
 
 [handsand_transmit]
+transmit=yes
 
 [varp_637]
 
 [swansong_temp]
+transmit=yes
 
 [varp_639]
 
 [agility_pyramid]
+transmit=yes
 
 [enakh_quest_expositbits]
 
 [enakh_multivarbits]
+transmit=yes
 
 [enakh_varbits]
 
 [boardgames_runesquares_va]
+transmit=yes
 
 [boardgames_runesquares_vb]
+transmit=yes
 
 [boardgames_runesquares_ha]
+transmit=yes
 
 [boardgames_runesquares_hb]
+transmit=yes
 
 [boardgames_runesquares_rank]
+transmit=yes
 
 [boardgames_runeversi_rank]
+transmit=yes
 
 [varp_650]
 
@@ -1320,18 +1509,23 @@ clientcode=9
 [fever_quest]
 
 [fever_cannon_var]
+transmit=yes
 
 [fever_extra_var]
+transmit=yes
 
 [fever_storage_var]
+transmit=yes
 
 [varp_659]
 
 [varp_660]
 
 [slayer_killerwatt_var]
+transmit=yes
 
 [musicmulti_13]
+transmit=yes
 
 [varp_663]
 
@@ -1340,34 +1534,43 @@ clientcode=9
 [ogre_area_extra]
 
 [varp_666]
+transmit=yes
 
 [elenaquest_extra_bits]
+transmit=yes
 
 [ernestdoors]
+transmit=yes
 
 [varp_669]
 
 [varp_670]
 
 [fairytale_multi]
+transmit=yes
 
 [varp_672]
 
 [romeo_juliet_multi]
 
 [canoeing_river_lum]
+transmit=yes
 
 [canoeing_menu]
+transmit=yes
 
 [varp_676]
 
 [varp_677]
 
 [100intro]
+transmit=yes
 
 [100council]
+transmit=yes
 
 [hundred_dave]
+transmit=yes
 
 [hundred_dwarf]
 
@@ -1376,8 +1579,10 @@ clientcode=9
 [100_pirate_quest]
 
 [100_ogre]
+transmit=yes
 
 [hundred_ilm_var_1]
+transmit=yes
 
 [varp_686]
 
@@ -1398,6 +1603,7 @@ clientcode=9
 [cornflour]
 
 [millcheck_multi]
+transmit=yes
 
 [macro_digger_var]
 
@@ -1408,6 +1614,7 @@ clientcode=9
 [macro_digger_var_4]
 
 [templetrek_main_var]
+transmit=yes
 
 [varp_701]
 
@@ -1416,8 +1623,10 @@ clientcode=9
 [varp_703]
 
 [myreque_2_main_var]
+transmit=yes
 
 [myreque2_multivar]
+transmit=yes
 
 [myreque2_extravar]
 
@@ -1426,8 +1635,10 @@ clientcode=9
 [varp_708]
 
 [soulbane]
+transmit=yes
 
 [soulbane2]
+transmit=yes
 
 [soulbane_unprotected]
 
@@ -1440,20 +1651,24 @@ clientcode=9
 [varp_715]
 
 [rag_bone_2]
+transmit=yes
 
 [varp_717]
 
 [pest_instance]
 
 [varp_719]
+transmit=yes
 
 [abyssal_pouches2]
 
 [musicmulti_14]
+transmit=yes
 
 [varp_722]
 
 [swansong_quest]
+transmit=yes
 
 [varp_724]
 

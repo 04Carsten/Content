@@ -4968,12 +4968,12 @@ basevar=varp_555
 startbit=15
 endbit=16
 
-[warguild_basement_access]
+[varbit_994]
 basevar=tzhaar_temp
 startbit=0
 endbit=2
 
-[prisonpete_ignorebits_a]
+[varbit_995]
 basevar=tzhaar_temp
 startbit=3
 endbit=3
@@ -4983,22 +4983,22 @@ basevar=tzhaar_temp
 startbit=4
 endbit=4
 
-[pet_insurance_corepet]
+[varbit_997]
 basevar=varp_562
 startbit=0
 endbit=3
 
-[dorgesh_light_bulb_03]
+[varbit_998]
 basevar=varp_562
 startbit=4
 endbit=7
 
-[corp_beast_damage]
+[varbit_999]
 basevar=varp_562
 startbit=8
 endbit=11
 
-[emote_zombie_hand]
+[varbit_1000]
 basevar=varp_562
 startbit=12
 endbit=15
