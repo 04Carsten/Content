@@ -1,4 +1,11 @@
 [login,_]
 mes("Welcome to RuneScape.");
 
+bas_readyanim(human_ready);
+bas_turnonspot(human_turnonspot);
+bas_walk_f(human_walk_f);
+bas_walk_b(human_walk_b);
+bas_walk_l(human_walk_l);
+bas_walk_r(human_walk_r);
+bas_running(human_running);
 buildappearance(worn);

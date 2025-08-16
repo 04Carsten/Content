@@ -3088,37 +3088,37 @@ basevar=abyssal_warp
 startbit=10
 endbit=10
 
-[kourend_tasks_panel]
+[varbit_618]
 basevar=abyssal_warp
 startbit=11
 endbit=11
 
-[kourend_tasks_overlay]
+[varbit_619]
 basevar=abyssal_warp
 startbit=12
 endbit=12
 
-[castlewars_ava_reward]
+[varbit_620]
 basevar=abyssal_warp
 startbit=13
 endbit=13
 
-[edgeville_spawn]
+[varbit_621]
 basevar=abyssal_warp
 startbit=14
 endbit=14
 
-[rareitems_cluespawns]
+[varbit_622]
 basevar=abyssal_warp
 startbit=15
 endbit=15
 
-[edgeville_spawn_unlocked]
+[varbit_623]
 basevar=abyssal_warp
 startbit=16
 endbit=16
 
-[dream_plankspell_plain]
+[varbit_624]
 basevar=abyssal_warp
 startbit=17
 endbit=17
