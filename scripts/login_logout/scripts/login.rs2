@@ -1,0 +1,4 @@
+[login,_]
+mes("Welcome to RuneScape.");
+
+buildappearance(worn);
