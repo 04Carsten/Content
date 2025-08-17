@@ -1,10 +1,12 @@
 [inv]
 scope=perm
 size=28
+protect=no
 
 [worn]
 scope=perm
 size=14
+protect=no
 
 [bank]
 scope=perm
