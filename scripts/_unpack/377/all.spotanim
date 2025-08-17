@@ -36,79 +36,79 @@ anim=whippingplant_attack
 
 [iron_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=33
-recol2s=61
-recol2d=33
+recol1s=14798
+recol1d=8456
+recol2s=15855
+recol2d=8456
 
 [bronze_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=5652
-recol2s=61
-recol2d=5652
+recol1s=14798
+recol1d=8354
+recol2s=15855
+recol2d=8354
 
 [steel_arrow_travel]
 model=model_3136
 
 [mithril_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=43282
-recol2s=61
-recol2d=43282
+recol1s=14798
+recol1d=3174
+recol2s=15855
+recol2d=3174
 
 [adamant_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=21662
-recol2s=61
-recol2d=21662
+recol1s=14798
+recol1d=6438
+recol2s=15855
+recol2d=6438
 
 [black_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=12
-recol2s=61
-recol2d=12
+recol1s=14798
+recol1d=3171
+recol2s=15855
+recol2d=3171
 
 [rune_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=37270
-recol2s=61
-recol2d=37270
+recol1s=14798
+recol1d=3272
+recol2s=15855
+recol2d=3272
 
 [ice_arrow_travel]
 model=model_3136
-recol1s=57
-recol1d=37340
-recol2s=61
-recol2d=37340
-recol3s=5012
-recol3d=37444
-recol4s=926
-recol4d=37340
-recol5s=5012
-recol5d=37340
+recol1s=14798
+recol1d=15135
+recol2s=15855
+recol2d=15135
+recol3s=10368
+recol3d=8793
+recol4s=15360
+recol4d=15135
+recol5s=10368
+recol5d=15135
 
 [fire_arrow_travel]
 model=model_3132
 
 [iron_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=33
-recol2s=61
-recol2d=33
+recol1s=14798
+recol1d=8456
+recol2s=15855
+recol2d=8456
 anim=arrow_launch
 
 [bronze_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=5652
-recol2s=61
-recol2d=5652
+recol1s=14798
+recol1d=8354
+recol2s=15855
+recol2d=8354
 anim=arrow_launch
 
 [steel_arrow_launch]
@@ -117,48 +117,48 @@ anim=arrow_launch
 
 [mithril_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=43297
-recol2s=61
-recol2d=43297
+recol1s=14798
+recol1d=6346
+recol2s=15855
+recol2d=6346
 anim=arrow_launch
 
 [adamant_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=21662
-recol2s=61
-recol2d=21662
+recol1s=14798
+recol1d=6438
+recol2s=15855
+recol2d=6438
 anim=arrow_launch
 
 [black_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=12
-recol2s=61
-recol2d=12
+recol1s=14798
+recol1d=3171
+recol2s=15855
+recol2d=3171
 anim=arrow_launch
 
 [rune_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=36133
-recol2s=61
-recol2d=36133
+recol1s=14798
+recol1d=6476
+recol2s=15855
+recol2d=6476
 anim=arrow_launch
 
 [ice_arrow_launch]
 model=model_3142
-recol1s=57
-recol1d=37340
-recol2s=61
-recol2d=37340
-recol3s=5012
-recol3d=37444
-recol4s=926
-recol4d=37340
-recol5s=5012
-recol5d=37340
+recol1s=14798
+recol1d=15135
+recol2s=15855
+recol2d=15135
+recol3s=10368
+recol3d=8793
+recol4s=15360
+recol4d=15135
+recol5s=10368
+recol5d=15135
 anim=arrow_launch
 
 [fire_arrow_launch]
@@ -182,8 +182,8 @@ anim=vial_launch
 
 [rotten_splash]
 model=model_2223
-recol1s=43237
-recol1d=3742
+recol1s=19039
+recol1d=13506
 anim=watersplash_small
 
 [dwarf_stone_throw_travel]
@@ -195,19 +195,19 @@ anim=dwarf_stone_throw_launch
 
 [black_dart_travel]
 model=model_3131
-recol1s=82
+recol1s=21140
 recol1d=0
 
 [iron_taxe_travel]
 model=model_3148
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 anim=taxe_travel
 
 [bronze_taxe_travel]
 model=model_3148
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 anim=taxe_travel
 
 [steel_taxe_travel]
@@ -216,38 +216,38 @@ anim=taxe_travel
 
 [mithril_taxe_travel]
 model=model_3148
-recol1s=61
-recol1d=43297
+recol1s=15855
+recol1d=6346
 anim=taxe_travel
 
 [adamant_taxe_travel]
 model=model_3148
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 anim=taxe_travel
 
 [olm_crystal_bomb_explode]
 model=model_3148
-recol1s=61
-recol1d=10508
+recol1s=15855
+recol1d=4226
 anim=taxe_travel
 
 [rune_taxe_travel]
 model=model_3148
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 anim=taxe_travel
 
 [iron_taxe_launch]
 model=model_3147
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 anim=taxe_launch
 
 [bronze_taxe_launch]
 model=model_3147
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 anim=taxe_launch
 
 [steel_taxe_launch]
@@ -256,26 +256,26 @@ anim=taxe_launch
 
 [mithril_taxe_launch]
 model=model_3147
-recol1s=61
-recol1d=43297
+recol1s=15855
+recol1d=6346
 anim=taxe_launch
 
 [adamant_taxe_launch]
 model=model_3147
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 anim=taxe_launch
 
 [cooking_make_wine_spotanim]
 model=model_3147
-recol1s=61
-recol1d=10508
+recol1s=15855
+recol1d=4226
 anim=taxe_launch
 
 [rune_taxe_launch]
 model=model_3147
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 anim=taxe_launch
 
 [vial_travel]
@@ -359,8 +359,8 @@ anim=watersplash
 
 [lavasplash]
 model=model_2223
-recol1s=43237
-recol1d=5058
+recol1s=19039
+recol1d=31138
 anim=watersplash
 
 [catapultload]
@@ -368,22 +368,22 @@ model=model_3140
 
 [catapultimpact]
 model=model_3116
-recol1s=7104
-recol1d=22416
-recol2s=6080
-recol2d=21539
-recol3s=960
-recol3d=21652
+recol1s=31297
+recol1d=256
+recol2s=31201
+recol2d=8488
+recol3s=30753
+recol3d=4292
 anim=wave_impact
 
 [biopigeon_launch]
 model=model_2850
-recol1s=11200
-recol1d=5056
-recol2s=9123
-recol2d=127
-recol3s=7070
-recol3d=127
+recol1s=31649
+recol1d=31105
+recol2s=16801
+recol2d=32767
+recol3s=15648
+recol3d=32767
 anim=bird_walk
 
 [slayer_dustdevil_dust]
@@ -437,18 +437,18 @@ anim=zap
 
 [ibansbolt]
 model=model_3072
-recol1s=43187
-recol1d=906
-recol2s=43189
-recol2d=910
-recol3s=43063
-recol3d=914
-recol4s=43065
-recol4d=918
-recol5s=43067
-recol5d=922
-recol6s=61
-recol6d=926
+recol1s=10575
+recol1d=5120
+recol2s=10576
+recol2d=7168
+recol3s=12687
+recol3d=9216
+recol4s=13743
+recol4d=11264
+recol5s=13744
+recol5d=13312
+recol6s=15855
+recol6d=15360
 anim=ibansbolt
 
 [heal_casting]
@@ -485,124 +485,124 @@ contrast=60
 
 [windstrike_casting]
 model=model_3083
-recol1s=51136
-recol1d=43119
+recol1s=19487
+recol1d=24319
 anim=strike_casting
 ambient=30
 contrast=30
 
 [windstrike_travel]
 model=model_3081
-recol1s=926
-recol1d=43119
-recol2s=947
-recol2d=127
-recol3s=11200
-recol3d=43968
+recol1s=15360
+recol1d=24319
+recol2s=24609
+recol2d=32767
+recol3s=31649
+recol3d=31
 anim=strike_travel
 ambient=30
 contrast=30
 
 [windstrike_impact]
 model=model_3082
-recol1s=926
-recol1d=43119
-recol2s=947
-recol2d=127
-recol3s=11200
-recol3d=43968
+recol1s=15360
+recol1d=24319
+recol2s=24609
+recol2d=32767
+recol3s=31649
+recol3d=31
 anim=strike_impact
 ambient=30
 contrast=30
 
 [waterstrike_casting]
 model=model_3083
-recol1s=51136
-recol1d=45010
+recol1s=19487
+recol1d=10559
 anim=strike_casting
 ambient=40
 contrast=40
 
 [waterstrike_travel]
 model=model_3081
-recol1s=926
-recol1d=45010
-recol2s=947
-recol2d=41187
-recol3s=11200
-recol3d=42093
+recol1s=15360
+recol1d=10559
+recol2s=24609
+recol2d=18079
+recol3s=31649
+recol3d=23295
 anim=strike_travel
 ambient=40
 contrast=40
 
 [waterstrike_impact]
 model=model_3082
-recol1s=926
-recol1d=45010
-recol2s=947
-recol2d=41187
-recol3s=11200
-recol3d=42093
+recol1s=15360
+recol1d=10559
+recol2s=24609
+recol2d=18079
+recol3s=31649
+recol3d=23295
 anim=strike_impact
 ambient=50
 contrast=50
 
 [earthstrike_casting]
 model=model_3083
-recol1s=51136
-recol1d=10138
+recol1s=19487
+recol1d=13664
 anim=strike_casting
 ambient=30
 contrast=30
 
 [earthstrike_travel]
 model=model_3081
-recol1s=926
-recol1d=10138
-recol2s=947
-recol2d=10155
-recol3s=11200
-recol3d=22464
+recol1s=15360
+recol1d=13664
+recol2s=24609
+recol2d=21057
+recol3s=31649
+recol3d=992
 anim=strike_travel
 ambient=30
 contrast=30
 
 [earthstrike_impact]
 model=model_3082
-recol1s=926
-recol1d=10138
-recol2s=947
-recol2d=10155
-recol3s=11200
-recol3d=22464
+recol1s=15360
+recol1d=13664
+recol2s=24609
+recol2d=21057
+recol3s=31649
+recol3d=992
 anim=strike_impact
 ambient=30
 contrast=30
 
 [firestrike_casting]
 model=model_3083
-recol1s=51136
-recol1d=960
+recol1s=19487
+recol1d=30753
 anim=strike_casting
 ambient=60
 contrast=60
 
 [firestrike_travel]
 model=model_3081
-recol1s=926
-recol1d=960
-recol2s=947
-recol2d=6080
+recol1s=15360
+recol1d=30753
+recol2s=24609
+recol2d=31201
 anim=strike_travel
 ambient=60
 contrast=60
 
 [firestrike_impact]
 model=model_3082
-recol1s=926
-recol1d=960
-recol2s=947
-recol2d=6080
+recol1s=15360
+recol1d=30753
+recol2s=24609
+recol2d=31201
 anim=strike_impact
 ambient=60
 contrast=60
@@ -699,98 +699,98 @@ contrast=40
 
 [windbolt_casting]
 model=model_3083
-recol1s=51136
-recol1d=43119
+recol1s=19487
+recol1d=24319
 anim=strike_casting
 ambient=30
 contrast=30
 
 [windbolt_travel]
 model=model_3084
-recol1s=11200
-recol1d=61
-recol2s=6080
-recol2d=127
-recol3s=960
-recol3d=82
+recol1s=31649
+recol1d=15855
+recol2s=31201
+recol2d=32767
+recol3s=30753
+recol3d=21140
 anim=bolt_travel
 ambient=50
 contrast=50
 
 [windbolt_impact]
 model=model_3085
-recol1s=960
-recol1d=82
-recol2s=6080
-recol2d=127
+recol1s=30753
+recol1d=21140
+recol2s=31201
+recol2d=32767
 anim=bolt_impact
 ambient=50
 contrast=50
 
 [waterbolt_casting]
 model=model_3083
-recol1s=51136
-recol1d=43968
+recol1s=19487
+recol1d=31
 anim=strike_casting
 ambient=60
 contrast=60
 
 [waterbolt_travel]
 model=model_3084
-recol1s=11200
-recol1d=43968
-recol2s=6080
-recol2d=38848
-recol3s=960
-recol3d=43486
+recol1s=31649
+recol1d=31
+recol2s=31201
+recol2d=479
+recol3s=30753
+recol3d=15871
 anim=bolt_travel
 ambient=60
 contrast=60
 
 [waterbolt_impact]
 model=model_3085
-recol1s=960
-recol1d=43486
-recol2s=6080
-recol2d=38848
+recol1s=30753
+recol1d=15871
+recol2s=31201
+recol2d=479
 anim=bolt_impact
 ambient=60
 contrast=60
 
 [earthbolt_casting]
 model=model_3083
-recol1s=51136
-recol1d=10138
+recol1s=19487
+recol1d=13664
 anim=strike_casting
 ambient=40
 contrast=40
 
 [earthbolt_travel]
 model=model_3084
-recol1s=11200
-recol1d=22430
-recol2s=6080
-recol2d=22464
-recol3s=960
-recol3d=8092
+recol1s=31649
+recol1d=480
+recol2s=31201
+recol2d=992
+recol3s=30753
+recol3d=14656
 anim=bolt_travel
 ambient=40
 contrast=40
 
 [earthbolt_impact]
 model=model_3085
-recol1s=960
-recol1d=8092
-recol2s=6080
-recol2d=22464
+recol1s=30753
+recol1d=14656
+recol2s=31201
+recol2d=992
 anim=bolt_impact
 ambient=40
 contrast=40
 
 [firebolt_casting]
 model=model_3083
-recol1s=51136
-recol1d=960
+recol1s=19487
+recol1d=30753
 anim=strike_casting
 ambient=60
 contrast=60
@@ -809,8 +809,8 @@ contrast=60
 
 [fireblast_casting]
 model=model_3083
-recol1s=51136
-recol1d=960
+recol1s=19487
+recol1d=30753
 anim=strike_casting
 ambient=60
 contrast=60
@@ -829,96 +829,96 @@ contrast=60
 
 [windblast_casting]
 model=model_3083
-recol1s=51136
-recol1d=43119
+recol1s=19487
+recol1d=24319
 anim=strike_casting
 ambient=50
 contrast=50
 
 [windblast_travel]
 model=model_3087
-recol1s=7104
-recol1d=61
-recol2s=6080
-recol2d=127
-recol3s=960
-recol3d=82
+recol1s=31297
+recol1d=15855
+recol2s=31201
+recol2d=32767
+recol3s=30753
+recol3d=21140
 anim=blast_travel
 ambient=50
 contrast=50
 
 [windblast_impact]
 model=model_3088
-recol1s=960
-recol1d=82
-recol2s=6080
-recol2d=127
-recol3s=24256
-recol3d=61
+recol1s=30753
+recol1d=21140
+recol2s=31201
+recol2d=32767
+recol3s=4968
+recol3d=15855
 anim=blast_impact
 ambient=50
 contrast=50
 
 [waterblast_casting]
 model=model_3083
-recol1s=51136
-recol1d=43968
+recol1s=19487
+recol1d=31
 anim=strike_casting
 ambient=60
 contrast=60
 
 [waterblast_travel]
 model=model_3087
-recol1s=7104
-recol1d=43486
-recol2s=6080
-recol2d=38848
-recol3s=960
-recol3d=43968
+recol1s=31297
+recol1d=15871
+recol2s=31201
+recol2d=479
+recol3s=30753
+recol3d=31
 anim=blast_travel
 ambient=60
 contrast=60
 
 [waterblast_impact]
 model=model_3088
-recol1s=960
-recol1d=43968
-recol2s=6080
-recol2d=38848
-recol3s=24256
-recol3d=43486
+recol1s=30753
+recol1d=31
+recol2s=31201
+recol2d=479
+recol3s=4968
+recol3d=15871
 anim=blast_impact
 ambient=60
 contrast=60
 
 [earthblast_casting]
 model=model_3083
-recol1s=51136
-recol1d=10138
+recol1s=19487
+recol1d=13664
 anim=strike_casting
 ambient=40
 contrast=40
 
 [earthblast_travel]
 model=model_3087
-recol1s=7104
-recol1d=22430
-recol2s=6080
-recol2d=22464
-recol3s=960
-recol3d=8092
+recol1s=31297
+recol1d=480
+recol2s=31201
+recol2d=992
+recol3s=30753
+recol3d=14656
 anim=blast_travel
 ambient=40
 contrast=40
 
 [earthblast_impact]
 model=model_3088
-recol1s=960
-recol1d=8092
-recol2s=6080
-recol2d=22464
-recol3s=24256
-recol3d=22430
+recol1s=30753
+recol1d=14656
+recol2s=31201
+recol2d=992
+recol3s=4968
+recol3d=480
 anim=blast_impact
 ambient=40
 contrast=40
@@ -973,26 +973,26 @@ contrast=75
 
 [chargewaterorb_casting]
 model=model_3112
-recol1s=49088
-recol1d=43968
+recol1s=13343
+recol1d=31
 anim=chargeorb_casting
 
 [chargewindorb_casting]
 model=model_3112
-recol1s=49088
-recol1d=115
+recol1s=13343
+recol1d=29596
 anim=chargeorb_casting
 
 [chargeearthorb_casting]
 model=model_3112
-recol1s=49088
-recol1d=22430
+recol1s=13343
+recol1d=480
 anim=chargeorb_casting
 
 [chargefireorb_casting]
 model=model_3112
-recol1s=49088
-recol1d=960
+recol1s=13343
+recol1d=30753
 anim=chargeorb_casting
 
 [enchant_amulet2_lvl4]
@@ -1023,108 +1023,108 @@ contrast=60
 
 [windwave_casting]
 model=model_3114
-recol1s=7104
-recol1d=82
-recol2s=6080
-recol2d=127
-recol3s=960
-recol3d=61
+recol1s=31297
+recol1d=21140
+recol2s=31201
+recol2d=32767
+recol3s=30753
+recol3d=15855
 anim=wave_casting
 ambient=50
 contrast=50
 
 [windwave_travel]
 model=model_3115
-recol1s=7104
-recol1d=82
-recol2s=6080
-recol2d=127
-recol3s=960
-recol3d=61
+recol1s=31297
+recol1d=21140
+recol2s=31201
+recol2d=32767
+recol3s=30753
+recol3d=15855
 anim=wave_travel
 ambient=50
 contrast=50
 
 [windwave_impact]
 model=model_3116
-recol1s=7104
-recol1d=82
-recol2s=6080
-recol2d=127
-recol3s=960
-recol3d=61
+recol1s=31297
+recol1d=21140
+recol2s=31201
+recol2d=32767
+recol3s=30753
+recol3d=15855
 anim=wave_impact
 ambient=50
 contrast=50
 
 [waterwave_casting]
 model=model_3114
-recol1s=7104
-recol1d=43486
-recol2s=6080
-recol2d=38848
-recol3s=960
-recol3d=43968
+recol1s=31297
+recol1d=15871
+recol2s=31201
+recol2d=479
+recol3s=30753
+recol3d=31
 anim=wave_casting
 ambient=40
 contrast=40
 
 [waterwave_travel]
 model=model_3115
-recol1s=7104
-recol1d=43486
-recol2s=6080
-recol2d=38848
-recol3s=960
-recol3d=43968
+recol1s=31297
+recol1d=15871
+recol2s=31201
+recol2d=479
+recol3s=30753
+recol3d=31
 anim=wave_travel
 ambient=60
 contrast=60
 
 [waterwave_impact]
 model=model_3116
-recol1s=7104
-recol1d=43486
-recol2s=6080
-recol2d=38848
-recol3s=960
-recol3d=43968
+recol1s=31297
+recol1d=15871
+recol2s=31201
+recol2d=479
+recol3s=30753
+recol3d=31
 anim=wave_impact
 ambient=60
 contrast=60
 
 [earthwave_casting]
 model=model_3114
-recol1s=7104
-recol1d=8092
-recol2s=6080
-recol2d=22464
-recol3s=960
-recol3d=22430
+recol1s=31297
+recol1d=14656
+recol2s=31201
+recol2d=992
+recol3s=30753
+recol3d=480
 anim=wave_casting
 ambient=40
 contrast=40
 
 [earthwave_travel]
 model=model_3115
-recol1s=7104
-recol1d=8092
-recol2s=6080
-recol2d=22464
-recol3s=960
-recol3d=22430
+recol1s=31297
+recol1d=14656
+recol2s=31201
+recol2d=992
+recol3s=30753
+recol3d=480
 anim=wave_travel
 ambient=40
 contrast=40
 
 [earthwave_impact]
 model=model_3116
-recol1s=7104
-recol1d=8092
-recol2s=6080
-recol2d=22464
-recol3s=960
-recol3d=22430
+recol1s=31297
+recol1d=14656
+recol2s=31201
+recol2d=992
+recol3s=30753
+recol3d=480
 anim=wave_impact
 ambient=40
 contrast=40
@@ -1227,18 +1227,18 @@ anim=catabow_end
 
 [shilomist]
 model=model_3076
-recol1s=61
-recol1d=19344
+recol1s=15855
+recol1d=2304
 anim=smokepuff
 
 [shooting_star]
 model=model_3087
-recol1s=960
-recol1d=119
-recol2s=6080
-recol2d=123
-recol3s=7104
-recol3d=115
+recol1s=30753
+recol1d=30653
+recol2s=31201
+recol2d=31710
+recol3s=31297
+recol3d=29596
 anim=blast_travel
 
 [runecrafting]
@@ -1247,8 +1247,8 @@ anim=runecrafting
 
 [upass_claw]
 model=model_3068
-recol1s=53167
-recol1d=10062
+recol1s=18455
+recol1d=30537
 anim=gunthix_claw
 resizeh=56
 
@@ -1277,66 +1277,66 @@ resizev=224
 
 [holy_water_travel]
 model=model_3151
-recol1s=61
-recol1d=43959
-recol2s=127
-recol2d=41438
+recol1s=15855
+recol1d=27
+recol2s=32767
+recol2d=15967
 anim=vial_travel
 
 [holy_water_launch]
 model=model_3149
-recol1s=61
-recol1d=43959
-recol2s=127
-recol2d=41438
+recol1s=15855
+recol1d=27
+recol2s=32767
+recol2d=15967
 anim=vial_launch
 
 [nezik_flamestrike_casting]
 model=model_3083
-recol1s=51136
-recol1d=43146
+recol1s=19487
+recol1d=2115
 anim=strike_casting
 
 [nezik_flamestrike_travel]
 model=model_3081
-recol1s=926
-recol1d=43146
-recol2s=947
-recol2d=45993
-recol3s=11200
-recol3d=127
+recol1s=15360
+recol1d=2115
+recol2s=24609
+recol2d=3092
+recol3s=31649
+recol3d=32767
 anim=strike_travel
 
 [nezik_flamestrike_impact]
 model=model_3082
-recol1s=926
-recol1d=43146
-recol2s=947
-recol2d=45993
-recol3s=11200
-recol3d=127
+recol1s=15360
+recol1d=2115
+recol2s=24609
+recol2d=3092
+recol3s=31649
+recol3d=32767
 anim=strike_impact
 
 [nezik_flamestrike]
 model=model_2267
-recol1s=8128
-recol1d=43146
-recol2s=7104
-recol2d=45993
-recol3s=5056
-recol3d=127
+recol1s=31393
+recol1d=2115
+recol2s=31297
+recol2d=3092
+recol3s=31105
+recol3d=32767
 anim=flamewall
 resizeh=128
 resizev=384
 
 [bookofbinding_effect]
 model=model_3116
-recol1s=7104
-recol1d=127
-recol2s=6080
-recol2d=43117
-recol3s=960
-recol3d=43233
+recol1s=31297
+recol1d=32767
+recol2s=31201
+recol2d=23263
+recol3s=30753
+recol3d=16927
 anim=wave_impact
 
 [levelup_anim]
@@ -1345,42 +1345,42 @@ anim=levelup_anim
 
 [bronze_javelin_travel]
 model=model_3138
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 
 [iron_javelin_travel]
 model=model_3138
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 
 [steel_javelin_travel]
 model=model_3138
 
 [mithril_javelin_travel]
 model=model_3138
-recol1s=61
-recol1d=43282
+recol1s=15855
+recol1d=3174
 
 [adamant_javelin_travel]
 model=model_3138
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 
 [rune_javelin_travel]
 model=model_3138
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 
 [mm2_kruk_ninjastar]
 model=model_3144
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 anim=human_blown_middle_priority
 
 [monkey_hunting_run]
 model=model_3144
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 anim=human_blown_middle_priority
 
 [monkey_hunting_run_sans_tail]
@@ -1389,187 +1389,187 @@ anim=human_blown_middle_priority
 
 [ii_impling11_escape]
 model=model_3144
-recol1s=61
-recol1d=43282
+recol1s=15855
+recol1d=3174
 anim=human_blown_middle_priority
 
 [ii_impling11_kick]
 model=model_3144
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 anim=human_blown_middle_priority
 
 [ii_impling11_travel]
 model=model_3144
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 anim=human_blown_middle_priority
 
 [bronze_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=5652
-recol2s=57
-recol2d=5652
+recol1s=15855
+recol1d=8354
+recol2s=14798
+recol2d=8354
 
 [iron_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=33
-recol2s=57
-recol2d=33
+recol1s=15855
+recol1d=8456
+recol2s=14798
+recol2d=8456
 
 [steel_tknife_travel]
 model=model_3139
-recol1s=57
-recol1d=61
+recol1s=14798
+recol1d=15855
 
 [black_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=8
-recol2s=57
-recol2d=8
+recol1s=15855
+recol1d=2114
+recol2s=14798
+recol2d=2114
 
 [mithril_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=43282
-recol2s=57
-recol2d=43282
+recol1s=15855
+recol1d=3174
+recol2s=14798
+recol2d=3174
 
 [adamant_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=21662
-recol2s=57
-recol2d=21662
+recol1s=15855
+recol1d=6438
+recol2s=14798
+recol2d=6438
 
 [rune_tknife_travel]
 model=model_3139
-recol1s=61
-recol1d=36133
-recol2s=57
-recol2d=36133
+recol1s=15855
+recol1d=6476
+recol2s=14798
+recol2d=6476
 
 [bronze_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=5652
-recol2s=57
-recol2d=5652
+recol1s=15855
+recol1d=8354
+recol2s=14798
+recol2d=8354
 anim=tknife_launch
 
 [iron_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=33
-recol2s=57
-recol2d=33
+recol1s=15855
+recol1d=8456
+recol2s=14798
+recol2d=8456
 anim=tknife_launch
 
 [steel_tknife_launch]
 model=model_3145
-recol1s=57
-recol1d=61
+recol1s=14798
+recol1d=15855
 anim=tknife_launch
 
 [black_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=8
-recol2s=57
-recol2d=8
+recol1s=15855
+recol1d=2114
+recol2s=14798
+recol2d=2114
 anim=tknife_launch
 
 [mithril_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=43282
-recol2s=57
-recol2d=43282
+recol1s=15855
+recol1d=3174
+recol2s=14798
+recol2d=3174
 anim=tknife_launch
 
 [adamant_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=21662
-recol2s=57
-recol2d=21662
+recol1s=15855
+recol1d=6438
+recol2s=14798
+recol2d=6438
 anim=tknife_launch
 
 [rune_tknife_launch]
 model=model_3145
-recol1s=61
-recol1d=36133
-recol2s=57
-recol2d=36133
+recol1s=15855
+recol1d=6476
+recol2s=14798
+recol2d=6476
 anim=tknife_launch
 
 [bronze_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=5652
+recol1s=21140
+recol1d=8354
 
 [iron_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=33
+recol1s=21140
+recol1d=8456
 
 [steel_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=61
+recol1s=21140
+recol1d=15855
 
 [mithril_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=43282
+recol1s=21140
+recol1d=3174
 
 [adamant_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=21662
+recol1s=21140
+recol1d=6438
 
 [rune_dart_travel]
 model=model_3131
-recol1s=82
-recol1d=36133
+recol1s=21140
+recol1d=6476
 
 [bronze_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=5652
+recol1s=21140
+recol1d=8354
 anim=dart_launch
 
 [iron_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=33
+recol1s=21140
+recol1d=8456
 anim=dart_launch
 
 [steel_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=61
+recol1s=21140
+recol1d=15855
 anim=dart_launch
 
 [mithril_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=43282
+recol1s=21140
+recol1d=3174
 anim=dart_launch
 
 [adamant_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=21662
+recol1s=21140
+recol1d=6438
 anim=dart_launch
 
 [rune_dart_launch]
 model=model_3146
-recol1s=82
-recol1d=36133
+recol1s=21140
+recol1d=6476
 anim=dart_launch
 
 [enchant_ring]
@@ -1592,31 +1592,31 @@ anim=ogre_bellows_use
 
 [ogre_arrow_travel]
 model=model_3136
-recol1s=5012
-recol1d=7582
-recol2s=926
-recol2d=127
-recol3s=61
-recol3d=10326
-recol4s=57
-recol4d=13790
-recol5s=74
-recol5d=9329
+recol1s=10368
+recol1d=11556
+recol2s=15360
+recol2d=32767
+recol3s=15855
+recol3d=23252
+recol4s=14798
+recol4d=27569
+recol5s=19026
+recol5d=32728
 resizeh=192
 resizev=192
 
 [ogre_arrow_launch]
 model=model_3142
-recol1s=5012
-recol1d=7582
-recol2s=926
-recol2d=127
-recol3s=61
-recol3d=10326
-recol4s=57
-recol4d=13790
-recol5s=74
-recol5d=9329
+recol1s=10368
+recol1d=11556
+recol2s=15360
+recol2d=32767
+recol3s=15855
+recol3d=23252
+recol4s=14798
+recol4d=27569
+recol5s=19026
+recol5d=32728
 anim=arrow_launch
 resizeh=192
 resizev=192
@@ -1633,16 +1633,16 @@ contrast=40
 
 [sp_attackglow_red]
 model=model_2318
-recol1s=11218
-recol1d=964
+recol1s=31658
+recol1d=30819
 anim=sp_attackglow
 ambient=60
 contrast=60
 
 [sp_attackglow_blue]
 model=model_2318
-recol1s=11218
-recol1d=42572
+recol1s=31658
+recol1d=11674
 anim=sp_attackglow
 ambient=60
 contrast=60
@@ -1704,16 +1704,16 @@ anim=sp_attack_chainhit_launch_spotanim
 
 [sp_attack_chainhit_travel_spotanim]
 model=model_3474
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 anim=sp_attack_chainhit_travel_spotanim
 ambient=60
 contrast=60
 
 [druidicspirit_priest_bless]
 model=model_3569
-recol1s=11200
-recol1d=127
+recol1s=31649
+recol1d=32767
 anim=druidicspirit_druidsshield_spotanim
 
 [mushroom_growing]
@@ -1742,56 +1742,56 @@ contrast=30
 
 [ghast_spotdeath]
 model=model_3559
-recol1s=7471
-recol1d=43131
-recol2s=7236
-recol2d=43131
+recol1s=15784
+recol1d=30655
+recol2s=18991
+recol2d=30655
 recol3s=0
-recol3d=43131
-recol4s=920
-recol4d=43131
-recol5s=12224
-recol5d=43131
-recol6s=10355
-recol6d=10355
+recol3d=30655
+recol4s=12288
+recol4d=30655
+recol5s=28609
+recol5d=30655
+recol6s=30651
+recol6d=30651
 anim=ghast_spotdeath
 
 [druidicspirit_effect]
 model=model_3116
-recol1s=7104
-recol1d=17344
-recol2s=6080
-recol2d=22441
-recol3s=960
-recol3d=22464
+recol1s=31297
+recol1d=14273
+recol2s=31201
+recol2d=640
+recol3s=30753
+recol3d=992
 anim=wave_impact
 
 [mortmyre_swampstench]
 model=model_3076
-recol1s=61
-recol1d=17344
+recol1s=15855
+recol1d=14273
 anim=smokepuff
 resizeh=168
 resizev=168
 
 [druid_shooting_star]
 model=model_3087
-recol1s=960
-recol1d=22420
-recol2s=6080
-recol2d=22464
-recol3s=7104
-recol3d=17344
+recol1s=30753
+recol1d=320
+recol2s=31201
+recol2d=992
+recol3s=31297
+recol3d=14273
 anim=blast_travel
 
 [druidpouch_impact]
 model=model_3082
-recol1s=926
-recol1d=22420
-recol2s=947
-recol2d=22441
-recol3s=11200
-recol3d=17344
+recol1s=15360
+recol1d=320
+recol2s=24609
+recol2d=640
+recol3s=31649
+recol3d=14273
 anim=strike_impact
 ambient=50
 contrast=50
@@ -1802,8 +1802,8 @@ anim=agilityarena_dart_flight
 
 [agilityarena_roofcollapse]
 model=model_2321
-recol1s=61
-recol1d=7646
+recol1s=15855
+recol1d=30513
 anim=rockfall
 
 [priestperil_coffin_spell]
@@ -1812,7 +1812,7 @@ anim=priestperil_coffin_neutralised
 
 [black_dart_launch]
 model=model_3146
-recol1s=82
+recol1s=21140
 recol1d=0
 anim=dart_launch
 
@@ -1845,16 +1845,16 @@ anim=kalphite_queen_glow
 
 [kalphite_glow_travel]
 model=model_3093
-recol1s=55198
-recol1d=30949
+recol1s=15375
+recol1d=19453
 anim=confuse_travel
 ambient=75
 contrast=75
 
 [kalphite_glow_impact]
 model=model_3094
-recol1s=55198
-recol1d=30949
+recol1s=15375
+recol1d=19453
 anim=confuse_impact
 ambient=75
 contrast=75
@@ -1898,8 +1898,8 @@ resizev=64
 
 [kalphite_queen_spine]
 model=model_4050
-recol1s=22404
-recol1d=920
+recol1s=64
+recol1d=12288
 resizeh=64
 resizev=64
 
@@ -1926,73 +1926,73 @@ model=model_4588
 
 [horror_spines_travel_air]
 model=model_4588
-recol3s=10283
-recol3d=74
+recol3s=11626
+recol3d=19026
 
 [horror_spines_travel_water]
 model=model_4588
-recol3s=10283
-recol3d=43065
+recol3s=11626
+recol3d=13743
 
 [horror_spines_travel_fire]
 model=model_4588
-recol3s=10283
-recol3d=301
+recol3s=11626
+recol3d=14600
 
 [horror_spines_travel_earth]
 model=model_4588
-recol3s=10283
-recol3d=5557
+recol3s=11626
+recol3d=18856
 
 [horror_spines_travel_ranged]
 model=model_4588
-recol3s=10283
-recol3d=21807
+recol3s=11626
+recol3d=8680
 
 [horror_spines_travel_melee]
 model=model_4588
-recol3s=10283
-recol3d=10549
+recol3s=11626
+recol3d=17961
 
 [acb_specialattack]
 model=model_3091
-recol1s=48957
-recol1d=699
+recol1s=13404
+recol1d=24741
 anim=teleport
 ambient=100
 contrast=100
 
 [mm_roofcollapse]
 model=model_2321
-recol1s=61
-recol1d=7646
+recol1s=15855
+recol1d=30513
 anim=rockfall
 
 [castlewars_catapult_impact]
 model=model_4848
-recol4s=53
-recol4d=3239
+recol4s=13741
+recol4d=11560
 anim=castlewars_rockfall
 
 [castlewars_catapult_travel]
 model=model_3140
-recol4s=53
-recol4d=3239
+recol4s=13741
+recol4d=11560
 
 [castlewars_catapult_splash]
 model=model_3116
-recol1s=7104
-recol1d=22416
-recol2s=6080
-recol2d=21539
-recol3s=960
-recol3d=21652
+recol1s=31297
+recol1d=256
+recol2s=31201
+recol2d=8488
+recol3s=30753
+recol3d=4292
 anim=wave_impact
 
 [battlestaff_air_crafting_spotanim]
 model=model_3478
-recol1s=65472
-recol1d=54177
+recol1s=30754
+recol1d=14352
 anim=sp_attack_puncture_spotanim
 ambient=50
 contrast=50
@@ -2021,59 +2021,59 @@ anim=summon_spell
 
 [goblin_rpg_travel]
 model=model_3137
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 
 [goblin_rpg_splash]
 model=model_3137
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 
 [corp_spirit_beast_weak_proj]
 model=model_3137
 
 [corp_spirit_beast_mid_proj]
 model=model_3137
-recol1s=61
-recol1d=43297
+recol1s=15855
+recol1d=6346
 
 [corp_spirit_beast_strong_proj]
 model=model_3137
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 
 [ga_beast_rock_fall]
 model=model_3137
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 
 [corp_ground_stomp]
 model=model_3134
-recol1s=61
-recol1d=5652
+recol1s=15855
+recol1d=8354
 
 [dark_core_jump]
 model=model_3134
-recol1s=61
-recol1d=33
+recol1s=15855
+recol1d=8456
 
 [hw07_arm_from_the_ground_spotanim]
 model=model_3134
 
 [elysian_shield_defend_spotanim]
 model=model_3134
-recol1s=61
-recol1d=43297
+recol1s=15855
+recol1d=6346
 
 [lunar_tan_leather]
 model=model_3134
-recol1s=61
-recol1d=21662
+recol1s=15855
+recol1d=6438
 
 [skillcape_diary_spotanim]
 model=model_3134
-recol1s=61
-recol1d=36133
+recol1s=15855
+recol1d=6476
 
 [slayer_basilisk_zap]
 model=model_3073
@@ -2098,40 +2098,40 @@ contrast=60
 
 [slayer_magicdart_impact]
 model=model_3082
-recol1s=947
-recol1d=21706
-recol2s=926
-recol2d=23746
-recol3s=11200
-recol3d=23890
+recol1s=24609
+recol1d=16047
+recol2s=15360
+recol2d=13934
+recol3s=31649
+recol3d=18162
 anim=strike_impact
 ambient=60
 contrast=60
 
 [slayer_infernalmage_magicdart_travel]
 model=model_5091
-recol1s=21706
-recol1d=26826
+recol1s=16047
+recol1d=16050
 anim=slayer_magicdart_travel
 ambient=60
 contrast=60
 
 [slayer_infernalmage_magicdart_impact]
 model=model_3082
-recol1s=947
-recol1d=21689
-recol2s=926
-recol2d=26929
-recol3s=11200
-recol3d=26818
+recol1s=24609
+recol1d=11819
+recol2s=15360
+recol2d=8716
+recol3s=31649
+recol3d=13936
 anim=strike_impact
 ambient=60
 contrast=60
 
 [abyssal_portal]
 model=model_2318
-recol1s=11218
-recol1d=54162
+recol1s=31658
+recol1d=8201
 anim=sp_attackglow
 ambient=60
 contrast=60
@@ -2260,20 +2260,20 @@ anim=burn_firewarrior
 
 [icebeam]
 model=model_6306
-recol1s=33907
-recol1d=43125
+recol1s=26591
+recol1d=27487
 anim=legend_mirror_beam
 ambient=60
 contrast=60
 
 [icebeam_impact]
 model=model_3116
-recol1s=7104
-recol1d=127
-recol2s=6080
-recol2d=43125
-recol3s=960
-recol3d=43119
+recol1s=31297
+recol1d=32767
+recol2s=31201
+recol2d=27487
+recol3s=30753
+recol3d=24319
 anim=wave_impact
 ambient=60
 contrast=60
@@ -2440,32 +2440,32 @@ anim=dragon_ranged_attacks
 
 [dragon_ranged_toxic_attack]
 model=model_6434
-recol1s=926
-recol1d=22414
-recol2s=6080
-recol2d=22435
-recol3s=11200
-recol3d=22447
+recol1s=15360
+recol1d=224
+recol2s=31201
+recol2d=544
+recol3s=31649
+recol3d=736
 anim=dragon_ranged_attacks
 
 [dragon_ranged_ice_attack]
 model=model_6434
-recol1s=926
-recol1d=127
-recol2s=6080
-recol2d=41191
-recol3s=11200
-recol3d=41558
+recol1s=15360
+recol1d=32767
+recol2s=31201
+recol2d=20159
+recol3s=31649
+recol3d=15931
 anim=dragon_ranged_attacks
 
 [dragon_ranged_lightning_attack]
 model=model_6434
-recol1s=926
-recol1d=43955
-recol2s=6080
-recol2d=43592
-recol3s=11200
-recol3d=43228
+recol1s=15360
+recol1d=25
+recol2s=31201
+recol2d=10585
+recol3s=31649
+recol3d=20090
 anim=dragon_ranged_attacks
 
 [flob]
@@ -2494,8 +2494,8 @@ contrast=50
 
 [thzfe_sporecloud]
 model=model_3076
-recol1s=61
-recol1d=11160
+recol1s=15855
+recol1d=12672
 anim=smokepuff
 
 [blunt_arrow_launch]
@@ -2511,14 +2511,14 @@ resizev=160
 
 [goblincaves_roofcollapse]
 model=model_2321
-recol1s=61
-recol1d=10258
+recol1s=15855
+recol1d=5284
 anim=rockfall
 
 [goblincaves_roofcollapse2]
 model=model_14184
-recol1s=61
-recol1d=10258
+recol1s=15855
+recol1d=5284
 anim=big_rockfall
 
 [pyramid_attack]
@@ -2539,8 +2539,8 @@ anim=farming_watering_water
 
 [farming_ingredients_sprinkle_spot]
 model=model_8229
-recol1s=43129
-recol1d=6581
+recol1s=29599
+recol1d=18888
 anim=farming_ingredient_sprinkle_spotanim
 
 [applebarrel_forcrush_spotanim]
@@ -2549,12 +2549,12 @@ anim=applebarrel_forcrush
 
 [applebarrel_rotten_forcrush_spotanim]
 model=model_8253
-recol1s=17331
-recol1d=3742
-recol2s=22422
-recol2d=9647
-recol3s=17304
-recol3d=3742
+recol1s=12033
+recol1d=13506
+recol2s=352
+recol2d=16871
+recol3s=5504
+recol3d=13506
 anim=applebarrel_forcrush
 
 [farming_applebarrel_forcrush_spotanim]
@@ -2563,12 +2563,12 @@ anim=applebarrel_forcrush
 
 [farming_applebarrel_rotten_forcrush_spotanim]
 model=model_8254
-recol1s=17331
-recol1d=3742
-recol2s=22422
-recol2d=9647
-recol3s=17304
-recol3d=3742
+recol1s=12033
+recol1d=13506
+recol2s=352
+recol2d=16871
+recol3s=5504
+recol3d=13506
 anim=applebarrel_forcrush
 
 [charge_infernal_axe]
@@ -2585,48 +2585,48 @@ resizev=115
 
 [toad_cannon_travel_blue]
 model=model_8328
-recol1s=15013
-recol1d=37159
+recol1s=11747
+recol1d=6477
 anim=paint_frog_travel
 resizeh=115
 resizev=115
 
 [toad_cannon_impact_blue]
 model=model_3446
-recol1s=15013
-recol1d=37159
+recol1s=11747
+recol1d=6477
 anim=paint_frog_hit
 resizeh=115
 resizev=115
 
 [toad_cannon_travel_red]
 model=model_8328
-recol1s=15013
-recol1d=2731
+recol1s=11747
+recol1d=18627
 anim=paint_frog_travel
 resizeh=115
 resizev=115
 
 [toad_cannon_impact_red]
 model=model_3446
-recol1s=15013
-recol1d=2731
+recol1s=11747
+recol1d=18627
 anim=paint_frog_hit
 resizeh=115
 resizev=115
 
 [toad_cannon_travel_yellow]
 model=model_8328
-recol1s=15013
-recol1d=9013
+recol1s=11747
+recol1d=24131
 anim=paint_frog_travel
 resizeh=115
 resizev=115
 
 [toad_cannon_impact_yellow]
 model=model_3446
-recol1s=15013
-recol1d=9013
+recol1s=11747
+recol1d=24131
 anim=paint_frog_hit
 resizeh=115
 resizev=115
@@ -2659,32 +2659,32 @@ anim=tbw_broodoo_shield_spotanim
 
 [tbw_shield_impact_poison]
 model=model_3082
-recol1s=926
-recol1d=15165
-recol2s=947
-recol2d=15165
-recol3s=11200
-recol3d=15165
+recol1s=15360
+recol1d=19299
+recol2s=24609
+recol2d=19299
+recol3s=31649
+recol3d=19299
 anim=strike_impact
 
 [tbw_shield_impact_disease]
 model=model_3082
-recol1s=926
-recol1d=4930
-recol2s=947
-recol2d=4930
-recol3s=11200
-recol3d=4930
+recol1s=15360
+recol1d=29092
+recol2s=24609
+recol2d=29092
+recol3s=31649
+recol3d=29092
 anim=strike_impact
 
 [tbw_shield_impact_combat]
 model=model_3082
-recol1s=926
-recol1d=119
-recol2s=947
-recol2d=119
-recol3s=11200
-recol3d=119
+recol1s=15360
+recol1d=30653
+recol2s=24609
+recol2d=30653
+recol3s=31649
+recol3d=30653
 anim=strike_impact
 
 [human_to_skeleton_death]
@@ -2802,10 +2802,10 @@ contrast=60
 
 [enchant_amulet2_lvl6]
 model=model_3113
-recol1s=11200
-recol1d=929
-recol2s=6936
-recol2d=43045
+recol1s=31649
+recol1d=15393
+recol2s=11489
+recol2d=8458
 anim=enchant_amulet2_lvl6
 
 [tzhaar_inferno]
@@ -2899,23 +2899,23 @@ anim=steam_head_spot
 
 [zobie_melt]
 model=model_2259
-recol1s=27028
-recol1d=28723
+recol1s=3301
+recol1d=11725
 anim=swampbubs
 resizeh=90
 resizev=90
 
 [sp_attack_glow_arrow_travel_white]
 model=model_3473
-recol1s=21190
-recol1d=115
+recol1s=9063
+recol1d=29596
 ambient=60
 contrast=60
 
 [sp_attack_glow_arrow_launch_white]
 model=model_3473
-recol1s=21190
-recol1d=115
+recol1s=9063
+recol1d=29596
 anim=arrow_launch
 ambient=60
 contrast=60
@@ -2969,8 +2969,8 @@ anim=summon_floor_spot
 
 [summon_tele]
 model=model_10004
-recol1s=38119
-recol1d=65463
+recol1s=20287
+recol1d=26658
 anim=burgh_hold_hit
 
 [dark_spec_spot]
@@ -3009,8 +3009,8 @@ ambient=30
 
 [champions_goblin_drain_impact]
 model=model_3097
-recol1s=127
-recol1d=23512
+recol1s=32767
+recol1d=13294
 anim=weaken_impact
 ambient=40
 contrast=40
@@ -3026,8 +3026,8 @@ ambient=10
 
 [champions_hobgoblin_drain_impact]
 model=model_3097
-recol1s=127
-recol1d=960
+recol1s=32767
+recol1d=30753
 anim=weaken_impact
 ambient=40
 contrast=40
@@ -3079,53 +3079,53 @@ ambient=40
 
 [wyvern_skeleton_impact_breath]
 model=model_3085
-recol1s=960
-recol1d=38835
-recol2s=6080
-recol2d=35788
+recol1s=30753
+recol1d=377
+recol2s=31201
+recol2d=6943
 anim=bolt_impact
 ambient=40
 
 [devious_assassin_teleport_spotanim]
 model=model_7732
-recol1s=51016
-recol1d=42279
-recol2s=51003
-recol2d=42283
-recol3s=51119
-recol3d=42287
-recol4s=569
-recol4d=42291
-recol5s=689
-recol5d=42295
+recol1s=20701
+recol1d=6381
+recol2s=17499
+recol2d=7438
+recol3s=14359
+recol3d=8495
+recol4s=22726
+recol4d=8497
+recol5s=20612
+recol5d=9554
 anim=devious_assassin_teleport
 ambient=50
 contrast=50
 
 [devious_assassin_teleportreverse_spotanim]
 model=model_7732
-recol1s=51016
-recol1d=42279
-recol2s=51003
-recol2d=42283
-recol3s=51119
-recol3d=42287
-recol4s=569
-recol4d=42291
-recol5s=689
-recol5d=42295
+recol1s=20701
+recol1d=6381
+recol2s=17499
+recol2d=7438
+recol3s=14359
+recol3d=8495
+recol4s=22726
+recol4d=8497
+recol5s=20612
+recol5d=9554
 anim=devious_assassin_teleport
 ambient=50
 contrast=50
 
 [devious_explosion]
 model=model_3116
-recol1s=7104
-recol1d=60112
-recol2s=6080
-recol2d=59972
-recol3s=960
-recol3d=59959
+recol1s=31297
+recol1d=28052
+recol2s=31201
+recol2d=24881
+recol3s=30753
+recol3d=21710
 anim=wave_impact
 ambient=60
 contrast=60
@@ -3140,122 +3140,122 @@ contrast=15
 
 [win05_marionette_jump_red]
 model=model_10529
-recol1s=6457
-recol1d=553
-recol2s=6573
-recol2d=920
-recol3s=5543
-recol3d=912
+recol1s=18922
+recol1d=15525
+recol2s=16774
+recol2d=12288
+recol3s=14661
+recol3d=8192
 anim=marionette_jump
 
 [win05_marionette_walk_red]
 model=model_10529
-recol1s=6457
-recol1d=553
-recol2s=6573
-recol2d=920
-recol3s=5543
-recol3d=912
+recol1s=18922
+recol1d=15525
+recol2s=16774
+recol2d=12288
+recol3s=14661
+recol3d=8192
 anim=marionette_walk
 
 [win05_marionette_bow_red]
 model=model_10529
-recol1s=6457
-recol1d=553
-recol2s=6573
-recol2d=920
-recol3s=5543
-recol3d=912
+recol1s=18922
+recol1d=15525
+recol2s=16774
+recol2d=12288
+recol3s=14661
+recol3d=8192
 anim=marionette_bow
 
 [win05_marionette_dance_red]
 model=model_10529
-recol1s=6457
-recol1d=553
-recol2s=6573
-recol2d=920
-recol3s=5543
-recol3d=912
+recol1s=18922
+recol1d=15525
+recol2s=16774
+recol2d=12288
+recol3s=14661
+recol3d=8192
 anim=marionette_dance
 
 [win05_marionette_jump_blue]
 model=model_10529
-recol1s=6457
-recol1d=43579
-recol2s=6573
-recol2d=42795
-recol3s=5543
-recol3d=42910
+recol1s=18922
+recol1d=6359
+recol2s=16774
+recol2d=2195
+recol3s=14661
+recol3d=47
 anim=marionette_jump
 
 [win05_marionette_walk_blue]
 model=model_10529
-recol1s=6457
-recol1d=43579
-recol2s=6573
-recol2d=42795
-recol3s=5543
-recol3d=42910
+recol1s=18922
+recol1d=6359
+recol2s=16774
+recol2d=2195
+recol3s=14661
+recol3d=47
 anim=marionette_walk
 
 [win05_marionette_bow_blue]
 model=model_10529
-recol1s=6457
-recol1d=43579
-recol2s=6573
-recol2d=42795
-recol3s=5543
-recol3d=42910
+recol1s=18922
+recol1d=6359
+recol2s=16774
+recol2d=2195
+recol3s=14661
+recol3d=47
 anim=marionette_bow
 
 [win05_marionette_dance_blue]
 model=model_10529
-recol1s=6457
-recol1d=43579
-recol2s=6573
-recol2d=42795
-recol3s=5543
-recol3d=42910
+recol1s=18922
+recol1d=6359
+recol2s=16774
+recol2d=2195
+recol3s=14661
+recol3d=47
 anim=marionette_dance
 
 [win05_marionette_jump_green]
 model=model_10529
-recol1s=6457
-recol1d=22305
-recol2s=6573
-recol2d=22424
-recol3s=5543
-recol3d=22416
+recol1s=18922
+recol1d=2498
+recol2s=16774
+recol2d=384
+recol3s=14661
+recol3d=256
 anim=marionette_jump
 
 [win05_marionette_walk_green]
 model=model_10529
-recol1s=6457
-recol1d=22305
-recol2s=6573
-recol2d=22424
-recol3s=5543
-recol3d=22416
+recol1s=18922
+recol1d=2498
+recol2s=16774
+recol2d=384
+recol3s=14661
+recol3d=256
 anim=marionette_walk
 
 [win05_marionette_bow_green]
 model=model_10529
-recol1s=6457
-recol1d=22305
-recol2s=6573
-recol2d=22424
-recol3s=5543
-recol3d=22416
+recol1s=18922
+recol1d=2498
+recol2s=16774
+recol2d=384
+recol3s=14661
+recol3d=256
 anim=marionette_bow
 
 [win05_marionette_dance_green]
 model=model_10529
-recol1s=6457
-recol1d=22305
-recol2s=6573
-recol2d=22424
-recol3s=5543
-recol3d=22416
+recol1s=18922
+recol1d=2498
+recol2s=16774
+recol2d=384
+recol3s=14661
+recol3d=256
 anim=marionette_dance
 
 [magictraining_light_door_opens]
@@ -3272,24 +3272,24 @@ contrast=10
 
 [magictraining_bone_drop2]
 model=model_10645
-recol1s=10454
-recol1d=10332
+recol1s=24307
+recol1d=24310
 anim=magictraining_spotanim_bones
 ambient=10
 contrast=10
 
 [magictraining_bone_drop3]
 model=model_10645
-recol1s=10454
-recol1d=7236
+recol1s=24307
+recol1d=18991
 anim=magictraining_spotanim_bones
 ambient=10
 contrast=10
 
 [magictraining_bone_drop4]
 model=model_10645
-recol1s=10454
-recol1d=21590
+recol1s=24307
+recol1d=21204
 anim=magictraining_spotanim_bones
 ambient=10
 contrast=10
@@ -3326,55 +3326,55 @@ ambient=50
 
 [enakh_boneguard_glow_large_ready]
 model=model_10973
-recol1s=8152
-recol1d=5056
-recol2s=7399
-recol2d=5056
+recol1s=31533
+recol1d=31105
+recol2s=29526
+recol2d=31105
 anim=enakh_boneguard_glow_large_ready
 ambient=50
 
 [enakh_boneguard_glow_large_attack]
 model=model_10973
-recol1s=8152
-recol1d=5056
-recol2s=7399
-recol2d=5056
+recol1s=31533
+recol1d=31105
+recol2s=29526
+recol2d=31105
 anim=enakh_boneguard_glow_large_attack
 ambient=50
 
 [enakh_boneguard_glow_large_block]
 model=model_10973
-recol1s=8152
-recol1d=5056
-recol2s=7399
-recol2d=5056
+recol1s=31533
+recol1d=31105
+recol2s=29526
+recol2d=31105
 anim=enakh_boneguard_glow_large_block
 ambient=50
 
 [enakh_boneguard_glow_large_walk]
 model=model_10973
-recol1s=8152
-recol1d=5056
-recol2s=7399
-recol2d=5056
+recol1s=31533
+recol1d=31105
+recol2s=29526
+recol2d=31105
 anim=enakh_boneguard_glow_large_walk
 ambient=50
 
 [enakh_boneguard_glow_large_death]
 model=model_10973
-recol1s=8152
-recol1d=5056
-recol2s=7399
-recol2d=5056
+recol1s=31533
+recol1d=31105
+recol2s=29526
+recol2d=31105
 anim=enakh_boneguard_glow_large_death
 ambient=50
 
 [enakh_enakhra_transform_spotanim]
 model=model_10973
-recol1s=8152
-recol1d=960
-recol2s=7399
-recol2d=982
+recol1s=31533
+recol1d=30753
+recol2s=29526
+recol2d=31116
 anim=enakh_enakhra_transform_spotanim
 ambient=50
 
@@ -3384,42 +3384,42 @@ anim=spell_shadow_blitz_travel
 
 [enakh_blood_blitz_travel]
 model=model_6379
-recol1s=1994
-recol1d=5219
-recol2s=955
-recol2d=5181
+recol1s=31014
+recol1d=26391
+recol2s=28705
+recol2d=16878
 anim=blood_blitz_travel
 
 [enakh_spell_blood_barrage_impact]
 model=model_6375
-recol1s=706
-recol1d=5219
-recol2s=834
-recol2d=5181
-recol3s=697
-recol3d=5181
-recol4s=65333
-recol4d=5169
-recol5s=953
-recol5d=5268
+recol1s=26822
+recol1d=26391
+recol2s=28804
+recol2d=16878
+recol3s=23717
+recol3d=16878
+recol4s=23652
+recol4d=13707
+recol5s=27681
+recol5d=6308
 anim=spell_blood_barrage_impact
 
 [enakh_ice_barrage_impact]
 model=model_6381
-recol1s=37999
-recol1d=5219
+recol1s=24447
+recol1d=26391
 anim=ice_barrage_impact
 
 [enakh_ice_burst_travel]
 model=model_1204
-recol1s=37999
-recol1d=5219
+recol1s=24447
+recol1d=26391
 anim=ice_burst_travel
 
 [slayer_harpie_splat]
 model=model_2223
-recol1s=43237
-recol1d=26291
+recol1s=19039
+recol1d=4778
 anim=watersplash_small
 
 [fever_cannon_blast]
@@ -3434,14 +3434,14 @@ model=model_11183
 
 [fever_barrel_fuse_light]
 model=model_11167
-recol1s=5541
-recol1d=5904
-recol2s=5665
-recol2d=6806
-recol3s=5660
-recol3d=6930
-recol4s=5784
-recol4d=6806
+recol1s=13605
+recol1d=7297
+recol2s=12548
+recol2d=9410
+recol3s=11491
+recol3d=8353
+recol4s=10434
+recol4d=9410
 anim=barrel_lit_spotanim
 
 [fever_fuse_light]
@@ -3479,10 +3479,10 @@ ambient=30
 
 [chaoselemental_spotanim_confusion_casting]
 model=model_11219
-recol1s=22476
-recol1d=960
-recol2s=25511
-recol2d=935
+recol1s=7142
+recol1d=30753
+recol2s=613
+recol2d=18465
 anim=chaoselemental_madness_casting
 ambient=30
 
@@ -3493,10 +3493,10 @@ ambient=30
 
 [chaoselemental_spotanim_confusion_impact]
 model=model_11220
-recol1s=22476
-recol1d=960
-recol2s=25511
-recol2d=935
+recol1s=7142
+recol1d=30753
+recol2s=613
+recol2d=18465
 anim=chaoselemental_madness_impact
 ambient=30
 
@@ -3595,28 +3595,28 @@ contrast=30
 
 [slayer_zygomite_spores_spotanim]
 model=model_12642
-recol1s=33728
-recol1d=43906
-recol2s=39896
-recol2d=43906
-recol3s=37312
-recol3d=43906
+recol1s=959
+recol1d=1
+recol2s=12927
+recol2d=1
+recol3s=8727
+recol3d=1
 anim=fungicide_spores_anim
 ambient=20
 contrast=20
 
 [slayer_zygomite_jump_out_spotanim]
 model=model_12641
-recol1s=6371
-recol1d=10448
-recol2s=7386
-recol2d=15434
-recol3s=7376
-recol3d=21563
-recol4s=10301
-recol4d=24751
-recol5s=3491
-recol5d=1843
+recol1s=29492
+recol1d=22194
+recol2s=26355
+recol2d=19057
+recol3s=22162
+recol3d=13837
+recol4s=16910
+recol4d=10667
+recol5s=12517
+recol5d=22691
 anim=zygomite_leap_out
 ambient=10
 contrast=10
@@ -3643,12 +3643,12 @@ anim=100_goblin_cauldren_tumble
 
 [100_goblin_cauldren_roof_flames]
 model=model_13491
-recol1s=5413
-recol1d=5392
-recol2s=7580
-recol2d=7566
-recol3s=2952
-recol3d=12
+recol1s=12582
+recol1d=5251
+recol2s=10500
+recol2d=5250
+recol3s=4128
+recol3d=3171
 anim=100_goblin_roof_flames
 
 [100guide_egg_lift]
@@ -3673,16 +3673,16 @@ anim=100_jubbly_toad_balloon_inflate
 
 [ogre_arrow_far_launch]
 model=model_3142
-recol1s=5012
-recol1d=7582
-recol2s=926
-recol2d=127
-recol3s=61
-recol3d=10326
-recol4s=57
-recol4d=13790
-recol5s=74
-recol5d=9329
+recol1s=10368
+recol1d=11556
+recol2s=15360
+recol2d=32767
+recol3s=15855
+recol3d=23252
+recol4s=14798
+recol4d=27569
+recol5s=19026
+recol5d=32728
 anim=100_ogre_arrow
 
 [cul_book_spin]
@@ -3826,8 +3826,8 @@ anim=poh_marble_trap_end
 
 [dirtywatersplash]
 model=model_2223
-recol1s=43237
-recol1d=8993
+recol1s=19039
+recol1d=14690
 anim=watersplash
 
 [poh_summoning_spotanim]
@@ -3846,8 +3846,8 @@ anim=trek_tentacle_bubbles
 
 [trek_glowing_circle]
 model=model_2318
-recol1s=11218
-recol1d=18392
+recol1s=31658
+recol1d=19436
 anim=glowingcircle
 ambient=100
 contrast=100
@@ -3863,8 +3863,8 @@ model=model_14166
 
 [trek_snail_acid]
 model=model_3080
-recol1s=61
-recol1d=10545
+recol1s=15855
+recol1d=15849
 anim=trek_snail_acid_hit
 ambient=50
 contrast=50
@@ -3883,72 +3883,72 @@ anim=neckdeathfade
 
 [soulbane_hope_launch]
 model=model_7412
-recol1s=17069
-recol1d=33457
+recol1s=10820
+recol1d=3733
 anim=specter_goo_launch
 resizeh=64
 resizev=64
 
 [soulbane_hope_travel]
 model=model_7412
-recol1s=17069
-recol1d=33457
+recol1s=10820
+recol1d=3733
 anim=specter_goo_travel
 resizeh=64
 resizev=64
 
 [soulbane_hope_impact]
 model=model_7412
-recol1s=17069
-recol1d=33457
+recol1s=10820
+recol1d=3733
 anim=specter_goo_impact
 resizeh=64
 resizev=64
 
 [soulbane_conf_launch]
 model=model_7412
-recol1s=17069
-recol1d=55207
+recol1s=10820
+recol1d=18482
 anim=specter_goo_launch
 resizeh=64
 resizev=64
 
 [soulbane_conf_travel]
 model=model_7412
-recol1s=17069
-recol1d=55207
+recol1s=10820
+recol1d=18482
 anim=specter_goo_travel
 resizeh=64
 resizev=64
 
 [soulbane_conf_impact]
 model=model_7412
-recol1s=17069
-recol1d=55207
+recol1s=10820
+recol1d=18482
 anim=specter_goo_impact
 resizeh=64
 resizev=64
 
 [soulbane_tolna_launch]
 model=model_7412
-recol1s=17069
-recol1d=62375
+recol1s=10820
+recol1d=18471
 anim=specter_goo_launch
 resizeh=64
 resizev=64
 
 [soulbane_tolna_travel]
 model=model_7412
-recol1s=17069
-recol1d=62375
+recol1s=10820
+recol1d=18471
 anim=specter_goo_travel
 resizeh=64
 resizev=64
 
 [soulbane_tolna_impact]
 model=model_7412
-recol1s=17069
-recol1d=62375
+recol1s=10820
+recol1d=18471
 anim=specter_goo_impact
 resizeh=64
 resizev=64
@@ -3991,53 +3991,53 @@ ambient=30
 
 [splatter_exploding_spotanim2]
 model=model_14558
-recol1s=4550
-recol1d=57680
-recol2s=4546
-recol2d=57676
-recol3s=4541
-recol3d=57672
-recol4s=4537
-recol4d=57540
+recol1s=24075
+recol1d=24085
+recol2s=23018
+recol2d=23028
+recol3s=21961
+recol3d=21971
+recol4s=20904
+recol4d=20914
 anim=splatter_exploding
 ambient=30
 
 [splatter_exploding_spotanim3]
 model=model_14558
-recol1s=4550
-recol1d=12587
-recol2s=4546
-recol2d=12583
-recol3s=4541
-recol3d=12707
-recol4s=4537
-recol4d=12702
+recol1s=24075
+recol1d=13767
+recol2s=23018
+recol2d=11655
+recol3s=21961
+recol3d=11653
+recol4s=20904
+recol4d=10596
 anim=splatter_exploding
 ambient=30
 
 [splatter_exploding_spotanim4]
 model=model_14558
-recol1s=4550
-recol1d=2981
-recol2s=4546
-recol2d=1955
-recol3s=4541
-recol3d=1953
-recol4s=4537
-recol4d=926
+recol1s=24075
+recol1d=17537
+recol2s=23018
+recol2d=16481
+recol3s=21961
+recol3d=15457
+recol4s=20904
+recol4d=15360
 anim=splatter_exploding
 ambient=30
 
 [splatter_exploding_spotanim5]
 model=model_14558
-recol1s=4550
-recol1d=38800
-recol2s=4546
-recol2d=39822
-recol3s=4541
-recol3d=40844
-recol4s=4537
-recol4d=41866
+recol1s=24075
+recol1d=136
+recol2s=23018
+recol2d=103
+recol3s=21961
+recol3d=70
+recol4s=20904
+recol4d=37
 anim=splatter_exploding
 ambient=30
 
@@ -4086,6 +4086,6 @@ anim=swan_pot_spotanim
 
 [toxic_tots_casting]
 model=model_3134
-recol1s=61
+recol1s=15855
 recol1d=0
 

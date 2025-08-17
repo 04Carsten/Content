@@ -160,8 +160,8 @@ type=man_hands
 
 [idk_34]
 model1=model_176
-recol1s=43072
-recol1d=4550
+recol1s=14801
+recol1d=24075
 type=man_hands
 
 [man_hands_demon]
@@ -314,8 +314,8 @@ type=woman_hands
 
 [idk_68]
 model1=model_353
-recol1s=43072
-recol1d=4550
+recol1s=14801
+recol1d=24075
 type=woman_hands
 
 [idk_69]
