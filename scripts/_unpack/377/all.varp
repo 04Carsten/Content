@@ -1124,6 +1124,7 @@ transmit=yes
 [varp_500]
 
 [varp_501]
+transmit=yes
 
 [varp_502]
 transmit=yes
