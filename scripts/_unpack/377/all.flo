@@ -662,5 +662,5 @@ colour=0x786848
 
 [stone_tiles]
 overlay=yes
-texture=plant2
+texture=stone_tiles
 
