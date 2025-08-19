@@ -1133,7 +1133,7 @@ x=90
 y=180
 width=32
 height=32
-model=model_419
+model=obj_macro_mime_legs_womanwear
 zoom=600
 
 [com_126]
@@ -1142,7 +1142,7 @@ x=142
 y=180
 width=32
 height=32
-model=model_433
+model=idk_woman_legs_shorts
 zoom=600
 
 [com_127]
@@ -1151,7 +1151,7 @@ x=195
 y=180
 width=32
 height=32
-model=model_431
+model=idk_woman_legs_flares
 zoom=600
 
 [com_128]
@@ -1160,7 +1160,7 @@ x=248
 y=180
 width=32
 height=32
-model=model_421
+model=obj_roguetrader_carpetsller_legs_womanwear
 zoom=600
 
 [com_129]
@@ -1169,7 +1169,7 @@ x=300
 y=180
 width=32
 height=32
-model=model_428
+model=obj_priest_robe_womanwear
 zoom=600
 
 [com_130]
@@ -1178,7 +1178,7 @@ x=350
 y=180
 width=32
 height=32
-model=model_437
+model=idk_woman_legs_turn_ups_4
 zoom=600
 
 [com_131]
@@ -1187,7 +1187,7 @@ x=400
 y=180
 width=32
 height=32
-model=model_429
+model=idk_woman_legs_turn_ups_5
 zoom=600
 
 [com_132]

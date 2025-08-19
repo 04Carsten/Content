@@ -731,7 +731,7 @@ x=135
 y=289
 width=32
 height=32
-model=model_4612
+model=com_i325
 zoom=2048
 
 [com_90]
@@ -931,7 +931,7 @@ x=336
 y=253
 width=32
 height=32
-model=model_4608
+model=com_i326
 zoom=134
 
 [com_111]
@@ -940,7 +940,7 @@ x=229
 y=57
 width=32
 height=32
-model=model_4611
+model=runeflash_8
 anim=runeflash_off
 zoom=768
 xan=512
@@ -1167,7 +1167,7 @@ x=20
 y=57
 width=20
 height=20
-model=model_2399
+model=obj_firerune
 zoom=1024
 xan=512
 yan=1024
@@ -1178,7 +1178,7 @@ x=20
 y=87
 width=20
 height=20
-model=model_2652
+model=obj_waterrune
 zoom=1024
 xan=512
 yan=1024

@@ -733,7 +733,7 @@ x=65
 y=95
 width=32
 height=32
-model=model_63
+model=obj_leather_cowl_manhead2
 zoom=1200
 yan=200
 
@@ -743,7 +743,7 @@ x=150
 y=95
 width=32
 height=32
-model=model_49
+model=idk_man_hair_dreadlocks_head
 zoom=1200
 yan=200
 
@@ -753,7 +753,7 @@ x=235
 y=95
 width=32
 height=32
-model=model_52
+model=idk_man_hair_long_head
 zoom=1200
 yan=200
 
@@ -763,7 +763,7 @@ x=320
 y=95
 width=32
 height=32
-model=model_55
+model=obj_pickpocket_guide_farmer
 zoom=1200
 yan=200
 
@@ -773,7 +773,7 @@ x=405
 y=95
 width=32
 height=32
-model=model_59
+model=idk_man_hair_tonsure_head
 zoom=1200
 yan=200
 
@@ -783,7 +783,7 @@ x=65
 y=175
 width=32
 height=32
-model=model_53
+model=obj_pickpocket_guide_man
 zoom=1200
 yan=200
 
@@ -793,7 +793,7 @@ x=150
 y=175
 width=32
 height=32
-model=model_67
+model=idk_man_hair_cropped_head
 zoom=1200
 yan=200
 
@@ -803,7 +803,7 @@ x=235
 y=175
 width=32
 height=32
-model=model_46
+model=idk_man_hair_wildspikes_head
 zoom=1200
 yan=200
 
@@ -813,7 +813,7 @@ x=320
 y=175
 width=32
 height=32
-model=model_45
+model=idk_man_hair_spikes_head
 zoom=1200
 yan=200
 

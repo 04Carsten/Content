@@ -4,7 +4,7 @@ x=245
 y=122
 width=32
 height=32
-model=model_3679
+model=obj_macro_cube_redstar
 zoom=390
 
 [com_1]
@@ -13,7 +13,7 @@ x=245
 y=122
 width=32
 height=32
-model=model_3680
+model=obj_macro_cube_redtriangle
 zoom=390
 
 [com_2]
@@ -22,7 +22,7 @@ x=245
 y=122
 width=32
 height=32
-model=model_3678
+model=obj_macro_cube_redhalfmoon
 zoom=390
 
 [com_3]

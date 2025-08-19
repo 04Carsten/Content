@@ -4,7 +4,7 @@ x=240
 y=139
 width=32
 height=28
-model=model_3032
+model=com_i1
 zoom=604
 xan=400
 
@@ -59,7 +59,7 @@ x=355
 y=205
 width=32
 height=32
-model=model_8716
+model=com_i705
 zoom=273
 xan=500
 yan=138

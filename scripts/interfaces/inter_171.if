@@ -116,7 +116,7 @@ x=203
 y=145
 width=35
 height=35
-model=model_3485
+model=com_i200
 zoom=300
 xan=250
 
@@ -759,7 +759,7 @@ x=200
 y=355
 width=35
 height=35
-model=model_3485
+model=com_i200
 zoom=330
 xan=100
 
@@ -769,7 +769,7 @@ x=243
 y=230
 width=30
 height=44
-model=model_2348
+model=obj_tinderbox
 zoom=240
 xan=200
 yan=22

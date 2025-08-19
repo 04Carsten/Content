@@ -31,7 +31,7 @@ x=78
 y=167
 width=91
 height=94
-model=model_6474
+model=com_i115
 zoom=328
 
 [com_4]
@@ -41,7 +41,7 @@ y=130
 buttontype=select
 width=26
 height=27
-model=model_6477
+model=com_i116
 zoom=328
 option=turn tile
 
@@ -52,7 +52,7 @@ y=131
 buttontype=select
 width=27
 height=25
-model=model_6488
+model=com_i117
 zoom=328
 option=turn tile
 
@@ -63,7 +63,7 @@ y=131
 buttontype=select
 width=26
 height=26
-model=model_6495
+model=com_i118
 zoom=328
 option=turn tile
 
@@ -74,7 +74,7 @@ y=131
 buttontype=select
 width=26
 height=26
-model=model_6496
+model=com_i119
 zoom=328
 option=turn tile
 
@@ -85,7 +85,7 @@ y=131
 buttontype=select
 width=26
 height=26
-model=model_6497
+model=com_i120
 zoom=328
 option=turn tile
 
@@ -96,7 +96,7 @@ y=162
 buttontype=select
 width=26
 height=26
-model=model_6498
+model=com_i121
 zoom=328
 option=turn tile
 
@@ -107,7 +107,7 @@ y=162
 buttontype=select
 width=26
 height=26
-model=model_6499
+model=com_i122
 zoom=328
 option=turn tile
 
@@ -118,7 +118,7 @@ y=162
 buttontype=select
 width=26
 height=26
-model=model_6500
+model=com_i123
 zoom=328
 option=turn tile
 
@@ -129,7 +129,7 @@ y=162
 buttontype=select
 width=26
 height=26
-model=model_6501
+model=com_i124
 zoom=328
 option=turn tile
 
@@ -140,7 +140,7 @@ y=162
 buttontype=select
 width=26
 height=26
-model=model_6478
+model=com_i125
 zoom=328
 option=turn tile
 
@@ -151,7 +151,7 @@ y=192
 buttontype=select
 width=26
 height=26
-model=model_6479
+model=com_i126
 zoom=328
 option=turn tile
 
@@ -162,7 +162,7 @@ y=192
 buttontype=select
 width=26
 height=26
-model=model_6480
+model=com_i127
 zoom=328
 option=turn tile
 
@@ -173,7 +173,7 @@ y=192
 buttontype=select
 width=26
 height=26
-model=model_6481
+model=com_i128
 zoom=328
 option=turn tile
 
@@ -184,7 +184,7 @@ y=192
 buttontype=select
 width=26
 height=26
-model=model_6482
+model=com_i129
 zoom=328
 option=turn tile
 
@@ -195,7 +195,7 @@ y=192
 buttontype=select
 width=26
 height=26
-model=model_6483
+model=com_i130
 zoom=328
 option=turn tile
 
@@ -206,7 +206,7 @@ y=222
 buttontype=select
 width=26
 height=26
-model=model_6484
+model=com_i131
 zoom=328
 option=turn tile
 
@@ -217,7 +217,7 @@ y=222
 buttontype=select
 width=26
 height=26
-model=model_6485
+model=com_i132
 zoom=328
 option=turn tile
 
@@ -228,7 +228,7 @@ y=222
 buttontype=select
 width=26
 height=26
-model=model_6486
+model=com_i133
 zoom=328
 option=turn tile
 
@@ -239,7 +239,7 @@ y=222
 buttontype=select
 width=26
 height=26
-model=model_6487
+model=com_i134
 zoom=328
 option=turn tile
 
@@ -250,7 +250,7 @@ y=222
 buttontype=select
 width=26
 height=26
-model=model_6489
+model=com_i135
 zoom=328
 option=turn tile
 
@@ -261,7 +261,7 @@ y=254
 buttontype=select
 width=26
 height=26
-model=model_6490
+model=com_i136
 zoom=328
 option=turn tile
 
@@ -272,7 +272,7 @@ y=254
 buttontype=select
 width=26
 height=26
-model=model_6491
+model=com_i137
 zoom=328
 option=turn tile
 
@@ -283,7 +283,7 @@ y=253
 buttontype=select
 width=26
 height=26
-model=model_6492
+model=com_i138
 zoom=328
 option=turn tile
 
@@ -294,7 +294,7 @@ y=253
 buttontype=select
 width=26
 height=26
-model=model_6493
+model=com_i139
 zoom=328
 option=turn tile
 
@@ -305,7 +305,7 @@ y=254
 buttontype=select
 width=26
 height=26
-model=model_6494
+model=com_i140
 zoom=328
 option=turn tile
 
@@ -316,7 +316,7 @@ y=145
 buttontype=normal
 width=157
 height=164
-model=model_6476
+model=com_i141
 zoom=336
 xan=2036
 yan=2
@@ -328,7 +328,7 @@ x=343
 y=89
 width=121
 height=58
-model=model_6473
+model=com_i142
 zoom=1021
 xan=2037
 yan=1519

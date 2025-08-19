@@ -11,7 +11,7 @@ x=236
 y=98
 width=100
 height=100
-model=model_7621
+model=com_i427
 zoom=1046
 xan=500
 
@@ -21,7 +21,7 @@ x=214
 y=107
 width=100
 height=100
-model=model_7660
+model=com_i428
 zoom=1046
 xan=500
 
@@ -47,7 +47,7 @@ width=100
 height=100
 script1op1=inv_count,inventory:inv,roguesden_puzzle_mosaic_tile1
 script1=gt,0
-activemodel=model_7661
+activemodel=com_i429
 zoom=1046
 xan=500
 
@@ -60,7 +60,7 @@ width=100
 height=100
 script1op1=inv_count,inventory:inv,roguesden_puzzle_mosaic_tile2
 script1=gt,0
-activemodel=model_7662
+activemodel=com_i430
 zoom=1046
 xan=500
 
@@ -73,7 +73,7 @@ width=100
 height=100
 script1op1=inv_count,inventory:inv,roguesden_puzzle_mosaic_tile3
 script1=gt,0
-activemodel=model_7663
+activemodel=com_i431
 zoom=1046
 xan=500
 
@@ -86,6 +86,6 @@ width=100
 height=100
 script1op1=inv_count,inventory:inv,roguesden_puzzle_mosaic_tile4
 script1=gt,0
-activemodel=model_7664
+activemodel=com_i432
 zoom=1046
 xan=500

@@ -6,7 +6,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear1
 script1=gt,0
-activemodel=model_7641
+activemodel=com_i53
 zoom=1096
 xan=500
 
@@ -18,7 +18,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear2
 script1=gt,0
-activemodel=model_7642
+activemodel=com_i54
 zoom=1121
 xan=500
 
@@ -30,7 +30,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear3
 script1=gt,0
-activemodel=model_7643
+activemodel=com_i55
 zoom=1039
 xan=500
 
@@ -42,7 +42,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear4
 script1=gt,0
-activemodel=model_7644
+activemodel=com_i56
 zoom=1068
 xan=500
 
@@ -54,7 +54,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear5
 script1=gt,0
-activemodel=model_7645
+activemodel=com_i57
 zoom=788
 xan=500
 
@@ -66,7 +66,7 @@ width=32
 height=32
 script1op1=inv_count,inventory:inv,roguesden_gear6
 script1=gt,0
-activemodel=model_7646
+activemodel=com_i58
 zoom=1084
 xan=500
 

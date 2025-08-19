@@ -1133,7 +1133,7 @@ x=50
 y=220
 width=32
 height=32
-model=model_254
+model=obj_macro_mime_legs_manwear
 zoom=400
 
 [com_126]
@@ -1142,7 +1142,7 @@ x=185
 y=220
 width=32
 height=32
-model=model_271
+model=idk_man_legs_shorts
 zoom=400
 
 [com_127]
@@ -1151,7 +1151,7 @@ x=310
 y=210
 width=32
 height=32
-model=model_267
+model=idk_man_legs_flares
 zoom=420
 
 [com_128]
@@ -1160,7 +1160,7 @@ x=435
 y=220
 width=32
 height=32
-model=model_274
+model=idk_man_legs_turn_ups
 zoom=400
 
 [com_129]

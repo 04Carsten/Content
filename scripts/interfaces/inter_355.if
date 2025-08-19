@@ -4,7 +4,7 @@ x=240
 y=152
 width=32
 height=32
-model=model_11312
+model=loc_11398_8
 zoom=434
 xan=517
 
@@ -15,7 +15,7 @@ y=256
 buttontype=normal
 width=32
 height=32
-model=model_11311
+model=loc_11399_8
 zoom=450
 xan=517
 
@@ -26,7 +26,7 @@ y=257
 buttontype=normal
 width=32
 height=32
-model=model_11307
+model=loc_11400_8
 zoom=450
 xan=519
 
@@ -37,7 +37,7 @@ y=257
 buttontype=normal
 width=32
 height=32
-model=model_11308
+model=loc_11403_8
 zoom=450
 xan=519
 
@@ -48,7 +48,7 @@ y=258
 buttontype=normal
 width=32
 height=32
-model=model_11309
+model=loc_11401_8
 zoom=450
 xan=519
 
@@ -59,7 +59,7 @@ y=258
 buttontype=normal
 width=32
 height=32
-model=model_11310
+model=loc_11402_8
 zoom=450
 xan=519
 

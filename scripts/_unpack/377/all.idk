@@ -1,385 +1,385 @@
 [man_hair_bald]
-model1=model_230
 type=man_hair
-head1=model_63
+head1=obj_leather_cowl_manhead2
+model1=obj_feud_desert_disguise_manwear
 
 [man_hair_dreadlocks]
-model1=model_210
 type=man_hair
-head1=model_49
+head1=idk_man_hair_dreadlocks_head
+model1=idk_man_hair_dreadlocks
 
 [man_hair_long]
-model1=model_214
 type=man_hair
-head1=model_52
+head1=idk_man_hair_long_head
+model1=idk_man_hair_long
 
 [man_hair_medium]
-model1=model_217
 type=man_hair
-head1=model_55
+head1=obj_pickpocket_guide_farmer
+model1=idk_man_hair_medium
 
 [man_hair_tonsure]
-model1=model_223
 type=man_hair
-head1=model_59
+head1=idk_man_hair_tonsure_head
+model1=idk_man_hair_tonsure
 
 [man_hair_short]
-model1=model_215
 type=man_hair
-head1=model_53
+head1=obj_pickpocket_guide_man
+model1=obj_viking_helmet_manwear
 
 [man_hair_cropped]
-model1=model_235
 type=man_hair
-head1=model_67
+head1=idk_man_hair_cropped_head
+model1=idk_man_hair_cropped
 
 [man_hair_wildspikes]
-model1=model_206
 type=man_hair
-head1=model_46
+head1=idk_man_hair_wildspikes_head
+model1=idk_man_hair_wildspikes
 
 [man_hair_spikes]
-model1=model_203
 type=man_hair
-head1=model_45
+head1=idk_man_hair_spikes_head
+model1=idk_man_hair_spikes
 
 [man_hair_demon]
-model1=model_203
 disable=yes
 type=man_hair
-head1=model_45
+head1=idk_man_hair_spikes_head
+model1=idk_man_hair_spikes
 
 [man_jaw_goatee]
-model1=model_249
 type=man_jaw
-head1=model_81
+head1=idk_man_jaw_goatee_head
+model1=idk_man_jaw_goatee
 
 [man_jaw_long]
-model1=model_250
 type=man_jaw
-head1=model_82
+head1=idk_man_jaw_long_head
+model1=idk_man_jaw_long
 
 [man_jaw_medium]
-model1=model_251
 type=man_jaw
-head1=model_83
+head1=idk_man_jaw_medium_head
+model1=idk_man_jaw_medium
 
 [man_jaw_moustache]
-model1=model_247
 type=man_jaw
-head1=model_79
+head1=idk_man_jaw_moustache_head
+model1=idk_man_jaw_moustache
 
 [man_jaw_none]
-model1=model_246
 type=man_jaw
+model1=idk_man_jaw_none
 
 [man_jaw_short]
-model1=model_248
 type=man_jaw
-head1=model_80
+head1=idk_man_jaw_short_head
+model1=idk_man_jaw_short
 
 [man_jaw_pointy]
-model1=model_253
 type=man_jaw
-head1=model_85
+head1=idk_man_jaw_pointy_head
+model1=idk_man_jaw_pointy
 
 [man_jaw_split]
-model1=model_252
 type=man_jaw
-head1=model_84
+head1=idk_man_jaw_split_head
+model1=idk_man_jaw_split
 
 [man_torso_plain]
-model1=model_292
 type=man_torso
+model1=obj_priest_gown_manwear
 
 [man_torso_light_buttons]
-model1=model_292
-model2=model_322
 type=man_torso
+model1=obj_priest_gown_manwear
+model2=idk_man_torso_light_buttons
 
 [man_torso_dark_buttons]
-model1=model_292
-model2=model_326
 type=man_torso
+model1=obj_priest_gown_manwear
+model2=idk_man_torso_dark_buttons
 
 [man_torso_jacket]
-model1=model_292
-model2=model_320
 type=man_torso
+model1=obj_priest_gown_manwear
+model2=idk_man_torso_jacket
 
 [man_torso_shirt]
-model1=model_292
-model2=model_327
 type=man_torso
+model1=obj_priest_gown_manwear
+model2=idk_man_torso_shirt
 
 [man_torso_stitching]
-model1=model_292
-model2=model_324
 type=man_torso
+model1=obj_priest_gown_manwear
+model2=idk_man_torso_stitching
 
 [man_torso_torn]
-model1=model_310
 type=man_torso
+model1=idk_man_torso_torn
 
 [man_torso_two_toned]
-model1=model_297
 type=man_torso
+model1=idk_man_torso_two_toned
 
 [man_arms_regular]
-model1=model_151
 type=man_arms
+model1=obj_doctor_gown_manwear2
 
 [man_arms_musclebound]
-model1=model_167
 type=man_arms
+model1=idk_man_arms_musclebound
 
 [man_arms_loose_sleeved]
-model1=model_170
 type=man_arms
+model1=obj_priest_gown_manwear2
 
 [man_arms_large_cuffed]
-model1=model_162
 type=man_arms
+model1=obj_viking_top_darkbrown_manwear
 
 [man_arms_thin_sleeved]
-model1=model_163
 type=man_arms
+model1=obj_macro_mime_top_manwear2
 
 [man_arms_shoulder_pads]
-model1=model_158
 type=man_arms
+model1=idk_man_arms_shoulder_pads
 
 [man_arms_demon]
-model1=model_158
 disable=yes
 type=man_arms
+model1=idk_man_arms_shoulder_pads
 
 [idk_33]
-model1=model_176
 type=man_hands
+model1=obj_cert_drill_top_manwear3
 
 [idk_34]
-model1=model_176
 recol1s=14801
 recol1d=24075
 type=man_hands
+model1=obj_cert_drill_top_manwear3
 
 [man_hands_demon]
-model1=model_176
 disable=yes
 type=man_hands
+model1=obj_cert_drill_top_manwear3
 
 [man_legs_plain]
-model1=model_254
 type=man_legs
+model1=obj_macro_mime_legs_manwear
 
 [man_legs_shorts]
-model1=model_271
 type=man_legs
+model1=idk_man_legs_shorts
 
 [man_legs_flares]
-model1=model_267
 type=man_legs
+model1=idk_man_legs_flares
 
 [man_legs_turn_ups]
-model1=model_274
 type=man_legs
+model1=idk_man_legs_turn_ups
 
 [man_legs_tatty]
-model1=model_275
 type=man_legs
+model1=idk_man_legs_tatty
 
 [man_legs_demon]
-model1=model_275
 disable=yes
 type=man_legs
+model1=idk_man_legs_tatty
 
 [idk_42]
-model1=model_181
 type=man_feet
+model1=idk_42
 
 [idk_43]
-model1=model_183
 type=man_feet
+model1=idk_43
 
 [man_feet_demon]
-model1=model_183
 disable=yes
 type=man_feet
+model1=idk_43
 
 [woman_hair_bald]
-model1=model_403
 type=woman_hair
-head1=model_120
+head1=obj_leather_cowl_womanhead2
+model1=obj_feud_desert_disguise_womanwear
 
 [woman_hair_bun]
-model1=model_378
 type=woman_hair
-head1=model_103
+head1=idk_woman_hair_bun_head
+model1=idk_woman_hair_bun
 
 [woman_hair_dreadlocks]
-model1=model_387
 type=woman_hair
-head1=model_110
+head1=idk_woman_hair_dreadlocks_head
+model1=idk_woman_hair_dreadlocks
 
 [woman_hair_long]
-model1=model_390
 type=woman_hair
-head1=model_113
+head1=obj_pickpocket_guide_warrior
+model1=idk_woman_hair_long
 
 [woman_hair_medium]
-model1=model_393
 type=woman_hair
-head1=model_115
+head1=idk_woman_hair_medium_head
+model1=idk_woman_hair_medium
 
 [woman_hair_pigtails]
-model1=model_399
 type=woman_hair
-head1=model_118
+head1=idk_woman_hair_pigtails_head
+model1=idk_woman_hair_pigtails
 
 [woman_hair_short]
-model1=model_391
 type=woman_hair
-head1=model_114
+head1=idk_woman_hair_short_head
+model1=obj_viking_helmet_womanwear
 
 [woman_hair_cropped]
-model1=model_408
 type=woman_hair
-head1=model_125
+head1=idk_woman_hair_cropped_head
+model1=idk_woman_hair_cropped
 
 [woman_hair_wildspikes]
-model1=model_382
 type=woman_hair
-head1=model_105
+head1=idk_woman_hair_wildspikes_head
+model1=idk_woman_hair_wildspikes
 
 [woman_hair_spikes]
-model1=model_379
 type=woman_hair
-head1=model_104
+head1=idk_woman_hair_spikes_head
+model1=idk_woman_hair_spikes
 
 [idk_55]
-model1=model_379
 disable=yes
 type=woman_hair
-head1=model_104
+head1=idk_woman_hair_spikes_head
+model1=idk_woman_hair_spikes
 
 [woman_torso_plain]
-model1=model_456
 type=woman_torso
+model1=obj_priest_gown_womanwear
 
 [woman_torso_crop_top]
-model1=model_469
 type=woman_torso
+model1=idk_woman_torso_crop_top
 
 [woman_torso_polo_neck]
-model1=model_470
 type=woman_torso
+model1=obj_viking_top_darkbrown_womanwear2
 
 [woman_torso_simple]
-model1=model_471
 type=woman_torso
+model1=idk_woman_torso_simple
 
 [woman_torso_torn]
-model1=model_474
 type=woman_torso
+model1=idk_woman_torso_torn
 
 [woman_arms_short_sleeves]
-model1=model_332
 type=woman_arms
+model1=obj_doctor_gown_womanwear2
 
 [woman_arms_bare_arms]
-model1=model_351
 type=woman_arms
+model1=idk_woman_arms_bare_arms
 
 [woman_arms_muscley]
-model1=model_346
 type=woman_arms
+model1=idk_woman_arms_muscley
 
 [woman_arms_long_sleeved]
-model1=model_348
 type=woman_arms
+model1=obj_priest_gown_womanwear2
 
 [woman_arms_large_cuffs]
-model1=model_343
 type=woman_arms
+model1=idk_woman_arms_large_cuffs
 
 [idk_66]
-model1=model_343
 disable=yes
 type=woman_arms
+model1=idk_woman_arms_large_cuffs
 
 [idk_67]
-model1=model_353
 type=woman_hands
+model1=obj_cert_drill_top_womanwear3
 
 [idk_68]
-model1=model_353
 recol1s=14801
 recol1d=24075
 type=woman_hands
+model1=obj_cert_drill_top_womanwear3
 
 [idk_69]
-model1=model_353
 disable=yes
 type=woman_hands
+model1=obj_cert_drill_top_womanwear3
 
 [woman_legs_plain]
-model1=model_419
 type=woman_legs
+model1=obj_macro_mime_legs_womanwear
 
 [woman_legs_shorts]
-model1=model_433
 type=woman_legs
+model1=idk_woman_legs_shorts
 
 [woman_legs_flares]
-model1=model_431
 type=woman_legs
+model1=idk_woman_legs_flares
 
 [woman_legs_turn_ups]
-model1=model_428
 type=woman_legs
+model1=obj_priest_robe_womanwear
 
 [woman_legs_turn_ups_2]
-model1=model_421
 type=woman_legs
+model1=obj_roguetrader_carpetsller_legs_womanwear
 
 [woman_legs_turn_ups_3]
-model1=model_438
 type=woman_legs
+model1=idk_woman_legs_turn_ups_3
 
 [woman_legs_turn_ups_4]
-model1=model_437
 type=woman_legs
+model1=idk_woman_legs_turn_ups_4
 
 [woman_legs_turn_ups_5]
-model1=model_429
 type=woman_legs
+model1=idk_woman_legs_turn_ups_5
 
 [idk_78]
-model1=model_429
 disable=yes
 type=woman_legs
+model1=idk_woman_legs_turn_ups_5
 
 [idk_79]
-model1=model_358
 type=woman_feet
+model1=idk_79
 
 [idk_80]
-model1=model_360
 type=woman_feet
+model1=idk_80
 
 [idk_81]
-model1=model_360
 disable=yes
 type=woman_feet
+model1=idk_80
 
 [idk_82]
-model1=model_7117
 disable=yes
 type=man_feet
+model1=idk_82
 
 [idk_83]
-model1=model_7118
 disable=yes
 type=woman_feet
+model1=idk_83
 

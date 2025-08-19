@@ -4,7 +4,7 @@ x=136
 y=24
 width=35
 height=32
-model=model_2778
+model=obj_iron_battleaxe
 zoom=624
 xan=521
 yan=1288
@@ -394,7 +394,7 @@ x=5
 y=8
 width=146
 height=9
-model=model_3476
+model=com_i3
 zoom=1153
 xan=500
 
@@ -407,7 +407,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,99
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -420,7 +420,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,199
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -433,7 +433,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,299
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -446,7 +446,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,399
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -459,7 +459,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,499
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -472,7 +472,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,599
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -485,7 +485,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,699
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -498,7 +498,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,799
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -511,7 +511,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,899
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 
@@ -524,7 +524,7 @@ width=146
 height=9
 script1op1=pushvar,sa_energy
 script1=gt,999
-model=model_3475
+model=com_i4
 zoom=1153
 xan=500
 

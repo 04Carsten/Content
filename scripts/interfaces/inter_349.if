@@ -731,7 +731,7 @@ x=135
 y=289
 width=32
 height=32
-model=model_4612
+model=com_i325
 zoom=2048
 
 [com_90]
@@ -931,7 +931,7 @@ x=221
 y=40
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -941,7 +941,7 @@ x=285
 y=40
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -951,7 +951,7 @@ x=349
 y=40
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -961,7 +961,7 @@ x=413
 y=40
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -971,7 +971,7 @@ x=253
 y=72
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -981,7 +981,7 @@ x=317
 y=72
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -991,7 +991,7 @@ x=381
 y=72
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1001,7 +1001,7 @@ x=445
 y=73
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1011,7 +1011,7 @@ x=222
 y=104
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1021,7 +1021,7 @@ x=285
 y=104
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1031,7 +1031,7 @@ x=349
 y=105
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1041,7 +1041,7 @@ x=412
 y=105
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1051,7 +1051,7 @@ x=252
 y=137
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1061,7 +1061,7 @@ x=317
 y=136
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1071,7 +1071,7 @@ x=380
 y=137
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1081,7 +1081,7 @@ x=444
 y=137
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1091,7 +1091,7 @@ x=222
 y=168
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1101,7 +1101,7 @@ x=284
 y=168
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1111,7 +1111,7 @@ x=349
 y=168
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1121,7 +1121,7 @@ x=413
 y=168
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1131,7 +1131,7 @@ x=252
 y=201
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1141,7 +1141,7 @@ x=316
 y=200
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1151,7 +1151,7 @@ x=381
 y=200
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1161,7 +1161,7 @@ x=444
 y=200
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1171,7 +1171,7 @@ x=221
 y=232
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1181,7 +1181,7 @@ x=284
 y=232
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1191,7 +1191,7 @@ x=348
 y=232
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1201,7 +1201,7 @@ x=413
 y=232
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1211,7 +1211,7 @@ x=253
 y=264
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1221,7 +1221,7 @@ x=317
 y=264
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1231,7 +1231,7 @@ x=380
 y=265
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1241,7 +1241,7 @@ x=319
 y=201
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1251,7 +1251,7 @@ x=444
 y=264
 width=32
 height=32
-model=model_11103
+model=com_i693
 zoom=2000
 xan=512
 
@@ -1406,7 +1406,7 @@ x=20
 y=57
 width=20
 height=20
-model=model_2399
+model=obj_firerune
 zoom=1024
 xan=512
 yan=1024
@@ -1417,7 +1417,7 @@ x=20
 y=87
 width=20
 height=20
-model=model_2652
+model=obj_waterrune
 zoom=1024
 xan=512
 yan=1024

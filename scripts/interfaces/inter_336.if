@@ -4,7 +4,7 @@ x=415
 y=15
 width=32
 height=32
-model=model_10566
+model=com_i677
 zoom=843
 xan=484
 
@@ -166,7 +166,7 @@ x=0
 y=-1
 width=32
 height=32
-model=model_10568
+model=com_i678
 zoom=500
 xan=496
 
@@ -185,7 +185,7 @@ x=0
 y=0
 width=32
 height=32
-model=model_10568
+model=com_i678
 zoom=500
 xan=490
 
@@ -204,7 +204,7 @@ x=0
 y=0
 width=32
 height=32
-model=model_10568
+model=com_i678
 zoom=500
 xan=496
 
@@ -223,7 +223,7 @@ x=0
 y=1
 width=32
 height=32
-model=model_10568
+model=com_i678
 zoom=500
 xan=490
 
@@ -242,6 +242,6 @@ x=0
 y=0
 width=32
 height=32
-model=model_10568
+model=com_i678
 zoom=500
 xan=496
