@@ -2,4 +2,6 @@
 return (true);
 
 [if_button,logout:com_8]
-p_logout;
+if (p_finduid(uid) = true) {
+    p_logout;
+}
