@@ -6081,13 +6081,13 @@ model=merlin_star
 hillskew=yes
 forcedecor=yes
 
-[mm2_lab_door_left]
+[loc_777]
 model=mm2_lab_door_left
 active=no
 width=2
 length=2
 
-[mm2_lab_door_right_open]
+[loc_778]
 model=mm2_lab_door_right_open
 active=no
 width=3
@@ -7256,7 +7256,7 @@ sharelight=yes
 model=fur_d_verydark
 sharelight=yes
 
-[mm2_lab_door_left_open]
+[loc_954]
 name=Doormat
 desc=For wiping muddy feet on.
 model=mm2_lab_door_left_open
@@ -9596,7 +9596,7 @@ width=2
 length=2
 mapscene=5
 
-[mm2_lab_cage_door_frame]
+[loc_1305]
 name=Tree
 desc=A tree found in tropical areas.
 model=jungletree2
@@ -9609,7 +9609,7 @@ resizex=170
 resizey=170
 resizez=170
 
-[mm2_lab_cage_broken_door]
+[loc_1306]
 name=Magic tree
 desc=The tree shimmers with a magical force.
 model=mm2_lab_cage_broken_door
@@ -9620,7 +9620,7 @@ op3=hidden
 mapscene=0
 ambient=25
 
-[mm2_lab_wall_outer_01]
+[loc_1307]
 name=Maple tree
 desc=I bet this makes good syrup!
 model=mm2_lab_wall_outer_01
@@ -9631,7 +9631,7 @@ op1=Chop down
 op3=hidden
 ambient=25
 
-[mm2_lab_wall_outer_02]
+[loc_1308]
 name=Willow
 desc=These trees are found near water.
 model=mm2_lab_wall_outer_02
@@ -9642,7 +9642,7 @@ op1=Chop down
 op3=hidden
 ambient=25
 
-[mm2_lab_wall_outer_03]
+[loc_1309]
 name=Yew
 desc=A splendid tree.
 model=mm2_lab_wall_outer_03
@@ -9653,7 +9653,7 @@ op3=hidden
 mapscene=3
 ambient=25
 
-[mm2_lab_wall_inner_corner]
+[loc_1310]
 name=Tree
 desc=This tree has vines hanging from it.
 model=mm2_lab_wall_inner_corner
@@ -9698,7 +9698,7 @@ width=3
 length=2
 mapscene=5
 
-[mm2_lab_wall_outer_end01]
+[loc_1315]
 name=Evergreen
 desc=A hardy evergreen tree.
 model=mm2_lab_wall_outer_end01
@@ -9710,7 +9710,7 @@ op1=Chop down
 op3=hidden
 mapscene=0
 
-[mm2_lab_wall_outer_end02]
+[loc_1316]
 name=Evergreen
 desc=A hardy evergreen tree.
 model=mm2_lab_wall_outer_end02
@@ -9722,7 +9722,7 @@ op1=Chop down
 op3=hidden
 mapscene=0
 
-[mm2_lab_wall_outer_lower01]
+[loc_1317]
 name=Spirit tree
 desc=A young sentient tree.
 model=mm2_lab_wall_outer_lower01
@@ -11301,7 +11301,7 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[mm2_lab_wall_outer_lower02]
+[loc_1504]
 name=Door
 desc=The door is open.
 model=mm2_lab_wall_outer_lower02
@@ -11309,7 +11309,7 @@ sharelight=yes
 active=yes
 raiseobject=no
 
-[mm2_lab_wall_window_left]
+[loc_1505]
 name=Door
 desc=The door is closed.
 model=mm2_lab_wall_window_left
@@ -21715,20 +21715,20 @@ desc=It's closed.
 model=ctratgatea
 op1=Open
 
-[bcs_maisa_camp_tent]
+[loc_2882]
 name=Gate
 desc=The toll gate from Lumbridge to Al-Kharid.
 model=ikov_mendedleverdoorl
 op1=Open
 
-[bcs_furnace]
+[loc_2883]
 name=Gate
 desc=The toll gate from Lumbridge to Al-Kharid.
 model=ikov_mendedleverdoorl
 op1=Open
 mirror=yes
 
-[easter25_carrot_scraps_no_trail]
+[loc_2884]
 name=Ladder
 desc=I can climb this.
 model=mcannonladder
@@ -54936,7 +54936,7 @@ length=2
 op1=Search
 mapscene=5
 
-[bcs_pillar]
+[loc_6579]
 name=Banana Tree
 desc=Grows a yellow fruit.
 model=mm_bananatreefull
@@ -55464,7 +55464,7 @@ anim=tomb_wall_crushing
 blockwalk=no
 active=yes
 
-[bcs_well]
+[loc_6630]
 name=Sarcophagus
 desc=A strange thing to leave lying around...
 model=deserttreasure_sarcophigi_door_inac2
@@ -55563,7 +55563,7 @@ anim=ics_secret_door
 hillskew=yes
 active=yes
 
-[bcs_tomb_entrance]
+[loc_6643]
 name=Doorway
 desc=Opens into another area, come on, I know this.
 model=bcs_tomb_entrance
@@ -128834,25 +128834,25 @@ width=5
 anim=poh_portal
 op1=Use
 
-[mm2_lab_wall_broken_01]
+[loc_12261]
 active=yes
 multivar=hundred_dave_trapdoor
-multiloc=0,mm2_lab_wall_broken_02
-multiloc=1,mm2_lab_stairs01
+multiloc=0,loc_12262
+multiloc=1,loc_12263
 
-[mm2_lab_wall_broken_02]
+[loc_12262]
 name=Trapdoor
 desc=It probably leads to some sort of cellar.
 model=mm2_lab_wall_broken_02
 op1=Open
 
-[mm2_lab_stairs01]
+[loc_12263]
 name=Trapdoor
 desc=What mysteries lie below?
 model=mm2_lab_stairs01
 op1=Go-down
 
-[mm2_lab_stairs02]
+[loc_12264]
 name=Ladder
 desc=An oak ladder.
 model=mm2_lab_stairs02
