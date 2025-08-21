@@ -38,6 +38,7 @@ length=2
 mirror=yes
 mapscene=3
 op1=Chop down
+op3=hidden
 category=tree
 param=next_loc_stage,loc_5554
 param=ent,macro_ent_willow
