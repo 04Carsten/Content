@@ -35027,7 +35027,7 @@ cost=1
 model=obj_eadgar_fade_to_black_inv
 2dzoom=130
 2dxan=512
-code10=anma_chopping_failed_adamant_axe
+code10=seq_1255
 
 [cert_eadgar_fade_to_black_inv]
 name=Whoopsie
