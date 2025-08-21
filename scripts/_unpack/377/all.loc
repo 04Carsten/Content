@@ -35542,7 +35542,7 @@ op1=Enter
 [loc_4500]
 name=Tunnel
 desc=This leads back to the cruel world above.
-model=rock10
+model=loc_4500
 width=3
 length=2
 ambient=60
@@ -35560,7 +35560,7 @@ forcedecor=yes
 ambient=10
 
 [loc_4502]
-model=rock12
+model=loc_4502
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -35573,7 +35573,7 @@ resizex=128
 resizey=192
 
 [loc_4503]
-model=rock13
+model=loc_4503
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -35586,7 +35586,7 @@ resizex=128
 resizey=192
 
 [loc_4504]
-model=rock12
+model=loc_4502
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35595,7 +35595,7 @@ resizex=128
 resizey=192
 
 [loc_4505]
-model=rock15
+model=loc_4505
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35604,7 +35604,7 @@ resizex=128
 resizey=192
 
 [loc_4506]
-model=rock16
+model=loc_4506
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35613,7 +35613,7 @@ resizex=128
 resizey=192
 
 [loc_4507]
-model=rock16
+model=loc_4506
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35624,7 +35624,7 @@ hillskew=yes
 mirror=yes
 
 [loc_4508]
-model=rock18
+model=loc_4508
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35633,7 +35633,7 @@ resizex=128
 resizey=192
 
 [loc_4509]
-model=rock19
+model=loc_4509
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -35866,7 +35866,7 @@ active=no
 ambient=20
 
 [loc_4530]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -35878,7 +35878,7 @@ active=no
 ambient=20
 
 [loc_4531]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -35890,7 +35890,7 @@ active=no
 ambient=20
 
 [loc_4532]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -35902,7 +35902,7 @@ active=no
 ambient=20
 
 [loc_4533]
-model=rock33
+model=loc_4533
 sharelight=yes
 hillskew=yes
 
@@ -35931,7 +35931,7 @@ hillskew=yes
 active=no
 
 [loc_4537]
-model=rock33
+model=loc_4533
 recol1s=10535
 recol1d=11592
 recol2s=9478
@@ -41109,7 +41109,7 @@ sharelight=yes
 op1=Walk-across
 
 [loc_5091]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=7296
 recol2s=7364
@@ -41994,7 +41994,7 @@ forcedecor=yes
 ambient=10
 
 [fenk_exterior_wall]
-model=rock12
+model=loc_4502
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -42004,7 +42004,7 @@ sharelight=yes
 occlude=yes
 
 [fenk_exterior_wall_lvl2]
-model=rock13
+model=loc_4503
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -42014,25 +42014,25 @@ sharelight=yes
 occlude=yes
 
 [fenk_interior_wall]
-model=rock12
+model=loc_4502
 sharelight=yes
 hillskew=yes
 ambient=20
 
 [fenk_interior_wall_vari]
-model=rock15
+model=loc_4505
 sharelight=yes
 hillskew=yes
 ambient=20
 
 [fenk_crumblywall1]
-model=rock16
+model=loc_4506
 sharelight=yes
 hillskew=yes
 ambient=20
 
 [fenk_crumblywall1r]
-model=rock16
+model=loc_4506
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -42040,13 +42040,13 @@ hillskew=yes
 mirror=yes
 
 [fenk_crumblywall2]
-model=rock18
+model=loc_4508
 sharelight=yes
 hillskew=yes
 ambient=20
 
 [fenk_crumblywall2_top]
-model=rock18
+model=loc_4508
 recol1s=3203
 recol1d=7431
 recol2s=4260
@@ -42058,7 +42058,7 @@ hillskew=yes
 ambient=20
 
 [fenk_crumblywalllow]
-model=rock19
+model=loc_4509
 sharelight=yes
 hillskew=yes
 ambient=20
@@ -42328,7 +42328,7 @@ active=no
 ambient=20
 
 [fenk_short_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=2213
 recol2s=15855
@@ -42340,7 +42340,7 @@ active=no
 ambient=20
 
 [fenk_short_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=2213
 recol2s=15855
@@ -42352,7 +42352,7 @@ active=no
 ambient=20
 
 [fenk_short_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=2213
 recol2s=15855
@@ -43232,7 +43232,7 @@ active=no
 shadow=no
 
 [ahoy_shipwreck_rocks_medium]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=10599
 recol2s=10535
@@ -43251,7 +43251,7 @@ mapscene=22
 hillskew=yes
 
 [ahoy_shipwreck_rocks_tall]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=10599
 recol2s=10535
@@ -43273,7 +43273,7 @@ mapscene=22
 hillskew=yes
 
 [ahoy_shipwreck_rocks_taller]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=10599
 recol2s=10535
@@ -43295,7 +43295,7 @@ mapscene=22
 hillskew=yes
 
 [ahoy_shipwreck_rocks_low]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=10599
 recol2s=10535
@@ -43317,7 +43317,7 @@ mapscene=22
 hillskew=yes
 
 [ahoy_shipwreck_rocks_medium_low]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=10599
 recol2s=10535
@@ -43605,7 +43605,7 @@ active=no
 ambient=20
 
 [ahoy_short_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=7460
 recol2s=15855
@@ -43617,7 +43617,7 @@ active=no
 ambient=20
 
 [ahoy_short_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=7460
 recol2s=15855
@@ -43629,7 +43629,7 @@ active=no
 ambient=20
 
 [ahoy_short_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=7460
 recol2s=15855
@@ -43870,7 +43870,7 @@ width=2
 blockrange=no
 
 [ahoy_tower_exterior_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=6373
 recol2s=6374
@@ -43891,7 +43891,7 @@ resizex=128
 resizey=192
 
 [ahoy_tower_exterior_wall_lvl2]
-model=rock13
+model=loc_4503
 recol1s=7431
 recol1d=6373
 recol2s=6374
@@ -44753,7 +44753,7 @@ occlude=yes
 hillskew=yes
 
 [ahoy_town_wall_standardwall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=8486
 recol2s=6374
@@ -45368,7 +45368,7 @@ offsety=10
 offsetz=0
 
 [favour_wall]
-model=rock12
+model=loc_4502
 recol1s=2146
 recol1d=6274
 recol2s=3203
@@ -45545,7 +45545,7 @@ hillskew=yes
 active=no
 
 [favour_cavewall_face1]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=6240
 recol2s=7364
@@ -45641,7 +45641,7 @@ active=no
 ambient=20
 
 [short_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -45653,7 +45653,7 @@ active=no
 ambient=20
 
 [short_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -45665,7 +45665,7 @@ active=no
 ambient=20
 
 [short_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -54641,7 +54641,7 @@ mirror=yes
 active=no
 
 [icthalarins_exterior_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54660,7 +54660,7 @@ occlude=yes
 active=no
 
 [icthalarins_exterior_wall_lvl2]
-model=rock13
+model=loc_4503
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54679,7 +54679,7 @@ occlude=yes
 active=no
 
 [icthalarins_interior_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54697,7 +54697,7 @@ hillskew=yes
 active=no
 
 [icthalarins_interior_wall_vari]
-model=rock15
+model=loc_4505
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54715,7 +54715,7 @@ hillskew=yes
 active=no
 
 [icthalarins_crumblywall1]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54733,7 +54733,7 @@ hillskew=yes
 active=no
 
 [icthalarins_crumblywall1r]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54753,7 +54753,7 @@ mirror=yes
 active=no
 
 [icthalarins_crumblywall2]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -54771,7 +54771,7 @@ hillskew=yes
 active=no
 
 [icthalarins_crumblywalllow]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=18954
 recol2s=6374
@@ -56536,7 +56536,7 @@ hillskew=yes
 active=no
 
 [barrows_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=9670
 recol2s=15855
@@ -56547,7 +56547,7 @@ hillskew=yes
 active=no
 
 [barrows_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=9670
 recol2s=15855
@@ -56558,7 +56558,7 @@ hillskew=yes
 active=no
 
 [barrows_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=9670
 recol2s=15855
@@ -61373,7 +61373,7 @@ active=no
 ambient=20
 
 [death_short_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=8550
 recol2s=15855
@@ -61385,7 +61385,7 @@ active=no
 ambient=20
 
 [death_short_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=8550
 recol2s=15855
@@ -61397,7 +61397,7 @@ active=no
 ambient=20
 
 [death_short_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=8550
 recol2s=15855
@@ -91271,7 +91271,7 @@ active=yes
 raiseobject=no
 
 [mourning_cavewall_face1]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=8386
 recol2s=7364
@@ -91292,7 +91292,7 @@ resizez=128
 ambient=30
 
 [mourning_shorter_cavewall_face1]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=8386
 recol2s=7364
@@ -92533,7 +92533,7 @@ op1=Enter
 forceapproach=south
 
 [dagannoth_cavewall_face1]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=1122
 recol2s=7364
@@ -92552,7 +92552,7 @@ ambient=20
 contrast=40
 
 [dagannoth_cavewall_face1_glow]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=9608
 recol2s=7364
@@ -92571,7 +92571,7 @@ ambient=20
 contrast=40
 
 [dagannoth_cavewall_face1_falloff]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=1057
 recol2s=7364
@@ -92641,7 +92641,7 @@ hillskew=yes
 active=no
 
 [dagannoth_cavewall_face1_shorter]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=1122
 recol2s=7364
@@ -92661,7 +92661,7 @@ resizex=128
 resizey=64
 
 [dagannoth_cavewall_face1_shorter_glow]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=9608
 recol2s=7364
@@ -98029,7 +98029,7 @@ ambient=20
 resizey=300
 
 [long_grass_4_wall_edge]
-model=rock30
+model=loc_4530
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -98042,7 +98042,7 @@ ambient=20
 resizey=300
 
 [long_grass_4_wall_corner]
-model=rock31
+model=loc_4531
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -98055,7 +98055,7 @@ ambient=20
 resizey=300
 
 [long_grass_wall_edge_2]
-model=rock32
+model=loc_4532
 recol1s=21140
 recol1d=11712
 recol2s=15855
@@ -99049,7 +99049,7 @@ active=no
 resizey=120
 
 [melzar_interior_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=13705
 recol2s=6374
@@ -99065,7 +99065,7 @@ recol6d=8420
 sharelight=yes
 
 [melzar_interior_wall_vari]
-model=rock15
+model=loc_4505
 recol1s=7431
 recol1d=13705
 recol2s=6374
@@ -99081,7 +99081,7 @@ recol6d=8420
 sharelight=yes
 
 [melzar_exterior_wall_lvl2]
-model=rock13
+model=loc_4503
 recol1s=7431
 recol1d=13705
 recol2s=6374
@@ -108595,7 +108595,7 @@ forcedecor=yes
 mapfunction=39
 
 [elid_underground_walls]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=25065
 recol2s=10535
@@ -108612,7 +108612,7 @@ sharelight=yes
 hillskew=yes
 
 [elid_underground_wall_shorter]
-model=rock33
+model=loc_4533
 recol1s=11592
 recol1d=25065
 recol2s=10535
@@ -109983,7 +109983,7 @@ ambient=10
 ambient=20
 
 [wyvern_cave_wall]
-model=rock33
+model=loc_4533
 recol1s=10535
 recol1d=24511
 recol2s=9478
@@ -110540,7 +110540,7 @@ sharelight=yes
 hillskew=yes
 
 [loc_10644]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=15818
 recol2s=6374
@@ -132631,7 +132631,7 @@ anim=gas
 active=no
 
 [loc_12655]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=12580
 recol2s=7364
@@ -132685,7 +132685,7 @@ op1=Exit
 ambient=20
 
 [loc_12658]
-model=rock33
+model=loc_4533
 recol1s=6307
 recol1d=7296
 recol2s=7364
@@ -133608,7 +133608,7 @@ op2=Search
 [burgh_inn_climb_over]
 name=Broken down wall
 desc=A broken down wall.
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134486,7 +134486,7 @@ mirror=yes
 ambient=15
 
 [burgh_stone]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134503,7 +134503,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_vari]
-model=rock15
+model=loc_4505
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134520,7 +134520,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_right]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134537,7 +134537,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_left]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134555,7 +134555,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_half_right]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134572,7 +134572,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_half_left]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134590,7 +134590,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_low_left]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134607,7 +134607,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_low_right]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134710,7 +134710,7 @@ hillskew=yes
 sharelight=yes
 
 [burgh_stone_crumbly_right_lev2]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134727,7 +134727,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_left_lev2]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134745,7 +134745,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_half_right_lev2]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134762,7 +134762,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_crumbly_half_left_lev2]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -134780,7 +134780,7 @@ ambient=20
 sharelight=yes
 
 [burgh_stone_lev2]
-model=rock13
+model=loc_4503
 recol1s=7431
 recol1d=7428
 recol2s=6374
@@ -148165,7 +148165,7 @@ hillskew=yes
 sharelight=yes
 
 [pest_outpost_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148335,7 +148335,7 @@ active=no
 mirror=yes
 
 [pest_outpost_wall_vari]
-model=rock15
+model=loc_4505
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148352,7 +148352,7 @@ ambient=20
 sharelight=yes
 
 [pest_outpost_crumblystone_right]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148369,7 +148369,7 @@ ambient=20
 sharelight=yes
 
 [pest_outpost_crumblystone_left]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148386,7 +148386,7 @@ ambient=20
 mirror=yes
 
 [pest_outpost_crumblystone_half_right]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148402,7 +148402,7 @@ recol6d=12617
 ambient=20
 
 [pest_outpost_crumblystone_half_left]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148419,7 +148419,7 @@ ambient=20
 mirror=yes
 
 [pest_outpost_crumblystone_low_left]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -148435,7 +148435,7 @@ recol6d=12617
 ambient=20
 
 [pest_outpost_crumblystone_low_right]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=21072
 recol2s=6374
@@ -150603,7 +150603,7 @@ resizez=75
 blockrange=no
 
 [wild1_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150620,7 +150620,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_top]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150637,7 +150637,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_crumble_l]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150654,7 +150654,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_crumble_small_l]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150671,7 +150671,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_crumble_r]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150689,7 +150689,7 @@ hillskew=yes
 mirror=yes
 
 [wild1_wall_crumble_small_r]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150707,7 +150707,7 @@ hillskew=yes
 mirror=yes
 
 [wild1_wall_top_crumble_l]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150724,7 +150724,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_top_crumble_small_l]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150741,7 +150741,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_top_crumble_r]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150759,7 +150759,7 @@ hillskew=yes
 mirror=yes
 
 [wild1_wall_top_crumble_small_r]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -150794,7 +150794,7 @@ sharelight=yes
 hillskew=yes
 
 [wild1_wall_crumble_low1]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151673,7 +151673,7 @@ resizez=50
 blockrange=no
 
 [wild3_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151690,7 +151690,7 @@ sharelight=yes
 hillskew=yes
 
 [wild3_wall_crumble_l]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151707,7 +151707,7 @@ sharelight=yes
 hillskew=yes
 
 [wild3_wall_crumble_small_l]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151724,7 +151724,7 @@ sharelight=yes
 hillskew=yes
 
 [wild3_wall_crumble_r]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151742,7 +151742,7 @@ hillskew=yes
 mirror=yes
 
 [wild3_wall_crumble_small_r]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -151777,7 +151777,7 @@ sharelight=yes
 hillskew=yes
 
 [wild3_wall_crumble_low1]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -152948,7 +152948,7 @@ resizez=60
 blockrange=no
 
 [wild6_wall]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -152965,7 +152965,7 @@ sharelight=yes
 hillskew=yes
 
 [wild6_wall_crumble_l]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -152982,7 +152982,7 @@ sharelight=yes
 hillskew=yes
 
 [wild6_wall_crumble_small_l]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -152999,7 +152999,7 @@ sharelight=yes
 hillskew=yes
 
 [wild6_wall_crumble_r]
-model=rock16
+model=loc_4506
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -153017,7 +153017,7 @@ hillskew=yes
 mirror=yes
 
 [wild6_wall_crumble_small_r]
-model=rock18
+model=loc_4508
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -153052,7 +153052,7 @@ sharelight=yes
 hillskew=yes
 
 [wild6_wall_crumble_low1]
-model=rock19
+model=loc_4509
 recol1s=7431
 recol1d=7399
 recol2s=6374
@@ -153655,7 +153655,7 @@ width=2
 active=yes
 
 [wild_temple_walls]
-model=rock12
+model=loc_4502
 recol1s=7431
 recol1d=7399
 recol2s=6374
