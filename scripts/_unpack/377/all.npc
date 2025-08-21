@@ -52956,7 +52956,7 @@ head1=npc_2591_head
 [npc_2626]
 name=Rocks
 desc=Stoney!
-model1=loc_450_8
+model1=rock1_8
 minimap=no
 vislevel=1
 
