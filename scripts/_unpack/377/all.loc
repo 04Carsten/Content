@@ -3290,7 +3290,7 @@ length=2
 op1=Open
 blockrange=no
 
-[deadman_safezone_indicator]
+[loc_399]
 name=Coffin
 desc=I see dead people.
 model=deadman_safezone_indicator
@@ -5398,38 +5398,38 @@ desc=Shattered.
 model=barrel_breaking
 anim=barrel
 
-[bh_icon]
+[loc_673]
 model=bh_icon
 anim=gas
 active=no
 
-[net]
+[loc_674]
 model=net
 model2=neti2
 anim=diary_emote_playeranim
 active=no
 
-[corp_beast_grave_top]
+[loc_675]
 model=corp_beast_grave_top
 anim=gas
 active=no
 
-[corp_beast_grave_bottom]
+[loc_676]
 model=corp_beast_grave_bottom
 anim=gas
 active=no
 
-[corp_beast_entrance]
+[loc_677]
 model=corp_beast_entrance
 anim=gas
 active=no
 
-[corp_cave_entrance]
+[loc_678]
 name=Fishing spot
 desc=I see fish.
 model=corp_cave_entrance
 
-[corp_cave_exit]
+[loc_679]
 name=Fishing spot
 desc=I can see fish swimming in the water.
 model=corp_cave_exit
@@ -6789,7 +6789,7 @@ recol1d=9513
 op1=Climb down
 blockrange=no
 
-[rustic_fencegate_l]
+[loc_883]
 name=Manhole cover
 desc=This is supposed to stop people falling down the manhole.
 model=manholeclosed
@@ -14466,7 +14466,7 @@ retex1d=elfdoor
 recol2s=6342
 recol2d=11458
 
-[regicide_old_camp_footprints]
+[stonepillar_small_waterfall_quest]
 name=Pillar
 desc=The pillar has a rune shaped dent in it.
 model=stonepillar
@@ -14474,7 +14474,7 @@ resizex=50
 resizey=50
 resizez=50
 
-[stonepillar_small_waterfall_quest]
+[statue_king_waterfall_quest]
 name=Statue of Baxtorian
 desc=A statue of Baxtorian chiselled in stone.
 model=statue_king
@@ -16564,14 +16564,14 @@ length=2
 op2=Search
 mapscene=5
 
-[cluescroll_tutor_icon]
+[loc_2238]
 name=Hillside entrance
 desc=Large doors set into the hillside.
 model=cluescroll_tutor_icon
 width=2
 op1=Enter
 
-[mimic_wall_wood_01]
+[loc_2239]
 name=Hillside entrance
 desc=Large doors set into the hillside.
 model=cluescroll_tutor_icon
@@ -16805,7 +16805,7 @@ op1=Look-at
 op2=Board
 blockrange=no
 
-[mistmyst_clue_library]
+[loc_2266]
 name=Blacksmith's door
 desc=The door is closed.
 model=mcannondoor1
@@ -16818,7 +16818,7 @@ op1=Open
 active=yes
 op1=Open
 
-[mistmyst_clue_outside]
+[loc_2267]
 name=Blacksmith's door
 desc=The door is closed.
 model=mcannondoor1
@@ -19766,7 +19766,7 @@ op2=Close
 forceapproach=east
 raiseobject=no
 
-[lovakengj_dynamite_poison]
+[loc_2614]
 name=Coffin
 desc=Spooky!
 model=lovakengj_dynamite_poison
@@ -19915,7 +19915,7 @@ desc=There is something unusual about this wall...
 model=openbankdoorr
 op1=Push
 
-[cryptstairsdown_inactive]
+[loc_2630]
 name=Fishing spot
 desc=I can see eels swimming in the lava.
 model=cryptstairsdown_inactive
@@ -20291,7 +20291,7 @@ model=barrel
 op1=Look in
 op2=Search
 
-[tourtrap_qip_multi_flatback_cart]
+[loc_2682]
 name=Mine Cart
 desc=The cart which takes barrels of rocks from the mining encampment to Al-Kharid.
 model=cart
@@ -21473,7 +21473,7 @@ width=2
 length=3
 op1=Climb-up
 
-[sotn_window_outer]
+[loc_2854]
 name=Wall
 desc=Made of wood.
 model=timberwall
@@ -21487,7 +21487,7 @@ model=timberwall
 wallwidth=8
 occlude=yes
 
-[sotn_window_inner]
+[loc_2856]
 name=Chest
 desc=I wonder what's inside?
 model=arena_guard_chest_shut
@@ -24493,7 +24493,7 @@ resizey=100
 resizez=100
 active=yes
 
-[invisible_type8_blocking_size9]
+[loc_3192]
 name=Scoreboard
 desc=You can see the last 50 fights on here.
 model=invisible_type8_blocking_size9
@@ -24504,7 +24504,7 @@ contrast=50
 op1=View
 active=yes
 
-[tog_juna]
+[log_3193]
 name=Closed chest
 desc=Used to store players' items whilst they duel.
 model=arena_guard_chest_shut
@@ -113007,7 +113007,7 @@ model=hauntedfountain
 width=2
 length=2
 
-[deadman_yewtree_insurancestall]
+[loc_10828]
 name=Trawler net
 desc=Smells like fish.
 model=deadman_yewtree_insurancestall
@@ -113049,7 +113049,7 @@ desc=Smells like fish.
 model=magictree
 sharelight=yes
 
-[deadman_magictree]
+[loc_10835]
 name=Trawler net
 desc=Smells like fish.
 model=deadman_magictree
