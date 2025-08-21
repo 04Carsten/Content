@@ -1,19 +1,19 @@
 [mcannoncrate]
 name=Crate
 desc=I wonder what's inside.
-model=mcannoncrate
+model=crate
 op1=Search
 
 [mcannoncrateboy]
 name=Crate
 desc=I wonder what's inside.
-model=mcannoncrate
+model=crate
 op1=Search
 
 [mcannoncave]
 name=Cave Entrance
 desc=Looks and smells like a place where goblins live.
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 forceapproach=south
@@ -22,14 +22,14 @@ op1=Enter
 [mcannondoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
 [mcannondoor1]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -86,7 +86,7 @@ blockwalk=no
 [mcannonladder2]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -94,7 +94,7 @@ mapscene=7
 [mcannonladder]
 name=Ladder
 desc=I can climb up this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -110,7 +110,7 @@ op1=Climb-over
 [mcanmudpile]
 name=Mud pile
 desc=Mud caved in from above.
-model=mcanmudpile
+model=mudpile
 length=2
 shadow=no
 blockrange=no
@@ -120,7 +120,7 @@ op1=Climb-over
 [mcannonplain]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -129,7 +129,7 @@ op1=Inspect
 [mcannonrailing1]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -138,7 +138,7 @@ op1=Inspect
 [mcannonrailing2]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -147,7 +147,7 @@ op1=Inspect
 [mcannonrailing3]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -156,7 +156,7 @@ op1=Inspect
 [mcannonrailing4]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -165,7 +165,7 @@ op1=Inspect
 [mcannonrailing5]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -174,7 +174,7 @@ op1=Inspect
 [mcannonrailing6]
 name=Railing
 desc=Intended to keep the goblins away from the mines.
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -204,7 +204,7 @@ op2=Open
 [merlinworkshop]
 name=Door
 desc=The door is shut.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -519,7 +519,7 @@ blockrange=no
 [jewellersdoor]
 name=Door
 desc=A fancy hole in the wall.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -530,7 +530,7 @@ op1=Open
 [jewellersladder]
 name=Ladder
 desc=A fancy hole in the ceiling.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -570,7 +570,7 @@ op2=Hide-in
 [merlincrate_wall]
 name=Crate wall
 desc=Surprisingly sturdy looking.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfwood
 recol2s=6342
@@ -582,7 +582,7 @@ op1=Climb-out
 [brimhaven_backdoor_entrance]
 name=Crate wall
 desc=Surprisingly sturdy looking.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfwood
 recol2s=6342
@@ -681,7 +681,7 @@ blockrange=no
 [fightarena_door1]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -692,7 +692,7 @@ op1=Open
 [fightarena_door2]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -759,7 +759,7 @@ op2=Search for traps
 [ikov_trapleverdoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -771,7 +771,7 @@ active=yes
 [ikov_firewarriordoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -842,7 +842,7 @@ active=yes
 [ikov_shinykeydoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -861,7 +861,7 @@ blockwalk=no
 [ikov_trapladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -869,7 +869,7 @@ mapscene=7
 [ikov_luciendoor]
 name=Door
 desc=A sturdy door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -1627,7 +1627,7 @@ forceapproach=west
 [gnome_caveladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -2605,7 +2605,7 @@ length=2
 [mudpile]
 name=Mudpile
 desc=A pile of something I hope is mud.
-model=mcanmudpile
+model=mudpile
 length=2
 
 [potato]
@@ -2967,7 +2967,7 @@ forceapproach=east
 [crate2]
 name=Crate
 desc=A wooden crate for storage.
-model=mcannoncrate
+model=crate
 op1=Search
 
 [crate3]
@@ -2989,7 +2989,7 @@ op1=Search
 [crate2_old]
 name=Crate
 desc=An old crate for storage.
-model=mcannoncrate
+model=crate
 retex1s=darkwood
 retex1d=wood2
 retex2s=elfwood
@@ -4666,7 +4666,7 @@ recol1d=30653
 [caveentrance_ice]
 name=Cave entrance
 desc=It looks cold in there.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30653
 recol2s=8288
@@ -5411,7 +5411,7 @@ anim=barrel
 
 // todo: name used from 244
 [gas]
-model=bh_icon
+model=gas
 anim=gas
 active=no
 
@@ -5424,19 +5424,19 @@ active=no
 
 // todo: name used from 244
 [gas_rocks1]
-model=corp_beast_grave_top
+model=gas_rock1
 anim=gas
 active=no
 
 // todo: name used from 244
 [gas_rocks2]
-model=corp_beast_grave_bottom
+model=gas_rock2
 anim=gas
 active=no
 
 // todo: name used from 244
 [gas_rocks3]
-model=corp_beast_entrance
+model=gas_rock3
 anim=gas
 active=no
 
@@ -5444,13 +5444,13 @@ active=no
 [fishingspot]
 name=Fishing spot
 desc=I see fish.
-model=corp_cave_entrance
+model=fishingspot
 
 // todo: name used from 244
 [fishingspot2]
 name=Fishing spot
 desc=I can see fish swimming in the water.
-model=corp_cave_exit
+model=fishingspot2
 
 [piano_a]
 name=Piano
@@ -5667,14 +5667,14 @@ active=no
 active=no
 
 [caveentrance3]
-model=mcannoncave
+model=caveentrance
 width=3
 length=2
 active=no
 active=no
 
 [loc_721]
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=23254
 recol2s=8288
@@ -7560,7 +7560,7 @@ sharelight=yes
 blockrange=no
 
 [railing]
-model=mcannonplain
+model=railing
 sharelight=yes
 hillskew=yes
 blockrange=no
@@ -11658,7 +11658,7 @@ raiseobject=no
 [bordedupdoor]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 active=yes
 op1=Push
 raiseobject=no
@@ -11666,20 +11666,20 @@ raiseobject=no
 [palacedoor_r]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 active=yes
 op1=Push
 raiseobject=no
 
 [openpalacedoor_r]
-model=mcannondoor1
+model=door1
 active=no
 raiseobject=no
 
 [palacedoor_l]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 active=yes
@@ -11689,7 +11689,7 @@ raiseobject=no
 [openpalacedoor_l]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 active=yes
@@ -11697,7 +11697,7 @@ op1=Push
 raiseobject=no
 
 [stone_arched_doortop]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 active=no
@@ -11725,7 +11725,7 @@ raiseobject=no
 [stone_arched_doorbase_r]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -11766,7 +11766,7 @@ raiseobject=no
 [secretdoor]
 name=Dungeon door
 desc=An entranceway into the dungeon.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -11778,7 +11778,7 @@ raiseobject=no
 [secretdooropen]
 name=Door
 desc=The way in.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -12020,7 +12020,7 @@ blockwalk=no
 blockrange=no
 
 [oldwall]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -12293,7 +12293,7 @@ recol2d=5248
 mirror=yes
 
 [elfwall]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfwall
 recol2s=6342
@@ -12403,7 +12403,7 @@ sharelight=yes
 active=no
 
 [egyptian_wall]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=glyphs
 sharelight=yes
@@ -12411,7 +12411,7 @@ occlude=yes
 active=no
 
 [egyptian_wall_2]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossy
 sharelight=yes
@@ -12851,7 +12851,7 @@ mapscene=7
 [loc_1746]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -12859,7 +12859,7 @@ mapscene=7
 [loc_1747]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -12867,7 +12867,7 @@ mapscene=7
 [loc_1748]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb
 op2=Climb-up
@@ -12877,7 +12877,7 @@ mapscene=7
 [loc_1749]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -12886,7 +12886,7 @@ forceapproach=north
 [loc_1750]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -12895,7 +12895,7 @@ forceapproach=north
 [loc_1751]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb
 op2=Climb-up
@@ -12932,7 +12932,7 @@ mapscene=7
 [loc_1755]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -12949,7 +12949,7 @@ forceapproach=north
 [loc_1757]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -13045,7 +13045,7 @@ active=yes
 op1=Climb-up
 
 [wood1]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfwood
 recol2s=6342
@@ -13054,7 +13054,7 @@ sharelight=yes
 occlude=yes
 
 [wood2]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=planks
 recol2s=6342
@@ -13293,7 +13293,7 @@ hillskew=yes
 [brasskeydoor]
 name=Door
 desc=This door requires a key.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -13304,7 +13304,7 @@ op1=Open
 [championdoor]
 name=Door
 desc=The door to the Champions' Guild.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -13323,7 +13323,7 @@ sharelight=yes
 occlude=yes
 
 [wall2]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=rockwall
 recol2s=6342
@@ -13332,7 +13332,7 @@ sharelight=yes
 occlude=yes
 
 [mossyswall]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossy
 sharelight=yes
@@ -13833,7 +13833,7 @@ width=4
 blockrange=no
 
 [brickwall]
-model=mcannondoor1
+model=door1
 sharelight=yes
 occlude=yes
 
@@ -14459,7 +14459,7 @@ op1=Search
 [baxtorian_door_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -14467,7 +14467,7 @@ recol2d=11458
 op1=Open
 
 [baxtorian_door_open_waterfall_quest]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -14476,7 +14476,7 @@ recol2d=11458
 [baxtorian_door_2_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -14484,7 +14484,7 @@ recol2d=11458
 op1=Open
 
 [baxtorian_door_2_open_waterfall_quest]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -14671,7 +14671,7 @@ op1=Drink From
 [loc_2025]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -14732,40 +14732,40 @@ op4=hidden
 [guidordoor]
 name=Door
 desc=It's closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
 [guidordooropen]
 name=Door
 desc=It's open.
-model=mcannondoor
+model=door
 active=yes
 
 [mournerstewdoorup]
 name=Door
 desc=It's closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
 [mournerstewdoorupopen]
 name=Door
 desc=It's open.
-model=mcannondoor
+model=door
 active=yes
 
 [mournerstewdoor]
 name=Door
 desc=It's closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
 [mournerstewdooropen]
 name=Door
 desc=It's open.
-model=mcannondoor
+model=door
 active=yes
 
 [biohazarddummy]
@@ -14881,12 +14881,12 @@ mirror=yes
 [elenadoor2]
 name=Door
 desc=It's a door.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
 [elenadoor2open]
-model=mcannondoor
+model=door
 
 [jericoscupboardshut]
 name=Cupboard
@@ -14983,7 +14983,7 @@ op1=Squeeze-through
 [wydindoor]
 name=Door
 desc=A closed door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -14992,7 +14992,7 @@ active=yes
 op1=Open
 
 [wydindooropen]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -15453,7 +15453,7 @@ blockrange=no
 [loc_2112]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -15491,7 +15491,7 @@ active=yes
 [scorpionwall]
 name=Old wall
 desc=It's an old wall.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -15516,7 +15516,7 @@ blockrange=no
 [macro_copperrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=14596
 op1=Mine
@@ -15530,7 +15530,7 @@ blockrange=no
 [macro_copperrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=14596
 op1=Mine
@@ -15544,7 +15544,7 @@ blockrange=no
 [macro_ironrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=6242
 recol2s=28538
@@ -15560,7 +15560,7 @@ blockrange=no
 [macro_ironrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=6242
 recol2s=28538
@@ -15576,7 +15576,7 @@ blockrange=no
 [macro_tinrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=13741
 op1=Mine
@@ -15590,7 +15590,7 @@ blockrange=no
 [macro_tinrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=13741
 op1=Mine
@@ -15604,7 +15604,7 @@ blockrange=no
 [macro_coalrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=4226
 recol2s=28538
@@ -15620,7 +15620,7 @@ blockrange=no
 [macro_coalrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=4226
 recol2s=28538
@@ -15636,7 +15636,7 @@ blockrange=no
 [macro_goldrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=23108
 recol2s=28538
@@ -15652,7 +15652,7 @@ blockrange=no
 [macro_goldrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=23108
 recol2s=28538
@@ -15668,7 +15668,7 @@ blockrange=no
 [macro_silverrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=19026
 recol2s=28538
@@ -15684,7 +15684,7 @@ blockrange=no
 [macro_silverrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=19026
 recol2s=28538
@@ -15700,7 +15700,7 @@ blockrange=no
 [macro_mithrilrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=6346
 recol2s=28538
@@ -15716,7 +15716,7 @@ blockrange=no
 [macro_mithrilrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=6346
 recol2s=28538
@@ -15732,7 +15732,7 @@ blockrange=no
 [macro_adamantiterock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=6438
 recol2s=28538
@@ -15748,7 +15748,7 @@ blockrange=no
 [macro_adamantiterock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=6438
 recol2s=28538
@@ -15764,7 +15764,7 @@ blockrange=no
 [macro_runiterock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=8721
 recol2s=28538
@@ -15780,7 +15780,7 @@ blockrange=no
 [macro_runiterock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=8721
 recol2s=28538
@@ -15796,7 +15796,7 @@ blockrange=no
 [macro_clayrock1]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_top
+model=gas_rock1
 recol1s=6342
 recol1d=18854
 recol2s=28538
@@ -15812,7 +15812,7 @@ blockrange=no
 [macro_clayrock2]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=18854
 recol2s=28538
@@ -15845,7 +15845,7 @@ blockrange=no
 [macro_gemrock]
 name=Rocks
 desc=A rocky outcrop.
-model=corp_beast_grave_bottom
+model=gas_rock2
 recol1s=6342
 recol1d=15407
 recol2s=28538
@@ -15922,7 +15922,7 @@ mapscene=7
 [wizards_tower_ladder]
 name=Ladder
 desc=Going up?
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -16254,7 +16254,7 @@ forceapproach=north
 [khazard_stronghold_door]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -16287,14 +16287,14 @@ op1=Climb-down
 [loc_2188]
 name=Ladder
 desc=I can climb up this ladder.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 
 [loc_2189]
 name=Ladder
 desc=I can climb up this ladder.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 
@@ -16519,7 +16519,7 @@ op2=Search
 [secretrubble]
 name=Cave in
 desc=A pile of rubble.
-model=mcanmudpile
+model=mudpile
 length=2
 op2=Search
 
@@ -16534,7 +16534,7 @@ op2=Investigate
 [secretrubblebook]
 name=Loose rocks
 desc=A pile of loose rocks.
-model=mcanmudpile
+model=mudpile
 length=2
 op2=Search
 
@@ -16897,7 +16897,7 @@ blockrange=no
 [loc_2266]
 name=Blacksmith's door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -16910,7 +16910,7 @@ op1=Open
 [loc_2267]
 name=Blacksmith's door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -16922,13 +16922,13 @@ active=yes
 [paramayaladderup]
 name=Ladder
 desc=This leads up to the sleeping area.
-model=mcannonladder
+model=ladder
 op1=Climb-up
 
 [paramayaladderdown]
 name=Ladder
 desc=This leads downwards.
-model=mcannonladder2
+model=ladder2
 op1=Climb-down
 forceapproach=south
 
@@ -17313,7 +17313,7 @@ op1=Climb-up
 [loc_2317]
 name=Pile of rubble
 desc=I can climb up these rocks to another cave.
-model=mcanmudpile
+model=mudpile
 recol1s=12512
 recol1d=15749
 length=2
@@ -17486,7 +17486,7 @@ op1=Open
 [bkfortressdoor2]
 name=Door
 desc=This door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -17519,7 +17519,7 @@ op1=Open
 [bksecretdoor]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 active=yes
@@ -17941,7 +17941,7 @@ length=3
 [phoenixdoor]
 name=Door
 desc=A solid looking door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -17952,7 +17952,7 @@ op1=Open
 [phoenixdoor2]
 name=Door
 desc=A solid looking door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -17963,7 +17963,7 @@ op1=Open
 [blackarmdoor]
 name=Door
 desc=A solid looking door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18026,7 +18026,7 @@ forceapproach=north
 [phoenixladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -18049,7 +18049,7 @@ op1=Open
 [zanarismagicdoor]
 name=Magic door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18079,7 +18079,7 @@ op1=Chop
 [zanarisladderout]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -18087,7 +18087,7 @@ mapscene=7
 [zanarismarketdoor]
 name=Sturdy door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18207,7 +18207,7 @@ op1=Pull
 [famcrest_doorh2]
 name=Door
 desc=This door is closed by an unknown mechanism.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18218,7 +18218,7 @@ op1=Open
 [famcrest_doorh2i2]
 name=Door
 desc=This door is closed by an unknown mechanism.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18229,7 +18229,7 @@ op1=Open
 [famcrest_doorg2h1]
 name=Door
 desc=This door is closed by an unknown mechanism.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18240,7 +18240,7 @@ op1=Open
 [famcrest_doori2h1]
 name=Door
 desc=This door is closed by an unknown mechanism.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18251,7 +18251,7 @@ op1=Open
 [famcrest_doorh2g1]
 name=Door
 desc=This door is closed by an unknown mechanism.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -18934,7 +18934,7 @@ model=loc_2510
 [loc_2511]
 name=Tower ladder
 desc=This leads to the practice tower.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -18942,7 +18942,7 @@ mapscene=7
 [loc_2512]
 name=Tower ladder
 desc=This leads back down to the guild.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -18957,7 +18957,7 @@ op1=Fire-at
 [loc_2514]
 name=Guild door
 desc=The door to the Ranging Guild.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -18978,13 +18978,13 @@ length=2
 [slugladder]
 name=Ladder
 desc=Going up?
-model=mcannonladder
+model=ladder
 op1=Climb-up
 
 [loosepanel]
 name=Loose panel
 desc=Typical shoddy workmanship.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfwood
 recol2s=6342
@@ -19052,7 +19052,7 @@ forceapproach=east
 [elenagateshut]
 name=Door
 desc=The door of a small prison.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19063,7 +19063,7 @@ op1=Open
 [elenagateopen]
 name=Door
 desc=The door of a small prison.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19073,7 +19073,7 @@ active=yes
 [bravekdoorshut]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19084,7 +19084,7 @@ op1=Open
 [bravekdooropen]
 name=Door
 desc=A door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19114,7 +19114,7 @@ multiloc=1,plague_hole
 [plaguemudpile]
 name=Mud pile
 desc=A pile of what is hopefully mud.
-model=mcanmudpile
+model=mudpile
 length=2
 op1=Climb
 
@@ -19153,7 +19153,7 @@ active=yes
 [rehnisondoorshut]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19164,7 +19164,7 @@ op1=Open
 [rehnisondooropen]
 name=Door
 desc=A door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -19276,7 +19276,7 @@ op1=Close
 [loc_2550]
 name=Door
 desc=A secure door.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 op2=Pick-lock
@@ -19284,7 +19284,7 @@ op2=Pick-lock
 [loc_2551]
 name=Door
 desc=A secure door.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 op2=Pick-lock
@@ -19311,7 +19311,7 @@ op2=Pick-lock
 [loc_2554]
 name=Door
 desc=A secure door.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 op2=Pick-lock
@@ -19319,7 +19319,7 @@ op2=Pick-lock
 [loc_2555]
 name=Door
 desc=A secure door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -19331,7 +19331,7 @@ op2=Pick-lock
 [loc_2556]
 name=Door
 desc=A secure door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -19355,7 +19355,7 @@ op2=Pick-lock
 [loc_2558]
 name=Door
 desc=A secure door.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 op2=Pick-lock
@@ -19363,7 +19363,7 @@ op2=Pick-lock
 [loc_2559]
 name=Door
 desc=A secure door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -19623,7 +19623,7 @@ op1=Climb
 [dragon_slayer_magic_door]
 name=Door
 desc=It's closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -19685,7 +19685,7 @@ mapscene=7
 [dragonshipladdertop2]
 name=Ladder
 desc=Takes me into the ship.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -19717,7 +19717,7 @@ op1=Cross
 [melzardoor]
 name=Door
 desc=It's closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -19728,7 +19728,7 @@ op1=Open
 [reddoor]
 name=Red door
 desc=A blood-red door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=13443
 recol2s=13569
@@ -19743,7 +19743,7 @@ op1=Open
 [orangedoor]
 name=Orange door
 desc=A lurid orange door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=27041
 recol2s=13569
@@ -19758,7 +19758,7 @@ op1=Open
 [yellowdoor]
 name=Yellow door
 desc=A sickly yellow door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=23243
 recol2s=13569
@@ -19773,7 +19773,7 @@ op1=Open
 [bluedoor]
 name=Blue door
 desc=A gloomy blue door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10640
 recol2s=13569
@@ -19788,7 +19788,7 @@ op1=Open
 [magentadoor]
 name=Magenta door
 desc=A groovy magenta door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=15695
 recol2s=13569
@@ -19803,7 +19803,7 @@ op1=Open
 [greendoor]
 name=Green door
 desc=A putrid green door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=6437
 recol2s=13569
@@ -19818,7 +19818,7 @@ op1=Open
 [funexit]
 name=Exit door
 desc=Probably the nicest door in this ghastly place.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -19848,7 +19848,7 @@ mapscene=7
 [dragonsecretdoor]
 name=Wall
 desc=There is something strange about this wall...
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 active=yes
@@ -19900,7 +19900,7 @@ op1=Climb
 [loc_2611]
 name=Ladder
 desc=It's a ladder.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -19974,7 +19974,7 @@ op1=Search
 [gertrudeempty_crate]
 name=Crate
 desc=An old crate for storage.
-model=mcannoncrate
+model=crate
 retex1s=darkwood
 retex1d=wood2
 retex2s=elfwood
@@ -19984,7 +19984,7 @@ op1=Search
 [pete_treasuredoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -19995,7 +19995,7 @@ op1=Open
 [pete_sidedoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20037,7 +20037,7 @@ mirror=yes
 [grubordoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20048,7 +20048,7 @@ op1=Open
 [garvdoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20059,7 +20059,7 @@ op1=Open
 [herokitchendoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20135,7 +20135,7 @@ op2=Shut
 forceapproach=east
 
 [snipable_wall]
-model=mcannondoor1
+model=door1
 blockrange=no
 
 // todo: name used from 244
@@ -20166,7 +20166,7 @@ op1=Pray-at
 [monasteryladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -20216,7 +20216,7 @@ blockwalk=no
 [crafting_guild_door]
 name=Guild Door
 desc=The door to the Crafting Guild.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -20654,7 +20654,7 @@ op3=hidden
 [combodoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20665,7 +20665,7 @@ op1=Open
 [tribaltotemdoor]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -20713,7 +20713,7 @@ forceapproach=south
 [loc_2712]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -21220,7 +21220,7 @@ active=yes
 [watchladderup]
 name=Ladder
 desc=This leads to the watchtower.
-model=mcannonladder
+model=ladder
 op1=Climb-up
 mapscene=7
 
@@ -21276,7 +21276,7 @@ mapscene=9
 [shamanentrance]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21285,7 +21285,7 @@ active=yes
 [skavid_cave1]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21293,7 +21293,7 @@ op1=Enter
 [skavid_cave2]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21301,7 +21301,7 @@ op1=Enter
 [skavid_cave3]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21309,7 +21309,7 @@ op1=Enter
 [skavid_cave4]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21317,7 +21317,7 @@ op1=Enter
 [skavid_cave5]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21325,7 +21325,7 @@ op1=Enter
 [skavid_cave6]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21333,7 +21333,7 @@ op1=Enter
 [tobancave]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21348,7 +21348,7 @@ mapscene=7
 [enclavecave]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -21504,7 +21504,7 @@ op1=Climb-over
 [towerladder]
 name=Ladder
 desc=This goes up!
-model=mcannonladder
+model=ladder
 op1=Climb-up
 mapscene=7
 
@@ -21707,7 +21707,7 @@ active=yes
 [witchhousedoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -21718,7 +21718,7 @@ op1=Open
 [witchbackdoor]
 name=Door
 desc=It's a door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -21729,7 +21729,7 @@ op1=Open
 [witchsheddoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -21822,7 +21822,7 @@ mapscene=7
 [magearena_ladder_from_cellar]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -21914,7 +21914,7 @@ mirror=yes
 [loc_2884]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb
 op2=Climb-up
@@ -22223,7 +22223,7 @@ model=lglockpickgatebottomr
 [legends_cave_entrance_3]
 name=Cave Entrance
 desc=A dark cave entrance leading to the surface.
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -23137,7 +23137,7 @@ active=no
 [newbie_door1]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23166,7 +23166,7 @@ op1=Open
 [newbie_door2]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23178,7 +23178,7 @@ op1=Open
 [newbie_door3]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23190,7 +23190,7 @@ op1=Open
 [newbie_door4]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23240,7 +23240,7 @@ blockrange=no
 [newbie_door6]
 name=Door
 desc=A closed door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23252,7 +23252,7 @@ op1=Open
 [newbie_door7]
 name=Door
 desc=A closed door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23264,7 +23264,7 @@ op1=Open
 [newbie_door8]
 name=Door
 desc=A closed door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23276,7 +23276,7 @@ op1=Open
 [newbie_door9]
 name=Door
 desc=A closed door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -23288,7 +23288,7 @@ op1=Open
 [newbieladder1]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -23306,7 +23306,7 @@ mapscene=7
 [newbieladder2]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -24899,7 +24899,7 @@ raiseobject=no
 [upass_caveentrance2]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=mcannoncave
+model=caveentrance
 width=4
 length=2
 op1=Enter
@@ -24907,7 +24907,7 @@ op1=Enter
 [cave_exit_upass]
 name=Underground Pass Exit
 desc=The easy way out...
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=7329
 recol2s=8288
@@ -25411,7 +25411,7 @@ op1=Climb-down
 [caverockpile]
 name=Pile of rocks
 desc=I can climb this pile of rocks...
-model=mcanmudpile
+model=mudpile
 length=2
 mapscene=11
 op1=Climb
@@ -25419,31 +25419,31 @@ op1=Climb
 [cave_railings2]
 name=Cage
 desc=Usually used for storing living things...
-model=mcannonplain
+model=railing
 op1=Pick-lock
 op2=Search
 
 [cave_railings3]
 name=Cage
 desc=Usually used for storing living things...
-model=mcannonplain
+model=railing
 op2=Search
 
 [cave_railings5]
 name=Cage
 desc=Usually used for storing living things...
-model=mcannonplain
+model=railing
 op1=Pick-lock
 op2=Search
 
 [inact_cave_railings]
-model=mcannonplain
+model=railing
 active=no
 
 [cavewitch_door]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 op2=Knock
@@ -25451,7 +25451,7 @@ op2=Knock
 [witchdoor]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 active=yes
 op1=Close
 
@@ -25711,7 +25711,7 @@ sharelight=yes
 [mudpile_upass]
 name=Rockpile
 desc=A pile of rocks.
-model=mcanmudpile
+model=mudpile
 recol1s=12512
 recol1d=7329
 length=2
@@ -26303,7 +26303,7 @@ op1=Search
 [rantzogrecaveentrance]
 name=Cave entrance
 desc=The entrance to Rantz's cave
-model=mcannoncave
+model=caveentrance
 width=3
 length=2
 op1=Enter
@@ -26427,7 +26427,7 @@ active=yes
 [elemental_workshop_box_1]
 name=Crate
 desc=A wooden crate for storage.
-model=mcannoncrate
+model=crate
 retex1s=elfwood
 retex1d=wood2
 op1=Search
@@ -26477,7 +26477,7 @@ op1=Search
 [elemental_workshop_box_8]
 name=Crate
 desc=A wooden crate for storage.
-model=mcannoncrate
+model=crate
 retex1s=elfwood
 retex1d=wood2
 op1=Search
@@ -28047,7 +28047,7 @@ forcedecor=yes
 active=yes
 
 [agility_wall]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfbrick
 recol2s=6342
@@ -28309,7 +28309,7 @@ active=yes
 [agilityarena_ladderup]
 name=Ladder
 desc=Leads back to Brimhaven.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -29283,7 +29283,7 @@ blockrange=no
 [death_hermitcave_entrance]
 name=Cave Entrance
 desc=Looks like a small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -29392,7 +29392,7 @@ active=no
 [death_sherpa_door]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -29403,7 +29403,7 @@ op1=Open
 [death_sherpa_backdoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -29414,7 +29414,7 @@ op1=Open
 [death_harold_door]
 name=Door
 desc=A nicely fitted door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -29513,7 +29513,7 @@ active=no
 [troll_pass_entrance]
 name=Cave Entrance
 desc=Looks like a small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -29555,7 +29555,7 @@ op1=Exit
 [troll_mad_eadgar_entrance]
 name=Cave Entrance
 desc=Looks like a small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -31342,7 +31342,7 @@ model=regicide_sulphar_vent
 active=no
 
 [regicide_sulphar_gas]
-model=bh_icon
+model=gas
 recol1s=28538
 recol1d=19016
 anim=gas
@@ -31739,7 +31739,7 @@ op1=Climb-down
 [regicide_voyage_temple_entrance]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=16737
 recol2s=8288
@@ -33043,7 +33043,7 @@ active=no
 [viking_trollcave_entrance]
 name=Cave Entrance
 desc=This must be Lalli's home.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -33158,7 +33158,7 @@ contrast=100
 [vt_mazeladdertopentrance]
 name=Ladder
 desc=Takes me into the maze.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -35850,7 +35850,7 @@ op1=Take-from
 [castlewars_saradomin_sidedoor]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -35862,7 +35862,7 @@ raiseobject=no
 [castlewars_saradomin_sidedoor_open]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -35874,7 +35874,7 @@ raiseobject=no
 [castlewars_zamorak_sidedoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Unlock
 raiseobject=no
@@ -35882,7 +35882,7 @@ raiseobject=no
 [castlewars_zamorak_sidedoor_open]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 active=yes
 op1=Lock
 raiseobject=no
@@ -36158,7 +36158,7 @@ mapscene=7
 [loc_4499]
 name=Cave Entrance
 desc=Wow - it's a guinea pig! No, hang on, it's a cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -37491,7 +37491,7 @@ active=no
 [boardgames_draughts_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -37503,7 +37503,7 @@ raiseobject=no
 [boardgames_runelink_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -37515,7 +37515,7 @@ raiseobject=no
 [elfdoor_reverse]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -37527,7 +37527,7 @@ raiseobject=no
 [elfdooropen_reverse]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -37540,7 +37540,7 @@ mirror=yes
 [elfdoor_locked]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -37565,7 +37565,7 @@ op1=Read
 [boardgames_runelink_ladderup_experienced]
 name=Ladder
 desc=The ladder to the Runelink challenge room for experienced players.
-model=mcannonladder
+model=ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -37573,7 +37573,7 @@ op1=Climb-up
 [boardgames_runelink_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Runelink challenge room.
-model=mcannonladder2
+model=ladder2
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -37581,7 +37581,7 @@ op1=Climb-Down
 [boardgames_draughts_ladderup_experienced]
 name=Ladder
 desc=The ladder to the Draughts challenge room for experienced players.
-model=mcannonladder
+model=ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -37589,7 +37589,7 @@ op1=Climb-up
 [boardgames_draughts_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Draughts challenge room.
-model=mcannonladder2
+model=ladder2
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -37597,7 +37597,7 @@ op1=Climb-Down
 [boardgames_ladderup]
 name=Ladder
 desc=The ladder back up to the Toad and Chicken.
-model=mcannonladder
+model=ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -40041,7 +40041,7 @@ blockrange=no
 [castlewars_laddertop]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -40422,7 +40422,7 @@ model=floorlever_off
 [hauntedmine_boss_door]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 active=yes
 op1=Open
 
@@ -40452,7 +40452,7 @@ mapscene=7
 [hauntedmine_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -40468,7 +40468,7 @@ mapscene=7
 [hauntedmine_ladder_1w]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -40484,7 +40484,7 @@ mapscene=7
 [hauntedmine_ladder_1ne]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -40536,7 +40536,7 @@ op1=Search
 [hauntedmine_chisel_crate]
 name=Crate
 desc=An old crate for storage.
-model=mcannoncrate
+model=crate
 retex1s=darkwood
 retex1d=wood2
 retex2s=elfwood
@@ -40938,7 +40938,7 @@ blockrange=no
 [trollromance_caveentrance]
 name=Cave entrance
 desc=Looks like small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30653
 recol2s=8288
@@ -40957,7 +40957,7 @@ op1=Enter
 [trollromance_stronghold_exit_tunnel]
 name=Tunnel
 desc=Looks dark...
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -41042,7 +41042,7 @@ op1=Enter
 [trollromance_piste_exit_tunnel_exit]
 name=Tunnel
 desc=Looks dark...
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30655
 recol2s=8288
@@ -41439,7 +41439,7 @@ length=3
 [thrttavernbasementfalsewall]
 name=Wall
 desc=If it had paint on it, you'd probably watch it dry.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -41451,7 +41451,7 @@ op1=Search
 [thrttavernbasementfalsewall_inactive]
 name=Wall
 desc=If it had paint on it, you'd probably watch it dry.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -41462,7 +41462,7 @@ active=yes
 [thrttavernbasementladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -43253,7 +43253,7 @@ mapscene=7
 [roving_golrie_ladder_from_cellar]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -45831,7 +45831,7 @@ hillskew=yes
 [zanarisladderout2]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -45882,7 +45882,7 @@ multiloc=3,osf_trapdoor_closed
 [osf_ham_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -48486,7 +48486,7 @@ multiloc=1,favour_weathervane
 [loc_5812]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -48495,7 +48495,7 @@ forceapproach=north
 [favour_seer_laddertop]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -48895,7 +48895,7 @@ op3=Pick-from
 [mdaughter_caveentrance]
 name=Cave entrance
 desc=There's a nasty stench coming from the cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30653
 recol2s=8288
@@ -51955,7 +51955,7 @@ width=2
 length=2
 
 [oldwall_no_occlude]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -52372,7 +52372,7 @@ forceapproach=south
 [feud_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -52381,7 +52381,7 @@ forceapproach=south
 [feud_laddermiddle]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb
 op2=Climb-up
@@ -52530,7 +52530,7 @@ op1=Climb-down
 [castlewars_saradomin_spawnladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -52539,7 +52539,7 @@ forceapproach=north
 [castlewars_zamorak_spawnladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -53784,7 +53784,7 @@ hillskew=yes
 [4d_ladder1]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -53792,7 +53792,7 @@ mapscene=7
 [4d_ladder2]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -53931,7 +53931,7 @@ op1=Climb-down
 [vampire_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -53989,7 +53989,7 @@ multiloc=9,trollrescue_troll_cave_entrance_multi
 [trollrescue_troll_cave_entrance_multi]
 name=Cave entrance
 desc=Looks like a small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30655
 recol2s=8288
@@ -54008,7 +54008,7 @@ op1=Enter
 [trollrescue_troll_cave_entrance1]
 name=Cave entrance
 desc=Blocked by an icicle.
-model=mcannoncave
+model=caveentrance
 model2=trollrescue_troll_cave_entrance1
 recol1s=10400
 recol1d=30655
@@ -54028,7 +54028,7 @@ op1=Enter
 [trollrescue_troll_cave_entrance2]
 name=Cave entrance
 desc=Blocked by two icicles.
-model=mcannoncave
+model=caveentrance
 model2=trollrescue_troll_cave_entrance2
 recol1s=10400
 recol1d=30655
@@ -54048,7 +54048,7 @@ op1=Enter
 [trollrescue_troll_cave_entrance3]
 name=Cave entrance
 desc=Blocked by three icicles.
-model=mcannoncave
+model=caveentrance
 model2=trollrescue_troll_cave_entrance3
 recol1s=10400
 recol1d=30655
@@ -54068,7 +54068,7 @@ op1=Enter
 [trollrescue_troll_cave_entrance4]
 name=Cave entrance
 desc=Blocked by four icicles.
-model=mcannoncave
+model=caveentrance
 model2=trollrescue_troll_cave_entrance4
 recol1s=10400
 recol1d=30655
@@ -54088,7 +54088,7 @@ op1=Enter
 [trollrescue_troll_cave_entrance5]
 name=Cave entrance
 desc=Blocked by five icicles.
-model=mcannoncave
+model=caveentrance
 model2=trollrescue_troll_cave_entrance5
 recol1s=10400
 recol1d=30655
@@ -54108,7 +54108,7 @@ op1=Enter
 [trollrescue_troll_cave_exit]
 name=Cave exit
 desc=Looks like a small cave.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30655
 recol2s=8288
@@ -54143,7 +54143,7 @@ forceapproach=north
 [fd_shadowladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -54164,7 +54164,7 @@ mirror=yes
 active=yes
 
 [fd_fw_cave_railings]
-model=mcannonplain
+model=railing
 active=no
 
 [protect_rock]
@@ -58942,7 +58942,7 @@ ambient=20
 contrast=50
 
 [brickwall_church]
-model=mcannondoor1
+model=door1
 sharelight=yes
 
 [brickwall_church_frame]
@@ -61476,7 +61476,7 @@ forcedecor=yes
 [roguesden_gallery_door]
 name=Door
 desc=This way to the viewing gallery.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -61488,7 +61488,7 @@ raiseobject=no
 [roguesden_gallery_door_inactive]
 name=Door
 desc=This way to the viewing gallery.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -61959,7 +61959,7 @@ forcedecor=yes
 [roguesden_door_to_pub]
 name=Door
 desc=This way to exit.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -61971,7 +61971,7 @@ raiseobject=no
 [roguesden_door_to_pub_open]
 name=Door
 desc=This way to exit.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -91605,7 +91605,7 @@ raiseobject=no
 [mourner_hideout_ladder1]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -91613,7 +91613,7 @@ mapscene=7
 [mourner_hideout_door1]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91625,7 +91625,7 @@ raiseobject=no
 [mourner_hideout_door2]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91645,7 +91645,7 @@ raiseobject=no
 [mourner_hideout_door4]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91657,7 +91657,7 @@ raiseobject=no
 [mourner_hideout_door1_open]
 name=Door
 desc=The door is open.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91668,7 +91668,7 @@ raiseobject=no
 [mourner_hideout_door2_open]
 name=Door
 desc=The door is open.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91687,7 +91687,7 @@ raiseobject=no
 [mourner_hideout_door4_open]
 name=Door
 desc=The door is open.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91902,7 +91902,7 @@ length=2
 [mourning_poordoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -91914,7 +91914,7 @@ raiseobject=no
 [mourning_poordooropen]
 name=Door
 desc=The door is open.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -93185,7 +93185,7 @@ op1=Enter
 [dagannoth_caveentrance_ice]
 name=Cave entrance
 desc=It looks cold in there.
-model=mcannoncave
+model=caveentrance
 recol1s=10400
 recol1d=30653
 recol2s=8288
@@ -95291,7 +95291,7 @@ length=2
 [wom_unbroken_wall]
 name=Wall
 desc=An old wall.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=mossybricks
 recol2s=6342
@@ -98409,7 +98409,7 @@ blockrange=no
 forcedecor=yes
 
 [reddoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=13443
 recol2s=13569
@@ -98421,7 +98421,7 @@ recol4d=10272
 active=no
 
 [orangedoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=27041
 recol2s=13569
@@ -98433,7 +98433,7 @@ recol4d=22881
 active=no
 
 [yellowdoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=23243
 recol2s=13569
@@ -98445,7 +98445,7 @@ recol4d=20072
 active=no
 
 [bluedoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10640
 recol2s=13569
@@ -98457,7 +98457,7 @@ recol4d=7469
 active=no
 
 [magentadoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=15695
 recol2s=13569
@@ -98469,7 +98469,7 @@ recol4d=12524
 active=no
 
 [greendoor_open]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=6437
 recol2s=13569
@@ -107025,7 +107025,7 @@ model=summon_standard_red
 ambient=20
 
 [funexit_open]
-model=mcannondoor
+model=door
 active=no
 
 [makinghistory_poorbed]
@@ -107090,7 +107090,7 @@ blockrange=no
 [makinghistory_door]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10466
 recol2s=13569
@@ -107106,7 +107106,7 @@ raiseobject=no
 [makinghistory_door_open]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10466
 recol2s=13569
@@ -107399,7 +107399,7 @@ multiloc=0,barrows_stone_chest_closed
 multiloc=1,barrows_stone_chest_open
 
 [vc_door_closed_inactive]
-model=mcannondoor
+model=door
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -107697,7 +107697,7 @@ contrast=22
 [vc_laddertop]
 name=Ladder
 desc=I can climb down this.
-model=mcannonladder2
+model=ladder2
 active=yes
 op1=Climb-down
 mapscene=7
@@ -107706,7 +107706,7 @@ forceapproach=south
 [vc_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -107848,7 +107848,7 @@ contrast=5
 [vc_elfdoor]
 name=Door
 desc=A magical device that enables one to walk through walls.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -107860,7 +107860,7 @@ raiseobject=no
 [vc_elfdoor_closed_always]
 name=Door
 desc=A locked door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -107872,7 +107872,7 @@ raiseobject=no
 [vc_elfdooropen]
 name=Door
 desc=A magical device that enables one to walk through walls.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -108245,7 +108245,7 @@ blockrange=no
 [vc_elfdooropen_noclose]
 name=Door
 desc=A wonderful device that enables one to walk through walls.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -117316,7 +117316,7 @@ blockrange=no
 [boardgames_runeversi_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -117328,7 +117328,7 @@ raiseobject=no
 [boardgames_runesquares_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -117340,7 +117340,7 @@ raiseobject=no
 [boardgames_runeversi_ladderup_experienced]
 name=Ladder
 desc=The ladder to the Runeversi challenge room for experienced players.
-model=mcannonladder
+model=ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -117348,7 +117348,7 @@ op1=Climb-up
 [boardgames_runeversi_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Runeversi challenge room.
-model=mcannonladder2
+model=ladder2
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -117356,7 +117356,7 @@ op1=Climb-Down
 [boardgames_runesquares_ladderup_experienced]
 name=Ladder
 desc=The ladder to the Runesquares challenge room for experienced players.
-model=mcannonladder
+model=ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -117364,7 +117364,7 @@ op1=Climb-up
 [boardgames_runesquares_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Runesquares challenge room.
-model=mcannonladder2
+model=ladder2
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -120259,7 +120259,7 @@ sharelight=yes
 [draynor_basement_door_open]
 name=Door
 desc=It's closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=8420
 recol2s=13569
@@ -123242,7 +123242,7 @@ blockrange=no
 [loc_11713]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -123264,7 +123264,7 @@ resizey=156
 [loc_11714]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -123287,7 +123287,7 @@ resizey=152
 [loc_11715]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -124953,7 +124953,7 @@ ambient=20
 contrast=15
 
 [tzhaar_cave_floor_1]
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=17865
 recol2s=13569
@@ -129852,7 +129852,7 @@ op1=Inspect
 [hundred_lumbridge_door]
 name=Door
 desc=An ornate-fashioned door.
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -130733,7 +130733,7 @@ ambient=20
 [goblin_outpost_poordoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=8386
 recol2s=13569
@@ -130749,7 +130749,7 @@ raiseobject=no
 [goblin_outpost_openpoordoor]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=8386
 recol2s=13569
@@ -133334,7 +133334,7 @@ blockwalk=no
 active=no
 
 [loc_12654]
-model=bh_icon
+model=gas
 recol1s=0
 recol1d=6273
 anim=gas
@@ -133967,7 +133967,7 @@ hillskew=yes
 ambient=30
 
 [wiz_tower_texture_wall_test]
-model=mcannondoor1
+model=door1
 retex1s=wall
 retex1d=door
 active=no
@@ -134444,7 +134444,7 @@ active=yes
 [burgh_inn_basement_ladder]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 mapscene=7
 op1=Climb-up
@@ -134555,7 +134555,7 @@ op1=Climb-down
 [burgh_temple_library_ladder_up]
 name=Ladder
 desc=I can climb this.
-model=mcannonladder
+model=ladder
 active=yes
 mapscene=7
 op1=Climb-up
@@ -137252,7 +137252,7 @@ active=no
 [qip_sheep_shearer_poordoor]
 name=Door
 desc=The door is closed.
-model=mcannondoor
+model=door
 recol1s=12512
 recol1d=10434
 recol2s=13569
@@ -137269,7 +137269,7 @@ raiseobject=no
 [qip_sheep_shearer_poordooropen]
 name=Door
 desc=The door is open.
-model=mcannondoor
+model=door
 recol1s=12512
 recol1d=10434
 recol2s=13569
@@ -150201,7 +150201,7 @@ blockrange=no
 [wild_gas]
 name=Gas bubble
 desc=Looks like a bubble of gas to me.
-model=bh_icon
+model=gas
 anim=gas
 forcedecor=yes
 resizey=32
@@ -154093,7 +154093,7 @@ mapscene=7
 [wild_door]
 name=Door
 desc=A tatty old door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10499
 recol2s=13569
@@ -154113,7 +154113,7 @@ raiseobject=no
 [wild_door_open]
 name=Door
 desc=A tatty old door.
-model=mcannondoor
+model=door
 recol1s=14626
 recol1d=10499
 recol2s=13569

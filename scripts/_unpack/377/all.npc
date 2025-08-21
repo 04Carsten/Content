@@ -15802,7 +15802,7 @@ head1=npc_kittenpet1_head
 [kittens_mew]
 name=Crate
 desc=Can I hear kittens?
-model1=mcannoncrate_8
+model1=crate_8
 vislevel=hide
 op1=Search
 minimap=no
