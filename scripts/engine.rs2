@@ -1004,17 +1004,28 @@
 [command,abs](int $num)(int)
 
 // DB ops (7500-7599)
-[command,db_find_with_count]
-[command,db_findnext]()(dbrow)
-[command,db_getfield]
-[command,db_getfieldcount](dbrow $dbrow0, dbcolumn $dbcolumn1)(int)
-[command,db_listall_with_count](dbtable $dbtable0)(int)
-[command,db_getrowtable](dbrow $dbrow0)(dbtable)
-[command,db_findbyindex](int $index)(dbrow)
-[command,db_find_refine_with_count]
-[command,db_find]
-[command,db_find_refine]
+// info: Query all rows in a table filtered on an indexed column
+[command,db_find]/*(dbcolumn $tableColumn, dynamic $query)*/
+// info: Query all rows in a table filtered on an indexed column, then return how many results there are
+[command,db_find_with_count]/*(dbcolumn $tableColumn, dynamic $query)(int)*/
+// info: Query all rows in a table
 [command,db_listall](dbtable $dbtable0)()
+// info: Query all rows in a table, then return how many rows there are
+[command,db_listall_with_count](dbtable $dbtable0)(int)
+// info: Get the next dbrow in the active result set
+[command,db_findnext]()(dbrow)
+// info: Get a column's value from a dbrow
+[command,db_getfield]/*(dbrow $row, dbcolumn $tableColumn, int $listIndex)(dynamic)*/
+// info: Get number of data fields for this dbrow's column
+[command,db_getfieldcount](dbrow $dbrow0, dbcolumn $dbcolumn1)(int)
+// info: Get a specific dbrow by indexing db_find's result set
+[command,db_findbyindex](int $index)(dbrow)
+// info: Filter previous db_find with a new query on an indexed column
+[command,db_find_refine]/*(dbcolumn $tableColumn, dynamic $query)*/
+// info: Filter previous db_find with a new query on an indexed column, then return how many results there are
+[command,db_find_refine_with_count]/*(dbcolumn $tableColumn, dynamic $query)(int)*/
+// info: Get a dbtable from a dbrow
+[command,db_getrowtable](dbrow $dbrow0)(dbtable)
 
 // Debug ops (10000-11000)
 // info: Raise a script error on the server
