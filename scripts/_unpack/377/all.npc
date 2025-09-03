@@ -1421,6 +1421,12 @@ op4=Trade
 alwaysontop=yes
 head1=obj_castlewars_cloak_saradomin_manhead
 head2=idk_man_jaw_medium_head
+category=slayer_master
+param=owned_shop,slayershop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Slayer Equipment
 
 [orc]
 name=Orc
@@ -1540,6 +1546,7 @@ walkanim=cow_walk
 readyanim=cow_just_ready
 op2=Attack
 vislevel=2
+param=slayer_category,^slayer_cow
 
 [lesser_demon]
 name=Lesser demon
@@ -1562,6 +1569,26 @@ walkanim=demon_walk
 readyanim=demon_ready
 op2=Attack
 vislevel=92
+wanderrange=6
+maxrange=8
+respawnrate=30
+hitpoints=87
+attack=76
+strength=78
+defence=81
+param=magicdefence,-10
+param=damagetype,^slash_style
+param=attack_anim,demon_attack
+param=defend_anim,demon_block
+param=death_anim,demon_death_greater
+param=attack_sound,sound_47
+param=defend_sound,sound_46
+param=death_sound,sound_45
+param=demonbane_vulnerable,yes
+param=death_drop,ashes
+param=slayer_category,^slayer_greaterdemon
+huntmode=cowardly
+huntrange=3
 
 [black_demon]
 name=Black Demon
@@ -1758,6 +1785,25 @@ walkanim=goblin_walk
 readyanim=goblin_ready
 op2=Attack
 vislevel=2
+wanderrange=15
+maxrange=17
+respawnrate=140
+hitpoints=5
+param=attackbonus,-21
+param=strengthbonus,-15
+param=stabdefence,-15
+param=slashdefence,-15
+param=crushdefence,-15
+param=magicdefence,-15
+param=rangedefence,-15
+param=damagetype,^crush_style
+param=attack_anim,goblin_attack_unarmed
+param=defend_anim,goblin_block
+param=death_anim,goblin_death
+param=attack_sound,sound_123
+param=defend_sound,sound_124
+param=death_sound,sound_125
+param=slayer_category,^slayer_goblin
 
 [goblin_armed]
 name=Goblin
@@ -1771,6 +1817,23 @@ walkanim=goblin_walk
 readyanim=goblin_ready
 op2=Attack
 vislevel=5
+wanderrange=15
+maxrange=17
+respawnrate=140
+hitpoints=12
+attack=3
+defence=4
+param=attackrate,6
+param=attackbonus,12
+param=strengthbonus,12
+param=damagetype,^stab_style
+param=attack_anim,goblin_attack_armed
+param=defend_anim,goblin_block
+param=death_anim,goblin_death
+param=attack_sound,sound_123
+param=defend_sound,sound_124
+param=death_sound,sound_125
+param=slayer_category,^slayer_goblin
 
 [goblin_helmet]
 name=Goblin
@@ -1783,6 +1846,27 @@ walkanim=goblin_walk
 readyanim=goblin_ready
 op2=Attack
 vislevel=13
+wanderrange=15
+maxrange=17
+respawnrate=140
+respawnrate=140
+hitpoints=16
+attack=12
+strength=13
+defence=7
+param=stabdefence,4
+param=slashdefence,6
+param=crushdefence,8
+param=magicdefence,4
+param=rangedefence,4
+param=damagetype,^crush_style
+param=attack_anim,goblin_attack_unarmed
+param=defend_anim,goblin_block
+param=death_anim,goblin_death
+param=attack_sound,sound_123
+param=defend_sound,sound_124
+param=death_sound,sound_125
+param=slayer_category,^slayer_goblin
 
 [ghost]
 name=Ghost
@@ -1815,6 +1899,7 @@ walkanim=bear_walk
 readyanim=bear_ready
 op2=Attack
 vislevel=21
+param=slayer_category,^slayer_bear
 
 [darkbear]
 name=Bear
@@ -1827,26 +1912,72 @@ walkanim=bear_walk
 readyanim=bear_ready
 op2=Attack
 vislevel=19
+param=slayer_category,^slayer_bear
 
 [scorpion]
 name=Scorpion
 desc=An extremely vicious scorpion.
 model1=npc_scorpion
 size=2
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 op2=Attack
 vislevel=14
+wanderrange=12
+maxrange=14
+respawnrate=50
+hitpoints=17
+attack=11
+strength=12
+defence=11
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=damagetype,^stab_style
+param=attack_anim,scorpion_attack
+param=defend_anim,scorpion_parry
+param=death_anim,scorpion_death
+param=attack_sound,sound_537
+param=defend_sound,sound_539
+param=death_sound,sound_538
+param=death_drop,null
+param=slayer_category,^slayer_scorpion
+huntmode=cowardly
+huntrange=2
 
 [poison_scorpion]
 name=Poison Scorpion
 desc=It has a very vicious looking tail.
 model1=npc_scorpion
 size=2
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 op2=Attack
 vislevel=20
+wanderrange=12
+maxrange=14
+respawnrate=50
+hitpoints=23
+attack=16
+strength=17
+defence=15
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=damagetype,^stab_style
+param=attack_anim,scorpion_attack
+param=defend_anim,scorpion_parry
+param=death_anim,scorpion_death
+param=attack_sound,sound_537
+param=defend_sound,sound_539
+param=death_sound,sound_538
+param=death_drop,null
+param=poison_severity,15
+param=slayer_category,^slayer_scorpion
+huntmode=cowardly
+huntrange=2
 
 [smallscorpion]
 name=Pit Scorpion
@@ -1856,6 +1987,26 @@ walkanim=smallscorpion_walk
 readyanim=smallscorpion_ready
 op2=Attack
 vislevel=28
+wanderrange=4
+maxrange=6
+respawnrate=100
+hitpoints=32
+attack=23
+strength=23
+defence=23
+param=slashdefence,5
+param=crushdefence,5
+param=damagetype,^stab_style
+param=attack_anim,smallscorpion_attack
+param=defend_anim,smallscorpion_block
+param=death_anim,smallscorpion_death
+param=attack_sound,sound_537
+param=defend_sound,sound_539
+param=death_sound,sound_538
+param=death_drop,null
+param=slayer_category,^slayer_scorpion
+huntmode=cowardly
+huntrange=1
 
 [firegiant]
 name=Fire giant
@@ -2179,6 +2330,22 @@ walkanim=monkey_walk
 readyanim=monkey_ready
 op2=Attack
 vislevel=3
+wanderrange=11
+maxrange=13
+respawnrate=74
+hitpoints=6
+attack=2
+strength=3
+defence=2
+param=damagetype,^crush_style
+param=attack_anim,monkey_attack
+param=defend_anim,monkey_block
+param=death_anim,monkey_death
+param=attack_sound,sound_138
+param=defend_sound,sound_139
+param=death_sound,sound_140
+param=death_drop,mm_normal_monkey_bones
+param=slayer_category,^slayer_monkey
 
 [black_unicorn]
 name=Black unicorn
@@ -2314,8 +2481,8 @@ name=King Scorpion
 desc=Wow! Scorpions shouldn't grow that big.
 model1=npc_scorpion
 size=2
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 resizeh=180
 resizev=180
 op2=Attack
@@ -5140,8 +5307,8 @@ recol1d=10570
 recol2s=11426
 recol2d=6342
 size=2
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 op2=Attack
 vislevel=44
 
@@ -7762,6 +7929,7 @@ op2=Attack
 resizeh=115
 resizev=115
 vislevel=2
+param=slayer_category,^slayer_cow
 
 [legends_guild_guard1]
 name=Legends Guard
@@ -20082,6 +20250,7 @@ walkanim=cow_walk
 readyanim=cow_just_ready
 op2=Attack
 vislevel=2
+param=slayer_category,^slayer_cow
 
 [macro_dwarf]
 name=Drunken Dwarf
@@ -27948,6 +28117,7 @@ op2=Attack
 resizeh=96
 resizev=96
 vislevel=15
+param=slayer_category,^slayer_bear
 
 [npc_1327]
 name=Bear Cub
@@ -27963,6 +28133,7 @@ op2=Attack
 resizeh=64
 resizev=64
 vislevel=15
+param=slayer_category,^slayer_bear
 
 [npc_1328]
 name=Unicorn Foal
@@ -30936,7 +31107,7 @@ recol1s=16677
 recol1d=4162
 recol2s=11426
 recol2d=5219
-walkanim=wild_cave_chainmace_ready
+walkanim=scorpion_walk
 minimap=no
 resizeh=32
 resizev=32
@@ -31555,8 +31726,8 @@ recol1s=16677
 recol1d=4162
 recol2s=11426
 recol2d=5219
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 resizeh=70
 resizev=70
 vislevel=1
@@ -32949,6 +33120,12 @@ op1=Talk-to
 op4=Trade
 alwaysontop=yes
 head1=npc_ranging_guild_poison_salesman_head
+category=slayer_master
+param=owned_shop,slayershop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Slayer Equipment
 
 [npc_1597]
 name=Vannaka
@@ -32985,6 +33162,12 @@ alwaysontop=yes
 head1=npc_macro_geni_head
 head2=idk_man_jaw_split_head
 head3=obj_headband_red_manhead
+category=slayer_master
+param=owned_shop,slayershop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Slayer Equipment
 
 [npc_1598]
 name=Chaeldar
@@ -33003,6 +33186,12 @@ op1=Talk-to
 op4=Trade
 alwaysontop=yes
 head1=npc_1598_head
+category=slayer_master
+param=owned_shop,slayershop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Slayer Equipment
 
 [npc_1599]
 name=Duradel
@@ -33036,6 +33225,12 @@ op4=Trade
 alwaysontop=yes
 head1=npc_macro_geni_head
 head2=npc_macro_geni_headi2
+category=slayer_master
+param=owned_shop,slayershop
+param=shop_sell_multiplier,1000
+param=shop_buy_multiplier,600
+param=shop_delta,1
+param=shop_title,Slayer Equipment
 
 [npc_1600]
 name=Cave crawler
@@ -33048,6 +33243,21 @@ walkanim=crawler_walk
 readyanim=crawler_ready
 op2=Attack
 vislevel=23
+respawnrate=30
+hitpoints=22
+attack=22
+strength=18
+defence=18
+param=damagetype,^stab_style
+param=attack_anim,crawler_attack
+param=defend_anim,crawler_parry
+param=death_anim,crawler_death
+param=attack_sound,sound_869
+param=defend_sound,sound_870
+param=death_sound,sound_871
+param=death_drop,null
+param=slayer_category,^slayer_cavecrawler
+param=poison_severity,36
 
 [npc_1601]
 name=Cave crawler
@@ -33068,6 +33278,21 @@ op2=Attack
 resizeh=117
 resizev=117
 vislevel=23
+respawnrate=30
+hitpoints=22
+attack=22
+strength=18
+defence=18
+param=damagetype,^stab_style
+param=attack_anim,crawler_attack
+param=defend_anim,crawler_parry
+param=death_anim,crawler_death
+param=attack_sound,sound_869
+param=defend_sound,sound_870
+param=death_sound,sound_871
+param=death_drop,null
+param=slayer_category,^slayer_cavecrawler
+param=poison_severity,36
 
 [npc_1602]
 name=Cave crawler
@@ -33088,6 +33313,21 @@ op2=Attack
 resizeh=131
 resizev=131
 vislevel=23
+respawnrate=30
+hitpoints=22
+attack=22
+strength=18
+defence=18
+param=damagetype,^stab_style
+param=attack_anim,crawler_attack
+param=defend_anim,crawler_parry
+param=death_anim,crawler_death
+param=attack_sound,sound_869
+param=defend_sound,sound_870
+param=death_sound,sound_871
+param=death_drop,null
+param=slayer_category,^slayer_cavecrawler
+param=poison_severity,36
 
 [npc_1603]
 name=Cave crawler
@@ -33108,6 +33348,21 @@ op2=Attack
 resizeh=122
 resizev=122
 vislevel=23
+respawnrate=30
+hitpoints=22
+attack=22
+strength=18
+defence=18
+param=damagetype,^stab_style
+param=attack_anim,crawler_attack
+param=defend_anim,crawler_parry
+param=death_anim,crawler_death
+param=attack_sound,sound_869
+param=defend_sound,sound_870
+param=death_sound,sound_871
+param=death_drop,null
+param=slayer_category,^slayer_cavecrawler
+param=poison_severity,36
 
 [npc_1604]
 name=Aberrant specter
@@ -33120,6 +33375,26 @@ op2=Attack
 resizeh=70
 resizev=70
 vislevel=96
+attackrange=6
+// recheck this respawn rate
+respawnrate=30
+hitpoints=90
+defence=90
+magic=105
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,15
+param=damagetype,^magic_style
+param=attack_anim,specter_attack
+param=defend_anim,specter_parry
+param=death_anim,specter_death
+param=attack_sound,sound_879
+param=defend_sound,sound_881
+param=death_sound,sound_880
+param=death_drop,null
+param=slayer_category,^slayer_aberrantspecter
+category=slayer_aberrant_specter
 
 [npc_1605]
 name=Aberrant specter
@@ -33132,6 +33407,26 @@ op2=Attack
 resizeh=75
 resizev=75
 vislevel=96
+attackrange=8
+// recheck this respawn rate
+respawnrate=30
+hitpoints=90
+defence=90
+magic=105
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,15
+param=damagetype,^magic_style
+param=attack_anim,specter_attack
+param=defend_anim,specter_parry
+param=death_anim,specter_death
+param=attack_sound,sound_879
+param=defend_sound,sound_881
+param=death_sound,sound_880
+param=death_drop,null
+param=slayer_category,^slayer_aberrantspecter
+category=slayer_aberrant_specter
 
 [npc_1606]
 name=Aberrant specter
@@ -33144,6 +33439,26 @@ op2=Attack
 resizeh=80
 resizev=80
 vislevel=96
+attackrange=8
+// recheck this respawn rate
+respawnrate=30
+hitpoints=90
+defence=90
+magic=105
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,15
+param=damagetype,^magic_style
+param=attack_anim,specter_attack
+param=defend_anim,specter_parry
+param=death_anim,specter_death
+param=attack_sound,sound_879
+param=defend_sound,sound_881
+param=death_sound,sound_880
+param=death_drop,null
+param=slayer_category,^slayer_aberrantspecter
+category=slayer_aberrant_specter
 
 [npc_1607]
 name=Aberrant specter
@@ -33156,6 +33471,26 @@ op2=Attack
 resizeh=77
 resizev=77
 vislevel=96
+attackrange=8
+// recheck this respawn rate
+respawnrate=30
+hitpoints=90
+defence=90
+magic=105
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,15
+param=damagetype,^magic_style
+param=attack_anim,specter_attack
+param=defend_anim,specter_parry
+param=death_anim,specter_death
+param=attack_sound,sound_879
+param=defend_sound,sound_881
+param=death_sound,sound_880
+param=death_drop,null
+param=slayer_category,^slayer_aberrantspecter
+category=slayer_aberrant_specter
 
 [npc_1608]
 name=Kurask
@@ -33168,6 +33503,23 @@ op2=Attack
 resizeh=185
 resizev=185
 vislevel=106
+respawnrate=30
+hitpoints=97
+attack=67
+strength=105
+defence=105
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,kursk_attack
+param=defend_anim,kursk_parry
+param=death_anim,kursk_death
+param=attack_sound,sound_845
+param=defend_sound,sound_847
+param=death_sound,sound_846
+param=damagetype,^crush_style
+huntrange=2
+huntmode=cowardly
+param=slayer_category,^slayer_kurask
 
 [npc_1609]
 name=Kurask
@@ -33180,8 +33532,25 @@ op2=Attack
 resizeh=205
 resizev=205
 vislevel=106
+respawnrate=30
+hitpoints=97
+attack=67
+strength=105
+defence=105
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,kursk_attack
+param=defend_anim,kursk_parry
+param=death_anim,kursk_death
+param=attack_sound,sound_845
+param=defend_sound,sound_847
+param=death_sound,sound_846
+param=damagetype,^crush_style
+huntrange=2
+huntmode=cowardly
+param=slayer_category,^slayer_kurask
 
-[npc_1610]
+[slayer_gargoyle]
 name=Gargoyle
 desc=Flies like a rock.
 model1=npc_1610
@@ -33191,8 +33560,27 @@ walkanim=gargoyle_fly
 readyanim=gargoyle_ready
 op2=Attack
 vislevel=111
+respawnrate=30
+hitpoints=105
+attack=75
+strength=105
+defence=107
+param=stabdefence,50
+param=slashdefence,60
+param=crushdefence,-20
+param=rangedefence,20
+param=magicdefence,20
+param=damagetype,^slash_style
+param=attack_anim,gargoyle_attack
+param=defend_anim,gargoyle_parry
+param=death_anim,gargoyle_boom
+param=attack_sound,sound_856
+param=defend_sound,sound_858
+param=death_sound,sound_857
+param=death_drop,null
+param=slayer_category,^slayer_gargoyle
 
-[npc_1611]
+[slayer_gargoyle_dead]
 name=Gargoyle
 desc=Flies like a rock.
 model1=npc_1611
@@ -33200,8 +33588,27 @@ model2=npc_1610i2
 size=3
 op2=Attack
 vislevel=111
+respawnrate=30
+hitpoints=105
+attack=75
+strength=105
+defence=107
+param=stabdefence,50
+param=slashdefence,60
+param=crushdefence,-20
+param=rangedefence,20
+param=magicdefence,20
+param=damagetype,^slash_style
+param=attack_anim,gargoyle_attack
+param=defend_anim,gargoyle_parry
+param=death_anim,gargoyle_boom
+param=attack_sound,sound_856
+param=defend_sound,sound_858
+param=death_sound,sound_857
+param=death_drop,null
+param=slayer_category,^slayer_gargoyle
 
-[npc_1612]
+[slayer_banshee_1]
 name=Banshee
 desc=A tortured screaming soul.
 model1=obj_slayerguide_banshee
@@ -33211,8 +33618,22 @@ walkanim=banshee_walk
 readyanim=banshee_ready
 op2=Attack
 vislevel=23
+attackrange=5
+respawnrate=30
+hitpoints=22
+attack=22
+strength=15
+defence=22
+param=attack_anim,banshee_attack
+param=defend_anim,banshee_parry
+param=death_anim,banshee_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_banshee
+param=damagetype,^magic_style
 
-[npc_1613]
+[slayer_nechryael]
 name=Nechryael
 desc=An evil death demon.
 model1=obj_slayerguide_nechryael
@@ -33222,8 +33643,25 @@ op2=Attack
 ambient=-25
 contrast=-15
 vislevel=115
+respawnrate=30
+hitpoints=105
+attack=97
+strength=97
+defence=105
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,20
+param=attack_anim,demons_attack
+param=defend_anim,demons_parry
+param=death_anim,demons_death
+param=attack_sound,sound_831
+param=defend_sound,sound_830
+param=death_sound,sound_829
+param=slayer_category,^slayer_nechryael
+param=damagetype,^crush_style
 
-[npc_1614]
+[slayer_nechryael_spawn]
 name=Death spawn
 desc=An evil death spawn.
 model1=npc_1614
@@ -33249,8 +33687,23 @@ resizev=96
 resizeh=96
 op2=Attack
 vislevel=46
+hitpoints=60
+attack=67
+strength=7
+defence=30
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,20
+param=attack_anim,demon_spawn_attack
+param=defend_anim,demon_spawn_parry
+param=death_anim,demon_spawn_death
+param=attack_sound,sound_879
+param=defend_sound,sound_884
+param=death_sound,sound_882
+param=damagetype,^slash_style
 
-[npc_1615]
+[slayer_abyssal]
 name=Abyssal demon
 desc=It's escaped from the abyss.
 model1=obj_slayerguide_abyssaldemon
@@ -33262,8 +33715,27 @@ resizeh=64
 resizev=64
 op2=Attack
 vislevel=124
+respawnrate=30
+hitpoints=150
+attack=97
+strength=67
+defence=135
+param=stabdefence,20
+param=slashdefence,20
+param=crushdefence,20
+param=rangedefence,20
+param=damagetype,^stab_style
+param=attack_anim,abyssal_attack
+param=defend_anim,abyssal_demon_teleport
+param=death_anim,abyssal_death
+param=attack_sound,sound_856
+param=defend_sound,sound_858
+param=death_sound,sound_857
+param=demonbane_vulnerable,^true
+param=death_drop,ashes
+param=slayer_category,^slayer_abyssaldemon
 
-[npc_1616]
+[slayer_basilisk]
 name=Basilisk
 desc=The eyes of evil.
 model1=obj_slayerguide_basilisk
@@ -33272,8 +33744,26 @@ walkanim=basilisk_walk
 readyanim=basilisk_ready
 op2=Attack
 vislevel=61
+attackrange=5
+respawnrate=30
+hitpoints=75
+attack=30
+strength=45
+defence=75
+param=stabdefence,20
+param=slashdefence,20
+param=magicdefence,20
+param=damagetype,^slash_style
+param=attack_anim,basilisk_attack
+param=defend_anim,basilisk_defend
+param=death_anim,basilisk_death
+param=attack_sound,sound_841
+param=defend_sound,sound_842
+param=death_sound,sound_844
+param=slayer_category,^slayer_basilisk
+category=slayer_basilisk
 
-[npc_1617]
+[slayer_basilisk_baby]
 name=Basilisk
 desc=The eyes of evil.
 model1=obj_slayerguide_basilisk
@@ -33284,6 +33774,24 @@ resizeh=110
 resizev=110
 op2=Attack
 vislevel=61
+attackrange=5
+respawnrate=30
+hitpoints=75
+attack=30
+strength=45
+defence=75
+param=stabdefence,20
+param=slashdefence,20
+param=magicdefence,20
+param=damagetype,^slash_style
+param=attack_anim,basilisk_attack
+param=defend_anim,basilisk_defend
+param=death_anim,basilisk_death
+param=attack_sound,sound_841
+param=defend_sound,sound_842
+param=death_sound,sound_844
+param=slayer_category,^slayer_basilisk
+category=slayer_basilisk
 
 [npc_1618]
 name=Bloodveld
@@ -33296,6 +33804,20 @@ resizeh=245
 resizev=245
 op2=Attack
 vislevel=76
+respawnrate=42
+hitpoints=120
+attack=75
+strength=45
+defence=30
+param=attack_anim,bloodveld_attack
+param=defend_anim,bloodveld_defend
+param=death_anim,bloodveld_death
+param=attack_sound,sound_853
+param=defend_sound,sound_855
+param=death_sound,sound_854
+param=slayer_category,^slayer_bloodveld
+param=damagetype,^magic_style
+category=slayer_bloodveld
 
 [npc_1619]
 name=Bloodveld
@@ -33308,8 +33830,22 @@ resizeh=200
 resizev=200
 op2=Attack
 vislevel=76
+respawnrate=42
+hitpoints=120
+attack=75
+strength=45
+defence=30
+param=attack_anim,bloodveld_attack
+param=defend_anim,bloodveld_defend
+param=death_anim,bloodveld_death
+param=attack_sound,sound_853
+param=defend_sound,sound_855
+param=death_sound,sound_854
+param=slayer_category,^slayer_bloodveld
+param=damagetype,^magic_style
+category=slayer_bloodveld
 
-[npc_1620]
+[slayer_cockatrice]
 name=Cockatrice
 desc=The winged reptile.
 model1=obj_slayerguide_cockatrice
@@ -33320,6 +33856,23 @@ resizeh=120
 resizev=120
 op2=Attack
 vislevel=37
+attackrange=5
+respawnrate=30
+hitpoints=120
+attack=75
+strength=45
+defence=30
+param=stabdefence,10
+param=slashdefence,10
+param=magicdefence,10
+param=attack_anim,cockatrice_attack
+param=defend_anim,cockatrice_defend
+param=death_anim,cockatrice_death
+param=attack_sound,sound_862
+param=defend_sound,sound_863
+param=death_sound,sound_864
+param=slayer_category,^slayer_cockatrice
+param=damagetype,^magic_style
 
 [npc_1621]
 name=Cockatrice
@@ -33333,7 +33886,7 @@ resizev=180
 op2=Attack
 vislevel=37
 
-[npc_1622]
+[slayer_rockslug]
 name=Rockslug
 desc=The slime of evil.
 model1=obj_slayerguide_rockslug
@@ -33343,8 +33896,21 @@ walkanim=rockslug_walk
 readyanim=rockslug_ready
 op2=Attack
 vislevel=29
+respawnrate=30
+hitpoints=27
+attack=22
+strength=27
+defence=27
+param=attack_anim,rockslug_attack
+param=defend_anim,rockslug_defend
+param=death_anim,rockslug_death
+param=attack_sound,sound_835
+param=defend_sound,sound_836
+param=death_sound,sound_837
+param=slayer_category,^slayer_rockslug
+param=damagetype,^crush_style
 
-[npc_1623]
+[slayer_rockslug_baby]
 name=Rockslug
 desc=The slime of evil.
 model1=obj_slayerguide_rockslug
@@ -33356,6 +33922,19 @@ resizeh=110
 resizev=110
 op2=Attack
 vislevel=29
+respawnrate=30
+hitpoints=27
+attack=22
+strength=27
+defence=27
+param=attack_anim,rockslug_attack
+param=defend_anim,rockslug_defend
+param=death_anim,rockslug_death
+param=attack_sound,sound_835
+param=defend_sound,sound_836
+param=death_sound,sound_837
+param=slayer_category,^slayer_rockslug
+param=damagetype,^crush_style
 
 [npc_1624]
 name=Dust devil
@@ -33389,6 +33968,7 @@ readyanim=dustdevil_ready
 op2=Attack
 vislevel=93
 
+// unused
 [npc_1626]
 name=Turoth
 desc=He's one leg short!
@@ -33397,6 +33977,7 @@ walkanim=turoth_walk
 readyanim=turoth_ready
 op2=Attack
 vislevel=86
+param=slayer_category,^slayer_turoth
 
 [npc_1627]
 name=Turoth
@@ -33413,6 +33994,21 @@ op2=Attack
 resizeh=256
 resizev=256
 vislevel=89
+respawnrate=30
+hitpoints=81
+attack=58
+strength=88
+defence=88
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,turoth_attack
+param=defend_anim,turoth_defend
+param=death_anim,turoth_death
+param=attack_sound,sound_872
+param=defend_sound,sound_873
+param=death_sound,sound_874
+param=damagetype,^stab_style
+param=slayer_category,^slayer_turoth
 
 [npc_1628]
 name=Turoth
@@ -33429,6 +34025,21 @@ op2=Attack
 resizeh=210
 resizev=210
 vislevel=87
+respawnrate=30
+hitpoints=79
+attack=56
+strength=86
+defence=86
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,turoth_attack
+param=defend_anim,turoth_defend
+param=death_anim,turoth_death
+param=attack_sound,sound_872
+param=defend_sound,sound_873
+param=death_sound,sound_874
+param=damagetype,^stab_style
+param=slayer_category,^slayer_turoth
 
 [npc_1629]
 name=Turoth
@@ -33442,6 +34053,21 @@ walkanim=turoth_walk
 readyanim=turoth_ready
 op2=Attack
 vislevel=85
+respawnrate=30
+hitpoints=77
+attack=54
+strength=84
+defence=84
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,turoth_attack
+param=defend_anim,turoth_defend
+param=death_anim,turoth_death
+param=attack_sound,sound_872
+param=defend_sound,sound_873
+param=death_sound,sound_874
+param=damagetype,^stab_style
+param=slayer_category,^slayer_turoth
 
 [npc_1630]
 name=Turoth
@@ -33457,7 +34083,23 @@ op2=Attack
 resizeh=90
 resizev=90
 vislevel=83
+respawnrate=30
+hitpoints=76
+attack=53
+strength=83
+defence=83
+param=slashdefence,20
+param=crushdefence,20
+param=attack_anim,turoth_attack
+param=defend_anim,turoth_defend
+param=death_anim,turoth_death
+param=attack_sound,sound_872
+param=defend_sound,sound_873
+param=death_sound,sound_874
+param=damagetype,^stab_style
+param=slayer_category,^slayer_turoth
 
+// both 88 variants are unused
 [npc_1631]
 name=Turoth
 desc=He's one big leg short!
@@ -33473,6 +34115,7 @@ op2=Attack
 resizeh=240
 resizev=240
 vislevel=88
+param=slayer_category,^slayer_turoth
 
 [npc_1632]
 name=Turoth
@@ -33489,8 +34132,9 @@ op2=Attack
 resizeh=240
 resizev=240
 vislevel=88
+param=slayer_category,^slayer_turoth
 
-[npc_1633]
+[slayer_pyrefiend_1]
 name=Pyrefiend
 desc=A small fire demon.
 model1=obj_slayerguide_pyrfiend
@@ -33500,8 +34144,26 @@ op2=Attack
 ambient=60
 contrast=60
 vislevel=43
+respawnrate=30
+hitpoints=45
+attack=52
+strength=30
+defence=22
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,10
+param=rangedefence,10
+param=attack_anim,pyrefiend_attack
+param=defend_anim,pyrefiend_defend
+param=death_anim,pyrefiend_death
+param=attack_sound,sound_832
+param=defend_sound,sound_834
+param=death_sound,sound_833
+param=slayer_category,^slayer_pyrefiend
+param=damagetype,^magic_style
+param=death_drop,ashes
 
-[npc_1634]
+[slayer_pyrefiend_2]
 name=Pyrefiend
 desc=A small fire demon.
 model1=obj_slayerguide_pyrfiend
@@ -33513,8 +34175,26 @@ resizev=120
 ambient=62
 contrast=62
 vislevel=43
+respawnrate=30
+hitpoints=45
+attack=52
+strength=30
+defence=22
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,10
+param=rangedefence,10
+param=attack_anim,pyrefiend_attack
+param=defend_anim,pyrefiend_defend
+param=death_anim,pyrefiend_death
+param=attack_sound,sound_832
+param=defend_sound,sound_834
+param=death_sound,sound_833
+param=slayer_category,^slayer_pyrefiend
+param=damagetype,^magic_style
+param=death_drop,ashes
 
-[npc_1635]
+[slayer_pyrefiend_3]
 name=Pyrefiend
 desc=A small fire demon.
 model1=obj_slayerguide_pyrfiend
@@ -33526,8 +34206,26 @@ resizev=100
 ambient=58
 contrast=58
 vislevel=43
+respawnrate=30
+hitpoints=45
+attack=52
+strength=30
+defence=22
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,10
+param=rangedefence,10
+param=attack_anim,pyrefiend_attack
+param=defend_anim,pyrefiend_defend
+param=death_anim,pyrefiend_death
+param=attack_sound,sound_832
+param=defend_sound,sound_834
+param=death_sound,sound_833
+param=slayer_category,^slayer_pyrefiend
+param=damagetype,^magic_style
+param=death_drop,ashes
 
-[npc_1636]
+[slayer_pyrefiend_4]
 name=Pyrefiend
 desc=A small fire demon.
 model1=obj_slayerguide_pyrfiend
@@ -33539,8 +34237,26 @@ resizev=106
 ambient=65
 contrast=65
 vislevel=43
+respawnrate=30
+hitpoints=45
+attack=52
+strength=30
+defence=22
+param=stabdefence,10
+param=slashdefence,10
+param=crushdefence,10
+param=rangedefence,10
+param=attack_anim,pyrefiend_attack
+param=defend_anim,pyrefiend_defend
+param=death_anim,pyrefiend_death
+param=attack_sound,sound_832
+param=defend_sound,sound_834
+param=death_sound,sound_833
+param=slayer_category,^slayer_pyrefiend
+param=damagetype,^magic_style
+param=death_drop,ashes
 
-[npc_1637]
+[slayer_jelly_1]
 name=Jelly
 desc=Looks scared to see me.
 model1=obj_slayerguide_jelly
@@ -33550,8 +34266,23 @@ op2=Attack
 resizeh=112
 resizev=112
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
-[npc_1638]
+[slayer_jelly_2]
 name=Jelly
 desc=Doesn't look so tough...
 model1=obj_slayerguide_jelly
@@ -33571,8 +34302,23 @@ op2=Attack
 resizeh=108
 resizev=108
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
-[npc_1639]
+[slayer_jelly_3]
 name=Jelly
 desc=Wibbly.
 model1=obj_slayerguide_jelly
@@ -33592,8 +34338,23 @@ op2=Attack
 resizeh=104
 resizev=104
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
-[npc_1640]
+[slayer_jelly_4]
 name=Jelly
 desc=There's always room for jelly.
 model1=obj_slayerguide_jelly
@@ -33613,8 +34374,23 @@ op2=Attack
 resizeh=106
 resizev=106
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
-[npc_1641]
+[slayer_jelly_5]
 name=Jelly
 desc=Needs cream.....
 model1=obj_slayerguide_jelly
@@ -33634,8 +34410,23 @@ op2=Attack
 resizeh=102
 resizev=102
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
-[npc_1642]
+[slayer_jelly_6]
 name=Jelly
 desc=Wobbly...
 model1=obj_slayerguide_jelly
@@ -33655,6 +34446,21 @@ op2=Attack
 resizeh=110
 resizev=110
 vislevel=78
+respawnrate=30
+hitpoints=75
+attack=45
+strength=45
+defence=120
+magic=45
+param=attack_anim,jelly_attack
+param=defend_anim,jelly_defend
+param=death_anim,jelly_death
+param=attack_sound,sound_825
+param=defend_sound,sound_828
+param=death_sound,sound_827
+param=slayer_category,^slayer_jelly
+param=damagetype,^magic_style
+category=slayer_jelly
 
 [npc_1643]
 name=Infernal Mage
@@ -33687,6 +34493,13 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 op2=Attack
 vislevel=66
+category=slayer_infernalmage
+attackrange=8
+hitpoints=60
+defence=60
+magic=75
+param=damagetype,^magic_style
+param=defend_anim,null
 
 [npc_1644]
 name=Infernal Mage
@@ -33719,6 +34532,13 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 op2=Attack
 vislevel=66
+category=slayer_infernalmage
+attackrange=8
+hitpoints=60
+defence=60
+magic=75
+param=damagetype,^magic_style
+param=defend_anim,null
 
 [npc_1645]
 name=Infernal Mage
@@ -33751,6 +34571,13 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 op2=Attack
 vislevel=66
+category=slayer_infernalmage
+attackrange=8
+hitpoints=60
+defence=60
+magic=75
+param=damagetype,^magic_style
+param=defend_anim,null
 
 [npc_1646]
 name=Infernal Mage
@@ -33783,6 +34610,13 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 op2=Attack
 vislevel=66
+category=slayer_infernalmage
+attackrange=8
+hitpoints=60
+defence=60
+magic=75
+param=damagetype,^magic_style
+param=defend_anim,null
 
 [npc_1647]
 name=Infernal Mage
@@ -33815,6 +34649,13 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 op2=Attack
 vislevel=66
+category=slayer_infernalmage
+attackrange=8
+hitpoints=60
+defence=60
+magic=75
+param=damagetype,^magic_style
+param=defend_anim,null
 
 [npc_1648]
 name=Crawling Hand
@@ -33827,6 +34668,19 @@ resizeh=112
 resizev=112
 ambient=30
 vislevel=8
+respawnrate=30
+hitpoints=16
+attack=8
+strength=4
+defence=4
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=damagetype,^crush_style
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1649]
 name=Crawling Hand
@@ -33851,6 +34705,19 @@ resizeh=104
 resizev=104
 ambient=30
 vislevel=8
+respawnrate=30
+hitpoints=16
+attack=8
+strength=4
+defence=4
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=damagetype,^crush_style
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1650]
 name=Crawling Hand
@@ -33875,6 +34742,19 @@ resizeh=82
 resizev=82
 ambient=30
 vislevel=7
+respawnrate=30
+hitpoints=15
+attack=7
+strength=3
+defence=3
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=damagetype,^crush_style
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1651]
 name=Crawling Hand
@@ -33899,6 +34779,19 @@ resizeh=106
 resizev=106
 ambient=30
 vislevel=8
+respawnrate=30
+hitpoints=16
+attack=8
+strength=4
+defence=4
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=damagetype,^crush_style
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1652]
 name=Crawling Hand
@@ -33923,6 +34816,19 @@ resizeh=98
 resizev=98
 ambient=30
 vislevel=8
+respawnrate=30
+hitpoints=16
+attack=8
+strength=4
+defence=4
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=damagetype,^crush_style
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1653]
 name=Crawling Hand
@@ -33936,6 +34842,19 @@ resizeh=224
 resizev=224
 ambient=30
 vislevel=12
+respawnrate=30
+hitpoints=19
+attack=11
+strength=7
+defence=7
+param=damagetype,^crush_style
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1654]
 name=Crawling Hand
@@ -33961,6 +34880,19 @@ resizeh=224
 resizev=224
 ambient=30
 vislevel=12
+respawnrate=30
+hitpoints=19
+attack=11
+strength=7
+defence=7
+param=damagetype,^crush_style
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1655]
 name=Crawling Hand
@@ -33986,6 +34918,19 @@ resizeh=208
 resizev=208
 ambient=30
 vislevel=11
+respawnrate=30
+hitpoints=18
+attack=10
+strength=6
+defence=6
+param=damagetype,^crush_style
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1656]
 name=Crawling Hand
@@ -34011,6 +34956,19 @@ resizeh=216
 resizev=216
 ambient=30
 vislevel=12
+respawnrate=30
+hitpoints=19
+attack=11
+strength=7
+defence=7
+param=damagetype,^crush_style
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1657]
 name=Crawling Hand
@@ -34036,6 +34994,19 @@ resizeh=198
 resizev=198
 ambient=30
 vislevel=12
+respawnrate=30
+hitpoints=19
+attack=11
+strength=7
+defence=7
+param=damagetype,^crush_style
+param=attack_anim,crawlinghand_attack
+param=defend_anim,crawlinghand_defend
+param=death_anim,crawlinghand_death
+param=attack_sound,sound_838
+param=defend_sound,sound_840
+param=death_sound,sound_839
+param=slayer_category,^slayer_crawlinghand
 
 [npc_1658]
 name=Robe Store owner
@@ -34613,8 +35584,8 @@ name=Giant Lobster
 desc=An extremely vicious lobster.
 model1=npc_1693
 size=2
-walkanim=wild_cave_chainmace_ready
-readyanim=wild_cave_chainmace_crush
+walkanim=scorpion_walk
+readyanim=scorpion_ready
 op2=Attack
 vislevel=32
 
@@ -56711,6 +57682,24 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=42
+respawnrate=50
+hitpoints=40
+attack=38
+strength=36
+defence=35
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2804]
 name=Desert Lizard
@@ -56738,6 +57727,24 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=24
+respawnrate=50
+hitpoints=25
+attack=20
+strength=22
+defence=20
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2805]
 name=Desert Lizard
@@ -56764,6 +57771,24 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=24
+respawnrate=50
+hitpoints=25
+attack=20
+strength=22
+defence=20
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2806]
 name=Desert Lizard
@@ -56790,6 +57815,24 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=24
+respawnrate=50
+hitpoints=25
+attack=20
+strength=22
+defence=20
+param=stabdefence,5
+param=slashdefence,15
+param=crushdefence,15
+param=rangedefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2807]
 name=Small Lizard
@@ -56804,6 +57847,22 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=12
+respawnrate=50
+hitpoints=15
+attack=10
+strength=10
+defence=10
+param=slashdefence,5
+param=crushdefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2808]
 name=Small Lizard
@@ -56829,6 +57888,22 @@ walkanim=slayer_lizard_walk
 readyanim=slayer_lizard_ready
 op2=Attack
 vislevel=12
+respawnrate=50
+hitpoints=15
+attack=10
+strength=10
+defence=10
+param=slashdefence,5
+param=crushdefence,5
+param=attack_anim,slayer_lizard_attack
+param=defend_anim,slayer_lizard_defend
+param=death_anim,slayer_lizard_death
+param=attack_sound,sound_1863
+param=defend_sound,sound_1864
+param=death_sound,sound_1865
+param=slayer_category,^slayer_lizard
+param=damagetype,^crush_style
+category=slayer_lizard
 
 [npc_2809]
 name=Al the Camel

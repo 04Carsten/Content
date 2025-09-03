@@ -33,7 +33,7 @@ p_opnpct(db_getfield($spell_data, magic_spell_table:spellcom, 0));
 // [apnpct,magic:wind_blast] ~pvm_default_spell(^wind_blast);
 // [apnpct,magic:water_blast] ~pvm_default_spell(^water_blast);
 // [apnpct,magic:earth_blast] ~pvm_default_spell(^earth_blast);
-// [apnpct,magic:fire_blast] ~pvm_default_spell(^fire_blast);
+[apnpct,magic:fire_blast] ~pvm_default_spell(^fire_blast);
 // [apnpct,magic:wind_wave] ~pvm_default_spell(^wind_wave);
 // [apnpct,magic:water_wave] ~pvm_default_spell(^water_wave);
 // [apnpct,magic:earth_wave] ~pvm_default_spell(^earth_wave);
@@ -63,6 +63,8 @@ p_opnpct(db_getfield($spell_data, magic_spell_table:spellcom, 0));
 // [apnpct,magic:enfeeble] ~pvm_default_spell(^enfeeble);
 // [apnpct,magic:stun] ~pvm_default_spell(^stun);
 
+[apnpct,magic:magic_dart] ~pvm_default_spell(^magic_dart);
+
 [proc,pvm_default_spell](int $spell)
 def_dbrow $spell_data = ~get_spell_data($spell);
 if (~pvm_combat_spell_checks($spell_data) = false) {
@@ -81,6 +83,9 @@ if (~player_npc_hit_roll(^magic_style) = true) {
     if (npc_type = count_draynor & inv_total(inv, garlic) > 0) {
         $maxhit = add($maxhit, 1);
     }
+    if((npc_param(slayer_category) = ^slayer_kurask | npc_param(slayer_category) = ^slayer_turoth) & $spell ! ^magic_dart) {
+        $maxhit = 0;
+    }    
     ~pvm_spell_success($spell_data, $maxhit, $duration);
     ~pvm_stat_change_effect($spell_data);
     ~pvm_freeze_effect($spell_data);
@@ -225,7 +230,9 @@ if ($maxhit ! null) {
     npc_heropoints($damage_capped);
 }
 // spell visual
-sound_synth(db_getfield($spell_data, magic_spell_table:sound_hit, 0), 0, $duration);
+if (db_getfieldcount($spell_data, magic_spell_table:sound_hit) > 0) {
+    sound_synth(db_getfield($spell_data, magic_spell_table:sound_hit, 0), 0, $duration);
+}
 spotanim_npc(db_getfield($spell_data, magic_spell_table:spotanim_target, 0), $duration);
 
 
