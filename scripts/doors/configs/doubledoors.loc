@@ -88,7 +88,7 @@ blockrange=no
 raiseobject=no
 category=door_right_closed
 param=next_loc_stage,elfdoor
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [elfdoor]
 name=Door
@@ -99,7 +99,7 @@ active=yes
 raiseobject=no
 category=door_right_opened
 param=next_loc_stage,inactiveposhdoor
-param=close_sound,sound_321
+param=close_sound,grate_close
 
 [elfdooropen]
 name=Door
@@ -112,7 +112,7 @@ blockrange=no
 raiseobject=no
 category=door_left_closed
 param=next_loc_stage,inactiveelfdoor
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [inactiveelfdoor]
 name=Door
@@ -124,7 +124,7 @@ active=yes
 raiseobject=no
 category=door_left_opened
 param=next_loc_stage,elfdooropen
-param=close_sound,sound_321
+param=close_sound,grate_close
 
 [inactivesecretdoor]
 name=Gate
@@ -136,7 +136,7 @@ blockrange=no
 raiseobject=no
 category=door_left_closed
 param=next_loc_stage,fencegate_r
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [secretdoor2]
 name=Gate
@@ -149,7 +149,7 @@ blockrange=no
 raiseobject=no
 category=door_right_closed
 param=next_loc_stage,farming_fencegate_l
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [fencegate_r]
 name=Gate
@@ -160,7 +160,7 @@ active=yes
 raiseobject=no
 category=door_left_opened
 param=next_loc_stage,portcullis_2r
-param=close_sound,sound_321
+param=close_sound,grate_close
 
 [farming_fencegate_l]
 name=Gate
@@ -172,7 +172,7 @@ active=yes
 raiseobject=no
 category=door_right_opened
 param=next_loc_stage,fencegate_l
-param=close_sound,sound_321
+param=close_sound,grate_close
 
 [portcullis_2r]
 name=Gate
@@ -184,7 +184,7 @@ blockrange=no
 raiseobject=no
 category=door_left_closed
 param=next_loc_stage,fencegate_r
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [fencegate_l]
 name=Gate
@@ -197,7 +197,7 @@ blockrange=no
 raiseobject=no
 category=door_right_closed
 param=next_loc_stage,farming_fencegate_l
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [inaclefayeunopenabledoorl]
 name=Large door

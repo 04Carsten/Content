@@ -46023,7 +46023,7 @@ param=slashdefence,0
 param=strengthbonus,82
 param=slashattack_anim,slayer_abyssal_whip_attack
 param=defend_anim,slayer_abyssal_whip_defend
-param=slash_sound,sound_1080
+param=slash_sound,whip
 param=specwep,^true
 param=sa_energy,500
 

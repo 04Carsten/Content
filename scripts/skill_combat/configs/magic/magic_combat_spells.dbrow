@@ -102,8 +102,8 @@ data=anim,human_caststrike
 data=spotanim_origin,fireblast_casting
 data=spotanim_proj,fireblast_travel,43,31,51,16,-5,64,10
 data=spotanim_target,fireblast_impact,124
-data=sound_cast,sound_1020
-data=sound_hit,sound_1019
+data=sound_cast,fireblast_cast_and_fire
+data=sound_hit,fireblast_hit
 data=continue_by_autocast,true
 
 [magic_spell_magic_dart]
@@ -123,5 +123,5 @@ data=maxhit,15
 data=anim,slayer_magicdart_cast
 data=spotanim_proj,slayer_magicdart_travel,43,31,51,16,-5,64,10
 data=spotanim_target,slayer_magicdart_impact,124
-data=sound_cast,sound_979
+data=sound_cast,magic_dart_fire
 data=continue_by_autocast,true

@@ -128,7 +128,7 @@ blockrange=no
 raiseobject=no
 category=door_closed
 param=next_loc_stage,poshdoor
-param=open_sound,sound_332
+param=open_sound,grate_open
 
 [poshdoor]
 name=Door
@@ -139,7 +139,7 @@ active=yes
 raiseobject=no
 category=door_opened
 param=next_loc_stage,inactivepoordoor
-param=close_sound,sound_321
+param=close_sound,grate_close
 
 [farmdoor]
 name=Door
