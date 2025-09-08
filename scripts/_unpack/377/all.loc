@@ -12307,7 +12307,7 @@ retex1d=thatched
 sharelight=yes
 mirror=yes
 
-[sw_isle_basement_wall]
+[magicwall]
 model=sw_isle_basement_wall
 length=2
 shadow=no
