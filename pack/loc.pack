@@ -4025,10 +4025,10 @@
 4024=regicide_propbarrel
 4025=regicide_propbarrel_burning
 4026=regicide_fractionalizing_still
-4027=harmless_dead_palm_stump
-4028=harmless_dead_tree
-4029=harmless_dead_tree_trunk
-4030=harmless_dead_palm_base
+4027=loc_4027
+4028=loc_4028
+4029=loc_4029
+4030=loc_4030
 4031=shantay_pass_henge_doorway
 4032=minimap_floor
 4033=decking_corner_b_chaos
