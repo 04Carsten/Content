@@ -48157,6 +48157,8 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_1]
 certlink=wilderness_cape_1
@@ -48181,6 +48183,8 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_2]
 certlink=wilderness_cape_2
@@ -48205,6 +48209,8 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_3]
 certlink=wilderness_cape_3
@@ -48229,6 +48235,8 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_4]
 certlink=wilderness_cape_4
@@ -48253,6 +48261,8 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_5]
 certlink=wilderness_cape_5
@@ -48277,6 +48287,8 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_6]
 certlink=wilderness_cape_6
@@ -48301,6 +48313,8 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_7]
 certlink=wilderness_cape_7
@@ -48325,6 +48339,8 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_8]
 certlink=wilderness_cape_8
@@ -48349,6 +48365,8 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_9]
 certlink=wilderness_cape_9
@@ -48373,6 +48391,8 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_10]
 certlink=wilderness_cape_10
@@ -48397,6 +48417,8 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_11]
 certlink=wilderness_cape_11
@@ -48421,6 +48443,8 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_12]
 certlink=wilderness_cape_12
@@ -48445,6 +48469,8 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_13]
 certlink=wilderness_cape_13
@@ -48469,6 +48495,8 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_14]
 certlink=wilderness_cape_14
@@ -48493,6 +48521,8 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_15]
 certlink=wilderness_cape_15
@@ -48517,6 +48547,8 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_16]
 certlink=wilderness_cape_16
@@ -48541,6 +48573,8 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_17]
 certlink=wilderness_cape_17
@@ -48565,6 +48599,8 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_18]
 certlink=wilderness_cape_18
@@ -48589,6 +48625,8 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_19]
 certlink=wilderness_cape_19
@@ -48613,6 +48651,8 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_20]
 certlink=wilderness_cape_20
@@ -48637,6 +48677,8 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_21]
 certlink=wilderness_cape_21
@@ -48661,6 +48703,8 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_22]
 certlink=wilderness_cape_22
@@ -48685,6 +48729,8 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_23]
 certlink=wilderness_cape_23
@@ -48709,6 +48755,8 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_24]
 certlink=wilderness_cape_24
@@ -48733,6 +48781,8 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_25]
 certlink=wilderness_cape_25
@@ -48759,6 +48809,8 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_26]
 certlink=wilderness_cape_26
@@ -48783,6 +48835,8 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_27]
 certlink=wilderness_cape_27
@@ -48807,6 +48861,8 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_28]
 certlink=wilderness_cape_28
@@ -48831,6 +48887,8 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_29]
 certlink=wilderness_cape_29
@@ -48855,6 +48913,8 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_30]
 certlink=wilderness_cape_30
@@ -48879,6 +48939,8 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_31]
 certlink=wilderness_cape_31
@@ -48903,6 +48965,8 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_32]
 certlink=wilderness_cape_32
@@ -48927,6 +48991,8 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_33]
 certlink=wilderness_cape_33
@@ -48951,6 +49017,8 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_34]
 certlink=wilderness_cape_34
@@ -48975,6 +49043,8 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_35]
 certlink=wilderness_cape_35
@@ -48999,6 +49069,8 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_36]
 certlink=wilderness_cape_36
@@ -49023,6 +49095,8 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_37]
 certlink=wilderness_cape_37
@@ -49047,6 +49121,8 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_38]
 certlink=wilderness_cape_38
@@ -49071,6 +49147,8 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_39]
 certlink=wilderness_cape_39
@@ -49095,6 +49173,8 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_40]
 certlink=wilderness_cape_40
@@ -49119,6 +49199,8 @@ womanwear=obj_wilderness_cape_1_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_41]
 certlink=wilderness_cape_41
@@ -49143,6 +49225,8 @@ womanwear=obj_wilderness_cape_2_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_42]
 certlink=wilderness_cape_42
@@ -49167,6 +49251,8 @@ womanwear=obj_wilderness_cape_3_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_43]
 certlink=wilderness_cape_43
@@ -49191,6 +49277,8 @@ womanwear=obj_wilderness_cape_4_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_44]
 certlink=wilderness_cape_44
@@ -49215,6 +49303,8 @@ womanwear=obj_wilderness_cape_5_womanwear,0
 2dzoom=2130
 2dyan=992
 2dxan=364
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_45]
 certlink=wilderness_cape_45
@@ -49239,6 +49329,8 @@ womanwear=obj_wilderness_cape_6_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_46]
 certlink=wilderness_cape_46
@@ -49263,6 +49355,8 @@ womanwear=obj_wilderness_cape_7_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_47]
 certlink=wilderness_cape_47
@@ -49287,6 +49381,8 @@ womanwear=obj_wilderness_cape_8_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_48]
 certlink=wilderness_cape_48
@@ -49311,6 +49407,8 @@ womanwear=obj_wilderness_cape_9_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_49]
 certlink=wilderness_cape_49
@@ -49335,6 +49433,8 @@ womanwear=obj_wilderness_cape_10_womanwear,0
 2dzoom=1770
 2dyan=996
 2dxan=304
+weight=1lb
+wearpos=back
 
 [cert_wilderness_cape_50]
 certlink=wilderness_cape_50
