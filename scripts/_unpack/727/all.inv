@@ -1090,9 +1090,6 @@ stock23=batta_tin,10
 stock24=crunchy_tray,10
 stock25=gnomebowl_mould,10
 
-[tradeoffer]
-size=28
-
 [partyroom_dropinv]
 size=216
 
