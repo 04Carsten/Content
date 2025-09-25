@@ -12,6 +12,7 @@ model=obj_ikov_shinykey
 2dyan=20
 2dxan=328
 tradeable=no
+weight=10g
 
 [pipkey_iron]
 name=Iron key
@@ -27,6 +28,7 @@ model=obj_ikov_shinykey
 2dyan=20
 2dxan=328
 tradeable=no
+weight=10g
 
 [piptinderbox_gold]
 name=Golden tinderbox
@@ -44,6 +46,7 @@ members=yes
 2dyan=1968
 2dxan=196
 tradeable=no
+weight=35g
 
 [pipcandle_gold]
 name=Golden candle
@@ -58,6 +61,7 @@ members=yes
 2dyan=1864
 2dxan=168
 tradeable=no
+weight=1oz
 
 [pippot_gold]
 name=Golden pot
@@ -81,6 +85,7 @@ members=yes
 2dyan=8
 2dxan=112
 tradeable=no
+weight=1lb
 
 [piphammer_gold]
 name=Golden hammer
@@ -100,6 +105,7 @@ members=yes
 2dyan=2012
 2dxan=356
 tradeable=no
+weight=2lb
 
 [pipfeather_gold]
 name=Golden feather
@@ -115,6 +121,7 @@ members=yes
 2dyan=692
 2dxan=428
 tradeable=no
+weight=2g
 
 [pipneedle_gold]
 name=Golden needle
@@ -130,6 +137,7 @@ members=yes
 2dyan=868
 2dxan=368
 tradeable=no
+weight=1g
 
 [dagger_wolfbane]
 name=Wolfbane
@@ -147,6 +155,8 @@ iop2=Wield
 manwear=obj_dagger_wolfbane_manwear,0
 womanwear=obj_dagger_wolfbane_manwear,6
 tradeable=no
+wearpos=righthand
+weight=1lb
 
 [bucket_murkywater]
 name=Bucket of water
@@ -159,6 +169,7 @@ model=obj_bucket_wax
 2dyan=1660
 2dxan=204
 tradeable=no
+weight=3kg
 
 [bucket_blessedwater]
 name=Bucket of water
@@ -171,3 +182,4 @@ model=obj_bucket_wax
 2dyan=1660
 2dxan=204
 tradeable=no
+weight=1lb
