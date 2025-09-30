@@ -39695,7 +39695,7 @@ frame6=anim_12695
 frame7=anim_12694
 frame8=anim_12693
 
-[claw_attack]
+[seq_1675]
 loops=4
 frame1=anim_12694
 delay1=5
@@ -39804,7 +39804,7 @@ frame6=anim_12637
 frame7=anim_12636
 frame8=anim_12635
 
-[ball_attack]
+[seq_1685]
 loops=4
 frame1=anim_12636
 delay1=5
@@ -39848,7 +39848,7 @@ frame6=anim_12649
 frame7=anim_12648
 frame8=anim_12647
 
-[flip]
+[seq_1689]
 loops=4
 frame1=anim_12648
 delay1=5
@@ -39870,7 +39870,7 @@ frame6=anim_12673
 frame7=anim_12672
 frame8=anim_12671
 
-[cow_walk_rf_b]
+[seq_1691]
 loops=4
 frame1=anim_12672
 delay1=5
@@ -39892,7 +39892,7 @@ frame6=anim_12677
 frame7=anim_12676
 frame8=anim_12675
 
-[cow_walk_rf_d]
+[seq_1693]
 loops=4
 frame1=anim_12676
 delay1=5
@@ -39914,7 +39914,7 @@ frame6=anim_12703
 frame7=anim_12702
 frame8=anim_12701
 
-[cow_walk_rf_f]
+[seq_1695]
 loops=4
 frame1=anim_12702
 delay1=5
@@ -39936,7 +39936,7 @@ frame6=anim_12707
 frame7=anim_12706
 frame8=anim_12705
 
-[human_dodge_rf_b]
+[seq_1697]
 loops=4
 frame1=anim_12706
 delay1=5
@@ -39958,7 +39958,7 @@ frame6=anim_12711
 frame7=anim_12710
 frame8=anim_12709
 
-[human_dodge_rf_d]
+[seq_1699]
 loops=4
 frame1=anim_12710
 delay1=5
@@ -39980,7 +39980,7 @@ frame6=anim_12715
 frame7=anim_12714
 frame8=anim_12713
 
-[human_dodge_rf_f]
+[seq_1701]
 loops=4
 frame1=anim_12714
 delay1=5
@@ -40002,7 +40002,7 @@ frame6=anim_12653
 frame7=anim_12652
 frame8=anim_12651
 
-[human_zamorakspear_walk_f]
+[seq_1703]
 loops=4
 frame1=anim_12652
 delay1=5
@@ -40024,7 +40024,7 @@ frame6=anim_12658
 frame7=anim_12657
 frame8=anim_12656
 
-[human_zamorakspear_walkright]
+[seq_1705]
 loops=4
 frame1=anim_12657
 delay1=5
@@ -40046,7 +40046,7 @@ frame6=anim_12663
 frame7=anim_12662
 frame8=anim_12661
 
-[human_zamorakspear_run]
+[seq_1707]
 loops=4
 frame1=anim_12662
 delay1=5
@@ -40068,7 +40068,7 @@ frame6=anim_12690
 frame7=anim_12689
 frame8=anim_12688
 
-[human_zamorakspear_block]
+[seq_1709]
 loops=4
 frame1=anim_12689
 delay1=5
@@ -40090,7 +40090,7 @@ frame6=anim_12641
 frame7=anim_12640
 frame8=anim_12639
 
-[human_zamorakspear_stab]
+[seq_1711]
 loops=4
 frame1=anim_12640
 delay1=5
@@ -40112,7 +40112,7 @@ frame6=anim_12621
 frame7=anim_12620
 frame8=anim_12619
 
-[human_zamorakspear_ready]
+[seq_1713]
 loops=4
 frame1=anim_12620
 delay1=5
@@ -40178,7 +40178,7 @@ frame6=anim_12616
 frame7=anim_12615
 frame8=anim_12614
 
-[sotd_special_toxic_uncharged]
+[seq_1719]
 loops=4
 frame1=anim_12615
 delay1=5
@@ -40189,7 +40189,7 @@ delay3=4
 frame4=anim_12615
 delay4=5
 
-[sotd_special_toxic_charged]
+[seq_1720]
 priority=6
 frame1=anim_12679
 frame2=anim_12680
