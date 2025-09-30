@@ -144034,7 +144034,7 @@ name=Speaker
 desc=It's flashing hypnotically and emitting a stream of rabbit noises.
 model=loc_14173
 active=yes
-anim=lore_dust_devil_attack
+anim=seq_3847
 width=3
 length=2
 ambient=30
@@ -144046,7 +144046,7 @@ name=Speaker
 desc=It's flashing hypnotically and emitting a stream of rabbit noises.
 model=loc_14173
 active=yes
-anim=lore_dust_devil_attack
+anim=seq_3847
 width=3
 length=2
 mirror=yes
@@ -144297,42 +144297,42 @@ name=Egg chute
 desc=An egg is sliding down.
 model=loc_14197
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14198]
 name=Egg chute
 desc=An egg is sliding down.
 model=loc_14198
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14199]
 name=Egg chute
 desc=An egg is sliding down.
 model=loc_14199
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14200]
 name=Egg chute
 desc=An egg is sliding down.
 model=loc_14200
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14201]
 name=Egg chute
 desc=An egg is sliding down.
 model=loc_14201
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14202]
 name=Egg chute
 desc=An egg is sliding down.
 model=loc_14202
 active=yes
-anim=battleaxe_crush
+anim=seq_3852
 
 [loc_14203]
 name=Hole
