@@ -1,4 +1,4 @@
-[npc_1095]
+[death_troll_commander]
 name=Rock
 desc=The biggest and baddest troll.
 model1=poh_troll_8
@@ -45,7 +45,7 @@ param=defend_sound,troll_champion_death
 huntrange=1
 param=death_drop,big_bones
 
-[npc_1096]
+[death_troll_leuitanant]
 name=Stick
 desc=A big, bad troll.
 model1=npc_1096
@@ -89,7 +89,7 @@ param=defend_sound,troll_champion_death
 huntrange=1
 param=death_drop,big_bones
 
-[npc_1097]
+[death_troll_guard1]
 name=Pee Hat
 desc=A nasty looking troll.
 model1=poh_troll_8
@@ -135,7 +135,7 @@ param=defend_sound,troll_champion_death
 huntrange=1
 param=death_drop,big_bones
 
-[npc_1098]
+[death_troll_guard2]
 name=Kraka
 desc=A nasty looking troll.
 model1=poh_troll_8
@@ -180,7 +180,7 @@ param=defend_sound,troll_champion_death
 huntrange=1
 param=death_drop,big_bones
 
-[npc_1099]
+[death_troll_cook1]
 name=Dung
 desc=Human is his speciality.
 model1=poh_troll_8
@@ -201,7 +201,7 @@ resizeh=145
 resizev=145
 vislevel=hide
 
-[npc_1100]
+[death_troll_cook2]
 name=Ash
 desc=Human is his speciality.
 model1=npc_1096
@@ -222,7 +222,7 @@ resizeh=132
 resizev=132
 vislevel=hide
 
-[npc_1101]
+[death_troll_thrower1]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -265,7 +265,7 @@ huntrange=8
 category=troll_thrower
 param=death_drop,big_bones
 
-[npc_1102]
+[death_troll_thrower2]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -308,7 +308,7 @@ huntrange=8
 category=troll_thrower
 param=death_drop,big_bones
 
-[npc_1103]
+[death_troll_thrower3]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -351,7 +351,7 @@ huntrange=8
 category=troll_thrower
 param=death_drop,big_bones
 
-[npc_1104]
+[death_troll_thrower4]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=npc_1096
@@ -394,7 +394,7 @@ huntrange=8
 category=troll_thrower
 param=death_drop,big_bones
 
-[npc_1105]
+[death_troll_thrower5]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -437,7 +437,7 @@ huntrange=8
 category=troll_thrower
 param=death_drop,big_bones
 
-[npc_1106]
+[death_troll_melee1]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8
@@ -479,7 +479,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1107]
+[death_troll_melee2]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8
@@ -521,7 +521,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1108]
+[death_troll_melee3]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8
@@ -564,7 +564,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1109]
+[death_troll_melee4]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8
@@ -606,7 +606,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1110]
+[death_troll_melee5]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8
@@ -649,7 +649,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1111]
+[death_troll_melee6]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=npc_1096
@@ -689,7 +689,7 @@ huntrange=1
 category=mountain_troll
 param=death_drop,big_bones
 
-[npc_1112]
+[death_troll_melee7]
 name=Mountain Troll
 desc=Small for a troll but mean and ugly.
 model1=poh_troll_8

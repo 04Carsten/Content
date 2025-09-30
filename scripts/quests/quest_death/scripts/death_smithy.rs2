@@ -1,4 +1,4 @@
-[opnpc1,npc_1082]
+[opnpc1,death_smithy]
 if(~death_get_map = ^death_spoken_tenzing) {
     ~chatnpc("<p,happy>Hi! How can I help?");
     ~chatplayer("<p,neutral>Tenzing has asked me to bring you his climbing boots, he needs to have spikes put on them.");
@@ -50,7 +50,7 @@ switch_int(%death_equiproom) {
         @multi2("Is it OK if I use your anvil?", dunstan_anvil, "Nothing, thanks.", dunstan_nothing);
 }
 
-[opnpcu,npc_1082]
+[opnpcu,death_smithy]
 switch_obj(last_useitem) {
     case default : ~chatnpc("<p,confused>Sorry friend, but I can't do anything with that.");
 }

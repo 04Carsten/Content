@@ -187,13 +187,13 @@
 186=magicaxe_block
 187=magicaxe_ready
 188=magicaxe_death
-189=emote_yes_loop
+189=seq_189
 190=emote_no_loop
 191=emote_think_loop
 192=emote_bow_loop
 193=emote_angry_loop
 194=emote_cry_loop
-195=emote_laugh_loop
+195=seq_195
 196=emote_cheer_loop
 197=emote_wave_loop
 198=gnome_cast_teleport

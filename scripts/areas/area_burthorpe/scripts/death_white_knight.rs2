@@ -1,4 +1,4 @@
-[opnpc1,npc_1092]
+[opnpc1,death_white_knight]
 ~chatplayer("<p,happy>Hi!");
 ~chatnpc("<p,neutral>Hi!");
 ~chatplayer("<p,neutral>So, what you up to out here?");

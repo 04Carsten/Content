@@ -1,6 +1,6 @@
-[opnpc1,npc_1073] @death_archer_standard;
-[opnpc1,npc_1074] @death_archer_standard;
-[opnpc1,npc_1075] @death_archer_trapped;
+[opnpc1,death_archer1] @death_archer_standard;
+[opnpc1,death_archer2] @death_archer_standard;
+[opnpc1,death_archer_trapped] @death_archer_trapped;
 
 [ai_queue1,_death_archer] ~npc_default_retaliate_ap;
 [ai_opplayer2,_death_archer] npc_setmode(applayer2);

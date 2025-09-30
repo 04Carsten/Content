@@ -1,4 +1,4 @@
-[opnpc1,npc_1078]
+[opnpc1,death_guard_equiproom]
 switch_int(%death_equiproom) {
     case ^death_complete :
         ~chatplayer("<p,happy>Hello there.");
@@ -37,7 +37,7 @@ switch_int(%death_equiproom) {
         @multi2("You're the guard that was on duty last night?", harold_duty, "Can I buy you a drink?", harold_drink);
 }
 
-[opnpcu,npc_1078]
+[opnpcu,death_guard_equiproom]
 if(last_useitem = beer | last_useitem = wizards_mind_bomb | last_useitem = asgarnian_ale | last_useitem = dwarven_stout | last_useitem = dragon_bitter | last_useitem = grog | last_useitem = blurberry_special) {
     @harold_drink;
 }
@@ -124,7 +124,7 @@ if_close;
 [proc,dice_winnings]
 %death_bits = setbit(%death_bits, ^death_goldclaimed);
 if(inv_total(inv, coins) < ~death_get_bet) {
-    if(npc_find(coord, npc_1078, 5, 0) = true) {
+    if(npc_find(coord, death_guard_equiproom, 5, 0) = true) {
         ~chatnpc("<p,angry>Oi, you don't have enough money on you! Let's have another game."); // guessing mesanim
     }
     return;
@@ -149,7 +149,7 @@ if(testbit(%death_bits, ^death_goldclaimed) = ^false) {
     ~dice_winnings;
 }
 if(testbit(%death_bits, ^harold_lostall) = ^true) {
-    if(npc_find(coord, npc_1078, 5, 0) = true) {
+    if(npc_find(coord, death_guard_equiproom, 5, 0) = true) {
         if(testbit(%death_bits, ^harold_verydrunk) = ^false) {
             ~chatnpc("<p,sad>Oh dear, I seem to have run out of money!");
             if(~death_get_haroldgold > 0) {
@@ -183,7 +183,7 @@ if(testbit(%death_bits, ^harold_lostall) = ^true) {
     return;
 }
 if(~death_get_playerroll > 0 & testbit(%death_bits, ^harold_verydrunk) = ^true) {
-    if(npc_find(coord, npc_1078, 5, 0) = true) {
+    if(npc_find(coord, death_guard_equiproom, 5, 0) = true) {
         switch_int(random(4)) {
             case 0 : ~chatnpc("<p,drunk>*hic*");
             case 1 : ~chatnpc("<p,drunk>I didn't know you could ushe four dishe. Oh well.");

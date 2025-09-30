@@ -2354,7 +2354,7 @@ frame4=anim_5142
 frame5=anim_5120
 delay5=20000
 
-[emote_yes_loop]
+[seq_189]
 frame1=anim_7631
 delay1=5
 frame2=anim_7662
@@ -2419,7 +2419,7 @@ frame6=anim_7656
 frame7=anim_7624
 frame8=anim_7593
 
-[emote_laugh_loop]
+[seq_195]
 frame1=anim_7599
 delay1=21
 frame2=anim_7629

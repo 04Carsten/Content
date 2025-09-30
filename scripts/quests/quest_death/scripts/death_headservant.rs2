@@ -1,4 +1,4 @@
-[opnpc1,npc_1080]
+[opnpc1,death_headservant]
 ~chatplayer("<p,happy>Hi!");
 ~chatnpc("<p,happy>Hi, can I help?");
 if(%death_equiproom = ^death_spoken_headservant2) {

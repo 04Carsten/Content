@@ -1,4 +1,4 @@
-[opnpc1,npc_1071]
+[opnpc1,death_sherpa]
 if(%death_equiproom = ^death_complete) {
     ~chatplayer("<p,happy>Hello Tenzing!");
     ~chatnpc("<p,happy>Hello again traveller. What can I do for you?");

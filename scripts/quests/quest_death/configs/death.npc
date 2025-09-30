@@ -343,7 +343,7 @@ vislevel=hide
 head1=idk_man_hair_spikes_head
 head2=idk_man_jaw_long_head
 
-[npc_1071]
+[death_sherpa]
 name=Tenzing
 desc=An experienced Sherpa.
 model1=obj_feud_desert_disguise_manwear
@@ -402,7 +402,7 @@ vislevel=4
 head1=idk_woman_hair_medium_head
 head2=obj_chefs_hat_womanhead
 
-[npc_1073]
+[death_archer1]
 name=Archer
 desc=A Burthorpe Castle archer.
 model1=obj_leather_cowl_manwear
@@ -448,7 +448,7 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,iron_arrow_launch
 param=proj_travel,iron_arrow_travel
 
-[npc_1074]
+[death_archer2]
 name=Archer
 desc=A Burthorpe Castle archer.
 model1=obj_leather_cowl_manwear
@@ -496,7 +496,7 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,iron_arrow_launch
 param=proj_travel,iron_arrow_travel
 
-[npc_1075]
+[death_archer_trapped]
 name=Archer
 desc=A Burthorpe Castle archer.
 model1=obj_leather_cowl_manwear
@@ -544,7 +544,7 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,iron_arrow_launch
 param=proj_travel,iron_arrow_travel
 
-[npc_1076]
+[death_guard1]
 name=Guard
 desc=A Burthorpe Castle guard.
 model1=obj_khazard_helmet_manwear
@@ -573,7 +573,7 @@ head1=obj_khazard_helmet_manhead
 head2=idk_man_jaw_short_head
 wanderrange=0
 
-[npc_1077]
+[death_guard2]
 name=Guard
 desc=A Burthorpe Castle guard.
 model1=obj_khazard_helmet_manwear
@@ -604,7 +604,7 @@ head1=obj_khazard_helmet_manhead
 head2=idk_man_jaw_pointy_head
 wanderrange=0
 
-[npc_1078]
+[death_guard_equiproom]
 name=Harold
 desc=An off-duty Burthorpe Castle guard.
 model1=obj_khazard_helmet_manwear
@@ -624,7 +624,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_khazard_helmet_manhead
 
-[npc_1079]
+[death_barman]
 name=Tostig
 desc=Barman of the Toad and Chicken.
 model1=idk_man_hair_medium
@@ -658,7 +658,7 @@ param=shop_buy_multiplier,0
 param=shop_delta,10
 param=shop_title,The Toad and Chicken
 
-[npc_1080]
+[death_headservant]
 name=Eohric
 desc=Head servant for Prince Anlaf.
 model1=obj_viking_helmet_manwear
@@ -684,7 +684,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_man
 
-[npc_1081]
+[death_servant1]
 name=Servant
 desc=A servant for Prince Anlaf.
 model1=obj_viking_helmet_manwear
@@ -711,7 +711,7 @@ op2=Attack
 vislevel=5
 head1=obj_pickpocket_guide_man
 
-[npc_1082]
+[death_smithy]
 name=Dunstan
 desc=Smithy for Burthorpe.
 model1=idk_man_hair_long
@@ -770,7 +770,7 @@ param=shop_delta,30
 param=shop_title,Burthorpe Supplies
 moverestrict=indoors
 
-[npc_1084]
+[death_man_outdoors1]
 name=Breoca
 desc=A citizen of Burthorpe.
 model1=npc_sigbert_the_adventurer
@@ -803,7 +803,7 @@ param=magicdefence,-12
 param=rangedefence,-12
 param=damagetype,^crush_style
 
-[npc_1085]
+[death_man_outdoors2]
 name=Ocga
 desc=A citizen of Burthorpe.
 model1=npc_sigbert_the_adventurer
@@ -837,7 +837,7 @@ param=magicdefence,-12
 param=rangedefence,-12
 param=damagetype,^crush_style
 
-[npc_1086]
+[death_man_indoors1]
 name=Man
 desc=One of RuneScape's many citizens.
 model1=obj_viking_helmet_manwear
@@ -861,7 +861,7 @@ op1=Talk-to
 vislevel=2
 head1=obj_pickpocket_guide_man
 
-[npc_1087]
+[death_man_indoors2]
 name=Penda
 desc=A citizen of Burthorpe.
 model1=idk_man_hair_long
@@ -898,7 +898,7 @@ param=magicdefence,-12
 param=rangedefence,-12
 param=damagetype,^crush_style
 
-[npc_1088]
+[death_woman_outdoors1]
 name=Hygd
 desc=A citizen of Burthorpe.
 model1=obj_castlewars_hood_saradomin_prize_womanwear
@@ -932,7 +932,7 @@ param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
 
-[npc_1089]
+[death_woman_outdoors2]
 name=Ceolburg
 desc=A citizen of Burthorpe.
 model1=obj_castlewars_hood_saradomin_prize_womanwear
@@ -967,7 +967,7 @@ param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
 
-[npc_1090]
+[death_woman_indoors1]
 name=Hild
 desc=Pretty young woman with an air of mystery around her.
 model1=idk_woman_hair_bun
@@ -1006,7 +1006,7 @@ param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
 
-[npc_1091]
+[death_woman_indoors2]
 name=Bob
 desc=The Jagex cat.
 model1=npc_gertrudescat
@@ -1028,7 +1028,7 @@ head1=npc_gertrudescat_head
 wanderrange=30000
 maxrange=30000
 
-[npc_1092]
+[death_white_knight]
 name=White Knight
 desc=The Knight seems to be watching something.
 model1=npc_white_knight
@@ -1057,7 +1057,7 @@ op2=Attack
 vislevel=36
 head1=npc_1092_head
 
-[npc_1093]
+[death_mountain_goat]
 name=Billy
 desc=Billy is a baahd goat.
 model1=npc_sheepsheered
@@ -1073,7 +1073,7 @@ readyanim=sheep_ready
 resizeh=100
 resizev=100
 
-[npc_1094]
+[mountain_goat2]
 name=Mountain Goat
 desc=This beast doesn't need climbing boots.
 model1=npc_sheepsheered

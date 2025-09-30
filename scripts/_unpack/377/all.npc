@@ -1324,8 +1324,8 @@ desc=A funny little man normally associated with rainbows.
 model1=npc_leprechaun
 model2=npc_leprechauni2
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=12
 
@@ -1335,8 +1335,8 @@ desc=Like a mini man!
 model1=npc_leprechaun
 model2=npc_gnome
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -1351,8 +1351,8 @@ model2=npc_gnome
 model3=npc_leprechauni3
 recol1s=352
 recol1d=14625
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -1371,8 +1371,8 @@ recol2s=21961
 recol2d=13537
 recol3s=20904
 recol3d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2691,8 +2691,8 @@ recol1s=416
 recol1d=22221
 resizeh=100
 resizev=100
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2709,8 +2709,8 @@ recol1s=416
 recol1d=16053
 resizeh=100
 resizev=100
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2725,8 +2725,8 @@ model2=npc_gnomechildgreen
 model3=npc_gnomechildgreeni2
 resizeh=100
 resizev=100
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2742,8 +2742,8 @@ model3=npc_gnometrainer
 recol1s=416
 recol1d=14661
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -2755,8 +2755,8 @@ model2=npc_gnomekingsguard
 model3=npc_leprechauni3
 recol1s=352
 recol1d=20516
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=23
 head1=obj_pickpocket_guide_gnome
@@ -2769,8 +2769,8 @@ model2=npc_gnomekingsguard2
 model3=npc_gnometrainer
 recol1s=352
 recol1d=20516
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=23
 head1=obj_pickpocket_guide_gnome
@@ -2784,8 +2784,8 @@ model3=npc_gnomeshopkeeperi2
 recol1s=32766
 recol1d=20936
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 head1=npc_gnomeshopkeeper_head
 
 [gnomebanker]
@@ -2797,8 +2797,8 @@ model3=npc_leprechauni3
 recol1s=416
 recol1d=2114
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op3=Bank
 head1=npc_gnomebanker_head
@@ -2810,8 +2810,8 @@ model1=npc_gnomeballer
 model2=npc_gnomeballeri2
 model3=npc_gnomeballeri3
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 head1=obj_pickpocket_guide_gnome
 
 [gnomefemale]
@@ -2824,8 +2824,8 @@ recol1s=352
 recol1d=18868
 recol2s=288
 recol2d=18868
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2848,8 +2848,8 @@ recol4s=21961
 recol4d=13537
 recol5s=20904
 recol5d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 op3=Pickpocket
@@ -2863,8 +2863,8 @@ model1=npc_leprechaun
 model2=npc_gnomepilot
 model3=npc_gnometrainer
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_gnomepilot_head
 
@@ -2882,8 +2882,8 @@ recol3s=13728
 recol3d=8420
 recol4s=384
 recol4d=17969
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 op1=Talk-to
 op3=Teleport
@@ -4242,8 +4242,8 @@ readyanim=human_ready
 alwaysontop=yes
 vislevel=1
 multivar=fishingcompo_stranger
-multinpc=0,npc_3677
-multinpc=1,npc_3678
+multinpc=0,sinister_stranger0
+multinpc=1,sinister_stranger1
 
 [morris]
 name=Morris
@@ -5215,8 +5215,8 @@ recol1d=13360
 recol2s=14724
 recol2d=13360
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_man
 
@@ -5231,8 +5231,8 @@ recol1d=13360
 recol2s=14724
 recol2d=13360
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_man
 
@@ -6055,8 +6055,8 @@ model2=npc_jeremy_servil
 model3=npc_gnomechildgreeni2
 recol1s=416
 recol1d=21537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_hudon_waterfall_quest_head
@@ -6067,8 +6067,8 @@ desc=It's a tree gnome
 model1=npc_gnomebanker
 model2=npc_gnomeballer
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomebanker_head
@@ -6987,8 +6987,8 @@ recol4d=22096
 recol5s=19982
 recol5d=20870
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 head2=npc_w_ardoungechild1_head
@@ -7012,8 +7012,8 @@ recol5d=12616
 recol6s=20870
 recol6d=10502
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -7659,7 +7659,7 @@ op1=Talk-to
 head1=idk_man_hair_long_head
 head2=idk_man_jaw_long_head
 
-[npc_382]
+[mguild_dwarf1]
 name=Dwarf
 desc=A dwarf who looks after the mining guild.
 model1=npc_mguild_dwarf1
@@ -8231,7 +8231,7 @@ walkanim=swarm_walk
 minimap=no
 alwaysontop=yes
 
-[savage_bird]
+[small_bat]
 name=Bat
 desc=Annoying flappy thing.
 model1=npc_savage_bird
@@ -8678,7 +8678,7 @@ op2=Attack
 alwaysontop=yes
 vislevel=159
 
-[brownimp]
+[agilityarena_clerk]
 name=Cap'n Izzy No-Beard
 desc=Entrance clerk for the Brimhaven Agility Arena.
 model1=idk_man_hair_dreadlocks
@@ -8822,7 +8822,7 @@ minimap=no
 alwaysontop=yes
 vislevel=159
 
-[macro_ent_tree1]
+[npc_444]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_macro_ent_tree1
@@ -8841,7 +8841,7 @@ resizev=126
 resizeh=126
 vislevel=5
 
-[macro_ent_tree2]
+[npc_445]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_macro_ent_tree1
@@ -8861,7 +8861,7 @@ resizev=125
 resizeh=125
 vislevel=5
 
-[macro_ent_dead_tree1]
+[npc_446]
 name=Giant rat
 desc=Overgrown vermin.
 model1=npc_giantrat
@@ -8873,7 +8873,7 @@ readyanim=giantrat_ready
 op2=Attack
 vislevel=3
 
-[macro_ent_dead_tree2]
+[npc_447]
 name=Jail guard
 desc=I wonder who he's guarding?
 model1=obj_viking_helmet_manwear
@@ -8900,7 +8900,7 @@ resizeh=120
 vislevel=26
 head1=obj_pickpocket_guide_man
 
-[macro_ent_oak]
+[npc_448]
 name=Jail guard
 desc=I wonder who he's guarding?
 model1=idk_man_hair_long
@@ -8925,7 +8925,7 @@ resizeh=130
 vislevel=26
 head1=idk_man_hair_long_head
 
-[macro_ent_willow]
+[npc_449]
 name=Jail guard
 desc=I wonder who he's guarding?
 model1=obj_feud_desert_disguise_manwear
@@ -8950,7 +8950,7 @@ op2=Attack
 vislevel=26
 head1=obj_leather_cowl_manhead2
 
-[macro_ent_yew]
+[npc_450]
 name=Gull
 desc=A sea bird.
 model1=spot_biopigeon_launch
@@ -8966,7 +8966,7 @@ vislevel=hide
 minimap=no
 vislevel=hide
 
-[macro_ent_maple]
+[npc_451]
 name=Gull
 desc=A sea bird.
 model1=spot_biopigeon_launch
@@ -8982,7 +8982,7 @@ vislevel=hide
 minimap=no
 vislevel=hide
 
-[macro_ent_magic]
+[favour_seth_groats]
 name=Seth Groats
 desc=A large, well built farmer.
 model1=npc_ardougnian_male1i2
@@ -9404,8 +9404,8 @@ model3=npc_king_bolreni2
 recol1s=416
 recol1d=26149
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_king_bolren_head
 
@@ -9418,8 +9418,8 @@ model3=npc_commander_montaii2
 recol1s=10570
 recol1d=17441
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 resizeh=150
 resizev=150
@@ -9432,8 +9432,8 @@ model1=npc_leprechaun
 model2=npc_gnomeshopkeeper
 model3=npc_gnomeshopkeeperi2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op3=Trade
 head1=npc_gnomeshopkeeper_head
@@ -9449,8 +9449,8 @@ recol1d=2491
 recol2s=352
 recol2d=2491
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9465,8 +9465,8 @@ recol1d=5493
 recol2s=352
 recol2d=5493
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9481,8 +9481,8 @@ recol1d=5493
 recol2s=352
 recol2d=5493
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9576,8 +9576,8 @@ desc=It's a tree gnome trooper.
 model1=npc_gnomeballer
 model2=npc_commander_montai
 model3=npc_commander_montaii2
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 vislevel=1
@@ -9597,8 +9597,8 @@ recol3s=21961
 recol3d=13537
 recol4s=20904
 recol4d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op2=Attack
 vislevel=1
@@ -9615,8 +9615,8 @@ recol1d=14625
 recol2s=416
 recol2d=14626
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9631,8 +9631,8 @@ recol1d=14625
 recol2s=416
 recol2d=14626
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9647,8 +9647,8 @@ recol1d=14625
 recol2s=416
 recol2d=14626
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9659,8 +9659,8 @@ model1=npc_leprechaun
 model2=npc_gnome
 model3=npc_gnomeshopkeeperi2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9671,8 +9671,8 @@ model1=npc_leprechaun
 model2=npc_gnome
 model3=npc_gnomeshopkeeperi2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -9683,8 +9683,8 @@ model1=npc_leprechaun
 model2=npc_gnome
 model3=npc_gnomeshopkeeperi2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -12499,8 +12499,8 @@ recol3s=32766
 recol3d=16838
 recol4s=32767
 recol4d=16838
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 op3=Trade
 vislevel=hide
@@ -12522,8 +12522,8 @@ recol4s=15360
 recol4d=15384
 recol5s=28481
 recol5d=26425
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 op3=Trade
 vislevel=hide
@@ -12539,8 +12539,8 @@ recol1s=416
 recol1d=8420
 recol2s=384
 recol2d=3170
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 op3=Trade
 vislevel=hide
@@ -12560,8 +12560,8 @@ recol3s=32766
 recol3d=16838
 recol4s=32767
 recol4d=16838
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 op3=Trade
 vislevel=hide
@@ -12995,8 +12995,8 @@ model3=npc_gnomeballeri3
 recol1s=9513
 recol1d=25699
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13009,8 +13009,8 @@ model3=npc_gnomeballer_red_withball
 recol1s=9513
 recol1d=25699
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13049,8 +13049,8 @@ model3=npc_gnomeballeri3
 recol1s=9513
 recol1d=28001
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13063,8 +13063,8 @@ model3=npc_gnomeballer_red_withball
 recol1s=9513
 recol1d=28001
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13103,8 +13103,8 @@ model3=npc_gnomeballeri3
 recol1s=9513
 recol1d=26305
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13117,8 +13117,8 @@ model3=npc_gnomeballer_red_withball
 recol1s=9513
 recol1d=26305
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Tackle
 head1=obj_pickpocket_guide_gnome
 
@@ -13157,8 +13157,8 @@ model3=npc_gnomeballeri3
 recol1s=9513
 recol1d=704
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Pass-to
 head1=obj_pickpocket_guide_gnome
 
@@ -13171,8 +13171,8 @@ model3=npc_gnomeballer_red_withball
 recol1s=9513
 recol1d=704
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -13191,8 +13191,8 @@ recol3d=13537
 recol4s=20904
 recol4d=13537
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_gnomebanker_head
 
@@ -13203,8 +13203,8 @@ model1=npc_gnomecheerleader
 model2=npc_gnomecheerleaderi2
 model3=npc_gnomecheerleaderi3
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -13584,8 +13584,8 @@ model1=npc_leprechaun
 model2=npc_leprechauni2
 model3=npc_leprechauni3
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_zanarisleprechaun_head
 
@@ -13919,8 +13919,8 @@ recol3s=21961
 recol3d=13537
 recol4s=20904
 recol4d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 op1=Talk-to
 head1=npc_gnomeshopkeeper_head
@@ -13932,8 +13932,8 @@ model1=npc_leprechaun
 model2=npc_king_bolren
 model3=npc_king_bolreni2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_king_bolren_head
 
@@ -13946,8 +13946,8 @@ model3=npc_commander_montaii2
 recol1s=10570
 recol1d=2114
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_commander_montai_head
 
@@ -13960,8 +13960,8 @@ model3=npc_gnomeshopkeeperi2
 recol1s=352
 recol1d=12422
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -14046,8 +14046,8 @@ recol2s=416
 recol2d=8420
 recol3s=288
 recol3d=8420
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -14494,8 +14494,8 @@ recol1d=18788
 recol2s=13728
 recol2d=7298
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_man
 
@@ -15071,8 +15071,8 @@ recol2d=6144
 recol3s=13728
 recol3d=6208
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_man
 
@@ -15089,8 +15089,8 @@ recol2d=6144
 recol3s=13728
 recol3d=6208
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=idk_woman_hair_pigtails_head
 
@@ -16310,8 +16310,8 @@ recol3d=27240
 recol4s=6273
 recol4d=27240
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -16326,8 +16326,8 @@ recol1d=15
 recol2s=384
 recol2d=5
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -16342,8 +16342,8 @@ recol1d=992
 recol2s=384
 recol2d=26425
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -16358,8 +16358,8 @@ recol1d=320
 recol2s=384
 recol2d=2114
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -17969,8 +17969,8 @@ recol2d=304
 recol3s=13728
 recol3d=3171
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_gnomebanker_head
 
@@ -17981,8 +17981,8 @@ model1=npc_leprechaun
 model2=npc_gnomebanker
 model3=npc_leprechauni3
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op3=Trade
 head1=npc_gnomebanker_head
@@ -17994,8 +17994,8 @@ model1=npc_leprechaun
 model2=npc_aluft_gianne
 model3=npc_gnomeshopkeeperi2
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_aluft_gianne_head
 
@@ -18012,8 +18012,8 @@ recol2d=9513
 recol3s=13728
 recol3d=3171
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op3=Trade
 head1=npc_gnomebanker_head
@@ -18617,8 +18617,8 @@ recol6s=6273
 recol6d=19777
 vislevel=hide
 op1=Talk-to
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 head1=obj_pickpocket_guide_man
 
 [carnillean_wife]
@@ -18810,8 +18810,8 @@ recol3d=18785
 recol4s=6273
 recol4d=18785
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -19221,8 +19221,8 @@ recol1s=416
 recol1d=13600
 recol2s=15360
 recol2d=416
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=54
 
@@ -20205,7 +20205,7 @@ op1=Talk-to
 alwaysontop=yes
 head1=idk_man_hair_tonsure_head
 
-[cow3]
+[cow_beef]
 name=Cow
 desc=A cow by any other name would smell as sweet.
 model1=npc_cow
@@ -21461,7 +21461,7 @@ op4=Pluck
 resizeh=180
 resizev=180
 
-[npc_1017]
+[chicken_brown]
 name=Chicken
 desc=Yep, definitely a chicken.
 model1=npc_chicken
@@ -21478,7 +21478,7 @@ readyanim=chicken_ready
 op2=Attack
 vislevel=1
 
-[npc_1018]
+[rooster]
 name=Rooster
 desc=He rules the...er...roost.
 model1=npc_chicken
@@ -22629,7 +22629,7 @@ op2=Attack
 op3=Pickpocket
 vislevel=71
 
-[death_troll_thrower1]
+[troll_thrower1]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -22647,7 +22647,7 @@ resizev=112
 op2=Attack
 vislevel=68
 
-[death_troll_thrower2]
+[troll_thrower2]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -22665,7 +22665,7 @@ resizev=128
 op2=Attack
 vislevel=68
 
-[death_troll_thrower3]
+[troll_thrower3]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -22683,7 +22683,7 @@ resizev=108
 op2=Attack
 vislevel=68
 
-[death_troll_thrower4]
+[troll_thrower4]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=npc_1096
@@ -22701,7 +22701,7 @@ resizev=122
 op2=Attack
 vislevel=68
 
-[death_troll_thrower5]
+[troll_thrower5]
 name=Thrower Troll
 desc=Small for a troll but mean, ugly and throws rocks.
 model1=poh_troll_8
@@ -23003,7 +23003,7 @@ resizeh=134
 resizev=134
 vislevel=hide
 
-[npc_1150]
+[eadgar_storeroom_guard]
 name=Guard
 desc=He's guarding the goutweed.
 model1=poh_troll_8
@@ -23536,7 +23536,7 @@ walkanim=fishingspot_walk
 minimap=no
 op1=Fish
 
-[npc_1179]
+[0_45_48_seabird1]
 name=Gull
 desc=A sea bird.
 model1=spot_biopigeon_launch
@@ -23546,7 +23546,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=hide
 
-[npc_1180]
+[0_45_48_seabird2]
 name=Cormorant
 desc=A sea bird.
 model1=spot_biopigeon_launch
@@ -23556,7 +23556,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=hide
 
-[npc_1181]
+[0_45_48_seabird3]
 name=Albatross
 desc=A sea bird.
 model1=spot_biopigeon_launch
@@ -23566,7 +23566,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=hide
 
-[npc_1182]
+[lord_iorwerth_vis]
 name=Lord Iorwerth
 desc=An elf lord.
 model1=npc_1182
@@ -23587,7 +23587,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=obj_pickpocket_guide_woodelf
 
-[npc_1183]
+[regicide_darkelf]
 name=Elf warrior
 desc=He looks pretty handy with that bow.
 model1=npc_1182
@@ -23600,7 +23600,7 @@ readyanim=human_staffready
 op2=Attack
 vislevel=90
 
-[npc_1184]
+[regicide_darkelf2]
 name=Elf warrior
 desc=I don't wanna be at the wrong end of that pike.
 model1=npc_1182
@@ -23613,7 +23613,7 @@ readyanim=human_staffready
 op2=Attack
 vislevel=108
 
-[npc_1185]
+[prif_city_guard]
 name=Elven city guard
 desc=An elven city guard.
 model1=npc_1182
@@ -23804,7 +23804,7 @@ resizev=130
 op2=Attack
 vislevel=88
 
-[npc_1199]
+[regicide_old_camp_tracker]
 name=Elf Tracker
 desc=An elf tracker.
 model1=npc_1182
@@ -23825,7 +23825,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=obj_pickpocket_guide_woodelf
 
-[npc_1200]
+[regicide_old_camp_guard]
 name=Tyras guard
 desc=One of King Tyras's men.
 model1=obj_iron_platebody_manwear2
@@ -23939,7 +23939,7 @@ op2=Attack
 vislevel=110
 head1=npc_1200_head
 
-[npc_1205]
+[regicide_tyras_lazy_guard]
 name=Tyras guard
 desc=One of King Tyras's men.
 model1=npc_ardougnian_male1i2
@@ -23968,7 +23968,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_leather_cowl_manhead2
 
-[npc_1206]
+[regicide_tyras_camp_tent_guard]
 name=Tyras guard
 desc=One of King Tyras's men.
 model1=obj_iron_platebody_manwear2
@@ -24057,7 +24057,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_man
 
-[npc_1209]
+[caveguide6]
 name=Koftik
 desc=The cave guide.
 model1=obj_macro_mime_top_manwear2
@@ -24190,7 +24190,7 @@ head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_medium_head
 head3=npc_zoo_keeper_head
 
-[npc_1217]
+[pirate_irate_gardener]
 name=Gardener
 desc=An old gardener.
 model1=npc_drunk1
@@ -25876,8 +25876,8 @@ recol4d=12583
 recol5s=14560
 recol5d=8356
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 head2=npc_1295_head
@@ -26963,7 +26963,7 @@ head1=obj_pickpocket_guide_warrior
 head2=obj_headband_red_womanhead
 head3=npc_lady_pirate_headi2
 
-[npc_1338]
+[horror_dagganoth_jr]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -26974,7 +26974,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1339]
+[horror_dagganoth_jr_darker]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -26993,7 +26993,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1340]
+[horror_dagganoth_jr_lighter]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27012,7 +27012,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1341]
+[horror_dagannoth_medium]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27024,7 +27024,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1342]
+[horror_dagannoth_medium_darker]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27044,7 +27044,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1343]
+[horror_dagannoth_medium_lighter]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27064,7 +27064,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1344]
+[horror_dagannoth_jr1]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27083,7 +27083,7 @@ resizev=82
 walkanim=horror_dagannoth_emerge_a
 readyanim=horror_dagannoth_emerge_a
 
-[npc_1345]
+[horror_dagannoth_jr2]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27102,7 +27102,7 @@ resizev=82
 walkanim=horror_dagannoth_emerge_b
 readyanim=horror_dagannoth_emerge_b
 
-[npc_1346]
+[horror_dagannoth_jr3]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27121,7 +27121,7 @@ resizev=82
 walkanim=horror_dagannoth_emerge_c
 readyanim=horror_dagannoth_emerge_c
 
-[npc_1347]
+[horror_dagannoth_jr4]
 name=Dagannoth
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27141,7 +27141,7 @@ walkanim=horror_dagannoth_walk
 readyanim=horror_dagannoth_ready
 op2=Attack
 
-[npc_1348]
+[horror_dagganoth_aira]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27160,7 +27160,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1349]
+[horror_dagganoth_airb]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27179,7 +27179,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1350]
+[horror_dagganoth_airc]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27198,7 +27198,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1351]
+[horror_dagganoth_air]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27218,7 +27218,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1352]
+[horror_dagganoth_water]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27238,7 +27238,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1353]
+[horror_dagganoth_fire]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27258,7 +27258,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1354]
+[horror_dagganoth_earth]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27278,7 +27278,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1355]
+[horror_dagganoth_ranged]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -27298,7 +27298,7 @@ resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1356]
+[horror_dagganoth_melee]
 name=Dagannoth mother
 desc=A horror from the ocean depths...
 model1=poh_dagganoth_8
@@ -28678,8 +28678,8 @@ model2=npc_commander_montai
 model3=npc_commander_montaii2
 recol1s=10570
 recol1d=2114
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_commander_montai_head
@@ -28690,8 +28690,8 @@ desc=Waydar is some kind of flight officer.
 model1=npc_leprechaun
 model2=npc_gnomepilot
 model3=npc_gnometrainer
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -28702,8 +28702,8 @@ desc=Waydar is some kind of flight officer.
 model1=npc_leprechaun
 model2=npc_gnomepilot
 model3=npc_gnometrainer
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -28714,8 +28714,8 @@ desc=Waydar is some kind of flight officer.
 model1=npc_leprechaun
 model2=npc_gnomepilot
 model3=npc_gnometrainer
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -28728,8 +28728,8 @@ model2=npc_1411
 model3=npc_commander_montaii2
 recol1s=10570
 recol1d=17441
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 resizeh=150
 resizev=150
 op1=Talk-to
@@ -28744,8 +28744,8 @@ model2=npc_1411
 model3=npc_commander_montaii2
 recol1s=10570
 recol1d=17441
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 resizeh=150
 resizev=150
 op1=Talk-to
@@ -28764,8 +28764,8 @@ recol2s=24075
 recol2d=17830
 recol3s=352
 recol3d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -28782,8 +28782,8 @@ recol2s=24075
 recol2d=17830
 recol3s=352
 recol3d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -28797,8 +28797,8 @@ recol1s=416
 recol1d=14887
 recol2s=352
 recol2d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -28813,8 +28813,8 @@ recol1s=416
 recol1d=14887
 recol2s=352
 recol2d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -28828,8 +28828,8 @@ recol1s=416
 recol1d=13798
 recol2s=352
 recol2d=14952
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -28844,8 +28844,8 @@ recol1s=416
 recol1d=13798
 recol2s=352
 recol2d=14952
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -28859,8 +28859,8 @@ recol1s=416
 recol1d=12903
 recol2s=352
 recol2d=18696
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -28871,7 +28871,7 @@ desc=All you see is a glimmer of light and the suggestion of shadow.
 model1=npc_1420
 model2=npc_1420i2
 model3=npc_1420i3
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_assassin_ready
 op1=Talk-to
 vislevel=hide
@@ -28883,7 +28883,7 @@ desc=All you see is a glimmer of light and the suggestion of shadow.
 model1=npc_1420
 model2=npc_1420i2
 model3=npc_1420i3
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_assassin_ready
 vislevel=hide
 head1=npc_1420_head
@@ -28894,13 +28894,13 @@ desc=All you see is a glimmer of light and the suggestion of shadow.
 model1=npc_1420
 model2=npc_1420i2
 model3=npc_1420i3
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_assassin_ready
 op1=Talk-to
 vislevel=hide
 head1=npc_1420_head
 
-[npc_1423]
+[mm_bunkwicket_aa]
 name=Bunkwicket
 desc=This Gnome is busy applying some kind of pasty material to the cave walls.
 model1=npc_leprechaun
@@ -28910,13 +28910,13 @@ recol1s=384
 recol1d=12581
 recol2s=416
 recol2d=9603
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
-[mm_waymottin_gs]
+[mm_waymottin_aa]
 name=Waymottin
 desc=This Gnome is busy applying some kind of pasty material to the cave walls.
 model1=npc_leprechaun
@@ -28926,8 +28926,8 @@ recol1s=384
 recol1d=12581
 recol2s=416
 recol2d=9603
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -28946,8 +28946,8 @@ recol3s=32767
 recol3d=9618
 recol4s=416
 recol4d=9618
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_1425_head
@@ -28966,13 +28966,13 @@ recol3s=32767
 recol3d=9618
 recol4s=416
 recol4d=9618
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_1425_head
 
-[mm_caranock_aa]
+[mm_caranock]
 name=G.L.O. Caranock
 desc=An official looking Gnome with small beady eyes.
 model1=npc_leprechaun
@@ -28982,13 +28982,13 @@ recol1s=352
 recol1d=14625
 recol2s=416
 recol2d=14626
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
-[mm_caranock_gs]
+[npc_1428]
 name=G.L.O. Caranock
 desc=An official looking Gnome with small beady eyes.
 model1=npc_leprechaun
@@ -28998,8 +28998,8 @@ recol1s=352
 recol1d=14625
 recol2s=416
 recol2d=14626
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -30153,7 +30153,7 @@ model1=npc_1420
 model2=npc_1420i2
 model3=npc_1420i3
 op1=attack
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_assassin_ready
 vislevel=9
 
@@ -30167,7 +30167,7 @@ recol1s=384
 recol1d=12581
 recol2s=416
 recol2d=9603
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_sapper_wallwipe
 vislevel=1
 
@@ -30185,7 +30185,7 @@ recol3s=32767
 recol3d=9618
 recol4s=416
 recol4d=9618
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=m_mage_attack
 vislevel=1
 
@@ -30242,8 +30242,8 @@ recol2s=24075
 recol2d=17830
 recol3s=352
 recol3d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=1
 head1=obj_pickpocket_guide_gnome
 
@@ -30257,8 +30257,8 @@ recol1s=416
 recol1d=14887
 recol2s=352
 recol2d=14724
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=1
 head1=obj_pickpocket_guide_gnome
 
@@ -30272,8 +30272,8 @@ recol1s=416
 recol1d=13798
 recol2s=352
 recol2d=14952
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=1
 head1=obj_pickpocket_guide_gnome
 
@@ -30287,8 +30287,8 @@ recol1s=416
 recol1d=12903
 recol2s=352
 recol2d=18696
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=1
 head1=obj_pickpocket_guide_gnome
 
@@ -30482,7 +30482,7 @@ resizev=132
 ambient=30
 vislevel=1
 
-[npc_1532]
+[castlewars_barricade_saradomin]
 name=Barricade
 desc=A spiky barricade.
 model1=castlewars_barricade_8
@@ -30490,7 +30490,7 @@ minimap=no
 vislevel=hide
 op2=Attack
 
-[npc_1533]
+[castlewars_barricade_burning_saradomin]
 name=Barricade
 desc=A spiky barricade.
 model1=castlewars_barricade_8
@@ -30504,7 +30504,7 @@ vislevel=hide
 readyanim=fire
 op2=Attack
 
-[npc_1534]
+[castlewars_barricade_zamorak]
 name=Barricade
 desc=A spiky barricade.
 model1=castlewars_barricade_8
@@ -30512,7 +30512,7 @@ minimap=no
 vislevel=hide
 op2=Attack
 
-[npc_1535]
+[castlewars_barricade_burning_zamorak]
 name=Barricade
 desc=A spiky barricade.
 model1=castlewars_barricade_8
@@ -33066,7 +33066,7 @@ param=slayer_category,^slayer_jelly
 param=damagetype,^magic_style
 category=slayer_jelly
 
-[npc_1643]
+[slayer_infernal_mage_1]
 name=Infernal Mage
 desc=An evil magic user.
 model1=obj_feud_desert_disguise_manwear
@@ -33105,7 +33105,7 @@ magic=75
 param=damagetype,^magic_style
 param=defend_anim,null
 
-[npc_1644]
+[slayer_infernal_mage_2]
 name=Infernal Mage
 desc=An evil magic user.
 model1=obj_feud_desert_disguise_manwear
@@ -33144,7 +33144,7 @@ magic=75
 param=damagetype,^magic_style
 param=defend_anim,null
 
-[npc_1645]
+[slayer_infernal_mage_3]
 name=Infernal Mage
 desc=An evil magic user.
 model1=obj_feud_desert_disguise_manwear
@@ -33183,7 +33183,7 @@ magic=75
 param=damagetype,^magic_style
 param=defend_anim,null
 
-[npc_1646]
+[slayer_infernal_mage_4]
 name=Infernal Mage
 desc=An evil magic user.
 model1=obj_feud_desert_disguise_manwear
@@ -33222,7 +33222,7 @@ magic=75
 param=damagetype,^magic_style
 param=defend_anim,null
 
-[npc_1647]
+[slayer_infernal_mage_5]
 name=Infernal Mage
 desc=An evil magic user.
 model1=obj_feud_desert_disguise_manwear
@@ -33261,7 +33261,7 @@ magic=75
 param=damagetype,^magic_style
 param=defend_anim,null
 
-[npc_1648]
+[slayer_crawling_hand_1]
 name=Crawling Hand
 desc=Gimmie five.  Actually, don't.
 model1=npc_1648
@@ -33286,7 +33286,7 @@ param=death_sound,hand_death
 param=damagetype,^crush_style
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1649]
+[slayer_crawling_hand_2]
 name=Crawling Hand
 desc=Gimmie five.  Actually, don't.
 model1=npc_1648
@@ -33323,7 +33323,7 @@ param=death_sound,hand_death
 param=damagetype,^crush_style
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1650]
+[slayer_crawling_hand_3]
 name=Crawling Hand
 desc=Gimmie five.  Actually, don't.
 model1=npc_1648
@@ -33360,7 +33360,7 @@ param=death_sound,hand_death
 param=damagetype,^crush_style
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1651]
+[slayer_crawling_hand_4]
 name=Crawling Hand
 desc=Gimmie five.  Actually, don't.
 model1=npc_1648
@@ -33397,7 +33397,7 @@ param=death_sound,hand_death
 param=damagetype,^crush_style
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1652]
+[slayer_crawling_hand_5]
 name=Crawling Hand
 desc=Gimmie five.  Actually, don't.
 model1=npc_1648
@@ -33434,7 +33434,7 @@ param=death_sound,hand_death
 param=damagetype,^crush_style
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1653]
+[slayer_crawling_hand_big_1]
 name=Crawling Hand
 desc=Now THAT's handy.
 model1=npc_1648
@@ -33460,7 +33460,7 @@ param=defend_sound,hand_hit
 param=death_sound,hand_death
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1654]
+[slayer_crawling_hand_big_2]
 name=Crawling Hand
 desc=I'm glad its just the hand I can see...
 model1=npc_1648
@@ -33498,7 +33498,7 @@ param=defend_sound,hand_hit
 param=death_sound,hand_death
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1655]
+[slayer_crawling_hand_big_3]
 name=Crawling Hand
 desc=A big severed hand.
 model1=npc_1648
@@ -33536,7 +33536,7 @@ param=defend_sound,hand_hit
 param=death_sound,hand_death
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1656]
+[slayer_crawling_hand_big_4]
 name=Crawling Hand
 desc=Give the guy a big hand.....
 model1=npc_1648
@@ -33574,7 +33574,7 @@ param=defend_sound,hand_hit
 param=death_sound,hand_death
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1657]
+[slayer_crawling_hand_big_5]
 name=Crawling Hand
 desc=A big severed hand.
 model1=npc_1648
@@ -33612,7 +33612,7 @@ param=defend_sound,hand_hit
 param=death_sound,hand_death
 param=slayer_category,^slayer_crawlinghand
 
-[npc_1658]
+[magic_store_owner2]
 name=Robe Store owner
 desc=A Supplier of Magical robes.
 model1=obj_viking_helmet_manwear
@@ -33632,7 +33632,7 @@ head1=obj_pickpocket_guide_man
 head2=obj_mystic_hat_manhead
 head3=idk_man_jaw_long_head
 
-[npc_1659]
+[waa_skullball]
 name=Skullball
 desc=A human skull used as a ball.
 model1=npc_1659
@@ -33646,7 +33646,7 @@ op5=Show-Goal
 vislevel=hide
 ambient=20
 
-[npc_1660]
+[werewolf_skullballboss]
 name=Skullball Boss
 desc=He's in charge of the Skullball Course.
 model1=npc_1660
@@ -33666,7 +33666,7 @@ op1=Talk-To
 vislevel=hide
 head1=npc_1660_head
 
-[npc_1661]
+[werewolf_trainer_start]
 name=Agility Boss
 desc=He's in charge of the Agility Course.
 model1=npc_1660
@@ -33687,7 +33687,7 @@ vislevel=hide
 op1=Talk-To
 head1=npc_1660_head
 
-[npc_1662]
+[werewolf_trainer_1]
 name=Skullball Trainer
 desc=A skullball guide.
 model1=npc_1660
@@ -33707,7 +33707,7 @@ vislevel=hide
 op1=Talk-To
 head1=npc_1660_head
 
-[npc_1663]
+[werewolf_trainer_2]
 name=Agility Trainer
 desc=A werewolf agility trainer.
 model1=npc_1660
@@ -33726,7 +33726,7 @@ readyanim=werewolf_ready
 vislevel=hide
 head1=npc_1660_head
 
-[npc_1664]
+[werewolf_trainer_stick]
 name=Agility Trainer
 desc=Have you brought him the stick yet?
 model1=npc_1660
@@ -33746,7 +33746,7 @@ vislevel=hide
 op1=Give-Stick
 head1=npc_1660_head
 
-[npc_1665]
+[waa_werewolf_guard]
 name=Werewolf
 desc=Looks like he's guarding a trapdoor...
 model1=npc_1030
@@ -33766,43 +33766,43 @@ vislevel=hide
 op1=Talk-To
 head1=npc_1660_head
 
-[npc_1666]
+[fenk_gardener_multi]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 alwaysontop=yes
 vislevel=1
 multivar=fenk_gardener_directions
-multinpc=1,npc_1675
+multinpc=1,fenk_gardener
 
-[npc_1667]
+[fenk_gardener_multi_2]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=fenk_gardener_directions
-multinpc=0,npc_1675
+multinpc=0,fenk_gardener
 
-[npc_1668]
+[fenk_fenkenstrain]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=fenk_quest
-multinpc=0,npc_1670
-multinpc=1,npc_1670
-multinpc=2,npc_1670
-multinpc=3,npc_1670
-multinpc=4,npc_1670
-multinpc=5,npc_1670
-multinpc=6,npc_1670
-multinpc=7,npc_1670
+multinpc=0,fenk_fenkenstrain_model
+multinpc=1,fenk_fenkenstrain_model
+multinpc=2,fenk_fenkenstrain_model
+multinpc=3,fenk_fenkenstrain_model
+multinpc=4,fenk_fenkenstrain_model
+multinpc=5,fenk_fenkenstrain_model
+multinpc=6,fenk_fenkenstrain_model
+multinpc=7,fenk_fenkenstrain_model
 
-[npc_1669]
+[fenk_fenkenstrain_in_tower]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=fenk_quest
-multinpc=8,npc_1670
+multinpc=8,fenk_fenkenstrain_model
 
-[npc_1670]
+[fenk_fenkenstrain_model]
 name=Dr Fenkenstrain
 desc=Dr Fenkenstrain I presume.
 model1=obj_ikov_bootsoflightness_manwear
@@ -33832,28 +33832,28 @@ head1=obj_leather_cowl_manhead2
 head2=idk_man_jaw_moustache_head
 head3=npc_councillor_halgrive_head
 
-[npc_1671]
+[fenk_creature]
 walkanim=frank_walk
 readyanim=frank_ready
 vislevel=1
 multivar=fenk_quest
-multinpc=0,npc_1673
-multinpc=1,npc_1673
-multinpc=2,npc_1673
-multinpc=3,npc_1673
-multinpc=4,npc_1673
-multinpc=5,npc_1673
-multinpc=6,npc_1673
-multinpc=7,npc_1673
+multinpc=0,fenk_creature_model
+multinpc=1,fenk_creature_model
+multinpc=2,fenk_creature_model
+multinpc=3,fenk_creature_model
+multinpc=4,fenk_creature_model
+multinpc=5,fenk_creature_model
+multinpc=6,fenk_creature_model
+multinpc=7,fenk_creature_model
 
-[npc_1672]
+[fenk_creature_released]
 walkanim=frank_walk
 readyanim=frank_ready
 vislevel=1
 multivar=fenk_quest
-multinpc=8,npc_1674
+multinpc=8,fenk_creature_model_2
 
-[npc_1673]
+[fenk_creature_model]
 name=Fenkenstrain's Monster
 desc=A hideous mix of human flesh.
 model1=npc_1673
@@ -33864,7 +33864,7 @@ alwaysontop=yes
 vislevel=hide
 head1=npc_1673_head
 
-[npc_1674]
+[fenk_creature_model_2]
 name=Lord Rologarth
 desc=It looks like he has got his castle back at last.
 model1=npc_1673
@@ -33875,7 +33875,7 @@ alwaysontop=yes
 vislevel=hide
 head1=npc_1673_head
 
-[npc_1675]
+[fenk_gardener]
 name=Gardener Ghost
 desc=He must find gardening difficult since the accident.
 model1=npc_1675
@@ -33997,8 +33997,8 @@ desc=No longer locked in his own cage.
 model1=npc_gnomebanker
 model2=npc_gnomeballer
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomebanker_head
@@ -35232,7 +35232,7 @@ walkanim=crow_walk
 readyanim=crow_ready3
 minimap=no
 
-[npc_1757]
+[farmer2]
 name=Farmer
 desc=He grows the crops in this area.
 model1=obj_viking_helmet_manwear
@@ -35260,7 +35260,7 @@ op2=Attack
 vislevel=7
 head1=obj_pickpocket_guide_man
 
-[npc_1758]
+[farmer3]
 name=Farmer
 desc=He grows the crops in this area.
 model1=obj_viking_helmet_manwear
@@ -35282,7 +35282,7 @@ op2=Attack
 vislevel=7
 head1=obj_pickpocket_guide_man
 
-[npc_1759]
+[farmer_farming]
 name=Farmer
 desc=Farming.
 model1=idk_man_hair_medium
@@ -35305,7 +35305,7 @@ readyanim=human_farming
 walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halberdwalk_r
 head1=obj_pickpocket_guide_farmer
 
-[npc_1760]
+[farmer_farming_on_49_51]
 name=Farmer
 desc=Farming.
 model1=obj_viking_helmet_manwear
@@ -35329,7 +35329,7 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 head1=obj_pickpocket_guide_man
 head2=npc_wyson_head
 
-[npc_1761]
+[farmer_farming_on_48_51]
 name=Farmer
 desc=Farming the wheat.
 model1=obj_feud_desert_disguise_manwear
@@ -35403,7 +35403,7 @@ vislevel=hide
 walkanim=sheep_walk
 readyanim=sheep_ready
 
-[npc_1766]
+[cow2_calf]
 name=Cow calf
 desc=Prelude to a steak!
 model1=npc_cow
@@ -35422,7 +35422,7 @@ resizeh=100
 resizev=100
 vislevel=2
 
-[npc_1767]
+[cow3]
 name=Cow
 desc=Where beef comes from.
 model1=npc_cow
@@ -35441,7 +35441,7 @@ resizeh=120
 resizev=120
 vislevel=2
 
-[npc_1768]
+[cow3_calf]
 name=Cow calf
 desc=Young and tender, nearly ready for the slaughter.
 model1=npc_cow
@@ -35460,7 +35460,7 @@ resizeh=100
 resizev=100
 vislevel=2
 
-[npc_1769]
+[goblin_unarmed_melee_1]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -35474,7 +35474,7 @@ resizev=125
 resizeh=125
 vislevel=2
 
-[npc_1770]
+[goblin_unarmed_melee_2]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1770
@@ -35492,7 +35492,7 @@ resizev=125
 resizeh=125
 vislevel=2
 
-[npc_1771]
+[goblin_unarmed_melee_3]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -35511,7 +35511,7 @@ resizev=120
 resizeh=120
 vislevel=2
 
-[npc_1772]
+[goblin_unarmed_melee_4]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1772
@@ -35529,7 +35529,7 @@ resizev=130
 resizeh=130
 vislevel=2
 
-[npc_1773]
+[goblin_unarmed_melee_5]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -35546,7 +35546,7 @@ resizev=123
 resizeh=123
 vislevel=2
 
-[npc_1774]
+[goblin_unarmed_melee_6]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -35565,7 +35565,7 @@ resizev=122
 resizeh=122
 vislevel=2
 
-[npc_1775]
+[goblin_unarmed_melee_7]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_goblin
@@ -35584,7 +35584,7 @@ resizev=128
 resizeh=128
 vislevel=2
 
-[npc_1776]
+[goblin_unarmed_melee_8]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -35847,7 +35847,7 @@ vislevel=hide
 head1=npc_sir_percival_head
 head2=idk_man_jaw_long_head
 
-[npc_1788]
+[mm_lumdo_final_battle]
 name=Lumdo
 desc=A seasoned looking Gnome foot soldier.
 model1=npc_gnomeballer
@@ -35857,12 +35857,12 @@ recol1s=416
 recol1d=12903
 recol2s=352
 recol2d=18696
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
-[npc_1789]
+[mm_bunkwicket_gs]
 name=Bunkwicket
 desc=A Gnome soldier.
 model1=npc_leprechaun
@@ -35872,12 +35872,12 @@ recol1s=384
 recol1d=12581
 recol2s=416
 recol2d=9603
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
-[npc_1790]
+[mm_waymottin_gs]
 name=Waymottin
 desc=A Gnome soldier.
 model1=npc_leprechaun
@@ -35887,8 +35887,8 @@ recol1s=384
 recol1d=12581
 recol2s=416
 recol2d=9603
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -36102,8 +36102,8 @@ recol3d=24257
 recol4s=416
 recol4d=11492
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_1800_head
 
@@ -36444,7 +36444,7 @@ size=2
 resizeh=30
 resizev=30
 
-[npc_1822]
+[cave_goblin]
 name=Cave goblin
 desc=A goblin with big bulging eyes.
 model1=npc_1822
@@ -36462,7 +36462,7 @@ op2=Attack
 vislevel=3
 head1=npc_1822_head
 
-[npc_1823]
+[cave_goblin2]
 name=Cave goblin
 desc=A goblin with big bulging eyes.
 model1=npc_1822
@@ -36482,7 +36482,7 @@ op2=Attack
 vislevel=3
 head1=npc_1822_head
 
-[npc_1824]
+[cave_goblin3]
 name=Cave goblin
 desc=A goblin with big bulging eyes.
 model1=npc_1822
@@ -36504,7 +36504,7 @@ op2=Attack
 vislevel=3
 head1=npc_1822_head
 
-[npc_1825]
+[cave_goblin4]
 name=Cave goblin
 desc=A goblin with big bulging eyes.
 model1=npc_1822
@@ -36612,7 +36612,7 @@ readyanim=cave_littlebug_ready
 minimap=no
 vislevel=hide
 
-[npc_1834]
+[swamp_candle_guy]
 name=Candle seller
 desc=Has an odd smell about him.
 model1=idk_man_hair_dreadlocks
@@ -37286,8 +37286,8 @@ recol3s=2340
 recol3d=29594
 recol4s=24075
 recol4d=18855
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 alwaysontop=yes
@@ -39654,15 +39654,15 @@ readyanim=human_ready
 alwaysontop=yes
 vislevel=1
 multivar=ics_little_var
-multinpc=19,npc_1988
-multinpc=20,npc_1988
-multinpc=21,npc_1988
-multinpc=22,npc_1988
-multinpc=23,npc_1988
-multinpc=24,npc_1988
-multinpc=25,npc_1988
+multinpc=19,ics_little_priest
+multinpc=20,ics_little_priest
+multinpc=21,ics_little_priest
+multinpc=22,ics_little_priest
+multinpc=23,ics_little_priest
+multinpc=24,ics_little_priest
+multinpc=25,ics_little_priest
 
-[npc_1988]
+[ics_little_priest]
 name=Priest
 desc=Preach my brother!
 model1=obj_roguetrader_menaphite_hat_manwear
@@ -39693,7 +39693,7 @@ head1=idk_man_jaw_short_head
 head2=obj_roguetrader_menaphite_hat_manhead
 head3=npc_1978_headi2
 
-[npc_1989]
+[ics_little_priestdoorman]
 name=Priest
 desc=Priestly.
 model1=obj_roguetrader_menaphite_hat_manwear
@@ -39724,7 +39724,7 @@ head1=idk_man_jaw_short_head
 head2=obj_roguetrader_menaphite_hat_manhead
 head3=npc_1978_headi2
 
-[npc_1990]
+[ics_little_sphinx]
 name=Sphinx
 desc=An awe inspiring combination of a lady, a lion and an eagle.
 model1=npc_1990
@@ -39751,7 +39751,7 @@ vislevel=hide
 alwaysontop=yes
 head1=obj_roguetrader_menaphite_hat_manhead
 
-[npc_1991]
+[ics_little_possessedpriest]
 name=Possessed Priest
 desc=He has a dangerous glint in his eye.
 model1=obj_roguetrader_menaphite_hat_manwear
@@ -39783,7 +39783,7 @@ head2=idk_man_jaw_short_head
 head3=obj_roguetrader_menaphite_hat_manhead
 head4=npc_1978_headi2
 
-[npc_1992]
+[ics_little_cat]
 name=Neite
 desc=A graceful feline.
 model1=npc_1992
@@ -39796,7 +39796,7 @@ resizev=60
 alwaysontop=yes
 head1=npc_1992_head
 
-[npc_1993]
+[ics_little_croc]
 name=Crocodile
 desc=Never smile at a...
 model1=npc_1993
@@ -39806,7 +39806,7 @@ readyanim=croc_ready
 op2=Attack
 vislevel=63
 
-[npc_1994]
+[ics_little_jackal]
 name=Jackal
 desc=He has had his day...
 model1=npc_1994
@@ -39815,7 +39815,7 @@ readyanim=dog_ready
 op2=Attack
 vislevel=21
 
-[npc_1995]
+[ics_little_locust]
 name=Locust
 desc=Obnoxious overgrown insect.
 model1=npc_1995
@@ -39824,7 +39824,7 @@ readyanim=locust_ready
 op2=Attack
 vislevel=18
 
-[npc_1996]
+[ics_little_vulture]
 name=Vulture
 desc=If you see them circling... run.
 model1=npc_1996
@@ -39909,7 +39909,7 @@ readyanim=cow_ready
 vislevel=hide
 op1=Pet
 
-[npc_2001]
+[ics_little_scarabs]
 name=Scarabs
 desc=I think they're some kind of beetle...
 model1=npc_1969
@@ -42640,8 +42640,8 @@ recol3s=416
 recol3d=19588
 recol4s=11456
 recol4d=15360
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomebanker_head
@@ -42660,8 +42660,8 @@ recol3s=416
 recol3d=19588
 recol4s=11456
 recol4d=15360
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -42680,8 +42680,8 @@ recol3s=416
 recol3d=13572
 recol4s=12684
 recol4d=7396
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
@@ -44213,7 +44213,7 @@ vislevel=hide
 op1=Talk-to
 head1=npc_lawgof2_head
 
-[npc_2207]
+[dwarf_city_dwarf_sack_in_cart_full]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_mcannonguard
@@ -44238,7 +44238,7 @@ vislevel=hide
 turnspeed=5000
 head1=npc_mcannonguard_head
 
-[npc_2208]
+[dwarf_city_dwarf_sack_in_cart_empty]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_mcannonguard
@@ -44263,7 +44263,7 @@ walkanim=dwarf_minecart_ready
 vislevel=hide
 head1=npc_mcannonguard_head
 
-[npc_2209]
+[dwarf_city_dwarf_sack_carrier_full]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_mcannonguard
@@ -44288,7 +44288,7 @@ vislevel=hide
 vislevel=hide
 head1=npc_mcannonguard_head
 
-[npc_2210]
+[dwarf_city_dwarf_sack_carrier_empty]
 name=Dwarven Miner
 desc=He's delivered his ores.
 model1=npc_mcannonguard
@@ -44313,7 +44313,7 @@ vislevel=hide
 vislevel=hide
 head1=npc_mcannonguard_head
 
-[npc_2211]
+[dwarf_city_dwarf_sack_in_cart_full2]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_dwarf_normal
@@ -44335,7 +44335,7 @@ vislevel=hide
 turnspeed=5000
 head1=npc_lawgof2_head
 
-[npc_2212]
+[dwarf_city_dwarf_sack_in_cart_empty2]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_dwarf_normal
@@ -44357,7 +44357,7 @@ walkanim=dwarf_minecart_ready
 vislevel=hide
 head1=npc_lawgof2_head
 
-[npc_2213]
+[dwarf_city_dwarf_sack_carrier_full2]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_dwarf_normal
@@ -44380,7 +44380,7 @@ vislevel=hide
 vislevel=hide
 head1=npc_lawgof2_head
 
-[npc_2214]
+[dwarf_city_dwarf_sack_carrier_empty2]
 name=Dwarven Miner
 desc=He's delivered his ores.
 model1=npc_dwarf_normal
@@ -44402,7 +44402,7 @@ vislevel=hide
 vislevel=hide
 head1=npc_lawgof2_head
 
-[npc_2215]
+[dwarf_city_dwarf_sack_in_cart_full3]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_upassdwarf3
@@ -44425,7 +44425,7 @@ vislevel=hide
 turnspeed=5000
 head1=npc_upassdwarf3_head
 
-[npc_2216]
+[dwarf_city_dwarf_sack_in_cart_empty3]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_upassdwarf3
@@ -44448,7 +44448,7 @@ walkanim=dwarf_minecart_ready
 vislevel=hide
 head1=npc_upassdwarf3_head
 
-[npc_2217]
+[dwarf_city_dwarf_sack_carrier_full3]
 name=Dwarven Miner
 desc=He carries a heavy load.
 model1=npc_upassdwarf3
@@ -44471,7 +44471,7 @@ vislevel=hide
 vislevel=hide
 head1=npc_upassdwarf3_head
 
-[npc_2218]
+[dwarf_city_dwarf_sack_carrier_empty3]
 name=Dwarven Miner
 desc=He's delivered his ores.
 model1=npc_upassdwarf3
@@ -44840,7 +44840,7 @@ vislevel=hide
 head1=idk_woman_hair_medium_head
 head2=npc_lady_pirate_headi2
 
-[npc_2234]
+[master_farmer_1]
 name=Master Farmer
 desc=A master at farming.
 model1=npc_1918
@@ -44871,7 +44871,7 @@ head1=obj_pickpocket_guide_farmer
 head2=idk_man_jaw_goatee_head
 head3=npc_1918_head
 
-[npc_2235]
+[master_farmer_2]
 name=Master Farmer
 desc=A master at farming.
 model1=npc_1071
@@ -44900,7 +44900,7 @@ vislevel=hide
 head1=obj_pickpocket_guide_farmer
 head2=npc_1071_head
 
-[npc_2236]
+[farming_market_guard]
 name=Market Guard
 desc=He guards the Draynor Market stalls from thieves.
 model1=npc_knight_of_ardougne2
@@ -44926,7 +44926,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=20
 
-[npc_2237]
+[lumbridge_guide2_man]
 name=Gee
 desc=A local farmer. He may be able to provide some useful information.
 model1=obj_viking_helmet_manwear
@@ -44951,7 +44951,7 @@ vislevel=hide
 head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_long_head
 
-[npc_2238]
+[lumbridge_guide2_woman]
 name=Donie
 desc=A local farmer. She may be able to provide some useful information.
 model1=idk_woman_hair_long
@@ -44973,7 +44973,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_warrior
 
-[npc_2239]
+[pig_1]
 name=Pig
 desc=Swine.
 model1=npc_2239
@@ -44982,7 +44982,7 @@ walkanim=farming_pig_walk
 readyanim=farming_pig_ready
 ambient=15
 
-[npc_2240]
+[pig_2]
 name=Pig
 desc=Porker.
 model1=npc_2239
@@ -44998,7 +44998,7 @@ ambient=15
 resizeh=200
 resizev=200
 
-[npc_2241]
+[piglet_1]
 name=Piglet
 desc=Hog.
 model1=npc_2241
@@ -45009,7 +45009,7 @@ resizeh=50
 resizev=50
 ambient=15
 
-[npc_2242]
+[piglet_2]
 name=Piglet
 desc=Porcine.
 model1=npc_2241
@@ -45024,7 +45024,7 @@ resizeh=70
 resizev=70
 ambient=15
 
-[npc_2243]
+[piglet_3]
 name=Piglet
 desc=I shall call him "mini-pig".
 model1=npc_2241
@@ -45035,7 +45035,7 @@ resizeh=64
 resizev=64
 ambient=15
 
-[npc_2244]
+[lumbridge_guide]
 name=Lumbridge Guide
 desc=He provides new players with useful information.
 model1=idk_man_hair_long
@@ -45063,7 +45063,7 @@ vislevel=hide
 head1=idk_man_hair_long_head
 head2=idk_man_jaw_long_head
 
-[npc_2245]
+[battlefield_khazard_troop]
 name=Khazard trooper
 desc=It's one of General Khazard's warriors.
 model1=obj_khazard_helmet_manwear
@@ -45082,7 +45082,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=19
 
-[npc_2246]
+[battlefield_khazard_troop_spearmen]
 name=Khazard trooper
 desc=It's one of General Khazard's warriors.
 model1=obj_khazard_helmet_manwear
@@ -45100,19 +45100,19 @@ readyanim=human_staffready
 op2=Attack
 vislevel=19
 
-[npc_2247]
+[battlefield_gnomeknight]
 name=Gnome troop
 desc=It's a tree gnome trooper.
 model1=npc_gnomeballer
 model2=npc_commander_montai
 model3=npc_commander_montaii2
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=3
 head1=npc_commander_montai_head
 
-[npc_2248]
+[battlefield_d_skingnomeknight]
 name=Gnome troop
 desc=It's a tree gnome trooper.
 model1=npc_gnomeballer
@@ -45126,13 +45126,13 @@ recol3s=21961
 recol3d=13537
 recol4s=20904
 recol4d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=3
 head1=npc_commander_montai_head
 
-[npc_2249]
+[battlefield_gnome_troop]
 name=Gnome
 desc=Like a mini man!
 model1=npc_leprechaun
@@ -45140,13 +45140,13 @@ model2=npc_gnome
 model3=npc_leprechauni3
 recol1s=352
 recol1d=14625
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=3
 head1=obj_pickpocket_guide_gnome
 
-[npc_2250]
+[battlefield_darkskinned_gnome_archer]
 name=Gnome
 desc=Like a mini man!
 model1=npc_leprechaun
@@ -45158,25 +45158,25 @@ recol2s=21961
 recol2d=13537
 recol3s=20904
 recol3d=13537
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=1
 head1=obj_pickpocket_guide_gnome
 
-[npc_2251]
+[battlefield_gnome_archer]
 name=Gnome
 desc=Like a mini man!
 model1=npc_leprechaun
 model2=npc_gnome
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=3
 head1=obj_pickpocket_guide_gnome
 
-[npc_2252]
+[battlefield_terrorbird_mountedspear]
 name=Mounted terrorbird gnome
 desc=These gnomes know how to get around!
 model1=npc_terrorbird_mountedspear
@@ -45237,7 +45237,7 @@ turnspeed=0
 size=2
 op2=Attack
 
-[npc_2256]
+[paladin2]
 name=Paladin
 desc=A holy warrior.
 model1=idk_man_hair_medium
@@ -45264,18 +45264,18 @@ op3=Pickpocket
 op2=Attack
 vislevel=62
 
-[npc_2257]
+[rcu_zammy_mage1]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=abyssal_miniquest
-multinpc=0,npc_2258
-multinpc=1,npc_2258
-multinpc=2,npc_2258
-multinpc=3,npc_2258
-multinpc=4,npc_2259
+multinpc=0,rcu_zammy_mage1a
+multinpc=1,rcu_zammy_mage1a
+multinpc=2,rcu_zammy_mage1a
+multinpc=3,rcu_zammy_mage1a
+multinpc=4,rcu_zammy_mage1b
 
-[npc_2258]
+[rcu_zammy_mage1a]
 name=Mage of Zamorak
 desc=A disciple of Zamorak.
 model1=obj_ham_hood_manwear
@@ -45305,7 +45305,7 @@ op3=Trade
 head1=obj_pickpocket_guide_mham
 head2=idk_man_jaw_medium_head
 
-[npc_2259]
+[rcu_zammy_mage1b]
 name=Mage of Zamorak
 desc=A disciple of Zamorak.
 model1=obj_ham_hood_manwear
@@ -45336,17 +45336,17 @@ readyanim=human_ready
 head1=obj_pickpocket_guide_mham
 head2=idk_man_jaw_medium_head
 
-[npc_2260]
+[rcu_zammy_mage1_edge]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=abyssal_miniquest
-multinpc=1,npc_2261
-multinpc=2,npc_2261
-multinpc=3,npc_2261
-multinpc=4,npc_2261
+multinpc=1,rcu_zammy_mage1_edgeb
+multinpc=2,rcu_zammy_mage1_edgeb
+multinpc=3,rcu_zammy_mage1_edgeb
+multinpc=4,rcu_zammy_mage1_edgeb
 
-[npc_2261]
+[rcu_zammy_mage1_edgeb]
 name=Mage of Zamorak
 desc=A disciple of Zamorak.
 model1=obj_ham_hood_manwear
@@ -45375,7 +45375,7 @@ op1=Talk-to
 head1=obj_pickpocket_guide_mham
 head2=idk_man_jaw_medium_head
 
-[npc_2262]
+[rcu_zammy_mage2]
 name=Dark mage
 desc=An initiate of Zamorak.
 model1=obj_ham_hood_manwear
@@ -45399,7 +45399,7 @@ turnspeed=0
 op1=Talk-to
 head1=obj_pickpocket_guide_mham
 
-[npc_2263]
+[abyssal_leech]
 name=Abyssal leech
 desc=A blood-drinking denizen of the abyss.
 model1=npc_2263
@@ -45408,7 +45408,7 @@ readyanim=abyssal_leech_ready
 op2=Attack
 vislevel=41
 
-[npc_2264]
+[abyssal_pyramid]
 name=Abyssal guardian
 desc=It seems to have eyes in the back of its head...
 model1=npc_2264
@@ -45417,7 +45417,7 @@ readyanim=abyssal_pyramid_ready
 op2=Attack
 vislevel=59
 
-[npc_2265]
+[abyssal_walker]
 name=Abyssal walker
 desc=Apparently walks the abyss.
 model1=npc_2265
@@ -45426,7 +45426,7 @@ readyanim=abyssal_walker_ready
 op2=Attack
 vislevel=81
 
-[npc_2266]
+[roguesden_mazemaster]
 name=Brian O'Richard
 desc=Head of the maze.
 model1=obj_feud_desert_disguise_manwear
@@ -45455,7 +45455,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_2266_head
 
-[npc_2267]
+[roguesden_guard1]
 name=Rogue Guard
 desc=Roguelike and guardish.
 model1=obj_feud_desert_disguise_manwear
@@ -45482,7 +45482,7 @@ op3=hidden
 vislevel=hide
 head1=obj_barrows_karil_head_manhead
 
-[npc_2268]
+[roguesden_guard2]
 name=Rogue Guard
 desc=Roguelike and guardish.
 model1=obj_barrows_karil_head_manwear
@@ -45512,7 +45512,7 @@ op3=hidden
 vislevel=hide
 head1=obj_barrows_karil_head_manhead
 
-[npc_2269]
+[roguesden_guard3]
 name=Rogue Guard
 desc=Roguelike and guardish.
 model1=obj_barrows_karil_head_manwear
@@ -45542,7 +45542,7 @@ op3=hidden
 vislevel=hide
 head1=obj_barrows_karil_head_manhead
 
-[npc_2270]
+[roguesden_trader]
 name=Martin Thwait
 desc=A loveable rogue.
 model1=idk_man_hair_long
@@ -45568,7 +45568,7 @@ op1=Talk-to
 op3=Trade
 head1=idk_man_hair_long_head
 
-[npc_2271]
+[roguesden_banker]
 name=Emerald Benedict
 desc=A rich banker man... Some say too rich.
 model1=obj_feud_desert_disguise_manwear
@@ -45598,21 +45598,21 @@ op3=Bank
 head1=obj_leather_cowl_manhead2
 head2=npc_councillor_halgrive_head
 
-[npc_2272]
+[roguesden_trap_floor_spinningblades_0]
 name=Spin Blades
 desc=I don't think I want to get too close to that!
 model1=roguesden_obstacle_moving_spinning_blades_8
 vislevel=hide
 walkanim=rogue_spinblades
 
-[npc_2273]
+[roguesden_trap_floor_spinningblades_1]
 name=Spin Blades
 desc=I don't think I want to get too close to that!
 model1=roguesden_obstacle_moving_spinning_blades_8
 vislevel=hide
 walkanim=rogue_spinblades
 
-[npc_2274]
+[goblin_unarmed_melee_in_1]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -45626,7 +45626,7 @@ resizev=125
 resizeh=125
 vislevel=2
 
-[npc_2275]
+[goblin_unarmed_melee_in_2]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1770
@@ -45644,7 +45644,7 @@ resizev=125
 resizeh=125
 vislevel=2
 
-[npc_2276]
+[goblin_unarmed_melee_in_3]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -45663,7 +45663,7 @@ resizev=120
 resizeh=120
 vislevel=2
 
-[npc_2277]
+[goblin_unarmed_melee_in_4]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1772
@@ -45681,7 +45681,7 @@ resizev=130
 resizeh=130
 vislevel=2
 
-[npc_2278]
+[goblin_unarmed_melee_in_5]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -45698,7 +45698,7 @@ resizev=123
 resizeh=123
 vislevel=2
 
-[npc_2279]
+[goblin_unarmed_melee_in_6]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -45717,7 +45717,7 @@ resizev=122
 resizeh=122
 vislevel=2
 
-[npc_2280]
+[goblin_unarmed_melee_in_7]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_goblin
@@ -45736,7 +45736,7 @@ resizev=128
 resizeh=128
 vislevel=2
 
-[npc_2281]
+[goblin_unarmed_melee_in_8]
 name=Goblin
 desc=An ugly green creature.
 model1=npc_1769
@@ -46640,7 +46640,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1686_head
 
-[elstan]
+[farming_gardener_allotment_1]
 name=Elstan
 desc=Perhaps this gardener might look after your crops for you.
 model1=idk_man_hair_dreadlocks
@@ -46667,7 +46667,7 @@ op1=Talk-to
 head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_split_head
 
-[dantaera]
+[farming_gardener_allotment_2]
 name=Dantaera
 desc=Perhaps this gardener might look after your crops for you.
 model1=idk_woman_hair_bun
@@ -46692,7 +46692,7 @@ vislevel=hide
 op1=Talk-to
 head1=idk_woman_hair_bun_head
 
-[kragen]
+[farming_gardener_allotment_3]
 name=Kragen
 desc=Perhaps this gardener might look after your crops for you.
 model1=npc_farmer1i2
@@ -46752,7 +46752,7 @@ vislevel=hide
 op1=Talk-to
 head1=npc_1818_head
 
-[francis]
+[farming_gardener_hops_2]
 name=Francis
 desc=Perhaps this gardener might look after your crops for you.
 model1=npc_drunk1
@@ -46792,14 +46792,14 @@ recol3s=352
 recol3d=10528
 recol4s=13728
 recol4d=6274
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 vislevel=hide
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
-[npc_2329]
+[iago]
 name=Iago
 desc=Perhaps this gardener might look after your crops for you.
 model1=obj_feud_desert_disguise_manwear2
@@ -46831,7 +46831,7 @@ head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_goatee_head
 head3=npc_gem_trader_head
 
-[garth]
+[farming_gardener_fruit_3]
 name=Garth
 desc=Perhaps this gardener might look after your crops for you.
 model1=npc_pirate2i2
@@ -47225,8 +47225,8 @@ recol4s=13728
 recol4d=8353
 recol5s=6144
 recol5d=8353
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
@@ -47539,7 +47539,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1202_head
 
-[npc_2359]
+[mourning_guard_melee]
 name=Elf warrior
 desc=I don't wanna be at the wrong end of that pike.
 model1=npc_1182i2
@@ -47561,7 +47561,7 @@ op2=Attack
 vislevel=108
 head1=obj_pickpocket_guide_woodelf
 
-[npc_2360]
+[mourning_guard_melee2]
 name=Elf warrior
 desc=I don't wanna be at the wrong end of that pike.
 model1=npc_2354
@@ -47582,7 +47582,7 @@ resizev=120
 op2=Attack
 vislevel=108
 
-[npc_2361]
+[mourning_guard_range]
 name=Elf warrior
 desc=He looks pretty handy with that bow.
 model1=npc_2354
@@ -47604,7 +47604,7 @@ op2=Attack
 vislevel=90
 head1=npc_2354_head
 
-[npc_2362]
+[mourning_guard_range2]
 name=Elf warrior
 desc=He looks pretty handy with that bow.
 model1=npc_2357i2
@@ -47624,7 +47624,7 @@ resizev=125
 op2=Attack
 vislevel=90
 
-[npc_2363]
+[mourning_town_elf_1]
 name=Goreu
 desc=An Elf.
 model1=npc_2354
@@ -47646,7 +47646,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_2354_head
 
-[npc_2364]
+[mourning_town_elf_2]
 name=Ysgawyn
 desc=An Elf.
 model1=npc_1182i2
@@ -47672,7 +47672,7 @@ op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_woodelf
 
-[npc_2365]
+[mourning_town_elf_3]
 name=Arvel
 desc=An Elf.
 model1=npc_1679
@@ -47699,7 +47699,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1679_head
 
-[npc_2366]
+[mourning_town_elf_4]
 name=Mawrth
 desc=An Elf.
 model1=npc_1679
@@ -47718,7 +47718,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1679_head
 
-[npc_2367]
+[mourning_town_elf_5_vis]
 name=Kelyn
 desc=An Elf.
 model1=npc_1679
@@ -47738,7 +47738,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1679_head
 
-[npc_2368]
+[mourning_elf_kid_1]
 name=Eoin
 desc=An Elven child.
 model1=npc_2352
@@ -47757,7 +47757,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_2368_head
 
-[npc_2369]
+[mourning_elf_kid_2]
 name=Iona
 desc=An Elven child.
 model1=npc_1202i2
@@ -47776,24 +47776,24 @@ op1=Talk-to
 vislevel=hide
 head1=npc_2369_head
 
-[npc_2370]
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+[mourner_hideout_gnome]
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 multivar=mourning_gnome
-multinpc=7,npc_2371
-multinpc=8,npc_2371
-multinpc=9,npc_2371
-multinpc=10,npc_2371
-multinpc=11,npc_2371
-multinpc=12,npc_2371
-multinpc=13,npc_2371
-multinpc=14,npc_2371
-multinpc=15,npc_2371
-multinpc=16,npc_2371
-multinpc=17,npc_2371
+multinpc=7,mourner_hideout_gnome_head
+multinpc=8,mourner_hideout_gnome_head
+multinpc=9,mourner_hideout_gnome_head
+multinpc=10,mourner_hideout_gnome_head
+multinpc=11,mourner_hideout_gnome_head
+multinpc=12,mourner_hideout_gnome_head
+multinpc=13,mourner_hideout_gnome_head
+multinpc=14,mourner_hideout_gnome_head
+multinpc=15,mourner_hideout_gnome_head
+multinpc=16,mourner_hideout_gnome_head
+multinpc=17,mourner_hideout_gnome_head
 
-[npc_2371]
+[mourner_hideout_gnome_head]
 name=Gnome
 desc=A fearful Gnome.
 model1=npc_2371
@@ -47807,13 +47807,13 @@ recol3s=13728
 recol3d=11623
 recol4s=352
 recol4d=9638
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
-[npc_2372]
+[headmourner_vis]
 name=Head mourner
 desc=A Mourner showing his true identity.
 model1=npc_2372
@@ -47835,7 +47835,7 @@ op1=Talk-to
 head1=npc_2352_head
 head2=idk_man_jaw_moustache_head
 
-[npc_2373]
+[mourner1_vis]
 name=Mourner
 desc=A Mourner, or plague healer.
 model1=obj_gasmask_manwear
@@ -47856,7 +47856,7 @@ op2=Attack
 vislevel=108
 head1=obj_gasmask_manhead
 
-[npc_2374]
+[mournertwa_vis]
 name=Mourner
 desc=A Mourner, or plague healer.
 model1=obj_gasmask_manwear
@@ -47876,14 +47876,14 @@ walkanim=human_halberdwalk_f,human_halberdwalk_b,human_halberdwalk_l,human_halbe
 readyanim=human_staffready
 head1=obj_gasmask_manhead
 
-[npc_2375]
+[roving_female_woodelf_temp]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=mourning_can_see_eluned
-multinpc=1,npc_2376
+multinpc=1,roving_female_woodelf_temp_1
 
-[npc_2376]
+[roving_female_woodelf_temp_1]
 name=Eluned
 desc=Wow - the prettiest Elf I have ever seen.
 model1=npc_1679
@@ -47964,119 +47964,119 @@ walkanim=sheep_walk
 readyanim=sheep_ready
 alwaysontop=yes
 
-[npc_2381]
+[secret_ghost1]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2399
+multinpc=1,secret_ghost_explorer
 
-[npc_2382]
+[secret_ghost2]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2397
+multinpc=1,secret_ghost_thief
 
-[npc_2383]
+[secret_ghost3]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2397
+multinpc=1,secret_ghost_thief
 
-[npc_2384]
+[secret_ghost4]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2397
+multinpc=1,secret_ghost_thief
 
-[npc_2385]
+[secret_ghost5]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2398
+multinpc=1,secret_ghost_mage
 
-[npc_2386]
+[secret_ghost6]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2398
+multinpc=1,secret_ghost_mage
 
-[npc_2387]
+[secret_ghost7]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2398
+multinpc=1,secret_ghost_mage
 
-[npc_2388]
+[secret_ghost8]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2400
+multinpc=1,secret_ghost_messenger
 
-[npc_2389]
+[secret_ghost9]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2400
+multinpc=1,secret_ghost_messenger
 
-[npc_2390]
+[secret_ghost10]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2400
+multinpc=1,secret_ghost_messenger
 
-[npc_2391]
+[secret_ghost11]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2401
+multinpc=1,secret_ghost_spy
 
-[npc_2392]
+[secret_ghost12]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2401
+multinpc=1,secret_ghost_spy
 
-[npc_2393]
+[secret_ghost13]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2401
+multinpc=1,secret_ghost_spy
 
-[npc_2394]
+[secret_ghost14]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2402
+multinpc=1,secret_ghost_swordsman
 
-[npc_2395]
+[secret_ghost15]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2402
+multinpc=1,secret_ghost_swordsman
 
-[npc_2396]
+[secret_ghost16]
 walkanim=human_secret_ghost_transwalk_f
 readyanim=human_secret_ghost_transready
 vislevel=1
 multivar=fd_ladder_present
-multinpc=1,npc_2402
+multinpc=1,secret_ghost_swordsman
 
-[npc_2397]
+[secret_ghost_thief]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=obj_roguesden_helm_manwear
@@ -48102,7 +48102,7 @@ vislevel=hide
 minimap=no
 head1=npc_2397_head
 
-[npc_2398]
+[secret_ghost_mage]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=obj_bluewizhat_manwear
@@ -48131,7 +48131,7 @@ minimap=no
 head1=npc_2398_head
 head2=npc_2398_headi2
 
-[npc_2399]
+[secret_ghost_explorer]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=npc_1918
@@ -48166,7 +48166,7 @@ head1=npc_2398_head
 head2=npc_2399_head
 head3=npc_2399_headi2
 
-[npc_2400]
+[secret_ghost_messenger]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=obj_feud_desert_disguise_manwear
@@ -48196,7 +48196,7 @@ vislevel=hide
 minimap=no
 head1=npc_2398_head
 
-[npc_2401]
+[secret_ghost_spy]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=obj_roguesden_helm_womanwear
@@ -48224,7 +48224,7 @@ vislevel=hide
 minimap=no
 head1=npc_2401_head
 
-[npc_2402]
+[secret_ghost_swordsman]
 name=Mysterious ghost
 desc=Seems to flitter in and out of existence...
 model1=obj_feud_desert_disguise_manwear
@@ -48283,22 +48283,22 @@ multivar=giantdwarf_red_axe_gone
 multinpc=0,dwarf_city_evil_cat
 
 [dwarf_city_gnome_emissary_multi]
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 multivar=giantdwarf_red_axe_gone
 multinpc=0,dwarf_city_gnome_emissary
 
 [dwarf_city_gnome_female_emissary_multi]
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 multivar=giantdwarf_red_axe_gone
 multinpc=0,dwarf_city_gnome_female_emissary
 
 [dwarf_city_gnome_male_emissary_multi]
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 multivar=giantdwarf_red_axe_gone
 multinpc=0,dwarf_city_gnome_male_emissary
@@ -48536,8 +48536,8 @@ recol3s=416
 recol3d=19588
 recol4s=11456
 recol4d=15360
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 head1=npc_gnomebanker_head
 
@@ -48555,8 +48555,8 @@ recol3s=416
 recol3d=19588
 recol4s=11456
 recol4d=15360
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -48574,8 +48574,8 @@ recol3s=416
 recol3d=13572
 recol4s=12684
 recol4d=7396
-readyanim=emote_laugh_loop
-walkanim=emote_yes_loop
+readyanim=seq_195
+walkanim=seq_189
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -48945,8 +48945,8 @@ recol4d=12583
 recol5s=14560
 recol5d=8356
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 head2=npc_1295_head
@@ -49731,7 +49731,7 @@ vislevel=1
 multivar=tbwt_main
 multinpc=6,tbwt_tamayu
 
-[npc_2489]
+[tbwcu_village_snake]
 name=Bush Snake
 desc=A slithering serpent that likes to hide in the bush.
 model1=npc_snake
@@ -49740,7 +49740,7 @@ readyanim=snake_ready
 op2=Attack
 vislevel=35
 
-[npc_2490]
+[tbwcu_snakejungle_appear]
 name=Bush Snake
 desc=A slithering serpent that likes to hide in the bush.
 model1=npc_snake
@@ -49762,7 +49762,7 @@ minimap=no
 op2=Attack
 vislevel=44
 
-[npc_2492]
+[tbwcu_spider_appear]
 name=Jungle Spider
 desc=A barely visible deadly jungle spider.
 model1=poh_giantspider_8
@@ -49775,7 +49775,7 @@ op2=Attack
 turnspeed=1024
 vislevel=44
 
-[npc_2493]
+[tbwcu_mosquito_single]
 name=Large mosquito
 desc=A flying blood sucker.
 model1=npc_2493
@@ -49784,7 +49784,7 @@ readyanim=tbw_mosquito_ready
 op2=Attack
 vislevel=13
 
-[npc_2494]
+[tbwcu_mosquito_swarm3]
 name=Mosquito swarm
 desc=A swarm of three highly agile mosquitoes.
 model1=npc_2494
@@ -49793,7 +49793,7 @@ readyanim=tbw_mosquito_ready
 op2=Attack
 vislevel=17
 
-[npc_2495]
+[tbwcu_mosquito_swarm5]
 name=Mosquito swarm
 desc=A swarm of five highly agile mosquitoes.
 model1=npc_2495
@@ -49802,7 +49802,7 @@ readyanim=tbw_mosquito_ready
 op2=Attack
 vislevel=20
 
-[npc_2496]
+[tbwcu_tribesman_instant]
 name=Tribesman
 desc=A vicious warrior.
 model1=npc_tribesman
@@ -49824,7 +49824,7 @@ turnspeed=1024
 vislevel=32
 head1=npc_macro_geni_head
 
-[npc_2497]
+[tbwcu_tribesman]
 name=Tribesman
 desc=A vicious warrior.
 model1=npc_tribesman
@@ -49846,7 +49846,7 @@ op2=Attack
 vislevel=32
 head1=npc_macro_geni_head
 
-[npc_2498]
+[tbwcu_broodoo_poison_instant]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin appears deep green.
 model1=obj_broodoomask_poison_manwear
@@ -49873,7 +49873,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 turnspeed=1024
 vislevel=1
 
-[npc_2499]
+[tbwcu_broodoo_poison]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin appears deep green.
 model1=obj_broodoomask_poison_manwear
@@ -49901,7 +49901,7 @@ op2=Attack
 vislevel=60
 head1=npc_macro_geni_head
 
-[npc_2500]
+[tbwcu_broodoo_disease_instant]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin appears pale yellow.
 model1=obj_broodoomask_poison_manwear
@@ -49928,7 +49928,7 @@ readyanim=tbw_cleanup_tribesmen_surprise
 turnspeed=1024
 vislevel=1
 
-[npc_2501]
+[tbwcu_broodoo_disease]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin appears pale yellow.
 model1=obj_broodoomask_poison_manwear
@@ -49956,7 +49956,7 @@ op2=Attack
 vislevel=60
 head1=npc_macro_geni_head
 
-[npc_2502]
+[tbwcu_broodoo_combat_instant]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin is pale and drawn.
 model1=obj_broodoomask_poison_manwear
@@ -49975,7 +49975,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 turnspeed=1024
 vislevel=1
 
-[npc_2503]
+[tbwcu_broodoo_combat]
 name=Broodoo victim
 desc=An undead victim of some ancient murderous ritual, his skin is pale and drawn.
 model1=obj_broodoomask_poison_manwear
@@ -49994,20 +49994,20 @@ readyanim=tbw_broodoo_dance
 op2=Attack
 vislevel=60
 
-[npc_2504]
+[tbwcu_sharimika_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=chat_sharimika
-multinpc=1,npc_2505
-multinpc=2,npc_2506
-multinpc=3,npc_2506
-multinpc=4,npc_2506
-multinpc=5,npc_2506
-multinpc=6,npc_2506
-multinpc=7,npc_2506
+multinpc=1,tbwcu_sharimika
+multinpc=2,tbwcu_sharimika_nosticks
+multinpc=3,tbwcu_sharimika_nosticks
+multinpc=4,tbwcu_sharimika_nosticks
+multinpc=5,tbwcu_sharimika_nosticks
+multinpc=6,tbwcu_sharimika_nosticks
+multinpc=7,tbwcu_sharimika_nosticks
 
-[npc_2505]
+[tbwcu_sharimika]
 name=Sharimika
 desc=A native of Tai Bwo Wannai.
 model1=idk_man_hair_dreadlocks
@@ -50031,7 +50031,7 @@ head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_goatee_head
 head3=obj_tbw_villager_hat_cream_manhead
 
-[npc_2506]
+[tbwcu_sharimika_nosticks]
 name=Sharimika
 desc=A native of Tai Bwo Wannai.
 model1=idk_man_hair_dreadlocks
@@ -50054,20 +50054,20 @@ head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_goatee_head
 head3=obj_tbw_villager_hat_cream_manhead
 
-[npc_2507]
+[tbwcu_mamma_bufetta_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=chat_sharimika
-multinpc=1,npc_2508
-multinpc=2,npc_2509
-multinpc=3,npc_2509
-multinpc=4,npc_2509
-multinpc=5,npc_2509
-multinpc=6,npc_2509
-multinpc=7,npc_2509
+multinpc=1,tbwcu_mamma_bufetta
+multinpc=2,tbwcu_mamma_bufetta_nosticks
+multinpc=3,tbwcu_mamma_bufetta_nosticks
+multinpc=4,tbwcu_mamma_bufetta_nosticks
+multinpc=5,tbwcu_mamma_bufetta_nosticks
+multinpc=6,tbwcu_mamma_bufetta_nosticks
+multinpc=7,tbwcu_mamma_bufetta_nosticks
 
-[npc_2508]
+[tbwcu_mamma_bufetta]
 name=Mamma Bufetta
 desc=A native of Tai Bwo Wannai.
 model1=idk_woman_hair_dreadlocks
@@ -50094,7 +50094,7 @@ vislevel=hide
 op1=Talk-to
 head1=idk_woman_hair_dreadlocks_head
 
-[npc_2509]
+[tbwcu_mamma_bufetta_nosticks]
 name=Mamma Bufetta
 desc=A native of Tai Bwo Wannai.
 model1=idk_woman_hair_dreadlocks
@@ -50120,20 +50120,20 @@ vislevel=hide
 op1=Talk-to
 head1=idk_woman_hair_dreadlocks_head
 
-[npc_2510]
+[tbwcu_layleen_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=chat_layleen
-multinpc=1,npc_2511
-multinpc=2,npc_2512
-multinpc=3,npc_2512
-multinpc=4,npc_2512
-multinpc=5,npc_2512
-multinpc=6,npc_2512
-multinpc=7,npc_2512
+multinpc=1,tbwcu_layleen
+multinpc=2,tbwcu_layleen_nosticks
+multinpc=3,tbwcu_layleen_nosticks
+multinpc=4,tbwcu_layleen_nosticks
+multinpc=5,tbwcu_layleen_nosticks
+multinpc=6,tbwcu_layleen_nosticks
+multinpc=7,tbwcu_layleen_nosticks
 
-[npc_2511]
+[tbwcu_layleen]
 name=Layleen
 desc=A native of Tai Bwo Wannai.
 model1=idk_woman_hair_long
@@ -50156,7 +50156,7 @@ resizeh=116
 resizev=114
 head1=obj_pickpocket_guide_warrior
 
-[npc_2512]
+[tbwcu_layleen_nosticks]
 name=Layleen
 desc=A native of Tai Bwo Wannai.
 model1=idk_woman_hair_long
@@ -50178,20 +50178,20 @@ resizeh=116
 resizev=114
 head1=obj_pickpocket_guide_warrior
 
-[npc_2513]
+[tbwcu_karaday_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=chat_karaday
-multinpc=1,npc_2514
-multinpc=2,npc_2515
-multinpc=3,npc_2515
-multinpc=4,npc_2515
-multinpc=5,npc_2515
-multinpc=6,npc_2515
-multinpc=7,npc_2515
+multinpc=1,tbwcu_karaday
+multinpc=2,tbwcu_karaday_nosticks
+multinpc=3,tbwcu_karaday_nosticks
+multinpc=4,tbwcu_karaday_nosticks
+multinpc=5,tbwcu_karaday_nosticks
+multinpc=6,tbwcu_karaday_nosticks
+multinpc=7,tbwcu_karaday_nosticks
 
-[npc_2514]
+[tbwcu_karaday]
 name=Karaday
 desc=A native of Tai Bwo Wannai.
 model1=obj_feud_desert_disguise_manwear
@@ -50215,7 +50215,7 @@ vislevel=hide
 op1=Talk-to
 head1=obj_leather_cowl_manhead2
 
-[npc_2515]
+[tbwcu_karaday_nosticks]
 name=Karaday
 desc=A native of Tai Bwo Wannai.
 model1=obj_feud_desert_disguise_manwear
@@ -50238,20 +50238,20 @@ vislevel=hide
 op1=Talk-to
 head1=obj_leather_cowl_manhead2
 
-[npc_2516]
+[tbwcu_safta_doc_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 vislevel=1
 multivar=chat_safta
-multinpc=1,npc_2517
-multinpc=2,npc_2518
-multinpc=3,npc_2518
-multinpc=4,npc_2518
-multinpc=5,npc_2518
-multinpc=6,npc_2518
-multinpc=7,npc_2518
+multinpc=1,tbwcu_safta_doc
+multinpc=2,tbwcu_safta_doc_nosticks
+multinpc=3,tbwcu_safta_doc_nosticks
+multinpc=4,tbwcu_safta_doc_nosticks
+multinpc=5,tbwcu_safta_doc_nosticks
+multinpc=6,tbwcu_safta_doc_nosticks
+multinpc=7,tbwcu_safta_doc_nosticks
 
-[npc_2517]
+[tbwcu_safta_doc]
 name=Safta Doc
 desc=A native of Tai Bwo Wannai.
 model1=idk_man_hair_dreadlocks
@@ -50281,7 +50281,7 @@ resizev=130
 head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_long_head
 
-[npc_2518]
+[tbwcu_safta_doc_nosticks]
 name=Safta Doc
 desc=A native of Tai Bwo Wannai.
 model1=idk_man_hair_dreadlocks
@@ -50310,20 +50310,20 @@ resizev=130
 head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_long_head
 
-[npc_2519]
+[tbwcu_gabooty_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=chat_gabooty
-multinpc=1,npc_2520
-multinpc=2,npc_2521
-multinpc=3,npc_2521
-multinpc=4,npc_2521
-multinpc=5,npc_2521
-multinpc=6,npc_2521
-multinpc=7,npc_2521
+multinpc=1,tbwcu_gabooty
+multinpc=2,tbwcu_gabooty_nosticks
+multinpc=3,tbwcu_gabooty_nosticks
+multinpc=4,tbwcu_gabooty_nosticks
+multinpc=5,tbwcu_gabooty_nosticks
+multinpc=6,tbwcu_gabooty_nosticks
+multinpc=7,tbwcu_gabooty_nosticks
 
-[npc_2520]
+[tbwcu_gabooty]
 name=Gabooty
 desc=A native of Tai Bwo Wannai.
 model1=obj_feud_desert_disguise_manwear
@@ -50353,7 +50353,7 @@ resizev=126
 head1=obj_leather_cowl_manhead2
 head2=idk_man_jaw_long_head
 
-[npc_2521]
+[tbwcu_gabooty_nosticks]
 name=Gabooty
 desc=A native of Tai Bwo Wannai.
 model1=obj_feud_desert_disguise_manwear
@@ -51381,7 +51381,7 @@ op1=Talk-to
 head1=npc_2253_head
 head2=npc_2253_headi2
 
-[npc_2568]
+[wom_banker1]
 name=Banker
 desc=He can look after my money.
 model1=obj_viking_helmet_manwear
@@ -51407,7 +51407,7 @@ op1=Talk-to
 op3=Bank
 head1=obj_pickpocket_guide_man
 
-[npc_2569]
+[wom_banker2]
 name=Banker
 desc=Good with money.
 model1=idk_woman_hair_bun
@@ -51431,7 +51431,7 @@ op1=Talk-to
 op3=Bank
 head1=idk_woman_hair_bun_head
 
-[npc_2570]
+[wom_banker3]
 name=Banker
 desc=Good with money.
 model1=idk_woman_hair_bun
@@ -51455,7 +51455,7 @@ op1=Talk-to
 op3=Bank
 head1=idk_woman_hair_bun_head
 
-[npc_2571]
+[wom_marketguard]
 name=Market Guard
 desc=He guards the Draynor Market stalls from thieves.
 model1=npc_knight_of_ardougne2
@@ -51481,7 +51481,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=20
 
-[npc_2572]
+[wom_olivia]
 name=Olivia
 desc=She's a seed merchant.
 model1=idk_woman_hair_medium
@@ -51511,7 +51511,7 @@ vislevel=hide
 head1=idk_woman_hair_medium_head
 head2=npc_lady_pirate_headi2
 
-[npc_2573]
+[wom_watchman]
 name=Watchman
 desc=The strong arm of the law.
 model1=npc_knight_of_ardougne2
@@ -51531,7 +51531,7 @@ op2=Attack
 alwaysontop=yes
 vislevel=253
 
-[npc_2574]
+[wom_bankguard]
 name=Bank guard
 desc=He's guarding the bank.
 model1=obj_viking_helmet_manwear
@@ -51556,7 +51556,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=obj_pickpocket_guide_man
 
-[npc_2575]
+[wom_fakeplayer1]
 name=Purepker895
 desc=A player.
 model1=obj_roguesden_helm_manwear
@@ -51583,7 +51583,7 @@ op3=Walk here
 op4=Follow
 op5=Trade
 
-[npc_2576]
+[wom_fakeplayer2]
 name=Qutiedoll
 desc=A player.
 model1=obj_bunnyears_manwear
@@ -51607,7 +51607,7 @@ op3=Walk here
 op4=Follow
 op5=Trade
 
-[npc_2577]
+[wom_fakeplayer3]
 name=1337sp34kr
 desc=A player.
 model1=idk_man_hair_wildspikes
@@ -51629,7 +51629,7 @@ op3=Walk here
 op4=Follow
 op5=Trade
 
-[npc_2578]
+[wom_fakeplayer4]
 name=Elfinlocks
 desc=A player.
 model1=obj_red_partyhat_womanwear
@@ -51652,7 +51652,7 @@ op3=Walk here
 op4=Follow
 op5=Trade
 
-[npc_2579]
+[wom_fakeplayer5]
 name=Cool Mom227
 desc=A player.
 model1=obj_chefs_hat_womanwear
@@ -51673,7 +51673,7 @@ op4=Follow
 op5=Trade
 vislevel=27
 
-[npc_2580]
+[bernald]
 name=Bernald
 desc=Looks after the Burthorpe vinery.
 model1=npc_drunk1
@@ -51705,7 +51705,7 @@ alwaysontop=yes
 head1=npc_drunk1_head
 head2=idk_man_jaw_long_head
 
-[npc_2581]
+[queen_ellamaria]
 name=Ellamaria
 desc=Queen Ellamaria of Varrock.
 model1=npc_2581
@@ -51736,7 +51736,7 @@ alwaysontop=yes
 head1=obj_pickpocket_guide_warrior
 head2=npc_2581_head
 
-[npc_2582]
+[garden_trolley_saradomin]
 name=Trolley
 desc=This statue of Saradomin has been 'borrowed' for a while.
 model1=obj_garden_trolley_obj
@@ -51759,7 +51759,7 @@ ambient=10
 alwaysontop=yes
 vislevel=hide
 
-[npc_2583]
+[garden_trolley_king]
 name=Trolley
 desc=This statue of a king has been 'borrowed' for a while.
 model1=obj_garden_trolley_obj
@@ -51780,7 +51780,7 @@ ambient=10
 alwaysontop=yes
 vislevel=hide
 
-[npc_2584]
+[garden_trolley_empty]
 name=Trolley
 desc=An empty trolley.
 model1=obj_garden_trolley_obj
@@ -51796,16 +51796,16 @@ ambient=10
 alwaysontop=yes
 vislevel=hide
 
-[npc_2585]
+[garden_trolley]
 walkanim=tranquillity_trolley_move_one_square
 alwaysontop=yes
 vislevel=1
 multivar=garden_trolley_varbit
-multinpc=0,npc_2584
-multinpc=1,npc_2582
-multinpc=2,npc_2583
+multinpc=0,garden_trolley_empty
+multinpc=1,garden_trolley_saradomin
+multinpc=2,garden_trolley_king
 
-[npc_2586]
+[garden_cutscene_guard_1]
 name=Billy, a guard of Falador
 desc=Somebody should have warned him when he signed up.
 model1=npc_guard1
@@ -51833,7 +51833,7 @@ vislevel=hide
 head1=obj_pickpocket_guide_guard
 head2=idk_man_jaw_pointy_head
 
-[npc_2587]
+[garden_cutscene_guard_2]
 name=Bob, another guard of Falador
 desc=Shame his pension's going to waste.
 model1=npc_guard1
@@ -51861,7 +51861,7 @@ vislevel=hide
 head1=obj_pickpocket_guide_guard
 head2=idk_man_jaw_long_head
 
-[npc_2588]
+[brother_althric]
 name=Brother Althric
 desc=A holy man.
 model1=obj_feud_desert_disguise_manwear
@@ -51882,7 +51882,7 @@ alwaysontop=yes
 vislevel=hide
 head1=obj_leather_cowl_manhead2
 
-[npc_2589]
+[garden_cutscene_aggressor]
 name=PKMaster0036
 desc=A master of the wilderness.
 model1=obj_iron_full_helm_manwear
@@ -51906,7 +51906,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=87
 
-[npc_2590]
+[king_roald_cutscene]
 name=King Roald
 desc=Varrock's resident monarch.
 model1=npc_king_percival
@@ -52089,7 +52089,7 @@ resizev=128
 vislevel=103
 head1=npc_2591_head
 
-[npc_2598]
+[tzhaar_hur1]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52110,7 +52110,7 @@ resizev=120
 vislevel=74
 head1=npc_2591_head
 
-[npc_2599]
+[tzhaar_hur2]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52131,7 +52131,7 @@ resizev=118
 vislevel=74
 head1=npc_2591_head
 
-[npc_2600]
+[tzhaar_hur3]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52154,7 +52154,7 @@ resizev=135
 vislevel=74
 head1=npc_2591_head
 
-[npc_2601]
+[tzhaar_hur4]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52175,7 +52175,7 @@ resizev=115
 vislevel=74
 head1=npc_2591_head
 
-[npc_2602]
+[tzhaar_hur5]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52196,7 +52196,7 @@ resizev=122
 vislevel=74
 head1=npc_2591_head
 
-[npc_2603]
+[tzhaar_hur6]
 name=TzHaar-Hur
 desc=Looks like a craftsman of some kind.
 model1=npc_2591
@@ -52217,7 +52217,7 @@ resizev=110
 vislevel=74
 head1=npc_2591_head
 
-[npc_2604]
+[tzhaar_xil1]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52240,7 +52240,7 @@ resizev=120
 vislevel=133
 head1=npc_2591_head
 
-[npc_2605]
+[tzhaar_xil2]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52263,7 +52263,7 @@ resizev=118
 vislevel=133
 head1=npc_2591_head
 
-[npc_2606]
+[tzhaar_xil3]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52287,7 +52287,7 @@ resizev=135
 vislevel=133
 head1=npc_2591_head
 
-[npc_2607]
+[tzhaar_xil4]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52309,7 +52309,7 @@ resizev=115
 vislevel=133
 head1=npc_2591_head
 
-[npc_2608]
+[tzhaar_xil5]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52332,7 +52332,7 @@ resizev=122
 vislevel=133
 head1=npc_2591_head
 
-[npc_2609]
+[tzhaar_xil6]
 name=TzHaar-Xil
 desc=Doesn't look very social.
 model1=npc_2591
@@ -52354,7 +52354,7 @@ resizev=110
 vislevel=133
 head1=npc_2591_head
 
-[npc_2610]
+[tzhaar_ket1]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52373,7 +52373,7 @@ resizev=156
 vislevel=149
 head1=npc_2591_head
 
-[npc_2611]
+[tzhaar_ket2]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52394,7 +52394,7 @@ resizev=140
 vislevel=149
 head1=npc_2591_head
 
-[npc_2612]
+[tzhaar_ket3]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52417,7 +52417,7 @@ resizev=135
 vislevel=149
 head1=npc_2591_head
 
-[npc_2613]
+[tzhaar_ket4]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52436,7 +52436,7 @@ resizev=165
 vislevel=149
 head1=npc_2591_head
 
-[npc_2614]
+[tzhaar_ket5]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52459,7 +52459,7 @@ resizev=145
 vislevel=149
 head1=npc_2591_head
 
-[npc_2615]
+[tzhaar_ket6]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52477,7 +52477,7 @@ resizev=140
 vislevel=149
 head1=npc_2591_head
 
-[npc_2616]
+[tzhaar_ket7]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52500,7 +52500,7 @@ resizev=143
 vislevel=149
 head1=npc_2591_head
 
-[npc_2617]
+[tzhaar_fightcave_master]
 name=TzHaar-Mej-Jal
 desc=Another one of those mystic-types.
 model1=npc_2591
@@ -52522,7 +52522,7 @@ resizeh=132
 resizev=128
 head1=npc_2591_head
 
-[npc_2618]
+[tzhaar_fightpit_master]
 name=TzHaar-Mej-Kah
 desc=Another one of those mystic-types.
 model1=npc_2591
@@ -52544,7 +52544,7 @@ resizeh=120
 resizev=128
 head1=npc_2591_head
 
-[npc_2619]
+[tzhaar_banker1]
 name=TzHaar-Ket-Zuh
 desc=Maybe it'll guard my possessions.
 model1=npc_2610
@@ -52563,7 +52563,7 @@ resizeh=140
 resizev=140
 head1=npc_2591_head
 
-[npc_2620]
+[tzhaar_merchant_equipment]
 name=TzHaar-Hur-Tel
 desc=Wonder what it's making.
 model1=npc_2591
@@ -52607,7 +52607,7 @@ resizeh=115
 resizev=115
 head1=npc_2591_head
 
-[npc_2622]
+[tzhaar_merchant_oreandgem]
 name=TzHaar-Hur-Lek
 desc=Wonder what it's making.
 model1=npc_2591
@@ -52629,7 +52629,7 @@ resizeh=110
 resizev=110
 head1=npc_2591_head
 
-[npc_2623]
+[tzhaar_merchant_rune]
 name=TzHaar-Mej-Roh
 desc=Another one of those mystic-types.
 model1=npc_2591
@@ -52651,7 +52651,7 @@ resizeh=120
 resizev=115
 head1=npc_2591_head
 
-[npc_2624]
+[tzhaar_guard_spawningpool]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52674,7 +52674,7 @@ resizeh=135
 resizev=135
 head1=npc_2591_head
 
-[npc_2625]
+[tzhaar_guard_border]
 name=TzHaar-Ket
 desc=Must be a guard or something.
 model1=npc_2610
@@ -52693,14 +52693,14 @@ resizeh=165
 resizev=165
 head1=npc_2591_head
 
-[npc_2626]
+[tzhaar_morph_rock]
 name=Rocks
 desc=Stoney!
 model1=rock1_8
 minimap=no
 vislevel=1
 
-[npc_2627]
+[tzhaar_fightpit_swarm_1a]
 name=Tz-Kih
 desc=Some kind of bat...
 model1=npc_2627
@@ -52711,7 +52711,7 @@ ambient=60
 contrast=60
 vislevel=22
 
-[npc_2628]
+[tzhaar_fightpit_swarm_1b]
 name=Tz-Kih
 desc=Some kind of bat...
 model1=npc_2627
@@ -52722,7 +52722,7 @@ ambient=60
 contrast=60
 vislevel=22
 
-[npc_2629]
+[tzhaar_fightpit_swarm_2a]
 name=Tz-Kek
 desc=Looks like living lava...
 model1=npc_2629
@@ -52734,7 +52734,7 @@ ambient=40
 contrast=40
 vislevel=45
 
-[npc_2630]
+[tzhaar_fightpit_swarm_2b]
 name=Tz-Kek
 desc=Looks like living lava...
 model1=npc_2629
@@ -52758,7 +52758,7 @@ ambient=40
 contrast=40
 vislevel=45
 
-[npc_2631]
+[tzhaar_fightpit_swarm_3a]
 name=Tok-Xil
 desc=I don't like the look of those spines...
 model1=poh_tok_xil_8
@@ -52773,7 +52773,7 @@ ambient=60
 contrast=60
 vislevel=90
 
-[npc_2632]
+[tzhaar_fightpit_swarm_3b]
 name=Tok-Xil
 desc=I don't like the look of those spines...
 model1=poh_tok_xil_8
@@ -53141,8 +53141,8 @@ recol3d=8518
 recol4s=24075
 recol4d=18758
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
 
@@ -53161,7 +53161,7 @@ recol3d=15717
 recol4s=32767
 recol4d=14790
 vislevel=hide
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=emote_beckon_loop
 op1=Talk-to
 head1=obj_pickpocket_guide_gnome
@@ -55848,8 +55848,8 @@ model2=npc_gnomekingsguard
 model3=npc_leprechauni3
 recol1s=352
 recol1d=20516
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 vislevel=hide
 head1=obj_pickpocket_guide_gnome
 
@@ -56269,8 +56269,8 @@ recol3d=7331
 recol4s=32767
 recol4d=29494
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2802_head
 
@@ -58115,8 +58115,8 @@ recol5d=0
 recol6s=6273
 recol6d=0
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -58141,8 +58141,8 @@ recol6d=18660
 vislevel=hide
 resizeh=120
 resizev=120
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -58167,8 +58167,8 @@ recol6d=25251
 vislevel=hide
 resizeh=116
 resizev=116
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -58189,8 +58189,8 @@ recol4d=17889
 vislevel=hide
 resizeh=120
 resizev=120
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2875_head
 
@@ -58213,8 +58213,8 @@ recol5d=2144
 vislevel=hide
 resizeh=115
 resizev=115
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2875_head
 
@@ -58237,8 +58237,8 @@ recol5d=17932
 vislevel=hide
 resizeh=119
 resizev=119
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2875_head
 
@@ -60962,7 +60962,7 @@ head3=idk_man_jaw_short_head
 name=Tool Leprechaun
 desc=Looks after your farming tools.
 model1=npc_3021
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=farming_tools_leprechaun_ready
 vislevel=hide
 op1=Talk-to
@@ -61755,7 +61755,7 @@ model3=npc_3053i3
 model4=npc_3053i4
 vislevel=hide
 size=2
-walkanim=emote_yes_loop
+walkanim=seq_189
 readyanim=gnome_throne_sit
 head1=npc_3053_head
 
@@ -67042,7 +67042,7 @@ multinpc=0,ernest_the_chicken
 multinpc=1,ernest_the_chicken
 multinpc=2,ernest_the_chicken
 
-[npc_3291]
+[draynor_skeleton]
 name=Skeleton
 desc=Could do with gaining a few pounds.
 model1=npc_dragonslayer_skeleton
@@ -67104,7 +67104,7 @@ vislevel=hide
 walkanim=draynor_possesed_chair
 active=no
 
-[mguild_dwarf1]
+[mguild_guard1]
 name=Dwarf
 desc=A dwarf who looks after the mining guild.
 model1=npc_nulodion
@@ -67130,7 +67130,7 @@ readyanim=dwarf_ready
 op1=Talk-to
 head1=npc_nulodion_head
 
-[mguild_dwarf2]
+[mguild_guard2]
 name=Dwarf
 desc=A dwarf who looks after the mining guild.
 model1=npc_macro_dwarf
@@ -67890,7 +67890,7 @@ resizev=118
 alwaysontop=yes
 vislevel=230
 
-[npc_3341]
+[mole_baby_01]
 name=Baby Mole
 desc=I will call him, Mini Mole.
 model1=npc_3341
@@ -67911,7 +67911,7 @@ readyanim=mole_ready
 walkanim=mole_walk
 minimap=no
 
-[npc_3342]
+[mole_baby_02]
 name=Baby Mole
 desc=Mooooooooooooole.
 model1=npc_3341
@@ -67934,7 +67934,7 @@ resizeh=118
 resizev=118
 minimap=no
 
-[npc_3343]
+[mole_baby_03]
 name=Baby Mole
 desc=Moley, moley, moley!
 model1=npc_3341
@@ -67969,7 +67969,7 @@ op1=Pick
 op3=Hidden
 vislevel=74
 
-[npc_3345]
+[slayer_mutated_zygomite_adult]
 name=Fungi
 desc=A fun guy. No wait, that's awful. Plus it doesn't even make sense.
 model1=npc_3344
@@ -68022,7 +68022,7 @@ ambient=10
 contrast=10
 vislevel=86
 
-[npc_3348]
+[white_knight_yellow_plumes_f]
 name=White Knight
 desc=A White Knight proselyte.
 model1=npc_white_knight
@@ -68049,7 +68049,7 @@ readyanim=human_dh_weapon_ready
 op2=Attack
 vislevel=38
 
-[npc_3349]
+[white_knight_green_plumes_f]
 name=White Knight
 desc=A White Knight acolyte.
 model1=npc_white_knight
@@ -68076,7 +68076,7 @@ readyanim=human_dh_weapon_ready
 op2=Attack
 vislevel=39
 
-[npc_3350]
+[white_knight_blue_plumes_f]
 name=White Knight
 desc=A White Knight partisan.
 model1=npc_white_knight
@@ -68584,7 +68584,7 @@ op2=Attack
 alwaysontop=yes
 vislevel=159
 
-[npc_3372]
+[hundred_varze]
 name=Sir Amik Varze
 desc=Leader of the White Knights.
 model1=obj_viking_helmet_manwear
@@ -68617,13 +68617,13 @@ head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_goatee_head
 head3=obj_headband_red_manhead
 
-[npc_3373]
+[hundred_varze_frozen]
 vislevel=1
 multivar=100amikvisible
-multinpc=1,npc_3374
-multinpc=2,npc_3372
+multinpc=1,hundred_varze_frozen_base
+multinpc=2,hundred_varze
 
-[npc_3374]
+[hundred_varze_frozen_base]
 name=Sir Amik Varze
 desc=Leader of the White Knights.
 model1=obj_viking_helmet_manwear
@@ -68656,7 +68656,7 @@ head1=obj_pickpocket_guide_man
 head2=idk_man_jaw_goatee_head
 head3=obj_headband_red_manhead
 
-[npc_3375]
+[chickenquest_evil_chicken]
 name=Evil Chicken
 desc=A fowl beast.
 model1=rd_chicken_normal_8
@@ -68668,7 +68668,7 @@ op2=Attack
 alwaysontop=yes
 vislevel=159
 
-[npc_3376]
+[chickenquest_baby_black_dragon]
 name=Baby black dragon
 desc=Young but still dangerous.
 model1=poh_babyreddragon_8
@@ -68684,7 +68684,7 @@ readyanim=bdrag_ready
 op2=Attack
 vislevel=83
 
-[npc_3377]
+[chickenquest_fairy_dragon]
 name=K'klik
 desc=Could this be one of the Elder dragons?
 model1=npc_3377
@@ -68694,7 +68694,7 @@ vislevel=hide
 readyanim=fairy_dragon_flame
 head1=npc_3377_head
 
-[npc_3378]
+[hundred_evil_dave]
 name=Evil Dave
 desc=He seems to like wearing black.
 model1=npc_2906
@@ -68720,16 +68720,16 @@ head1=obj_pickpocket_guide_man
 head2=npc_2906_head
 head3=idk_man_jaw_pointy_head
 
-[npc_3379]
+[hundred_dave_frozen]
 vislevel=1
 multivar=100davevisible
-multinpc=0,npc_3380
-multinpc=1,npc_3380
-multinpc=2,npc_3380
-multinpc=3,npc_3380
-multinpc=4,npc_3380
+multinpc=0,hundred_dave_frozen_base
+multinpc=1,hundred_dave_frozen_base
+multinpc=2,hundred_dave_frozen_base
+multinpc=3,hundred_dave_frozen_base
+multinpc=4,hundred_dave_frozen_base
 
-[npc_3380]
+[hundred_dave_frozen_base]
 name=Evil Dave
 desc=He seems to like wearing black.
 model1=npc_2906
@@ -68750,7 +68750,7 @@ head1=obj_pickpocket_guide_man
 head2=npc_2906_head
 head3=idk_man_jaw_pointy_head
 
-[npc_3381]
+[hundred_dave_mum]
 name=Doris
 desc=One of RuneScape's many citizens.
 model1=idk_woman_hair_cropped
@@ -68856,7 +68856,7 @@ vislevel=hide
 alwaysontop=yes
 head1=obj_pirate_bandanna_womanhead
 
-[npc_3387]
+[culinaromancer_froze]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70459,7 +70459,7 @@ walkanim=seagull_attack
 readyanim=seagull_attack
 op4=Pluck
 
-[npc_3478]
+[hundred_monkey]
 name=King Awowogei
 desc=A rather dapper little monkey.
 model1=npc_1448
@@ -70470,13 +70470,13 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1448_head
 
-[npc_3479]
+[hundred_monkey_frozen]
 vislevel=1
 multivar=100monkeyvisible
-multinpc=1,npc_3480
-multinpc=2,npc_3478
+multinpc=1,hundred_monkey_frozen_base
+multinpc=2,hundred_monkey
 
-[npc_3480]
+[hundred_monkey_frozen_base]
 name=King Awowogei
 desc=He's looking a bit static.
 model1=npc_1448
@@ -70488,7 +70488,7 @@ op1=Inspect
 vislevel=hide
 head1=npc_1448_head
 
-[npc_3481]
+[hundred_ilm_mizaru]
 name=Mizaru
 desc=He sees no evil.
 model1=npc_3481
@@ -70501,7 +70501,7 @@ turnspeed=0
 head1=npc_3481_head
 head2=npc_3481_headi2
 
-[npc_3482]
+[hundred_ilm_kikazaru]
 name=Kikazaru
 desc=He hears no evil.
 model1=npc_3481
@@ -70514,7 +70514,7 @@ turnspeed=0
 head1=npc_3481_head
 head2=npc_3482_head
 
-[npc_3483]
+[hundred_ilm_iwazaru]
 name=Iwazaru
 desc=He speaks no evil.
 model1=npc_3481
@@ -70527,7 +70527,7 @@ turnspeed=0
 head1=npc_3481_head
 head2=npc_3483_head
 
-[npc_3484]
+[hundred_ilm_snake]
 name=Big Snake
 desc=A big snake.
 model1=npc_3484
@@ -70541,7 +70541,7 @@ walkanim=royal_sea_snake_walk_baby
 op2=Attack
 vislevel=84
 
-[npc_3485]
+[hundred_culinaromancer_book5]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70572,7 +70572,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3486]
+[hundred_culinaromancer_book4]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70604,7 +70604,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3487]
+[hundred_culinaromancer_book3]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70636,7 +70636,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3488]
+[hundred_culinaromancer_book2]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70668,7 +70668,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3489]
+[hundred_culinaromancer_book1]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70700,7 +70700,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3490]
+[hundred_culinaromancer_end]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70732,7 +70732,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3491]
+[hundred_culinaromancer_final]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70765,7 +70765,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3492]
+[hundred_culinaromancer_dead]
 name=Culinaromancer
 desc=A demented evil wizard who specialises in food spells.
 model1=npc_3387
@@ -70798,7 +70798,7 @@ head2=obj_pickpocket_guide_man
 head3=npc_master_fisher_head
 head4=npc_1901_headi2
 
-[npc_3493]
+[hundred_minion1]
 name=Agrith-Na-Na
 desc=Big, scary, angry and a good source of energy.
 model1=npc_3493
@@ -70808,7 +70808,7 @@ readyanim=agrith_nana_ready
 op2=Attack
 vislevel=146
 
-[npc_3494]
+[hundred_minion2]
 name=Flambeed
 desc=Will give you a beating as well as indigestion.
 model1=npc_3494
@@ -70822,7 +70822,7 @@ readyanim=rock_ready
 op2=Attack
 vislevel=149
 
-[npc_3495]
+[hundred_minion3]
 name=Karamel
 desc=Pure evil lightly whipped with a juicy cherry on top.
 model1=npc_3495
@@ -70834,7 +70834,7 @@ contrast=50
 alwaysontop=yes
 vislevel=136
 
-[npc_3496]
+[hundred_minion4]
 name=Dessourt
 desc=Bad for your teeth...and the rest of your body too.
 model1=npc_3496
@@ -70843,7 +70843,7 @@ readyanim=dessourt_ready
 op2=Attack
 vislevel=121
 
-[npc_3497]
+[hundred_minion5_air]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -70855,7 +70855,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=130
 
-[npc_3498]
+[hundred_minion5_melee]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -70867,7 +70867,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=130
 
-[npc_3499]
+[hundred_minion5_water]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -70879,7 +70879,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=130
 
-[npc_3500]
+[hundred_minion5_fire]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -70889,7 +70889,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=130
 
-[npc_3501]
+[hundred_minion5_ranged]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -70901,7 +70901,7 @@ readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=130
 
-[npc_3502]
+[hundred_minion5_earth]
 name=Gelatinnoth Mother
 desc=Deadly AND fruity!
 model1=npc_3497
@@ -71005,7 +71005,7 @@ resizev=70
 ambient=40
 head1=npc_3507_head
 
-[npc_3508]
+[macro_gravedigger]
 name=Leo
 desc=A lazy undertaker.
 model1=npc_drunk1
@@ -71031,7 +71031,7 @@ head1=npc_drunk1_head
 head2=npc_3508_head
 head3=npc_harlow_head
 
-[npc_3509]
+[burgh_villager_0_blood_tithe]
 name=Sorin
 desc=A flea infested, pale looking excuse of a man.
 model1=npc_chemist
@@ -71060,15 +71060,15 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 head1=npc_chemist_head
 
-[npc_3510]
+[burgh_villager_tithe_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=blood_tithe_visible
-multinpc=1,npc_3511
-multinpc=2,npc_3539
+multinpc=1,burgh_villager_blood_tithe
+multinpc=2,burgh_rescue_veliaf_hurtz_talk
 
-[npc_3511]
+[burgh_villager_blood_tithe]
 name=Wiskit
 desc=A flea infested, pale looking excuse of a man.
 model1=npc_chemist
@@ -71097,21 +71097,21 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 head1=npc_chemist_head
 
-[npc_3512]
+[burgh_juve1_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=blood_tithe_visible
-multinpc=1,npc_3514
+multinpc=1,burgh_vampire_juve1_blood_tithe
 
-[npc_3513]
+[burgh_juve2_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=blood_tithe_visible
-multinpc=1,npc_3515
+multinpc=1,burgh_vampire_juve2_blood_tithe
 
-[npc_3514]
+[burgh_vampire_juve1_blood_tithe]
 name=Vampyre Juvinate
 desc=An initiate juvenile vampire.
 model1=npc_3514
@@ -71127,7 +71127,7 @@ resizeh=143
 resizev=140
 head1=npc_3514_head
 
-[npc_3515]
+[burgh_vampire_juve2_blood_tithe]
 name=Vampyre Juvinate
 desc=An initiate juvenile vampire.
 model1=npc_3514
@@ -71153,14 +71153,14 @@ resizeh=132
 resizev=130
 head1=npc_3514_head
 
-[npc_3516]
+[burgh_gadderanks_multinpc]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=blood_tithe_visible
-multinpc=1,npc_3517
+multinpc=1,burgh_gadderanks
 
-[npc_3517]
+[burgh_gadderanks]
 name=Gadderanks
 desc=A human suppporter of the Vampyric overlords.
 model1=npc_drunk1
@@ -71183,7 +71183,7 @@ readyanim=barrow_dharok_ready
 head1=npc_drunk1_head
 head2=idk_man_jaw_short_head
 
-[npc_3518]
+[burgh_gadderanks_attackable]
 name=Gadderanks
 desc=A human suppporter of the Vampyric overlords.
 model1=npc_drunk1
@@ -71207,7 +71207,7 @@ vislevel=35
 head1=npc_drunk1_head
 head2=idk_man_jaw_short_head
 
-[npc_3519]
+[burgh_gadderanks_wounded]
 name=Gadderanks
 desc=A human suppporter of the Vampyric overlords.
 model1=npc_drunk1
@@ -71231,7 +71231,7 @@ turnspeed=0
 head1=npc_drunk1_head
 head2=idk_man_jaw_short_head
 
-[npc_3520]
+[burgh_vampire_juve_1_attackable]
 name=Vampyre Juvinate
 desc=An initiate juvenile vampire.
 model1=npc_3514
@@ -71249,7 +71249,7 @@ readyanim=human_ready
 vislevel=50
 head1=npc_3514_head
 
-[npc_3521]
+[burgh_vampire_juve_2_attackable]
 name=Vampyre Juvinate
 desc=An initiate juvenile vampire.
 model1=npc_3514
@@ -71679,7 +71679,7 @@ readyanim=human_ready
 vislevel=50
 head1=npc_3514_head
 
-[npc_3539]
+[burgh_rescue_veliaf_hurtz_talk]
 name=Veliaf Hurtz
 desc=Looks like the leader of the Myreque.
 model1=idk_man_hair_dreadlocks
@@ -72070,8 +72070,8 @@ recol6s=6273
 recol6d=2146
 vislevel=hide
 resizeh=109
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2875_head
 
@@ -72093,8 +72093,8 @@ recol5s=416
 recol5d=8417
 vislevel=hide
 resizeh=109
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -72119,8 +72119,8 @@ recol6d=23250
 vislevel=hide
 resizeh=126
 resizev=123
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_hudon_waterfall_quest_head
 
@@ -72145,8 +72145,8 @@ recol6d=23250
 vislevel=hide
 resizeh=107
 resizev=107
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 head1=npc_2875_head
 
@@ -72545,7 +72545,7 @@ head2=idk_man_jaw_pointy_head
 head3=npc_2796_head
 head4=npc_3000_head
 
-[npc_3570]
+[burgh_turned_vampyre_male_ben]
 name=Benjamin
 desc=A human returned from vampyric form.
 model1=npc_chemist
@@ -72574,7 +72574,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 head1=npc_chemist_head
 
-[npc_3571]
+[burgh_turned_vampyre_male_liam]
 name=Liam
 desc=A human returned from vampyric form.
 model1=idk_man_hair_dreadlocks
@@ -72601,7 +72601,7 @@ head1=idk_man_hair_dreadlocks_head
 head2=idk_man_jaw_long_head
 head3=npc_2796_head
 
-[npc_3572]
+[burgh_turned_vampyre_male_miala]
 name=Miala
 desc=A human returned from vampyric form.
 model1=idk_man_hair_long
@@ -72632,7 +72632,7 @@ head1=idk_man_hair_long_head
 head2=idk_man_jaw_long_head
 head3=npc_2796_head
 
-[npc_3573]
+[burgh_turned_vampyre_male_verak]
 name=Verak
 desc=A human returned from vampyric form.
 model1=idk_man_hair_medium
@@ -72665,7 +72665,7 @@ head1=obj_pickpocket_guide_farmer
 head2=idk_man_jaw_pointy_head
 head3=npc_2796_head
 
-[npc_3574]
+[0_54_49_memberfish]
 name=Fishing spot
 desc=I can see fish swimming in the water.
 model1=compofishspot_8
@@ -72678,7 +72678,7 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 
-[npc_3575]
+[0_55_49_memberfish]
 name=Fishing spot
 desc=I can see fish swimming in the water.
 model1=compofishspot_8
@@ -72780,7 +72780,7 @@ ambient=5
 vislevel=119
 head1=npc_3514_head
 
-[npc_3579]
+[sheep_shearer_the_thing]
 name=Sheep
 desc=A Sheep?
 model1=npc_3579
@@ -73062,7 +73062,7 @@ resizeh=60
 resizev=60
 ambient=40
 
-[npc_3599]
+[templetrek_snake_1]
 name=Swamp snake
 desc=A large snake that thrives in swamps.
 model1=npc_3599
@@ -73082,7 +73082,7 @@ readyanim=royal_sea_snake_ready
 walkanim=royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby
 vislevel=80
 
-[npc_3600]
+[templetrek_snake_2]
 name=Swamp snake
 desc=A large snake that thrives in swamps.
 model1=npc_3599
@@ -73108,7 +73108,7 @@ readyanim=royal_sea_snake_ready
 walkanim=royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby
 vislevel=109
 
-[npc_3601]
+[templetrek_snake_3]
 name=Swamp snake
 desc=A large snake that thrives in swamps.
 model1=npc_3599
@@ -73134,7 +73134,7 @@ readyanim=royal_sea_snake_ready
 walkanim=royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby,royal_sea_snake_walk_baby
 vislevel=139
 
-[npc_3602]
+[templetrek_snake_dead]
 name=Swamp snake
 desc=A dead snake, it thrived in the swamp until it met you.
 model1=npc_3599
@@ -73154,7 +73154,7 @@ ambient=10
 readyanim=royal_sea_snake_ready
 walkanim=royal_sea_snake_walk_baby
 
-[npc_3603]
+[templetrek_snake_1_dead]
 name=Dead swamp snake
 desc=A dead snake, it thrived in the swamp until it met you.
 model1=npc_3599
@@ -73173,7 +73173,7 @@ resizev=97
 ambient=10
 readyanim=templetrek_swamp_snake_dead
 
-[npc_3604]
+[templetrek_snake_2_dead]
 name=Dead swamp snake
 desc=A dead snake, it thrived in the swamp until it met you.
 model1=npc_3599
@@ -73198,7 +73198,7 @@ resizev=129
 ambient=10
 readyanim=templetrek_swamp_snake_dead
 
-[npc_3605]
+[templetrek_snake_3_dead]
 name=Dead swamp snake
 desc=A dead snake, it thrived in the swamp until it met you.
 model1=npc_3599
@@ -73223,7 +73223,7 @@ resizev=161
 ambient=10
 readyanim=templetrek_swamp_snake_dead
 
-[npc_3606]
+[templetrek_ghast_invis_1]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73233,7 +73233,7 @@ size=2
 walkanim=inv_ghast_walk
 readyanim=inv_ghast_ready
 
-[npc_3607]
+[templetrek_ghast_invis_2]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73243,7 +73243,7 @@ size=2
 walkanim=inv_ghast_walk
 readyanim=inv_ghast_ready
 
-[npc_3608]
+[templetrek_ghast_invis_3]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73253,7 +73253,7 @@ size=2
 walkanim=inv_ghast_walk
 readyanim=inv_ghast_ready
 
-[npc_3609]
+[templetrek_ghast_vis_1]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73275,7 +73275,7 @@ walkanim=ghast_walk
 readyanim=ghast_ready
 vislevel=79
 
-[npc_3610]
+[templetrek_ghast_vis_2]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73297,7 +73297,7 @@ walkanim=ghast_walk
 readyanim=ghast_ready
 vislevel=109
 
-[npc_3611]
+[templetrek_ghast_vis_3]
 name=Ghast
 desc=Arrghhh... A Ghast.
 model1=spot_ghast_spotdeath
@@ -73319,7 +73319,7 @@ walkanim=ghast_walk
 readyanim=ghast_ready
 vislevel=139
 
-[npc_3612]
+[templetrek_giantsnail_1]
 name=Giant snail
 desc=Euew.
 model1=npc_3612
@@ -73332,7 +73332,7 @@ readyanim=templetrek_giant_snail_ready
 ambient=15
 vislevel=80
 
-[npc_3613]
+[templetrek_giantsnail_2]
 name=Giant snail
 desc=Euew.
 model1=npc_3612
@@ -73357,7 +73357,7 @@ readyanim=templetrek_giant_snail_ready
 ambient=15
 vislevel=109
 
-[npc_3614]
+[templetrek_giantsnail_3]
 name=Giant snail
 desc=Euew.
 model1=npc_3612
@@ -73382,7 +73382,7 @@ readyanim=templetrek_giant_snail_ready
 ambient=15
 vislevel=139
 
-[npc_3615]
+[templetrek_shade_1]
 name=Riyl shadow
 desc=The shadowy remains of a long departed soul.
 model1=npc_1241
@@ -73397,7 +73397,7 @@ walkanim=shade_walk
 readyanim=shade_ready
 vislevel=80
 
-[npc_3616]
+[templetrek_shade_2]
 name=Asyn shadow
 desc=The shadowy remains of a long departed soul.
 model1=npc_1241
@@ -73412,7 +73412,7 @@ walkanim=shade_walk
 readyanim=shade_ready
 vislevel=110
 
-[npc_3617]
+[templetrek_shade_3]
 name=Shade
 desc=The shadowy remains of a long departed soul.
 model1=npc_1241
@@ -73425,7 +73425,7 @@ walkanim=shade_walk
 readyanim=shade_ready
 vislevel=140
 
-[npc_3618]
+[templetrek_tentacle_arm]
 name=Tentacle
 desc=I'm glad I can't see the rest of it!
 model1=npc_3618
@@ -73443,7 +73443,7 @@ readyanim=tentacle_monster_ready
 ambient=15
 vislevel=99
 
-[npc_3619]
+[templetrek_tentacle_head]
 name=Head
 desc=I'm glad I can't see the rest of it!
 model1=npc_3619
@@ -73461,7 +73461,7 @@ readyanim=templetrek_tentacle_head_ready
 ambient=15
 vislevel=140
 
-[npc_3620]
+[templetrek_tentacle_head_spawning]
 name=Head
 desc=I'm glad I can't see the rest of it!
 model1=npc_3619
@@ -73479,7 +73479,7 @@ readyanim=templetrek_tentacle_head_spawning
 ambient=15
 vislevel=140
 
-[npc_3621]
+[templetrek_tentacle_arm_spawning]
 name=Tentacle
 desc=I'm glad I can't see the rest of it!
 model1=npc_3618
@@ -73497,7 +73497,7 @@ readyanim=templetrek_tentacle_spawning
 ambient=15
 vislevel=136
 
-[npc_3622]
+[templetrek_zombie]
 name=Zombie
 desc=I wonder if he'd let me borrow his axe?
 model1=obj_feud_desert_disguise_manwear
@@ -73525,14 +73525,14 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=23
 
-[npc_3623]
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+[templetrek_multi_child_hard]
+walkanim=seq_189
+readyanim=seq_195
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3624
+multinpc=1,templetrek_child_hard
 
-[npc_3624]
+[templetrek_child_hard]
 name=Smiddi Ryak
 desc=Small lonely child.
 model1=npc_3551
@@ -73555,18 +73555,18 @@ vislevel=hide
 op1=Talk-to
 op1=Talk-to
 resizeh=110
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 head1=npc_2875_head
 
-[npc_3625]
+[templetrek_multi_oldman_hard]
 walkanim=walk_walkingstick
 readyanim=human_ready
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3626
+multinpc=1,templetrek_oldman_hard
 
-[npc_3626]
+[templetrek_oldman_hard]
 name=Rolayne Twickit
 desc=Old lonely man.
 model1=npc_drunk1
@@ -73598,14 +73598,14 @@ head1=npc_drunk1_head
 head2=idk_man_jaw_long_head
 head3=npc_3626_head
 
-[npc_3627]
+[templetrek_multi_woman_med]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3628
+multinpc=1,templetrek_woman_med
 
-[npc_3628]
+[templetrek_woman_med]
 name=Jayene Kliyn
 desc=A Burgh de Rott female militia volunteer.
 model1=npc_2946
@@ -73634,14 +73634,14 @@ readyanim=human_ready
 head1=npc_3628_head
 head2=npc_dskin_w_ardoungecitizen2_head
 
-[npc_3629]
+[templetrek_multi_man_med]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3630
+multinpc=1,templetrek_man_med
 
-[npc_3630]
+[templetrek_man_med]
 name=Valantay Eppel
 desc=A Burgh de Rott male militia volunteer.
 model1=npc_3630
@@ -73672,14 +73672,14 @@ head2=npc_Artist1_head
 head3=npc_3630_head
 head4=npc_3626_head
 
-[npc_3631]
+[templetrek_multi_retired_man_easy]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3632
+multinpc=1,templetrek_retired_man_easy
 
-[npc_3632]
+[templetrek_retired_man_easy]
 name=Dalcian Fang
 desc=A retired but dangerous looking man - he seems to be hanging around.
 model1=npc_drunk1
@@ -73711,14 +73711,14 @@ head1=npc_drunk1_head
 head2=idk_man_jaw_pointy_head
 head3=npc_3626_head
 
-[npc_3633]
+[templetrek_multi_retired_soldier_easy]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=1
 multivar=templetrek_npcs_visible
-multinpc=1,npc_3634
+multinpc=1,templetrek_retired_soldier_easy
 
-[npc_3634]
+[templetrek_retired_soldier_easy]
 name=Fyiona Fray
 desc=A retired but dangerous looking female soldier.
 model1=idk_woman_hair_cropped
@@ -73750,7 +73750,7 @@ readyanim=human_ready
 head1=idk_woman_hair_cropped_head
 head2=npc_dskin_w_ardoungecitizen2_head
 
-[npc_3635]
+[templetrek_good_samaritan]
 name=Abidor Crank
 desc=The good samaritan.
 model1=idk_man_hair_tonsure
@@ -73782,7 +73782,7 @@ head1=idk_man_hair_tonsure_head
 head2=idk_man_jaw_pointy_head
 head3=npc_3626_head
 
-[npc_3636]
+[treevillage_small_spirittree]
 name=Spirit tree
 desc=A young sentient tree.
 model1=loc_1317_8
@@ -73794,7 +73794,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_3636_head
 
-[npc_3637]
+[treevillage_spirittree]
 name=Spirit tree
 desc=An ancient sentient tree.
 model1=ent_8
@@ -73807,14 +73807,14 @@ op1=Talk-to
 vislevel=hide
 head1=npc_3637_head
 
-[npc_3638]
+[soulbane_launa_multi]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=hide
 multivar=soulbane_launa_pres
-multinpc=0,npc_3639
+multinpc=0,soulbane_launa
 
-[npc_3639]
+[soulbane_launa]
 name=Launa
 desc=She looks tired of waiting.
 model1=npc_1871
@@ -73840,7 +73840,7 @@ vislevel=hide
 op1=Talk-to
 head1=npc_1871_head
 
-[npc_3640]
+[soulbane_launa_young]
 name=Launa
 desc=She looks tired of arguing.
 model1=obj_castlewars_hood_saradomin_prize_womanwear
@@ -73863,7 +73863,7 @@ vislevel=hide
 op1=Talk-to
 head1=obj_pickpocket_guide_fham
 
-[npc_3641]
+[soulbane_brana]
 name=Brana
 desc=An old man.
 model1=npc_1918
@@ -73895,15 +73895,15 @@ head1=obj_leather_cowl_manhead2
 head2=idk_man_jaw_goatee_head
 head3=npc_1918_head
 
-[npc_3642]
+[soulbane_tolna_multi]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=hide
 op1=Talk-to
 multivar=soulbane_tolna_pres
-multinpc=1,npc_3643
+multinpc=1,soulbane_tolna_top
 
-[npc_3643]
+[soulbane_tolna_top]
 name=Tolna
 desc=Where did his boot go?
 model1=idk_man_hair_medium
@@ -73930,7 +73930,7 @@ op1=Talk-to
 head1=obj_pickpocket_guide_farmer
 head2=npc_harlow_head
 
-[npc_3644]
+[soulbane_tolnaboy]
 name=Tolna
 desc=A kid.
 model1=npc_3644
@@ -73946,12 +73946,12 @@ recol3d=14691
 recol4s=13728
 recol4d=9504
 vislevel=hide
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 alwaysontop=yes
 head1=npc_3644_head
 
-[npc_3645]
+[soulbane_anger_bear]
 name=Angry bear
 desc=He looks a little on the cross side!
 model1=npc_brownbear
@@ -73974,7 +73974,7 @@ walkanim=bear_walk
 readyanim=bear_ready
 op2=Attack
 
-[npc_3646]
+[soulbane_anger_unicorn]
 name=Angry unicorn
 desc=He looks a little on the cross side!
 model1=npc_unicorn
@@ -73998,7 +73998,7 @@ op2=Attack
 contrast=30
 ambient=30
 
-[npc_3647]
+[soulbane_anger_rat]
 name=Angry giant rat
 desc=He looks a little on the cross side!
 model1=npc_giantrat
@@ -74021,7 +74021,7 @@ op2=Attack
 contrast=30
 ambient=30
 
-[npc_3648]
+[soulbane_anger_goblin]
 name=Angry goblin
 desc=He looks a little on the cross side!
 model1=npc_macro_ent_tree1
@@ -74047,7 +74047,7 @@ op2=Attack
 contrast=30
 ambient=30
 
-[npc_3649]
+[soulbane_fear_reaper]
 name=Fear reaper
 desc=AHHHHH!
 model1=npc_3649
@@ -74059,7 +74059,7 @@ ambient=60
 contrast=60
 vislevel=42
 
-[npc_3650]
+[soulbane_confu_creeper]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74071,7 +74071,7 @@ readyanim=confready
 op2=Attack
 vislevel=43
 
-[npc_3651]
+[soulbane_confu_creeper_fake1]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74083,7 +74083,7 @@ readyanim=confready
 op2=Attack
 vislevel=43
 
-[npc_3652]
+[soulbane_confu_creeper_fake2]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74095,7 +74095,7 @@ readyanim=confready
 op2=Attack
 vislevel=43
 
-[npc_3653]
+[soulbane_confu_creeper_fake3]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74107,7 +74107,7 @@ readyanim=confready
 op2=Attack
 vislevel=43
 
-[npc_3654]
+[soulbane_confu_creeper_fake4]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74119,7 +74119,7 @@ readyanim=confready
 op2=Attack
 vislevel=43
 
-[npc_3655]
+[soulbane_hope_monst3]
 name=Hopeless creature
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74129,7 +74129,7 @@ readyanim=lessready
 op2=Attack
 vislevel=40
 
-[npc_3656]
+[soulbane_hope_monst2]
 name=Hopeless creature
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74141,7 +74141,7 @@ readyanim=lessready
 op2=Attack
 vislevel=40
 
-[npc_3657]
+[soulbane_hope_monst1]
 name=Hopeless creature
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74153,7 +74153,7 @@ readyanim=lessready
 op2=Attack
 vislevel=40
 
-[npc_3658]
+[soulbane_final_tolna1]
 name=Tolna
 desc=Is that really Tolna?
 model1=spot_neck_death_spot
@@ -74163,7 +74163,7 @@ readyanim=neckready
 op2=Attack
 vislevel=46
 
-[npc_3659]
+[soulbane_final_tolna2]
 name=Tolna
 desc=Is that really Tolna?
 model1=spot_neck_death_spot
@@ -74173,7 +74173,7 @@ readyanim=neckready
 op2=Attack
 vislevel=46
 
-[npc_3660]
+[soulbane_final_tolna3]
 name=Tolna
 desc=Is that really Tolna?
 model1=spot_neck_death_spot
@@ -74183,7 +74183,7 @@ readyanim=neckready
 op2=Attack
 vislevel=46
 
-[npc_3661]
+[soulbane_unicorn]
 name=Angry unicorn
 desc=He looks a little on the cross side!
 model1=npc_unicorn
@@ -74206,7 +74206,7 @@ readyanim=unicorn_ready
 op2=Attack
 vislevel=47
 
-[npc_3662]
+[soulbane_rat]
 name=Angry giant rat
 desc=He looks a little on the cross side!
 model1=npc_giantrat
@@ -74229,7 +74229,7 @@ readyanim=giantrat_ready
 op2=Attack
 vislevel=47
 
-[npc_3663]
+[soulbane_goblin]
 name=Angry goblin
 desc=He looks a little on the cross side!
 model1=npc_macro_ent_tree1
@@ -74255,7 +74255,7 @@ readyanim=goblin_ready
 op2=Attack
 vislevel=47
 
-[npc_3664]
+[soulbane_bear]
 name=Angry bear
 desc=He looks a little on the cross side!
 model1=npc_brownbear
@@ -74278,7 +74278,7 @@ readyanim=bear_ready
 op2=Attack
 vislevel=47
 
-[npc_3665]
+[soulbane_fear_beast]
 name=Fear reaper
 desc=AHHHH!
 model1=npc_3649
@@ -74288,7 +74288,7 @@ readyanim=fear_ready
 op2=Attack
 vislevel=55
 
-[npc_3666]
+[soulbane_conf_beast]
 name=Confusion beast
 desc=What on RuneScape is that?!?
 model1=npc_3650
@@ -74300,7 +74300,7 @@ readyanim=confready
 op2=Attack
 vislevel=63
 
-[npc_3667]
+[soulbane_less_beast3]
 name=Hopeless creature
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74310,7 +74310,7 @@ readyanim=lessready
 op2=Attack
 vislevel=71
 
-[npc_3668]
+[soulbane_less_beast2]
 name=Hopeless beast
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74322,7 +74322,7 @@ readyanim=lessready
 op2=Attack
 vislevel=71
 
-[npc_3669]
+[soulbane_less_beast1]
 name=Hopeless beast
 desc=A hopeless poor creature.
 model1=npc_3655
@@ -74334,7 +74334,7 @@ readyanim=lessready
 op2=Attack
 vislevel=71
 
-[npc_3670]
+[rag_odd_old_man]
 name=Odd Old Man
 desc=That's a lot of bones on his back...
 model1=npc_drunk1
@@ -74358,7 +74358,7 @@ alwaysontop=yes
 head1=npc_3670_head
 head2=npc_drunk1_head
 
-[npc_3671]
+[rag_wine_merchant]
 name=Fortunato
 desc=Looks like he could do with a sip of Amontillado.
 model1=npc_3671
@@ -74392,7 +74392,7 @@ head2=npc_3671_headi2
 head3=npc_doctor_orbon_head
 head4=npc_3671_headi3
 
-[npc_3672]
+[ramsheered]
 name=Ram
 desc=Freshly sheared.
 model1=npc_3672
@@ -74401,7 +74401,7 @@ readyanim=sheep_ready
 op2=Attack
 vislevel=2
 
-[npc_3673]
+[ramunsheered]
 name=Ram
 desc=White and fluffy.
 model1=npc_3672
@@ -74411,7 +74411,7 @@ readyanim=sheep_ready
 op2=Attack
 vislevel=2
 
-[npc_3674]
+[talking_sack]
 name=Bones
 desc=Bony.
 model1=npc_3674
@@ -74419,7 +74419,7 @@ readyanim=talking_sack
 vislevel=hide
 head1=npc_3674
 
-[npc_3675]
+[rag_vulture]
 name=Vulture
 desc=If you see them circling... run.
 model1=npc_1996
@@ -74429,7 +74429,7 @@ readyanim=vulture_ground_ready
 walkanim=vulture_walk
 vislevel=31
 
-[npc_3676]
+[rag_vulture_flying]
 name=Vulture
 desc=If you see them circling... run.
 model1=npc_1996
@@ -74439,7 +74439,7 @@ walkanim=vulture_fly
 op2=Attack
 vislevel=31
 
-[npc_3677]
+[sinister_stranger0]
 name=Sinister Stranger
 desc=He looks a LOT like a vampire...
 model1=npc_count_draynor
@@ -74467,7 +74467,7 @@ op1=Talk-to
 head1=npc_1540_head
 head2=npc_3677_head
 
-[npc_3678]
+[sinister_stranger1]
 name=Sinister Stranger
 desc=He looks a LOT like a vampire...
 model1=npc_count_draynor
@@ -74495,7 +74495,7 @@ op1=Talk-to
 head1=npc_1540_head
 head2=npc_3677_head
 
-[npc_3679]
+[tunnel_dwarf1]
 name=Vestri
 desc=He looks short and grumpy.
 model1=npc_dwarf_normal
@@ -74519,7 +74519,7 @@ readyanim=dwarf_ready
 op1=Talk-to
 head1=npc_lawgof2_head
 
-[npc_3680]
+[ali_leaflet_dropper]
 name=Ali the Leaflet Dropper
 desc=A young boy handing out flyers.
 model1=npc_3644
@@ -74538,8 +74538,8 @@ recol5s=416
 recol5d=15817
 recol6s=6144
 recol6d=3361
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 op3=Take-flyer
 vislevel=hide
@@ -76906,8 +76906,8 @@ recol4s=22163
 recol4d=13605
 recol5s=16837
 recol5d=7298
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -76928,8 +76928,8 @@ recol4s=22163
 recol4d=13605
 recol5s=16837
 recol5d=7298
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -76950,8 +76950,8 @@ recol4s=22163
 recol4d=13605
 recol5s=16837
 recol5d=7298
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -76972,8 +76972,8 @@ recol4s=22163
 recol4d=13605
 recol5s=16837
 recol5d=7298
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -76994,8 +76994,8 @@ recol4s=22163
 recol4d=13605
 recol5s=16837
 recol5d=7298
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_gnomepilot_head
@@ -77006,8 +77006,8 @@ desc=A Gnome Arrow-chucker
 model1=npc_gnome
 model2=npc_leprechaun
 model3=npc_leprechauni3
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=5
 head1=obj_pickpocket_guide_gnome
@@ -77021,8 +77021,8 @@ model3=npc_3815i2
 model4=npc_3815i3
 recol1s=352
 recol1d=14625
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=5
 head1=npc_commander_montai_head
@@ -77035,8 +77035,8 @@ model2=npc_3053i2
 model3=npc_3816i2
 recol1s=352
 recol1d=14625
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op2=Attack
 vislevel=5
 head1=npc_1425_head
@@ -77054,8 +77054,8 @@ recol2s=12684
 recol2d=15850
 recol3s=4356
 recol3d=6436
-walkanim=emote_yes_loop
-readyanim=emote_laugh_loop
+walkanim=seq_189
+readyanim=seq_195
 op1=Talk-to
 vislevel=hide
 head1=npc_3053_head

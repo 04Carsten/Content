@@ -1,5 +1,5 @@
-[opnpc1,npc_1076] @death_guard_dialogue;
-[opnpc1,npc_1077] @death_guard_dialogue;
+[opnpc1,death_guard1] @death_guard_dialogue;
+[opnpc1,death_guard2] @death_guard_dialogue;
 
 [label,death_guard_dialogue]
 mes("The guard won't talk whilst on duty.");

@@ -18,7 +18,7 @@ if(%death_equiproom < ^death_spoken_headservant) {
 }
 sound_synth(knock_knock, 0, 0);
 ~mesbox("You knock on the door.");
-if(npc_find(coord, npc_1078, 7, 0) = true) {
+if(npc_find(coord, death_guard_equiproom, 7, 0) = true) {
     ~chatnpc("<p,neutral>Come in!");
     if_close;
     ~open_and_close_door2(loc_1535, $leaving, nicedoor_open);
@@ -51,7 +51,7 @@ if($leaving = true | ~death_get_map >= ^death_spoken_tenzing) {
 }
 sound_synth(knock_knock, 0, 0);
 ~mesbox("You knock on the door.");
-if(npc_find(coord, npc_1071, 5, 0) = true) {
+if(npc_find(coord, death_sherpa, 5, 0) = true) {
     ~chatnpc("<p,angry>No milk today! Thank you!");
     if(~death_get_map >= ^death_spoken_saba) {
         ~chatplayer("<p,neutral>I'm not the milkman, I need your help!");
@@ -66,7 +66,7 @@ if($leaving = false | ~death_get_map >= ^death_got_map) {
     ~open_and_close_door2(loc_1532, $leaving, door_open); // open door loc isnt in this version?
     return;
 }
-if(npc_find(coord, npc_1071, 5, 0) = true) {
+if(npc_find(coord, death_sherpa, 5, 0) = true) {
     ~chatnpc("<p,angry>Where do you think you're going? This is private property!");
 }
 
@@ -135,7 +135,7 @@ if(~death_get_map = ^death_got_map) {
 cam_moveto(0_44_56_29_12, 1500, 10, 3);
 cam_lookat(0_44_56_35_14, 300, 10, 3);
 p_delay(3);
-if(npc_findexact(0_44_56_35_14, npc_1105) = true) {
+if(npc_findexact(0_44_56_35_14, death_troll_thrower5) = true) {
     npc_facesquare(0_44_56_29_12);
     p_delay(1);
     npc_anim(troll_rock_throw, 0);
