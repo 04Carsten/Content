@@ -26,18 +26,18 @@
 [oploc1,millbase]
 @millbase_take;
 
-[oploc1,millbase_full]
+[oploc1,millbase_flour]
 @millbase_take;
 
 [oplocu,millbase]
 @millbase_opu;
 
-[oplocu,millbase_full]
+[oplocu,millbase_flour]
 @millbase_opu;
 
 [label,millbase_opu]
 if (last_useitem = pot_empty) {
-    if (%mill_flour > 0) p_oploc(1);
+    if (%flour > 0) p_oploc(1);
     else @empty_flour_bin;
 } else if(last_useitem = pot_flour) {
     mes("This pot is already full.");
@@ -46,7 +46,7 @@ if (last_useitem = pot_empty) {
 }
 
 [label,millbase_take]
-if (%mill_flour > 0) {
+if (%flour > 0) {
     @take_flour_bin;
 } else {
     @empty_flour_bin;
@@ -62,12 +62,12 @@ if (inv_total(inv, pot_empty) < 1) {
     inv_del(inv, pot_empty, 1);
     inv_add(inv, pot_flour, 1);
 
-    if (%mill_flour > 1) {
-        %mill_flour = sub(%mill_flour, 1);
+    if (%flour > 1) {
+        %flour = sub(%flour, 1);
         mes("You fill a pot with flour from the bin.");
     } else {
         // todo: do we revert visual state? let the loc_change run its course?
-        %mill_flour = 0;
+        %flour = 0;
         mes("You fill a pot with the last of the flour in the bin.");
         // Temp note: dur does not need updated
         loc_change(millbase, 500);
@@ -105,7 +105,7 @@ anim(human_pickuptable, 0);
 loc_change(hoppercontrol_inuse, 3);
 sound_synth(lever, 0, 0);
 if(%hopper_full = ^true) {
-    if (%mill_flour > 29) {
+    if (%flour > 29) {
         mes("The flour bin downstairs is full, I should empty it first.");
         return;
     }
@@ -115,12 +115,12 @@ if(%hopper_full = ^true) {
     sound_synth(lever, 0, 0); // this sound plays twice
 
     %hopper_full = ^false;
-    %mill_flour = add(%mill_flour, 1);
-    if (%mill_flour = 30) {
+    %flour = add(%flour, 1);
+    if (%flour = 30) {
         mes("The flour bin downstairs is now full.");
     }
 
     if (loc_find($millbase_coord, millbase) = true) {
-        loc_change(millbase_full, 500);
+        loc_change(millbase_flour, 500);
     }
 }
