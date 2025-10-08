@@ -118,7 +118,7 @@ type=boolean
 transmit=yes
 
 // not perm: https://runescape.wiki/w/Update:Game_Improvements
-[lastcastspell]
+[attackstyle_magic]
 protect=no
 transmit=yes
 
