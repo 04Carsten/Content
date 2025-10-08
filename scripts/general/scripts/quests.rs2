@@ -57,109 +57,161 @@ if ($questpointrecount ! %qp) {
 [proc,count_questpoints]()(int)
 def_int $questpoints = 0;
 if (%runemysteries = ^runemysteries_complete) {
-    $questpoints = add($questpoints, ^runemysteries_questpoints); }
+    $questpoints = add($questpoints, ^runemysteries_questpoints); 
+}
 if (%doricquest = ^doric_complete) {
-    $questpoints = add($questpoints, ^doric_questpoints); }
+    $questpoints = add($questpoints, ^doric_questpoints); 
+}
 if (%cookquest = ^cook_complete) {
-    $questpoints = add($questpoints, ^cook_questpoints); }
+    $questpoints = add($questpoints, ^cook_questpoints); 
+}
 if (%rjquest = ^romeojuliet_complete) {
-    $questpoints = add($questpoints, ^romeojuliet_questpoints); }
+    $questpoints = add($questpoints, ^romeojuliet_questpoints); 
+}
 if (%hetty = ^hetty_complete) {
-    $questpoints = add($questpoints, ^hetty_questpoints); }
+    $questpoints = add($questpoints, ^hetty_questpoints); 
+}
 if (%chompybird = ^chompybird_complete) {
-    $questpoints = add($questpoints, ^chompybird_questpoints); }
+    $questpoints = add($questpoints, ^chompybird_questpoints); 
+}
 if (%prieststart = ^priest_complete) {
-    $questpoints = add($questpoints, ^priest_questpoints); }
+    $questpoints = add($questpoints, ^priest_questpoints); 
+}
 if (%squire = ^squire_complete) {
-    $questpoints = add($questpoints, ^squire_questpoints); }
+    $questpoints = add($questpoints, ^squire_questpoints); 
+}
 if (%imp = ^imp_complete) {
-    $questpoints = add($questpoints, ^imp_questpoints); }
+    $questpoints = add($questpoints, ^imp_questpoints); 
+}
 if (%druidquest = ^druid_complete) {
-    $questpoints = add($questpoints, ^druid_questpoints); }
+    $questpoints = add($questpoints, ^druid_questpoints);
+}
 if (%goblinquest = ^gobdip_complete) {
-    $questpoints = add($questpoints, ^gobdip_questpoints); }
+    $questpoints = add($questpoints, ^gobdip_questpoints); 
+}
 if (%sheep = ^sheep_complete) {
-    $questpoints = add($questpoints, ^sheep_questpoints); }
+    $questpoints = add($questpoints, ^sheep_questpoints); 
+}
 if (%fluffs = ^fluffs_complete) {
-    $questpoints = add($questpoints, ^fluffs_questpoints); }
+    $questpoints = add($questpoints, ^fluffs_questpoints); 
+}
 if (%demonstart = ^demon_complete) {
-    $questpoints = add($questpoints, ^demon_questpoints); }
+    $questpoints = add($questpoints, ^demon_questpoints); 
+}
 if (%princequest = ^prince_complete) {
-    $questpoints = add($questpoints, ^prince_questpoints); }
+    $questpoints = add($questpoints, ^prince_questpoints); 
+}
 if (%spy = ^blackknight_complete) {
-    $questpoints = add($questpoints, ^blackknight_questpoints); }
+    $questpoints = add($questpoints, ^blackknight_questpoints); 
+}
 if (%haunted = ^haunted_complete) {
-    $questpoints = add($questpoints, ^haunted_questpoints); }
+    $questpoints = add($questpoints, ^haunted_questpoints); 
+}
 if (%hunt = ^hunt_complete) {
-    $questpoints = add($questpoints, ^hunt_questpoints); }
+    $questpoints = add($questpoints, ^hunt_questpoints); 
+}
 if (%drunkmonkquest = ^drunkmonk_complete) {
-    $questpoints = add($questpoints, ^drunkmonk_questpoints); }
+    $questpoints = add($questpoints, ^drunkmonk_questpoints); 
+}
 if (%vampire = ^vampire_complete) {
-    $questpoints = add($questpoints, ^vampire_questpoints); }
+    $questpoints = add($questpoints, ^vampire_questpoints); 
+}
 if (%totemquest = ^totem_complete) {
-    $questpoints = add($questpoints, ^totem_questpoints); }
+    $questpoints = add($questpoints, ^totem_questpoints); 
+}
 if (%fishingcompo = ^fishingcompo_complete) {
-    $questpoints = add($questpoints, ^fishingcompo_questpoints); }
+    $questpoints = add($questpoints, ^fishingcompo_questpoints); 
+}
 if (%scorpcatcher = ^scorpcatcher_complete) {
-    $questpoints = add($questpoints, ^scorpcatcher_questpoints); }
+    $questpoints = add($questpoints, ^scorpcatcher_questpoints); 
+}
 if (%zanaris = ^zanaris_complete) {
-    $questpoints = add($questpoints, ^zanaris_questpoints); }
+    $questpoints = add($questpoints, ^zanaris_questpoints); 
+}
 if (%blackarmgang = ^blackarmgang_complete | %phoenixgang = ^phoenixgang_complete) {
-    $questpoints = add($questpoints, ^blackarmgang_questpoints); }
+    $questpoints = add($questpoints, ^blackarmgang_questpoints); 
+}
 if (%elenaquest >= ^elena_complete) {
-    $questpoints = add($questpoints, ^elena_questpoints); }
+    $questpoints = add($questpoints, ^elena_questpoints); 
+}
 if (%dragonquest >= ^dragon_complete) {
-    $questpoints = add($questpoints, ^dragon_questpoints); }
+    $questpoints = add($questpoints, ^dragon_questpoints); 
+}
 if (%seaslugquest = ^seaslug_complete) {
-    $questpoints = add($questpoints, ^seaslug_questpoints); }
+    $questpoints = add($questpoints, ^seaslug_questpoints); 
+}
 if (%arthur = ^arthur_complete) {
-    $questpoints = add($questpoints, ^arthur_questpoints); }
+    $questpoints = add($questpoints, ^arthur_questpoints); 
+}
 if (%treequest = ^tree_complete) {
-    $questpoints = add($questpoints, ^tree_questpoints); }
+    $questpoints = add($questpoints, ^tree_questpoints); 
+}
 if (%waterfall_quest = ^waterfall_complete) {
-    $questpoints = add($questpoints, ^waterfall_questpoints); }
+    $questpoints = add($questpoints, ^waterfall_questpoints); 
+}
 if (%grail = ^grail_complete) {
-    $questpoints = add($questpoints, ^grail_questpoints); }
+    $questpoints = add($questpoints, ^grail_questpoints); 
+}
 if (%ballquest = ^ball_complete) {
-    $questpoints = add($questpoints, ^ball_questpoints); }
+    $questpoints = add($questpoints, ^ball_questpoints); 
+}
 if (%murderquest = ^murder_complete) {
-    $questpoints = add($questpoints, ^murder_questpoints); }
+    $questpoints = add($questpoints, ^murder_questpoints); 
+}
 if (%hazeelcultquest = ^hazeelcult_complete) {
-    $questpoints = add($questpoints, ^hazeelcult_questpoints); }
+    $questpoints = add($questpoints, ^hazeelcult_questpoints); 
+}
 if (%heroquest = ^hero_complete) {
-    $questpoints = add($questpoints, ^hero_questpoints); }
+    $questpoints = add($questpoints, ^hero_questpoints); 
+}
 if (%itgronigen >= ^itgronigen_complete) { // varp is incremented for getting wine post quest
-    $questpoints = add($questpoints, ^itgronigen_questpoints); }
+    $questpoints = add($questpoints, ^itgronigen_questpoints); 
+}
 if (%arenaquest >= ^arena_complete) { // different completion states based on if you kill general khazard or not
-    $questpoints = add($questpoints, ^arena_questpoints); }
+    $questpoints = add($questpoints, ^arena_questpoints); 
+}
 if (%junglepotion >= ^junglepotion_complete) {
-    $questpoints = add($questpoints, ^junglepotion_questpoints); }
+    $questpoints = add($questpoints, ^junglepotion_questpoints); 
+}
 if (%ikov >= ^ikov_completed_armadyl) { // 80 = armadyl completion, 90 = lucien completion
-    $questpoints = add($questpoints, ^ikov_questpoints); }
+    $questpoints = add($questpoints, ^ikov_questpoints); 
+}
 if (%biohazard >= ^biohazard_complete) {
-    $questpoints = add($questpoints, ^biohazard_questpoints); }
+    $questpoints = add($questpoints, ^biohazard_questpoints); 
+}
 if (%sheepherderquest >= ^sheepherder_complete) {
-    $questpoints = add($questpoints, ^sheepherder_questpoints); }
+    $questpoints = add($questpoints, ^sheepherder_questpoints); 
+}
 if (%mcannon = ^mcannon_complete) {
-    $questpoints = add($questpoints, ^mcannon_questpoints); }
+    $questpoints = add($questpoints, ^mcannon_questpoints); 
+}
 if (~get_cog_progress = ^quest_cog_complete) {
-    $questpoints = add($questpoints, ^cog_questpoints); }
+    $questpoints = add($questpoints, ^cog_questpoints); 
+}
 if (%grandtree = ^grandtree_complete) {
-    $questpoints = add($questpoints, ^grandtree_questpoints); }
+    $questpoints = add($questpoints, ^grandtree_questpoints); 
+}
 if (%upass = ^upass_complete) {
-    $questpoints = add($questpoints, ^upass_questpoints); }
+    $questpoints = add($questpoints, ^upass_questpoints); 
+}
 if (%zombiequeen >= ^zombiequeen_complete) {
-    $questpoints = add($questpoints, ^zombiequeen_questpoints); }
+    $questpoints = add($questpoints, ^zombiequeen_questpoints); 
+}
 if (%crestquest = ^crest_complete) {
-    $questpoints = add($questpoints, ^crest_questpoints); }
+    $questpoints = add($questpoints, ^crest_questpoints); 
+}
 if (%itexamlevel = ^itexam_complete) {
-    $questpoints = add($questpoints, ^itexam_questpoints); }
+    $questpoints = add($questpoints, ^itexam_questpoints); 
+}
 if (%desertrescue = ^desertrescue_complete) {
-    $questpoints = add($questpoints, ^desertrescue_questpoints); }
+    $questpoints = add($questpoints, ^desertrescue_questpoints); 
+}
 if (%itwatchtower >= ^itwatchtower_complete) {
-    $questpoints = add($questpoints, ^itwatchtower_questpoints); }
+    $questpoints = add($questpoints, ^itwatchtower_questpoints); 
+}
 if (%legendsquest = ^legends_complete) {
-    $questpoints = add($questpoints, ^legends_questpoints); }
+    $questpoints = add($questpoints, ^legends_questpoints); 
+}
 return ($questpoints);
 
 [proc,update_questlist]

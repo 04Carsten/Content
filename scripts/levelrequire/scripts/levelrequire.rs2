@@ -151,6 +151,4 @@ if (stat(attack) < 50) {
     mes("You need to have an Attack level of 50.");
     return;
 }
-// https://youtu.be/n_ip_vEDbCA?si=0uESoOC98Fvl7HqS&t=2333
-mes("You equip the staff of Iban.");
 ~equip($slot);
