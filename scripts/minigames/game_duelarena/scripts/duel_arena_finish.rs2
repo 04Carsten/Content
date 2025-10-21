@@ -85,6 +85,9 @@ clearqueue(player_death);
 hint_stop;
 %duelstatus = ^duelstatus_reset;
 %duel2accept = null;
+clearqueue(duel_arena_disconnect);
+clearqueue(duel_arena_prepare_start);
+clearqueue(duel_finish);
 
 [if_close,duel_win]
 if (~moveallinv_itemspace(duelwinnings, inv) = false) {
