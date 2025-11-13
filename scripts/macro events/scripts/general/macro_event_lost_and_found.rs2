@@ -2,7 +2,16 @@
 // https://www.youtube.com/watch?v=Pc0gLKWblPQ (aug 2008)
 // https://www.youtube.com/watch?v=BX_WYBKR-MU (june 2007)
 //TODO Add this to teleport spells & ess mine teleportation (to and from?)
-//TODO on login- if macro_event is this event, run ~macro_laf_start
+
+[mapzone,0_36_74] 
+~macro_events_hide_tabs;
+//TODO: What music to play here?
+// @music_playbyregion(coord);
+
+[mapzoneexit,0_36_74]
+~macro_events_varps_reset;
+~initalltabs;
+
 [proc,macro_laf_start](coord $destination)
 %macro_event_target_coord = $destination;
 ~randomize_appendages;
@@ -13,15 +22,6 @@ if (coord ! $target) {
 mes("There has been a fault in the teleportation matrix.");//no idea where this line break should go... doesn't fit like the video shows
 mes("Please operate the odd appendage out to be forwarded to your destination.");
 ~mesbox("There has been a fault in the teleportation matrix. Please operate the|odd appendage out to be forwarded to your destination.");
-if_settab(null, 0);
-if_settab(null, 1);
-if_settab(null, 2);
-if_settab(null, 3);
-if_settab(null, 4);
-if_settab(null, 5);
-if_settab(null, 6);
-if_settab(null, 11);
-if_settab(null, 12);
 
 [proc,randomize_appendages]
 def_int $state1 = random(8);
@@ -85,6 +85,3 @@ if ($correct = false) {
 //TODO: Give 2x runes of spell originally casted or 8-14 noted rune essence if teleporting to/from ess mine (based on macro_event_target_coord?)
 //~doubleobjbox(lawrune, airrune, "Abyssal Services apologise for any inconvenience. Please|accept these runes in way of recompense.", 150);
 ~objbox(blankrune, "Abyssal Services apologise for any inconvenience. Please|accept these runes in way of recompense.", 150, 0, divide(^objbox_height, 2));
-~initalltabs;
-%macro_transmit = 0;
-%macro_event_target_coord = null;

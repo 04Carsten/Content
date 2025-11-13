@@ -1,18 +1,10 @@
-[macro_transmit]
-transmit=yes
+[macro_event]
 scope=perm
+protect=no
 
 [macro_event_uid]
 protect=no
 type=npc_uid
-
-[macro_candlelight_var]
-transmit=yes
-scope=perm
-
-[macro_event]
-scope=perm
-protect=no
 
 [macro_whirlpool_counter]
 
@@ -23,3 +15,19 @@ protect=no
 [macro_event_target_coord]
 type=coord
 scope=perm
+
+[macro_transmit]
+transmit=yes
+scope=perm
+
+[macro_candlelight_var]
+transmit=yes
+scope=perm
+
+[macro_digger_var]
+
+[macro_digger_var_2]
+
+[macro_digger_var_3]
+
+[macro_digger_var_4]

@@ -1510,14 +1510,6 @@ transmit=yes
 [millcheck_multi]
 transmit=yes
 
-[macro_digger_var]
-
-[macro_digger_var_2]
-
-[macro_digger_var_3]
-
-[macro_digger_var_4]
-
 [templetrek_main_var]
 transmit=yes
 
