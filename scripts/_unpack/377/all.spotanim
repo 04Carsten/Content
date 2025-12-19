@@ -226,7 +226,7 @@ anim=taxe_travel
 recol1s=15855
 recol1d=6438
 
-[olm_crystal_bomb_explode]
+[spotanim_40]
 model=spot_iron_taxe_travel
 anim=taxe_travel
 recol1s=15855
@@ -266,7 +266,7 @@ anim=taxe_launch
 recol1s=15855
 recol1d=6438
 
-[cooking_make_wine_spotanim]
+[spotanim_47]
 model=spot_iron_taxe_launch
 anim=taxe_launch
 recol1s=15855
@@ -390,7 +390,7 @@ recol3d=32767
 model=spot_slayer_dustdevil_dust
 anim=slayer_dustdevil_dust
 
-[goblin_rpg_launch]
+[spotanim_74]
 model=spot_rockfall
 anim=human_mining_dragon_pickaxe_pretty_noreachforward
 
