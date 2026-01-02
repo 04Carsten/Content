@@ -4430,6 +4430,7 @@ param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
+category=witch
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_514
 
 [witch2]
@@ -4467,6 +4468,7 @@ param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
+category=witch
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_515
 
 [black_knight]
