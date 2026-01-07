@@ -556,6 +556,8 @@ transmit=yes
 transmit=yes
 
 [magearena]
+protect=no
+scope=perm
 
 [saramage]
 
@@ -598,7 +600,8 @@ protect=no
 [dueloptions]
 transmit=yes
 
-[varp_288]
+[iban_staff_charges]
+scope=perm
 
 [varp_289]
 
