@@ -1581,6 +1581,7 @@ transmit=yes
 transmit=yes
 
 [abyssal_pouches2]
+scope=perm
 
 [varp_722]
 
