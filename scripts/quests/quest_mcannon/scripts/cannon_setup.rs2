@@ -135,13 +135,7 @@ if (inv_freespace(inv) < 1) {
     mes("You need one free inventory spaces to pick that up."); // osrs
     return;
 }
-%ownedmcannon = null;
-%dropcannon = ^cannon_stage_none;
-mes("You pick up the cannon,");
-mes("It's really heavy.");
-sound_synth(pick, 0, 0);
-inv_add(inv, twpart1, 1);
-loc_del(1);
+~pickup_cannon;
 
 [oplocu,multicannon_base]
 if (~cannon_belongs_to_player = false) {
