@@ -207,6 +207,7 @@ iop4=Locate
 weight=15g
 category=talismans
 param=rune_type,^law
+tradeable=no
 
 [cert_law_talisman]
 name=Rotten net
