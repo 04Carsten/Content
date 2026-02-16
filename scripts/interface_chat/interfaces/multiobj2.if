@@ -40,7 +40,7 @@ buttontype=normal
 width=152
 height=17
 center=yes
-font=q8
+font=q8_full
 
 [objtext2]
 type=text
@@ -50,7 +50,7 @@ buttontype=normal
 width=152
 height=17
 center=yes
-font=q8
+font=q8_full
 
 [title]
 type=text
@@ -59,6 +59,6 @@ y=3
 width=464
 height=17
 center=yes
-font=q8
+font=q8_full
 text=Select an Option
 colour=0x800000
