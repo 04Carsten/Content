@@ -1,3 +1,5 @@
+type=overlay
+
 [preview]
 type=model
 x=135
