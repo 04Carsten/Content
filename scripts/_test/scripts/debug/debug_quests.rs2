@@ -350,19 +350,19 @@ mes("PIPMausoleum is currently set to: <tostring(%priestperil_mausoleum)>.");
 if (p_finduid(uid) = false) { return; }
 %upass = ^upass_not_started;
 %ibanmulti = 0;
-// ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
+~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass Reset.");
 
 [debugproc,upu]
 if (p_finduid(uid) = false) { return; }
 %upass = calc(%upass + 1);
-// ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
+~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass increased to stage <tostring(%upass)>");
 
 [debugproc,upd]
 if (p_finduid(uid) = false) { return; }
 %upass = calc(%upass - 1);
-// ~send_quest_progress(questlist:upass, %upass, ^upass_complete);
+~send_quest_progress(questlist:upass, %upass, ^upass_complete);
 mes("Upass decreased to stage <tostring(%upass)>");
 
 [debugproc,upb](int $bit)
