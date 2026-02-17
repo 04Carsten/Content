@@ -1330,7 +1330,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,willow_tree
+param=ent_tree_loc,willowtree
 
 [macro_ent_yew]
 vislevel=hide
@@ -1349,7 +1349,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,yew_tree
+param=ent_tree_loc,yewtree
 
 [macro_ent_maple]
 vislevel=hide
@@ -1367,7 +1367,7 @@ recol1d=13602
 model1=model_loc_1293_8
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,maple_tree
+param=ent_tree_loc,mapletree
 
 [macro_ent_magic]
 vislevel=hide
@@ -1386,7 +1386,7 @@ model1=model_loc_1293_8
 wanderrange=0
 moverestrict=nomove
 category=macro_event_ent
-param=ent_tree_loc,magic_tree
+param=ent_tree_loc,magictree
 
 [macro_dwarf]
 vislevel=hide

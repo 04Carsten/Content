@@ -1,4 +1,4 @@
-[obj_3142]
+[tbwt_raw_karambwan]
 name=Raw karambwan
 desc=A raw green octopus.
 cost=200
@@ -9,11 +9,7 @@ model=obj_3142
 2dyan=56
 2dxan=388
 
-[obj_3143]
-certlink=obj_3142
-certtemplate=template_for_cert
-
-[obj_3144]
+[tbwt_cooked_karambwan]
 name=Cooked karambwan
 recol1s=6436
 recol1d=28500
@@ -27,11 +23,7 @@ model=obj_3142
 2dxan=388
 iop1=Eat
 
-[obj_3145]
-certlink=obj_3144
-certtemplate=template_for_cert
-
-[obj_3146]
+[tbwt_poorly_cooked_karambwan]
 name=Cooked karambwan
 recol1s=6436
 recol1d=18260
@@ -45,11 +37,7 @@ model=obj_3142
 2dxan=388
 iop1=Eat
 
-[obj_3147]
-certlink=obj_3146
-certtemplate=template_for_cert
-
-[obj_3148]
+[tbwt_burnt_karambwan]
 name=Burnt karambwan
 recol1s=6436
 recol1d=10570
@@ -62,11 +50,7 @@ model=obj_3142
 2dyan=56
 2dxan=388
 
-[obj_3149]
-certlink=obj_3148
-certtemplate=template_for_cert
-
-[obj_3150]
+[tbwt_raw_karambwanji]
 name=Raw karambwanji
 desc=Small brightly coloured tropical fish.
 cost=10
@@ -77,7 +61,7 @@ model=obj_3150
 2dzoom=1000
 2dxan=464
 
-[obj_3151]
+[tbwt_cooked_karambwanji]
 name=Karambwanji
 recol1s=10857
 recol1d=20082
@@ -95,7 +79,7 @@ model=obj_3150
 2dxan=464
 iop1=Eat
 
-[obj_3152]
+[tbwt_raw_karambwan_paste]
 name=Karambwan paste
 recol1s=10566
 recol1d=6436
@@ -109,7 +93,7 @@ model=obj_3152
 2dyan=1980
 2dxan=320
 
-[obj_3153]
+[tbwt_poisonous_karambwan_paste]
 name=Karambwan paste
 recol1s=10566
 recol1d=18260
@@ -123,7 +107,7 @@ model=obj_3152
 2dyan=1980
 2dxan=320
 
-[obj_3154]
+[tbwt_cooked_karambwan_paste]
 name=Karambwan paste
 recol1s=10566
 recol1d=28500
@@ -137,7 +121,7 @@ model=obj_3152
 2dyan=1980
 2dxan=320
 
-[obj_3155]
+[tbwt_raw_karambwanji_paste]
 name=Karambwanji paste
 recol1s=10566
 recol1d=10857
@@ -151,7 +135,7 @@ model=obj_3152
 2dyan=1980
 2dxan=320
 
-[obj_3156]
+[tbwt_cooked_karambwanji_paste]
 name=Karambwanji paste
 recol1s=10566
 recol1d=20082
@@ -165,7 +149,7 @@ model=obj_3152
 2dyan=1980
 2dxan=320
 
-[obj_3157]
+[tbwt_karambwan_vessel]
 name=Karambwan vessel
 desc=A wide bodied and thin necked vessel, encrusted with sea salt.
 cost=5
@@ -176,11 +160,7 @@ model=obj_3157
 manwear=obj_3157_manwear,0
 womanwear=obj_3157_manwear,6
 
-[obj_3158]
-certlink=obj_3157
-certtemplate=template_for_cert
-
-[obj_3159]
+[tbwt_karambwan_vessel_loaded_with_karambwanji]
 name=Karambwan vessel
 desc=This Karambwan Vessel is loaded with Karambwanji.
 cost=40
@@ -191,11 +171,7 @@ model=obj_3159
 manwear=obj_3157_manwear,0
 womanwear=obj_3157_manwear,6
 
-[obj_3160]
-certlink=obj_3159
-certtemplate=template_for_cert
-
-[obj_3161]
+[tbwt_crafting_manual]
 name=Crafting manual
 desc=A set of instructions explaining how to construct a Karambwan vessel.
 cost=5
@@ -207,7 +183,7 @@ model=model_2600_obj
 2dyan=120
 2dxan=380
 
-[obj_3162]
+[tbwt_sliced_banana]
 name=Sliced banana
 desc=You swear you had more than three slices before.
 cost=2
@@ -216,11 +192,7 @@ model=model_2772_obj
 2dxan=232
 iop1=Eat
 
-[obj_3163]
-certlink=obj_3162
-certtemplate=template_for_cert
-
-[obj_3164]
+[tbwt_sliced_banana_in_karamja_rum]
 name=Karamjan rum
 desc=The Karamjan rum has slices of banana floating in it.
 cost=30
@@ -232,14 +204,14 @@ model=model_2660_obj
 manwear=obj_3164_manwear,0
 womanwear=obj_3164_manwear,6
 
-[obj_3165]
+[tbwt_banana_in_karamja_rum]
 name=Karamjan rum
 desc=A banana has been stuffed into the neck of this bottle.
 cost=30
 model=obj_3165
 2dzoom=1560
 
-[obj_3166]
+[tbwt_monkey_corpse]
 name=Monkey corpse
 desc=It's the body of a dead monkey.
 members=yes
@@ -249,7 +221,7 @@ model=obj_3166
 2dyan=188
 2dxan=112
 
-[obj_3167]
+[tbwt_monkey_skin]
 name=Monkey skin
 recol1s=32767
 recol1d=9409
@@ -261,7 +233,7 @@ model=model_2338_obj
 2dyan=2028
 2dxan=468
 
-[obj_3168]
+[tbwt_seaweed_in_monkey_skin_sandwich]
 name=Seaweed sandwich
 desc=A 'Seaweed in Monkey Skin' sandwich. Perfect for statue repair.
 members=yes
@@ -272,7 +244,7 @@ model=obj_3168
 2dxan=344
 iop1=Eat
 
-[obj_3169]
+[tbwt_seaweed_in_monkey_corpse]
 name=Stuffed monkey
 desc=A body of a dead monkey, tastefully stuffed with seaweed.
 members=yes
@@ -282,7 +254,7 @@ model=obj_3169
 2dyan=188
 2dxan=112
 
-[obj_3170]
+[tbwt_bronze_spear_kp]
 name=Bronze spear(kp)
 recol1s=8456
 recol1d=18260
@@ -302,7 +274,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3171]
+[tbwt_iron_spear_kp]
 name=Iron spear(kp)
 recol1s=8456
 recol1d=18260
@@ -322,7 +294,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3172]
+[tbwt_steel_spear_kp]
 name=Steel spear(kp)
 recol1s=8456
 recol1d=18260
@@ -342,7 +314,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3173]
+[tbwt_mithril_spear_kp]
 name=Mithril spear(kp)
 recol1s=8456
 recol1d=18260
@@ -362,7 +334,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3174]
+[tbwt_adamant_spear_kp]
 name=Adamant spear(kp)
 recol1s=8456
 recol1d=18260
@@ -382,7 +354,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3175]
+[tbwt_rune_spear_kp]
 name=Rune spear(kp)
 recol1s=8456
 recol1d=18260
@@ -402,7 +374,7 @@ manwear=model_540_obj_wear,0
 womanwear=model_540_obj_wear,6
 iop2=Wield
 
-[obj_3176]
+[tbwt_dragon_spear_kp]
 name=Dragon spear(kp)
 recol1s=896
 recol1d=18260
@@ -420,7 +392,7 @@ manwear=model_505_obj_wear,0
 womanwear=model_505_obj_wear,6
 iop2=Wield
 
-[obj_3177]
+[banana_left]
 name=Banana left
 desc=Mmm this looks tasty.
 cost=2
@@ -434,11 +406,7 @@ model=inv_bannana
 manwear=obj_3177_manwear,0
 womanwear=obj_3177_manwear,6
 
-[obj_3178]
-certlink=obj_3177
-certtemplate=template_for_cert
-
-[obj_3179]
+[mm_small_ninja_monkey_bones]
 name=Monkey bones
 desc=These are smallish monkey bones.
 members=yes
@@ -449,7 +417,7 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 
-[obj_3180]
+[mm_medium_ninja_monkey_bones]
 name=Monkey bones
 desc=These are medium sized monkey bones.
 members=yes
@@ -460,7 +428,7 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 
-[obj_3181]
+[mm_normal_gorilla_monkey_bones]
 name=Monkey bones
 desc=These are quite large monkey bones.
 members=yes
@@ -470,7 +438,7 @@ model=model_222_obj
 2dxan=216
 iop1=Bury
 
-[obj_3182]
+[mm_bearded_gorilla_monkey_bones]
 name=Monkey bones
 desc=These are quite large monkey bones.
 members=yes
@@ -480,7 +448,7 @@ model=model_222_obj
 2dxan=216
 iop1=Bury
 
-[obj_3183]
+[mm_normal_monkey_bones]
 name=Monkey bones
 desc=These are small monkey bones.
 model=model_2674_obj
@@ -490,11 +458,7 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 
-[obj_3184]
-certlink=obj_3183
-certtemplate=template_for_cert
-
-[obj_3185]
+[mm_small_zombie_monkey_bones]
 name=Monkey bones
 desc=These are smallish monkey bones. They smell extremely nauseating.
 members=yes
@@ -505,7 +469,7 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 
-[obj_3186]
+[mm_large_zombie_monkey_bones]
 name=Monkey bones
 desc=These are smallish monkey bones. They smell extremely nauseating.
 members=yes
@@ -515,7 +479,7 @@ model=model_2674_obj
 2dxan=216
 iop1=Bury
 
-[obj_3187]
+[mm_skeleton_bones]
 name=Bones
 desc=They seem to shake slightly... It might be a good idea to bury them.
 members=yes
@@ -527,7 +491,7 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 
-[obj_3188]
+[tbwt_cleaning_cloth]
 name=Cleaning cloth
 recol1s=27412
 recol1d=26266
@@ -539,11 +503,7 @@ model=model_2725_obj
 2dxan=368
 members=yes
 
-[obj_3189]
-certlink=obj_3188
-certtemplate=template_for_cert
-
-[obj_3190]
+[bronze_halberd]
 name=Bronze halberd
 recol1s=15855
 recol1d=8354
@@ -558,11 +518,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3191]
-certlink=obj_3190
-certtemplate=template_for_cert
-
-[obj_3192]
+[iron_halberd]
 name=Iron halberd
 recol1s=15855
 recol1d=8456
@@ -577,11 +533,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3193]
-certlink=obj_3192
-certtemplate=template_for_cert
-
-[obj_3194]
+[steel_halberd]
 name=Steel halberd
 members=yes
 desc=A steel halberd.
@@ -594,11 +546,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3195]
-certlink=obj_3194
-certtemplate=template_for_cert
-
-[obj_3196]
+[black_halberd]
 name=Black halberd
 recol1s=15855
 recol1d=0
@@ -613,11 +561,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3197]
-certlink=obj_3196
-certtemplate=template_for_cert
-
-[obj_3198]
+[mithril_halberd]
 name=Mithril halberd
 recol1s=15855
 recol1d=6346
@@ -632,11 +576,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3199]
-certlink=obj_3198
-certtemplate=template_for_cert
-
-[obj_3200]
+[adamant_halberd]
 name=Adamant halberd
 recol1s=15855
 recol1d=6438
@@ -651,11 +591,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3201]
-certlink=obj_3200
-certtemplate=template_for_cert
-
-[obj_3202]
+[rune_halberd]
 name=Rune halberd
 recol1s=15855
 recol1d=6476
@@ -670,11 +606,7 @@ womanwear=model_555_npc,6
 2dyan=48
 2dxan=604
 
-[obj_3203]
-certlink=obj_3202
-certtemplate=template_for_cert
-
-[obj_3204]
+[dragon_halberd]
 name=Dragon halberd
 members=yes
 desc=A dragon halberd.
@@ -689,11 +621,7 @@ iop2=Wield
 manwear=obj_3204_manwear,0
 womanwear=obj_3204_manwear,6
 
-[obj_3205]
-certlink=obj_3204
-certtemplate=template_for_cert
-
-[obj_3206]
+[regicide_quest_kings_summons]
 name=King's message
 desc=A summons from King Lathas.
 model=model_2675_obj
@@ -705,7 +633,7 @@ model=model_2675_obj
 cost=1
 iop1=Read
 
-[obj_3207]
+[regicide_iorwerth_message]
 name=Iorwerths message
 desc=A letter for King Lathas from Lord Iorwerth.
 model=model_2675_obj
@@ -718,7 +646,7 @@ members=yes
 cost=1
 iop1=Read
 
-[obj_3208]
+[regicide_crystal_pendant]
 name=Crystal pendant
 desc=Lord Iorwerth's crystal pendant.
 model=model_2515_obj
@@ -733,7 +661,7 @@ iop2=Wear
 manwear=model_283_obj_wear,0
 womanwear=model_447_obj_wear,0
 
-[obj_3209]
+[regicide_sulphar]
 name=Sulphur
 desc=A piece of Sulphur formation.
 model=obj_3209
@@ -744,11 +672,7 @@ model=obj_3209
 2dxan=196
 members=yes
 
-[obj_3210]
-certlink=obj_3209
-certtemplate=template_for_cert
-
-[obj_3211]
+[limestone]
 name=Limestone
 recol1s=11488
 recol1d=14797
@@ -761,11 +685,7 @@ model=obj_3211
 2dxan=220
 members=yes
 
-[obj_3212]
-certlink=obj_3211
-certtemplate=template_for_cert
-
-[obj_3213]
+[regicide_quicklime]
 name=Quicklime
 recol1s=11488
 recol1d=32735
@@ -779,7 +699,7 @@ model=model_2748_obj
 2dxan=368
 members=yes
 
-[obj_3214]
+[regicide_quicklime_dust]
 name=Pot of quicklime
 recol1s=21140
 recol1d=32735
@@ -793,7 +713,7 @@ model=model_2406_obj
 2dxan=368
 members=yes
 
-[obj_3215]
+[regicide_sulphar_dust]
 name=Ground sulphur
 recol1s=21140
 recol1d=31649
@@ -806,7 +726,7 @@ model=model_2742_obj
 2dxan=264
 members=yes
 
-[obj_3216]
+[regicide_barrel_empty]
 name=Barrel
 desc=An empty barrel.
 model=obj_3216
@@ -817,11 +737,7 @@ model=obj_3216
 2dxan=152
 members=yes
 
-[obj_3217]
-certlink=obj_3216
-certtemplate=template_for_cert
-
-[obj_3218]
+[regicide_barrel_lid]
 name=Barrel bomb
 desc=A barrel full of fire oil.
 model=obj_3218
@@ -832,7 +748,7 @@ model=obj_3218
 2dxan=152
 members=yes
 
-[obj_3219]
+[regicide_barrel_lid_fused]
 name=Barrel bomb
 desc=A fused barrel full of fire oil.
 model=obj_3218
@@ -843,7 +759,7 @@ model=obj_3218
 2dxan=152
 members=yes
 
-[obj_3220]
+[regicide_barrel_tar]
 name=Barrel of coal-tar
 desc=A barrel full of coal-tar.
 model=obj_3220
@@ -854,7 +770,7 @@ model=obj_3220
 2dxan=152
 members=yes
 
-[obj_3221]
+[regicide_barrel_naphtha]
 name=Barrel of naphtha
 desc=A barrel full of naphtha.
 model=obj_3221
@@ -865,7 +781,7 @@ model=obj_3221
 2dxan=152
 members=yes
 
-[obj_3222]
+[regicide_barrel_naphtha_sulphar_mix]
 name=Naphtha mix
 recol1s=15855
 recol1d=31649
@@ -878,7 +794,7 @@ model=obj_3221
 2dxan=152
 members=yes
 
-[obj_3223]
+[regicide_barrel_naphtha_quicklime_mix]
 name=Naphtha mix
 recol1s=15855
 recol1d=32767
@@ -891,7 +807,7 @@ model=obj_3221
 2dxan=152
 members=yes
 
-[obj_3224]
+[regicide_cloth]
 name=Cloth
 recol1s=27412
 recol1d=25372
@@ -903,11 +819,7 @@ model=model_2725_obj
 2dxan=368
 members=yes
 
-[obj_3225]
-certlink=obj_3224
-certtemplate=template_for_cert
-
-[obj_3226]
+[raw_rabbit]
 name=Raw rabbit
 desc=I need to cook this first.
 model=model_2760_obj
@@ -919,11 +831,7 @@ model=model_2760_obj
 cost=1
 members=yes
 
-[obj_3227]
-certlink=obj_3226
-certtemplate=template_for_cert
-
-[obj_3228]
+[cooked_rabbit]
 name=Cooked rabbit
 recol1s=24609
 recol1d=16609
@@ -940,11 +848,7 @@ model=model_2760_obj
 2dxan=308
 members=yes
 
-[obj_3229]
-certlink=obj_3228
-certtemplate=template_for_cert
-
-[obj_3230]
+[regicide_alchemy]
 name=Big book of bangs
 recol1s=12504
 recol1d=8384
@@ -959,7 +863,7 @@ model=model_2543_obj
 members=yes
 iop1=Read
 
-[obj_3231]
+[regicide_alchemy_symbol1]
 name=Symbol1
 model=obj_3231
 2dxof=-2
@@ -967,11 +871,7 @@ model=obj_3231
 2dzoom=1890
 2dxan=496
 
-[obj_3232]
-certlink=obj_3231
-certtemplate=template_for_cert
-
-[obj_3233]
+[regicide_alchemy_symbol2]
 name=Symbol2
 model=obj_3233
 2dxof=-2
@@ -979,11 +879,7 @@ model=obj_3233
 2dzoom=1890
 2dxan=496
 
-[obj_3234]
-certlink=obj_3233
-certtemplate=template_for_cert
-
-[obj_3235]
+[regicide_alchemy_symbol3]
 name=Symbol3
 model=obj_3235
 2dxof=-2
@@ -991,11 +887,7 @@ model=obj_3235
 2dzoom=1890
 2dxan=496
 
-[obj_3236]
-certlink=obj_3235
-certtemplate=template_for_cert
-
-[obj_3237]
+[regicide_alchemy_symbol4]
 name=Symbol4
 model=obj_3237
 2dxof=-2
@@ -1003,11 +895,7 @@ model=obj_3237
 2dzoom=1890
 2dxan=496
 
-[obj_3238]
-certlink=obj_3237
-certtemplate=template_for_cert
-
-[obj_3239]
+[hollow_bark]
 name=Bark
 members=yes
 desc=Bark from a hollow tree.
@@ -1016,11 +904,7 @@ model=obj_3239
 2dzan=284
 2dxan=176
 
-[obj_3240]
-certlink=obj_3239
-certtemplate=template_for_cert
-
-[obj_3241]
+[pickpocket_guide_man]
 name=Man
 desc=One of RuneScape's many citizens.
 model=model_53_idk_head
@@ -1030,11 +914,7 @@ model=model_53_idk_head
 2dyan=1876
 2dxan=28
 
-[obj_3242]
-certlink=obj_3241
-certtemplate=template_for_cert
-
-[obj_3243]
+[pickpocket_guide_farmer]
 name=Farmer
 desc=He grows the crops.
 model=model_55_idk_head
@@ -1044,11 +924,7 @@ model=model_55_idk_head
 2dyan=1876
 2dxan=28
 
-[obj_3244]
-certlink=obj_3243
-certtemplate=template_for_cert
-
-[obj_3245]
+[pickpocket_guide_warrior]
 name=Warrior woman
 recol1s=6273
 recol1d=27240
@@ -1060,11 +936,7 @@ model=model_113_idk_head
 2dyan=1856
 2dxan=32
 
-[obj_3246]
-certlink=obj_3245
-certtemplate=template_for_cert
-
-[obj_3247]
+[pickpocket_guide_rogue]
 name=Rogue
 desc=Rogueish.
 model=model_63_idk_head
@@ -1074,11 +946,7 @@ model=model_63_idk_head
 2dyan=1876
 2dxan=28
 
-[obj_3248]
-certlink=obj_3247
-certtemplate=template_for_cert
-
-[obj_3249]
+[pickpocket_guide_guard]
 name=Guard
 recol1s=15855
 recol1d=8354
@@ -1089,11 +957,7 @@ model=model_66_npc_head
 2dyan=1888
 2dxan=16
 
-[obj_3250]
-certlink=obj_3249
-certtemplate=template_for_cert
-
-[obj_3251]
+[pickpocket_guide_knight]
 name=Knight of ardougne
 desc=A member of Ardougne's militia.
 model=model_56_obj_wear
@@ -1103,11 +967,7 @@ model=model_56_obj_wear
 2dyan=1884
 2dxan=2032
 
-[obj_3252]
-certlink=obj_3251
-certtemplate=template_for_cert
-
-[obj_3253]
+[pickpocket_guide_watchman]
 name=Watchman
 desc=Watches stuff. But who watches him?
 model=model_57_obj_wear
@@ -1116,11 +976,7 @@ model=model_57_obj_wear
 2dyan=1912
 2dxan=28
 
-[obj_3254]
-certlink=obj_3253
-certtemplate=template_for_cert
-
-[obj_3255]
+[pickpocket_guide_paladin]
 name=Paladin
 recol1s=6273
 recol1d=27240
@@ -1131,11 +987,7 @@ model=model_55_idk_head
 2dyan=1816
 2dxan=2032
 
-[obj_3256]
-certlink=obj_3255
-certtemplate=template_for_cert
-
-[obj_3257]
+[pickpocket_guide_gnome]
 name=Gnome
 recol1s=15855
 recol1d=8354
@@ -1146,11 +998,7 @@ model=model_21_npc_head
 2dyan=1848
 2dxan=236
 
-[obj_3258]
-certlink=obj_3257
-certtemplate=template_for_cert
-
-[obj_3259]
+[pickpocket_guide_hero]
 name=Hero
 recol1s=15855
 recol1d=8354
@@ -1161,11 +1009,7 @@ model=model_55_idk_head
 2dyan=1816
 2dxan=2032
 
-[obj_3260]
-certlink=obj_3259
-certtemplate=template_for_cert
-
-[obj_3261]
+[eadgar_goutweed_herb]
 name=Goutweed
 recol1s=288
 recol1d=8485
@@ -1180,7 +1024,7 @@ cost=1
 2dyan=2028
 2dxan=540
 
-[obj_3262]
+[eadgar_troll_thistle]
 name=Troll thistle
 model=obj_3262
 desc=It's tough and spiky.
@@ -1194,7 +1038,7 @@ cost=1
 ambient=30
 contrast=30
 
-[obj_3263]
+[eadgar_dried_troll_thistle]
 name=Dried thistle
 recol1s=6400
 recol1d=12614
@@ -1214,7 +1058,7 @@ cost=1
 ambient=30
 contrast=30
 
-[obj_3264]
+[eadgar_ground_troll_thistle]
 name=Ground thistle
 recol1s=21140
 recol1d=10566
@@ -1227,7 +1071,7 @@ cost=1
 2dyan=1892
 2dxan=264
 
-[obj_3265]
+[eadgar_ground_troll_thistle_potion]
 name=Troll potion
 recol1s=15855
 recol1d=10598
@@ -1240,7 +1084,7 @@ model=model_2789_obj
 2dyan=1996
 2dxan=84
 
-[obj_3266]
+[eadgar_drunk_parrot]
 name=Drunk parrot
 desc=It's rather drunk.
 members=yes
@@ -1253,7 +1097,7 @@ model=obj_3266
 ambient=50
 contrast=50
 
-[obj_3267]
+[eadgar_dirty_druid_robe]
 name=Dirty robe
 model=obj_3267
 desc=It's dirty and smelly.
@@ -1265,7 +1109,7 @@ cost=1
 2dyan=116
 2dxan=408
 
-[obj_3268]
+[eadgar_fake_man]
 name=Fake man
 model=obj_3268
 desc=It's good enough to fool a troll.
@@ -1278,7 +1122,7 @@ cost=1
 2dzan=1900
 2dxan=128
 
-[obj_3269]
+[eadgar_troll_storeroom_key]
 name=Storeroom key
 recol1s=14798
 recol1d=17865
@@ -1294,7 +1138,7 @@ cost=1
 2dyan=20
 2dxan=460
 
-[obj_3270]
+[eadgar_alco_chunks]
 name=Alco-chunks
 recol1s=31201
 recol1d=31477
@@ -1309,18 +1153,14 @@ cost=1
 2dzan=36
 2dxan=244
 
-[obj_3271]
+[eadgar_fade_to_black_inv]
 name=Dummy
 model=obj_3271
 2dzoom=130
 2dxan=512
 code10=seq_1255
 
-[obj_3272]
-certlink=obj_3271
-certtemplate=template_for_cert
-
-[obj_3273]
+[01_wind_strike]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1328,7 +1168,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3274]
+[03_confuse]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1336,7 +1176,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3275]
+[05_water_strike]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1344,7 +1184,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3276]
+[07_enchant_amulet_lvl1]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1352,7 +1192,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3277]
+[09_earth_strike]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1360,7 +1200,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3278]
+[11_weaken]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1368,7 +1208,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3279]
+[13_fire_strike]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1376,7 +1216,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3280]
+[15_bones_bananas]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1384,7 +1224,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3281]
+[17_wind_bolt]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1392,7 +1232,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3282]
+[19_curse]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1400,7 +1240,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3283]
+[20_bind]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1408,7 +1248,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3284]
+[21_low_alchemy]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1416,7 +1256,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3285]
+[23_water_bolt]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1424,7 +1264,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3286]
+[25_varrock_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1432,7 +1272,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3287]
+[27_enchant_amulet_lvl2]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1440,7 +1280,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3288]
+[29_earth_bolt]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1448,7 +1288,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3289]
+[31_lumbridge_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1456,7 +1296,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3290]
+[33_tele_grab]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1464,7 +1304,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3291]
+[35_fire_bolt]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1472,7 +1312,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3292]
+[37_falador_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1480,7 +1320,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3293]
+[39_crumble_undead]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1488,7 +1328,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3294]
+[41_wind_blast]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1496,7 +1336,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3295]
+[43_superheat_item]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1504,7 +1344,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3296]
+[45_camelot_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1512,7 +1352,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3297]
+[47_water_blast]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1520,7 +1360,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3298]
+[49_enchant_amulet_lvl3]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1528,7 +1368,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3299]
+[50_iban_blast]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1536,7 +1376,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3300]
+[50_snare]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1544,7 +1384,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3301]
+[51_ardougne_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1552,7 +1392,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3302]
+[53_earth_blast]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1560,7 +1400,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3303]
+[55_high_alchemy]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1568,7 +1408,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3304]
+[56_charge_water_orb]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1576,7 +1416,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3305]
+[57_enchant_amulet_lvl4]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1584,7 +1424,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3306]
+[58_watchtower_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1592,7 +1432,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3307]
+[59_fire_blast]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1600,7 +1440,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3308]
+[60_charge_earth_orb]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1608,7 +1448,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3309]
+[60_claws_of_guthix]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1616,7 +1456,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3310]
+[60_flames_of_zamorak]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1624,7 +1464,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3311]
+[60_saradomin_strike]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1632,7 +1472,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3312]
+[61_trollheim_teleport]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1640,7 +1480,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3313]
+[62_wind_wave]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1648,7 +1488,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3314]
+[63_charge_fire_orb]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1656,7 +1496,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3315]
+[65_water_wave]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1664,7 +1504,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3316]
+[66_charge_air_orb]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1672,7 +1512,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3317]
+[66_vulnerability]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1680,7 +1520,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3318]
+[68_enchant_amulet_lvl5]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1688,7 +1528,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3319]
+[70_earth_wave]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1696,7 +1536,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3320]
+[73_enfeeble]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1704,7 +1544,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3321]
+[75_fire_wave]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1712,7 +1552,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3322]
+[79_entangle]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1720,7 +1560,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3323]
+[80_charge]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1728,7 +1568,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3324]
+[80_stun]
 name=Spell
 model=model_3374_obj
 2dxof=1
@@ -1736,7 +1576,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 
-[obj_3325]
+[vampire_dust]
 name=Vampire dust
 recol1s=21140
 recol1d=7333
@@ -1749,11 +1589,7 @@ model=model_2742_obj
 2dxan=264
 members=yes
 
-[obj_3326]
-certlink=obj_3325
-certtemplate=template_for_cert
-
-[obj_3327]
+[snelm_round_swamp]
 name=Myre snelm
 recol1s=21036
 recol1d=21036
@@ -1779,11 +1615,7 @@ womanwear=obj_3327_womanwear,0
 manhead=obj_3327_manhead
 womanhead=obj_3327_womanhead
 
-[obj_3328]
-certlink=obj_3327
-certtemplate=template_for_cert
-
-[obj_3329]
+[snelm_round_red+black]
 name=Blood'n'tar snelm
 recol1s=21036
 recol1d=2114
@@ -1809,11 +1641,7 @@ womanwear=obj_3327_womanwear,0
 manhead=obj_3327_manhead
 womanhead=obj_3327_womanhead
 
-[obj_3330]
-certlink=obj_3329
-certtemplate=template_for_cert
-
-[obj_3331]
+[snelm_round_yellow]
 name=Ochre snelm
 recol1s=21036
 recol1d=25257
@@ -1839,11 +1667,7 @@ womanwear=obj_3327_womanwear,0
 manhead=obj_3327_manhead
 womanhead=obj_3327_womanhead
 
-[obj_3332]
-certlink=obj_3331
-certtemplate=template_for_cert
-
-[obj_3333]
+[snelm_round_blue]
 name=Bruise blue snelm
 recol1s=21036
 recol1d=14772
@@ -1869,11 +1693,7 @@ womanwear=obj_3327_womanwear,0
 manhead=obj_3327_manhead
 womanhead=obj_3327_womanhead
 
-[obj_3334]
-certlink=obj_3333
-certtemplate=template_for_cert
-
-[obj_3335]
+[snelm_round_orange]
 name=Broken bark snelm
 recol1s=21036
 recol1d=26051
@@ -1899,11 +1719,7 @@ womanwear=obj_3327_womanwear,0
 manhead=obj_3327_manhead
 womanhead=obj_3327_womanhead
 
-[obj_3336]
-certlink=obj_3335
-certtemplate=template_for_cert
-
-[obj_3337]
+[snelm_point_swamp]
 name=Myre snelm
 desc=A swamp coloured pointed snail shell helmet.
 cost=300
@@ -1921,11 +1737,7 @@ womanwear=obj_3337_womanwear,0
 manhead=obj_3337_manhead
 womanhead=obj_3337_womanhead
 
-[obj_3338]
-certlink=obj_3337
-certtemplate=template_for_cert
-
-[obj_3339]
+[snelm_point_red+black]
 name=Blood'n'tar snelm
 recol1s=23148
 recol1d=17474
@@ -1947,11 +1759,7 @@ womanwear=obj_3337_womanwear,0
 manhead=obj_3337_manhead
 womanhead=obj_3337_womanhead
 
-[obj_3340]
-certlink=obj_3339
-certtemplate=template_for_cert
-
-[obj_3341]
+[snelm_point_yellow]
 name=Ochre snelm
 recol1s=23148
 recol1d=25257
@@ -1973,11 +1781,7 @@ womanwear=obj_3337_womanwear,0
 manhead=obj_3337_manhead
 womanhead=obj_3337_womanhead
 
-[obj_3342]
-certlink=obj_3341
-certtemplate=template_for_cert
-
-[obj_3343]
+[snelm_point_blue]
 name=Bruise blue snelm
 recol1s=23148
 recol1d=9488
@@ -1999,11 +1803,7 @@ womanwear=obj_3337_womanwear,0
 manhead=obj_3337_manhead
 womanhead=obj_3337_womanhead
 
-[obj_3344]
-certlink=obj_3343
-certtemplate=template_for_cert
-
-[obj_3345]
+[shellround_swamp]
 name=Blamish myre shell
 recol1s=21036
 recol1d=21036
@@ -2022,11 +1822,7 @@ model=obj_3345
 2dyan=1732
 2dxan=232
 
-[obj_3346]
-certlink=obj_3345
-certtemplate=template_for_cert
-
-[obj_3347]
+[shellround_red+black]
 name=Blamish red shell
 recol1s=21036
 recol1d=4228
@@ -2045,11 +1841,7 @@ model=obj_3345
 2dyan=1732
 2dxan=232
 
-[obj_3348]
-certlink=obj_3347
-certtemplate=template_for_cert
-
-[obj_3349]
+[shellround_yellow]
 name=Blamish ochre shell
 recol1s=21036
 recol1d=25257
@@ -2068,11 +1860,7 @@ model=obj_3345
 2dyan=1732
 2dxan=232
 
-[obj_3350]
-certlink=obj_3349
-certtemplate=template_for_cert
-
-[obj_3351]
+[shellround_blue]
 name=Blamish blue shell
 recol1s=21036
 recol1d=14772
@@ -2091,11 +1879,7 @@ model=obj_3345
 2dyan=1732
 2dxan=232
 
-[obj_3352]
-certlink=obj_3351
-certtemplate=template_for_cert
-
-[obj_3353]
+[shellround_orange]
 name=Blamish bark shell
 recol1s=21036
 recol1d=31201
@@ -2114,11 +1898,7 @@ model=obj_3345
 2dyan=1732
 2dxan=232
 
-[obj_3354]
-certlink=obj_3353
-certtemplate=template_for_cert
-
-[obj_3355]
+[shellpoint_swamp]
 name=Blamish myre shell
 desc=A large 'Myre' coloured blamish snail shell, looks protective.
 cost=150
@@ -2129,11 +1909,7 @@ model=obj_3355
 2dyan=1948
 2dxan=232
 
-[obj_3356]
-certlink=obj_3355
-certtemplate=template_for_cert
-
-[obj_3357]
+[shellpoint_red+black]
 name=Blamish red shell
 recol1s=23148
 recol1d=15492
@@ -2148,11 +1924,7 @@ model=obj_3355
 2dyan=1948
 2dxan=232
 
-[obj_3358]
-certlink=obj_3357
-certtemplate=template_for_cert
-
-[obj_3359]
+[shellpoint_yellow]
 name=Blamish ochre shell
 recol1s=23148
 recol1d=25257
@@ -2167,11 +1939,7 @@ model=obj_3355
 2dyan=1948
 2dxan=232
 
-[obj_3360]
-certlink=obj_3359
-certtemplate=template_for_cert
-
-[obj_3361]
+[shellpoint_blue]
 name=Blamish blue shell
 recol1s=23148
 recol1d=15825
@@ -2186,11 +1954,7 @@ model=obj_3355
 2dyan=1948
 2dxan=232
 
-[obj_3362]
-certlink=obj_3361
-certtemplate=template_for_cert
-
-[obj_3363]
+[snail_corpse1]
 name=Thin snail
 desc=The thin, slimey corpse of a deceased giant snail.
 cost=5
@@ -2201,11 +1965,7 @@ model=obj_3363
 2dyan=1732
 2dxan=220
 
-[obj_3364]
-certlink=obj_3363
-certtemplate=template_for_cert
-
-[obj_3365]
+[snail_corpse2]
 name=Lean snail
 recol1s=13766
 recol1d=11651
@@ -2226,11 +1986,7 @@ model=obj_3363
 2dyan=1732
 2dxan=220
 
-[obj_3366]
-certlink=obj_3365
-certtemplate=template_for_cert
-
-[obj_3367]
+[snail_corpse3]
 name=Fat snail
 recol1s=13766
 recol1d=8516
@@ -2251,11 +2007,7 @@ model=obj_3363
 2dyan=1732
 2dxan=220
 
-[obj_3368]
-certlink=obj_3367
-certtemplate=template_for_cert
-
-[obj_3369]
+[snail_corpse_cooked1]
 name=Thin snail meat
 recol1s=13766
 recol1d=9472
@@ -2277,11 +2029,7 @@ model=obj_3363
 2dxan=220
 iop1=Eat
 
-[obj_3370]
-certlink=obj_3369
-certtemplate=template_for_cert
-
-[obj_3371]
+[snail_corpse_cooked2]
 name=Lean snail meat
 recol1s=13766
 recol1d=14432
@@ -2303,11 +2051,7 @@ model=obj_3363
 2dxan=220
 iop1=Eat
 
-[obj_3372]
-certlink=obj_3371
-certtemplate=template_for_cert
-
-[obj_3373]
+[snail_corpse_cooked3]
 name=Fat snail meat
 recol1s=13766
 recol1d=19681
@@ -2329,11 +2073,7 @@ model=obj_3363
 2dxan=220
 iop1=Eat
 
-[obj_3374]
-certlink=obj_3373
-certtemplate=template_for_cert
-
-[obj_3375]
+[burnt_snail]
 name=Burnt snail
 recol1s=13766
 recol1d=6304
@@ -2354,11 +2094,7 @@ model=obj_3363
 2dyan=1732
 2dxan=220
 
-[obj_3376]
-certlink=obj_3375
-certtemplate=template_for_cert
-
-[obj_3377]
+[empty_dye_bottle]
 name=Sample bottle
 desc=An empty sample bottle.
 cost=5
@@ -2369,11 +2105,7 @@ model=obj_3377
 2dxan=124
 members=yes
 
-[obj_3378]
-certlink=obj_3377
-certtemplate=template_for_cert
-
-[obj_3379]
+[mort_slimey_eel]
 name=Slimey eel
 desc=A slime covered eel - yuck!
 model=obj_3379
@@ -2383,11 +2115,7 @@ model=obj_3379
 2dxan=256
 members=yes
 
-[obj_3380]
-certlink=obj_3379
-certtemplate=template_for_cert
-
-[obj_3381]
+[mort_slimey_eel_cooked]
 name=Cooked slimey eel
 recol1s=5346
 recol1d=16613
@@ -2408,11 +2136,7 @@ model=obj_3379
 members=yes
 iop1=Eat
 
-[obj_3382]
-certlink=obj_3381
-certtemplate=template_for_cert
-
-[obj_3383]
+[burnt_eel]
 name=Burnt eel
 recol1s=5346
 recol1d=6304
@@ -2432,11 +2156,7 @@ model=obj_3379
 2dxan=256
 members=yes
 
-[obj_3384]
-certlink=obj_3383
-certtemplate=template_for_cert
-
-[obj_3385]
+[splitbark_helm]
 name=Splitbark helm
 cost=10000
 desc=A wooden helmet.
@@ -2453,11 +2173,7 @@ members=yes
 2dyan=200
 2dxan=272
 
-[obj_3386]
-certlink=obj_3385
-certtemplate=template_for_cert
-
-[obj_3387]
+[splitbark_body]
 name=Splitbark body
 cost=45000
 desc=Provides good protection.
@@ -2472,11 +2188,7 @@ members=yes
 2dzoom=1050
 2dxan=276
 
-[obj_3388]
-certlink=obj_3387
-certtemplate=template_for_cert
-
-[obj_3389]
+[splitbark_legs]
 name=Splitbark legs
 cost=40000
 desc=These should protect my legs.
@@ -2490,11 +2202,7 @@ members=yes
 2dzoom=1320
 2dxan=252
 
-[obj_3390]
-certlink=obj_3389
-certtemplate=template_for_cert
-
-[obj_3391]
+[splitbark_gauntlets]
 name=Splitbark gauntlets
 cost=5000
 model=obj_3391
@@ -2508,11 +2216,7 @@ members=yes
 2dyan=284
 2dxan=308
 
-[obj_3392]
-certlink=obj_3391
-certtemplate=template_for_cert
-
-[obj_3393]
+[splitbark_greaves]
 name=Splitbark greaves
 cost=5000
 model=obj_3393
@@ -2526,11 +2230,7 @@ members=yes
 2dyan=192
 2dxan=168
 
-[obj_3394]
-certlink=obj_3393
-certtemplate=template_for_cert
-
-[obj_3395]
+[serum_book]
 name=Diary
 recol1s=13472
 recol1d=6272
@@ -2550,7 +2250,7 @@ iop1=Read
 2dxan=244
 members=yes
 
-[obj_3396]
+[shade_bones1]
 name=Loar remains
 recol1s=24309
 recol1d=256
@@ -2563,11 +2263,7 @@ model=model_2595_obj
 2dxan=320
 members=yes
 
-[obj_3397]
-certlink=obj_3396
-certtemplate=template_for_cert
-
-[obj_3398]
+[shade_bones2]
 name=Phrin remains
 recol1s=24309
 recol1d=3137
@@ -2580,11 +2276,7 @@ model=model_2595_obj
 2dxan=320
 members=yes
 
-[obj_3399]
-certlink=obj_3398
-certtemplate=template_for_cert
-
-[obj_3400]
+[shade_bones3]
 name=Riyl remains
 recol1s=24309
 recol1d=5120
@@ -2597,11 +2289,7 @@ model=model_2595_obj
 2dxan=320
 members=yes
 
-[obj_3401]
-certlink=obj_3400
-certtemplate=template_for_cert
-
-[obj_3402]
+[shade_bones4]
 name=Asyn remains
 recol1s=24309
 recol1d=1068
@@ -2614,11 +2302,7 @@ model=model_2595_obj
 2dxan=320
 members=yes
 
-[obj_3403]
-certlink=obj_3402
-certtemplate=template_for_cert
-
-[obj_3404]
+[shade_bones5]
 name=Fiyr remains
 recol1s=24309
 recol1d=6342
@@ -2631,11 +2315,7 @@ model=model_2595_obj
 2dxan=320
 members=yes
 
-[obj_3405]
-certlink=obj_3404
-certtemplate=template_for_cert
-
-[obj_3406]
+[ashesvial]
 name=Unfinished potion
 recol1s=15855
 recol1d=26416
@@ -2648,11 +2328,7 @@ model=model_2789_obj
 2dxan=84
 members=yes
 
-[obj_3407]
-certlink=obj_3406
-certtemplate=template_for_cert
-
-[obj_3408]
+[mort_serum4]
 name=Serum 207 (4)
 recol1s=15855
 recol1d=400
@@ -2665,11 +2341,7 @@ model=model_2789_obj
 2dxan=84
 members=yes
 
-[obj_3409]
-certlink=obj_3408
-certtemplate=template_for_cert
-
-[obj_3410]
+[mort_serum3]
 name=Serum 207 (3)
 recol1s=15855
 recol1d=400
@@ -2682,11 +2354,7 @@ model=model_2697_obj
 2dxan=84
 members=yes
 
-[obj_3411]
-certlink=obj_3410
-certtemplate=template_for_cert
-
-[obj_3412]
+[mort_serum2]
 name=Serum 207 (2)
 recol1s=15855
 recol1d=400
@@ -2699,11 +2367,7 @@ model=model_2384_obj
 2dxan=84
 members=yes
 
-[obj_3413]
-certlink=obj_3412
-certtemplate=template_for_cert
-
-[obj_3414]
+[mort_serum1]
 name=Serum 207 (1)
 recol1s=15855
 recol1d=400
@@ -2716,11 +2380,7 @@ model=model_2621_obj
 2dxan=84
 members=yes
 
-[obj_3415]
-certlink=obj_3414
-certtemplate=template_for_cert
-
-[obj_3416]
+[mort_serum_perm4]
 name=Serum 207(p) (4)
 recol1s=15855
 recol1d=479
@@ -2733,7 +2393,7 @@ model=model_2789_obj
 2dxan=84
 members=yes
 
-[obj_3417]
+[mort_serum_perm3]
 name=Serum 207(p) (3)
 recol1s=15855
 recol1d=479
@@ -2746,7 +2406,7 @@ model=model_2697_obj
 2dxan=84
 members=yes
 
-[obj_3418]
+[mort_serum_perm2]
 name=Serum 207(p) (2)
 recol1s=15855
 recol1d=479
@@ -2759,7 +2419,7 @@ model=model_2384_obj
 2dxan=84
 members=yes
 
-[obj_3419]
+[mort_serum_perm1]
 name=Serum 207(p) (1)
 recol1s=15855
 recol1d=479
@@ -2772,7 +2432,7 @@ model=model_2621_obj
 2dxan=84
 members=yes
 
-[obj_3420]
+[limestonebrick]
 name=Limestone brick
 recol1s=5285
 recol1d=14797
@@ -2786,11 +2446,7 @@ model=model_2510_obj
 2dxan=200
 members=yes
 
-[obj_3421]
-certlink=obj_3420
-certtemplate=template_for_cert
-
-[obj_3422]
+[oliveoil4]
 name=Olive oil(4)
 recol1s=15855
 recol1d=22465
@@ -2803,11 +2459,7 @@ model=model_2789_obj
 2dxan=84
 members=yes
 
-[obj_3423]
-certlink=obj_3422
-certtemplate=template_for_cert
-
-[obj_3424]
+[oliveoil3]
 name=Olive oil(3)
 recol1s=15855
 recol1d=22465
@@ -2820,11 +2472,7 @@ model=model_2697_obj
 2dxan=84
 members=yes
 
-[obj_3425]
-certlink=obj_3424
-certtemplate=template_for_cert
-
-[obj_3426]
+[oliveoil2]
 name=Olive oil(2)
 recol1s=15855
 recol1d=22465
@@ -2837,11 +2485,7 @@ model=model_2384_obj
 2dxan=84
 members=yes
 
-[obj_3427]
-certlink=obj_3426
-certtemplate=template_for_cert
-
-[obj_3428]
+[oliveoil1]
 name=Olive oil(1)
 recol1s=15855
 recol1d=22465
@@ -2854,11 +2498,7 @@ model=model_2621_obj
 2dxan=84
 members=yes
 
-[obj_3429]
-certlink=obj_3428
-certtemplate=template_for_cert
-
-[obj_3430]
+[sacred_oil4]
 name=Sacred oil(4)
 recol1s=15855
 recol1d=11809
@@ -2871,11 +2511,7 @@ model=model_2789_obj
 2dxan=84
 members=yes
 
-[obj_3431]
-certlink=obj_3430
-certtemplate=template_for_cert
-
-[obj_3432]
+[sacred_oil3]
 name=Sacred oil(3)
 recol1s=15855
 recol1d=11809
@@ -2888,11 +2524,7 @@ model=model_2697_obj
 2dxan=84
 members=yes
 
-[obj_3433]
-certlink=obj_3432
-certtemplate=template_for_cert
-
-[obj_3434]
+[sacred_oil2]
 name=Sacred oil(2)
 recol1s=15855
 recol1d=11809
@@ -2905,11 +2537,7 @@ model=model_2384_obj
 2dxan=84
 members=yes
 
-[obj_3435]
-certlink=obj_3434
-certtemplate=template_for_cert
-
-[obj_3436]
+[sacred_oil1]
 name=Sacred oil(1)
 recol1s=15855
 recol1d=11809
@@ -2922,11 +2550,7 @@ model=model_2621_obj
 2dxan=84
 members=yes
 
-[obj_3437]
-certlink=obj_3436
-certtemplate=template_for_cert
-
-[obj_3438]
+[logs_pyre]
 name=Pyre logs
 recol1s=15617
 recol1d=10400
@@ -2940,11 +2564,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3439]
-certlink=obj_3438
-certtemplate=template_for_cert
-
-[obj_3440]
+[oak_logs_pyre]
 name=Oak pyre logs
 recol1s=15617
 recol1d=11490
@@ -2958,11 +2578,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3441]
-certlink=obj_3440
-certtemplate=template_for_cert
-
-[obj_3442]
+[willow_logs_pyre]
 name=Willow pyre logs
 recol1s=15617
 recol1d=9378
@@ -2976,11 +2592,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3443]
-certlink=obj_3442
-certtemplate=template_for_cert
-
-[obj_3444]
+[maple_logs_pyre]
 name=Maple pyre logs
 recol1s=15617
 recol1d=9344
@@ -2994,11 +2606,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3445]
-certlink=obj_3444
-certtemplate=template_for_cert
-
-[obj_3446]
+[yew_logs_pyre]
 name=Yew pyre logs
 recol1s=15617
 recol1d=10467
@@ -3012,11 +2620,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3447]
-certlink=obj_3446
-certtemplate=template_for_cert
-
-[obj_3448]
+[magic_logs_pyre]
 name=Magic pyre logs
 recol1s=15617
 recol1d=10434
@@ -3031,11 +2635,7 @@ model=model_2800_obj
 2dxan=280
 members=yes
 
-[obj_3449]
-certlink=obj_3448
-certtemplate=template_for_cert
-
-[obj_3450]
+[shadekey_bronze_bloodred]
 name=Bronze key red
 recol1s=31401
 recol1d=8354
@@ -3056,7 +2656,7 @@ model=obj_3450
 cost=81
 members=yes
 
-[obj_3451]
+[shadekey_bronze_brown]
 name=Bronze key brown
 recol1s=31401
 recol1d=8354
@@ -3077,7 +2677,7 @@ model=obj_3450
 cost=82
 members=yes
 
-[obj_3452]
+[shadekey_bronze_crimson]
 name=Bronze key crimson
 recol1s=31401
 recol1d=8354
@@ -3098,7 +2698,7 @@ model=obj_3450
 cost=83
 members=yes
 
-[obj_3453]
+[shadekey_bronze_black]
 name=Bronze key black
 recol1s=31401
 recol1d=8354
@@ -3119,7 +2719,7 @@ model=obj_3450
 cost=84
 members=yes
 
-[obj_3454]
+[shadekey_bronze_purple]
 name=Bronze key purple
 recol1s=31401
 recol1d=8354
@@ -3140,7 +2740,7 @@ model=obj_3450
 cost=85
 members=yes
 
-[obj_3455]
+[shadekey_steel_bloodred]
 name=Steel key red
 recol1s=31401
 recol1d=10570
@@ -3161,7 +2761,7 @@ model=obj_3450
 cost=86
 members=yes
 
-[obj_3456]
+[shadekey_steel_brown]
 name=Steel key brown
 recol1s=31401
 recol1d=10570
@@ -3182,7 +2782,7 @@ model=obj_3450
 cost=87
 members=yes
 
-[obj_3457]
+[shadekey_steel_crimson]
 name=Steel key crimson
 recol1s=31401
 recol1d=10570
@@ -3203,7 +2803,7 @@ model=obj_3450
 cost=88
 members=yes
 
-[obj_3458]
+[shadekey_steel_black]
 name=Steel key black
 recol1s=31401
 recol1d=10570
@@ -3224,7 +2824,7 @@ model=obj_3450
 cost=89
 members=yes
 
-[obj_3459]
+[shadekey_steel_purple]
 name=Steel key purple
 recol1s=31401
 recol1d=10570
@@ -3245,7 +2845,7 @@ model=obj_3450
 cost=90
 members=yes
 
-[obj_3460]
+[shadekey_black_bloodred]
 name=Black key red
 recol1s=31401
 recol1d=0
@@ -3266,7 +2866,7 @@ model=obj_3450
 cost=91
 members=yes
 
-[obj_3461]
+[shadekey_black_brown]
 name=Black key brown
 recol1s=31401
 recol1d=0
@@ -3287,7 +2887,7 @@ model=obj_3450
 cost=92
 members=yes
 
-[obj_3462]
+[shadekey_black_crimson]
 name=Black key crimson
 recol1s=31401
 recol1d=0
@@ -3308,7 +2908,7 @@ model=obj_3450
 cost=93
 members=yes
 
-[obj_3463]
+[shadekey_black_black]
 name=Black key black
 recol1s=31401
 recol1d=0
@@ -3329,7 +2929,7 @@ model=obj_3450
 cost=94
 members=yes
 
-[obj_3464]
+[shadekey_black_purple]
 name=Black key purple
 recol1s=31401
 recol1d=0
@@ -3350,7 +2950,7 @@ model=obj_3450
 cost=95
 members=yes
 
-[obj_3465]
+[shadekey_silver_bloodred]
 name=Silver key red
 recol1s=31401
 recol1d=19028
@@ -3371,7 +2971,7 @@ model=obj_3450
 cost=96
 members=yes
 
-[obj_3466]
+[shadekey_silver_brown]
 name=Silver key brown
 recol1s=31401
 recol1d=19028
@@ -3392,7 +2992,7 @@ model=obj_3450
 cost=97
 members=yes
 
-[obj_3467]
+[shadekey_silver_crimson]
 name=Silver key crimson
 recol1s=31401
 recol1d=19028
@@ -3413,7 +3013,7 @@ model=obj_3450
 cost=98
 members=yes
 
-[obj_3468]
+[shadekey_silver_black]
 name=Silver key black
 recol1s=31401
 recol1d=19028
@@ -3434,7 +3034,7 @@ model=obj_3450
 cost=99
 members=yes
 
-[obj_3469]
+[shadekey_silver_purple]
 name=Silver key purple
 recol1s=31401
 recol1d=19028
@@ -3455,7 +3055,7 @@ model=obj_3450
 cost=100
 members=yes
 
-[obj_3470]
+[fine_cloth]
 name=Fine cloth
 desc=Amazingly untouched by time.
 model=obj_3470
@@ -3465,11 +3065,7 @@ model=obj_3470
 cost=500
 members=yes
 
-[obj_3471]
-certlink=obj_3470
-certtemplate=template_for_cert
-
-[obj_3472]
+[black_plateskirt_trim]
 name=Black plateskirt (t)
 recol1s=15855
 recol1d=2114
@@ -3490,7 +3086,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3473]
+[black_plateskirt_gold]
 name=Black plateskirt (g)
 recol1s=15855
 recol1d=2114
@@ -3511,7 +3107,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3474]
+[adamant_plateskirt_trim]
 name=Adam plateskirt (t)
 recol1s=15855
 recol1d=6438
@@ -3532,7 +3128,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3475]
+[adamant_plateskirt_gold]
 name=Adam plateskirt (g)
 recol1s=15855
 recol1d=6438
@@ -3553,7 +3149,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3476]
+[rune_plateskirt_gold]
 name=Rune plateskirt (g)
 recol1s=15855
 recol1d=6476
@@ -3574,7 +3170,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3477]
+[rune_plateskirt_trim]
 name=Rune plateskirt (t)
 recol1s=15855
 recol1d=6476
@@ -3595,7 +3191,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3478]
+[rune_plateskirt_zamorak]
 name=Zamorak plateskirt
 recol1s=15855
 recol1d=6476
@@ -3616,7 +3212,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3479]
+[rune_plateskirt_saradomin]
 name=Saradomin skirt
 recol1s=15855
 recol1d=6476
@@ -3637,7 +3233,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3480]
+[rune_plateskirt_guthix]
 name=Guthix plateskirt
 recol1s=15855
 recol1d=6476
@@ -3658,7 +3254,7 @@ iop2=Wear
 manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 
-[obj_3481]
+[rune_platebody_goldplate]
 name=Gilded platebody
 recol1s=15855
 recol1d=31366
@@ -3679,11 +3275,7 @@ womanwear=model_3383_obj_wear,0
 womanwear2=model_344_obj_wear
 members=yes
 
-[obj_3482]
-certlink=obj_3481
-certtemplate=template_for_cert
-
-[obj_3483]
+[rune_platelegs_goldplate]
 name=Gilded platelegs
 recol1s=15855
 recol1d=31366
@@ -3702,11 +3294,7 @@ manwear=model_268_obj_wear,0
 womanwear=model_432_obj_wear,0
 members=yes
 
-[obj_3484]
-certlink=obj_3483
-certtemplate=template_for_cert
-
-[obj_3485]
+[rune_plateskirt_goldplate]
 name=Gilded plateskirt
 recol1s=15855
 recol1d=31366
@@ -3728,7 +3316,7 @@ manwear=obj_3472_manwear,0
 womanwear=obj_3472_womanwear,0
 members=yes
 
-[obj_3486]
+[rune_full_helm_goldplate]
 name=Gilded full helm
 recol1s=15855
 recol1d=31366
@@ -3749,11 +3337,7 @@ manhead=model_56_obj_wear
 womanhead=model_116_obj_wear
 members=yes
 
-[obj_3487]
-certlink=obj_3486
-certtemplate=template_for_cert
-
-[obj_3488]
+[rune_kiteshield_goldplate]
 name=Gilded kiteshield
 recol1s=15855
 recol1d=31366
@@ -3774,11 +3358,7 @@ manwear=model_486_obj_wear,0
 womanwear=model_486_obj_wear,6
 members=yes
 
-[obj_3489]
-certlink=obj_3488
-certtemplate=template_for_cert
-
-[obj_3490]
+[trail_clue_easy_vague006]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3790,7 +3370,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3491]
+[trail_clue_easy_vague007]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3802,7 +3382,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3492]
+[trail_clue_easy_vague008]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3814,7 +3394,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3493]
+[trail_clue_easy_vague009]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3826,7 +3406,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3494]
+[trail_clue_easy_vague010]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3838,7 +3418,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3495]
+[trail_clue_easy_vague011]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3850,7 +3430,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3496]
+[trail_clue_easy_vague012]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3862,7 +3442,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3497]
+[trail_clue_easy_vague013]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3874,7 +3454,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3498]
+[trail_clue_easy_vague014]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3886,7 +3466,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3499]
+[trail_clue_easy_vague015]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3898,7 +3478,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3500]
+[trail_clue_easy_vague016]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3910,7 +3490,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3501]
+[trail_clue_easy_vague017]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3922,7 +3502,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3502]
+[trail_clue_easy_vague018]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3934,7 +3514,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3503]
+[trail_clue_easy_vague019]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3946,7 +3526,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3504]
+[trail_clue_easy_vague020]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3958,7 +3538,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3505]
+[trail_clue_easy_vague021]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3970,7 +3550,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3506]
+[trail_clue_easy_vague022]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3982,7 +3562,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3507]
+[trail_clue_easy_vague023]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -3994,7 +3574,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3508]
+[trail_clue_easy_vague024]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4006,7 +3586,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3509]
+[trail_clue_easy_vague025]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4018,7 +3598,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3510]
+[trail_clue_easy_vague026]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4030,7 +3610,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3511]
+[trail_clue_easy_vague026_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4043,7 +3623,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3512]
+[trail_clue_easy_vague027]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4055,7 +3635,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3513]
+[trail_clue_easy_vague028]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4067,7 +3647,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3514]
+[trail_clue_easy_vague029]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4079,7 +3659,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3515]
+[trail_clue_easy_vague030]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4091,7 +3671,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3516]
+[trail_clue_easy_map004]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4103,7 +3683,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3517]
+[trail_clue_easy_map004_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4116,7 +3696,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3518]
+[trail_clue_easy_map005]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4128,7 +3708,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3519]
+[trail_clue_easy_map005_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4141,7 +3721,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3520]
+[trail_clue_hard_map002]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4153,7 +3733,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3521]
+[trail_clue_hard_map002_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4166,7 +3746,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3522]
+[trail_clue_hard_map003]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4178,7 +3758,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3523]
+[trail_clue_hard_map003_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4191,7 +3771,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3524]
+[trail_clue_hard_map004]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4203,7 +3783,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3525]
+[trail_clue_hard_map005]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -4215,7 +3795,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3526]
+[trail_clue_hard_sextant014]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4227,7 +3807,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3527]
+[trail_clue_hard_sextant014_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4240,7 +3820,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3528]
+[trail_clue_hard_sextant015]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4252,7 +3832,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3529]
+[trail_clue_hard_sextant015_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4265,7 +3845,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3530]
+[trail_clue_hard_sextant016]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4277,7 +3857,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3531]
+[trail_clue_hard_sextant016_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4290,7 +3870,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3532]
+[trail_clue_hard_sextant017]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4302,7 +3882,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3533]
+[trail_clue_hard_sextant017_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4315,7 +3895,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3534]
+[trail_clue_hard_sextant018]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4327,7 +3907,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3535]
+[trail_clue_hard_sextant018_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4340,7 +3920,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3536]
+[trail_clue_hard_sextant019]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4352,7 +3932,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3537]
+[trail_clue_hard_sextant019_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4365,7 +3945,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3538]
+[trail_clue_hard_sextant020]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4377,7 +3957,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3539]
+[trail_clue_hard_sextant020_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4390,7 +3970,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3540]
+[trail_clue_hard_sextant021]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4402,7 +3982,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3541]
+[trail_clue_hard_sextant021_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4415,7 +3995,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3542]
+[trail_clue_hard_sextant022]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4427,7 +4007,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3543]
+[trail_clue_hard_sextant022_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4440,7 +4020,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3544]
+[trail_clue_hard_sextant023]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4452,7 +4032,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3545]
+[trail_clue_hard_sextant023_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4465,7 +4045,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3546]
+[trail_clue_hard_sextant024]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4477,7 +4057,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3547]
+[trail_clue_hard_sextant024_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4490,7 +4070,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3548]
+[trail_clue_hard_sextant025]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4502,7 +4082,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3549]
+[trail_clue_hard_sextant025_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4515,7 +4095,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3550]
+[trail_clue_hard_sextant026]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4527,7 +4107,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3551]
+[trail_clue_hard_sextant026_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4540,7 +4120,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3552]
+[trail_clue_hard_sextant027]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4552,7 +4132,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3553]
+[trail_clue_hard_sextant027_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4565,7 +4145,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3554]
+[trail_clue_hard_sextant028]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4577,7 +4157,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3555]
+[trail_clue_hard_sextant028_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4590,7 +4170,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3556]
+[trail_clue_hard_sextant029]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4602,7 +4182,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3557]
+[trail_clue_hard_sextant029_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4615,7 +4195,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3558]
+[trail_clue_hard_sextant030]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4627,7 +4207,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3559]
+[trail_clue_hard_sextant030_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4640,7 +4220,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3560]
+[trail_clue_hard_sextant031]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4652,7 +4232,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3561]
+[trail_clue_hard_sextant031_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4665,7 +4245,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3562]
+[trail_clue_hard_sextant032]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4677,7 +4257,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3563]
+[trail_clue_hard_sextant032_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4690,7 +4270,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3564]
+[trail_clue_hard_riddle018]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4702,7 +4282,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3565]
+[trail_clue_hard_riddle018_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4714,7 +4294,7 @@ model=obj_3565
 2dxan=420
 iop1=Open
 
-[obj_3566]
+[trail_clue_hard_riddle019]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4726,7 +4306,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3567]
+[trail_clue_hard_riddle019_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4738,7 +4318,7 @@ model=obj_3565
 2dxan=420
 iop1=Open
 
-[obj_3568]
+[trail_clue_hard_riddle020]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4750,7 +4330,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3569]
+[trail_clue_hard_riddle020_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4762,7 +4342,7 @@ model=obj_3569
 2dxan=420
 iop1=Open
 
-[obj_3570]
+[trail_clue_hard_riddle021]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4774,7 +4354,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3571]
+[trail_clue_hard_riddle021_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4786,7 +4366,7 @@ model=obj_3569
 2dxan=420
 iop1=Open
 
-[obj_3572]
+[trail_clue_hard_riddle022]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4798,7 +4378,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3573]
+[trail_clue_hard_riddle023]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4810,7 +4390,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3574]
+[trail_clue_hard_riddle024]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4822,7 +4402,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3575]
+[trail_clue_hard_riddle025]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4834,7 +4414,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3576]
+[trail_clue_hard_riddle025_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4846,7 +4426,7 @@ model=obj_3569
 2dxan=420
 iop1=Open
 
-[obj_3577]
+[trail_clue_hard_riddle026]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4858,7 +4438,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3578]
+[trail_clue_hard_riddle026_puzzlebox]
 name=Puzzle box
 desc=I need to solve this!
 cost=100
@@ -4870,7 +4450,7 @@ model=obj_3565
 2dxan=420
 iop1=Open
 
-[obj_3579]
+[trail_clue_hard_riddle027]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4882,7 +4462,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3580]
+[trail_clue_hard_riddle028]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -4894,7 +4474,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3581]
+[trail_clue_hard_riddle028_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4907,7 +4487,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3582]
+[trail_clue_medium_sextant014]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4919,7 +4499,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3583]
+[trail_clue_medium_sextant014_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4932,7 +4512,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3584]
+[trail_clue_medium_sextant015]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4944,7 +4524,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3585]
+[trail_clue_medium_sextant015_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4957,7 +4537,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3586]
+[trail_clue_medium_sextant016]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4969,7 +4549,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3587]
+[trail_clue_medium_sextant016_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -4982,7 +4562,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3588]
+[trail_clue_medium_sextant017]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -4994,7 +4574,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3589]
+[trail_clue_medium_sextant017_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5007,7 +4587,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3590]
+[trail_clue_medium_sextant018]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -5019,7 +4599,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3591]
+[trail_clue_medium_sextant018_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5032,7 +4612,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3592]
+[trail_clue_medium_sextant019]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -5044,7 +4624,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3593]
+[trail_clue_medium_sextant019_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5057,7 +4637,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3594]
+[trail_clue_medium_sextant020]
 name=Clue scroll
 desc=Perhaps someone at the observatory can teach me to navigate?
 cost=1
@@ -5069,7 +4649,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3595]
+[trail_clue_medium_sextant020_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5082,7 +4662,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3596]
+[trail_clue_medium_map003]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -5094,7 +4674,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3597]
+[trail_clue_medium_map003_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5107,7 +4687,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3598]
+[trail_clue_medium_map004]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -5119,7 +4699,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3599]
+[trail_clue_medium_map005]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -5131,7 +4711,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3600]
+[trail_clue_medium_map005_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5144,7 +4724,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3601]
+[trail_clue_medium_map006]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -5156,7 +4736,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3602]
+[trail_clue_medium_map007]
 name=Clue scroll
 desc=Part of the world map, but where?
 cost=1
@@ -5168,7 +4748,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3603]
+[trail_clue_medium_map007_casket]
 name=Casket
 desc=I hope there's treasure in it.
 model=model_2450_obj
@@ -5181,7 +4761,7 @@ cost=50
 iop1=Open
 members=yes
 
-[obj_3604]
+[trail_clue_medium_riddle006]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5193,7 +4773,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3605]
+[trail_clue_medium_riddle007]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5205,7 +4785,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3606]
+[trail_clue_medium_riddle007_key]
 name=Key
 desc=A key to some drawers.
 members=yes
@@ -5217,7 +4797,7 @@ model=model_2372_obj
 2dyan=20
 2dxan=328
 
-[obj_3607]
+[trail_clue_medium_riddle008]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5229,7 +4809,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3608]
+[trail_clue_medium_riddle008_key]
 name=Key
 desc=A key to some drawers.
 members=yes
@@ -5241,7 +4821,7 @@ model=model_2372_obj
 2dyan=20
 2dxan=328
 
-[obj_3609]
+[trail_clue_medium_riddle009]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5253,7 +4833,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3610]
+[trail_clue_medium_riddle010]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5265,7 +4845,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3611]
+[trail_clue_medium_anagram013]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5277,7 +4857,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3612]
+[trail_clue_medium_anagram014]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5289,7 +4869,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3613]
+[trail_clue_medium_anagram015]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5301,7 +4881,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3614]
+[trail_clue_medium_anagram016]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5313,7 +4893,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3615]
+[trail_clue_medium_anagram017]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5325,7 +4905,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3616]
+[trail_clue_medium_anagram018]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5337,7 +4917,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3617]
+[trail_clue_medium_anagram019]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5349,7 +4929,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3618]
+[trail_clue_medium_anagram020]
 name=Clue scroll
 desc=A clue!
 cost=1
@@ -5361,7 +4941,7 @@ model=model_3374_obj
 2dxan=360
 iop1=Read
 
-[obj_3619]
+[trail_slidingpuzzlec01]
 name=Sliding piece
 model=obj_3619
 2dxof=-1
@@ -5371,7 +4951,7 @@ model=obj_3619
 iop5=Move
 members=yes
 
-[obj_3620]
+[trail_slidingpuzzlec02]
 name=Sliding piece
 model=obj_3620
 2dxof=-1
@@ -5381,7 +4961,7 @@ model=obj_3620
 iop5=Move
 members=yes
 
-[obj_3621]
+[trail_slidingpuzzlec03]
 name=Sliding piece
 model=obj_3621
 2dxof=-1
@@ -5391,7 +4971,7 @@ model=obj_3621
 iop5=Move
 members=yes
 
-[obj_3622]
+[trail_slidingpuzzlec04]
 name=Sliding piece
 model=obj_3622
 2dxof=-1
@@ -5401,7 +4981,7 @@ model=obj_3622
 iop5=Move
 members=yes
 
-[obj_3623]
+[trail_slidingpuzzlec05]
 name=Sliding piece
 model=obj_3623
 2dxof=-1
@@ -5411,7 +4991,7 @@ model=obj_3623
 iop5=Move
 members=yes
 
-[obj_3624]
+[trail_slidingpuzzlec06]
 name=Sliding piece
 model=obj_3624
 2dxof=-1
@@ -5421,7 +5001,7 @@ model=obj_3624
 iop5=Move
 members=yes
 
-[obj_3625]
+[trail_slidingpuzzlec07]
 name=Sliding piece
 model=obj_3625
 2dxof=-1
@@ -5431,7 +5011,7 @@ model=obj_3625
 iop5=Move
 members=yes
 
-[obj_3626]
+[trail_slidingpuzzlec08]
 name=Sliding piece
 model=obj_3626
 2dxof=-1
@@ -5441,7 +5021,7 @@ model=obj_3626
 iop5=Move
 members=yes
 
-[obj_3627]
+[trail_slidingpuzzlec09]
 name=Sliding piece
 model=obj_3627
 2dxof=-1
@@ -5451,7 +5031,7 @@ model=obj_3627
 iop5=Move
 members=yes
 
-[obj_3628]
+[trail_slidingpuzzlec10]
 name=Sliding piece
 model=obj_3628
 2dxof=-1
@@ -5461,7 +5041,7 @@ model=obj_3628
 iop5=Move
 members=yes
 
-[obj_3629]
+[trail_slidingpuzzlec11]
 name=Sliding piece
 model=obj_3629
 2dxof=-1
@@ -5471,7 +5051,7 @@ model=obj_3629
 iop5=Move
 members=yes
 
-[obj_3630]
+[trail_slidingpuzzlec12]
 name=Sliding piece
 model=obj_3630
 2dxof=-1
@@ -5481,7 +5061,7 @@ model=obj_3630
 iop5=Move
 members=yes
 
-[obj_3631]
+[trail_slidingpuzzlec13]
 name=Sliding piece
 model=obj_3631
 2dxof=-1
@@ -5491,7 +5071,7 @@ model=obj_3631
 iop5=Move
 members=yes
 
-[obj_3632]
+[trail_slidingpuzzlec14]
 name=Sliding piece
 model=obj_3632
 2dxof=-1
@@ -5501,7 +5081,7 @@ model=obj_3632
 iop5=Move
 members=yes
 
-[obj_3633]
+[trail_slidingpuzzlec15]
 name=Sliding piece
 model=obj_3633
 2dxof=-1
@@ -5511,7 +5091,7 @@ model=obj_3633
 iop5=Move
 members=yes
 
-[obj_3634]
+[trail_slidingpuzzlec16]
 name=Sliding piece
 model=obj_3634
 2dxof=-1
@@ -5521,7 +5101,7 @@ model=obj_3634
 iop5=Move
 members=yes
 
-[obj_3635]
+[trail_slidingpuzzlec17]
 name=Sliding piece
 model=obj_3635
 2dxof=-1
@@ -5531,7 +5111,7 @@ model=obj_3635
 iop5=Move
 members=yes
 
-[obj_3636]
+[trail_slidingpuzzlec18]
 name=Sliding piece
 model=obj_3636
 2dxof=-1
@@ -5541,7 +5121,7 @@ model=obj_3636
 iop5=Move
 members=yes
 
-[obj_3637]
+[trail_slidingpuzzlec19]
 name=Sliding piece
 model=obj_3637
 2dxof=-1
@@ -5551,7 +5131,7 @@ model=obj_3637
 iop5=Move
 members=yes
 
-[obj_3638]
+[trail_slidingpuzzlec20]
 name=Sliding piece
 model=obj_3638
 2dxof=-1
@@ -5561,7 +5141,7 @@ model=obj_3638
 iop5=Move
 members=yes
 
-[obj_3639]
+[trail_slidingpuzzlec21]
 name=Sliding piece
 model=obj_3639
 2dxof=-1
@@ -5571,7 +5151,7 @@ model=obj_3639
 iop5=Move
 members=yes
 
-[obj_3640]
+[trail_slidingpuzzlec22]
 name=Sliding piece
 model=obj_3640
 2dxof=-1
@@ -5581,7 +5161,7 @@ model=obj_3640
 iop5=Move
 members=yes
 
-[obj_3641]
+[trail_slidingpuzzlec23]
 name=Sliding piece
 model=obj_3641
 2dxof=-1
@@ -5591,7 +5171,7 @@ model=obj_3641
 iop5=Move
 members=yes
 
-[obj_3642]
+[trail_slidingpuzzlec24]
 name=Sliding piece
 model=obj_3642
 2dxof=-1
@@ -5601,7 +5181,7 @@ model=obj_3642
 iop5=Move
 members=yes
 
-[obj_3643]
+[trail_slidingpuzzled01]
 name=Sliding piece
 model=obj_3643
 2dxof=-1
@@ -5611,7 +5191,7 @@ model=obj_3643
 iop5=Move
 members=yes
 
-[obj_3644]
+[trail_slidingpuzzled02]
 name=Sliding piece
 model=obj_3644
 2dxof=-1
@@ -5621,7 +5201,7 @@ model=obj_3644
 iop5=Move
 members=yes
 
-[obj_3645]
+[trail_slidingpuzzled03]
 name=Sliding piece
 model=obj_3645
 2dxof=-1
@@ -5631,7 +5211,7 @@ model=obj_3645
 iop5=Move
 members=yes
 
-[obj_3646]
+[trail_slidingpuzzled04]
 name=Sliding piece
 model=obj_3646
 2dxof=-1
@@ -5641,7 +5221,7 @@ model=obj_3646
 iop5=Move
 members=yes
 
-[obj_3647]
+[trail_slidingpuzzled05]
 name=Sliding piece
 model=obj_3647
 2dxof=-1
@@ -5651,7 +5231,7 @@ model=obj_3647
 iop5=Move
 members=yes
 
-[obj_3648]
+[trail_slidingpuzzled06]
 name=Sliding piece
 model=obj_3648
 2dxof=-1
@@ -5661,7 +5241,7 @@ model=obj_3648
 iop5=Move
 members=yes
 
-[obj_3649]
+[trail_slidingpuzzled07]
 name=Sliding piece
 model=obj_3649
 2dxof=-1
@@ -5671,7 +5251,7 @@ model=obj_3649
 iop5=Move
 members=yes
 
-[obj_3650]
+[trail_slidingpuzzled08]
 name=Sliding piece
 model=obj_3650
 2dxof=-1
@@ -5681,7 +5261,7 @@ model=obj_3650
 iop5=Move
 members=yes
 
-[obj_3651]
+[trail_slidingpuzzled09]
 name=Sliding piece
 model=obj_3651
 2dxof=-1
@@ -5691,7 +5271,7 @@ model=obj_3651
 iop5=Move
 members=yes
 
-[obj_3652]
+[trail_slidingpuzzled10]
 name=Sliding piece
 model=obj_3652
 2dxof=-1
@@ -5701,7 +5281,7 @@ model=obj_3652
 iop5=Move
 members=yes
 
-[obj_3653]
+[trail_slidingpuzzled11]
 name=Sliding piece
 model=obj_3653
 2dxof=-1
@@ -5711,7 +5291,7 @@ model=obj_3653
 iop5=Move
 members=yes
 
-[obj_3654]
+[trail_slidingpuzzled12]
 name=Sliding piece
 model=obj_3654
 2dxof=-1
@@ -5721,7 +5301,7 @@ model=obj_3654
 iop5=Move
 members=yes
 
-[obj_3655]
+[trail_slidingpuzzled13]
 name=Sliding piece
 model=obj_3655
 2dxof=-1
@@ -5731,7 +5311,7 @@ model=obj_3655
 iop5=Move
 members=yes
 
-[obj_3656]
+[trail_slidingpuzzled14]
 name=Sliding piece
 model=obj_3656
 2dxof=-1
@@ -5741,7 +5321,7 @@ model=obj_3656
 iop5=Move
 members=yes
 
-[obj_3657]
+[trail_slidingpuzzled15]
 name=Sliding piece
 model=obj_3657
 2dxof=-1
@@ -5751,7 +5331,7 @@ model=obj_3657
 iop5=Move
 members=yes
 
-[obj_3658]
+[trail_slidingpuzzled16]
 name=Sliding piece
 model=obj_3658
 2dxof=-1
@@ -5761,7 +5341,7 @@ model=obj_3658
 iop5=Move
 members=yes
 
-[obj_3659]
+[trail_slidingpuzzled17]
 name=Sliding piece
 model=obj_3659
 2dxof=-1
@@ -5771,7 +5351,7 @@ model=obj_3659
 iop5=Move
 members=yes
 
-[obj_3660]
+[trail_slidingpuzzled18]
 name=Sliding piece
 model=obj_3660
 2dxof=-1
@@ -5781,7 +5361,7 @@ model=obj_3660
 iop5=Move
 members=yes
 
-[obj_3661]
+[trail_slidingpuzzled19]
 name=Sliding piece
 model=obj_3661
 2dxof=-1
@@ -5791,7 +5371,7 @@ model=obj_3661
 iop5=Move
 members=yes
 
-[obj_3662]
+[trail_slidingpuzzled20]
 name=Sliding piece
 model=obj_3662
 2dxof=-1
@@ -5801,7 +5381,7 @@ model=obj_3662
 iop5=Move
 members=yes
 
-[obj_3663]
+[trail_slidingpuzzled21]
 name=Sliding piece
 model=obj_3663
 2dxof=-1
@@ -5811,7 +5391,7 @@ model=obj_3663
 iop5=Move
 members=yes
 
-[obj_3664]
+[trail_slidingpuzzled22]
 name=Sliding piece
 model=obj_3664
 2dxof=-1
@@ -5821,7 +5401,7 @@ model=obj_3664
 iop5=Move
 members=yes
 
-[obj_3665]
+[trail_slidingpuzzled23]
 name=Sliding piece
 model=obj_3665
 2dxof=-1
@@ -5831,7 +5411,7 @@ model=obj_3665
 iop5=Move
 members=yes
 
-[obj_3666]
+[trail_slidingpuzzled24]
 name=Sliding piece
 model=obj_3666
 2dxof=-1
@@ -5841,49 +5421,9 @@ model=obj_3666
 iop5=Move
 members=yes
 
-[obj_3667]
+[viking_toyship]
 
-[obj_3668]
-certlink=obj_3472
-certtemplate=template_for_cert
-
-[obj_3669]
-certlink=obj_3473
-certtemplate=template_for_cert
-
-[obj_3670]
-certlink=obj_3474
-certtemplate=template_for_cert
-
-[obj_3671]
-certlink=obj_3475
-certtemplate=template_for_cert
-
-[obj_3672]
-certlink=obj_3476
-certtemplate=template_for_cert
-
-[obj_3673]
-certlink=obj_3477
-certtemplate=template_for_cert
-
-[obj_3674]
-certlink=obj_3478
-certtemplate=template_for_cert
-
-[obj_3675]
-certlink=obj_3479
-certtemplate=template_for_cert
-
-[obj_3676]
-certlink=obj_3480
-certtemplate=template_for_cert
-
-[obj_3677]
-certlink=obj_3485
-certtemplate=template_for_cert
-
-[obj_3678]
+[flamtaer_hammer]
 name=Flamtaer hammer
 cost=10000
 desc=An exquisitely shaped tool specially designed for fixing temples.
@@ -5895,11 +5435,7 @@ model=obj_3678
 2dxan=488
 members=yes
 
-[obj_3679]
-certlink=obj_3678
-certtemplate=template_for_cert
-
-[obj_3680]
+[dummy_shoe1]
 name=Dummy shoe1
 recol1s=7298
 recol1d=11525
@@ -5911,7 +5447,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3681]
+[dummy_shoe2]
 name=Dummy shoe2
 recol1s=7298
 recol1d=8448
@@ -5923,7 +5459,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3682]
+[dummy_shoe3]
 name=Dummy shoe3
 recol1s=7298
 recol1d=13705
@@ -5935,7 +5471,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3683]
+[dummy_shoe4]
 name=Dummy shoe4
 recol1s=7298
 recol1d=6309
@@ -5947,7 +5483,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3684]
+[dummy_shoe5]
 name=Dummy shoe5
 recol1s=7298
 recol1d=13604
@@ -5959,7 +5495,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3685]
+[dummy_shoe6]
 name=Dummy shoe6
 recol1s=7298
 recol1d=11626
@@ -5971,7 +5507,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3686]
+[pickpocket_guide_fremennik_citizen]
 name=Fremennik
 recol1s=6273
 recol1d=25128
@@ -5991,11 +5527,7 @@ model=obj_3686
 2dyan=1876
 2dxan=28
 
-[obj_3687]
-certlink=obj_3686
-certtemplate=template_for_cert
-
-[obj_3688]
+[viking_unstrung_lyre]
 name=Unstrung lyre
 desc=It's almost a musical instrument.
 model=obj_3688
@@ -6007,7 +5539,7 @@ womanwear=obj_3688_manwear,0
 2dxan=464
 members=yes
 
-[obj_3689]
+[viking_strung_lyre]
 name=Lyre
 desc=It's a musical instrument I don't know how to play.
 model=obj_3688
@@ -6020,7 +5552,7 @@ iop1=Play
 2dxan=464
 members=yes
 
-[obj_3690]
+[viking_enchanted_strung_lyre]
 name=Enchanted lyre
 desc=A musical instrument that I can magically play.
 model=obj_3688
@@ -6033,7 +5565,7 @@ manwear=obj_3688_manwear,0
 womanwear=obj_3688_manwear,0
 members=yes
 
-[obj_3691]
+[magic_strung_lyre]
 name=Enchanted lyre
 desc=This will teleport me to Rellekka when I play it.
 model=obj_3688
@@ -6046,7 +5578,7 @@ cost=1000
 manwear=obj_3688_manwear,0
 members=yes
 
-[obj_3692]
+[viking_musical_tree_branch]
 name=Branch
 desc=I can use this to make a lyre.
 model=obj_3692
@@ -6057,7 +5589,7 @@ model=obj_3692
 2dxan=268
 members=yes
 
-[obj_3693]
+[viking_golden_fleece]
 name=Golden fleece
 recol1s=29595
 recol1d=30543
@@ -6071,7 +5603,7 @@ ambient=30
 contrast=30
 members=yes
 
-[obj_3694]
+[viking_golden_wool]
 name=Golden wool
 recol1s=29595
 recol1d=30543
@@ -6086,7 +5618,7 @@ ambient=30
 contrast=30
 members=yes
 
-[obj_3695]
+[vt_useless_rock]
 name=Pet rock
 recol1s=15369
 recol1d=10570
@@ -6103,7 +5635,7 @@ iop1=Feed
 iop2=Stroke
 iop3=Talk-to
 
-[obj_3696]
+[viking_draugen_talisman]
 name=Hunters' talisman
 desc=Talisman to bind the draugen
 model=obj_3696
@@ -6116,7 +5648,7 @@ cost=4
 iop1=Locate
 members=yes
 
-[obj_3697]
+[viking_draugen_talisman_uncharged]
 name=Hunters' talisman
 desc=Talisman to bind the draugen
 model=obj_3696
@@ -6129,7 +5661,7 @@ cost=4
 iop1=Locate
 members=yes
 
-[obj_3698]
+[viking_rare_flower]
 name=Exotic flower
 recol1s=9702
 recol1d=9574
@@ -6149,7 +5681,7 @@ model=model_1781_obj
 2dxan=612
 members=yes
 
-[obj_3699]
+[viking_song]
 name=Fremennik ballad
 recol1s=28434
 recol1d=26320
@@ -6161,7 +5693,7 @@ model=model_2429_obj
 2dxan=552
 members=yes
 
-[obj_3700]
+[viking_new_boots]
 name=Sturdy boots
 desc=A pair of sturdy custom made boots.
 model=model_2837_obj
@@ -6172,7 +5704,7 @@ model=model_2837_obj
 2dxan=152
 members=yes
 
-[obj_3701]
+[viking_map_to_hunting_grounds]
 name=Hunters map
 recol1s=24174
 recol1d=10597
@@ -6189,7 +5721,7 @@ model=model_2774_obj
 2dxan=264
 members=yes
 
-[obj_3702]
+[viking_bowstring]
 name=Custom bow string
 desc=A finely crafted string for a custom bow.
 model=model_2552_obj
@@ -6200,7 +5732,7 @@ model=model_2552_obj
 2dxan=148
 members=yes
 
-[obj_3703]
+[viking_unique_fish]
 name=Unusual fish
 recol1s=15855
 recol1d=15885
@@ -6216,7 +5748,7 @@ model=model_2355_obj
 2dxan=464
 members=yes
 
-[obj_3704]
+[viking_another_map]
 name=Sea fishing map
 recol1s=24174
 recol1d=24272
@@ -6233,7 +5765,7 @@ model=model_2774_obj
 2dxan=264
 members=yes
 
-[obj_3705]
+[viking_weather_forecast]
 name=Weather forecast
 recol1s=28434
 recol1d=23183
@@ -6245,7 +5777,7 @@ model=model_2429_obj
 2dxan=552
 members=yes
 
-[obj_3706]
+[viking_champion_token]
 name=Champions token
 recol1s=31457
 recol1d=23012
@@ -6259,7 +5791,7 @@ model=model_2784_obj
 2dxan=268
 members=yes
 
-[obj_3707]
+[viking_legendary_cocktail]
 name=Legendary cocktail
 desc=Probably the greatest cocktail in the world.
 model=model_2738_obj
@@ -6269,7 +5801,7 @@ model=model_2738_obj
 2dxan=104
 members=yes
 
-[obj_3708]
+[viking_promissary_note]
 name=Fiscal statement
 recol1s=15648
 recol1d=18821
@@ -6286,7 +5818,7 @@ model=model_2675_obj
 2dxan=380
 members=yes
 
-[obj_3709]
+[viking_promissary_note2]
 name=Promissory note
 recol1s=15648
 recol1d=18821
@@ -6303,7 +5835,7 @@ model=model_2675_obj
 2dxan=380
 members=yes
 
-[obj_3710]
+[viking_promissary_note3]
 name=Warriors' contract
 recol1s=15648
 recol1d=18821
@@ -6320,7 +5852,7 @@ model=model_2675_obj
 2dxan=380
 members=yes
 
-[obj_3711]
+[viking_beerkeg]
 name=Keg of beer
 desc=A lot of beer in a barrel.
 model=obj_3711
@@ -6332,7 +5864,7 @@ womanwear=obj_3711_manwear,0
 2dxan=128
 members=yes
 
-[obj_3712]
+[viking_low_alcahol_beerkeg]
 name=Low alcohol keg
 desc=Suspiciously close to beer, but without the side effects.
 model=obj_3711
@@ -6342,7 +5874,7 @@ model=obj_3711
 2dxan=128
 members=yes
 
-[obj_3713]
+[viking_firecracker]
 name=Strange object
 desc=It's some kind of weird little parcel thing.
 model=obj_3713
@@ -6353,7 +5885,7 @@ model=obj_3713
 2dxan=112
 members=yes
 
-[obj_3714]
+[viking_firecracker_lit]
 name=Lit strange object
 desc=It's some kind of weird little parcel thing. On fire.
 model=obj_3713
@@ -6364,7 +5896,7 @@ model=obj_3713
 2dxan=112
 members=yes
 
-[obj_3715]
+[viking_dummy_coin]
 name=Red disk
 recol1s=31393
 recol1d=25859
@@ -6378,7 +5910,7 @@ model=model_2484_obj
 2dxan=356
 members=yes
 
-[obj_3716]
+[viking_dummy_coin2]
 name=Red disk
 recol1s=31393
 recol1d=0
@@ -6392,12 +5924,12 @@ model=model_2484_obj
 2dxan=356
 members=yes
 
-[obj_3717]
+[viking_dummy_lid]
 name=Viking dummy lid
 model=model_loc_2733_0
 members=yes
 
-[obj_3718]
+[viking_pointless_magnet]
 name=Magnet
 desc=A very attractive magnet.
 cost=3
@@ -6409,7 +5941,7 @@ model=model_2798_obj
 2dxan=440
 members=yes
 
-[obj_3719]
+[viking_pointless_thread]
 name=Blue thread
 recol1s=17898
 recol1d=31
@@ -6422,7 +5954,7 @@ model=model_2552_obj
 2dyan=1872
 2dxan=148
 
-[obj_3720]
+[viking_pointless_pick]
 name=Small pick
 desc=A small pick for cracking small objects.
 model=model_2792_obj
@@ -6433,7 +5965,7 @@ model=model_2792_obj
 2dxan=476
 members=yes
 
-[obj_3721]
+[viking_pointless_shiptoy]
 name=Toy ship
 desc=Might be fun to play with in the bath.
 cost=2
@@ -6447,7 +5979,7 @@ model=obj_3721
 ambient=20
 contrast=20
 
-[obj_3722]
+[viking_bucket_5]
 name=Full bucket
 desc=This bucket is completely full. It has a 5 painted on it's side.
 model=model_2504_obj
@@ -6457,7 +5989,7 @@ model=model_2504_obj
 2dxan=204
 members=yes
 
-[obj_3723]
+[viking_bucket_4]
 name=4/5ths full bucket
 desc=This bucket is eighty percent full. It has a 5 painted on it's side.
 model=model_2504_obj
@@ -6467,7 +5999,7 @@ model=model_2504_obj
 2dxan=204
 members=yes
 
-[obj_3724]
+[viking_bucket_3]
 name=3/5ths full bucket
 desc=This bucket is sixty percent full. It has a 5 painted on it's side.
 model=model_2504_obj
@@ -6477,7 +6009,7 @@ model=model_2504_obj
 2dxan=204
 members=yes
 
-[obj_3725]
+[viking_bucket_2]
 name=2/5ths full bucket
 desc=This bucket is forty percent full. It has a 5 painted on it's side.
 model=model_2397_obj
@@ -6487,7 +6019,7 @@ model=model_2397_obj
 2dxan=204
 members=yes
 
-[obj_3726]
+[viking_bucket_1]
 name=1/5ths full bucket
 desc=This bucket is twenty percent full. It has a 5 painted on it's side.
 model=model_2397_obj
@@ -6497,7 +6029,7 @@ model=model_2397_obj
 2dxan=204
 members=yes
 
-[obj_3727]
+[viking_bucket_empty]
 name=Empty bucket
 desc=This bucket is completely empty. It has a 5 painted on it's side.
 model=model_2397_obj
@@ -6507,7 +6039,7 @@ model=model_2397_obj
 2dxan=204
 members=yes
 
-[obj_3728]
+[viking_bucket_frozen]
 name=Frozen bucket
 desc=This bucket of water is frozen solid.
 model=obj_3728
@@ -6517,7 +6049,7 @@ model=obj_3728
 2dxan=204
 members=yes
 
-[obj_3729]
+[viking_jug_3]
 name=Full jug
 recol1s=32767
 recol1d=10645
@@ -6530,7 +6062,7 @@ model=model_2390_obj
 2dxan=260
 members=yes
 
-[obj_3730]
+[viking_jug_2]
 name=2/3rds full jug
 recol1s=32767
 recol1d=15855
@@ -6543,7 +6075,7 @@ model=model_2390_obj
 2dxan=260
 members=yes
 
-[obj_3731]
+[viking_jug_1]
 name=1/3rds full jug
 recol1s=32767
 recol1d=15855
@@ -6556,7 +6088,7 @@ model=model_2390_obj
 2dxan=260
 members=yes
 
-[obj_3732]
+[viking_jug_empty]
 name=Empty jug
 recol1s=32767
 recol1d=15855
@@ -6569,7 +6101,7 @@ model=model_2390_obj
 2dxan=260
 members=yes
 
-[obj_3733]
+[viking_jug_frozen]
 name=Frozen jug
 recol1s=32767
 recol1d=15855
@@ -6584,7 +6116,7 @@ model=model_2390_obj
 2dxan=260
 members=yes
 
-[obj_3734]
+[viking_airtight_vase]
 name=Vase
 desc=An unusually shaped vase. You can see something glinting inside.
 model=obj_3734
@@ -6596,7 +6128,7 @@ model=obj_3734
 members=yes
 iop1=Shake
 
-[obj_3735]
+[viking_airtight_vase_water]
 name=Vase of water
 desc=An unusually shaped vase full of water. You can see something glinting inside.
 model=obj_3734
@@ -6608,7 +6140,7 @@ model=obj_3734
 members=yes
 iop1=Shake
 
-[obj_3736]
+[viking_airtight_vase_frozen]
 name=Frozen vase
 desc=An unusually shaped vase full of ice. You can see something glinting inside.
 model=obj_3734
@@ -6620,7 +6152,7 @@ model=obj_3734
 members=yes
 iop1=Shake
 
-[obj_3737]
+[viking_vase_lid]
 name=Vase lid
 desc=This looks like a lid to some kind of container...
 model=obj_3737
@@ -6630,7 +6162,7 @@ model=obj_3737
 2dxan=152
 members=yes
 
-[obj_3738]
+[viking_airtight_vase_with_lid]
 name=Sealed vase
 desc=The lid is screwed on tightly.
 model=obj_3738
@@ -6642,7 +6174,7 @@ model=obj_3738
 members=yes
 iop1=Remove-lid
 
-[obj_3739]
+[viking_airtight_vase_with_lid_frozen]
 name=Sealed vase
 desc=The lid is screwed on tightly. It is very cold.
 model=obj_3738
@@ -6654,7 +6186,7 @@ model=obj_3738
 members=yes
 iop1=Remove-lid
 
-[obj_3740]
+[viking_airtight_vase_with_lid_water]
 name=Sealed vase
 desc=The lid is screwed on tightly. It is full of water.
 model=obj_3738
@@ -6666,7 +6198,7 @@ model=obj_3738
 members=yes
 iop1=Remove-lid
 
-[obj_3741]
+[viking_key_in_ice]
 name=Frozen key
 desc=A key encased in ice.
 model=obj_3741
@@ -6677,7 +6209,7 @@ model=obj_3741
 2dxan=160
 members=yes
 
-[obj_3742]
+[viking_red_herring]
 name=Red herring
 recol1s=15855
 recol1d=16550
@@ -6694,7 +6226,7 @@ ambient=30
 contrast=30
 members=yes
 
-[obj_3743]
+[viking_red_wooden_coin]
 name=Red disk
 recol1s=31393
 recol1d=25859
@@ -6708,7 +6240,7 @@ model=model_2484_obj
 2dxan=184
 members=yes
 
-[obj_3744]
+[viking_uncoloured_wooden_coin]
 name=Wooden disk
 recol1s=31393
 recol1d=21003
@@ -6722,7 +6254,7 @@ model=model_2484_obj
 2dxan=184
 members=yes
 
-[obj_3745]
+[viking_key]
 name=Seers' key
 recol1s=31393
 recol1d=17799
@@ -6735,7 +6267,7 @@ model=model_2372_obj
 2dxan=328
 members=yes
 
-[obj_3746]
+[viking_red_splat]
 name=Sticky red goop
 desc=Yup, it's sticky, it's red and it's goop.
 model=obj_3746
@@ -6744,11 +6276,7 @@ model=obj_3746
 2dyan=2020
 2dxan=304
 
-[obj_3747]
-certlink=obj_3746
-certtemplate=template_for_cert
-
-[obj_3748]
+[viking_helmet]
 name=Fremennik helm
 desc=A sturdy helm worn only by Fremennik clan members.
 model=obj_3748
@@ -6771,7 +6299,7 @@ womanhead2=obj_3748_manhead2
 members=yes
 cost=5000
 
-[obj_3749]
+[viking_helmet_range]
 name=Archer helm
 desc=This helmet is worn by archers.
 cost=60000
@@ -6793,11 +6321,7 @@ womanhead=obj_3748_womanhead
 womanhead2=obj_3749_manhead2
 members=yes
 
-[obj_3750]
-certlink=obj_3749
-certtemplate=template_for_cert
-
-[obj_3751]
+[viking_helmet_crush]
 name=Berserker helm
 desc=This helmet is worn by berserkers.
 cost=60000
@@ -6819,11 +6343,7 @@ womanhead=obj_3748_womanhead
 womanhead2=obj_3751_manhead2
 members=yes
 
-[obj_3752]
-certlink=obj_3751
-certtemplate=template_for_cert
-
-[obj_3753]
+[viking_helmet_slash]
 name=Warrior helm
 desc=This helmet is worn by warriors.
 cost=60000
@@ -6845,11 +6365,7 @@ womanhead=obj_3748_womanhead
 womanhead2=obj_3753_manhead2
 members=yes
 
-[obj_3754]
-certlink=obj_3753
-certtemplate=template_for_cert
-
-[obj_3755]
+[viking_helmet_magic]
 name=Farseer helm
 desc=This helmet is worn by farseers.
 cost=60000
@@ -6871,11 +6387,7 @@ womanhead=obj_3748_womanhead
 womanhead2=obj_3755_manhead2
 members=yes
 
-[obj_3756]
-certlink=obj_3755
-certtemplate=template_for_cert
-
-[obj_3757]
+[viking_sword]
 name=Fremennik blade
 desc=A sword used only by Fremennik warriors.
 model=obj_3757
@@ -6890,7 +6402,7 @@ womanwear=obj_3757_manwear,6
 members=yes
 cost=5000
 
-[obj_3758]
+[viking_shield]
 name=Fremennik shield
 desc=A shield worn by Fremennik warriors.
 model=obj_3758
@@ -6905,7 +6417,7 @@ womanwear=obj_3758_manwear,6
 members=yes
 cost=5000
 
-[obj_3759]
+[viking_cloak_green]
 name=Fremennik cloak
 recol1s=7329
 recol1d=14175
@@ -6922,11 +6434,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3760]
-certlink=obj_3759
-certtemplate=template_for_cert
-
-[obj_3761]
+[viking_cloak_darkbrown]
 name=Fremennik cloak
 recol1s=7329
 recol1d=6305
@@ -6943,11 +6451,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3762]
-certlink=obj_3761
-certtemplate=template_for_cert
-
-[obj_3763]
+[viking_cloak_lightbrown]
 name=Fremennik cloak
 recol1s=7329
 recol1d=10576
@@ -6964,11 +6468,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3764]
-certlink=obj_3763
-certtemplate=template_for_cert
-
-[obj_3765]
+[viking_cloak_brown]
 name=Fremennik cloak
 recol1s=7329
 recol1d=256
@@ -6985,11 +6485,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3766]
-certlink=obj_3765
-certtemplate=template_for_cert
-
-[obj_3767]
+[viking_top_darkbrown]
 name=Fremennik shirt
 recol1s=14724
 recol1d=11525
@@ -7012,11 +6508,7 @@ iop2=Wear
 2dxan=536
 members=yes
 
-[obj_3768]
-certlink=obj_3767
-certtemplate=template_for_cert
-
-[obj_3769]
+[viking_top_green]
 name=Fremennik shirt
 recol1s=14724
 recol1d=11623
@@ -7039,11 +6531,7 @@ iop2=Wear
 2dxan=536
 members=yes
 
-[obj_3770]
-certlink=obj_3769
-certtemplate=template_for_cert
-
-[obj_3771]
+[viking_top_beige]
 name=Fremennik shirt
 recol1s=14724
 recol1d=17897
@@ -7066,11 +6554,7 @@ iop2=Wear
 2dxan=536
 members=yes
 
-[obj_3772]
-certlink=obj_3771
-certtemplate=template_for_cert
-
-[obj_3773]
+[viking_top_red]
 name=Fremennik shirt
 recol1s=14724
 recol1d=9216
@@ -7093,11 +6577,7 @@ iop2=Wear
 2dxan=536
 members=yes
 
-[obj_3774]
-certlink=obj_3773
-certtemplate=template_for_cert
-
-[obj_3775]
+[viking_top_blue]
 name=Fremennik shirt
 recol1s=14724
 recol1d=2119
@@ -7120,11 +6600,7 @@ iop2=Wear
 2dxan=536
 members=yes
 
-[obj_3776]
-certlink=obj_3775
-certtemplate=template_for_cert
-
-[obj_3777]
+[viking_cloak_red]
 name=Fremennik cloak
 recol1s=7329
 recol1d=10240
@@ -7141,11 +6617,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3778]
-certlink=obj_3777
-certtemplate=template_for_cert
-
-[obj_3779]
+[viking_cloak_grey]
 name=Fremennik cloak
 recol1s=7329
 recol1d=10570
@@ -7162,11 +6634,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3780]
-certlink=obj_3779
-certtemplate=template_for_cert
-
-[obj_3781]
+[viking_cloak_tangerine]
 name=Fremennik cloak
 recol1s=7329
 recol1d=30337
@@ -7183,11 +6651,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3782]
-certlink=obj_3781
-certtemplate=template_for_cert
-
-[obj_3783]
+[viking_cloak_ocean]
 name=Fremennik cloak
 recol1s=7329
 recol1d=231
@@ -7204,11 +6668,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3784]
-certlink=obj_3783
-certtemplate=template_for_cert
-
-[obj_3785]
+[viking_cloak_purple]
 name=Fremennik cloak
 recol1s=7329
 recol1d=13325
@@ -7225,11 +6685,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3786]
-certlink=obj_3785
-certtemplate=template_for_cert
-
-[obj_3787]
+[viking_cloak_pink]
 name=Fremennik cloak
 recol1s=7329
 recol1d=25073
@@ -7246,11 +6702,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3788]
-certlink=obj_3787
-certtemplate=template_for_cert
-
-[obj_3789]
+[viking_cloak_black]
 name=Fremennik cloak
 recol1s=7329
 recol1d=0
@@ -7267,11 +6719,7 @@ manwear=model_317_npc,0
 womanwear=model_479_npc,0
 members=yes
 
-[obj_3790]
-certlink=obj_3789
-certtemplate=template_for_cert
-
-[obj_3791]
+[vikingboots]
 name=Fremennik boots
 recol1s=7298
 recol1d=256
@@ -7288,11 +6736,7 @@ cost=500
 2dxan=152
 members=yes
 
-[obj_3792]
-certlink=obj_3791
-certtemplate=template_for_cert
-
-[obj_3793]
+[vikingrobetop]
 name=Fremennik robe
 recol1s=14724
 recol1d=256
@@ -7309,11 +6753,7 @@ cost=500
 2dxan=536
 members=yes
 
-[obj_3794]
-certlink=obj_3793
-certtemplate=template_for_cert
-
-[obj_3795]
+[vikingrobebottom]
 name=Fremennik skirt
 recol1s=2340
 recol1d=256
@@ -7328,11 +6768,7 @@ cost=500
 2dxan=572
 members=yes
 
-[obj_3796]
-certlink=obj_3795
-certtemplate=template_for_cert
-
-[obj_3797]
+[vikinghat]
 name=Fremennik hat
 recol1s=239
 recol1d=256
@@ -7351,11 +6787,7 @@ iop2=Wear
 2dxan=152
 members=yes
 
-[obj_3798]
-certlink=obj_3797
-certtemplate=template_for_cert
-
-[obj_3799]
+[vikinggloves]
 name=Gloves
 recol1s=9473
 recol1d=256
@@ -7374,11 +6806,7 @@ womanwear=model_356_obj_wear,0
 2dxan=420
 members=yes
 
-[obj_3800]
-certlink=obj_3799
-certtemplate=template_for_cert
-
-[obj_3801]
+[keg_of_beer]
 name=Keg of beer
 iop1=Drink
 desc=A lot of beer in a barrel.
@@ -7392,11 +6820,7 @@ womanwear=obj_3711_manwear,0
 cost=250
 members=yes
 
-[obj_3802]
-certlink=obj_3801
-certtemplate=template_for_cert
-
-[obj_3803]
+[viking_tankard_full]
 name=Beer
 iop1=Drink
 desc=Frothy and alcoholic.
@@ -7411,11 +6835,7 @@ womanwear=obj_3803_manwear,0
 cost=20
 members=yes
 
-[obj_3804]
-certlink=obj_3803
-certtemplate=template_for_cert
-
-[obj_3805]
+[viking_tankard_empty]
 name=Tankard
 desc=A big cup for a big thirst.
 model=obj_3805
@@ -7427,11 +6847,7 @@ model=obj_3805
 cost=5
 members=yes
 
-[obj_3806]
-certlink=obj_3805
-certtemplate=template_for_cert
-
-[obj_3807]
+[bolt2]
 name=Bolt2
 stackable=yes
 model=obj_3807
@@ -7441,7 +6857,7 @@ model=obj_3807
 2dyan=4
 2dxan=244
 
-[obj_3808]
+[bolt3]
 name=Bolt3
 stackable=yes
 model=obj_3808
@@ -7451,7 +6867,7 @@ model=obj_3808
 2dyan=4
 2dxan=244
 
-[obj_3809]
+[bolt4]
 name=Bolt4
 stackable=yes
 model=obj_3809
@@ -7461,7 +6877,7 @@ model=obj_3809
 2dyan=4
 2dxan=244
 
-[obj_3810]
+[bolts]
 name=Bolts
 stackable=yes
 model=model_2664_obj
@@ -7471,7 +6887,7 @@ model=model_2664_obj
 2dyan=4
 2dxan=244
 
-[obj_3811]
+[poison_bolt2]
 name=Poison bolt2
 recol1s=14798
 recol1d=8682
@@ -7485,7 +6901,7 @@ model=obj_3807
 2dyan=4
 2dxan=244
 
-[obj_3812]
+[poison_bolt3]
 name=Poison bolt3
 recol1s=14798
 recol1d=8682
@@ -7499,7 +6915,7 @@ model=obj_3808
 2dyan=4
 2dxan=244
 
-[obj_3813]
+[poison_bolt4]
 name=Poison bolt4
 recol1s=14798
 recol1d=8682
@@ -7513,7 +6929,7 @@ model=obj_3809
 2dyan=4
 2dxan=244
 
-[obj_3814]
+[poison_bolts]
 name=Poison bolts
 recol1s=14798
 recol1d=8682
@@ -7527,7 +6943,7 @@ model=model_2664_obj
 2dyan=4
 2dxan=244
 
-[obj_3815]
+[opal_bolt2]
 name=Opal bolt2
 recol1s=15855
 recol1d=3205
@@ -7547,7 +6963,7 @@ model=obj_3807
 2dyan=4
 2dxan=244
 
-[obj_3816]
+[opal_bolt3]
 name=Opal bolt3
 recol1s=15855
 recol1d=3205
@@ -7567,7 +6983,7 @@ model=obj_3808
 2dyan=4
 2dxan=244
 
-[obj_3817]
+[opal_bolt4]
 name=Opal bolt4
 recol1s=15855
 recol1d=3205
@@ -7587,7 +7003,7 @@ model=obj_3809
 2dyan=4
 2dxan=244
 
-[obj_3818]
+[opal_bolts]
 name=Opal bolts
 recol1s=15855
 recol1d=3205
@@ -7607,7 +7023,7 @@ model=model_2664_obj
 2dyan=4
 2dxan=244
 
-[obj_3819]
+[pearl_bolt2]
 name=Pearl bolt2
 recol1s=15855
 recol1d=22161
@@ -7625,7 +7041,7 @@ model=obj_3807
 2dyan=4
 2dxan=244
 
-[obj_3820]
+[pearl_bolt3]
 name=Pearl bolt3
 recol1s=15855
 recol1d=22161
@@ -7643,7 +7059,7 @@ model=obj_3808
 2dyan=4
 2dxan=244
 
-[obj_3821]
+[pearl_bolt4]
 name=Pearl bolt4
 recol1s=15855
 recol1d=22161
@@ -7661,7 +7077,7 @@ model=obj_3809
 2dyan=4
 2dxan=244
 
-[obj_3822]
+[pearl_bolts]
 name=Pearl bolts
 recol1s=15855
 recol1d=22161
@@ -7679,7 +7095,7 @@ model=model_2664_obj
 2dyan=4
 2dxan=244
 
-[obj_3823]
+[barbed_bolt2]
 name=Barbed bolt2
 recol1s=5285
 recol1d=13472
@@ -7691,7 +7107,7 @@ model=obj_3807
 2dyan=4
 2dxan=244
 
-[obj_3824]
+[barbed_bolt3]
 name=Barbed bolt3
 recol1s=5285
 recol1d=13472
@@ -7703,7 +7119,7 @@ model=obj_3808
 2dyan=4
 2dxan=244
 
-[obj_3825]
+[barbed_bolt4]
 name=Barbed bolt4
 recol1s=5285
 recol1d=13472
@@ -7715,7 +7131,7 @@ model=obj_3809
 2dyan=4
 2dxan=244
 
-[obj_3826]
+[barbed_bolts]
 name=Barbed bolts
 recol1s=5285
 recol1d=13472
@@ -7727,7 +7143,7 @@ model=model_2664_obj
 2dyan=4
 2dxan=244
 
-[obj_3827]
+[holy_book_s_page1]
 name=Torn page 1
 recol1s=23254
 recol1d=26424
@@ -7750,7 +7166,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3828]
+[holy_book_s_page2]
 name=Torn page 2
 recol1s=23254
 recol1d=26424
@@ -7773,7 +7189,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3829]
+[holy_book_s_page3]
 name=Torn page 3
 recol1s=23254
 recol1d=26424
@@ -7796,7 +7212,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3830]
+[holy_book_s_page4]
 name=Torn page 4
 recol1s=23254
 recol1d=26424
@@ -7819,7 +7235,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3831]
+[holy_book_z_page1]
 name=Torn page 1
 recol1s=23254
 recol1d=26260
@@ -7842,7 +7258,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3832]
+[holy_book_z_page2]
 name=Torn page 2
 recol1s=23254
 recol1d=26260
@@ -7865,7 +7281,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3833]
+[holy_book_z_page3]
 name=Torn page 3
 recol1s=23254
 recol1d=26260
@@ -7888,7 +7304,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3834]
+[holy_book_z_page4]
 name=Torn page 4
 recol1s=23254
 recol1d=26260
@@ -7911,7 +7327,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3835]
+[holy_book_g_page1]
 name=Torn page 1
 recol1s=23254
 recol1d=19186
@@ -7934,7 +7350,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3836]
+[holy_book_g_page2]
 name=Torn page 2
 recol1s=23254
 recol1d=19186
@@ -7957,7 +7373,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3837]
+[holy_book_g_page3]
 name=Torn page 3
 recol1s=23254
 recol1d=19186
@@ -7980,7 +7396,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3838]
+[holy_book_g_page4]
 name=Torn page 4
 recol1s=23254
 recol1d=19186
@@ -8003,7 +7419,7 @@ model=obj_3827
 2dyan=80
 2dxan=400
 
-[obj_3839]
+[unfinished_saradominbook]
 name=Damaged book
 recol1s=13472
 recol1d=26425
@@ -8024,7 +7440,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3840]
+[saradominbook_complete]
 name=Holy book
 recol1s=13472
 recol1d=26425
@@ -8047,7 +7463,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3841]
+[unfinished_zamorakbook]
 name=Damaged book
 recol1s=13472
 recol1d=19489
@@ -8068,7 +7484,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3842]
+[zamorakbook_complete]
 name=Unholy book
 recol1s=13472
 recol1d=19489
@@ -8090,7 +7506,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3843]
+[unfinished_guthixbook]
 name=Damaged book
 recol1s=13472
 recol1d=448
@@ -8111,7 +7527,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3844]
+[guthixbook_complete]
 name=Book of balance
 recol1s=13472
 recol1d=448
@@ -8133,7 +7549,7 @@ womanwear=model_556,6
 2dxan=244
 cost=200
 
-[obj_3845]
+[horror_diary1]
 name=Journal
 recol1s=13472
 recol1d=12387
@@ -8147,7 +7563,7 @@ model=model_2794_obj
 2dyan=152
 2dxan=256
 
-[obj_3846]
+[horror_diary2]
 name=Diary
 recol1s=13472
 recol1d=16709
@@ -8163,7 +7579,7 @@ model=model_2633_obj
 2dyan=120
 2dxan=276
 
-[obj_3847]
+[horror_diary3]
 name=Manual
 recol1s=13472
 recol1d=22192
@@ -8183,7 +7599,7 @@ model=model_2543_obj
 2dyan=116
 2dxan=244
 
-[obj_3848]
+[horror_key]
 name=Lighthouse key
 recol1s=31393
 recol1d=17799
@@ -8196,7 +7612,7 @@ model=model_2372_obj
 2dxan=328
 members=yes
 
-[obj_3849]
+[horror_casket]
 name=Rusty casket
 desc=Looks old and rusty...
 model=obj_3849
@@ -8207,7 +7623,7 @@ model=obj_3849
 2dxan=72
 members=yes
 
-[obj_3850]
+[readbook_dummy]
 name=Readbook dummy
 recol1s=13472
 recol1d=7494
@@ -8224,15 +7640,7 @@ model=model_2543_obj
 manwear=obj_3850_manwear,0
 womanwear=obj_3850_manwear,6
 
-[obj_3851]
-certlink=obj_3850
-certtemplate=template_for_cert
-
-[obj_3852]
-certlink=blessedsnake
-certtemplate=template_for_cert
-
-[obj_3853]
+[necklace_of_minigames_8]
 name=Games necklace(8)
 recol1s=10570
 recol1d=23
@@ -8249,11 +7657,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3854]
-certlink=obj_3853
-certtemplate=template_for_cert
-
-[obj_3855]
+[necklace_of_minigames_7]
 name=Games necklace(7)
 recol1s=10570
 recol1d=23
@@ -8270,11 +7674,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3856]
-certlink=obj_3855
-certtemplate=template_for_cert
-
-[obj_3857]
+[necklace_of_minigames_6]
 name=Games necklace(6)
 recol1s=10570
 recol1d=23
@@ -8291,11 +7691,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3858]
-certlink=obj_3857
-certtemplate=template_for_cert
-
-[obj_3859]
+[necklace_of_minigames_5]
 name=Games necklace(5)
 recol1s=10570
 recol1d=23
@@ -8312,11 +7708,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3860]
-certlink=obj_3859
-certtemplate=template_for_cert
-
-[obj_3861]
+[necklace_of_minigames_4]
 name=Games necklace(4)
 recol1s=10570
 recol1d=23
@@ -8333,11 +7725,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3862]
-certlink=obj_3861
-certtemplate=template_for_cert
-
-[obj_3863]
+[necklace_of_minigames_3]
 name=Games necklace(3)
 recol1s=10570
 recol1d=23
@@ -8354,11 +7742,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3864]
-certlink=obj_3863
-certtemplate=template_for_cert
-
-[obj_3865]
+[necklace_of_minigames_2]
 name=Games necklace(2)
 recol1s=10570
 recol1d=23
@@ -8375,11 +7759,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3866]
-certlink=obj_3865
-certtemplate=template_for_cert
-
-[obj_3867]
+[necklace_of_minigames_1]
 name=Games necklace(1)
 recol1s=10570
 recol1d=23
@@ -8396,11 +7776,7 @@ manwear=model_281_obj_wear,0
 womanwear=model_445_obj_wear,0
 iop4=Rub
 
-[obj_3868]
-certlink=obj_3867
-certtemplate=template_for_cert
-
-[obj_3869]
+[boardgames_draughts_firerune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8411,7 +7787,7 @@ model=model_2399_obj
 2dxan=516
 members=yes
 
-[obj_3870]
+[boardgames_draughts_waterrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8422,7 +7798,7 @@ model=model_2652_obj
 2dxan=516
 members=yes
 
-[obj_3871]
+[boardgames_draughts_earthrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8433,7 +7809,7 @@ model=model_2737_obj
 2dxan=516
 members=yes
 
-[obj_3872]
+[boardgames_draughts_airrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8444,7 +7820,7 @@ model=model_2405_obj
 2dxan=516
 members=yes
 
-[obj_3873]
+[boardgames_draughts_mindrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8455,7 +7831,7 @@ model=model_2481_obj
 2dxan=516
 members=yes
 
-[obj_3874]
+[boardgames_draughts_bodyrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8466,7 +7842,7 @@ model=model_2340_obj
 2dxan=516
 members=yes
 
-[obj_3875]
+[boardgames_draughts_naturerune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8477,7 +7853,7 @@ model=model_2734_obj
 2dxan=516
 members=yes
 
-[obj_3876]
+[boardgames_draughts_chaosrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8488,7 +7864,7 @@ model=model_2707_obj
 2dxan=516
 members=yes
 
-[obj_3877]
+[boardgames_draughts_lawrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8499,7 +7875,7 @@ model=model_2382_obj
 2dxan=516
 members=yes
 
-[obj_3878]
+[boardgames_draughts_cosmicrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8510,7 +7886,7 @@ model=model_2735_obj
 2dxan=516
 members=yes
 
-[obj_3879]
+[boardgames_draughts_bloodrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8521,7 +7897,7 @@ model=model_2665_obj
 2dxan=516
 members=yes
 
-[obj_3880]
+[boardgames_draughts_soulrune_king]
 name=Board game piece
 recol1s=15855
 recol1d=28903
@@ -8532,7 +7908,7 @@ model=model_2434_obj
 2dxan=516
 members=yes
 
-[obj_3881]
+[boardgames_runelink_firerune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2399_obj
@@ -8541,7 +7917,7 @@ model=model_2399_obj
 2dxan=516
 members=yes
 
-[obj_3882]
+[boardgames_runelink_waterrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2652_obj
@@ -8550,7 +7926,7 @@ model=model_2652_obj
 2dxan=516
 members=yes
 
-[obj_3883]
+[boardgames_runelink_earthrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2737_obj
@@ -8559,7 +7935,7 @@ model=model_2737_obj
 2dxan=516
 members=yes
 
-[obj_3884]
+[boardgames_runelink_airrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2405_obj
@@ -8568,7 +7944,7 @@ model=model_2405_obj
 2dxan=516
 members=yes
 
-[obj_3885]
+[boardgames_runelink_mindrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2481_obj
@@ -8577,7 +7953,7 @@ model=model_2481_obj
 2dxan=516
 members=yes
 
-[obj_3886]
+[boardgames_runelink_bodyrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2340_obj
@@ -8586,7 +7962,7 @@ model=model_2340_obj
 2dxan=516
 members=yes
 
-[obj_3887]
+[boardgames_runelink_naturerune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2734_obj
@@ -8595,7 +7971,7 @@ model=model_2734_obj
 2dxan=516
 members=yes
 
-[obj_3888]
+[boardgames_runelink_chaosrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2707_obj
@@ -8604,7 +7980,7 @@ model=model_2707_obj
 2dxan=516
 members=yes
 
-[obj_3889]
+[boardgames_runelink_lawrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2382_obj
@@ -8613,7 +7989,7 @@ model=model_2382_obj
 2dxan=516
 members=yes
 
-[obj_3890]
+[boardgames_runelink_cosmicrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2735_obj
@@ -8622,7 +7998,7 @@ model=model_2735_obj
 2dxan=516
 members=yes
 
-[obj_3891]
+[boardgames_runelink_bloodrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2665_obj
@@ -8631,7 +8007,7 @@ model=model_2665_obj
 2dxan=516
 members=yes
 
-[obj_3892]
+[boardgames_runelink_soulrune]
 name=Board game piece
 desc=A piece used in board games.
 model=model_2434_obj
@@ -8640,7 +8016,7 @@ model=model_2434_obj
 2dxan=516
 members=yes
 
-[obj_3893]
+[wearable_stool_white]
 name=Stool
 desc=A comfy stool.
 cost=800

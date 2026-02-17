@@ -3833,7 +3833,7 @@ length=2
 recol1s=28538
 recol1d=14798
 
-[loc_738]
+[minigame_start_icon]
 model=model_loc_2733
 forcedecor=yes
 mapfunction=38
@@ -4099,7 +4099,7 @@ model=model_loc_2733
 forcedecor=yes
 mapfunction=49
 
-[loc_776]
+[merlin_star]
 model=model_loc_2205
 hillskew=yes
 forcedecor=yes
@@ -4116,7 +4116,7 @@ active=no
 width=2
 length=2
 
-[loc_779]
+[tbwt_bamboo_door]
 name=Bamboo Door
 desc=It's a door made from bamboo.
 model=model_4007
@@ -4128,7 +4128,7 @@ blockrange=no
 raiseobject=no
 op1=Open
 
-[loc_780]
+[tbwt_bamboo_door_inactive]
 model=model_4007
 recol1s=20968
 recol1d=18853
@@ -4138,7 +4138,7 @@ blockrange=no
 raiseobject=no
 active=no
 
-[loc_781]
+[regicide_darkelf_tentroof]
 model=model_loc_1670
 recol1s=26425
 recol1d=10465
@@ -4146,7 +4146,7 @@ recol2s=9216
 recol2d=5447
 active=no
 
-[loc_782]
+[regicide_darkelf_tentroof_corner]
 model=loc_3671
 recol1s=26425
 recol1d=10465
@@ -4154,7 +4154,7 @@ recol2s=9216
 recol2d=5447
 active=no
 
-[loc_783]
+[regicide_darkelf_tentwall]
 model=loc_3979
 recol1s=21069
 recol1d=10465
@@ -4167,37 +4167,37 @@ contrast=10
 sharelight=yes
 active=no
 
-[loc_784]
+[regicide_darkelf_tentroofcentre]
 model=model_loc_1683
 recol1s=26425
 recol1d=10465
 sharelight=yes
 active=no
 
-[loc_785]
+[regicide_darkelf_guideropes]
 model=model_loc_1680
 recol1s=15855
 recol1d=2114
 active=no
 
-[loc_786]
+[regicide_darkelf_standard]
 model=model_3909
 active=no
 
-[loc_787]
+[regicide_loom]
 name=Loom
 desc=A loom.
 model=model_3915
 active=yes
 
-[loc_788]
+[elf_city_gate_right]
 name=City Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3874
 width=2
 op1=Enter
 
-[loc_789]
+[elf_city_gate_left]
 name=City Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3874
@@ -4205,7 +4205,7 @@ width=2
 mirror=yes
 op1=Enter
 
-[loc_790]
+[grandwall_roof]
 model=model_loc_1665
 retex1s=elfwood
 retex1d=elfbrick
@@ -4214,7 +4214,7 @@ recol2d=16808
 sharelight=yes
 active=no
 
-[loc_791]
+[grandwall_roof_chimney]
 model=model_loc_1666
 retex1s=elfwood
 retex1d=elfbrick
@@ -4223,7 +4223,7 @@ recol2d=16808
 sharelight=yes
 active=no
 
-[loc_792]
+[grandwall_roofedge]
 model=model_loc_1667
 recol1s=6309
 recol1d=9480
@@ -8491,51 +8491,51 @@ occlude=yes
 active=yes
 raiseobject=no
 
-[archeddooropen]
+[loc_1509]
 model=model_loc_1506
 mirror=yes
 active=no
 raiseobject=no
 
-[archeddoorclosed]
+[loc_1510]
 model=model_loc_1506
 active=no
 raiseobject=no
 
-[thickpoordoor]
+[loc_1518]
 model=model_loc_1518
 sharelight=yes
 raiseobject=no
 
-[castledoubledoorl]
+[loc_1521]
 model=model_loc_1518
 sharelight=yes
 mirror=yes
 raiseobject=no
 
-[opencastledoubledoorl]
+[loc_1522]
 model=model_loc_71
 active=no
 raiseobject=no
 
-[doubledoorhingel]
-model=model_loc_71
-mirror=yes
-active=no
-raiseobject=no
-
-[castledoubledoorr]
-model=model_loc_71
-active=no
-raiseobject=no
-
-[opencastledoubledoorr]
+[loc_1523]
 model=model_loc_71
 mirror=yes
 active=no
 raiseobject=no
 
-[doubledoorhinger]
+[loc_1524]
+model=model_loc_71
+active=no
+raiseobject=no
+
+[loc_1525]
+model=model_loc_71
+mirror=yes
+active=no
+raiseobject=no
+
+[loc_1526]
 name=Curtain
 desc=The curtain is closed.
 model=model_loc_1526
@@ -8543,12 +8543,12 @@ active=yes
 op1=Open
 raiseobject=no
 
-[inaccastledoubledoorl]
+[loc_1527]
 model=model_loc_1527
 active=no
 raiseobject=no
 
-[inaccastledoubledoorr]
+[loc_1528]
 name=Curtain
 desc=The curtain is closed.
 model=model_loc_1526
@@ -8556,7 +8556,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[inaccastledoubledoorlopen]
+[loc_1529]
 name=Curtain
 desc=The curtain is open.
 model=model_loc_1527
@@ -8566,23 +8566,23 @@ blockwalk=no
 blockrange=no
 raiseobject=no
 
-[prisondooropen]
+[loc_1547]
 model=model_loc_1547
 blockrange=no
 raiseobject=no
 
-[inactiveprisondoor]
+[loc_1548]
 model=model_loc_1547
 mirror=yes
 blockrange=no
 raiseobject=no
 
-[prisondoor_r]
+[loc_1549]
 model=model_loc_1549
 blockrange=no
 raiseobject=no
 
-[prisondooropen_r]
+[loc_1550]
 model=model_loc_1549
 mirror=yes
 blockrange=no
@@ -8601,7 +8601,7 @@ active=no
 blockrange=no
 raiseobject=no
 
-[openfencegate_l]
+[loc_1559]
 name=Gate
 model=model_loc_1559
 length=2
@@ -11797,7 +11797,7 @@ model=model_loc_2306
 blockwalk=no
 forcedecor=yes
 
-[loc_2310]
+[hollow_tree_stump]
 name=Tree stump
 desc=This tree has been cut down.
 model=model_4147
@@ -12389,46 +12389,46 @@ mapscene=44
 model=model_loc_771
 mapscene=45
 
-[loc_2493]
+[runetemple_pillar_new1]
 name=Pillar
 desc=A part of an old temple.
 model=model_loc_2493
 
-[loc_2494]
+[runetemple_pillar_new2]
 name=Pillar
 desc=A part of an old temple.
 model=model_loc_2494
 
-[loc_2495]
+[runetemple_pillar_new_top]
 name=Pillar
 desc=A part of an old temple.
 model=model_loc_2495
 width=3
 
-[loc_2496]
+[runetemple_standingstone_new]
 model=model_loc_2496
 forcedecor=yes
 
-[loc_2497]
+[runetemple_standingstone_old]
 name=Mysterious stone
 desc=Unusual energy is gathered here.
 model=model_loc_2497
 
-[loc_2498]
+[runetemple_standingstone_glow]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=model_loc_2498
 ambient=100
 anim=stoneglow
 
-[loc_2499]
+[runetemple_standingstone_glow_air]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=model_loc_2498
 ambient=100
 anim=stoneglow
 
-[loc_2500]
+[runetemple_standingstone_glow_water]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=model_loc_2498
@@ -12437,7 +12437,7 @@ ambient=60
 recol1s=28538
 recol1d=15871
 
-[loc_2501]
+[runetemple_standingstone_glow_fire]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=model_loc_2498
@@ -12446,7 +12446,7 @@ ambient=60
 recol1s=28538
 recol1d=18465
 
-[loc_2502]
+[runetemple_standingstone_glow_body]
 name=Mysterious glow
 desc=Unusual energy is gathered here.
 model=model_loc_2498
@@ -12455,44 +12455,45 @@ ambient=60
 recol1s=28538
 recol1d=12488
 
-[loc_2503]
+[runetemple_pillar_old1]
 name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2503
 
-[loc_2504]
+[runetemple_pillar_old2]
 name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2504
 
-[loc_2505]
+[runetemple_pillar_old3]
 name=Pillar
 desc=An old crumbled pillar.
 model=model_loc_2505
 width=2
 
-[loc_2506]
+[runetemple_pillar_old4]
 name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2506
 
-[loc_2507]
+// [sic] "ol45" (typo of old5?)
+[runetemple_pillar_ol45]
 name=Pillar
 desc=An old crumbled pillar.
 model=model_loc_2507
 width=3
 
-[loc_2508]
+[runetemple_rubble1]
 name=Rubble
 desc=Broken parts of an old temple.
 model=model_loc_2508
 
-[loc_2509]
+[runetemple_rubble2]
 name=Rubble
 desc=Broken parts of an old temple.
 model=model_loc_2509
 
-[loc_2510]
+[runetemple_rubble3]
 name=Rubble
 desc=Broken parts of an old temple.
 model=model_loc_2510
@@ -12855,7 +12856,7 @@ model=model_loc_2668
 op1=Look at
 op2=Use
 
-[shantay_pass]
+[decking_corner_c_chaos]
 model=model_4074
 hillskew=yes
 forcedecor=yes
@@ -13015,7 +13016,7 @@ model=model_loc_71
 op1=Open
 op2=Search
 category=double_door_open_and_close_left
-param=next_loc_stage,opencastledoubledoorl
+param=next_loc_stage,loc_1522
 
 [thttmineexitr]
 name=Mine door entrance
@@ -13025,7 +13026,7 @@ mirror=yes
 op1=Open
 op2=Search
 category=double_door_open_and_close_right
-param=next_loc_stage,doubledoorhingel
+param=next_loc_stage,loc_1523
 
 [ttcellclimbrock1]
 name=Rock
@@ -15031,7 +15032,7 @@ model=model_loc_3206
 model=model_loc_3207
 active=no
 
-[loc_3208]
+[death_camp_roof]
 model=loc_3208
 recol1s=22126
 recol1d=21071

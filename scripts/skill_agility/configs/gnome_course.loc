@@ -50,7 +50,7 @@ model=model_loc_2284
 width=2
 op1=Climb-over
 
-[gnome_obstacle_pipe]
+[loc_2289]
 name=Hollow tree
 desc=It's hollow...
 model=model_4146

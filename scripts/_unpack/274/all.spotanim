@@ -1,34 +1,34 @@
 [spotanim_282]
 model=spot_spotanim_282
-anim=seq_1204
+anim=sp_d_halberd_glow
 ambient=60
 contrast=60
 
 [spotanim_283]
 model=spot_spotanim_283
-anim=seq_1204
+anim=sp_d_halberd_glow
 ambient=60
 contrast=60
 
 [spotanim_284]
 model=spot_spotanim_284
-anim=seq_1204
+anim=sp_d_halberd_glow
 ambient=60
 contrast=60
 
 [spotanim_285]
 model=spot_spotanim_285
-anim=seq_1204
+anim=sp_d_halberd_glow
 ambient=60
 contrast=60
 
 [spotanim_286]
 model=spot_spotanim_286
-anim=seq_1229
+anim=inair_barrel
 
 [spotanim_287]
 model=spot_spotanim_287
-anim=seq_1230
+anim=barrel_explode
 
 [spotanim_288]
 model=spot_spotanim_288
@@ -48,17 +48,17 @@ anim=taxe_launch
 
 [spotanim_291]
 model=model_3070_spotanim
-anim=seq_1257
+anim=eadgar_stunned
 ambient=40
 contrast=40
 
 [spotanim_292]
 model=spot_spotanim_292
-anim=seq_1305
+anim=temple_pyre_fire
 
 [spotanim_293]
 model=spot_spotanim_293
-anim=seq_1285
+anim=shade_attack2
 
 [spotanim_294]
 model=spot_spotanim_294

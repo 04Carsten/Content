@@ -1,42 +1,42 @@
-[loc_3855]
+[bamboo_picture2]
 model=loc_3855
 sharelight=yes
 occlude=yes
 
-[loc_3856]
+[crate_halfburied]
 name=Crate
 desc=It's a half buried crate.
 model=loc_3856
 
-[loc_3857]
+[crate_halfburied2]
 name=Crate
 desc=It's a half buried crate.
 model=loc_3857
 
-[loc_3858]
+[fishingrod_static]
 name=Fishing rod
 desc=It's stuck in the sand.
 model=loc_3858
 length=2
 
-[loc_3859]
+[fishingrod_static_diag]
 name=Fishing rod
 desc=It's stuck in the sand.
 model=loc_3859
 length=2
 width=2
 
-[loc_3860]
+[barrel_tropicalfish]
 name=Barrel
 desc=It's full of brightly coloured fish.
 model=loc_3860
 
-[loc_3861]
+[crate_tropicalfish]
 name=Crate
 desc=It's full of brightly coloured fish.
 model=loc_3861
 
-[loc_3862]
+[bones_in_paste_fire]
 name=Burning bones_
 desc=It's a pile of burning bones.
 model=loc_3862
@@ -44,7 +44,7 @@ anim=fire
 blockwalk=no
 blockrange=no
 
-[loc_3863]
+[tbwt_tribal_statue]
 name=Tribal Statue
 desc=The tribal statue of Tai Bwo Wannai Village.
 model=model_loc_567
@@ -52,78 +52,78 @@ width=2
 length=2
 op1=Pray-at
 
-[loc_3864]
+[floor_depth4]
 model=loc_3864
 hillskew=yes
 sharelight=yes
 
-[loc_3865]
+[grandwall1]
 model=loc_3865
 active=no
 
-[loc_3866]
+[grandwall3]
 model=loc_3866
 active=no
 
-[loc_3867]
+[grandwall3left]
 model=loc_3866
 mirror=yes
 active=no
 
-[loc_3868]
+[grandwall1_plain]
 model=loc_3868
 active=no
 
-[loc_3869]
+[grandwall1_upper]
 model=loc_3869
 active=no
 
-[loc_3870]
+[grandwall1_upper_plain]
 model=loc_3870
 active=no
 
-[loc_3871]
+[grandwall1_rail]
 model=loc_3871
 active=no
 
-[loc_3872]
+[grandwall_tower]
 model=loc_3872
 width=3
 length=3
-anim=seq_1211
+anim=crystal_float
 active=no
 
-[loc_3873]
+[grandwall_tower_base]
 model=loc_3873
 width=3
 length=3
 active=no
 
-[loc_3874]
+[grandwall_door]
 model=loc_3874
 width=2
 active=no
 
-[loc_3875]
+[grandwall_door_left]
 model=loc_3874
 width=2
 mirror=yes
 active=no
 
-[loc_3876]
+[grandwall_door_post]
 model=loc_3876
 active=no
 
-[loc_3877]
+[grandwall_door_post_left]
 model=loc_3877
 active=no
 
-[loc_3878]
+[grandwall1_upper_lamp]
 model=loc_3878
-anim=seq_1212
+anim=crystallamp_float
 ambient=20
 
-[loc_3879]
+[regicide_tree_large]
 name=Tree
 desc=A tree.
 model=loc_3879
@@ -133,7 +133,7 @@ mapscene=10
 op1=Chop down
 op3=hidden
 
-[loc_3880]
+[regicide_tree_stump]
 name=Treestump
 desc=It's a treestump.
 model=loc_3880
@@ -141,7 +141,7 @@ width=3
 length=3
 mapscene=10
 
-[loc_3881]
+[regicide_tree_large2]
 name=Tree
 desc=A tree.
 model=loc_3879
@@ -154,7 +154,7 @@ mapscene=10
 op1=Chop down
 op3=hidden
 
-[loc_3882]
+[regicide_tree_large3]
 name=Tree
 desc=A tree.
 model=loc_3879
@@ -167,7 +167,7 @@ mapscene=10
 op1=Chop down
 op3=hidden
 
-[loc_3883]
+[regicide_tree_small]
 name=Tree
 desc=A tree.
 model=loc_3879
@@ -180,7 +180,7 @@ mapscene=9
 op1=Chop down
 op3=hidden
 
-[loc_3884]
+[regicide_tree_stump_small]
 name=Treestump
 desc=It's a treestump.
 model=loc_3880
@@ -188,7 +188,7 @@ width=2
 length=2
 mapscene=10
 
-[loc_3885]
+[regicide_roottree]
 name=Tree
 desc=A tree.
 model=loc_3885
@@ -196,13 +196,13 @@ width=3
 length=3
 mapscene=11
 
-[loc_3886]
+[regicide_tree_dead1]
 name=Tree
 desc=A tree.
 model=loc_3886
 mapscene=6
 
-[loc_3887]
+[regicide_tree_dead2]
 name=Tree
 desc=A tree.
 model=loc_3887
@@ -210,7 +210,7 @@ width=3
 length=3
 mapscene=6
 
-[loc_3888]
+[regicide_tree_dead1_d1]
 name=Tree
 desc=A tree.
 model=loc_3886
@@ -218,7 +218,7 @@ recol1s=15784
 recol1d=12679
 mapscene=6
 
-[loc_3889]
+[regicide_tree_dead2_d1]
 name=Tree
 desc=A tree.
 model=loc_3887
@@ -228,7 +228,7 @@ width=3
 length=3
 mapscene=6
 
-[loc_3890]
+[regicide_tree_dead1_d2]
 name=Tree
 desc=A tree.
 model=loc_3886
@@ -236,7 +236,7 @@ recol1s=15784
 recol1d=10534
 mapscene=6
 
-[loc_3891]
+[regicide_tree_dead2_d2]
 name=Tree
 desc=A tree.
 model=loc_3887
@@ -246,7 +246,7 @@ width=3
 length=3
 mapscene=6
 
-[loc_3892]
+[regicide_tree_fallen]
 name=Tree
 desc=A tree.
 model=loc_3892
@@ -254,13 +254,13 @@ width=6
 length=3
 mapscene=11
 
-[loc_3893]
+[regicide_tree_base]
 name=Tree
 desc=A tree.
 model=loc_3893
 hillskew=yes
 
-[loc_3894]
+[regicide_rock1]
 model=loc_3894
 width=2
 length=2
@@ -268,7 +268,7 @@ hillskew=yes
 mapscene=11
 active=no
 
-[loc_3895]
+[regicide_rock2]
 model=loc_3895
 width=2
 length=2
@@ -276,33 +276,33 @@ hillskew=yes
 mapscene=11
 active=no
 
-[loc_3896]
+[regicide_rock3]
 model=loc_3896
 hillskew=yes
 mapscene=11
 active=no
 
-[loc_3897]
+[regicide_rock4]
 model=loc_3897
 hillskew=yes
 mapscene=11
 active=no
 
-[loc_3898]
+[regicide_grass1_river]
 model=loc_3898
 recol1s=11712
 recol1d=15840
 hillskew=yes
 active=no
 
-[loc_3899]
+[regicide_grass2_river]
 model=loc_3899
 recol1s=11712
 recol1d=15840
 hillskew=yes
 active=no
 
-[loc_3900]
+[regicide_grass2l_river]
 model=loc_3899
 recol1s=11712
 recol1d=15840
@@ -310,7 +310,7 @@ hillskew=yes
 active=no
 mirror=yes
 
-[loc_3901]
+[regicide_rareflower_1]
 name=Flowers
 desc=A rare flower.
 model=model_loc_1192
@@ -332,7 +332,7 @@ resizex=100
 resizey=100
 resizez=100
 
-[loc_3902]
+[regicide_rareflowers_1]
 name=Flowers
 desc=Don't flowers make you feel better?
 model=model_loc_1193
@@ -354,7 +354,7 @@ resizex=200
 resizey=200
 resizez=200
 
-[loc_3903]
+[regicide_rareflower_2]
 name=Flowers
 desc=A rare flower.
 model=model_loc_1192
@@ -376,7 +376,7 @@ resizex=170
 resizey=170
 resizez=170
 
-[loc_3904]
+[regicide_rareflowers_2]
 name=Flowers
 desc=Don't flowers make you feel better?
 model=model_loc_1193
@@ -398,7 +398,7 @@ resizex=170
 resizey=170
 resizez=170
 
-[loc_3905]
+[regicide_rareflower_3]
 name=Flowers
 desc=A rare flower.
 model=model_loc_1192
@@ -420,7 +420,7 @@ resizex=150
 resizey=150
 resizez=150
 
-[loc_3906]
+[regicide_rareflowers_3]
 name=Flowers
 desc=Don't flowers make you feel better?
 model=model_loc_1193
@@ -442,32 +442,32 @@ resizex=150
 resizey=150
 resizez=150
 
-[loc_3907]
+[regicide_twigs1]
 model=loc_3907
 hillskew=yes
 active=no
 
-[loc_3908]
+[regicide_twigs2]
 model=loc_3908
 hillskew=yes
 active=no
 
-[loc_3909]
+[regicide_twigs3]
 model=loc_3909
 hillskew=yes
 active=no
 
-[loc_3910]
+[regicide_twigs_log]
 model=loc_3910
 hillskew=yes
 active=no
 
-[loc_3911]
+[regicide_twigs_fade]
 model=loc_3911
 hillskew=yes
 active=no
 
-[loc_3912]
+[regicide_mushroom2]
 name=Mushroom
 desc=Fungal growth.
 model=model_loc_1165
@@ -477,7 +477,7 @@ recol2s=3170
 recol2d=30655
 blockrange=no
 
-[loc_3913]
+[regicide_mushrooms2]
 name=Mushrooms
 desc=Poisonous no doubt.
 model=model_loc_1166
@@ -496,7 +496,7 @@ recol6d=8886
 blockrange=no
 blockrange=no
 
-[loc_3914]
+[regicide_mushroom2_large]
 name=Mushroom
 desc=Poisonous no doubt.
 model=model_loc_1169
@@ -506,7 +506,7 @@ recol2s=3170
 recol2d=30655
 blockrange=no
 
-[loc_3915]
+[regicide_red_mushroom_corner]
 name=Mushroom
 desc=Fungal growth.
 model=loc_3915
@@ -518,7 +518,7 @@ recol3s=28075
 recol3d=27412
 blockrange=no
 
-[loc_3916]
+[regicide_red_mushrooms]
 name=Mushrooms
 desc=Poisonous no doubt.
 model=loc_3916
@@ -531,7 +531,7 @@ recol3d=27412
 blockrange=no
 blockrange=no
 
-[loc_3917]
+[regicide_red_mushroom_fade]
 name=Mushroom
 desc=Poisonous no doubt.
 model=loc_3917
@@ -543,27 +543,27 @@ recol3s=28075
 recol3d=27412
 blockrange=no
 
-[loc_3918]
+[regicide_crystal_lamp]
 name=Elven lamp
 desc=The lamp has a glowing crystal at its core.
 model=loc_3918
-anim=seq_1212
+anim=crystallamp_float
 active=yes
 
-[loc_3919]
+[regicide_trap_arrowtrip]
 name=Twigs
 desc=Its a trap!
 model=loc_3919
 blockwalk=no
 blockrange=no
 
-[loc_3920]
+[regicide_rock1_trap]
 model=loc_3920
 hillskew=yes
 active=no
 length=2
 
-[loc_3921]
+[regicide_trap_tripwire]
 name=Tripwire
 desc=A tripwire.
 model=loc_3921
@@ -571,7 +571,7 @@ blockwalk=no
 op1=Step-over
 length=2
 
-[loc_3922]
+[regicide_trap_woodspring]
 name=Sticks
 desc=A odd looking group of tied sticks.
 model=loc_3922
@@ -579,50 +579,50 @@ width=3
 blockwalk=no
 op1=Pass
 
-[loc_3923]
+[regicide_pitfall_corner]
 name=Leaves
 desc=A pile of leaves.
 model=loc_3923
 blockwalk=no
 op1=Jump
 
-[loc_3924]
+[regicide_pitfall_mid]
 name=Leaves
 desc=A pile of leaves.
 model=loc_3924
 blockwalk=no
 op1=Jump
 
-[loc_3925]
+[regicide_pitfall_side]
 name=Leaves
 desc=A pile of leaves.
 model=loc_3925
 blockwalk=no
 op1=Jump
 
-[loc_3926]
+[regicide_trap_logswing]
 name=regicide_trap_logswing
 model=loc_3926
-anim=seq_1216
+anim=logswing_ready
 blockwalk=no
 blockrange=no
 width=4
 length=2
 
-[loc_3927]
+[regicide_trap_hand_holds]
 name=Protruding rocks
 desc=Looks like I can climb these.
 model=model_loc_1444
 op1=Climb
 
-[loc_3928]
+[regicide_trap_logslam]
 name=Tree
 desc=Its a tree
 model=loc_3928
 width=3
 length=3
 
-[loc_3929]
+[regicide_logbalance1]
 name=Log balance
 desc=I can balance on this log.
 model=model_loc_2291
@@ -633,7 +633,7 @@ sharelight=yes
 forcedecor=yes
 active=yes
 
-[loc_3930]
+[regicide_logbalance2]
 name=Log balance
 desc=I can balance on this log.
 model=model_loc_2292
@@ -644,7 +644,7 @@ sharelight=yes
 forcedecor=yes
 active=yes
 
-[loc_3931]
+[regicide_logbalance1_start]
 name=Log balance
 desc=I can balance on this log.
 model=model_loc_2291
@@ -656,7 +656,7 @@ forcedecor=yes
 active=yes
 op1=Cross
 
-[loc_3932]
+[regicide_logbalance2_start]
 name=Log balance
 desc=I can balance on this log.
 model=model_loc_2291
@@ -668,7 +668,7 @@ forcedecor=yes
 active=yes
 op1=Cross
 
-[loc_3933]
+[regicide_logbalance3_start]
 name=Log balance
 desc=I can balance on this log.
 model=model_loc_2291
@@ -680,7 +680,7 @@ forcedecor=yes
 active=yes
 op1=Cross
 
-[loc_3934]
+[regicide_blue_grass1]
 model=loc_3547
 recol1s=11712
 recol1d=14036
@@ -690,7 +690,7 @@ resizex=128
 resizey=64
 resizez=128
 
-[loc_3935]
+[regicide_blue_grass2]
 model=loc_3548
 recol1s=11712
 recol1d=14036
@@ -700,7 +700,7 @@ resizex=128
 resizey=64
 resizez=128
 
-[loc_3936]
+[regicide_blue_grass3]
 model=loc_3549
 recol1s=11712
 recol1d=14036
@@ -710,7 +710,7 @@ resizex=128
 resizey=64
 resizez=128
 
-[loc_3937]
+[regicide_cross_over1]
 name=Dense forest
 desc=There are some broken twigs here.
 model=loc_3937
@@ -718,7 +718,7 @@ width=3
 length=2
 op1=Enter
 
-[loc_3938]
+[regicide_cross_over2]
 name=Dense forest
 desc=It looks as if the grass here has been flattened.
 model=loc_3938
@@ -726,7 +726,7 @@ width=3
 length=2
 op1=Enter
 
-[loc_3939]
+[regicide_cross_over3]
 name=Dense forest
 desc=You notice the leaf litter here has been disturbed.
 model=loc_3939
@@ -734,7 +734,7 @@ width=3
 length=2
 op1=Enter
 
-[loc_3940]
+[regicide_rabbit_hutch]
 model=model_loc_748
 recol1s=25295
 recol1d=15750
@@ -760,7 +760,7 @@ shadow=no
 op1=Follow
 blockwalk=no
 
-[loc_3942]
+[regicide_hollowlog]
 model=model_loc_1334
 recol1s=18823
 recol1d=16808
@@ -769,7 +769,7 @@ recol2d=16808
 width=3
 active=no
 
-[loc_3943]
+[regicide_hollowlogsmaller]
 model=model_loc_1335
 recol1s=18823
 recol1d=16808
@@ -778,14 +778,14 @@ recol2d=16808
 width=2
 active=no
 
-[loc_3944]
+[overpass_gate_right]
 name=Huge Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3874
 width=2
 op1=Enter
 
-[loc_3945]
+[overpass_gate_left]
 name=Huge Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3874
@@ -793,19 +793,19 @@ width=2
 mirror=yes
 op1=Enter
 
-[loc_3946]
+[overpass_gate_right_open]
 name=Huge Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3946
 length=2
 
-[loc_3947]
+[overpass_gate_left_open]
 name=Huge Gate
 desc=You'd need a big siege engine to force that.
 model=loc_3947
 length=2
 
-[loc_3948]
+[dugupsoil1_brownmud]
 model=model_loc_184
 recol1s=13505
 recol1d=10500
@@ -816,7 +816,7 @@ recol3d=10500
 hillskew=yes
 active=no
 
-[loc_3949]
+[dugupsoil2_brownmud]
 model=model_loc_185
 recol1s=13505
 recol1d=10500
@@ -827,7 +827,7 @@ recol3d=10500
 hillskew=yes
 active=no
 
-[loc_3950]
+[dugupsoil3_brownmud]
 model=model_loc_186
 recol1s=13505
 recol1d=10500
@@ -838,14 +838,14 @@ recol3d=10500
 hillskew=yes
 active=no
 
-[loc_3951]
+[swamp_edge]
 model=loc_3951
 recol1s=15855
 recol1d=16774
 hillskew=yes
 active=no
 
-[loc_3952]
+[swamp_edgel]
 model=loc_3951
 recol1s=15855
 recol1d=16774
@@ -853,14 +853,14 @@ hillskew=yes
 mirror=yes
 active=no
 
-[loc_3953]
+[swamp_edge2]
 model=loc_3953
 recol1s=15855
 recol1d=16774
 hillskew=yes
 active=no
 
-[loc_3954]
+[swamp_edge2l]
 model=loc_3953
 recol1s=15855
 recol1d=16774
@@ -868,28 +868,28 @@ hillskew=yes
 mirror=yes
 active=no
 
-[loc_3955]
+[regicide_swamp_soil1]
 model=loc_3955
 recol1s=15855
 recol1d=16774
 hillskew=yes
 active=no
 
-[loc_3956]
+[regicide_swamp_soil2]
 model=loc_3956
 recol1s=15855
 recol1d=16774
 hillskew=yes
 active=no
 
-[loc_3957]
+[regicide_swamp_soil3]
 model=loc_3957
 recol1s=15855
 recol1d=16774
 hillskew=yes
 active=no
 
-[loc_3958]
+[regicide_swamp_root1]
 model=model_loc_1323
 recol1s=6240
 recol1d=3203
@@ -900,7 +900,7 @@ width=2
 length=2
 active=no
 
-[loc_3959]
+[regicide_swamp_root2]
 model=model_loc_1324
 recol1s=6240
 recol1d=3203
@@ -911,7 +911,7 @@ width=2
 length=2
 active=no
 
-[loc_3960]
+[regicide_swamp_root3]
 model=model_loc_1325
 recol1s=6240
 recol1d=3203
@@ -922,46 +922,46 @@ width=2
 length=2
 active=no
 
-[loc_3961]
+[regicide_swamp_bubble1]
 model=model_swamp_bubbles
 recol1s=3301
 recol1d=3203
 anim=swampbubs
 active=no
 
-[loc_3962]
+[regicide_sulphar1]
 name=Sulphur
 desc=A yellow crystal structure.
 model=loc_3962
 hillskew=yes
 op1=Take
 
-[loc_3963]
+[regicide_sulphar2]
 name=Sulphur
 desc=A yellow crystal structure.
 model=loc_3963
 hillskew=yes
 op1=Take
 
-[loc_3964]
+[regicide_sulphar3]
 name=Sulphur
 desc=A yellow crystal structure.
 model=loc_3964
 hillskew=yes
 op1=Take
 
-[loc_3965]
+[regicide_sulphar_vent]
 model=loc_3965
 active=no
 
-[loc_3966]
+[regicide_sulphar_gas]
 model=model_loc_673
 recol1s=28538
 recol1d=19016
 anim=gas
 active=no
 
-[loc_3967]
+[regicide_tree_swamp1]
 name=tree
 desc=A tree
 model=loc_3886
@@ -973,7 +973,7 @@ resizex=60
 resizey=80
 resizez=60
 
-[loc_3968]
+[regicide_tree_swamp2]
 name=tree
 desc=A tree
 model=loc_3886
@@ -985,7 +985,7 @@ resizex=80
 resizey=100
 resizez=80
 
-[loc_3969]
+[regicide_pile_of_skulls]
 name=Pile of skulls
 desc=Disturbing but tidy.
 model=model_loc_658
@@ -993,7 +993,7 @@ recol1s=31709
 recol1d=3203
 blockrange=no
 
-[loc_3970]
+[regicide_charred_bones]
 name=Charred bones
 desc=I don't even want to think about what did that...
 model=model_loc_659
@@ -1010,7 +1010,7 @@ recol5d=3203
 blockrange=no
 blockwalk=no
 
-[loc_3971]
+[regicide_corpse]
 name=Corpse
 desc=Now that's what I call slimline!
 model=loc_3971
@@ -1018,7 +1018,7 @@ recol1s=27413
 recol1d=3203
 blockrange=no
 
-[loc_3972]
+[regicide_corpse2]
 name=Corpse
 desc=He looks very relaxed.
 model=model_loc_661
@@ -1026,7 +1026,7 @@ recol1s=27413
 recol1d=3203
 blockrange=no
 
-[loc_3973]
+[regicide_corpse3]
 name=Corpse
 desc=Now he's just too thin.
 model=loc_3973
@@ -1034,7 +1034,7 @@ recol1s=27413
 recol1d=3203
 blockrange=no
 
-[loc_3974]
+[regicide_corpse4]
 name=Corpse
 desc=He hasn't eaten in a long time.
 model=loc_3974
@@ -1042,7 +1042,7 @@ recol1s=27413
 recol1d=3203
 blockrange=no
 
-[loc_3975]
+[regicide_tar_collection]
 name=Tar
 desc=I don't wanna fall in that!
 model=loc_3975
@@ -1055,35 +1055,35 @@ blockwalk=no
 sharelight=yes
 op1=Take
 
-[loc_3976]
+[regicide_catapult]
 name=Catapult
 desc=Good for smashing city walls.
 model=loc_3976
 length=5
-anim=seq_1223
+anim=up_catapult
 
-[loc_3977]
+[regicide_catapult_left]
 name=Catapult-winch
 desc=Theres a winch on this side.
 model=loc_3977
 length=5
 active=yes
 
-[loc_3978]
+[regicide_catapult_right]
 name=Catapult-lever
 desc=Theres a lever on this side.
 model=loc_3978
 length=5
 active=yes
 
-[loc_3979]
+[regicide_tent_human]
 model=loc_3979
 ambient=50
 contrast=10
 sharelight=yes
 active=no
 
-[loc_3980]
+[regicide_tent_door]
 name=Tent flap
 desc=A way to get in the tent.
 model=loc_3980
@@ -1092,7 +1092,7 @@ ambient=50
 contrast=10
 sharelight=yes
 
-[loc_3981]
+[regicide_tentroof1_human]
 model=model_loc_1669
 recol1s=26425
 recol1d=9623
@@ -1101,7 +1101,8 @@ recol2d=21069
 sharelight=yes
 active=no
 
-[loc_3982]
+// [sic] regicde
+[regicde_tentroofcentre1]
 model=model_loc_1683
 recol1s=26425
 recol1d=21069
@@ -1110,7 +1111,7 @@ recol2d=9623
 sharelight=yes
 active=no
 
-[loc_3983]
+[regicide_tentroofcentre1]
 name=Tent
 desc=A Tent
 model=model_loc_1682
@@ -1119,7 +1120,7 @@ recol1d=21069
 sharelight=yes
 active=yes
 
-[loc_3984]
+[regicide_tentroof_high]
 name=Tent
 desc=A Tent
 model=loc_3984
@@ -1130,7 +1131,7 @@ recol2d=21069
 sharelight=yes
 active=yes
 
-[loc_3985]
+[regicide_tentroof_high_centre]
 name=Tent
 desc=A Tent
 model=loc_3985
@@ -1139,7 +1140,7 @@ recol1d=21069
 sharelight=yes
 active=yes
 
-[loc_3986]
+[regicide_tentroof_highcorner]
 name=Tent
 desc=A Tent
 model=loc_3986
@@ -1149,26 +1150,26 @@ recol2s=5348
 recol2d=21069
 active=yes
 
-[loc_3987]
+[propbarrel_burning]
 name=propbarrel_burning
 model=loc_3987
 recol1s=9344
 recol1d=16808
-anim=seq_1233
+anim=propbarrel_burning
 
-[loc_3988]
+[regicide_guideropes1]
 model=model_loc_1680
 recol1s=9344
 recol1d=16808
 active=no
 
-[loc_3989]
+[regicide_guideropes2]
 model=model_loc_1681
 recol1s=9344
 recol1d=16808
 active=no
 
-[loc_3990]
+[regicide_spearwall]
 model=model_loc_848
 recol1s=15649
 recol1d=14729
@@ -1184,7 +1185,7 @@ width=2
 blockrange=no
 active=no
 
-[loc_3991]
+[regicide_spearwall_straight]
 model=model_loc_2067
 recol1s=15649
 recol1d=14729
@@ -1199,7 +1200,7 @@ recol5d=15817
 blockrange=no
 active=no
 
-[loc_3992]
+[regicide_standard1_tyrus]
 name=Standard
 desc=A standard of Kandarin.
 model=model_loc_864
@@ -1214,7 +1215,7 @@ recol4d=29596
 contrast=100
 ambient=10
 
-[loc_3993]
+[regicide_standard2_tyrus]
 name=Standard
 desc=A standard of Kandarin.
 model=model_loc_866
@@ -1229,12 +1230,12 @@ recol4d=29596
 contrast=100
 ambient=10
 
-[loc_3994]
+[regicide_furnace]
 name=Small furnace
 desc=A small furnace.
 model=loc_3994
 
-[loc_3995]
+[regicide_tent_human_for_fire]
 name=Tent wall
 desc=A tent wall
 model=loc_3979
@@ -1242,7 +1243,7 @@ ambient=50
 contrast=10
 active=yes
 
-[loc_3996]
+[regicide_tent_door_for_fire]
 name=Tent flap
 desc=A way to get in the tent.
 model=loc_3980
@@ -1250,7 +1251,7 @@ op1=Enter
 ambient=50
 contrast=10
 
-[loc_3997]
+[regicide_tent_human_fire]
 name=Tent wall
 desc=A tent wall
 model=loc_3997
@@ -1261,9 +1262,9 @@ recol2d=21069
 ambient=50
 contrast=10
 active=yes
-anim=seq_1234
+anim=tent_burn
 
-[loc_3998]
+[regicide_cross_over2_tyras_camp]
 name=Dense forest
 desc=It looks as if the grass here has been flattened.
 model=loc_3938
@@ -1271,7 +1272,7 @@ width=3
 length=2
 op1=Enter
 
-[loc_3999]
+[regicide_cross_over1_tyras_camp]
 name=Dense forest
 desc=There are some broken twigs here.
 model=loc_3937
@@ -1279,7 +1280,7 @@ width=3
 length=2
 op1=Enter
 
-[loc_4000]
+[flamming_tent_roof]
 name=Tent roof
 desc=A tent roof.
 model=loc_4000
@@ -1288,7 +1289,7 @@ recol1d=9623
 recol2s=5348
 recol2d=21069
 
-[loc_4001]
+[regicide_tentcorner_roofed]
 name=Tent wall
 desc=A tent wall
 model=loc_4001
@@ -1300,15 +1301,15 @@ active=yes
 ambient=50
 contrast=10
 
-[loc_4002]
+[regicide_tentroof_stump]
 name=Tent pole
 desc=The charred remains of a tent pole.
 model=loc_4002
 
-[loc_4003]
+[regicide_corpse_king]
 model=loc_4003
 
-[loc_4004]
+[regicide_voyage_temple_well1]
 name=Well
 desc=Well of voyage.
 model=loc_4004
@@ -1322,13 +1323,13 @@ recol4s=9446
 recol4d=5217
 recol5s=7332
 recol5d=4161
-anim=seq_1235
+anim=voyage_well
 ambient=20
 width=2
 length=2
 op1=Climb-down
 
-[loc_4005]
+[regicide_voyage_temple_well2]
 name=Well
 desc=Well of voyage.
 model=loc_4004
@@ -1342,13 +1343,13 @@ recol4s=9446
 recol4d=5217
 recol5s=7332
 recol5d=4161
-anim=seq_1235
+anim=voyage_well
 ambient=20
 width=2
 length=2
 op1=Climb-down
 
-[loc_4006]
+[regicide_voyage_temple_entrance]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
 model=model_loc_2
@@ -1366,7 +1367,7 @@ width=4
 length=2
 op1=Enter
 
-[loc_4007]
+[regicide_voyage_temple_exit]
 name=Cave Exit
 desc=The exit to the outside.
 model=loc_3736
@@ -1379,14 +1380,14 @@ contrast=60
 sharelight=yes
 op1=Exit
 
-[loc_4008]
+[regicide_voyage_temple_altar]
 name=Altar
 desc=Shrine to the glory of Saradomin.
 model=loc_4008
 width=2
 op1=Pray-at
 
-[loc_4009]
+[regicide_bridge_a]
 model=model_loc_2999
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1395,7 +1396,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4010]
+[regicide_bridge_b]
 model=model_loc_3001
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1404,7 +1405,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4011]
+[regicide_bridge_b_mirror]
 model=model_loc_3002
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1413,7 +1414,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4012]
+[regicide_bridge_c]
 model=model_loc_3003
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1422,7 +1423,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4013]
+[regicide_bridge_c_mirror]
 model=model_loc_3004
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1431,7 +1432,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4014]
+[regicide_bridge_d]
 model=model_loc_3005
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1440,7 +1441,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4015]
+[regicide_bridge_d_mirror]
 model=model_loc_3006
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1449,7 +1450,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4016]
+[regicide_bridge_e]
 model=model_loc_1619
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1458,7 +1459,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4017]
+[regicide_bridge_e_l]
 model=model_loc_3008
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1467,7 +1468,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4018]
+[regicide_bridge_e_l_high]
 model=model_loc_3009
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1476,7 +1477,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4019]
+[regicide_bridge_f]
 model=model_loc_3010
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1485,7 +1486,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4020]
+[regicide_bridge_f_low]
 model=model_loc_3011
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1494,7 +1495,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4021]
+[regicide_bridge_f_low_b]
 model=model_loc_3012
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1503,7 +1504,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4022]
+[regicide_bridge_d_low]
 model=model_loc_3013
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1512,7 +1513,7 @@ recol2d=30513
 sharelight=yes
 active=no
 
-[loc_4023]
+[regicide_bridge_edge]
 model=model_loc_3007
 retex1s=pebblefloor
 retex1d=elfbrick
@@ -1522,17 +1523,17 @@ hillskew=yes
 blockrange=no
 sharelight=yes
 
-[loc_4024]
+[regicide_propbarrel]
 name=regicide_propbarrel
 model=loc_4024
-anim=seq_1231
+anim=propbarrel_exploding_ready
 
-[loc_4025]
+[regicide_propbarrel_burning]
 name=regicide_propbarrel_burning
 model=loc_3987
-anim=seq_1233
+anim=propbarrel_burning
 
-[loc_4026]
+[regicide_fractionalizing_still]
 name=Fractionalizing still
 desc=A still for fractionalizing oils.
 model=loc_4026
@@ -1591,7 +1592,7 @@ resizex=64
 resizey=64
 resizez=64
 
-[loc_4031]
+[shantay_pass_henge_doorway]
 name=Shantay pass
 desc=Looks like a stone doorway to me.
 model=loc_4031
@@ -1600,25 +1601,25 @@ mapscene=14
 op1=Go-through
 op2=Look-at
 
-[loc_4032]
+[minimap_floor]
 model=loc_4032
 hillskew=yes
 mapscene=49
 forcedecor=yes
 
-[loc_4033]
+[decking_corner_b_chaos]
 model=loc_4033
 hillskew=yes
 forcedecor=yes
 
-[loc_4034]
+[eadgar_druid_washing_line]
 model=loc_4034
 hillskew=yes
 shadow=no
 ambient=35
 contrast=35
 
-[loc_4035]
+[eadgar_druid_washing_line_left]
 name=Druid's robes
 desc=These clean Druid's robes are drying off.
 model=loc_4035
@@ -1630,7 +1631,7 @@ active=yes
 ambient=35
 contrast=35
 
-[loc_4036]
+[eadgar_druid_washing_line_right]
 name=Druid's robes
 desc=These clean Druid's robes are drying off.
 model=loc_4036
@@ -1642,87 +1643,87 @@ active=yes
 ambient=35
 contrast=35
 
-[loc_4037]
+[eadgar_puddle]
 model=model_loc_745
 hillskew=yes
 resizex=64
 resizey=64
 resizez=64
 
-[loc_4038]
+[eadgar_puddle2]
 model=model_loc_746
 hillskew=yes
 resizex=112
 resizey=112
 resizez=112
 
-[loc_4039]
+[eadgar_laundry_basket]
 name=Laundry Basket
 desc=It's full of dirty robes.
 model=loc_4039
 blockrange=no
 
-[loc_4040]
+[eadgar_aviary_wall]
 model=loc_4040
 hillskew=yes
 active=no
 
-[loc_4041]
+[eadgar_aviary_parrott_perch_end]
 model=loc_4041
 active=no
 
-[loc_4042]
+[eadgar_aviary_parrott_perch_mid]
 model=loc_4042
 active=no
 
-[loc_4043]
+[eadgar_aviary_wall_hatch]
 name=Aviary Hatch
 desc=Presumably the hatch the zookeeper feeds the parrots through.
 model=loc_4043
 hillskew=yes
 active=yes
 
-[loc_4044]
+[standard_red_scorpian_catcher]
 name=Standard
 desc=A red standard.
 model=loc_4044
 
-[loc_4045]
+[bridge_corner_viz]
 model=model_loc_1707
 active=no
 forcedecor=yes
 
-[loc_4046]
+[mist]
 name=mist
 model=loc_4046
 length=2
 width=2
-anim=seq_1260
+anim=mist
 
-[loc_4047]
+[misty]
 name=misty
 model=loc_4047
 length=2
 width=2
-anim=seq_1261
+anim=misty
 contrast=30
 ambient=30
 
-[loc_4048]
+[spooky_tree_base]
 name=Tree
 desc=Spooky!
 model=loc_4048
 sharelight=yes
 mapscene=6
 
-[loc_4049]
+[spooky_tree_mid]
 name=Tree
 desc=Spooky!
 model=loc_4049
 forcedecor=yes
 sharelight=yes
 
-[loc_4050]
+[spooky_tree_top]
 name=Tree
 desc=Spooky!
 model=loc_4050
@@ -1731,7 +1732,7 @@ width=3
 forcedecor=yes
 sharelight=yes
 
-[loc_4051]
+[deadtree4swamp]
 name=Tree
 desc=It doesn't look healthy...
 model=model_loc_1383
@@ -1739,7 +1740,7 @@ recol1s=4193
 recol1d=7428
 mapscene=6
 
-[loc_4052]
+[coppicetree_swamp]
 name=Tree
 desc=It's covered in slime.
 model=loc_4052
@@ -1747,7 +1748,7 @@ width=2
 length=2
 mapscene=6
 
-[loc_4053]
+[regicide_tree_dead1swamp]
 name=Tree
 desc=It doesn't look healthy...
 model=loc_3886
@@ -1755,7 +1756,7 @@ recol1s=15784
 recol1d=7428
 mapscene=6
 
-[loc_4054]
+[regicide_tree_dead2swamp]
 name=Tree
 desc=It doesn't look healthy...
 model=loc_3887
@@ -1765,22 +1766,22 @@ width=3
 length=3
 mapscene=6
 
-[loc_4055]
+[mushroom_massive1]
 name=Huge Mushroom
 desc=These fat fungi take up so much room.
 model=loc_4055
 
-[loc_4056]
+[mushroom_massive2]
 name=Huge Mushroom
 desc=These fat fungi take up so much room.
 model=loc_4056
 
-[loc_4057]
+[mushroom_massive3]
 name=Huge Mushroom
 desc=These fat fungi take up so much room.
 model=loc_4057
 
-[loc_4058]
+[gnome_obstacle_pipe]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
 model=model_loc_2287
@@ -1812,7 +1813,7 @@ ambient=25
 op1=Chop down
 op3=hidden
 
-[loc_4061]
+[hollow_tree_stump_big]
 name=Tree stump
 desc=This tree has been cut down.
 model=loc_4061
@@ -1825,7 +1826,7 @@ length=2
 ambient=25
 mapscene=6
 
-[loc_4062]
+[shades_experimentshelf]
 name=Shelf
 desc=Strange items are stored here.
 model=model_loc_1020
@@ -1842,7 +1843,7 @@ recol5d=6208
 ambient=50
 op1=Search
 
-[loc_4063]
+[mortton_sink]
 name=Sink
 desc=Ideal for washing things in.
 model=model_loc_873
@@ -1861,13 +1862,13 @@ recol6d=8526
 length=2
 blockrange=no
 
-[loc_4064]
+[shades_experimenttable]
 name=Smashed table
 desc=This table has seen better days.
 model=model_loc_599
 op5=Search
 
-[loc_4065]
+[pyre_stand]
 name=Stone stand
 desc=It looks very ornamental in a practical 'solid rock' way.
 model=model_loc_1813
@@ -1877,7 +1878,7 @@ blockrange=no
 raiseobject=yes
 occlude=yes
 
-[loc_4066]
+[mortton_signpost]
 name=Signpost
 desc=Welcome to Mort'ton
 model=model_loc_1034
@@ -1887,7 +1888,7 @@ recol2s=8913
 recol2d=10240
 op1=Search
 
-[loc_4067]
+[mortton_dangersign]
 name=Warning sign
 desc=Danger! Sickness and affliction...stay away!
 model=model_loc_1032
@@ -1896,181 +1897,181 @@ recol1d=4160
 recol2s=32767
 recol2d=10240
 
-[loc_4068]
+[templewall_base]
 name=Broken Wall
 desc=Looks like a pile of ancient rubble.
 model=loc_4068
 op1=Repair
 op3=hidden
 
-[loc_4069]
+[templewall_1]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1293
+anim=temple_build1
 op1=Repair
 op3=hidden
 
-[loc_4070]
+[templewall_2]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1294
+anim=temple_build2
 op1=Repair
 op3=hidden
 
-[loc_4071]
+[templewall_3]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1295
+anim=temple_build3
 op1=Repair
 op3=hidden
 
-[loc_4072]
+[templewall_4]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1296
+anim=temple_build4
 op1=Repair
 op3=hidden
 
-[loc_4073]
+[templewall_5]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1297
+anim=temple_build5
 op1=Repair
 op3=hidden
 
-[loc_4074]
+[templewall_6]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1298
+anim=temple_build6
 op1=Repair
 op3=hidden
 
-[loc_4075]
+[templewall_7]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1299
+anim=temple_build7
 op1=Repair
 op3=hidden
 
-[loc_4076]
+[templewall_8]
 name=Temple wall
 desc=The starting of a wall.
 model=loc_4069
-anim=seq_1300
+anim=temple_build8
 op1=Repair
 op3=hidden
 
-[loc_4077]
+[templewall_9]
 name=Temple wall
 desc=It's nearly a wall.
 model=loc_4069
-anim=seq_1301
+anim=temple_build9
 op1=Repair
 op3=hidden
 
-[loc_4078]
+[templewall_10]
 name=Temple wall
 desc=A rebuilt wall.
 model=loc_4069
-anim=seq_1302
+anim=temple_build10
 op1=Reinforce
 op3=hidden
 
-[loc_4079]
+[templewallcorner_base]
 name=Broken Wall
 desc=The broken wall of a desicrated temple.
 model=loc_4079
 op1=Repair
 op3=hidden
 
-[loc_4080]
+[templewallcorner_1]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1293
+anim=temple_build1
 op1=Repair
 op3=hidden
 
-[loc_4081]
+[templewallcorner_2]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1294
+anim=temple_build2
 op1=Repair
 op3=hidden
 
-[loc_4082]
+[templewallcorner_3]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1295
+anim=temple_build3
 op1=Repair
 op3=hidden
 
-[loc_4083]
+[templewallcorner_4]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1296
+anim=temple_build4
 op1=Repair
 op3=hidden
 
-[loc_4084]
+[templewallcorner_5]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1297
+anim=temple_build5
 op1=Repair
 op3=hidden
 
-[loc_4085]
+[templewallcorner_6]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1298
+anim=temple_build6
 op1=Repair
 op3=hidden
 
-[loc_4086]
+[templewallcorner_7]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1299
+anim=temple_build7
 op1=Repair
 op3=hidden
 
-[loc_4087]
+[templewallcorner_8]
 name=Temple wall
 desc=The partially repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1300
+anim=temple_build8
 op1=Repair
 op3=hidden
 
-[loc_4088]
+[templewallcorner_9]
 name=Temple wall
 desc=The nearly repaired wall of a desicrated temple.
 model=loc_4080
-anim=seq_1301
+anim=temple_build9
 op1=Repair
 op3=hidden
 
-[loc_4089]
+[templewallcorner_10]
 name=Temple wall
 desc=The repaired wall of a temple.
 model=loc_4080
-anim=seq_1302
+anim=temple_build10
 op1=Reinforce
 op3=hidden
 
-[loc_4090]
+[templefire_altar]
 name=Flaming Fire altar
 desc=A flaming fire altar.
 model=loc_4090
@@ -2078,70 +2079,70 @@ recol1s=9513
 recol1d=15855
 anim=fire
 
-[loc_4091]
+[templefire_altar_nofire]
 name=Fire altar
 desc=An ancient fire altar.
 model=loc_4091
 op1=Light
 op3=hidden
 
-[loc_4092]
+[templefire_altar_nofire_broken]
 name=Broken fire altar
 desc=An ancient, totally desicrated broken down  fire altar.
 model=loc_4092
 
-[loc_4093]
+[temple_pyre]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs some wood.
 model=loc_4093
-anim=seq_1303
+anim=temple_pyre_nowood
 length=3
 op4=Hidden
 mapscene=37
 
-[loc_4094]
+[temple_pyre_logs]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4095]
+[temple_pyre_oak]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4096]
+[temple_pyre_willow]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4097]
+[temple_pyre_maple]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4098]
+[temple_pyre_yew]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4099]
+[temple_pyre_magic]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a body.
 model=loc_4093
-anim=seq_1304
+anim=temple_pyre_nobones
 length=3
 
-[loc_4100]
+[temple_pyre_bones_logs]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2149,7 +2150,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4101]
+[temple_pyre_bones_oak]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2157,7 +2158,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4102]
+[temple_pyre_bones_willow]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2165,7 +2166,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4103]
+[temple_pyre_bones_maple]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2173,7 +2174,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4104]
+[temple_pyre_bones_yew]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2181,7 +2182,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4105]
+[temple_pyre_bones_magic]
 name=Funeral Pyre
 desc=A place to cremate the dead. Needs a light.
 model=loc_4093
@@ -2189,7 +2190,7 @@ length=3
 op1=Light
 op4=Hidden
 
-[loc_4106]
+[shadelair_bronzedoor]
 name=Solid bronze door
 desc=Heavy metal!
 model=loc_4106
@@ -2201,7 +2202,7 @@ recol3s=15855
 recol3d=8354
 op1=Open
 
-[loc_4107]
+[shadelair_steeldoor]
 name=Solid steel door
 desc=Heavy metal!
 model=loc_4106
@@ -2211,7 +2212,7 @@ recol2s=3171
 recol2d=15855
 op1=Open
 
-[loc_4108]
+[shadelair_blackdoor]
 name=Solid black door
 desc=Heavy metal!
 model=loc_4106
@@ -2223,7 +2224,7 @@ recol3s=15855
 recol3d=0
 op1=Open
 
-[loc_4109]
+[shadelair_silverdoor]
 name=Solid silver door
 desc=Heavy metal!
 model=loc_4106
@@ -2235,7 +2236,7 @@ recol3s=15855
 recol3d=19028
 op1=Open
 
-[loc_4110]
+[shadelair_doorinac]
 model=loc_4106
 recol1s=6342
 recol1d=8354
@@ -2244,7 +2245,7 @@ recol2d=8354
 recol3s=15855
 recol3d=8354
 
-[loc_4111]
+[shadechest_bronze_bloodred]
 name=Bronze Chest
 desc=A strangely decorated bronze chest, the lock is painted blood red.
 model=wooden_chest
@@ -2257,7 +2258,7 @@ recol3d=15360
 op1=Open
 forceapproach=north
 
-[loc_4112]
+[shadechest_bronze_brown]
 name=Bronze Chest
 desc=A strangely decorated chest, the lock is painted brown.
 model=wooden_chest
@@ -2270,7 +2271,7 @@ recol3d=15648
 op1=Open
 forceapproach=north
 
-[loc_4113]
+[shadechest_bronze_crimson]
 name=Bronze Chest
 desc=A strangely decorated chest, the lock is painted crimson.
 model=wooden_chest
@@ -2283,7 +2284,7 @@ recol3d=30753
 op1=Open
 forceapproach=north
 
-[loc_4114]
+[shadechest_bronze_black]
 name=Bronze Chest
 desc=A strangely decorated chest, the lock is painted black.
 model=wooden_chest
@@ -2296,7 +2297,7 @@ recol3d=2114
 op1=Open
 forceapproach=north
 
-[loc_4115]
+[shadechest_bronze_purple]
 name=Bronze Chest
 desc=A strangely decorated chest, the lock is painted purple.
 model=wooden_chest
@@ -2309,7 +2310,7 @@ recol3d=8203
 op1=Open
 forceapproach=north
 
-[loc_4116]
+[shadechest_steel_bloodred]
 name=Steel Chest
 desc=A strangely decorated steel chest, the lock is painted blood red.
 model=wooden_chest
@@ -2320,7 +2321,7 @@ recol2d=15360
 op1=Open
 forceapproach=north
 
-[loc_4117]
+[shadechest_steel_brown]
 name=Steel Chest
 desc=A strangely decorated steel chest, the lock is painted brown.
 model=wooden_chest
@@ -2331,7 +2332,7 @@ recol2d=15648
 op1=Open
 forceapproach=north
 
-[loc_4118]
+[shadechest_steel_crimson]
 name=Steel Chest
 desc=A strangely decorated steel chest, the lock is painted crimson.
 model=wooden_chest
@@ -2342,7 +2343,7 @@ recol2d=30753
 op1=Open
 forceapproach=north
 
-[loc_4119]
+[shadechest_steel_black]
 name=Steel Chest
 desc=A strangely decorated steel chest, the lock is painted black.
 model=wooden_chest
@@ -2353,7 +2354,7 @@ recol2d=2114
 op1=Open
 forceapproach=north
 
-[loc_4120]
+[shadechest_steel_purple]
 name=Steel Chest
 desc=A strangely decorated steel chest, the lock is painted purple.
 model=wooden_chest
@@ -2364,7 +2365,7 @@ recol2d=8203
 op1=Open
 forceapproach=north
 
-[loc_4121]
+[shadechest_black_bloodred]
 name=Black Chest
 desc=A strangely decorated black chest, the lock is painted blood red.
 model=wooden_chest
@@ -2377,7 +2378,7 @@ recol3d=15360
 op1=Open
 forceapproach=north
 
-[loc_4122]
+[shadechest_black_brown]
 name=Black Chest
 desc=A strangely decorated black chest, the lock is painted brown.
 model=wooden_chest
@@ -2390,7 +2391,7 @@ recol3d=15648
 op1=Open
 forceapproach=north
 
-[loc_4123]
+[shadechest_black_crimson]
 name=Black Chest
 desc=A strangely decorated black chest, the lock is painted crimson.
 model=wooden_chest
@@ -2403,7 +2404,7 @@ recol3d=30753
 op1=Open
 forceapproach=north
 
-[loc_4124]
+[shadechest_black_black]
 name=Black Chest
 desc=A strangely decorated black chest, the lock is painted black.
 model=wooden_chest
@@ -2416,7 +2417,7 @@ recol3d=2114
 op1=Open
 forceapproach=north
 
-[loc_4125]
+[shadechest_black_purple]
 name=Black Chest
 desc=A strangely decorated black chest, the lock is painted purple.
 model=wooden_chest
@@ -2429,7 +2430,7 @@ recol3d=8203
 op1=Open
 forceapproach=north
 
-[loc_4126]
+[shadechest_silver_bloodred]
 name=Silver Chest
 desc=A strangely decorated silver chest, the lock is painted blood red.
 model=wooden_chest
@@ -2442,7 +2443,7 @@ recol3d=15360
 op1=Open
 forceapproach=north
 
-[loc_4127]
+[shadechest_silver_brown]
 name=Silver Chest
 desc=A strangely decorated silver chest, the lock is painted brown.
 model=wooden_chest
@@ -2455,7 +2456,7 @@ recol3d=15648
 op1=Open
 forceapproach=north
 
-[loc_4128]
+[shadechest_silver_crimson]
 name=Silver Chest
 desc=A strangely decorated silver chest, the lock is painted crimson.
 model=wooden_chest
@@ -2468,7 +2469,7 @@ recol3d=30753
 op1=Open
 forceapproach=north
 
-[loc_4129]
+[shadechest_silver_black]
 name=Silver Chest
 desc=A strangely decorated silver chest, the lock is painted black.
 model=wooden_chest
@@ -2481,7 +2482,7 @@ recol3d=2114
 op1=Open
 forceapproach=north
 
-[loc_4130]
+[shadechest_silver_purple]
 name=Silver Chest
 desc=A strangely decorated silver chest, the lock is painted purple.
 model=wooden_chest
@@ -2494,20 +2495,20 @@ recol3d=8203
 op1=Open
 forceapproach=north
 
-[loc_4131]
+[shadelairchestopen]
 name=Open Chest
 desc=It's open.
 model=model_loc_76
 forceapproach=north
 
-[loc_4132]
+[shadelairentrancel]
 name=Wooden doors
 desc=These doors look very ominous..a sign says...'to the tombs'.
 model=model_loc_2240
 width=2
 op1=Open
 
-[loc_4133]
+[shadelairentrancer]
 name=Wooden doors
 desc=These doors look very ominous..a sign says...'to the tombs'.
 model=model_loc_2240
@@ -2515,30 +2516,30 @@ width=2
 mirror=yes
 op1=Open
 
-[loc_4134]
+[shadelairdooropenl]
 name=Hillside entrance
 desc=Large doors set into the hillside.
 model=model_loc_2238
 width=2
 
-[loc_4135]
+[shadelairdooropenr]
 name=Hillside entrance
 desc=Large doors set into the hillside.
 model=model_loc_2238
 width=2
 mirror=yes
 
-[loc_4136]
+[gravemound_top]
 model=loc_4136
 hillskew=yes
 sharelight=yes
 
-[loc_4137]
+[gravemound_bot]
 model=loc_4137
 hillskew=yes
 sharelight=yes
 
-[loc_4138]
+[death_pub_counter]
 name=Counter
 desc=Items are for sale here.
 model=model_loc_612
@@ -2572,13 +2573,13 @@ op1=Close
 mirror=yes
 blockrange=no
 
-[loc_4141]
+[viking_lake_shrine_altar]
 name=Strange altar
 desc=This seems to be some kind of shrine.
 model=loc_4141
 active=yes
 
-[loc_4142]
+[viking_musical_tree]
 name=Swaying tree
 desc=The wind makes a musical sound as it blows through it...
 model=loc_4142
@@ -2591,7 +2592,7 @@ resizex=192
 resizey=192
 op1=Cut-branch
 
-[loc_4143]
+[viking_troll_warningsign]
 name=Danger sign
 desc=Danger - Trolls!
 model=loc_3742
@@ -2599,7 +2600,7 @@ op1=Read
 ambient=10
 blockrange=no
 
-[loc_4144]
+[viking_troll_goldenappletree_trunk]
 name=Golden tree
 desc=Those golden fruit look good enough to eat!
 model=loc_3514
@@ -2613,7 +2614,7 @@ resizey=192
 ambient=40
 contrast=40
 
-[loc_4145]
+[viking_troll_goldenappletree_crown]
 model=loc_3519
 model2=loc_4145
 recol1s=7428
@@ -2629,7 +2630,7 @@ resizey=192
 ambient=40
 contrast=40
 
-[loc_4146]
+[viking_golden_tree_apples]
 model=loc_4145
 length=4
 width=4
@@ -2640,7 +2641,7 @@ ambient=40
 contrast=40
 active=no
 
-[loc_4147]
+[viking_trollcave_entrance]
 name=Cave Entrance
 desc=This must be Lallis' home.
 model=model_loc_2
@@ -2659,7 +2660,7 @@ length=2
 shadow=no
 op1=Enter
 
-[loc_4148]
+[viking_bard_backstage_door]
 name=Door
 desc=Allows performers backstage at the Longhall.
 model=loc_4148
@@ -2668,7 +2669,7 @@ ambient=30
 contrast=30
 op1=Open
 
-[loc_4149]
+[viking_troll_cauldron]
 name=Lalli's Stew
 desc=It smells pretty good actually.
 model=model_loc_692
@@ -2683,7 +2684,7 @@ resizex=192
 resizey=192
 resizez=192
 
-[loc_4150]
+[vt_mazeportal_1]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2692,7 +2693,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4151]
+[vt_mazeportal_2]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2701,7 +2702,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4152]
+[vt_mazeportal_3]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2710,7 +2711,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4153]
+[vt_mazeportal_4]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2719,7 +2720,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4154]
+[vt_mazeportal_5]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2728,7 +2729,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4155]
+[vt_mazeportal_6]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2737,7 +2738,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4156]
+[vt_mazeportal_7]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2746,7 +2747,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4157]
+[vt_mazeportal_wrong]
 name=Portal
 desc=A portal from this mystical place.
 model=model_loc_740
@@ -2755,7 +2756,7 @@ op1=Use
 ambient=100
 contrast=100
 
-[loc_4158]
+[vt_mazeladdertopentrance]
 name=Ladder
 desc=Takes me into the maze.
 model=model_loc_10
@@ -2763,7 +2764,7 @@ active=yes
 op1=Climb-down
 mapscene=7
 
-[loc_4159]
+[vt_mazeladderentrance]
 name=Ladder
 desc=Takes me out of the maze.
 model=loc_4159
@@ -2771,7 +2772,7 @@ active=yes
 op1=Climb-up
 mapscene=7
 
-[loc_4160]
+[vt_mazeladderexit]
 name=Ladder
 desc=Takes me out of the maze.
 model=loc_4159
@@ -2779,14 +2780,14 @@ active=yes
 op1=Climb-up
 mapscene=7
 
-[loc_4161]
+[vt_mazeladderescapeladder]
 name=Escape rope
 desc=Takes me out of the maze.
 model=model_loc_1762
 active=yes
 op1=Climb-up
 
-[loc_4162]
+[viking_pipe_end_longhall]
 name=Pipe
 desc=A thin metal pipe, presumably for rainwater to run through.
 model=loc_4162
@@ -2806,7 +2807,7 @@ ambient=20
 active=yes
 op1=Put-inside
 
-[loc_4163]
+[viking_seer_up_ladder]
 name=Ladder
 desc=I can climb this.
 model=loc_4163
@@ -2814,7 +2815,7 @@ active=yes
 op1=Climb-up
 mapscene=7
 
-[loc_4164]
+[viking_seer_down_ladder]
 name=Ladder
 desc=I can climb this.
 model=loc_4163
@@ -2822,7 +2823,7 @@ active=yes
 op1=Climb-up
 mapscene=7
 
-[loc_4165]
+[viking_seers_door1]
 name=Door
 desc=Keeps the wind out.
 model=loc_4148
@@ -2831,7 +2832,7 @@ ambient=30
 contrast=30
 op1=Open
 
-[loc_4166]
+[viking_seers_door2]
 name=Door
 desc=Keeps the wind out.
 model=loc_4148
@@ -2840,7 +2841,7 @@ ambient=30
 contrast=30
 op1=Open
 
-[loc_4167]
+[viking_seer_chest_closed]
 name=Chest
 desc=I wonder what's inside?
 model=wooden_chest
@@ -2851,7 +2852,7 @@ recol2d=9478
 op1=Open
 forceapproach=north
 
-[loc_4168]
+[viking_seer_chest_open]
 name=Chest
 desc=I wonder what's inside?
 model=model_loc_76
@@ -2863,7 +2864,7 @@ op1=Close
 op2=Search
 forceapproach=north
 
-[loc_4169]
+[viking_small_table_frozen]
 name=Frozen table
 desc=Brrrrrr!
 model=loc_4169
@@ -2875,7 +2876,7 @@ recol3s=16741
 recol3d=18856
 active=yes
 
-[loc_4170]
+[viking_seer_chest_closed_scales]
 name=Chest
 desc=There is some kind of balancing mechanism as a lock.
 model=loc_4170
@@ -2886,14 +2887,14 @@ recol2d=9478
 op1=Open
 forceapproach=north
 
-[loc_4171]
+[viking_seer_bookcase]
 name=Bookcase
 desc=A good source of books!
 model=loc_4171
 op1=Search
 forceapproach=east
 
-[loc_4172]
+[viking_seer_range]
 name=Cooking range
 desc=An appliance for cooking with.
 model=model_loc_114
@@ -2904,7 +2905,7 @@ recol2d=4194
 length=2
 forceapproach=east
 
-[loc_4173]
+[viking_seer_trapdoor_open]
 name=Trapdoor
 desc=I wonder what's down there?
 model=model_loc_1570
@@ -2921,7 +2922,7 @@ op1=Climb-down
 op2=Close
 raiseobject=no
 
-[loc_4174]
+[viking_seer_trapdoor_closed]
 name=Trapdoor
 desc=I wonder what's under it?
 model=model_loc_100
@@ -2937,19 +2938,19 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4175]
+[viking_seers_drain]
 name=Drain
 desc=Kind of funny smelling...
 model=loc_4175
 active=yes
 
-[loc_4176]
+[viking_seers_tap]
 name=Tap
 desc=Water comes out of it.
 model=loc_4176
 active=yes
 
-[loc_4177]
+[viking_cupboardhigh]
 name=Cupboard
 desc=This may be worth opening.
 model=model_loc_368
@@ -2957,7 +2958,7 @@ length=2
 forceapproach=east
 op1=Open
 
-[loc_4178]
+[viking_cupboardopen_high]
 name=Cupboard
 desc=This may be worth searching.
 model=model_loc_371
@@ -2966,7 +2967,7 @@ op1=Shut
 op2=Search
 forceapproach=east
 
-[loc_4179]
+[viking_seers_mural]
 name=Abstract mural
 desc=A very unusual piece of artwork...
 model=loc_4179
@@ -2975,7 +2976,7 @@ contrast=40
 op1=Study
 active=yes
 
-[loc_4180]
+[viking_seers_mural_done]
 name=Abstract mural
 desc=A very unusual piece of artwork...
 model=loc_4179
@@ -2987,21 +2988,21 @@ ambient=40
 contrast=40
 op1=Study
 
-[loc_4181]
+[viking_unimountedhead]
 name=Unicorn's head
 desc=Alas poor unicorn, I knew him well.
 model=model_loc_903
 active=yes
 op1=Study
 
-[loc_4182]
+[viking_bullmountedhead]
 name=Bull's head
 desc=Looks like the bull lost.
 model=model_loc_906
 active=yes
 op1=Study
 
-[loc_4183]
+[viking_seerboxes_1]
 name=Boxes
 desc=A pile of boxes for storage.
 model=model_loc_359
@@ -3009,7 +3010,7 @@ retex1s=wood2
 retex1d=elfwood
 op1=Search
 
-[loc_4184]
+[viking_seerboxes_3]
 name=Boxes
 desc=A pile of boxes for storage.
 model=model_2140
@@ -3017,19 +3018,19 @@ retex1s=wood2
 retex1d=elfwood
 op1=Search
 
-[loc_4185]
+[viking_seercrate]
 name=Crate
 desc=A wooden crate for storage.
 model=model_loc_63
 op1=Search
 
-[loc_4186]
+[viking_seercrate_2]
 name=Crate
 desc=An old crate for storage.
 model=model_loc_355
 op1=Search
 
-[loc_4187]
+[viking_warrior_ladder]
 name=Ladder
 desc=I can climb this.
 model=loc_4159
@@ -3037,25 +3038,25 @@ op2=Climb-down
 op3=Climb-up
 forceapproach=south
 
-[loc_4188]
+[viking_warrior_ladder_up]
 name=Ladder
 desc=This leads upwards.
 model=loc_4159
 op1=Climb-up
 forceapproach=south
 
-[loc_4189]
+[viking_warrior_ladder_down]
 name=Ladder
 desc=This leads downwards.
 model=loc_4189
 op1=Climb-down
 forceapproach=south
 
-[loc_4190]
+[viking_flame_stand]
 model=loc_4190
 active=no
 
-[loc_4191]
+[viking_flame_stand_grey]
 model=loc_4190
 recol1s=9545
 recol1d=6342
@@ -3067,7 +3068,7 @@ recol4s=8320
 recol4d=8422
 active=no
 
-[loc_4192]
+[viking_torch_fire]
 model=model_2261
 anim=fire
 ambient=40
@@ -3077,13 +3078,13 @@ resizex=80
 resizey=80
 active=no
 
-[loc_4193]
+[viking_longhall_wall]
 model=loc_4193
 sharelight=yes
 occlude=yes
 active=no
 
-[loc_4194]
+[viking_longhall_wall_shorter]
 model=loc_4193
 sharelight=yes
 occlude=yes
@@ -3092,21 +3093,21 @@ resizez=128
 resizex=128
 resizey=82
 
-[loc_4195]
+[viking_longhall_wall_hillskew]
 model=loc_4193
 sharelight=yes
 occlude=yes
 hillskew=yes
 active=no
 
-[loc_4196]
+[viking_longhall_wall_mirror]
 model=loc_4193
 sharelight=yes
 occlude=yes
 mirror=yes
 active=no
 
-[loc_4197]
+[viking_longhall_wall_inside]
 model=loc_4193
 recol1s=9445
 recol1d=19912
@@ -3114,7 +3115,7 @@ sharelight=yes
 occlude=yes
 active=no
 
-[loc_4198]
+[viking_longhall_wall_outside]
 model=loc_4193
 recol1s=19912
 recol1d=9445
@@ -3122,164 +3123,164 @@ sharelight=yes
 occlude=yes
 active=no
 
-[loc_4199]
+[viking_longhall_wall_support]
 model=loc_4199
 sharelight=yes
 occlude=yes
 active=no
 
-[loc_4200]
+[viking_longhall_wall_support_mirror]
 model=loc_4199
 sharelight=yes
 occlude=yes
 mirror=yes
 active=no
 
-[loc_4201]
+[viking_longhall_wall_window]
 model=loc_4201
 sharelight=yes
 active=no
 
-[loc_4202]
+[viking_longhall_wall_window_mirror]
 model=loc_4201
 sharelight=yes
 mirror=yes
 active=no
 
-[loc_4203]
+[viking_longhall_wall_tall]
 model=loc_4203
 sharelight=yes
 occlude=yes
 active=no
 
-[loc_4204]
+[viking_wall_braces_straight]
 model=loc_4204
 sharelight=yes
 mapscene=22
 active=no
 
-[loc_4205]
+[viking_wall_braces_wonkey]
 model=loc_4205
 sharelight=yes
 mapscene=22
 active=no
 
-[loc_4206]
+[viking_longhall_roof1]
 model=loc_4206
 recol1s=10500
 recol1d=10468
 sharelight=yes
 active=no
 
-[loc_4207]
+[viking_longhall_roof2]
 model=loc_4207
 recol1s=10500
 recol1d=10468
 sharelight=yes
 active=no
 
-[loc_4208]
+[viking_longhall_roof3]
 model=loc_4208
 recol1s=10500
 recol1d=10468
 sharelight=yes
 active=no
 
-[loc_4209]
+[viking_longhall_roof4]
 model=loc_4209
 recol1s=10500
 recol1d=10468
 sharelight=yes
 active=no
 
-[loc_4210]
+[viking_longhall_roof_edge1]
 model=loc_4210
 sharelight=yes
 active=no
 
-[loc_4211]
+[viking_longhall_roof_edge2]
 model=loc_4211
 sharelight=yes
 active=no
 
-[loc_4212]
+[viking_longhall_roof_edge3]
 model=loc_4212
 sharelight=yes
 active=no
 
-[loc_4213]
+[viking_longhall_roof_edge4]
 model=loc_4213
 sharelight=yes
 active=no
 
-[loc_4214]
+[viking_longhall_roof_edge1_mirror]
 model=loc_4210
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4215]
+[viking_longhall_roof_edge2_mirror]
 model=loc_4211
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4216]
+[viking_longhall_roof_edge3_mirror]
 model=loc_4212
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4217]
+[viking_longhall_roof_edge4_mirror]
 model=loc_4217
 sharelight=yes
 active=no
 
-[loc_4218]
+[viking_longhall_roof_edge1_new]
 model=loc_4218
 sharelight=yes
 active=no
 
-[loc_4219]
+[viking_longhall_roof_edge1_new_mirror]
 model=loc_4218
 sharelight=yes
 mirror=yes
 active=no
 
-[loc_4220]
+[viking_longhall_roof_edge2_new]
 model=loc_4220
 sharelight=yes
 active=no
 
-[loc_4221]
+[viking_longhall_roof_edge2_new_mirror]
 model=loc_4220
 sharelight=yes
 mirror=yes
 active=no
 
-[loc_4222]
+[viking_longhall_roof_edge3_new]
 model=loc_4222
 sharelight=yes
 active=no
 
-[loc_4223]
+[viking_longhall_roof_edge3_new_mirror]
 model=loc_4222
 sharelight=yes
 mirror=yes
 active=no
 
-[loc_4224]
+[viking_longhall_roof_edge4_new]
 model=loc_4224
 sharelight=yes
 active=no
 
-[loc_4225]
+[viking_longhall_roof_edge4_new_mirror]
 model=loc_4224
 sharelight=yes
 mirror=yes
 active=no
 
-[loc_4226]
+[viking_longhall_roof1_hillskew]
 model=loc_4206
 recol1s=10500
 recol1d=10468
@@ -3287,7 +3288,7 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[loc_4227]
+[viking_longhall_roof2_hillskew]
 model=loc_4207
 recol1s=10500
 recol1d=10468
@@ -3295,115 +3296,116 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[loc_4228]
+[viking_longhall_chimney]
 model=loc_4228
 recol1s=10500
 recol1d=10468
 width=2
 active=no
 
-[loc_4229]
+[viking_longhall_roof_edge_abode1]
 model=loc_4229
 sharelight=yes
 active=no
 
-[loc_4230]
+[viking_longhall_roof_edge_abode2]
 model=loc_4230
 sharelight=yes
 active=no
 
-[loc_4231]
+[viking_longhall_roof_edge_abode3]
 model=loc_4231
 sharelight=yes
 active=no
 
-[loc_4232]
+[viking_longhall_roof_edge_abode1_mirror]
 model=loc_4229
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4233]
+[viking_longhall_roof_edge_abode2_mirror]
 model=loc_4230
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4234]
+[viking_longhall_roof_edge_abode3_mirror]
 model=loc_4231
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4235]
+[viking_longhall_roof_edge_abode_new_1]
 model=loc_4235
 sharelight=yes
 active=no
 
-[loc_4236]
+[viking_longhall_roof_edge_abode_new_2]
 model=loc_4236
 sharelight=yes
 active=no
 
-[loc_4237]
+[viking_longhall_roof_edge_abode_new_3]
 model=loc_4237
 sharelight=yes
 active=no
 
-[loc_4238]
+// [sic] ends in _
+[viking_longhall_roof_edge_abode1_mirror_new_]
 model=loc_4235
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4239]
+[viking_longhall_roof_edge_abode2_mirror_new_]
 model=loc_4236
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4240]
+[viking_longhall_roof_edge_abode3_mirror_new_]
 model=loc_4237
 mirror=yes
 sharelight=yes
 active=no
 
-[loc_4241]
+[viking_seershouse_edge]
 model=loc_4241
 sharelight=yes
 active=no
 
-[loc_4242]
+[viking_abode_poor_roof]
 model=loc_4242
 active=no
 sharelight=yes
 
-[loc_4243]
+[viking_abode_poor_roof2]
 model=loc_4243
 active=no
 sharelight=yes
 
-[loc_4244]
+[viking_abode_poor_roof_corner]
 model=loc_4242
 width=2
 length=2
 active=no
 sharelight=yes
 
-[loc_4245]
+[viking_abode_poor_roof_corner2]
 model=loc_4245
 width=2
 length=2
 active=no
 sharelight=yes
 
-[loc_4246]
+[viking_abode_wall]
 model=loc_4246
 sharelight=yes
 hillskew=yes
 active=no
 
-[loc_4247]
+[viking_abode_door]
 name=Door
 desc=Keeps the cold winds out.
 model=loc_4148
@@ -3412,7 +3414,7 @@ ambient=30
 contrast=30
 op1=Open
 
-[loc_4248]
+[viking_abode_door_open]
 name=Door
 desc=Doesn't keep the wind out if its open!
 model=loc_4148
@@ -3421,20 +3423,20 @@ ambient=30
 contrast=30
 op1=Close
 
-[loc_4249]
+[viking_door_inactive]
 model=loc_4148
 active=no
 ambient=30
 contrast=30
 
-[loc_4250]
+[viking_fur_door]
 name=Door
 desc=I'm sure the animal is glad it's fur was put to good use.
 model=loc_4250
 op1=Open
 active=yes
 
-[loc_4251]
+[viking_fur_door_open]
 name=Door
 desc=I'm sure the animal is glad it's fur was put to good use.
 model=loc_4251
@@ -3443,7 +3445,7 @@ blockwalk=no
 blockrange=no
 active=yes
 
-[loc_4252]
+[viking_chest_closed]
 name=Chest
 desc=I wonder what's inside?
 model=wooden_chest
@@ -3454,7 +3456,7 @@ recol2d=9478
 op1=Open
 forceapproach=north
 
-[loc_4253]
+[viking_chest_open]
 name=Chest
 desc=I wonder what's inside?
 model=model_loc_76
@@ -3466,7 +3468,7 @@ op1=Close
 op2=Search
 forceapproach=north
 
-[loc_4254]
+[viking_stage_edge]
 model=loc_4193
 recol1s=19912
 recol1d=14628
@@ -3477,7 +3479,7 @@ resizex=128
 resizey=54
 active=no
 
-[loc_4255]
+[viking_theatre_floor]
 model=model_loc_796
 recol1s=9409
 recol1d=14628
@@ -3491,7 +3493,7 @@ resizex=128
 resizey=48
 active=no
 
-[loc_4256]
+[viking_pier]
 model=model_loc_796
 recol1s=9409
 recol1d=9445
@@ -3502,7 +3504,7 @@ forcedecor=yes
 mapscene=46
 active=no
 
-[loc_4257]
+[viking_pier2]
 model=model_loc_797
 recol1s=9409
 recol1d=9445
@@ -3513,7 +3515,7 @@ forcedecor=yes
 mapscene=46
 active=no
 
-[loc_4258]
+[viking_pier3]
 model=model_loc_798
 recol1s=9409
 recol1d=9445
@@ -3524,7 +3526,7 @@ forcedecor=yes
 mapscene=46
 active=no
 
-[loc_4259]
+[viking_pier_hillskew]
 model=model_loc_796
 recol1s=9409
 recol1d=9445
@@ -3536,7 +3538,7 @@ hillskew=yes
 mapscene=46
 active=no
 
-[loc_4260]
+[viking_pier2_hillskew]
 model=model_loc_797
 recol1s=9409
 recol1d=9445
@@ -3548,7 +3550,7 @@ hillskew=yes
 mapscene=46
 active=no
 
-[loc_4261]
+[viking_pier3_hillskew]
 model=model_loc_798
 recol1s=9409
 recol1d=9445
@@ -3560,7 +3562,7 @@ hillskew=yes
 mapscene=46
 active=no
 
-[loc_4262]
+[viking_pier_rail]
 model=model_loc_814
 recol1s=9409
 recol1d=9445
@@ -3573,7 +3575,7 @@ hillskew=yes
 blockrange=no
 active=no
 
-[loc_4263]
+[viking_bridge_support]
 model=model_loc_814
 recol1s=9409
 recol1d=9445
@@ -3590,7 +3592,7 @@ resizey=98
 resizez=98
 shadow=no
 
-[loc_4264]
+[viking_pier_edge]
 model=model_loc_815
 recol1s=9409
 recol1d=9445
@@ -3600,7 +3602,7 @@ hillskew=yes
 active=no
 shadow=no
 
-[loc_4265]
+[viking_longhall_fire]
 name=Fire
 desc=Toasty.
 model=loc_3769
@@ -3615,7 +3617,7 @@ blockrange=no
 ambient=75
 contrast=75
 
-[loc_4266]
+[viking_house_fire]
 name=Fire
 desc=Hot!
 model=loc_3769
@@ -3625,30 +3627,30 @@ blockrange=no
 ambient=75
 contrast=75
 
-[loc_4267]
+[viking_pig_roast]
 name=Spit roast
 desc=Finger licking good!
 model=loc_4267
 width=2
-anim=seq_1334
+anim=viking_pig_roast
 ambient=50
 contrast=50
 blockrange=no
 
-[loc_4268]
+[viking_roast_rocks]
 model=loc_4268
 forcedecor=yes
 ambient=40
 contrast=40
 
-[loc_4269]
+[viking_longhall_table]
 name=Wooden Table
 desc=It's a long wooden table.
 model=loc_4269
 length=4
 blockrange=no
 
-[loc_4270]
+[viking_longhall_table_candle]
 name=Wooden Table
 desc=It's a table with candles on.
 model=loc_4269
@@ -3656,31 +3658,31 @@ model2=loc_4270
 length=4
 blockrange=no
 
-[loc_4271]
+[viking_longhall_chair]
 name=Chair
 desc=Generally used for sitting.
 model=loc_4271
 blockrange=no
 
-[loc_4272]
+[viking_table]
 name=Table
 desc=Generally used for putting things on.
 model=loc_4272
 length=2
 blockrange=no
 
-[loc_4273]
+[viking_bar]
 name=Bar pumps
 desc=Actually, I could do with a drink...
 model=loc_4273
 
-[loc_4274]
+[viking_bar_no_pumps]
 name=Bar
 desc=For leaning against...
 model=loc_4274
 blockrange=no
 
-[loc_4275]
+[viking_barrel_fish]
 name=Barrel
 desc=A wooden barrel containing lots of fish.
 model=model_loc_363
@@ -3694,7 +3696,7 @@ recol4s=26425
 recol4d=25334
 blockrange=no
 
-[loc_4276]
+[viking_market]
 name=Market stall
 desc=Always a source of good bargains.
 model=market_stall
@@ -3709,7 +3711,7 @@ recol4d=5251
 width=2
 length=2
 
-[loc_4277]
+[viking_fish_market]
 name=Fish stall
 desc=There's something fishy about this stall.
 model=loc_4277
@@ -3731,7 +3733,7 @@ length=2
 op2=Steal-from
 active=yes
 
-[loc_4278]
+[viking_fur_market]
 name=Fur stall
 desc=Around here, this is where you buy new doors.
 model=fur_stall
@@ -3752,7 +3754,7 @@ length=2
 op2=Steal-from
 active=yes
 
-[loc_4279]
+[viking_skewsteps]
 model=model_loc_1862
 recol1s=15855
 recol1d=8421
@@ -3761,22 +3763,22 @@ sharelight=yes
 forcedecor=yes
 active=no
 
-[loc_4280]
+[viking_sword_shop]
 model=loc_4280
 
-[loc_4281]
+[viking_frozen_wall]
 model=loc_4281
 sharelight=yes
 occlude=yes
 active=no
 
-[loc_4282]
+[viking_frozen_wall2]
 model=loc_4282
 sharelight=yes
 occlude=yes
 active=no
 
-[loc_4283]
+[viking_drain]
 name=Drain
 desc=Has a peculiar odour.
 model=loc_4175
@@ -3785,33 +3787,33 @@ resizex=108
 resizey=108
 resizez=108
 
-[loc_4284]
+[viking_drain_smaller]
 model=loc_4175
 resizex=60
 resizey=60
 resizez=60
 
-[loc_4285]
+[viking_tap]
 name=Tap
 desc=Water comes out of this.
 model=loc_4176
 active=yes
 
-[loc_4286]
+[viking_keg]
 name=Keg
 desc=It's kind of like a barrel.
 model=loc_4286
 blockrange=no
 active=yes
 
-[loc_4287]
+[viking_bed]
 name=Bed
 desc=Looks pretty comfy.
 model=loc_4287
 length=2
 blockrange=no
 
-[loc_4288]
+[viking_poorbed]
 name=Bed
 desc=I guess I could sleep in it if I was really tired.
 model=model_loc_423
@@ -3825,7 +3827,7 @@ width=2
 length=3
 blockrange=no
 
-[loc_4289]
+[viking_pike_defence]
 model=loc_4289
 width=2
 hillskew=yes
@@ -3833,7 +3835,7 @@ sharelight=yes
 active=no
 mapscene=21
 
-[loc_4290]
+[viking_pike_defence_terminator_right]
 model=loc_4290
 width=2
 hillskew=yes
@@ -3841,7 +3843,7 @@ sharelight=yes
 active=no
 mapscene=21
 
-[loc_4291]
+[viking_pike_defence_terminator_left]
 model=loc_4290
 width=2
 hillskew=yes
@@ -3850,7 +3852,7 @@ active=no
 mapscene=21
 mirror=yes
 
-[loc_4292]
+[viking_pike_defence_bend]
 model=loc_4292
 width=3
 length=2
@@ -3859,7 +3861,7 @@ sharelight=yes
 active=no
 mapscene=21
 
-[loc_4293]
+[viking_pike_defence_bend_mirror]
 model=loc_4292
 width=3
 length=2
@@ -3869,7 +3871,7 @@ mirror=yes
 active=no
 mapscene=21
 
-[loc_4294]
+[viking_pike_defence_corner]
 model=loc_4294
 width=2
 length=2
@@ -3878,11 +3880,11 @@ sharelight=yes
 active=no
 mapscene=21
 
-[loc_4295]
+[viking_ladder_ground]
 model=loc_4295
 forcedecor=yes
 
-[loc_4296]
+[viking_broken_cart]
 name=Abandoned Cart
 desc=Yup, looks like this neighbourhood is perfectly safe for travellers...
 model=model_loc_306
@@ -3893,7 +3895,7 @@ recol2d=8388
 width=3
 length=3
 
-[loc_4297]
+[viking_boxes_1]
 name=Boxes
 desc=A pile of boxes for storage.
 model=model_loc_359
@@ -3901,7 +3903,7 @@ retex1s=wood2
 retex1d=elfwood
 blockrange=no
 
-[loc_4298]
+[viking_boxes_2]
 name=Boxes
 desc=A pile of boxes for storage.
 model=model_2139
@@ -3909,37 +3911,37 @@ retex1s=wood2
 retex1d=elfwood
 blockrange=no
 
-[loc_4299]
+[viking_boxes_3]
 name=Boxes
 desc=A pile of boxes for storage.
 model=model_2140
 retex1s=wood2
 retex1d=elfwood
 
-[loc_4300]
+[viking_crate]
 name=Crate
 desc=A wooden crate for storage.
 model=model_loc_63
 op1=Search
 blockrange=no
 
-[loc_4301]
+[viking_crate_2]
 name=Crate
 desc=An old crate for storage.
 model=model_loc_355
 op1=Search
 
-[loc_4302]
+[viking_steps_side]
 model=loc_4302
 active=no
 
-[loc_4303]
+[viking_wood_skewsteps]
 model=loc_4303
 forcedecor=yes
 hillskew=yes
 active=no
 
-[loc_4304]
+[viking_furnace]
 name=Furnace
 desc=A hot place for forging things in.
 model=model_loc_165
@@ -3955,7 +3957,7 @@ sharelight=yes
 forceapproach=east
 op2=Smelt
 
-[loc_4305]
+[viking_furnace2]
 name=Furnace
 desc=A hot place for forging things in.
 model=model_loc_2785
@@ -3969,7 +3971,7 @@ forceapproach=east
 sharelight=yes
 op2=Smelt
 
-[loc_4306]
+[viking_anvil]
 name=Anvil
 desc=Used for fashioning metal items.
 model=model_loc_2672
@@ -3977,7 +3979,7 @@ recol1s=7399
 recol1d=7365
 blockrange=no
 
-[loc_4307]
+[viking_blacksmithtools]
 name=Blacksmith's tools
 desc=Various implements for working with metal.
 model=model_loc_2784
@@ -3995,7 +3997,7 @@ retex6s=wood2
 retex6d=elfwood
 active=yes
 
-[loc_4308]
+[viking_potteryoven]
 name=Pottery Oven
 desc=Bake your clay pots in here.
 model=model_loc_2643
@@ -4007,7 +4009,7 @@ length=2
 forceapproach=east
 op1=Fire
 
-[loc_4309]
+[viking_spinningwheel]
 name=Spinning wheel
 desc=Used for spinning thread.
 model=model_loc_2644
@@ -4022,13 +4024,13 @@ recol4d=16741
 op2=Spin
 forceapproach=south
 
-[loc_4310]
+[viking_potterywheel]
 name=Potter's Wheel
 desc=Used for fashioning clay items.
 model=model_loc_2642
 forceapproach=east
 
-[loc_4311]
+[viking_fencegate_l]
 name=Gate
 desc=A wooden gate.
 model=model_loc_47
@@ -4038,7 +4040,7 @@ op1=Open
 active=yes
 blockrange=no
 
-[loc_4312]
+[viking_fencegate_r]
 name=Gate
 desc=A wooden gate.
 model=model_loc_47
@@ -4049,7 +4051,7 @@ op1=Open
 active=yes
 blockrange=no
 
-[loc_4313]
+[inacviking_fencegate_l]
 name=Gate
 desc=A wooden gate.
 model=model_loc_47
@@ -4058,14 +4060,14 @@ recol1d=9445
 active=yes
 blockrange=no
 
-[loc_4314]
+[inacviking_fencegate_r]
 model=model_loc_47
 recol1s=12480
 recol1d=9445
 mirror=yes
 blockrange=no
 
-[loc_4315]
+[viking_cavewall_face1]
 model=model_loc_1417
 recol1s=12580
 recol1d=10535
@@ -4073,7 +4075,7 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[loc_4316]
+[viking_cavewall_top]
 model=model_loc_1434
 recol1s=12580
 recol1d=10535
@@ -4081,7 +4083,7 @@ sharelight=yes
 hillskew=yes
 active=no
 
-[loc_4317]
+[viking_cavewall_top5]
 model=model_loc_1435
 recol1s=12580
 recol1d=10535
@@ -4090,7 +4092,7 @@ hillskew=yes
 active=no
 active=no
 
-[loc_4318]
+[viking_cavewall_top_higher]
 model=model_loc_1436
 recol1s=12580
 recol1d=10535
@@ -4099,7 +4101,7 @@ hillskew=yes
 active=no
 active=no
 
-[loc_4319]
+[viking_cavewall_lighter_face1]
 model=loc_4319
 recol1s=13637
 recol1d=13704
@@ -4110,7 +4112,7 @@ hillskew=yes
 shadow=no
 active=no
 
-[loc_4320]
+[viking_cavewall_lighter_top]
 model=model_loc_1434
 recol1s=12580
 recol1d=13704
@@ -4120,7 +4122,7 @@ shadow=no
 active=no
 active=no
 
-[loc_4321]
+[viking_cavewall_lighter_top5]
 model=model_loc_1435
 recol1s=12580
 recol1d=13704
@@ -4130,7 +4132,7 @@ shadow=no
 active=no
 active=no
 
-[loc_4322]
+[viking_cavewall_lighter_top_higher]
 model=model_loc_1436
 recol1s=12580
 recol1d=13704
@@ -4140,7 +4142,7 @@ shadow=no
 active=no
 active=no
 
-[loc_4323]
+[viking_cavewall_face1_short]
 model=loc_4323
 recol1s=12580
 recol1d=10535
@@ -4151,7 +4153,7 @@ resizex=128
 resizey=64
 active=no
 
-[loc_4324]
+[viking_cavewall_top_short]
 model=model_loc_1434
 recol1s=12580
 recol1d=10535
@@ -4163,7 +4165,7 @@ resizex=128
 resizey=64
 active=no
 
-[loc_4325]
+[viking_drystonewall]
 model=model_loc_979
 retex1s=rockwall
 retex1d=pebblefloor
@@ -4173,14 +4175,14 @@ hillskew=yes
 blockrange=no
 active=no
 
-[loc_4326]
+[viking_spade]
 model=model_loc_514
 recol1s=14798
 recol1d=11493
 blockrange=no
 active=no
 
-[loc_4327]
+[viking_pipe_end]
 model=loc_4327
 recol1s=15855
 recol1d=9478
@@ -4197,7 +4199,7 @@ recol6d=2080
 ambient=20
 active=no
 
-[loc_4328]
+[viking_treestump]
 name=Tree stump
 desc=This tree has been cut down.
 model=model_loc_1341
@@ -4206,7 +4208,7 @@ recol1d=9445
 mapscene=6
 blockrange=no
 
-[loc_4329]
+[viking_treestump2]
 name=Tree stump
 desc=This tree has been cut down.
 model=model_loc_1342
@@ -4217,22 +4219,22 @@ length=2
 mapscene=6
 blockrange=no
 
-[loc_4330]
+[viking_full_twig]
 model=model_loc_1246
 hillskew=yes
 active=no
 
-[loc_4331]
+[viking_broken_twig]
 model=model_loc_1247
 hillskew=yes
 active=no
 
-[loc_4332]
+[viking_sticks_twigs]
 model=model_loc_1248
 hillskew=yes
 active=no
 
-[loc_4333]
+[viking_grass_1]
 model=loc_4333
 recol1s=21140
 recol1d=16871
@@ -4244,7 +4246,7 @@ active=no
 hillskew=yes
 active=no
 
-[loc_4334]
+[viking_grass_2]
 model=loc_4334
 recol1s=21140
 recol1d=16871
@@ -4256,7 +4258,7 @@ active=no
 hillskew=yes
 active=no
 
-[loc_4335]
+[viking_grass_3]
 model=loc_4335
 recol1s=21140
 recol1d=16871
@@ -4268,7 +4270,7 @@ active=no
 hillskew=yes
 active=no
 
-[loc_4336]
+[viking_grass_4]
 model=loc_4336
 recol1s=21140
 recol1d=16871
@@ -4280,17 +4282,17 @@ active=no
 hillskew=yes
 active=no
 
-[loc_4337]
+[viking_leaves_1]
 model=model_loc_1264
 hillskew=yes
 active=no
 
-[loc_4338]
+[viking_leaves_2]
 model=model_loc_1265
 hillskew=yes
 active=no
 
-[loc_4339]
+[viking_dugupsoil_1]
 model=model_loc_184
 recol1s=13505
 recol1d=10534
@@ -4301,7 +4303,7 @@ recol3d=10534
 hillskew=yes
 active=no
 
-[loc_4340]
+[viking_dugupsoil_2]
 model=model_loc_185
 recol1s=13505
 recol1d=10534
@@ -4312,7 +4314,7 @@ recol3d=10534
 hillskew=yes
 active=no
 
-[loc_4341]
+[viking_dugupsoil_3]
 model=model_loc_186
 recol1s=13505
 recol1d=10534
@@ -4323,7 +4325,7 @@ recol3d=10534
 hillskew=yes
 active=no
 
-[loc_4342]
+[viking_dugupsoil_brown_1]
 model=model_loc_184
 recol1s=13505
 recol1d=11523
@@ -4334,7 +4336,7 @@ recol3d=11523
 hillskew=yes
 active=no
 
-[loc_4343]
+[viking_dugupsoil_brown_2]
 model=model_loc_185
 recol1s=13505
 recol1d=11523
@@ -4345,7 +4347,7 @@ recol3d=11523
 hillskew=yes
 active=no
 
-[loc_4344]
+[viking_dugupsoil_brown_3]
 model=model_loc_186
 recol1s=13505
 recol1d=11523
@@ -4356,7 +4358,7 @@ recol3d=11523
 hillskew=yes
 active=no
 
-[loc_4345]
+[viking_bluebells]
 model=model_loc_1178
 recol1s=23026
 recol1d=10615
@@ -4367,7 +4369,7 @@ blockrange=no
 hillskew=yes
 active=no
 
-[loc_4346]
+[viking_bluebells2]
 model=model_loc_1179
 recol1s=23026
 recol1d=10615
@@ -4378,7 +4380,7 @@ blockrange=no
 hillskew=yes
 active=no
 
-[loc_4347]
+[viking_bluebells3]
 model=model_loc_1180
 recol1s=23026
 recol1d=10615
@@ -4389,7 +4391,7 @@ blockrange=no
 hillskew=yes
 active=no
 
-[loc_4348]
+[viking_shell1]
 name=Shell
 desc=Best left on the beach.
 model=model_loc_1266
@@ -4399,13 +4401,13 @@ recol2s=28397
 recol2d=23252
 active=yes
 
-[loc_4349]
+[viking_shell2]
 name=Shell
 desc=This once belonged to a sea animal.
 model=model_loc_1267
 active=yes
 
-[loc_4350]
+[viking_shell1big]
 name=Shell
 desc=Best left for the crabs.
 model=model_loc_1269
@@ -4415,7 +4417,7 @@ recol2s=27381
 recol2d=9545
 active=yes
 
-[loc_4351]
+[viking_shell2big]
 name=Shell
 desc=I can hear the sea with this.
 model=model_loc_1270
@@ -4425,7 +4427,7 @@ recol2s=21040
 recol2d=9545
 active=yes
 
-[loc_4352]
+[viking_rubble_1]
 name=Bowl
 desc=It is a buried Bowl.
 model=model_loc_174
@@ -4440,14 +4442,14 @@ recol4d=10469
 active=yes
 hillskew=yes
 
-[loc_4353]
+[viking_stalagmite_twin_grey]
 model=model_loc_468
 recol1s=13537
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4354]
+[viking_stalagtite_twin_grey]
 model=model_loc_469
 recol1s=13537
 recol1d=10535
@@ -4455,14 +4457,14 @@ blockwalk=no
 hillskew=yes
 active=no
 
-[loc_4355]
+[viking_stalagmite_small_grey]
 model=model_loc_534
 recol1s=13537
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4356]
+[viking_rockslide1]
 model=model_loc_471
 recol1s=12580
 recol1d=10535
@@ -4474,7 +4476,7 @@ hillskew=yes
 mapscene=11
 active=no
 
-[loc_4357]
+[viking_rockslide2]
 model=model_loc_472
 recol1s=12580
 recol1d=10535
@@ -4486,7 +4488,7 @@ blockrange=no
 mapscene=11
 active=no
 
-[loc_4358]
+[viking_rockslide3]
 model=model_loc_473
 recol1s=12580
 recol1d=10535
@@ -4498,7 +4500,7 @@ blockrange=no
 hillskew=yes
 mapscene=12
 
-[loc_4359]
+[viking_rockslide4]
 model=model_loc_474
 recol1s=12580
 recol1d=10535
@@ -4510,21 +4512,21 @@ blockrange=no
 hillskew=yes
 mapscene=12
 
-[loc_4360]
+[viking_rockslide5]
 model=model_loc_475
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4361]
+[viking_rockslide6]
 model=model_loc_476
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4362]
+[viking_cave_detail1r]
 model=model_loc_1444
 recol1s=12580
 recol1d=10535
@@ -4532,7 +4534,7 @@ mirror=yes
 hillskew=yes
 active=no
 
-[loc_4363]
+[viking_boat_hull_right]
 model=loc_4363
 width=2
 length=7
@@ -4540,7 +4542,7 @@ active=no
 shadow=no
 active=no
 
-[loc_4364]
+[viking_boat_hull_left]
 model=loc_4363
 width=2
 length=7
@@ -4548,52 +4550,52 @@ mirror=yes
 active=no
 shadow=no
 
-[loc_4365]
+[viking_fur]
 model=loc_4365
 active=no
 
-[loc_4366]
+[viking_shelf_empty]
 name=Shelf
 desc=An empty shelf...
 model=loc_4366
 active=yes
 
-[loc_4367]
+[viking_shelf_empty_low]
 name=Shelf
 desc=An empty shelf...
 model=loc_4367
 active=yes
 
-[loc_4368]
+[viking_shelf_cooking]
 name=Shelf
 desc=There are some pots and pans here.
 model=loc_4368
 active=yes
 
-[loc_4369]
+[viking_shelf_tankards]
 name=Shelf
 desc=There are some tankards here.
 model=loc_4369
 active=yes
 
-[loc_4370]
+[viking_shelf_bucket]
 name=Shelf
 desc=A shelf with a bucket on it.
 model=loc_4370
 active=yes
 
-[loc_4371]
+[viking_shelf_books]
 name=Shelf
 desc=There's a few books on this shelf.
 model=loc_4371
 active=yes
 
-[loc_4372]
+[viking_table_small]
 name=Table
 desc=It's a small table.
 model=loc_4372
 
-[loc_4373]
+[viking_sandpit]
 name=Sand pit
 desc=A tray of sand.
 model=model_loc_2375
@@ -4604,7 +4606,7 @@ recol2d=26219
 width=2
 length=2
 
-[loc_4374]
+[death_cavewall_face1_nominimap]
 model=model_loc_1417
 recol1s=12580
 recol1d=11592
@@ -4613,17 +4615,17 @@ hillskew=yes
 mapscene=22
 active=no
 
-[loc_4375]
+[building_steps]
 model=loc_4375
 retex1s=wood2
 retex1d=darkwood
 forcedecor=yes
 
-[loc_4376]
+[priestperil_chair_forsitting]
 model=loc_4376
 active=no
 
-[loc_4377]
+[castlewars_saradomin_stand]
 name=Standard Stand
 desc=There should be a standard here!
 model=loc_4377
@@ -4634,18 +4636,18 @@ recol2d=17932
 op1=Return
 blockrange=no
 
-[loc_4378]
+[castlewars_zamorak_stand]
 name=Standard Stand
 desc=There should be a standard here!
 model=loc_4377
 blockrange=no
 op1=Return
 
-[loc_4379]
+[horror_floor_lantern]
 model=loc_4379
 active=no
 
-[loc_4380]
+[horror_ladder_down]
 name=Iron ladder
 desc=I could climb this if I wanted
 model=loc_4380
@@ -4653,7 +4655,7 @@ sharelight=yes
 active=yes
 op1=Climb
 
-[loc_4381]
+[castlewars_catapult_zamorak]
 name=Catapult
 desc=It's a war machine.
 model=model_loc_671
@@ -4670,7 +4672,7 @@ blockrange=no
 op1=Operate
 mapscene=30
 
-[loc_4382]
+[castlewars_catapult_saradomin]
 name=Catapult
 desc=It's a war machine.
 model=model_loc_671
@@ -4683,7 +4685,7 @@ blockrange=no
 op1=Operate
 mapscene=30
 
-[loc_4383]
+[horror_ladder_top]
 name=Iron ladder
 desc=I could climb this if I wanted
 model=loc_4383
@@ -4692,12 +4694,12 @@ sharelight=yes
 active=yes
 op1=Climb
 
-[loc_4384]
+[horror_ladder_join]
 model=loc_4384
 sharelight=yes
 active=no
 
-[loc_4385]
+[castlewars_catapult_zamorak_broken]
 name=Catapult
 desc=The catapult is damaged.
 model=loc_4385
@@ -4714,7 +4716,7 @@ blockrange=no
 op1=Repair
 mapscene=30
 
-[loc_4386]
+[castlewars_catapult_saradomin_broken]
 name=Catapult
 desc=The catapult is damaged.
 model=loc_4385
@@ -4733,7 +4735,7 @@ blockrange=no
 op1=Repair
 mapscene=30
 
-[loc_4387]
+[castlewars_saradomin_tele]
 name=Saradomin Portal
 desc=A portal to join the saradomin team.
 model=model_loc_740
@@ -4750,7 +4752,7 @@ width=2
 blockrange=no
 op1=Enter
 
-[loc_4388]
+[castlewars_zamorak_tele]
 name=Zamorak Portal
 desc=A portal to join the zamorak team.
 model=model_loc_740
@@ -4767,7 +4769,7 @@ width=2
 blockrange=no
 op1=Enter
 
-[loc_4389]
+[castlewars_saradomin_exit]
 name=Portal
 desc=A portal to leave the saradomin team.
 model=model_loc_740
@@ -4784,7 +4786,7 @@ width=2
 blockrange=no
 op1=Exit
 
-[loc_4390]
+[castlewars_zamorak_exit]
 name=Portal
 desc=A portal to leave the zamorak team.
 model=model_loc_740
@@ -4801,7 +4803,7 @@ width=2
 blockrange=no
 op1=Exit
 
-[loc_4391]
+[misc_viking_ship_front_lv0]
 model=loc_4391
 recol1s=20936
 recol1d=7331
@@ -4810,7 +4812,7 @@ length=3
 active=no
 sharelight=yes
 
-[loc_4392]
+[misc_viking_ship_front_lv1]
 model=loc_4392
 recol1s=20936
 recol1d=7331
@@ -4819,68 +4821,68 @@ length=3
 active=no
 sharelight=yes
 
-[loc_4393]
+[misc_viking_shipmain]
 model=loc_4393
 active=no
 sharelight=yes
 mapscene=44
 forcedecor=yes
 
-[loc_4394]
+[misc_viking_shipedge]
 model=loc_4394
 active=no
 sharelight=yes
 shadow=no
 forcedecor=yes
 
-[loc_4395]
+[misc_viking_shipedgeshield]
 model=loc_4395
 active=no
 sharelight=yes
 shadow=no
 mapscene=44
 
-[loc_4396]
+[misc_viking_shipside]
 model=loc_4396
 active=no
 sharelight=yes
 
-[loc_4397]
+[misc_viking_shipedgepier]
 model=loc_4397
 active=no
 sharelight=yes
 mapscene=44
 forcedecor=yes
 
-[loc_4398]
+[misc_viking_ship_mast]
 model=loc_4398
 active=no
 sharelight=yes
 
-[loc_4399]
+[misc_viking_ship_mast_lv2]
 model=loc_4399
 active=no
 sharelight=yes
 
-[loc_4400]
+[misc_viking_ship_mast_lv3]
 model=loc_4400
 active=no
 sharelight=yes
 
-[loc_4401]
+[misc_viking_ship_mast_lv3_sail]
 model=loc_4401
 active=no
 sharelight=yes
 width=2
 
-[loc_4402]
+[misc_viking_ship_mast_lv3_sail_mirror]
 model=loc_4401
 active=no
 sharelight=yes
 mirror=yes
 width=2
 
-[loc_4403]
+[misc_pier_support]
 model=loc_4403
 recol1s=19912
 recol1d=9445
@@ -4890,7 +4892,7 @@ resizey=36
 active=no
 shadow=no
 
-[loc_4404]
+[misc_bridge_support]
 model=loc_4403
 recol1s=19912
 recol1d=9445
@@ -4900,7 +4902,7 @@ resizey=72
 active=no
 shadow=no
 
-[loc_4405]
+[misc_ship_gangplank]
 model=model_loc_270
 recol1s=15685
 recol1d=10501
@@ -4913,7 +4915,7 @@ active=no
 forcedecor=yes
 hillskew=yes
 
-[loc_4406]
+[castlewars_saradomin_quit]
 name=Portal
 desc=A portal to leave the saradomin team.
 model=model_loc_740
@@ -4930,7 +4932,7 @@ width=2
 blockrange=no
 op1=Leave
 
-[loc_4407]
+[castlewars_zamorak_quit]
 name=Portal
 desc=A portal to leave the zamorak team.
 model=model_loc_740
@@ -4947,7 +4949,7 @@ width=2
 blockrange=no
 op1=Leave
 
-[loc_4408]
+[castlewars_random_tele]
 name=Guthix Portal
 desc=A portal to join a random team.
 model=model_loc_740
@@ -4964,7 +4966,7 @@ width=2
 op1=Enter
 blockrange=no
 
-[loc_4409]
+[castlewars_wall_saradomin]
 model=model_loc_1512
 retex1s=wall
 retex1d=elfbrick
@@ -4975,14 +4977,14 @@ sharelight=yes
 occlude=yes
 blockrange=no
 
-[loc_4410]
+[castlewars_castlebattlements_saradomin]
 model=model_loc_1622
 retex1s=wall
 retex1d=elfbrick
 sharelight=yes
 blockrange=no
 
-[loc_4411]
+[castlewars_steping_stone]
 name=Stepping stone
 desc=a very slipery stepping stone
 model=loc_4411
@@ -4990,7 +4992,7 @@ op1=Jump-to
 active=yes
 blockrange=no
 
-[loc_4412]
+[horror_ladder_base]
 name=Iron ladder
 desc=I could climb this if I wanted
 model=loc_4412
@@ -4998,7 +5000,7 @@ sharelight=yes
 active=yes
 op1=Climb
 
-[loc_4413]
+[horror_ladder_base2]
 name=Iron ladder
 desc=I could climb this if I wanted
 model=loc_4412
@@ -5006,7 +5008,7 @@ sharelight=yes
 active=yes
 op1=Climb
 
-[loc_4414]
+[castlewars_outsidestairs]
 name=Staircase
 desc=A rickety old staircase.
 model=loc_4414
@@ -5016,21 +5018,21 @@ length=3
 mapscene=7
 sharelight=yes
 
-[loc_4415]
+[castlewars_topstair]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4415
 op1=Climb
 sharelight=yes
 
-[loc_4416]
+[castlewars_topstair_linked]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4415
 op1=Climb
 sharelight=yes
 
-[loc_4417]
+[castlewars_outsidestairs_saradomin]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5043,7 +5045,7 @@ mapscene=7
 op1=Climb
 sharelight=yes
 
-[loc_4418]
+[castlewars_outsidestairs_zamorak]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5052,7 +5054,7 @@ mapscene=7
 op1=Climb
 sharelight=yes
 
-[loc_4419]
+[castlewars_outsidestairs_saradomin_linked]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5065,7 +5067,7 @@ mapscene=7
 op1=Climb
 sharelight=yes
 
-[loc_4420]
+[castlewars_outsidestairs_zamorak_linked]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5074,13 +5076,13 @@ mapscene=7
 op1=Climb
 sharelight=yes
 
-[loc_4421]
+[castlewars_barricade]
 name=Barricade
 desc=A spiky barricade.
 model=loc_4421
 blockrange=no
 
-[loc_4422]
+[castlewars_barricade_burning]
 name=Barricade
 desc=A spiky barricade.
 model=loc_4421
@@ -5094,7 +5096,7 @@ blockrange=no
 ambient=40
 contrast=40
 
-[loc_4423]
+[castlewars_saradomin_maindoorr]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5103,7 +5105,7 @@ op2=Attack
 mirror=yes
 raiseobject=no
 
-[loc_4424]
+[castlewars_saradomin_maindoorl]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5111,7 +5113,7 @@ op1=Open
 op2=Attack
 raiseobject=no
 
-[loc_4425]
+[castlewars_saradomin_maindoorr_open]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5119,14 +5121,14 @@ op1=Close
 mirror=yes
 raiseobject=no
 
-[loc_4426]
+[castlewars_saradomin_maindoorl_open]
 name=Large door
 desc=A large double door.
 model=model_loc_71
 op1=Close
 raiseobject=no
 
-[loc_4427]
+[castlewars_zamorak_maindoorr]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5135,7 +5137,7 @@ op2=Attack
 mirror=yes
 raiseobject=no
 
-[loc_4428]
+[castlewars_zamorak_maindoorl]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5143,7 +5145,7 @@ op1=Open
 op2=Attack
 raiseobject=no
 
-[loc_4429]
+[castlewars_zamorak_maindoorr_open]
 name=Large door
 desc=A large double door.
 model=model_loc_71
@@ -5151,14 +5153,14 @@ op1=Close
 mirror=yes
 raiseobject=no
 
-[loc_4430]
+[castlewars_zamorak_maindoorl_open]
 name=Large door
 desc=A large double door.
 model=model_loc_71
 op1=Close
 raiseobject=no
 
-[loc_4431]
+[castlewars_saradomin_brokendoorl]
 name=Broken door
 desc=A large broken door.
 model=loc_4431
@@ -5166,24 +5168,7 @@ blockrange=no
 active=yes
 op1=Repair
 
-[loc_4432]
-name=Broken door
-desc=A large broken door.
-model=loc_4431
-blockrange=no
-mirror=yes
-active=yes
-op1=Repair
-
-[loc_4433]
-name=Broken door
-desc=A large broken door.
-model=loc_4431
-blockrange=no
-active=yes
-op1=Repair
-
-[loc_4434]
+[castlewars_saradomin_brokendoorr]
 name=Broken door
 desc=A large broken door.
 model=loc_4431
@@ -5192,15 +5177,32 @@ mirror=yes
 active=yes
 op1=Repair
 
-[loc_4435]
+[castlewars_zamorak_brokendoorl]
+name=Broken door
+desc=A large broken door.
+model=loc_4431
+blockrange=no
+active=yes
+op1=Repair
+
+[castlewars_zamorak_brokendoorr]
+name=Broken door
+desc=A large broken door.
+model=loc_4431
+blockrange=no
+mirror=yes
+active=yes
+op1=Repair
+
+[castlewars_banner_red]
 model=loc_4435
 active=no
 
-[loc_4436]
+[castlewars_banner_blue]
 model=loc_4436
 active=no
 
-[loc_4437]
+[castlewars_blocked_tunnel_1]
 name=Rocks
 desc=We could use our pickaxes to get past these...
 model=loc_4437
@@ -5210,7 +5212,7 @@ width=2
 op1=Mine
 op3=hidden
 
-[loc_4438]
+[castlewars_blocked_tunnel_2]
 name=Rocks
 desc=We can almost get past these...
 model=loc_4438
@@ -5220,7 +5222,7 @@ width=2
 op1=Mine
 op3=hidden
 
-[loc_4439]
+[castlewars_blocked_tunnel_3]
 model=loc_4439
 blockrange=no
 blockwalk=no
@@ -5228,23 +5230,23 @@ length=2
 width=2
 active=no
 
-[loc_4440]
+[castlewars_blocked_tunnel_3_topright]
 model=loc_4440
 forcedecor=yes
 
-[loc_4441]
+[castlewars_blocked_tunnel_3_topleft]
 model=loc_4441
 forcedecor=yes
 
-[loc_4442]
+[castlewars_blocked_tunnel_3_bottomright]
 model=loc_4442
 forcedecor=yes
 
-[loc_4443]
+[castlewars_blocked_tunnel_3_bottomleft]
 model=loc_4443
 forcedecor=yes
 
-[loc_4444]
+[castlewars_battlements_rope_3]
 name=Climbing Rope
 desc=Should be long enough to scale castle walls.
 model=loc_4444
@@ -5252,13 +5254,13 @@ width=2
 active=yes
 op1=Climb
 
-[loc_4445]
+[castlewars_battlements_saradomin_blockrange]
 model=model_loc_1622
 retex1s=wall
 retex1d=elfbrick
 sharelight=yes
 
-[loc_4446]
+[castlewars_battlements_saradomin_climbable]
 name=Battlements
 desc=Maybe I could tie a rope to this..
 model=model_loc_1622
@@ -5268,7 +5270,7 @@ active=yes
 sharelight=yes
 blockrange=no
 
-[loc_4447]
+[castlewars_battlements_zamorak_climbable]
 name=Battlements
 desc=Maybe I could tie a rope to this..
 model=model_loc_1622
@@ -5278,7 +5280,7 @@ active=yes
 sharelight=yes
 blockrange=no
 
-[loc_4448]
+[castlewars_cavewall_rockslide]
 name=Cave wall
 desc=It doesn't look very stable...
 model=model_loc_1417
@@ -5289,7 +5291,7 @@ active=yes
 op1=Collapse
 op3=hidden
 
-[loc_4449]
+[castlewars_areana_stairentrance_saradomin]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5301,7 +5303,7 @@ length=3
 mapscene=7
 sharelight=yes
 
-[loc_4450]
+[castlewars_areana_stairentrance_mirror_saradomin]
 name=Staircase
 desc=A solid stone staircase.
 model=loc_4414
@@ -5314,12 +5316,12 @@ mapscene=7
 sharelight=yes
 mirror=yes
 
-[loc_4451]
+[hs_inviswall]
 model=model_loc_83
 shadow=no
 mapscene=22
 
-[loc_4452]
+[castlewars_stair_zero_a]
 model=loc_4452
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5327,7 +5329,7 @@ recol2s=15855
 recol2d=16872
 active=no
 
-[loc_4453]
+[castlewars_stair_zero_b]
 model=loc_4453
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5335,7 +5337,7 @@ recol2s=15855
 recol2d=16872
 active=no
 
-[loc_4454]
+[castlewars_stair_zero_c]
 model=loc_4454
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5343,7 +5345,7 @@ recol2s=15855
 recol2d=16872
 active=no
 
-[loc_4455]
+[castlewars_stair_zero_a_mirr]
 model=loc_4452
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5352,7 +5354,7 @@ recol2d=16872
 mirror=yes
 active=no
 
-[loc_4456]
+[castlewars_stair_zero_b_mirr]
 model=loc_4453
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5361,7 +5363,7 @@ recol2d=16872
 mirror=yes
 active=no
 
-[loc_4457]
+[castlewars_stair_zero_c_mirr]
 model=loc_4454
 retex1s=mossybricks
 retex1d=elfbrick
@@ -5370,7 +5372,7 @@ recol2d=16872
 mirror=yes
 active=no
 
-[loc_4458]
+[castlewars_table_bandages]
 name=Table
 desc=There are some bandages on this table.
 model=model_loc_594
@@ -5379,7 +5381,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4459]
+[castlewars_table_toolbox]
 name=Table
 desc=There are some toolboxes on this table.
 model=model_loc_594
@@ -5388,7 +5390,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4460]
+[castlewars_table_rocks]
 name=Table
 desc=There's some rock I can use with the catupult here.
 model=model_loc_594
@@ -5397,7 +5399,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4461]
+[castlewars_table_barricades]
 name=Table
 desc=There are some barricades here.
 model=model_loc_594
@@ -5405,7 +5407,7 @@ model2=loc_4461
 width=2
 op1=Take-from
 
-[loc_4462]
+[castlewars_table_rope]
 name=Table
 desc=There is some rope here.
 model=model_loc_594
@@ -5416,7 +5418,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4463]
+[castlewars_table_potion]
 name=Table
 desc=There are some explosive potions here.
 model=model_loc_594
@@ -5427,7 +5429,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4464]
+[castlewars_table_pickaxes]
 name=Table
 desc=There are some toolboxes on this table.
 model=model_loc_594
@@ -5438,7 +5440,7 @@ width=2
 blockrange=no
 op1=Take-from
 
-[loc_4465]
+[castlewars_saradomin_sidedoor]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -5450,7 +5452,7 @@ active=yes
 op1=Unlock
 raiseobject=no
 
-[loc_4466]
+[castlewars_saradomin_sidedoor_open]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -5462,7 +5464,7 @@ active=yes
 op1=Lock
 raiseobject=no
 
-[loc_4467]
+[castlewars_zamorak_sidedoor]
 name=Door
 desc=The door is closed.
 model=model_loc_3
@@ -5474,7 +5476,7 @@ active=yes
 op1=Unlock
 raiseobject=no
 
-[loc_4468]
+[castlewars_zamorak_sidedoor_open]
 name=Door
 desc=The door is closed.
 model=model_loc_3
@@ -5486,7 +5488,7 @@ active=yes
 op1=Lock
 raiseobject=no
 
-[loc_4469]
+[castlewars_saradomin_spawndoor]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -5498,7 +5500,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4470]
+[castlewars_zamorak_spawndoor]
 name=Door
 desc=The door is closed.
 model=model_loc_3
@@ -5510,7 +5512,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4471]
+[castlewars_saradomin_spawntrapdoor]
 name=Trapdoor
 desc=I wonder what's under it?
 model=model_loc_100
@@ -5518,7 +5520,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4472]
+[castlewars_zamorak_spawntrapdoor]
 name=Trapdoor
 desc=I wonder what's under it?
 model=model_loc_100
@@ -5526,77 +5528,77 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4473]
+[castlewars_stair_oldzero_a]
 model=loc_4452
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4474]
+[castlewars_stair_oldzero_b]
 model=loc_4453
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4475]
+[castlewars_stair_oldzero_c]
 model=loc_4454
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4476]
+[castlewars_stair_oldzero_a_mirr]
 model=loc_4452
 recol1s=15855
 recol1d=6272
 mirror=yes
 active=no
 
-[loc_4477]
+[castlewars_stair_oldzero_b_mirr]
 model=loc_4453
 recol1s=15855
 recol1d=6272
 mirror=yes
 active=no
 
-[loc_4478]
+[castlewars_stair_oldzero_c_mirr]
 model=loc_4454
 recol1s=15855
 recol1d=6272
 mirror=yes
 active=no
 
-[loc_4479]
+[castlewars_stair_thin_a]
 model=loc_4479
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4480]
+[castlewars_stair_thin_b]
 model=loc_4480
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4481]
+[castlewars_stair_thin_c]
 model=loc_4481
 recol1s=15855
 recol1d=6272
 active=no
 
-[loc_4482]
+[castlewars_tap]
 name=Tap
 desc=Water comes out of this.
 model=loc_4176
 active=yes
 
-[loc_4483]
+[castlewars_bankchest]
 name=Bank chest
 desc=It's open.
 model=model_loc_76
 op1=Use
 forceapproach=north
 
-[loc_4484]
+[castlewars_scoreboard]
 name=Scoreboard
 desc=Keep track of which team has the most victories.
 model=loc_4484
@@ -5604,7 +5606,7 @@ active=yes
 ambient=50
 op1=View
 
-[loc_4485]
+[horror_ladder_top2]
 name=Iron ladder
 desc=I could climb this if I wanted
 model=loc_4383
@@ -5612,7 +5614,7 @@ sharelight=yes
 active=yes
 op1=Climb
 
-[loc_4486]
+[horror_joint_to_wall]
 model=loc_4486
 recol1s=15855
 recol1d=10535
@@ -6219,14 +6221,14 @@ width=2
 length=2
 mapscene=11
 
-[loc_4542]
+[horror_joint_to_wall_mirror]
 model=loc_4542
 recol1s=15855
 recol1d=10535
 sharelight=yes
 active=no
 
-[loc_4543]
+[horror_mid_left_door]
 name=Strange wall
 desc=A strange wall with objects engraved upon it.
 model=loc_4543
@@ -6236,7 +6238,7 @@ sharelight=yes
 active=yes
 op1=Study
 
-[loc_4544]
+[horror_mid_right_door]
 name=Strange wall
 desc=A strange wall with objects engraved upon it.
 model=loc_4544
@@ -6246,7 +6248,7 @@ sharelight=yes
 active=yes
 op1=Study
 
-[loc_4545]
+[horror_far_right_door]
 name=Strange wall
 desc=A strange wall that appears to be hinged.
 model=loc_4545
@@ -6255,7 +6257,7 @@ recol1d=7397
 active=yes
 op1=Open
 
-[loc_4546]
+[horror_far_left_door]
 name=Strange wall
 desc=A strange wall that appears to be hinged.
 model=loc_4546
@@ -6264,26 +6266,26 @@ recol1d=7397
 active=yes
 op1=Open
 
-[loc_4547]
+[horror_watercave]
 model=loc_4547
 active=no
 width=6
 length=6
 shadow=no
 
-[loc_4548]
+[horror_far_left_door_inactive]
 model=loc_4546
 recol1s=10571
 recol1d=7397
 active=no
 
-[loc_4549]
+[horror_far_right_door_inactive]
 model=loc_4545
 recol1s=10571
 recol1d=7397
 active=no
 
-[loc_4550]
+[horror_jumping_spot1]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6293,7 +6295,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4551]
+[horror_jumping_spot2]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6303,7 +6305,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4552]
+[horror_jumping_spot3]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6313,7 +6315,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4553]
+[horror_jumping_spot4]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6323,7 +6325,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4554]
+[horror_jumping_spot5]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6333,7 +6335,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4555]
+[horror_jumping_spot6]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6343,7 +6345,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4556]
+[horror_jumping_spot7]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6353,7 +6355,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4557]
+[horror_jumping_spot8]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6363,7 +6365,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4558]
+[horror_jumping_spot9]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6373,7 +6375,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4559]
+[horror_jumping_spot10]
 name=Basalt rock
 desc=I can jump off this one.
 model=loc_4550
@@ -6383,7 +6385,7 @@ blockwalk=no
 blockrange=no
 op1=Jump-across
 
-[loc_4560]
+[horror_basalt_step_1]
 model=loc_4560
 recol1s=13702
 recol1d=8454
@@ -6391,7 +6393,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4561]
+[horror_basalt_step_2]
 model=loc_4561
 recol1s=13702
 recol1d=8454
@@ -6399,7 +6401,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4562]
+[horror_basalt_step_3]
 model=loc_4562
 recol1s=13702
 recol1d=8454
@@ -6407,7 +6409,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4563]
+[horror_basalt_step_4]
 model=loc_4563
 recol1s=13702
 recol1d=8454
@@ -6415,7 +6417,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4564]
+[horror_basalt_step_5]
 model=loc_4564
 recol1s=13702
 recol1d=8454
@@ -6423,7 +6425,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4565]
+[horror_basalt_step_6]
 model=loc_4565
 recol1s=13702
 recol1d=8454
@@ -6431,7 +6433,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4566]
+[horror_basalt_grouped]
 model=loc_4566
 recol1s=13702
 recol1d=8454
@@ -6441,7 +6443,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4567]
+[horror_basalt_grouped2]
 model=loc_4567
 recol1s=13702
 recol1d=8454
@@ -6451,7 +6453,7 @@ active=no
 mapscene=21
 blockrange=no
 
-[loc_4568]
+[horror_lighthouse_spiralstairs_base]
 name=Staircase
 desc=I can climb up these stairs.
 model=loc_4568
@@ -6460,7 +6462,7 @@ length=2
 op1=Climb-up
 mapscene=7
 
-[loc_4569]
+[horror_lighthouse_spiralstairs_middle]
 name=Staircase
 desc=I can climb up or go down these stairs.
 model=loc_4569
@@ -6473,7 +6475,7 @@ op2=Climb-up
 op3=Climb-down
 mapscene=7
 
-[loc_4570]
+[horror_lighthouse_spiralstairs_top]
 name=Staircase
 desc=I can climb down these stairs.
 model=loc_4570
@@ -6483,7 +6485,7 @@ op1=Climb-down
 forceapproach=east
 mapscene=7
 
-[loc_4571]
+[horror_lighthouse_glass]
 model=loc_4571
 recol1s=8387
 recol1d=10571
@@ -6492,7 +6494,7 @@ resizex=128
 resizey=192
 resizez=128
 
-[loc_4572]
+[horror_lighthouse_glass_twobit]
 model=loc_4572
 recol1s=8387
 recol1d=10571
@@ -6500,7 +6502,7 @@ resizex=128
 resizey=192
 resizez=128
 
-[loc_4573]
+[horror_lighthouse_wall]
 model=loc_4573
 sharelight=yes
 occlude=yes
@@ -6510,7 +6512,7 @@ resizez=128
 ambient=20
 contrast=0
 
-[loc_4574]
+[horror_lighthouse_wall_slanted]
 model=loc_4574
 sharelight=yes
 occlude=yes
@@ -6520,7 +6522,7 @@ resizez=128
 ambient=20
 contrast=0
 
-[loc_4575]
+[horror_lighthouse_wall_edge_fix]
 name=horror_lighthouse_wall_edge_fix
 model=loc_4575
 sharelight=yes
@@ -6531,7 +6533,7 @@ resizez=128
 ambient=20
 contrast=0
 
-[loc_4576]
+[horror_lighthouse_wall_edge_fix_mirror]
 name=horror_lighthouse_wall_edge_fix_mirror
 model=loc_4576
 sharelight=yes
@@ -6542,7 +6544,7 @@ resizez=128
 ambient=20
 contrast=0
 
-[loc_4577]
+[horror_lighthouse_doorway]
 name=Doorway
 desc=Let's you walk through walls!
 model=loc_4577
@@ -6555,7 +6557,7 @@ contrast=0
 active=yes
 op1=Walk-through
 
-[loc_4578]
+[horror_lighthouse_inactive]
 model=loc_4578
 occlude=yes
 resizex=128
@@ -6564,7 +6566,7 @@ resizez=128
 ambient=20
 contrast=0
 
-[loc_4579]
+[horror_railing]
 model=loc_4579
 recol1s=15855
 recol1d=10571
@@ -6573,7 +6575,7 @@ occlude=yes
 active=no
 ambient=20
 
-[loc_4580]
+[horror_railing_q]
 model=loc_4580
 recol1s=15855
 recol1d=10571
@@ -6581,7 +6583,7 @@ sharelight=yes
 active=no
 ambient=20
 
-[loc_4581]
+[horror_railing_q_mirror]
 model=loc_4580
 recol1s=15855
 recol1d=10571
@@ -6590,7 +6592,7 @@ active=no
 ambient=20
 mirror=yes
 
-[loc_4582]
+[horror_railing_q_end]
 model=loc_4582
 recol1s=15855
 recol1d=10571
@@ -6598,7 +6600,7 @@ sharelight=yes
 active=no
 ambient=20
 
-[loc_4583]
+[horror_railing_q_end_mirror]
 model=loc_4582
 recol1s=15855
 recol1d=10571
@@ -6607,7 +6609,7 @@ active=no
 ambient=20
 mirror=yes
 
-[loc_4584]
+[horror_railing_t]
 model=loc_4584
 recol1s=15855
 recol1d=10571
@@ -6615,7 +6617,7 @@ sharelight=yes
 active=no
 ambient=20
 
-[loc_4585]
+[horror_railing_r]
 model=loc_4585
 recol1s=15855
 recol1d=10571
@@ -6623,7 +6625,7 @@ sharelight=yes
 active=no
 ambient=20
 
-[loc_4586]
+[horror_railing_r_mirror]
 model=loc_4585
 recol1s=15855
 recol1d=10571
@@ -6632,7 +6634,7 @@ active=no
 ambient=20
 mirror=yes
 
-[loc_4587]
+[horror_lighthouse_cog]
 name=Lighting mechanism
 desc=It turns the light around
 model=loc_4587
@@ -6642,9 +6644,9 @@ width=4
 length=4
 ambient=20
 active=yes
-anim=seq_1347
+anim=horror_lighthouse_working
 
-[loc_4588]
+[horror_lighthouse_cog_broken]
 name=Lighting mechanism
 desc=It looks broken
 model=loc_4587
@@ -6654,63 +6656,63 @@ width=4
 length=4
 ambient=20
 
-[loc_4589]
+[horror_lighthouse_shaft]
 name=Lighting mechanism
 desc=Part of the lighthouse Light mechanism.
 model=loc_4589
 width=2
 length=2
-anim=seq_1349
+anim=horror_lighthouse_divider
 
-[loc_4590]
+[horror_lighthouse_windpower_cog]
 name=Lighting mechanism
 desc=Part of the lighthouse Light mechanism.
 model=loc_4590
 width=4
 length=3
-anim=seq_1348
+anim=horror_lighthouse_windpower
 
-[loc_4591]
+[horror_edge_one]
 model=loc_4591
 sharelight=yes
 active=no
 
-[loc_4592]
+[horror_edge_t]
 model=loc_4592
 sharelight=yes
 active=no
 
-[loc_4593]
+[horror_edge_q]
 model=loc_4593
 sharelight=yes
 active=no
 
-[loc_4594]
+[horror_edge_w]
 model=loc_4594
 sharelight=yes
 active=no
 
-[loc_4595]
+[horror_edge_r]
 model=loc_4595
 sharelight=yes
 active=no
 
-[loc_4596]
+[horror_edge_prop]
 model=loc_4596
 sharelight=yes
 active=no
 
-[loc_4597]
+[horror_edge_corner_prop]
 model=loc_4597
 sharelight=yes
 active=no
 
-[loc_4598]
+[horror_floor_depth_curved]
 model=loc_4598
 sharelight=yes
 active=no
 
-[loc_4599]
+[horror_lighthouse_cap]
 model=loc_4599
 width=10
 length=10
@@ -6721,14 +6723,14 @@ resizez=128
 ambient=20
 active=no
 
-[loc_4600]
+[horror_stalagmite_twin_grey]
 model=model_loc_468
 recol1s=13537
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4601]
+[horror_stalagtite_twin_grey]
 model=model_loc_469
 recol1s=13537
 recol1d=10535
@@ -6736,14 +6738,14 @@ blockwalk=no
 hillskew=yes
 active=no
 
-[loc_4602]
+[horror_stalagmite_small_grey]
 model=model_loc_534
 recol1s=13537
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4603]
+[horror_rockslide1]
 model=model_loc_471
 recol1s=12580
 recol1d=10535
@@ -6755,7 +6757,7 @@ hillskew=yes
 mapscene=11
 active=no
 
-[loc_4604]
+[horror_rockslide2]
 model=model_loc_472
 recol1s=12580
 recol1d=10535
@@ -6767,7 +6769,7 @@ blockrange=no
 mapscene=11
 active=no
 
-[loc_4605]
+[horror_rockslide3]
 model=model_loc_473
 recol1s=12580
 recol1d=10535
@@ -6779,7 +6781,7 @@ blockrange=no
 hillskew=yes
 mapscene=12
 
-[loc_4606]
+[horror_rockslide4]
 model=model_loc_474
 recol1s=12580
 recol1d=10535
@@ -6791,21 +6793,21 @@ blockrange=no
 hillskew=yes
 mapscene=12
 
-[loc_4607]
+[horror_rockslide5]
 model=model_loc_475
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4608]
+[horror_rockslide6]
 model=model_loc_476
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
-[loc_4609]
+[horror_cave_detail1r]
 model=model_loc_1444
 recol1s=12580
 recol1d=10535
@@ -6814,7 +6816,7 @@ hillskew=yes
 active=no
 ambient=20
 
-[loc_4610]
+[horror_shell1]
 name=Shell
 desc=Best left on the beach.
 model=model_loc_1266
@@ -6824,13 +6826,13 @@ recol2s=28397
 recol2d=23252
 active=yes
 
-[loc_4611]
+[horror_shell2]
 name=Shell
 desc=This once belonged to a sea animal.
 model=model_loc_1267
 active=yes
 
-[loc_4612]
+[horror_shell1big]
 name=Shell
 desc=Best left for the crabs.
 model=model_loc_1269
@@ -6840,7 +6842,7 @@ recol2s=27381
 recol2d=9545
 active=yes
 
-[loc_4613]
+[horror_shell2big]
 name=Shell
 desc=I can hear the sea with this.
 model=model_loc_1270
@@ -6850,7 +6852,7 @@ recol2s=21040
 recol2d=9545
 active=yes
 
-[loc_4614]
+[horror_rubble_1]
 name=Bowl
 desc=It is a buried Bowl.
 model=model_loc_174
@@ -6865,7 +6867,7 @@ recol4d=10469
 active=yes
 hillskew=yes
 
-[loc_4615]
+[horror_broken_bridge_left_spot]
 name=Broken bridge
 desc=I can jump off this one.
 model=loc_4550
@@ -6875,7 +6877,7 @@ blockwalk=no
 blockrange=no
 op1=Cross
 
-[loc_4616]
+[horror_broken_bridge_right_spot]
 name=Broken bridge
 desc=I can jump off this one.
 model=loc_4550
@@ -6885,14 +6887,14 @@ blockwalk=no
 blockrange=no
 op1=Cross
 
-[loc_4617]
+[horror_bookcase]
 name=Bookcase
 desc=Shelves filled with interesting books.
 model=model_loc_380
 length=2
 op1=Search
 
-[loc_4618]
+[boardgames_fireplace_small]
 name=Fireplace
 desc=A nice and cosy fire.
 model=loc_4618
@@ -6906,13 +6908,13 @@ resizex=95
 resizey=95
 resizez=95
 
-[loc_4619]
+[lantern_glows]
 model=model_4616
-anim=seq_1362
+anim=lantern_glow
 ambient=30
 contrast=10
 
-[loc_4620]
+[board_game_stairs_top]
 name=Stairs
 desc=They go down.
 model=loc_4620
@@ -6925,7 +6927,7 @@ forceapproach=north
 sharelight=yes
 mapscene=7
 
-[loc_4621]
+[board_game_stairs_top2]
 name=Stairs
 desc=They go down.
 model=loc_4620
@@ -6938,7 +6940,7 @@ forceapproach=north
 sharelight=yes
 mapscene=7
 
-[loc_4622]
+[board_game_stairs_base]
 name=Stairs
 desc=They go up.
 model=loc_4622
@@ -6951,7 +6953,7 @@ forceapproach=south
 sharelight=yes
 mapscene=7
 
-[loc_4623]
+[board_game_stairs_base2]
 name=Stairs
 desc=They go up.
 model=loc_4622
@@ -6964,7 +6966,7 @@ forceapproach=south
 sharelight=yes
 mapscene=7
 
-[loc_4624]
+[board_game_stairs_grey_all]
 name=Stairs
 desc=They go down.
 model=loc_4624
@@ -6976,7 +6978,7 @@ op1=Climb-down
 sharelight=yes
 mapscene=7
 
-[loc_4625]
+[board_game_stairs_grey_top]
 name=Stairs
 desc=They go down.
 model=loc_4625
@@ -6989,7 +6991,7 @@ forceapproach=north
 sharelight=yes
 mapscene=7
 
-[loc_4626]
+[board_game_stairs_grey_base]
 name=Stairs
 desc=They go up.
 model=loc_4626
@@ -7002,7 +7004,7 @@ forceapproach=south
 sharelight=yes
 mapscene=7
 
-[loc_4627]
+[board_game_stairs_grey_base2]
 name=Stairs
 desc=They go up.
 model=loc_4626
@@ -7015,21 +7017,21 @@ forceapproach=south
 sharelight=yes
 mapscene=7
 
-[loc_4628]
+[board_game_poshwall_fencing]
 model=model_loc_982
 recol1s=15855
 recol1d=10572
 blockrange=no
 sharelight=yes
 
-[loc_4629]
+[posh_doubledoor_reverse_l]
 name=Large door
 desc=A large double door.
 model=loc_4629
 op1=Open
 raiseobject=no
 
-[loc_4630]
+[posh_doubledoor_reverse_l_open]
 name=Large door
 desc=A large double door.
 model=loc_4629
@@ -7037,28 +7039,28 @@ op1=Close
 raiseobject=no
 mirror=yes
 
-[loc_4631]
+[posh_doubledoor_locked_l]
 name=Large door
 desc=A large double door.
 model=loc_4629
 op1=Open
 raiseobject=no
 
-[loc_4632]
+[posh_doubledoor_locked_r]
 name=Large door
 desc=A large double door.
 model=loc_4632
 op1=Open
 raiseobject=no
 
-[loc_4633]
+[posh_doubledoor_reverse_r]
 name=Large door
 desc=A large double door.
 model=loc_4632
 op1=Open
 raiseobject=no
 
-[loc_4634]
+[posh_doubledoor_reverse_r_open]
 name=Large door
 desc=A large double door.
 model=loc_4632
@@ -7066,7 +7068,7 @@ op1=Close
 raiseobject=no
 mirror=yes
 
-[loc_4635]
+[old_paintedbrickwall_2]
 model=model_loc_1905
 retex1s=wall
 retex1d=mossybricks
@@ -7074,7 +7076,7 @@ sharelight=yes
 occlude=yes
 active=no
 
-[loc_4636]
+[boardgames_draughts_door_experienced]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -7086,7 +7088,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4637]
+[boardgames_runelink_door_experienced]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -7098,7 +7100,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4638]
+[elfdoor_reverse]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -7110,7 +7112,7 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4639]
+[elfdooropen_reverse]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -7123,7 +7125,7 @@ op1=Close
 raiseobject=no
 mirror=yes
 
-[loc_4640]
+[elfdoor_locked]
 name=Door
 desc=An elf-fashioned door.
 model=model_loc_3
@@ -7135,11 +7137,11 @@ active=yes
 op1=Open
 raiseobject=no
 
-[loc_4641]
+[barrel_stacked]
 name=barrel_stacked
 model=loc_4641
 
-[loc_4642]
+[boardgames_noticeboard]
 name=Noticeboard
 desc=Has some board games news on it.
 model=model_loc_961
@@ -7147,7 +7149,7 @@ ambient=50
 active=yes
 op1=Read
 
-[loc_4643]
+[boardgames_runelink_ladderup_experienced]
 name=Ladder up
 desc=The ladder to the Runelink challenge room for experienced players.
 model=model_loc_11
@@ -7155,7 +7157,7 @@ forceapproach=north
 active=yes
 op1=Climb-up
 
-[loc_4644]
+[boardgames_runelink_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Runelink challenge room.
 model=model_loc_10
@@ -7163,7 +7165,7 @@ forceapproach=north
 active=yes
 op1=Climb-Down
 
-[loc_4645]
+[boardgames_draughts_ladderup_experienced]
 name=Ladder up
 desc=The ladder to the Draughts challenge room for experienced players.
 model=model_loc_11
@@ -7171,7 +7173,7 @@ forceapproach=north
 active=yes
 op1=Climb-up
 
-[loc_4646]
+[boardgames_draughts_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Draughts challenge room.
 model=model_loc_10
@@ -7179,7 +7181,7 @@ forceapproach=north
 active=yes
 op1=Climb-Down
 
-[loc_4647]
+[boardgames_ladderup]
 name=Ladder up
 desc=The ladder back up to the Toad and Chicken.
 model=model_loc_11
@@ -7187,7 +7189,7 @@ forceapproach=north
 active=yes
 op1=Climb-up
 
-[loc_4648]
+[boardgames_ladderdown]
 name=Ladder
 desc=Leads down to the Burthorpe Games Rooms.
 model=model_loc_1759
@@ -7196,12 +7198,12 @@ op1=Climb-Down
 forceapproach=east
 active=yes
 
-[loc_4649]
+[boardgames_wall]
 model=loc_4649
 sharelight=yes
 active=no
 
-[loc_4650]
+[boardgames_fireplace]
 name=Fireplace
 desc=A nice and cosy fire.
 model=loc_4618
@@ -7210,14 +7212,14 @@ length=3
 width=3
 active=yes
 
-[loc_4651]
+[boardgames_table]
 name=Table
 desc=A table for board games.
 model=loc_4651
 active=yes
 blockrange=no
 
-[loc_4652]
+[boardgames_table_draughts]
 name=Table
 desc=A game of draughts is being played on this table.
 model=loc_4652
@@ -7225,7 +7227,7 @@ active=yes
 blockrange=no
 op1=View-game
 
-[loc_4653]
+[boardgames_table_runelink]
 name=Table
 desc=A game of Runelink is being played on this table.
 model=loc_4653
@@ -7233,13 +7235,13 @@ active=yes
 blockrange=no
 op1=View-game
 
-[loc_4654]
+[boardgames_archtop]
 model=loc_4654
 length=4
 width=4
 active=no
 
-[loc_4655]
+[boardgames_barriers]
 model=model_loc_512
 recol1s=10570
 recol1d=11491
@@ -7249,7 +7251,7 @@ blockrange=no
 blockrange=no
 active=no
 
-[loc_4656]
+[boardgames_barstool_white]
 name=Stool
 desc=A comfy stool.
 model=model_loc_1100
@@ -7259,11 +7261,11 @@ recol2s=9312
 recol2d=4192
 blockrange=no
 
-[loc_4657]
+[boardgames_barstool_invis]
 model=model_loc_83
 blockrange=no
 
-[loc_4658]
+[boardgames_draughts_plaque]
 name=Plaque
 desc=Draughts challenge room.
 model=model_loc_909
@@ -7271,7 +7273,7 @@ recol1s=6240
 recol1d=31649
 active=yes
 
-[loc_4659]
+[boardgames_runelink_plaque]
 name=Plaque
 desc=Runelink challenge room.
 model=model_loc_909
@@ -7279,7 +7281,7 @@ recol1s=6240
 recol1d=31649
 active=yes
 
-[loc_4660]
+[boardgames_draughts_plaque_experienced]
 name=Plaque
 desc=Draughts challenge room for experienced players.
 model=model_loc_909
@@ -7287,7 +7289,7 @@ recol1s=6240
 recol1d=31649
 active=yes
 
-[loc_4661]
+[boardgames_runelink_plaque_experienced]
 name=Plaque
 desc=Runelink challenge room for experienced players.
 model=model_loc_909
@@ -7295,7 +7297,7 @@ recol1s=6240
 recol1d=31649
 active=yes
 
-[loc_4662]
+[ruginsidecorner_blue]
 model=loc_4662
 recol1s=15360
 recol1d=9484
@@ -7305,7 +7307,7 @@ recol3s=0
 recol3d=5255
 sharelight=yes
 
-[loc_4663]
+[ruginsidecorner_darkknight]
 model=loc_4662
 recol1s=15360
 recol1d=5252
@@ -7313,11 +7315,11 @@ recol2s=28321
 recol2d=14402
 sharelight=yes
 
-[loc_4664]
+[ruginsidecorner]
 model=loc_4662
 sharelight=yes
 
-[loc_4665]
+[ruginsidecornerdiag_blue]
 model=loc_4665
 recol1s=15360
 recol1d=9484
@@ -7327,7 +7329,7 @@ recol3s=0
 recol3d=5255
 sharelight=yes
 
-[loc_4666]
+[ruginsidecornerdiag_darkknight]
 model=loc_4665
 recol1s=15360
 recol1d=5252
@@ -7335,21 +7337,21 @@ recol2s=28321
 recol2d=14402
 sharelight=yes
 
-[loc_4667]
+[ruginsidecornerdiag]
 model=loc_4665
 sharelight=yes
 
-[loc_4668]
+[runeflash]
 name=runeflash
 model=loc_4668
-anim=seq_1355
+anim=runeflash
 
-[loc_4669]
+[statue_herosguild]
 name=Arrav
 desc=A statue of Arrav (the Fountain of Heroes has moved downstairs.)
 model=model_loc_566
 
-[loc_4670]
+[statue_herosguild2]
 name=Camorra
 desc=A statue of Camorra (the Fountain of Heroes has moved downstairs.)
 model=model_loc_562

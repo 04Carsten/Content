@@ -18,13 +18,13 @@ basevar=varp_336
 startbit=11
 endbit=11
 
-[varbit_10]
-basevar=varp_340
+[pyre_loc]
+basevar=morttonmulti
 startbit=9
 endbit=13
 
-[varbit_11]
-basevar=varp_340
+[temple_resources]
+basevar=morttonmulti
 startbit=14
 endbit=27
 
@@ -138,178 +138,178 @@ basevar=varp_350
 startbit=21
 endbit=21
 
-[varbit_34]
-basevar=varp_351
+[horrorquest]
+basevar=deephorror
 startbit=0
 endbit=10
 
-[varbit_35]
-basevar=varp_351
+[horrordoor]
+basevar=deephorror
 startbit=11
 endbit=11
 
-[varbit_36]
-basevar=varp_351
+[horrorbridgeleft]
+basevar=deephorror
 startbit=12
 endbit=12
 
-[varbit_37]
-basevar=varp_351
+[horrorbridgeright]
+basevar=deephorror
 startbit=13
 endbit=13
 
-[varbit_38]
-basevar=varp_351
+[horroragilitykey]
+basevar=deephorror
 startbit=14
 endbit=14
 
-[varbit_39]
-basevar=varp_351
+[horrorlighthouseentrance]
+basevar=deephorror
 startbit=15
 endbit=15
 
-[varbit_40]
-basevar=varp_351
+[horrorfire]
+basevar=deephorror
 startbit=16
 endbit=16
 
-[varbit_41]
-basevar=varp_351
+[horrorwater]
+basevar=deephorror
 startbit=17
 endbit=17
 
-[varbit_42]
-basevar=varp_351
+[horrorearth]
+basevar=deephorror
 startbit=18
 endbit=18
 
-[varbit_43]
-basevar=varp_351
+[horrorair]
+basevar=deephorror
 startbit=19
 endbit=19
 
-[varbit_44]
-basevar=varp_351
+[horrorsword]
+basevar=deephorror
 startbit=20
 endbit=20
 
-[varbit_45]
-basevar=varp_351
+[horrorarrow]
+basevar=deephorror
 startbit=21
 endbit=21
 
-[varbit_46]
-basevar=varp_351
+[horrortar]
+basevar=deephorror
 startbit=22
 endbit=22
 
-[varbit_47]
-basevar=varp_351
+[horrorglass]
+basevar=deephorror
 startbit=23
 endbit=23
 
-[varbit_48]
-basevar=varp_351
+[horrorlight]
+basevar=deephorror
 startbit=24
 endbit=24
 
-[varbit_49]
-basevar=varp_355
+[boardgames_timepermove]
+basevar=boardgames_varbit
 startbit=0
 endbit=1
 
-[varbit_50]
-basevar=varp_355
+[boardgames_piece]
+basevar=boardgames_varbit
 startbit=2
 endbit=5
 
-[varbit_51]
-basevar=varp_355
+[boardgames_control]
+basevar=boardgames_varbit
 startbit=6
 endbit=6
 
-[varbit_52]
-basevar=varp_355
+[boardgames_myturn]
+basevar=boardgames_varbit
 startbit=7
 endbit=7
 
-[varbit_53]
-basevar=varp_355
+[boardgames_closinginterface]
+basevar=boardgames_varbit
 startbit=8
 endbit=8
 
-[varbit_54]
-basevar=varp_355
+[boardgames_drawrequested]
+basevar=boardgames_varbit
 startbit=9
 endbit=9
 
-[varbit_55]
-basevar=varp_355
+[boardgames_tablenum]
+basevar=boardgames_varbit
 startbit=10
 endbit=16
 
-[varbit_56]
-basevar=varp_355
+[boardgames_gameended]
+basevar=boardgames_varbit
 startbit=17
 endbit=17
 
-[varbit_57]
-basevar=varp_355
+[boardgames_draughts_musttake]
+basevar=boardgames_varbit
 startbit=18
 endbit=18
 
-[varbit_58]
-basevar=varp_355
+[boardgames_draughts_lastpiece]
+basevar=boardgames_varbit
 startbit=19
 endbit=25
 
-[varbit_59]
-basevar=varp_355
+[boardgames_draughts_moveagain]
+basevar=boardgames_varbit
 startbit=26
 endbit=26
 
-[varbit_60]
-basevar=varp_355
+[boardgames_viewing]
+basevar=boardgames_varbit
 startbit=27
 endbit=27
 
-[varbit_61]
-basevar=varp_355
+[boardgames_game]
+basevar=boardgames_varbit
 startbit=28
 endbit=28
 
-[varbit_62]
-basevar=varp_355
+[boardgames_challengeroom]
+basevar=boardgames_varbit
 startbit=29
 endbit=29
 
-[varbit_63]
-basevar=varp_355
+[boardgames_ingame]
+basevar=boardgames_varbit
 startbit=30
 endbit=30
 
-[varbit_64]
-basevar=varp_356
+[boardgames_draughts_moves]
+basevar=boardgames_varbit2
 startbit=0
 endbit=5
 
-[varbit_65]
-basevar=varp_356
+[boardgames_closemode]
+basevar=boardgames_varbit2
 startbit=6
 endbit=8
 
-[varbit_66]
-basevar=varp_356
+[boardgames_closereason]
+basevar=boardgames_varbit2
 startbit=9
 endbit=11
 
-[varbit_67]
-basevar=varp_356
+[boardgames_numturns]
+basevar=boardgames_varbit2
 startbit=12
 endbit=14
 
-[varbit_68]
-basevar=varp_356
+[boardgames_rankedgame]
+basevar=boardgames_varbit2
 startbit=15
 endbit=15
 

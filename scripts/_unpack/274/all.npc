@@ -1,4 +1,4 @@
-[npc_1162]
+[tbwt_timfraku]
 name=Timfraku
 model1=model_231_npc
 model2=model_181_idk
@@ -29,7 +29,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=obj_2984_manhead
 
-[npc_1163]
+[tbwt_tiadeche]
 name=Tiadeche
 model1=model_231_npc
 model2=model_181_idk
@@ -58,7 +58,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1164]
+[tbwt_tiadeche_final]
 name=Tiadeche
 model1=model_231_npc
 model2=model_181_idk
@@ -88,7 +88,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1165]
+[tbwt_tinsay]
 name=Tinsay
 model1=model_206_idk
 model2=model_250_idk
@@ -120,7 +120,7 @@ head1=model_46_idk_head
 head2=model_82_idk_head
 head3=model_43_obj_wear
 
-[npc_1166]
+[tbwt_tinsay_final]
 name=Tinsay
 model1=model_206_idk
 model2=model_250_idk
@@ -152,7 +152,7 @@ head1=model_46_idk_head
 head2=model_82_idk_head
 head3=model_43_obj_wear
 
-[npc_1167]
+[tbwt_tamayu]
 name=Tamayu
 model1=model_231_npc
 model2=model_181_idk
@@ -177,7 +177,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1168]
+[tbwt_tamayu_final]
 name=Tamayu
 model1=model_231_npc
 model2=model_181_idk
@@ -203,7 +203,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1169]
+[tbwt_tamayu_hunter]
 name=Tamayu
 model1=model_231_npc
 model2=model_181_idk
@@ -227,7 +227,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1170]
+[tbwt_tamayu_final_hunter]
 name=Tamayu
 model1=model_231_npc
 model2=model_181_idk
@@ -251,7 +251,7 @@ vislevel=hide
 head1=model_64_npc_head
 head2=model_43_obj_wear
 
-[npc_1171]
+[tbwt_lubufu]
 name=Lubufu
 model1=model_185_obj_wear
 model2=model_246_idk
@@ -269,28 +269,28 @@ vislevel=hide
 head1=model_63_idk_head
 head2=model_81_idk_head
 
-[npc_1172]
+[tbwt_beast]
 name=The Shaikahan
 model1=npc_1172
 desc=A huge beast, resembling in some ways a lion, but mostly a twisted nightmare.
 size=3
-walkanim=seq_1197
-readyanim=seq_1198
+walkanim=lion_walk
+readyanim=lion_ready
 minimap=no
 op2=Attack
 vislevel=83
 
-[npc_1173]
+[tbwt_beast_cutscene]
 name=The Shaikahan
 model1=npc_1172
 desc=A huge beast, resembling in some ways a lion, but mostly a twisted nightmare.
 size=3
-walkanim=seq_1197
-readyanim=seq_1198
+walkanim=lion_walk
+readyanim=lion_ready
 minimap=no
 vislevel=83
 
-[npc_1174]
+[0_43_47_karambwanji]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -301,7 +301,7 @@ minimap=no
 op1=Net
 op4=hidden
 
-[npc_1175]
+[general_karambwanji]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -312,7 +312,7 @@ minimap=no
 op1=Net
 op4=hidden
 
-[npc_1176]
+[0_45_48_karambwan]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -322,7 +322,7 @@ desc=Something dark green is lurking in these waters.
 minimap=no
 op1=Fish
 
-[npc_1177]
+[general_karambwan]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -332,7 +332,7 @@ desc=Something dark green is lurking in these waters.
 minimap=no
 op1=Fish
 
-[npc_1178]
+[lubufu_karambwan]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -342,7 +342,7 @@ desc=Something dark green is lurking in these waters.
 minimap=no
 op1=Fish
 
-[npc_1179]
+[0_45_48_seabird1]
 name=Gull
 model1=model_2850_npc
 desc=A sea bird.
@@ -352,7 +352,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=26
 
-[npc_1180]
+[0_45_48_seabird2]
 name=Cormorant
 model1=model_2850_npc
 desc=A sea bird.
@@ -362,7 +362,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=26
 
-[npc_1181]
+[0_45_48_seabird3]
 name=Albatross
 model1=model_2850_npc
 desc=A sea bird.
@@ -372,7 +372,7 @@ readyanim=bird_ready
 minimap=no
 vislevel=26
 
-[npc_1182]
+[lord_iorwerth]
 name=Lord Iorwerth
 model1=npc_1182
 model2=npc_1182i2
@@ -393,7 +393,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1182_head
 
-[npc_1183]
+[regicide_darkelf]
 name=Elf warrior
 model1=npc_1182
 model2=npc_1183
@@ -406,7 +406,7 @@ readyanim=human_staffready
 op2=Attack
 vislevel=90
 
-[npc_1184]
+[regicide_darkelf2]
 name=Elf warrior
 model1=npc_1182
 model2=npc_1183
@@ -419,7 +419,7 @@ readyanim=human_staffready
 op2=Attack
 vislevel=108
 
-[npc_1185]
+[prif_city_guard]
 name=Elven city guard
 model1=npc_1182
 model2=npc_1183
@@ -433,7 +433,7 @@ readyanim=human_staffready
 op1=Talk-to
 head1=npc_1185_head
 
-[npc_1186]
+[regicide_good_elf1]
 name=Idris
 model1=npc_1186
 model2=npc_1182i2
@@ -448,7 +448,7 @@ op1=Talk-to
 head1=npc_1182_head
 head2=npc_1186_head
 
-[npc_1187]
+[regicide_evil_elf1]
 name=Essyllt
 model1=npc_1182
 model2=npc_1183
@@ -462,7 +462,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1185_head
 
-[npc_1188]
+[regicide_evil_elf2]
 name=Morvran
 model1=npc_1182
 model2=npc_1183
@@ -476,7 +476,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1185_head
 
-[npc_1189]
+[0_34_50_freshfish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -489,7 +489,7 @@ op3=Bait
 op4=hidden
 op5=hidden
 
-[npc_1190]
+[0_35_50_freshfish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -502,7 +502,7 @@ op3=Bait
 op4=hidden
 op5=hidden
 
-[npc_1191]
+[0_33_51_memberfish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -515,46 +515,46 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 
-[npc_1192]
+[regicide_rabbit]
 name=Rabbit
 model1=npc_1192
 recol1s=15777
 recol1d=18922
 desc=A cute bunny rabbit.
-readyanim=seq_1242
-walkanim=seq_1243
+readyanim=rabbit_ready
+walkanim=rabbit_walk
 resizeh=164
 resizev=164
 op2=Attack
 vislevel=2
 
-[npc_1193]
+[regicide_bunny1]
 name=Rabbit
 model1=npc_1192
 recol1s=15777
 recol1d=21035
 desc=A cute bunny rabbit.
-readyanim=seq_1242
-walkanim=seq_1243
+readyanim=rabbit_ready
+walkanim=rabbit_walk
 resizeh=100
 resizev=100
 op2=Attack
 vislevel=2
 
-[npc_1194]
+[regicide_bunny2]
 name=Rabbit
 model1=npc_1192
 recol1s=15777
 recol1d=18922
 desc=A cute bunny rabbit.
-readyanim=seq_1242
-walkanim=seq_1243
+readyanim=rabbit_ready
+walkanim=rabbit_walk
 resizeh=110
 resizev=110
 op2=Attack
 vislevel=2
 
-[npc_1195]
+[regicide_darkbear]
 name=Grizzly bear
 model1=model_2966_npc
 recol1s=12517
@@ -566,7 +566,7 @@ readyanim=bear_ready
 op2=Attack
 vislevel=24
 
-[npc_1196]
+[regicide_darkbear_cub1]
 name=Grizzly bear cub
 model1=model_2966_npc
 recol1s=12517
@@ -580,7 +580,7 @@ resizeh=70
 resizev=70
 vislevel=19
 
-[npc_1197]
+[regicide_darkbear_cub2]
 name=Grizzly bear cub
 model1=model_2966_npc
 recol1s=12517
@@ -594,7 +594,7 @@ resizeh=80
 resizev=80
 vislevel=19
 
-[npc_1198]
+[direwolf]
 name=Dire Wolf
 model1=model_2937_npc
 recol1s=15855
@@ -610,7 +610,7 @@ desc=What big teeth you have.
 op2=Attack
 vislevel=88
 
-[npc_1199]
+[regicide_old_camp_tracker]
 name=Elf Tracker
 model1=npc_1182
 model2=npc_1182i2
@@ -631,7 +631,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1182_head
 
-[npc_1200]
+[regicide_old_camp_guard]
 name=Tyras guard
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -659,7 +659,7 @@ op2=Attack
 vislevel=110
 head1=npc_1200_head
 
-[npc_1201]
+[regicide_arandar_gate_guard]
 name=Elf warrior
 model1=npc_1182
 model2=npc_1183
@@ -673,7 +673,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1185_head
 
-[npc_1202]
+[regicide_good_elf3]
 name=Arianwyn
 model1=npc_1202
 model2=npc_1202i2
@@ -687,7 +687,7 @@ readyanim=human_ready
 op1=Talk-to
 head1=npc_1202_head
 
-[npc_1203]
+[regicide_tyras_camp_guard]
 name=Tyras guard
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -716,7 +716,7 @@ op2=Attack
 vislevel=110
 head1=npc_1200_head
 
-[npc_1204]
+[regicide_tyras_guard]
 name=Tyras guard
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -745,7 +745,7 @@ op2=Attack
 vislevel=110
 head1=npc_1200_head
 
-[npc_1205]
+[regicide_tyras_lazy_guard]
 name=Tyras guard
 model1=model_159_npc
 model2=model_185_obj_wear
@@ -774,7 +774,7 @@ op1=Talk-to
 vislevel=hide
 head1=model_63_idk_head
 
-[npc_1206]
+[regicide_tyras_camp_tent_guard]
 name=Tyras guard
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -803,7 +803,7 @@ op1=Talk-to
 vislevel=hide
 head1=npc_1200_head
 
-[npc_1207]
+[regicide_general_hining]
 name=General Hining
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -834,7 +834,7 @@ vislevel=hide
 head1=model_55_idk_head
 head2=model_79_idk_head
 
-[npc_1208]
+[regicidegeneralshopkeeper]
 name=Quartermaster
 model1=model_164_obj_wear
 model2=model_185_obj_wear
@@ -863,7 +863,7 @@ op1=Talk-to
 vislevel=hide
 head1=model_55_idk_head
 
-[npc_1209]
+[caveguide6]
 name=Koftik
 model1=model_163_idk
 model2=model_185_obj_wear
@@ -881,7 +881,7 @@ op1=Talk-to
 head1=model_48_npc_head
 head2=model_81_idk_head
 
-[npc_1210]
+[regicide_kings_messenger]
 name=Kings messenger
 model1=model_151_idk
 model2=model_176_idk
@@ -898,7 +898,7 @@ op1=Talk-to
 head1=model_67_idk_head
 head2=model_85_idk_head
 
-[npc_1211]
+[regicide_willothewisp1]
 name=
 model1=npc_1043
 recol1s=31434
@@ -913,7 +913,7 @@ minimap=no
 ambient=70
 contrast=70
 
-[npc_1212]
+[regicide_willothewisp2]
 name=Willow the wisp
 model1=npc_1043
 recol1s=31434
@@ -926,7 +926,7 @@ minimap=no
 ambient=70
 contrast=70
 
-[npc_1213]
+[eadgar_druid_washing]
 name=Tegid
 model1=model_217_idk
 model2=model_181_idk
@@ -951,7 +951,7 @@ vislevel=hide
 head1=model_55_idk_head
 head2=model_82_idk_head
 
-[npc_1214]
+[eadgar_troll_thistle]
 name=Thistle
 model1=obj_3262
 desc=It's a Troll Thistle.
@@ -959,13 +959,13 @@ vislevel=hide
 minimap=no
 op1=Pick
 
-[npc_1215]
+[eadgar_parrotts]
 name=Parrots
 model1=npc_1215
 desc=What a colourful bunch of parrots!
 vislevel=hide
 
-[npc_1216]
+[eadgar_zoo_keeper_aviary]
 name=Parroty Pete
 model1=model_215_idk
 model2=model_292_idk
@@ -996,7 +996,7 @@ head1=model_53_idk_head
 head2=model_83_idk_head
 head3=model_37_npc_head
 
-[npc_1217]
+[pirate_irate_gardener]
 name=Gardener
 model1=model_230_idk
 model2=model_251_idk
@@ -1016,7 +1016,7 @@ op2=Attack
 vislevel=3
 head1=model_63_idk_head
 
-[npc_1218]
+[ghoul]
 name=Ghoul
 model1=npc_1218
 model2=npc_1218i2
@@ -1031,21 +1031,21 @@ recol3s=2340
 recol3d=6374
 desc=It's totally savage.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=seq_1275
+readyanim=ghoul_ready
 op2=Attack
 vislevel=42
 
-[npc_1219]
+[vampire_leech]
 name=Leech
 model1=npc_1219
 desc=Yuk! Its all slimey!
-walkanim=seq_1269
-readyanim=seq_1270
+walkanim=leechwalk
+readyanim=leechready
 op2=Attack
 minimap=no
 vislevel=52
 
-[npc_1220]
+[vampire_flyer]
 name=Vampire
 model1=npc_1220
 model2=npc_1220i2
@@ -1068,7 +1068,8 @@ readyanim=human_ready
 op2=Attack
 vislevel=72
 
-[npc_1221]
+// this is probably an OSRS name considering they had an accidental bug spawning vampires... and vampyre is a newer term
+[spider_that_spawns_vampyres]
 name=Spider
 model1=model_2996_npc
 recol1s=15855
@@ -1078,15 +1079,15 @@ vislevel=hide
 walkanim=spider_walk
 minimap=no
 
-[npc_1222]
+[vampire_misty]
 name=vampire_misty
 model1=loc_4047_8
 size=2
-walkanim=seq_1261
-readyanim=seq_1261
+walkanim=misty
+readyanim=misty
 vislevel=1
 
-[npc_1223]
+[vampire_juve]
 name=Vampire
 model1=npc_1220
 model2=model_310_idk
@@ -1110,7 +1111,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=61
 
-[npc_1224]
+[vampire_juve_hound]
 name=vampire_juve_hound
 model1=model_2937_npc
 recol1s=15855
@@ -1124,7 +1125,7 @@ resizeh=170
 resizev=170
 vislevel=1
 
-[npc_1225]
+[vampire_count]
 name=vampire_count
 model1=npc_1220
 model2=model_306_obj_wear
@@ -1149,7 +1150,7 @@ readyanim=human_ready
 op2=Attack
 vislevel=25
 
-[npc_1226]
+[nasty_tree_swamp]
 name=Tree
 model1=model_3014_npc
 recol1s=7296
@@ -1160,7 +1161,7 @@ vislevel=hide
 desc=It's bark is worse than its swipe.
 minimap=no
 
-[npc_1227]
+[mmsnailround_swamp]
 name=Myre Blamish Snail
 model1=npc_1227
 recol1s=15849
@@ -1176,12 +1177,12 @@ recol5d=17831
 recol6s=15717
 recol6d=15717
 desc=A marsh coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=9
 
-[npc_1228]
+[mmsnailround_red+black]
 name=Blood Blamish Snail
 model1=npc_1227
 recol1s=15849
@@ -1197,12 +1198,12 @@ recol5d=12519
 recol6s=15717
 recol6d=5285
 desc=A blood coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=20
 
-[npc_1229]
+[mmsnailround_yellow]
 name=Ochre Blamish Snail
 model1=npc_1227
 recol1s=15849
@@ -1218,12 +1219,12 @@ recol5d=22086
 recol6s=15717
 recol6d=25257
 desc=A muddy coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=10
 
-[npc_1230]
+[mmsnailround_blue]
 name=Bruise Blamish Snail
 model1=npc_1227
 recol1s=15849
@@ -1239,12 +1240,12 @@ recol5d=12657
 recol6s=15717
 recol6d=9488
 desc=A bruise blue coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=20
 
-[npc_1231]
+[mmsnailround_orange]
 name=Bark Blamish Snail
 model1=npc_1227
 recol1s=15849
@@ -1260,12 +1261,12 @@ recol5d=21857
 recol6s=15717
 recol6d=19713
 desc=A branch bark coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=15
 
-[npc_1232]
+[mmsnailpoint_swamp]
 name=Myre Blamish Snail
 model1=npc_1232
 recol1s=15849
@@ -1279,12 +1280,12 @@ recol4d=18920
 recol5s=23148
 recol5d=23148
 desc=A marsh coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=10
 
-[npc_1233]
+[mmsnailpoint_red+black]
 name=Blood Blamish Snail
 model1=npc_1232
 recol1s=15849
@@ -1298,12 +1299,12 @@ recol4d=12519
 recol5s=18920
 recol5d=5285
 desc=A blood coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=20
 
-[npc_1234]
+[mmsnailpoint_yellow]
 name=Ochre Blamish Snail
 model1=npc_1232
 recol1s=15849
@@ -1317,12 +1318,12 @@ recol4d=25257
 recol5s=18920
 recol5d=18915
 desc=A muddy coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=15
 
-[npc_1235]
+[mmsnailpoint_blue]
 name=Bruise Blamish Snail
 model1=npc_1232
 recol1s=15849
@@ -1336,12 +1337,12 @@ recol4d=14772
 recol5s=18920
 recol5d=9488
 desc=A bruise blue coloured blamish snail, these types are said to spit acid.
-walkanim=seq_1274
-readyanim=seq_1276
+walkanim=snail_walk
+readyanim=snail_ready
 op2=Attack
 vislevel=20
 
-[npc_1236]
+[0_54_53_slimey_eel]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -1353,7 +1354,7 @@ op1=Bait
 op3=hidden
 op5=hidden
 
-[npc_1237]
+[0_53_53_slimey_eel]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -1365,7 +1366,7 @@ op1=Bait
 op3=hidden
 op5=hidden
 
-[npc_1238]
+[0_53_51_slimey_eel]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -1377,7 +1378,7 @@ op1=Bait
 op3=hidden
 op5=hidden
 
-[npc_1239]
+[bedabin_fighter]
 name=Bedabin Nomad Fighter
 model1=model_230_idk
 model2=model_247_idk
@@ -1410,18 +1411,18 @@ head1=model_63_idk_head
 head2=model_34_npc_head
 head3=model_79_idk_head
 
-[npc_1240]
+[shadeshadow_level1]
 name=Loar Shadow
 model1=npc_1240
 recol1s=0
 recol1d=160
 desc=A shadowy sort of entity, kind of creepy looking.
-readyanim=seq_1290
-walkanim=seq_1289
+readyanim=shadeshadow_ready
+walkanim=shadeshadow_walk
 op2=Attack
 vislevel=40
 
-[npc_1241]
+[shade_level1]
 name=Loar Shade
 model1=npc_1241
 recol1s=0
@@ -1429,13 +1430,13 @@ recol1d=160
 recol2s=10240
 recol2d=992
 desc=The shadowy remains of a long departed soul.
-walkanim=seq_1281
-readyanim=seq_1282
+walkanim=shade_walk
+readyanim=shade_ready
 op2=Attack
 alwaysontop=yes
 vislevel=40
 
-[npc_1242]
+[shade_heaven]
 name=Shade Spirit
 model1=npc_1241
 recol1s=10240
@@ -1445,21 +1446,21 @@ recol2d=32767
 recol3s=6342
 recol3d=32767
 vislevel=hide
-walkanim=seq_1308
-readyanim=seq_1308
+walkanim=shade_heaven
+readyanim=shade_heaven
 
-[npc_1243]
+[shadeshadow_level2]
 name=Phrin Shadow
 model1=npc_1240
 recol1s=0
 recol1d=3137
 desc=A shadowy sort of entity, kind of creepy looking.
-readyanim=seq_1290
-walkanim=seq_1289
+readyanim=shadeshadow_ready
+walkanim=shadeshadow_walk
 op2=Attack
 vislevel=60
 
-[npc_1244]
+[shade_level2]
 name=Phrin Shade
 model1=npc_1241
 recol1s=0
@@ -1467,24 +1468,24 @@ recol1d=3137
 recol2s=10240
 recol2d=32767
 desc=The shadowy remains of a long departed soul.
-walkanim=seq_1281
-readyanim=seq_1282
+walkanim=shade_walk
+readyanim=shade_ready
 op2=Attack
 alwaysontop=yes
 vislevel=60
 
-[npc_1245]
+[shadeshadow_level3]
 name=Riyl Shadow
 model1=npc_1240
 recol1s=0
 recol1d=5120
 desc=A shadowy sort of entity, kind of creepy looking.
-readyanim=seq_1290
-walkanim=seq_1289
+readyanim=shadeshadow_ready
+walkanim=shadeshadow_walk
 op2=Attack
 vislevel=80
 
-[npc_1246]
+[shade_level3]
 name=Riyl Shade
 model1=npc_1241
 recol1s=0
@@ -1492,24 +1493,24 @@ recol1d=5120
 recol2s=10240
 recol2d=30753
 desc=The shadowy remains of a long departed soul.
-walkanim=seq_1281
-readyanim=seq_1282
+walkanim=shade_walk
+readyanim=shade_ready
 op2=Attack
 alwaysontop=yes
 vislevel=80
 
-[npc_1247]
+[shadeshadow_level4]
 name=Asyn Shadow
 model1=npc_1240
 recol1s=0
 recol1d=5
 desc=A shadowy sort of entity, kind of creepy looking.
-readyanim=seq_1290
-walkanim=seq_1289
+readyanim=shadeshadow_ready
+walkanim=shadeshadow_walk
 op2=Attack
 vislevel=100
 
-[npc_1248]
+[shade_level4]
 name=Asyn Shade
 model1=npc_1241
 recol1s=0
@@ -1517,34 +1518,34 @@ recol1d=5
 recol2s=10240
 recol2d=31
 desc=The shadowy remains of a long departed soul.
-walkanim=seq_1281
-readyanim=seq_1282
+walkanim=shade_walk
+readyanim=shade_ready
 op2=Attack
 alwaysontop=yes
 vislevel=100
 
-[npc_1249]
+[shadeshadow_level5]
 name=Fiyr Shadow
 model1=npc_1240
 desc=A shadowy sort of entity, kind of creepy looking.
-readyanim=seq_1290
-walkanim=seq_1289
+readyanim=shadeshadow_ready
+walkanim=shadeshadow_walk
 op2=Attack
 vislevel=120
 
-[npc_1250]
+[shade_level5]
 name=Fiyr Shade
 model1=npc_1241
 recol1s=10240
 recol1d=32767
 desc=The shadowy remains of a long departed soul.
-walkanim=seq_1281
-readyanim=seq_1282
+walkanim=shade_walk
+readyanim=shade_ready
 op2=Attack
 alwaysontop=yes
 vislevel=120
 
-[npc_1251]
+[ulsquire_shauncy_afflicted]
 name=Afflicted(Ulsquire)
 model1=model_223_idk
 model2=model_247_idk
@@ -1567,14 +1568,14 @@ recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
 vislevel=hide
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 alwaysontop=yes
 head1=model_59_idk_head
 head2=model_79_idk_head
 
-[npc_1252]
+[ulsquire_shauncy]
 name=Ulsquire Shauncy
 model1=model_223_idk
 model2=model_247_idk
@@ -1598,7 +1599,7 @@ alwaysontop=yes
 head1=model_59_idk_head
 head2=model_79_idk_head
 
-[npc_1253]
+[razmire_keelgan_afflicted]
 name=Afflicted(Razmire)
 model1=model_235_idk
 model2=model_248_idk
@@ -1621,14 +1622,14 @@ recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
 vislevel=hide
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 alwaysontop=yes
 head1=model_67_idk_head
 head2=model_80_idk_head
 
-[npc_1254]
+[razmire_keelgan]
 name=Razmire Keelgan
 model1=model_235_idk
 model2=model_248_idk
@@ -1652,7 +1653,7 @@ alwaysontop=yes
 head1=model_67_idk_head
 head2=model_80_idk_head
 
-[npc_1255]
+[mort_man]
 name=Mort'ton Local
 model1=model_217_idk
 model2=model_246_idk
@@ -1675,7 +1676,7 @@ alwaysontop=yes
 vislevel=37
 head1=model_55_idk_head
 
-[npc_1256]
+[mort_woman]
 name=Mort'ton Local
 model1=model_390_idk
 model2=model_456_idk
@@ -1697,7 +1698,7 @@ alwaysontop=yes
 vislevel=34
 head1=model_113_idk_head
 
-[npc_1257]
+[mort_afflicted_man]
 name=Afflicted
 model1=model_217_idk
 model2=model_246_idk
@@ -1719,14 +1720,14 @@ recol5d=20142
 recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=37
 head1=model_55_idk_head
 
-[npc_1258]
+[mort_afflicted_woman]
 name=Afflicted
 model1=model_390_idk
 model2=model_456_idk
@@ -1747,14 +1748,14 @@ recol5d=20142
 recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=34
 head1=model_113_idk_head
 
-[npc_1259]
+[mort_man2]
 name=Mort'ton local
 model1=model_230_idk
 model2=model_251_idk
@@ -1779,7 +1780,7 @@ vislevel=32
 head1=model_63_idk_head
 head2=model_83_idk_head
 
-[npc_1260]
+[mort_woman2]
 name=Mort'ton local
 model1=model_399_idk
 model2=model_474_idk
@@ -1802,7 +1803,7 @@ alwaysontop=yes
 vislevel=30
 head1=model_118_idk_head
 
-[npc_1261]
+[mort_afflicted_man2]
 name=Afflicted
 model1=model_230_idk
 model2=model_251_idk
@@ -1824,7 +1825,7 @@ recol5d=20142
 recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 op2=Attack
@@ -1832,7 +1833,7 @@ vislevel=32
 head1=model_63_idk_head
 head2=model_83_idk_head
 
-[npc_1262]
+[mort_afflicted_woman2]
 name=Afflicted
 model1=model_399_idk
 model2=model_474_idk
@@ -1853,14 +1854,14 @@ recol5d=20142
 recol6s=6349
 recol6d=30753
 desc=A local villager of Mort'ton.
-walkanim=seq_1306
+walkanim=human_zombie_walk
 readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=30
 head1=model_118_idk_head
 
-[npc_1263]
+[armourmaking_wizard]
 name=Wizard
 model1=model_215_idk
 model2=obj_3393_manwear
@@ -1879,7 +1880,7 @@ head1=model_53_idk_head
 head2=obj_3385_manhead
 head3=model_82_idk_head
 
-[npc_1264]
+[trail_hard2]
 name=Saradomin Wizard
 model1=model_230_idk
 model2=model_181_idk
@@ -1906,53 +1907,53 @@ readyanim=human_ready
 op2=Attack
 vislevel=108
 
-[npc_1265]
+[horror_rockcrab]
 name=Rock Crab
 model1=npc_1265
 model2=npc_1265i2
 desc=No one likes crabs...
-walkanim=seq_1311
-readyanim=seq_1310
+walkanim=horror_crab_walk
+readyanim=horror_crab_ready
 minimap=no
 op2=Attack
 vislevel=13
 
-[npc_1266]
+[horror_rockcrab_inactive]
 name=Rocks
 model1=npc_1265
 model2=npc_1265i2
 vislevel=hide
 desc=A rocky outcrop.
-walkanim=seq_1311
-readyanim=seq_1315
+walkanim=horror_crab_walk
+readyanim=horror_crab_hide_ready
 minimap=no
 
-[npc_1267]
+[horror_rockcrab_small]
 name=Rock Crab
 model1=npc_1265
 model2=npc_1265i2
 desc=No one likes crabs...
-walkanim=seq_1311
-readyanim=seq_1310
+walkanim=horror_crab_walk
+readyanim=horror_crab_ready
 resizeh=84
 resizev=84
 minimap=no
 op2=Attack
 vislevel=13
 
-[npc_1268]
+[horror_rockcrab_small_inactive]
 name=Rocks
 model1=npc_1265
 model2=npc_1265i2
 vislevel=hide
 desc=A rocky outcrop.
-walkanim=seq_1311
-readyanim=seq_1315
+walkanim=horror_crab_walk
+readyanim=horror_crab_hide_ready
 resizeh=84
 resizev=84
 minimap=no
 
-[npc_1269]
+[viking_olaf]
 name=Olaf the Bard
 model1=model_215_idk
 model2=model_249_idk
@@ -1980,13 +1981,13 @@ recol6d=4257
 vislevel=hide
 desc=A Fremennik bard.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=seq_1318
+readyanim=viking_lyre_ready
 op1=Talk-to
 head1=model_53_idk_head
 head2=model_81_idk_head
 head3=model_77_npc_head
 
-[npc_1270]
+[viking_lalli_troll]
 name=Lalli
 model1=npc_1095
 model2=npc_1095i2
@@ -2006,7 +2007,7 @@ resizev=160
 op1=Talk-to
 head1=npc_1125_head
 
-[npc_1271]
+[viking_golden_sheepsheered]
 name=Golden sheep
 model1=npc_1093
 model2=model_3786
@@ -2022,7 +2023,7 @@ readyanim=sheep_ready
 ambient=20
 contrast=20
 
-[npc_1272]
+[viking_golden_sheepunsheered]
 name=Golden sheep
 model1=model_3786
 model2=model_3784
@@ -2038,7 +2039,7 @@ readyanim=sheep_ready
 ambient=20
 contrast=20
 
-[npc_1273]
+[viking_lake_spirit]
 name=Fossegrimen
 model1=npc_1273
 recol1s=24075
@@ -2061,7 +2062,7 @@ op1=Talk-to
 ambient=80
 head1=npc_1273_head
 
-[npc_1274]
+[viking_heckler]
 name=Ospak
 model1=model_206_idk
 model2=model_252_idk
@@ -2083,13 +2084,13 @@ recol5s=5120
 recol5d=16710
 vislevel=hide
 desc=Looks like he's had a few drinks already.
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1137
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=human_sitting_chair
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1275]
+[viking_heckler_2]
 name=Styrmir
 model1=model_206_idk
 model2=model_252_idk
@@ -2111,13 +2112,13 @@ recol5s=10464
 recol5d=17863
 vislevel=hide
 desc=Doesn't look like the musical type.
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1137
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=human_sitting_chair
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1276]
+[viking_heckler_3]
 name=Torbrund
 model1=model_230_idk
 model2=model_252_idk
@@ -2139,13 +2140,13 @@ recol5s=10464
 recol5d=17863
 vislevel=hide
 desc=Waiting for the show.
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1137
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=human_sitting_chair
 op1=Talk-to
 head1=model_63_idk_head
 head2=model_84_idk_head
 
-[npc_1277]
+[viking_heckler_4]
 name=Fridgeir
 model1=model_206_idk
 model2=model_252_idk
@@ -2167,13 +2168,13 @@ recol5s=10464
 recol5d=17863
 vislevel=hide
 desc=A music lover?
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1137
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=human_sitting_chair
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1278]
+[viking_longhall_bouncer]
 name=Longhall Bouncer
 model1=npc_1278
 model2=model_252_idk
@@ -2203,7 +2204,7 @@ head1=obj_3686
 head2=model_84_idk_head
 head3=obj_3751_manhead2
 
-[npc_1279]
+[viking_draugen]
 name=The Draugen
 model1=npc_1279
 recol1s=30584
@@ -2215,7 +2216,7 @@ op2=Attack
 ambient=80
 vislevel=69
 
-[npc_1280]
+[viking_draugen_safe]
 name=Butterfly
 model1=model_3022_npc
 desc=Flutter by oh butterfly.
@@ -2224,7 +2225,7 @@ readyanim=butterfly_hover
 minimap=no
 vislevel=hide
 
-[npc_1281]
+[viking_sigli]
 name=Sigli the Huntsman
 model1=model_221_npc
 model2=model_252_idk
@@ -2255,7 +2256,7 @@ op1=Talk-to
 head1=model_58_npc_head
 head2=model_84_idk_head
 
-[npc_1282]
+[viking_sigmund]
 name=Sigmund The Merchant
 model1=model_208_npc
 model2=model_252_idk
@@ -2283,7 +2284,7 @@ op3=Trade
 head1=model_48_npc_head
 head2=model_82_idk_head
 
-[npc_1283]
+[viking_hallifred]
 name=Swensen the Navigator
 model1=model_230_idk
 model2=model_250_idk
@@ -2313,7 +2314,7 @@ op1=Talk-to
 head1=model_63_idk_head
 head2=model_82_idk_head
 
-[npc_1284]
+[viking_reveller]
 name=Bjorn
 model1=model_206_idk
 model2=model_252_idk
@@ -2337,13 +2338,13 @@ recol5s=10464
 recol5d=17863
 vislevel=hide
 desc=Looks like he's having fun!
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1322
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=viking_drinking_ready
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1285]
+[viking_reveller_2]
 name=Eldgrim
 model1=model_206_idk
 model2=model_252_idk
@@ -2367,13 +2368,13 @@ recol5s=5120
 recol5d=16710
 vislevel=hide
 desc=He's only as think as you drunk he is!
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1322
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=viking_drinking_ready
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1286]
+[viking_reveller_3]
 name=Manni the Reveller
 model1=model_206_idk
 model2=model_252_idk
@@ -2397,13 +2398,13 @@ recol5s=5120
 recol5d=16710
 vislevel=hide
 desc=Every innkeepers best friend!
-walkanim=seq_1323,seq_1324,seq_1325,seq_1326
-readyanim=seq_1322
+walkanim=human_walk_tankard_f,human_walk_tankard_b,human_walk_tankard_l,human_walk_tankard_r
+readyanim=viking_drinking_ready
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1287]
+[vt_council_workmen]
 name=Council workman
 model1=model_230_idk
 model2=model_247_idk
@@ -2433,7 +2434,7 @@ op1=Talk-to
 head1=model_63_idk_head
 head2=model_79_idk_head
 
-[npc_1288]
+[viking_peer]
 name=Peer the Seer
 model1=model_208_npc
 model2=model_250_idk
@@ -2463,7 +2464,7 @@ op1=Talk-to
 head1=model_48_npc_head
 head2=model_82_idk_head
 
-[npc_1289]
+[viking_thorvald]
 name=Thorvald the Warrior
 model1=npc_1278
 model2=model_252_idk
@@ -2494,7 +2495,7 @@ head1=obj_3686
 head2=model_84_idk_head
 head3=obj_3748_manhead2
 
-[npc_1290]
+[viking_enemy1]
 name=Koschei the deathless
 model1=model_203_idk
 model2=model_252_idk
@@ -2524,7 +2525,7 @@ op2=Attack
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1291]
+[viking_enemy2]
 name=Koschei the deathless
 model1=model_203_idk
 model2=model_252_idk
@@ -2554,7 +2555,7 @@ op2=Attack
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1292]
+[viking_enemy3]
 name=Koschei the deathless
 model1=model_203_idk
 model2=model_252_idk
@@ -2584,7 +2585,7 @@ op2=Attack
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1293]
+[viking_enemy4]
 name=Koschei the deathless
 model1=model_203_idk
 model2=model_252_idk
@@ -2614,7 +2615,7 @@ op2=Attack
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1294]
+[viking_brundt_child]
 name=Brundt the Chieftain
 model1=npc_1278
 model2=model_250_idk
@@ -2649,7 +2650,7 @@ head2=model_82_idk_head
 head3=model_68_obj_wear
 head4=obj_3748_manhead2
 
-[npc_1295]
+[viking_askelapen]
 name=Askeladden
 model1=model_2906_npc
 model2=npc_1295
@@ -2674,7 +2675,7 @@ op1=Talk-to
 head1=model_139_npc_head
 head2=npc_1295_head
 
-[npc_1296]
+[viking_longhall_guard1]
 name=Guard
 model1=npc_1278
 model2=model_252_idk
@@ -2708,7 +2709,7 @@ vislevel=hide
 head1=obj_3686
 head2=model_84_idk_head
 
-[npc_1297]
+[viking_longhall_guard2]
 name=Guard
 model1=npc_1278
 model2=model_252_idk
@@ -2742,7 +2743,7 @@ vislevel=hide
 head1=obj_3686
 head2=model_84_idk_head
 
-[npc_1298]
+[viking_town_entrance_guard1]
 name=Town Guard
 model1=npc_1278
 model2=model_252_idk
@@ -2776,7 +2777,7 @@ vislevel=hide
 head1=obj_3686
 head2=model_84_idk_head
 
-[npc_1299]
+[viking_town_entrance_guard2]
 name=Town Guard
 model1=npc_1278
 model2=model_252_idk
@@ -2810,7 +2811,7 @@ vislevel=hide
 head1=obj_3686
 head2=model_84_idk_head
 
-[npc_1300]
+[viking_longhall_barkeep]
 name=Thora the Barkeep
 model1=model_390_idk
 model2=model_456_idk
@@ -2836,7 +2837,7 @@ op3=Trade
 head1=model_113_idk_head
 head2=model_136_npc_head
 
-[npc_1301]
+[viking_clothing_shopkeeper]
 name=Yrsa
 model1=model_378_idk
 model2=model_343_idk
@@ -2866,7 +2867,7 @@ op1=Talk-to
 op3=Trade
 head1=model_103_idk_head
 
-[npc_1302]
+[viking_fisherman1]
 name=Fisherman
 model1=model_208_npc
 model2=model_252_idk
@@ -2896,7 +2897,7 @@ vislevel=hide
 head1=model_48_npc_head
 head2=model_84_idk_head
 
-[npc_1303]
+[viking_weapons_salesman]
 name=Skulgrimen
 model1=model_206_idk
 model2=model_252_idk
@@ -2924,7 +2925,7 @@ vislevel=hide
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1304]
+[viking_sailor]
 name=Sailor
 model1=model_208_npc
 model2=model_252_idk
@@ -2953,7 +2954,7 @@ vislevel=hide
 head1=model_48_npc_head
 head2=model_84_idk_head
 
-[npc_1305]
+[viking_man]
 name=Agnar
 model1=npc_1278
 model2=model_252_idk
@@ -2987,7 +2988,7 @@ head1=model_53_idk_head
 head2=model_84_idk_head
 head3=obj_3686
 
-[npc_1306]
+[viking_man2]
 name=Freidir
 model1=model_206_idk
 model2=model_252_idk
@@ -3017,7 +3018,7 @@ vislevel=48
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1307]
+[viking_man3]
 name=Borrokar
 model1=npc_1278
 model2=model_252_idk
@@ -3050,7 +3051,7 @@ head1=model_53_idk_head
 head2=model_84_idk_head
 head3=obj_3686
 
-[npc_1308]
+[viking_man4]
 name=Lanzig
 model1=model_208_npc
 model2=model_252_idk
@@ -3075,7 +3076,7 @@ recol5d=23248
 recol6s=13472
 recol6d=11461
 desc=One of Rellekka's many citizens.
-walkanim=seq_1146,human_walk_b,human_walk_l,human_walk_r
+walkanim=walk_walkingstick,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op1=Talk-to
 op2=Attack
@@ -3084,7 +3085,7 @@ vislevel=48
 head1=model_48_npc_head
 head2=model_84_idk_head
 
-[npc_1309]
+[viking_man5]
 name=Pontak
 model1=npc_1278
 model2=model_252_idk
@@ -3118,7 +3119,7 @@ head1=model_53_idk_head
 head2=model_84_idk_head
 head3=obj_3686
 
-[npc_1310]
+[viking_woman]
 name=Freygerd
 model1=model_387_idk
 model2=model_343_idk
@@ -3146,7 +3147,7 @@ op3=Pickpocket
 vislevel=48
 head1=model_110_idk_head
 
-[npc_1311]
+[viking_woman2]
 name=Lensa
 model1=model_382_idk
 model2=model_470_idk
@@ -3174,7 +3175,7 @@ op3=Pickpocket
 vislevel=48
 head1=model_105_idk_head
 
-[npc_1312]
+[viking_woman3]
 name=Jennella
 model1=model_390_idk
 model2=model_343_idk
@@ -3204,7 +3205,7 @@ vislevel=48
 head1=model_113_idk_head
 head2=model_136_npc_head
 
-[npc_1313]
+[viking_woman4]
 name=Sassilik
 model1=model_382_idk
 model2=model_483_npc
@@ -3230,7 +3231,7 @@ op3=Pickpocket
 vislevel=48
 head1=model_105_idk_head
 
-[npc_1314]
+[viking_woman_indoors]
 name=Inga
 model1=model_378_idk
 model2=model_343_idk
@@ -3260,7 +3261,7 @@ op3=Pickpocket
 vislevel=48
 head1=model_103_idk_head
 
-[npc_1315]
+[viking_fish_monger]
 name=Fish monger
 model1=model_230_idk
 model2=model_252_idk
@@ -3293,7 +3294,7 @@ op3=Trade
 head1=model_63_idk_head
 head2=model_84_idk_head
 
-[npc_1316]
+[viking_fur_monger]
 name=Fur trader
 model1=model_206_idk
 model2=model_252_idk
@@ -3324,7 +3325,7 @@ op3=Trade
 head1=model_46_idk_head
 head2=model_84_idk_head
 
-[npc_1317]
+[viking_guard]
 name=Market Guard
 model1=npc_1278
 model2=model_252_idk
@@ -3358,7 +3359,7 @@ vislevel=48
 head1=obj_3686
 head2=model_84_idk_head
 
-[npc_1318]
+[viking_guard2]
 name=Warrior
 model1=npc_1278
 model2=model_252_idk
@@ -3393,7 +3394,7 @@ head1=obj_3686
 head2=model_84_idk_head
 head3=obj_3748_manhead2
 
-[npc_1319]
+[viking_fox]
 name=Fox
 model1=npc_1319
 desc=Foxy.
@@ -3403,7 +3404,7 @@ vislevel=hide
 resizeh=100
 resizev=100
 
-[npc_1320]
+[viking_bunny_1]
 name=Bunny
 model1=npc_1192
 recol1s=15777
@@ -3413,14 +3414,14 @@ recol2d=4128
 recol3s=30620
 recol3d=19946
 desc=Hoppity, hoppity.
-readyanim=seq_1242
-walkanim=seq_1243
+readyanim=rabbit_ready
+walkanim=rabbit_walk
 resizeh=128
 resizev=128
 vislevel=hide
 op2=Attack
 
-[npc_1321]
+[viking_bunny_2]
 name=Bunny
 model1=npc_1192
 recol1s=15777
@@ -3430,14 +3431,14 @@ recol2d=4128
 recol3s=30620
 recol3d=19946
 desc=Hoppity, hoppity.
-readyanim=seq_1242
-walkanim=seq_1243
+readyanim=rabbit_ready
+walkanim=rabbit_walk
 resizeh=92
 resizev=92
 vislevel=hide
 op2=Attack
 
-[npc_1322]
+[viking_seagull]
 name=Gull
 model1=model_2850_npc
 recol1s=15648
@@ -3453,7 +3454,7 @@ vislevel=hide
 minimap=no
 vislevel=hide
 
-[npc_1323]
+[viking_seagull2]
 name=Gull
 model1=model_2850_npc
 recol1s=15648
@@ -3468,7 +3469,7 @@ readyanim=bird_ready
 vislevel=hide
 minimap=no
 
-[npc_1324]
+[viking_seagull3]
 name=Gull
 model1=model_2850_npc
 recol1s=15648
@@ -3483,7 +3484,7 @@ readyanim=bird_ready
 vislevel=hide
 minimap=no
 
-[npc_1325]
+[viking_seagull4]
 name=Gull
 model1=model_2850_npc
 recol1s=15648
@@ -3498,7 +3499,7 @@ readyanim=bird_ready
 vislevel=hide
 minimap=no
 
-[npc_1326]
+[brownbear_cub_1]
 name=Bear Cub
 model1=model_2966_npc
 recol1s=12517
@@ -3514,7 +3515,7 @@ resizeh=96
 resizev=96
 vislevel=15
 
-[npc_1327]
+[brownbear_cub_2]
 name=Bear Cub
 model1=model_2966_npc
 recol1s=12517
@@ -3529,7 +3530,7 @@ resizeh=64
 resizev=64
 vislevel=15
 
-[npc_1328]
+[unicorn_foal_1]
 name=Unicorn Foal
 model1=model_2933_npc
 recol1s=32732
@@ -3547,7 +3548,7 @@ resizeh=96
 resizev=96
 vislevel=12
 
-[npc_1329]
+[black_unicorn_foal]
 name=Black unicorn Foal
 model1=model_2933_npc
 recol1s=32732
@@ -3567,7 +3568,7 @@ resizeh=96
 resizev=96
 vislevel=22
 
-[npc_1330]
+[viking_wolf]
 name=Wolf
 model1=model_2937_npc
 recol1s=15855
@@ -3581,7 +3582,7 @@ readyanim=dog_ready
 op2=Attack
 vislevel=64
 
-[npc_1331]
+[0_41_57_saltfish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -3594,7 +3595,7 @@ op3=Bait
 op4=hidden
 op5=hidden
 
-[npc_1332]
+[0_41_57_rarefish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -3607,7 +3608,7 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 
-[npc_1333]
+[0_41_57_memberfish]
 name=Fishing spot
 model1=model_loc_42_8
 vislevel=hide
@@ -3620,7 +3621,7 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 
-[npc_1334]
+[horror_lighthousekeeeper_well]
 name=Jossik
 model1=model_206_idk
 model2=model_292_idk
@@ -3653,7 +3654,7 @@ head1=model_46_idk_head
 head2=model_85_idk_head
 head3=model_37_npc_head
 
-[npc_1335]
+[horror_lighthousekeeeper_injured]
 name=Jossik
 model1=model_206_idk
 model2=model_292_idk
@@ -3677,15 +3678,15 @@ recol6s=5299
 recol6d=13475
 desc=Looks like he's in trouble...
 size=2
-walkanim=seq_1147,seq_1147,seq_1147,seq_1147
-readyanim=seq_1147
+walkanim=wounded_sitting,wounded_sitting,wounded_sitting,wounded_sitting
+readyanim=wounded_sitting
 vislevel=hide
 op1=Talk-to
 head1=model_46_idk_head
 head2=model_85_idk_head
 head3=model_37_npc_head
 
-[npc_1336]
+[horror_girlfriend_prequest]
 name=Larrissa
 model1=model_390_idk
 model2=model_343_idk
@@ -3720,7 +3721,7 @@ head1=model_115_idk_head
 head2=model_136_npc_head
 head3=model_101_obj_wear
 
-[npc_1337]
+[horror_girlfriend_postquest]
 name=Larrissa
 model1=model_390_idk
 model2=model_343_idk
@@ -3753,18 +3754,18 @@ head1=model_113_idk_head
 head2=model_101_obj_wear
 head3=model_136_npc_head
 
-[npc_1338]
+[horror_dagganoth_jr]
 name=Dagannoth
 model1=npc_1338
 desc=A horror from the ocean depths...
 resizeh=64
 resizev=64
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1339]
+[horror_dagganoth_jr_darker]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3778,12 +3779,12 @@ recol4d=9479
 desc=A horror from the ocean depths...
 resizeh=60
 resizev=60
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1340]
+[horror_dagganoth_jr_lighter]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3797,24 +3798,24 @@ recol4d=12649
 desc=A horror from the ocean depths...
 resizeh=69
 resizev=69
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=74
 
-[npc_1341]
+[horror_dagannoth_medium]
 name=Dagannoth
 model1=npc_1338
 desc=A horror from the ocean depths...
 size=2
 resizeh=85
 resizev=85
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1342]
+[horror_dagannoth_medium_darker]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3829,12 +3830,12 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=88
 resizev=88
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1343]
+[horror_dagannoth_medium_lighter]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3849,12 +3850,12 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=82
 resizev=82
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=92
 
-[npc_1344]
+[horror_dagannoth_jr1]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3869,11 +3870,11 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=82
 resizev=82
-walkanim=seq_1344
-readyanim=seq_1344
+walkanim=horror_dagannoth_emerge_a
+readyanim=horror_dagannoth_emerge_a
 vislevel=92
 
-[npc_1345]
+[horror_dagannoth_jr2]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3888,11 +3889,11 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=82
 resizev=82
-walkanim=seq_1345
-readyanim=seq_1345
+walkanim=horror_dagannoth_emerge_b
+readyanim=horror_dagannoth_emerge_b
 vislevel=100
 
-[npc_1346]
+[horror_dagannoth_jr3]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3907,11 +3908,11 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=82
 resizev=82
-walkanim=seq_1346
-readyanim=seq_1346
+walkanim=horror_dagannoth_emerge_c
+readyanim=horror_dagannoth_emerge_c
 vislevel=100
 
-[npc_1347]
+[horror_dagannoth_jr4]
 name=Dagannoth
 model1=npc_1338
 recol1s=13740
@@ -3926,12 +3927,12 @@ desc=A horror from the ocean depths...
 size=2
 resizeh=82
 resizev=82
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 vislevel=100
 
-[npc_1348]
+[horror_dagganoth_aira]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -3944,13 +3945,13 @@ recol4s=10569
 recol4d=17969
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1344
-readyanim=seq_1344
+walkanim=horror_dagannoth_emerge_a
+readyanim=horror_dagannoth_emerge_a
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1349]
+[horror_dagganoth_airb]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -3963,13 +3964,13 @@ recol4s=10569
 recol4d=17969
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1345
-readyanim=seq_1345
+walkanim=horror_dagannoth_emerge_b
+readyanim=horror_dagannoth_emerge_b
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1350]
+[horror_dagganoth_airc]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -3982,13 +3983,13 @@ recol4s=10569
 recol4d=17969
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1346
-readyanim=seq_1346
+walkanim=horror_dagannoth_emerge_c
+readyanim=horror_dagannoth_emerge_c
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1351]
+[horror_dagganoth_air]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4001,14 +4002,14 @@ recol4s=10569
 recol4d=17969
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1352]
+[horror_dagganoth_water]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4021,14 +4022,14 @@ recol4s=10569
 recol4d=12686
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1353]
+[horror_dagganoth_fire]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4041,14 +4042,14 @@ recol4s=10569
 recol4d=13543
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1354]
+[horror_dagganoth_earth]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4061,14 +4062,14 @@ recol4s=10569
 recol4d=17799
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1355]
+[horror_dagganoth_ranged]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4081,14 +4082,14 @@ recol4s=10569
 recol4d=7623
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1356]
+[horror_dagganoth_melee]
 name=Dagannoth mother
 model1=npc_1338
 recol1s=13740
@@ -4101,14 +4102,14 @@ recol4s=10569
 recol4d=15849
 desc=A horror from the ocean depths...
 size=3
-walkanim=seq_1339
-readyanim=seq_1338
+walkanim=horror_dagannoth_walk
+readyanim=horror_dagannoth_ready
 op2=Attack
 resizeh=155
 resizev=155
 vislevel=100
 
-[npc_1357]
+[boardgames_barmaid]
 name=Sam
 model1=model_393_idk
 model2=model_467_obj_wear
@@ -4130,7 +4131,7 @@ op3=Trade
 vislevel=hide
 head1=model_115_idk_head
 
-[npc_1358]
+[boardgames_barmaid2]
 name=Rachael
 model1=model_390_idk
 model2=model_467_obj_wear
