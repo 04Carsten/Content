@@ -30,12 +30,12 @@ anim=inair_barrel
 model=spot_spotanim_287
 anim=barrel_explode
 
-[spotanim_288]
+[kalphite_spine]
 model=spot_spotanim_288
 resizeh=64
 resizev=64
 
-[spotanim_289]
+[kalphite_queen_spine]
 model=spot_spotanim_288
 resizeh=64
 resizev=64
