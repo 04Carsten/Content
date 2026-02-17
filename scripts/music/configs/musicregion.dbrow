@@ -211,7 +211,7 @@ data=musicdata,music_Sad_Meadow
 [musicregion_39_52]
 table=musicregion
 data=mapsquare,0_39_52_0_0
-data=musicdata,music_March2
+data=musicdata,music_March
 
 [musicregion_39_53]
 table=musicregion
@@ -241,7 +241,7 @@ data=musicdata,music_Gaol
 [musicregion_39_150]
 table=musicregion
 data=mapsquare,0_39_150_0_0
-data=musicdata,music_Scape_Sad1
+data=musicdata,music_Scape_Sad
 
 [musicregion_39_153]
 table=musicregion
@@ -326,7 +326,7 @@ data=musicdata,music_Alone
 [musicregion_40_151]
 table=musicregion
 data=mapsquare,0_40_151_0_0
-data=musicdata,music_Scape_Sad1
+data=musicdata,music_Scape_Sad
 
 [musicregion_40_154]
 table=musicregion
@@ -506,7 +506,7 @@ data=musicdata,music_Fishing
 [musicregion_43_52]
 table=musicregion
 data=mapsquare,0_43_52_0_0
-data=musicdata,music_Background2
+data=musicdata,music_Background
 
 [musicregion_43_53]
 table=musicregion
@@ -592,7 +592,7 @@ data=musicdata,music_The_Shadow
 [musicregion_44_52]
 table=musicregion
 data=mapsquare,0_44_52_0_0
-data=musicdata,music_Background2
+data=musicdata,music_Background
 
 [musicregion_44_53]
 table=musicregion
@@ -883,7 +883,7 @@ data=musicdata,music_Dunjun
 [musicregion_46_153]
 table=musicregion
 data=mapsquare,0_46_153_0_0
-data=musicdata,music_Cave_Background1
+data=musicdata,music_Cave_Background
 
 [musicregion_46_161]
 table=musicregion
@@ -973,12 +973,12 @@ data=musicdata,music_Starlight
 [musicregion_47_152]
 table=musicregion
 data=mapsquare,0_47_152_0_0
-data=musicdata,music_Cave_Background1
+data=musicdata,music_Cave_Background
 
 [musicregion_47_153]
 table=musicregion
 data=mapsquare,0_47_153_0_0
-data=musicdata,music_Cave_Background1
+data=musicdata,music_Cave_Background
 
 [musicregion_47_160]
 table=musicregion
@@ -1018,12 +1018,12 @@ data=musicdata,music_Start
 [musicregion_48_52]
 table=musicregion
 data=mapsquare,0_48_52_0_0
-data=musicdata,music_Spooky2
+data=musicdata,music_Spooky
 
 [musicregion_48_53]
 table=musicregion
 data=mapsquare,0_48_53_0_0
-data=musicdata,music_Dark2
+data=musicdata,music_Dark
 
 [musicregion_48_54]
 table=musicregion
@@ -1078,7 +1078,7 @@ data=musicdata,music_Vision
 [musicregion_48_153]
 table=musicregion
 data=mapsquare,0_48_153_0_0
-data=musicdata,music_Dark2
+data=musicdata,music_Dark
 
 [musicregion_48_154]
 table=musicregion
@@ -1113,7 +1113,7 @@ data=musicdata,music_Book_Of_Spells
 [musicregion_49_50]
 table=musicregion
 data=mapsquare,0_49_50_0_0
-data=musicdata,music_Dream1
+data=musicdata,music_Dream
 
 [musicregion_49_51]
 table=musicregion
@@ -1163,7 +1163,7 @@ data=musicdata,music_Wolf_Mountain
 [musicregion_49_60]
 table=musicregion
 data=mapsquare,0_49_60_0_0
-data=musicdata,music_Scape_Wild1
+data=musicdata,music_Scape_Wild
 
 [musicregion_49_61]
 table=musicregion
@@ -1183,7 +1183,7 @@ data=musicdata,music_Faerie
 [musicregion_49_153]
 table=musicregion
 data=mapsquare,0_49_153_0_0
-data=musicdata,music_Cellar_Song1
+data=musicdata,music_Cellar_Song
 
 [musicregion_49_154]
 table=musicregion
@@ -1243,7 +1243,7 @@ data=musicdata,music_Underground
 [musicregion_50_57]
 table=musicregion
 data=mapsquare,0_50_57_0_0
-data=musicdata,music_Scape_Wild1
+data=musicdata,music_Scape_Wild
 
 [musicregion_50_58]
 table=musicregion
@@ -1258,7 +1258,7 @@ data=musicdata,music_Wolf_Mountain
 [musicregion_50_60]
 table=musicregion
 data=mapsquare,0_50_60_0_0
-data=musicdata,music_Scape_Wild1
+data=musicdata,music_Scape_Wild
 
 [musicregion_50_61]
 table=musicregion
@@ -1348,7 +1348,7 @@ data=musicdata,music_Underground
 [musicregion_51_57]
 table=musicregion
 data=mapsquare,0_51_57_0_0
-data=musicdata,music_Dark2
+data=musicdata,music_Dark
 
 [musicregion_51_58]
 table=musicregion
@@ -1363,12 +1363,12 @@ data=musicdata,music_Dangerous
 [musicregion_51_60]
 table=musicregion
 data=mapsquare,0_51_60_0_0
-data=musicdata,music_Scape_Sad1
+data=musicdata,music_Scape_Sad
 
 [musicregion_51_61]
 table=musicregion
 data=mapsquare,0_51_61_0_0
-data=musicdata,music_Regal2
+data=musicdata,music_Regal
 
 [musicregion_51_147]
 table=musicregion
@@ -1433,7 +1433,7 @@ data=musicdata,music_Underground
 [musicregion_52_57]
 table=musicregion
 data=mapsquare,0_52_57_0_0
-data=musicdata,music_Dark2
+data=musicdata,music_Dark
 
 [musicregion_52_58]
 table=musicregion
@@ -1448,12 +1448,12 @@ data=musicdata,music_Dangerous
 [musicregion_52_60]
 table=musicregion
 data=mapsquare,0_52_60_0_0
-data=musicdata,music_Scape_Sad1
+data=musicdata,music_Scape_Sad
 
 [musicregion_52_61]
 table=musicregion
 data=mapsquare,0_52_61_0_0
-data=musicdata,music_Regal2
+data=musicdata,music_Regal
 
 [musicregion_52_152]
 table=musicregion

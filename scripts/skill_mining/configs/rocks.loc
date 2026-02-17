@@ -26,7 +26,7 @@ param=mining_rock_empty,1
 [plainrock1_alt]
 name=Rocks
 desc=Stoney!
-model=plainrock1
+model=plainrock2
 op1=Mine
 op2=Prospect
 op3=hidden

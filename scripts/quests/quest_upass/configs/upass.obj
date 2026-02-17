@@ -7,10 +7,9 @@ weight=2lb
 dummyitem=graphic_only
 
 [swamprocks1]
-name=Rocks
-desc=Some rocks.
+name=Rock
+desc=A chunk of rock.
 model=model_2394_obj
-weight=1g
 members=yes
 tradeable=no
 

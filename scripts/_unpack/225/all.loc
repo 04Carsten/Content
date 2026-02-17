@@ -36,7 +36,7 @@ recol1d=15749
 
 [junglestatue]
 name=Mysterious statue
-desc=Its' eyes stare off into the distance...
+desc=It's eyes stare off into the distance...
 model=model_loc_21
 width=4
 length=4
@@ -355,13 +355,13 @@ category=door_open_and_close
 param=next_loc_stage,desertdoor_inactive
 
 [loc_154]
-name=Tree
-desc=Eerie looking...
-model=model_loc_154
+name=Obstacle pipe
+desc=A pipe I can squeeze through.
+model=model_loc_2287
+retex1s=wall
+retex1d=planks
+op1=Squeeze-through
 width=2
-length=2
-op1=Chop down
-param=next_loc_stage,deadtree1_stump
 
 [hauntedbookcaseopen]
 name=Bookcase
@@ -421,6 +421,7 @@ model=model_loc_164
 [decking_twister]
 model=model_loc_168
 hillskew=yes
+forcedecor=yes
 
 [decking_border]
 model=model_loc_169
@@ -1138,7 +1139,7 @@ width=2
 
 [eggs]
 name=Eggs
-desc=Unfertilised chicken ovums. Lovely in cakes.
+desc=A home for baby dragons.
 model=model_loc_302
 
 [compost]
@@ -1314,6 +1315,8 @@ model=model_loc_327
 model=model_loc_328
 width=2
 active=no
+blockwalk=no
+blockrange=no
 
 [dugupsoil1_desert]
 model=model_loc_184
@@ -2185,7 +2188,7 @@ blockrange=no
 
 [loc_468]
 name=Stalagmites
-desc=limestone ceiling growth.
+desc=Limestone floor growth.
 model=model_loc_468
 blockrange=no
 
@@ -3148,7 +3151,7 @@ desc=A depiction of the evil god Zamorak.
 model=model_loc_587
 
 [statue_base]
-name=Statue steps.
+name=Statue steps
 desc= A base for the statue to sit on.
 model=model_loc_588
 width=3
@@ -3736,7 +3739,15 @@ contrast=100
 shadow=no
 
 [fairy_sparkle]
-model=model_loc_726
+model=model_3881
+recol1s=31434
+recol1d=23263
+anim=willowthewisp
+resizex=142
+resizey=142
+resizez=142
+ambient=70
+contrast=70
 
 [cave_exit]
 name=Cave web
@@ -3823,8 +3834,9 @@ recol1s=28538
 recol1d=14798
 
 [loc_738]
-model=model_loc_738
-hillskew=yes
+model=model_loc_2733
+forcedecor=yes
+mapfunction=38
 
 [magic_portal]
 model=model_loc_739
@@ -3922,21 +3934,25 @@ hillskew=yes
 [stonedisc]
 model=model_loc_756
 hillskew=yes
+forcedecor=yes
 
 [stonedisc_darkbrown]
 model=model_loc_756
 recol1s=13741
 recol1d=16773
+forcedecor=yes
 
 [stonedisc_lightbrown]
 model=model_loc_756
 recol1s=13741
 recol1d=22817
+forcedecor=yes
 
 [stonedisc_darkgrey]
 model=model_loc_756
 recol1s=13741
 recol1d=10570
+forcedecor=yes
 
 [magearena_side_a]
 model=model_loc_760
@@ -4079,94 +4095,142 @@ mapscene=19
 forcedecor=yes
 
 [agility_training_icon]
-model=model_loc_771
-mapscene=20
+model=model_loc_2733
 forcedecor=yes
+mapfunction=49
 
 [loc_776]
-model=model_loc_771
-mapscene=26
+model=model_loc_2205
+hillskew=yes
 forcedecor=yes
 
 [loc_777]
-model=model_loc_771
-mapscene=27
-forcedecor=yes
+model=model_3884
+active=no
+width=2
+length=2
 
 [loc_778]
-model=model_loc_771
-mapscene=29
-forcedecor=yes
+model=model_3884
+active=no
+width=2
+length=2
 
 [loc_779]
-model=model_loc_771
-mapscene=30
-forcedecor=yes
+name=Bamboo Door
+desc=It's a door made from bamboo.
+model=model_4007
+recol1s=20968
+recol1d=18853
+recol2s=15685
+recol2d=15685
+blockrange=no
+raiseobject=no
+op1=Open
 
 [loc_780]
-model=model_loc_771
-mapscene=31
-forcedecor=yes
+model=model_4007
+recol1s=20968
+recol1d=18853
+recol2s=15685
+recol2d=15685
+blockrange=no
+raiseobject=no
+active=no
 
 [loc_781]
-model=model_loc_771
-mapscene=32
-forcedecor=yes
+model=model_loc_1670
+recol1s=26425
+recol1d=10465
+recol2s=9216
+recol2d=5447
+active=no
 
 [loc_782]
-model=model_loc_771
-mapscene=33
-forcedecor=yes
+model=loc_3671
+recol1s=26425
+recol1d=10465
+recol2s=9216
+recol2d=5447
+active=no
 
 [loc_783]
-model=model_loc_771
-mapscene=34
-forcedecor=yes
+model=loc_3979
+recol1s=21069
+recol1d=10465
+recol2s=20012
+recol2d=9409
+recol3s=18955
+recol3d=8352
+ambient=50
+contrast=10
+sharelight=yes
+active=no
 
 [loc_784]
-model=model_loc_771
-mapscene=35
-forcedecor=yes
+model=model_loc_1683
+recol1s=26425
+recol1d=10465
+sharelight=yes
+active=no
 
 [loc_785]
-model=model_loc_771
-mapscene=36
-forcedecor=yes
+model=model_loc_1680
+recol1s=15855
+recol1d=2114
+active=no
 
 [loc_786]
-model=model_loc_771
-mapscene=37
-forcedecor=yes
+model=model_3909
+active=no
 
 [loc_787]
-model=model_loc_771
-mapscene=38
-forcedecor=yes
+name=Loom
+desc=A loom.
+model=model_3915
+active=yes
 
 [loc_788]
-model=model_loc_771
-mapscene=39
-forcedecor=yes
+name=City Gate
+desc=You'd need a big siege engine to force that.
+model=loc_3874
+width=2
+op1=Enter
 
 [loc_789]
-model=model_loc_771
-mapscene=40
-forcedecor=yes
+name=City Gate
+desc=You'd need a big siege engine to force that.
+model=loc_3874
+width=2
+mirror=yes
+op1=Enter
 
 [loc_790]
-model=model_loc_771
-mapscene=41
-forcedecor=yes
+model=model_loc_1665
+retex1s=elfwood
+retex1d=elfbrick
+recol2s=24308
+recol2d=16808
+sharelight=yes
+active=no
 
 [loc_791]
-model=model_loc_771
-mapscene=42
-forcedecor=yes
+model=model_loc_1666
+retex1s=elfwood
+retex1d=elfbrick
+recol2s=24308
+recol2d=16808
+sharelight=yes
+active=no
 
 [loc_792]
-model=model_loc_771
-mapscene=28
-forcedecor=yes
+model=model_loc_1667
+recol1s=6309
+recol1d=9480
+recol2s=24308
+recol2d=16808
+sharelight=yes
+active=no
 
 [pit_edge1_1]
 model=model_loc_793
@@ -5435,14 +5499,10 @@ model=model_loc_1002
 blockrange=no
 
 [floor_depth5]
-name=Broken fence
-desc=I can climb over this...
-model=model_loc_1003
-sharelight=yes
-blockrange=no
-op1=Climb-over
+// todo: model shape
+model=model_4052
 hillskew=yes
-blockrange=no
+sharelight=yes
 
 [broken_railing_left]
 name=Broken Railing
@@ -6308,7 +6368,7 @@ width=2
 length=2
 
 [cabbage]
-desc=Cabbage... yuk !
+desc=Cabbage... yuck !
 model=model_loc_1161
 op2=Pick
 blockwalk=no
@@ -7161,6 +7221,7 @@ desc=Is this a weed?
 model=model_loc_1299
 blockwalk=no
 mapscene=9
+ambient=40
 
 [fern2]
 name=Fern
@@ -7168,13 +7229,21 @@ desc=A fern is growing here.
 model=model_loc_1300
 blockwalk=no
 mapscene=9
+ambient=40
 
 [jungletree1]
 name=Tree
 desc=Home to many unusual creatures.
 model=model_loc_1301
+recol1s=15855
+recol1d=5378
+recol2s=12684
+recol2d=5314
+recol3s=10570
+recol3d=7298
 width=2
 length=2
+ambient=40
 mapscene=5
 
 [jungletree2]
@@ -7192,8 +7261,12 @@ model=model_loc_1301
 width=2
 length=2
 mapscene=5
-recol1s=7298
-recol1d=16773
+recol1s=15855
+recol1d=14952
+recol2s=12684
+recol2d=13926
+recol3s=10570
+recol3d=19944
 
 [jungletree2_karamja]
 name=Tree
@@ -7306,23 +7379,23 @@ mapscene=6
 blockrange=no
 
 [bamboo_tree_base]
-name=Bamboo tree
+name=Tropical tree
 desc=A terribly tall tropical tree.
 model=model_loc_1326
 mapscene=0
 
 [bamboo_tree_mid]
-name=Bamboo tree
+name=Tropical tree
 desc=A terribly tall tropical tree.
 model=model_loc_1327
 
 [bamboo_tree_uppermid]
-name=Bamboo tree
+name=Tropical tree
 desc=A terribly tall tropical tree.
 model=model_loc_1328
 
 [bamboo_tree_top]
-name=Bamboo leaves
+name=Tropical leaves
 desc=Leaves of a bamboo tree.
 model=model_loc_1329
 width=3
@@ -7393,20 +7466,20 @@ length=3
 mapscene=6
 
 [leaning_bamboo_tree_base]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1360
 mapscene=23
 
 [leaning_bamboo_tree_mid]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1361
 width=7
 length=7
 
 [leaning_bamboo_tree_top]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1362
 width=4
@@ -7480,41 +7553,41 @@ recol2s=18823
 recol2d=3203
 
 [bamboo_tree_2_base]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1371
 mapscene=0
 
 [bamboo_tree_2_mid]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1372
 
 [bamboo_tree_2_uppermid]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1373
 
 [bamboo_tree_2_top]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1374
 width=4
 length=3
 
 [bamboo_tree_3_base]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1375
 mapscene=0
 
 [bamboo_tree_3_mid]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1376
 
 [bamboo_tree_3_top]
-name=Bamboo tree
+name=Tropical tree
 desc=This tree contains dangerous insects no doubt.
 model=model_loc_1377
 width=4
@@ -9407,10 +9480,11 @@ retex1d=mossy
 
 [egypt_crumblywall2]
 model=model_loc_1614
-sharelight=yes
-active=no
 retex1s=mossybricks
 retex1d=mossy
+sharelight=yes
+active=no
+blockrange=no
 
 [egypt_crumblywall11]
 model=model_loc_1613
@@ -11208,7 +11282,7 @@ resizey=1
 
 [overhanging_tree1_waterfall_quest]
 name=Dead tree
-desc=It's to wet for firewood.
+desc=It's too wet for firewood.
 model=model_loc_1286
 mapscene=6
 op1=Climb
@@ -11724,10 +11798,15 @@ blockwalk=no
 forcedecor=yes
 
 [loc_2310]
-name=Climbing rocks
-desc=I can climb out of here using these rocks.
-model=model_loc_448
-op1=Climb-up
+name=Tree stump
+desc=This tree has been cut down.
+model=model_4147
+recol1s=8352
+recol1d=7428
+recol2s=7330
+recol2d=5283
+ambient=25
+mapscene=6
 
 [loc_2319]
 name=Monkeybars
@@ -12311,17 +12390,17 @@ model=model_loc_771
 mapscene=45
 
 [loc_2493]
-name=Ruined Pillar
+name=Pillar
 desc=A part of an old temple.
 model=model_loc_2493
 
 [loc_2494]
-name=Ruined Pillar
+name=Pillar
 desc=A part of an old temple.
 model=model_loc_2494
 
 [loc_2495]
-name=Ruined Pillar
+name=Pillar
 desc=A part of an old temple.
 model=model_loc_2495
 width=3
@@ -12377,12 +12456,12 @@ recol1s=28538
 recol1d=12488
 
 [loc_2503]
-name=Pillar
+name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2503
 
 [loc_2504]
-name=Pillar
+name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2504
 
@@ -12393,7 +12472,7 @@ model=model_loc_2505
 width=2
 
 [loc_2506]
-name=Pillar
+name=Ruined Pillar
 desc=An old crumbled pillar.
 model=model_loc_2506
 
@@ -12720,7 +12799,7 @@ op1=Climb-down
 mapscene=7
 
 [deepdungeondoor]
-name=Door
+name=Gate
 model=model_loc_37
 active=yes
 active=yes
@@ -12777,14 +12856,9 @@ op1=Look at
 op2=Use
 
 [shantay_pass]
-name=Shantay pass
-desc=Looks like a stone doorway to me.
-model=model_loc_407
-width=2
-length=2
-mapscene=14
-op1=Go-through
-op2=Look-at
+model=model_4074
+hillskew=yes
+forcedecor=yes
 
 [experimental_anvil]
 name=An experimental anvil
@@ -13468,7 +13542,8 @@ category=ball_irongate
 param=next_loc_stage,loc_1563
 
 [witchpot]
-name=Pot plant
+name=Potted plant
+desc=Very decorative!
 model=model_loc_1155
 active=yes
 op1=Look-under
@@ -13548,7 +13623,6 @@ name=Counter
 desc=A counter made from a stone block.
 model=model_loc_2791
 width=2
-hillskew=yes
 recol1s=10400
 recol1d=9513
 
@@ -13589,7 +13663,6 @@ op1=Walk-through
 name=Prison Door
 desc=It's closed.
 model=model_loc_37
-sharelight=yes
 op1=Open
 
 [loc_2884]
@@ -14970,7 +15043,7 @@ name=Odd looking wall
 desc=A strange crack cuts into the wall.
 model=model_loc_3209
 active=yes
-op1=push
+op1=Push
 raiseobject=no
 retex1s=wall
 retex1d=mossybricks
@@ -14999,7 +15072,7 @@ name=Odd looking wall
 desc=A strange crack cuts into the wall.
 model=model_loc_3211
 active=yes
-op1=push
+op1=Push
 raiseobject=no
 retex1s=wall
 retex1d=mossybricks
@@ -15024,6 +15097,8 @@ recol3s=5285
 recol3d=5216
 
 [onion]
+name=Onion
+desc=Makes you cry.
 model=model_loc_3366
 op2=Pick
 blockwalk=no

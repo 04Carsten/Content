@@ -69,16 +69,19 @@ param=next_loc_stage,loc_3200
 
 
 [loc_3199]
-model=model_loc_47
-active=no
-blockrange=no
-recol1s=12480
-recol1d=12580
+name=Bed
+desc=A wooden double bed.  For sleeping in...
+model=model_4409
+width=3
+length=3
 
 [loc_3200]
-model=model_loc_47
-mirror=yes
+model=model_4408
+recol1s=9409
+recol1d=9445
+recol2s=11523
+recol2d=15717
+sharelight=yes
+forcedecor=yes
+mapscene=46
 active=no
-blockrange=no
-recol1s=12480
-recol1d=12580

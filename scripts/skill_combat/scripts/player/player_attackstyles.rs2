@@ -107,7 +107,7 @@ if ($previous = null | $obj = null | oc_category($previous) ! oc_category($obj))
     ~player_autocast_reset;
 }
 if (~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
-    if_settab(gnomeball, 0);
+    // if_settab(gnomeball, 0);
     return;
 }
 if ($obj = null | (map_members = ^false & oc_members($obj) = true)) {
@@ -175,7 +175,7 @@ if ($previous = null | $obj = null | oc_category($previous) ! oc_category($obj))
     ~.player_autocast_reset;
 }
 if (~.inzone_coord_pair_table(gnomeball_zones, .coord) = true) {
-    .if_settab(gnomeball, 0);
+    // .if_settab(gnomeball, 0);
     return;
 }
 if ($obj = null | (map_members = ^false & oc_members($obj) = true)) {

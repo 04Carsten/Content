@@ -1,5 +1,3 @@
-type=overlay
-
 [com_0]
 type=layer
 x=0
@@ -12,7 +10,7 @@ layer=com_0
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -21,7 +19,7 @@ layer=com_0
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -30,7 +28,7 @@ layer=com_0
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -39,7 +37,7 @@ layer=com_0
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -48,7 +46,7 @@ layer=com_0
 type=graphic
 x=125
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -57,7 +55,7 @@ layer=com_0
 type=graphic
 x=155
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -185,7 +183,7 @@ layer=com_7
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -194,7 +192,7 @@ layer=com_7
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -203,7 +201,7 @@ layer=com_7
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -212,7 +210,7 @@ layer=com_7
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -221,7 +219,7 @@ layer=com_7
 type=graphic
 x=125
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -230,7 +228,7 @@ layer=com_7
 type=graphic
 x=155
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -358,7 +356,7 @@ layer=com_14
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -367,7 +365,7 @@ layer=com_14
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -376,7 +374,7 @@ layer=com_14
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -385,7 +383,7 @@ layer=com_14
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -394,7 +392,7 @@ layer=com_14
 type=graphic
 x=125
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -403,7 +401,7 @@ layer=com_14
 type=graphic
 x=155
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -522,7 +520,7 @@ layer=com_21
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -531,7 +529,7 @@ layer=com_21
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -540,7 +538,7 @@ layer=com_21
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -549,7 +547,7 @@ layer=com_21
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -558,7 +556,7 @@ layer=com_21
 type=graphic
 x=125
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -567,7 +565,7 @@ layer=com_21
 type=graphic
 x=155
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -694,7 +692,7 @@ layer=com_28
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -703,7 +701,7 @@ layer=com_28
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -712,7 +710,7 @@ layer=com_28
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -721,7 +719,7 @@ layer=com_28
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -730,7 +728,7 @@ layer=com_28
 type=graphic
 x=155
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,5
 
@@ -739,7 +737,7 @@ layer=com_28
 type=graphic
 x=125
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,4
 
@@ -866,7 +864,7 @@ layer=com_35
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -875,7 +873,7 @@ layer=com_35
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -884,7 +882,7 @@ layer=com_35
 type=graphic
 x=62
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -893,7 +891,7 @@ layer=com_35
 type=graphic
 x=92
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -902,7 +900,7 @@ layer=com_35
 type=graphic
 x=125
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -911,7 +909,7 @@ layer=com_35
 type=graphic
 x=155
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -941,33 +939,6 @@ y=5
 width=25
 height=25
 graphic=staticons,17
-
-[com_83]
-layer=com_35
-type=layer
-x=1
-y=1
-width=64
-height=32
-overlayer=com_152
-
-[com_84]
-layer=com_35
-type=layer
-x=65
-y=1
-width=64
-height=32
-overlayer=com_188
-
-[com_85]
-layer=com_35
-type=layer
-x=129
-y=1
-width=64
-height=32
-overlayer=com_224
 
 [com_96]
 layer=com_35
@@ -1144,124 +1115,220 @@ height=25
 graphic=staticons,8
 
 [com_68]
-type=layer
+type=text
 x=0
-y=1
+y=2
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_122
+font=p12_full
+shadowed=yes
+option=View @lre@Combat@whi@ advancements
 
 [com_69]
-type=layer
+type=text
 x=64
-y=1
+y=2
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_158
+font=p12_full
+shadowed=yes
+option=View @lre@Combat@whi@ advancements
 
 [com_70]
-type=layer
+type=text
 x=128
-y=1
+y=2
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_194
+font=p12_full
+shadowed=yes
+option=View @lre@Mining@whi@ advancements
 
 [com_71]
-type=layer
+type=text
 x=0
-y=32
+y=33
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_128
+font=p12_full
+shadowed=yes
+option=View @lre@Combat@whi@ advancements
 
 [com_72]
-type=layer
+type=text
 x=64
-y=32
+y=33
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_164
+font=p12_full
+shadowed=yes
+option=View @lre@Agility@whi@ advancements
 
 [com_73]
-type=layer
+type=text
 x=128
-y=32
+y=33
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_200
+font=p12_full
+shadowed=yes
+option=View @lre@Smithing@whi@ advancements
 
 [com_74]
-type=layer
+type=text
 x=0
-y=63
+y=64
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_134
+font=p12_full
+shadowed=yes
+option=View @lre@Combat@whi@ advancements
 
 [com_75]
-type=layer
+type=text
 x=64
-y=63
+y=64
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_170
+font=p12_full
+shadowed=yes
+option=View @lre@Herblore@whi@ advancements
 
 [com_76]
-type=layer
-x=0
-y=94
+type=text
+x=128
+y=64
+buttontype=normal
 width=64
-height=32
-overlayer=com_140
+height=31
+overlayer=com_206
+font=p12_full
+shadowed=yes
+option=View @lre@Fishing@whi@ advancements
 
 [com_77]
-type=layer
+type=text
 x=0
-y=125
+y=95
+buttontype=normal
 width=64
-height=32
-overlayer=com_146
+height=31
+overlayer=com_140
+font=p12_full
+shadowed=yes
+option=View @lre@Ranged@whi@ advancements
 
 [com_78]
-type=layer
-x=128
-y=63
+type=text
+x=64
+y=95
+buttontype=normal
 width=64
-height=32
-overlayer=com_206
+height=31
+overlayer=com_176
+font=p12_full
+shadowed=yes
+option=View @lre@Thieving@whi@ advancements
 
 [com_79]
-type=layer
-x=64
-y=94
+type=text
+x=128
+y=95
+buttontype=normal
 width=64
-height=32
-overlayer=com_176
+height=31
+overlayer=com_212
+font=p12_full
+shadowed=yes
+option=View @lre@Cooking@whi@ advancements
 
 [com_80]
-type=layer
-x=128
-y=94
+type=text
+x=0
+y=126
+buttontype=normal
 width=64
-height=32
-overlayer=com_212
+height=31
+overlayer=com_146
+font=p12_full
+shadowed=yes
+option=View @lre@Prayer@whi@ advancements
 
 [com_81]
-type=layer
+type=text
 x=64
-y=125
+y=126
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_182
+font=p12_full
+shadowed=yes
+option=View @lre@Crafting@whi@ advancements
 
 [com_82]
-type=layer
+type=text
 x=128
-y=125
+y=126
+buttontype=normal
 width=64
-height=32
+height=31
 overlayer=com_218
+font=p12_full
+shadowed=yes
+option=View @lre@Firemaking@whi@ advancements
+
+[com_83]
+type=text
+x=0
+y=157
+buttontype=normal
+width=64
+height=31
+overlayer=com_152
+font=p12_full
+shadowed=yes
+option=View @lre@Magic@whi@ advancements
+
+[com_84]
+type=text
+x=64
+y=157
+buttontype=normal
+width=64
+height=31
+overlayer=com_188
+font=p12_full
+shadowed=yes
+option=View @lre@Fletching@whi@ advancements
+
+[com_85]
+type=text
+x=128
+y=157
+buttontype=normal
+width=64
+height=31
+overlayer=com_224
+font=p12_full
+shadowed=yes
+option=View @lre@Woodcutting@whi@ advancements
 
 [com_122]
 type=layer
@@ -2481,7 +2548,7 @@ layer=com_230
 type=graphic
 x=-1
 y=0
-width=36
+width=30
 height=36
 graphic=miscgraphics,4
 
@@ -2490,7 +2557,7 @@ layer=com_230
 type=graphic
 x=29
 y=0
-width=36
+width=33
 height=36
 graphic=miscgraphics,5
 
@@ -2505,15 +2572,6 @@ graphic=staticons2,0
 
 [com_234]
 layer=com_230
-type=layer
-x=1
-y=1
-width=64
-height=32
-overlayer=com_242
-
-[com_235]
-layer=com_230
 type=text
 x=33
 y=5
@@ -2526,7 +2584,7 @@ shadowed=yes
 text=%1
 colour=0xFFFF00
 
-[com_236]
+[com_235]
 layer=com_230
 type=text
 x=45
@@ -2540,6 +2598,18 @@ shadowed=yes
 text=%1
 colour=0xFFFF00
 
+[com_240]
+type=text
+x=0
+y=188
+buttontype=normal
+width=64
+height=31
+overlayer=com_242
+font=p12_full
+shadowed=yes
+option=View @lre@Runecrafting@whi@ advancements
+
 [com_242]
 type=layer
 x=2
@@ -2548,7 +2618,7 @@ width=183
 height=43
 hide=yes
 
-[com_237]
+[com_236]
 layer=com_242
 type=rect
 x=4
@@ -2557,7 +2627,7 @@ width=174
 height=32
 fill=yes
 
-[com_238]
+[com_237]
 layer=com_242
 type=text
 x=6
@@ -2569,7 +2639,7 @@ shadowed=yes
 text=Runecraft XP:
 colour=0xFFFF00
 
-[com_239]
+[com_238]
 layer=com_242
 type=text
 x=6
@@ -2581,7 +2651,7 @@ shadowed=yes
 text=Next Level At:
 colour=0xFFFF00
 
-[com_240]
+[com_239]
 layer=com_242
 type=text
 x=85

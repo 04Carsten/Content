@@ -82,6 +82,7 @@ model7=model_159_npc
 model8=model_185_obj_wear
 head1=model_45_idk_head
 head2=model_85_idk_head
+head3=model_68_obj_wear
 
 [davon]
 vislevel=hide

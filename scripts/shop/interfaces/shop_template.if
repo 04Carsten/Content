@@ -620,7 +620,7 @@ center=yes
 font=b12_full
 shadowed=yes
 text=Axe Shop
-colour=0xFFFF00
+colour=0xFF981F
 
 [com_77]
 type=text
@@ -632,7 +632,7 @@ height=11
 font=p11_full
 shadowed=yes
 text=Close Window
-colour=0xFF0000
+colour=0x808080
 overcolour=0xFFFFFF
 
 [com_78]
@@ -644,7 +644,7 @@ height=14
 font=p12_full
 shadowed=yes
 text=Right-click on shop to buy item - Right-click on inventory to sell item
-colour=0xFFFF00
+colour=0xFF981F
 
 [com_79]
 type=graphic

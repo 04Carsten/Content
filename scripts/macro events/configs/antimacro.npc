@@ -164,7 +164,7 @@ desc=Annoying flappy thing.
 walkanim=bat_walk
 readyanim=bat_ready
 op2=Attack
-vislevel=27
+vislevel=6
 
 [macro_rockgolem1]
 name=Rock Golem

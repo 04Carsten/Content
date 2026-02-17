@@ -112,10 +112,10 @@ data=name,Aztec
 data=playbutton,music:aztec
 data=unlock,7,9
 
-[music_Background2]
+[music_Background]
 table=music
-data=name,Background2
-data=playbutton,music:background2
+data=name,Background
+data=playbutton,music:background
 data=unlock,1,18
 
 [music_Ballad_Of_Enchantment]
@@ -154,10 +154,10 @@ data=name,Camelot
 data=playbutton,music:camelot
 data=unlock,1,24
 
-[music_Cave_Background1]
+[music_Cave_Background]
 table=music
-data=name,Cave Background1
-data=playbutton,music:cave_background1
+data=name,Cave Background
+data=playbutton,music:cave_background
 data=unlock,1,25
 
 [music_Cavern]
@@ -166,10 +166,10 @@ data=name,Cavern
 data=playbutton,music:cavern
 data=unlock,1,26
 
-[music_Cellar_Song1]
+[music_Cellar_Song]
 table=music
 data=name,Cellar Song1
-data=playbutton,music:cellar_song1
+data=playbutton,music:cellar_song
 data=unlock,6,13
 
 [music_Chain_Of_Command]
@@ -220,10 +220,10 @@ data=name,Dangerous
 data=playbutton,music:dangerous
 data=unlock,1,30
 
-[music_Dark2]
+[music_Dark]
 table=music
-data=name,Dark2
-data=playbutton,music:dark2
+data=name,Dark
+data=playbutton,music:dark
 data=unlock,1,31
 
 [music_Dead_Quiet]
@@ -250,10 +250,10 @@ data=name,Doorways
 data=playbutton,music:doorways
 data=unlock,2,2
 
-[music_Dream1]
+[music_Dream]
 table=music
-data=name,Dream1
-data=playbutton,music:dream1
+data=name,Dream
+data=playbutton,music:dream
 data=unlock,2,3
 
 [music_Duel_Arena]
@@ -616,10 +616,10 @@ data=name,Magical Journey
 data=playbutton,music:magical_journey
 data=unlock,3,16
 
-[music_March2]
+[music_March]
 table=music
-data=name,March2
-data=playbutton,music:march2
+data=name,March
+data=playbutton,music:march
 data=unlock,3,17
 
 [music_Marzipan]
@@ -735,10 +735,10 @@ data=name,Quest
 data=playbutton,music:quest
 data=unlock,3,30
 
-[music_Regal2]
+[music_Regal]
 table=music
-data=name,Regal2
-data=playbutton,music:regal2
+data=name,Regal
+data=playbutton,music:regal
 data=unlock,3,31
 
 [music_Reggae]
@@ -794,10 +794,10 @@ table=music
 data=name,Scape Main
 data=playbutton,music:scape_main
 
-[music_Scape_Sad1]
+[music_Scape_Sad]
 table=music
-data=name,Scape Sad1
-data=playbutton,music:scape_sad1
+data=name,Scape Sad
+data=playbutton,music:scape_sad
 data=unlock,4,8
 
 [music_Scape_Soft]
@@ -806,10 +806,10 @@ data=name,Scape Soft
 data=playbutton,music:scape_soft
 data=unlock,5,31
 
-[music_Scape_Wild1]
+[music_Scape_Wild]
 table=music
-data=name,Scape Wild1
-data=playbutton,music:scape_wild1
+data=name,Scape Wild
+data=playbutton,music:scape_wild
 data=unlock,4,9
 
 [music_Sea_Shanty]
@@ -884,10 +884,10 @@ data=name,Stagnant
 data=playbutton,music:stagnant
 data=unlock,7,1
 
-[music_Spooky2]
+[music_Spooky]
 table=music
-data=name,Spooky2
-data=playbutton,music:spooky2
+data=name,Spooky
+data=playbutton,music:spooky
 data=unlock,4,18
 
 [music_Starlight]

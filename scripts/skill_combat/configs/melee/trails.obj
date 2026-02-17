@@ -92,7 +92,7 @@ womanhead=model_134_obj_wear
 param=party_clean_exempt,^true
 
 [berret_blue]
-name=Berret
+name=Beret
 desc=Pouvez-vous parler francais?
 cost=80
 weight=40g
@@ -114,7 +114,7 @@ womanhead=model_98_obj_wear
 param=party_clean_exempt,^true
 
 [berret_black]
-name=Berret
+name=Beret
 desc=Pouvez-vous parler francais?
 cost=80
 weight=40g
@@ -136,7 +136,7 @@ womanhead=model_98_obj_wear
 param=party_clean_exempt,^true
 
 [berret_white]
-name=Berret
+name=Beret
 desc=Pouvez-vous parler francais?
 cost=80
 weight=40g
@@ -340,7 +340,7 @@ param=rangedefence,80
 
 [rune_platelegs_zamorak]
 name=Zamorak platelegs
-desc=Rune platelegs in the colours of zamorak.
+desc=Rune platelegs in the colours of Zamorak.
 cost=64000
 model=model_2582_obj
 recol1s=15855

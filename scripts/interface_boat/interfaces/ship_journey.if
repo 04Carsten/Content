@@ -156,11 +156,11 @@ colour=0xF3CC99
 type=text
 x=24
 y=132
-width=62
+width=55
 height=17
 font=q8_full
 shadowed=yes
-text=Khazzard
+text=Khazard
 colour=0xF3CC99
 
 [com_15]

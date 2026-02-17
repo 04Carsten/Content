@@ -810,7 +810,7 @@ height=25
 script1op1=pushvar,if3
 script1=eq,6
 fill=yes
-colour=0xBEB89C
+colour=0xADA481
 option=White
 
 [red]

@@ -282,9 +282,9 @@ if (%phoenixgang > ^phoenixgang_not_started & %blackarmgang ! ^blackarmgang_comp
 ~send_quest_progress_colour(questlist:cog, ~get_cog_progress, ^quest_cog_complete);
 ~send_quest_progress_colour(questlist:grandtree, %grandtree, ^grandtree_complete);
 if (testbit(%ibanmulti, ^upass_started_bit) = ^true & %upass ! ^upass_complete) { // underground pass sets a bit for the 1st stage instead of using the progress varp
-    ~send_quest_progress_colour(questlist:upass, 1, ^upass_complete);
+    // ~send_quest_progress_colour(questlist:upass, 1, ^upass_complete);
 } else {
-    ~send_quest_progress_colour(questlist:upass, %upass, ^upass_complete);
+    // ~send_quest_progress_colour(questlist:upass, %upass, ^upass_complete);
 }
 ~send_quest_progress_colour(questlist:zombiequeen, %zombiequeen, ^zombiequeen_complete);
 ~send_quest_progress_colour(questlist:crest, %crestquest, ^crest_complete);

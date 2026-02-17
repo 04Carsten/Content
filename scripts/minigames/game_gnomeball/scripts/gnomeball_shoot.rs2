@@ -1,10 +1,10 @@
-[if_button,gnomeball:com_6]
-if_close;
-if (p_finduid(uid) = true) {
-    if (loc_find(^gnomeball_goal_coord, goal_gnomeball_game) = true) {
-        @gnomeball_shoot;
-    }
-}
+// [if_button,gnomeball:com_6]
+// if_close;
+// if (p_finduid(uid) = true) {
+//     if (loc_find(^gnomeball_goal_coord, goal_gnomeball_game) = true) {
+//         @gnomeball_shoot;
+//     }
+// }
 
 [label,gnomeball_shoot]
 if (lineofsight(coord, loc_coord) = false) {

@@ -1,0 +1,8651 @@
+[obj_3142]
+name=Raw karambwan
+desc=A raw green octopus.
+cost=200
+members=yes
+model=obj_3142
+2dyof=7
+2dzoom=1800
+2dyan=56
+2dxan=388
+
+[obj_3143]
+certlink=obj_3142
+certtemplate=template_for_cert
+
+[obj_3144]
+name=Cooked karambwan
+recol1s=6436
+recol1d=28500
+desc=Cooked octopus. It looks very nutritious.
+cost=250
+members=yes
+model=obj_3142
+2dyof=7
+2dzoom=1800
+2dyan=56
+2dxan=388
+iop1=Eat
+
+[obj_3145]
+certlink=obj_3144
+certtemplate=template_for_cert
+
+[obj_3146]
+name=Cooked karambwan
+recol1s=6436
+recol1d=18260
+desc=Cooked octopus. It looks a little suspect.
+cost=250
+members=yes
+model=obj_3142
+2dyof=7
+2dzoom=1800
+2dyan=56
+2dxan=388
+iop1=Eat
+
+[obj_3147]
+certlink=obj_3146
+certtemplate=template_for_cert
+
+[obj_3148]
+name=Burnt karambwan
+recol1s=6436
+recol1d=10570
+desc=Burnt octopus.
+cost=1
+members=yes
+model=obj_3142
+2dyof=7
+2dzoom=1800
+2dyan=56
+2dxan=388
+
+[obj_3149]
+certlink=obj_3148
+certtemplate=template_for_cert
+
+[obj_3150]
+name=Raw karambwanji
+desc=Small brightly coloured tropical fish.
+cost=10
+members=yes
+model=obj_3150
+2dxof=6
+2dyof=6
+2dzoom=1000
+2dxan=464
+
+[obj_3151]
+name=Karambwanji
+recol1s=10857
+recol1d=20082
+recol2s=1289
+recol2d=8488
+recol3s=25193
+recol3d=23419
+desc=Small brightly coloured tropical fish. Looks tasty.
+cost=10
+members=yes
+model=obj_3150
+2dxof=6
+2dyof=6
+2dzoom=1000
+2dxan=464
+iop1=Eat
+
+[obj_3152]
+name=Karambwan paste
+recol1s=10566
+recol1d=6436
+desc=Freshly made octopus paste.
+cost=15
+members=yes
+model=obj_3152
+2dxof=4
+2dyof=20
+2dzoom=2250
+2dyan=1980
+2dxan=320
+
+[obj_3153]
+name=Karambwan paste
+recol1s=10566
+recol1d=18260
+desc=Freshly made octopus paste. This smells quite nauseating.
+cost=15
+members=yes
+model=obj_3152
+2dxof=4
+2dyof=20
+2dzoom=2250
+2dyan=1980
+2dxan=320
+
+[obj_3154]
+name=Karambwan paste
+recol1s=10566
+recol1d=28500
+desc=Freshly made octopus paste.
+cost=15
+members=yes
+model=obj_3152
+2dxof=4
+2dyof=20
+2dzoom=2250
+2dyan=1980
+2dxan=320
+
+[obj_3155]
+name=Karambwanji paste
+recol1s=10566
+recol1d=10857
+desc=This paste smells of raw fish.
+cost=15
+members=yes
+model=obj_3152
+2dxof=4
+2dyof=20
+2dzoom=2250
+2dyan=1980
+2dxan=320
+
+[obj_3156]
+name=Karambwanji paste
+recol1s=10566
+recol1d=20082
+desc=This paste smells of cooked fish.
+cost=15
+members=yes
+model=obj_3152
+2dxof=4
+2dyof=20
+2dzoom=2250
+2dyan=1980
+2dxan=320
+
+[obj_3157]
+name=Karambwan vessel
+desc=A wide bodied and thin necked vessel, encrusted with sea salt.
+cost=5
+members=yes
+model=obj_3157
+2dzoom=940
+2dxan=72
+manwear=obj_3157_manwear,0
+womanwear=obj_3157_manwear,6
+
+[obj_3158]
+certlink=obj_3157
+certtemplate=template_for_cert
+
+[obj_3159]
+name=Karambwan vessel
+desc=This Karambwan Vessel is loaded with Karambwanji.
+cost=40
+members=yes
+model=obj_3159
+2dzoom=940
+2dxan=72
+manwear=obj_3157_manwear,0
+womanwear=obj_3157_manwear,6
+
+[obj_3160]
+certlink=obj_3159
+certtemplate=template_for_cert
+
+[obj_3161]
+name=Crafting manual
+desc=A set of instructions explaining how to construct a Karambwan vessel.
+cost=5
+members=yes
+model=model_2600_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+
+[obj_3162]
+name=Sliced banana
+desc=You swear you had more than three slices before.
+cost=2
+model=model_2772_obj
+2dzoom=920
+2dxan=232
+iop1=Eat
+
+[obj_3163]
+certlink=obj_3162
+certtemplate=template_for_cert
+
+[obj_3164]
+name=Karamjan rum
+desc=The Karamjan rum has slices of banana floating in it.
+cost=30
+model=model_2660_obj
+2dyof=-1
+2dzoom=970
+2dyan=1888
+2dxan=104
+manwear=obj_3164_manwear,0
+womanwear=obj_3164_manwear,6
+
+[obj_3165]
+name=Karamjan rum
+desc=A banana has been stuffed into the neck of this bottle.
+cost=30
+model=obj_3165
+2dzoom=1560
+
+[obj_3166]
+name=Monkey corpse
+desc=It's the body of a dead monkey.
+members=yes
+model=obj_3166
+2dxof=9
+2dzoom=1380
+2dyan=188
+2dxan=112
+
+[obj_3167]
+name=Monkey skin
+recol1s=32767
+recol1d=9409
+desc=It's the skin of a (hopefully) dead monkey.
+cost=10
+members=yes
+model=model_2338_obj
+2dzoom=1510
+2dyan=2028
+2dxan=468
+
+[obj_3168]
+name=Seaweed sandwich
+desc=A 'Seaweed in Monkey Skin' sandwich. Perfect for statue repair.
+members=yes
+model=obj_3168
+2dyof=10
+2dzoom=790
+2dyan=1816
+2dxan=344
+iop1=Eat
+
+[obj_3169]
+name=Stuffed monkey
+desc=A body of a dead monkey, tastefully stuffed with seaweed.
+members=yes
+model=obj_3169
+2dxof=9
+2dzoom=1380
+2dyan=188
+2dxan=112
+
+[obj_3170]
+name=Bronze spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned bronze tipped spear.
+cost=26
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3171]
+name=Iron spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned iron tipped spear.
+cost=91
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3172]
+name=Steel spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned steel tipped spear.
+cost=325
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3173]
+name=Mithril spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned mithril tipped spear.
+cost=845
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3174]
+name=Adamant spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned adamantite tipped spear.
+cost=2080
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3175]
+name=Rune spear(kp)
+recol1s=8456
+recol1d=18260
+recol2s=7399
+recol2d=18260
+desc=A Karambwan poisoned rune tipped spear.
+cost=20800
+members=yes
+model=model_2719_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_540_obj_wear,0
+womanwear=model_540_obj_wear,6
+iop2=Wield
+
+[obj_3176]
+name=Dragon spear(kp)
+recol1s=896
+recol1d=18260
+desc=A Karambwan poisoned dragon tipped spear.
+cost=62400
+members=yes
+model=model_2482_obj
+2dxof=7
+2dyof=-4
+2dzoom=1490
+2dyan=112
+2dzan=144
+2dxan=1960
+manwear=model_505_obj_wear,0
+womanwear=model_505_obj_wear,6
+iop2=Wield
+
+[obj_3177]
+name=Banana left
+desc=Mmm this looks tasty.
+cost=2
+iop1=Eat
+model=inv_bannana
+2dxof=9
+2dyof=10
+2dzoom=930
+2dyan=1944
+2dxan=280
+manwear=obj_3177_manwear,0
+womanwear=obj_3177_manwear,6
+
+[obj_3178]
+certlink=obj_3177
+certtemplate=template_for_cert
+
+[obj_3179]
+name=Monkey bones
+desc=These are smallish monkey bones.
+members=yes
+model=model_2674_obj
+2dxof=2
+2dzoom=1410
+2dyan=368
+2dxan=400
+iop1=Bury
+
+[obj_3180]
+name=Monkey bones
+desc=These are medium sized monkey bones.
+members=yes
+model=model_2674_obj
+2dxof=2
+2dzoom=1410
+2dyan=368
+2dxan=400
+iop1=Bury
+
+[obj_3181]
+name=Monkey bones
+desc=These are quite large monkey bones.
+members=yes
+model=model_222_obj
+2dzoom=1830
+2dyan=648
+2dxan=216
+iop1=Bury
+
+[obj_3182]
+name=Monkey bones
+desc=These are quite large monkey bones.
+members=yes
+model=model_222_obj
+2dzoom=1830
+2dyan=648
+2dxan=216
+iop1=Bury
+
+[obj_3183]
+name=Monkey bones
+desc=These are small monkey bones.
+model=model_2674_obj
+2dxof=2
+2dzoom=1410
+2dyan=368
+2dxan=400
+iop1=Bury
+
+[obj_3184]
+certlink=obj_3183
+certtemplate=template_for_cert
+
+[obj_3185]
+name=Monkey bones
+desc=These are smallish monkey bones. They smell extremely nauseating.
+members=yes
+model=model_2674_obj
+2dxof=2
+2dzoom=1410
+2dyan=368
+2dxan=400
+iop1=Bury
+
+[obj_3186]
+name=Monkey bones
+desc=These are smallish monkey bones. They smell extremely nauseating.
+members=yes
+model=model_2674_obj
+2dzoom=1830
+2dyan=648
+2dxan=216
+iop1=Bury
+
+[obj_3187]
+name=Bones
+desc=They seem to shake slightly... It might be a good idea to bury them.
+members=yes
+cost=0
+model=model_2674_obj
+2dxof=2
+2dzoom=1410
+2dyan=368
+2dxan=400
+iop1=Bury
+
+[obj_3188]
+name=Cleaning cloth
+recol1s=27412
+recol1d=26266
+desc=A spirit soaked piece of silk which can be used to remove poison.
+cost=60
+model=model_2725_obj
+2dyof=-15
+2dzoom=1360
+2dxan=368
+members=yes
+
+[obj_3189]
+certlink=obj_3188
+certtemplate=template_for_cert
+
+[obj_3190]
+name=Bronze halberd
+recol1s=15855
+recol1d=8354
+members=yes
+desc=A bronze halberd.
+cost=80
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3191]
+certlink=obj_3190
+certtemplate=template_for_cert
+
+[obj_3192]
+name=Iron halberd
+recol1s=15855
+recol1d=8456
+members=yes
+desc=An iron halberd.
+cost=280
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3193]
+certlink=obj_3192
+certtemplate=template_for_cert
+
+[obj_3194]
+name=Steel halberd
+members=yes
+desc=A steel halberd.
+cost=1000
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3195]
+certlink=obj_3194
+certtemplate=template_for_cert
+
+[obj_3196]
+name=Black halberd
+recol1s=15855
+recol1d=0
+members=yes
+desc=A black halberd.
+cost=1920
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3197]
+certlink=obj_3196
+certtemplate=template_for_cert
+
+[obj_3198]
+name=Mithril halberd
+recol1s=15855
+recol1d=6346
+members=yes
+desc=A mithril halberd.
+cost=2600
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3199]
+certlink=obj_3198
+certtemplate=template_for_cert
+
+[obj_3200]
+name=Adamant halberd
+recol1s=15855
+recol1d=6438
+members=yes
+desc=An adamant halberd.
+cost=6400
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3201]
+certlink=obj_3200
+certtemplate=template_for_cert
+
+[obj_3202]
+name=Rune halberd
+recol1s=15855
+recol1d=6476
+members=yes
+desc=A rune halberd.
+cost=64000
+model=model_2791_obj
+iop2=Wield
+manwear=model_555_npc,0
+womanwear=model_555_npc,6
+2dzoom=2130
+2dyan=48
+2dxan=604
+
+[obj_3203]
+certlink=obj_3202
+certtemplate=template_for_cert
+
+[obj_3204]
+name=Dragon halberd
+members=yes
+desc=A dragon halberd.
+cost=250000
+model=obj_3204
+2dxof=-1
+2dyof=2
+2dzoom=2160
+2dyan=12
+2dxan=584
+iop2=Wield
+manwear=obj_3204_manwear,0
+womanwear=obj_3204_manwear,6
+
+[obj_3205]
+certlink=obj_3204
+certtemplate=template_for_cert
+
+[obj_3206]
+name=King's message
+desc=A summons from King Lathas.
+model=model_2675_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+cost=1
+iop1=Read
+
+[obj_3207]
+name=Iorwerths message
+desc=A letter for King Lathas from Lord Iorwerth.
+model=model_2675_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+members=yes
+cost=1
+iop1=Read
+
+[obj_3208]
+name=Crystal pendant
+desc=Lord Iorwerth's crystal pendant.
+model=model_2515_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+members=yes
+cost=10
+iop2=Wear
+manwear=model_283_obj_wear,0
+womanwear=model_447_obj_wear,0
+
+[obj_3209]
+name=Sulphur
+desc=A piece of Sulphur formation.
+model=obj_3209
+2dxof=5
+2dyof=-24
+2dzoom=1340
+2dyan=1960
+2dxan=196
+members=yes
+
+[obj_3210]
+certlink=obj_3209
+certtemplate=template_for_cert
+
+[obj_3211]
+name=Limestone
+recol1s=11488
+recol1d=14797
+cost=10
+desc=Some limestone.
+model=obj_3211
+2dxof=-7
+2dyof=-41
+2dyan=164
+2dxan=220
+members=yes
+
+[obj_3212]
+certlink=obj_3211
+certtemplate=template_for_cert
+
+[obj_3213]
+name=Quicklime
+recol1s=11488
+recol1d=32735
+cost=4
+desc=Some quicklime.
+model=model_2748_obj
+2dxof=1
+2dyof=15
+2dzoom=1400
+2dyan=1576
+2dxan=368
+members=yes
+
+[obj_3214]
+name=Pot of quicklime
+recol1s=21140
+recol1d=32735
+cost=5
+desc=A pot of ground quicklime.
+model=model_2406_obj
+2dxof=1
+2dyof=15
+2dzoom=1400
+2dyan=1576
+2dxan=368
+members=yes
+
+[obj_3215]
+name=Ground sulphur
+recol1s=21140
+recol1d=31649
+desc=A pile of ground Sulphur.
+cost=5
+model=model_2742_obj
+2dxof=-6
+2dzoom=1210
+2dyan=1892
+2dxan=264
+members=yes
+
+[obj_3216]
+name=Barrel
+desc=An empty barrel.
+model=obj_3216
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3217]
+certlink=obj_3216
+certtemplate=template_for_cert
+
+[obj_3218]
+name=Barrel bomb
+desc=A barrel full of fire oil.
+model=obj_3218
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3219]
+name=Barrel bomb
+desc=A fused barrel full of fire oil.
+model=obj_3218
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3220]
+name=Barrel of coal-tar
+desc=A barrel full of coal-tar.
+model=obj_3220
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3221]
+name=Barrel of naphtha
+desc=A barrel full of naphtha.
+model=obj_3221
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3222]
+name=Naphtha mix
+recol1s=15855
+recol1d=31649
+desc=A barrel full of naphtha and sulphur.
+model=obj_3221
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3223]
+name=Naphtha mix
+recol1s=15855
+recol1d=32767
+desc=A barrel full of naphtha and quicklime.
+model=obj_3221
+2dxof=-3
+2dyof=-3
+2dzoom=1660
+2dyan=1976
+2dxan=152
+members=yes
+
+[obj_3224]
+name=Cloth
+recol1s=27412
+recol1d=25372
+desc=A bolt of cloth.
+cost=10
+model=model_2725_obj
+2dyof=-15
+2dzoom=1360
+2dxan=368
+members=yes
+
+[obj_3225]
+certlink=obj_3224
+certtemplate=template_for_cert
+
+[obj_3226]
+name=Raw rabbit
+desc=I need to cook this first.
+model=model_2760_obj
+2dxof=1
+2dyof=3
+2dzoom=560
+2dyan=176
+2dxan=308
+cost=1
+members=yes
+
+[obj_3227]
+certlink=obj_3226
+certtemplate=template_for_cert
+
+[obj_3228]
+name=Cooked rabbit
+recol1s=24609
+recol1d=16609
+recol2s=32767
+recol2d=20774
+desc=Mmm this looks tasty.
+iop1=Eat
+cost=4
+model=model_2760_obj
+2dxof=1
+2dyof=3
+2dzoom=560
+2dyan=176
+2dxan=308
+members=yes
+
+[obj_3229]
+certlink=obj_3228
+certtemplate=template_for_cert
+
+[obj_3230]
+name=Big book of bangs
+recol1s=12504
+recol1d=8384
+recol2s=29594
+recol2d=23126
+desc=A book by Mel Achy.
+cost=1
+model=model_2543_obj
+2dzoom=840
+2dyan=152
+2dxan=256
+members=yes
+iop1=Read
+
+[obj_3231]
+name=Symbol1
+model=obj_3231
+2dxof=-2
+2dyof=7
+2dzoom=1890
+2dxan=496
+
+[obj_3232]
+certlink=obj_3231
+certtemplate=template_for_cert
+
+[obj_3233]
+name=Symbol2
+model=obj_3233
+2dxof=-2
+2dyof=7
+2dzoom=1890
+2dxan=496
+
+[obj_3234]
+certlink=obj_3233
+certtemplate=template_for_cert
+
+[obj_3235]
+name=Symbol3
+model=obj_3235
+2dxof=-2
+2dyof=7
+2dzoom=1890
+2dxan=496
+
+[obj_3236]
+certlink=obj_3235
+certtemplate=template_for_cert
+
+[obj_3237]
+name=Symbol4
+model=obj_3237
+2dxof=-2
+2dyof=7
+2dzoom=1890
+2dxan=496
+
+[obj_3238]
+certlink=obj_3237
+certtemplate=template_for_cert
+
+[obj_3239]
+name=Bark
+members=yes
+desc=Bark from a hollow tree.
+model=obj_3239
+2dyan=1708
+2dzan=284
+2dxan=176
+
+[obj_3240]
+certlink=obj_3239
+certtemplate=template_for_cert
+
+[obj_3241]
+name=Man
+desc=One of RuneScape's many citizens.
+model=model_53_idk_head
+2dxof=6
+2dyof=-32
+2dzoom=2660
+2dyan=1876
+2dxan=28
+
+[obj_3242]
+certlink=obj_3241
+certtemplate=template_for_cert
+
+[obj_3243]
+name=Farmer
+desc=He grows the crops.
+model=model_55_idk_head
+2dxof=6
+2dyof=-32
+2dzoom=2660
+2dyan=1876
+2dxan=28
+
+[obj_3244]
+certlink=obj_3243
+certtemplate=template_for_cert
+
+[obj_3245]
+name=Warrior woman
+recol1s=6273
+recol1d=27240
+desc=Not very fashion conscious.
+model=model_113_idk_head
+2dxof=1
+2dyof=-44
+2dzoom=2600
+2dyan=1856
+2dxan=32
+
+[obj_3246]
+certlink=obj_3245
+certtemplate=template_for_cert
+
+[obj_3247]
+name=Rogue
+desc=Rogueish.
+model=model_63_idk_head
+2dxof=6
+2dyof=-32
+2dzoom=2660
+2dyan=1876
+2dxan=28
+
+[obj_3248]
+certlink=obj_3247
+certtemplate=template_for_cert
+
+[obj_3249]
+name=Guard
+recol1s=15855
+recol1d=8354
+desc=He tries to keep order.
+model=model_66_npc_head
+2dyof=-30
+2dzoom=2530
+2dyan=1888
+2dxan=16
+
+[obj_3250]
+certlink=obj_3249
+certtemplate=template_for_cert
+
+[obj_3251]
+name=Knight of ardougne
+desc=A member of Ardougne's militia.
+model=model_56_obj_wear
+2dxof=-1
+2dyof=-28
+2dzoom=2920
+2dyan=1884
+2dxan=2032
+
+[obj_3252]
+certlink=obj_3251
+certtemplate=template_for_cert
+
+[obj_3253]
+name=Watchman
+desc=Watches stuff. But who watches him?
+model=model_57_obj_wear
+2dyof=-30
+2dzoom=2370
+2dyan=1912
+2dxan=28
+
+[obj_3254]
+certlink=obj_3253
+certtemplate=template_for_cert
+
+[obj_3255]
+name=Paladin
+recol1s=6273
+recol1d=27240
+desc=A holy warrior!
+model=model_55_idk_head
+2dyof=-25
+2dzoom=2510
+2dyan=1816
+2dxan=2032
+
+[obj_3256]
+certlink=obj_3255
+certtemplate=template_for_cert
+
+[obj_3257]
+name=Gnome
+recol1s=15855
+recol1d=8354
+desc=Looks like a gnome to me.
+model=model_21_npc_head
+2dyof=-592
+2dzoom=4430
+2dyan=1848
+2dxan=236
+
+[obj_3258]
+certlink=obj_3257
+certtemplate=template_for_cert
+
+[obj_3259]
+name=Hero
+recol1s=15855
+recol1d=8354
+desc=Heroic!
+model=model_55_idk_head
+2dyof=-25
+2dzoom=2510
+2dyan=1816
+2dxan=2032
+
+[obj_3260]
+certlink=obj_3259
+certtemplate=template_for_cert
+
+[obj_3261]
+name=Goutweed
+recol1s=288
+recol1d=8485
+recol2s=448
+recol2d=14760
+model=obj_3261
+desc=A pale, tough looking herb.
+members=yes
+cost=1
+2dxof=-2
+2dzoom=730
+2dyan=2028
+2dxan=540
+
+[obj_3262]
+name=Troll thistle
+model=obj_3262
+desc=It's tough and spiky.
+members=yes
+cost=1
+2dxof=5
+2dyof=20
+2dzoom=700
+2dyan=1004
+2dxan=128
+ambient=30
+contrast=30
+
+[obj_3263]
+name=Dried thistle
+recol1s=6400
+recol1d=12614
+recol2s=9571
+recol2d=12614
+recol3s=3264
+recol3d=12614
+model=obj_3262
+desc=It'll be easier to grind now.
+members=yes
+cost=1
+2dxof=5
+2dyof=20
+2dzoom=700
+2dyan=1004
+2dxan=128
+ambient=30
+contrast=30
+
+[obj_3264]
+name=Ground thistle
+recol1s=21140
+recol1d=10566
+model=model_2742_obj
+desc=It's ready for mixing.
+members=yes
+cost=1
+2dxof=-6
+2dzoom=1210
+2dyan=1892
+2dxan=264
+
+[obj_3265]
+name=Troll potion
+recol1s=15855
+recol1d=10598
+desc=It's part of Eadgar's plan.
+members=yes
+cost=1
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+
+[obj_3266]
+name=Drunk parrot
+desc=It's rather drunk.
+members=yes
+cost=1
+model=obj_3266
+2dyof=-1
+2dzoom=500
+2dyan=316
+2dxan=32
+ambient=50
+contrast=50
+
+[obj_3267]
+name=Dirty robe
+model=obj_3267
+desc=It's dirty and smelly.
+members=yes
+cost=1
+2dxof=5
+2dyof=8
+2dzoom=2010
+2dyan=116
+2dxan=408
+
+[obj_3268]
+name=Fake man
+model=obj_3268
+desc=It's good enough to fool a troll.
+members=yes
+cost=1
+2dxof=-57
+2dyof=-24
+2dzoom=2970
+2dyan=56
+2dzan=1900
+2dxan=128
+
+[obj_3269]
+name=Storeroom key
+recol1s=14798
+recol1d=17865
+recol2s=12684
+recol2d=14694
+model=obj_3135
+desc=The key to the Troll storeroom.
+members=yes
+cost=1
+2dxof=-9
+2dyof=-2
+2dzoom=860
+2dyan=20
+2dxan=460
+
+[obj_3270]
+name=Alco-chunks
+recol1s=31201
+recol1d=31477
+model=model_2573_obj
+desc=Pineapple chunks dipped in strong liquor.
+members=yes
+cost=1
+2dxof=1
+2dyof=96
+2dzoom=870
+2dyan=2004
+2dzan=36
+2dxan=244
+
+[obj_3271]
+name=Dummy
+model=obj_3271
+2dzoom=130
+2dxan=512
+code10=seq_1255
+
+[obj_3272]
+certlink=obj_3271
+certtemplate=template_for_cert
+
+[obj_3273]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3274]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3275]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3276]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3277]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3278]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3279]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3280]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3281]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3282]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3283]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3284]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3285]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3286]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3287]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3288]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3289]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3290]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3291]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3292]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3293]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3294]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3295]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3296]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3297]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3298]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3299]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3300]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3301]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3302]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3303]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3304]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3305]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3306]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3307]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3308]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3309]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3310]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3311]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3312]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3313]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3314]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3315]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3316]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3317]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3318]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3319]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3320]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3321]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3322]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3323]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3324]
+name=Spell
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+
+[obj_3325]
+name=Vampire dust
+recol1s=21140
+recol1d=7333
+desc=That used to be a vampire!
+cost=2
+model=model_2742_obj
+2dxof=-6
+2dzoom=1210
+2dyan=1892
+2dxan=264
+members=yes
+
+[obj_3326]
+certlink=obj_3325
+certtemplate=template_for_cert
+
+[obj_3327]
+name=Myre snelm
+recol1s=21036
+recol1d=21036
+recol2s=18922
+recol2d=18922
+recol3s=17831
+recol3d=17831
+recol4s=15717
+recol4d=15717
+desc=A marshy coloured snail shell helmet.
+cost=300
+members=yes
+model=obj_3327
+2dxof=3
+2dyof=11
+2dzoom=730
+2dyan=1976
+2dxan=312
+members=yes
+iop2=Wear
+manwear=obj_3327_manwear,0
+womanwear=obj_3327_womanwear,0
+manhead=obj_3327_manhead
+womanhead=obj_3327_womanhead
+
+[obj_3328]
+certlink=obj_3327
+certtemplate=template_for_cert
+
+[obj_3329]
+name=Blood'n'tar snelm
+recol1s=21036
+recol1d=2114
+recol2s=18922
+recol2d=17474
+recol3s=17831
+recol3d=17474
+recol4s=15717
+recol4d=2114
+desc=A red and black Snail shell helmet.
+cost=300
+members=yes
+model=obj_3327
+2dxof=3
+2dyof=11
+2dzoom=730
+2dyan=1976
+2dxan=312
+members=yes
+iop2=Wear
+manwear=obj_3327_manwear,0
+womanwear=obj_3327_womanwear,0
+manhead=obj_3327_manhead
+womanhead=obj_3327_womanhead
+
+[obj_3330]
+certlink=obj_3329
+certtemplate=template_for_cert
+
+[obj_3331]
+name=Ochre snelm
+recol1s=21036
+recol1d=25257
+recol2s=18922
+recol2d=22086
+recol3s=17831
+recol3d=22086
+recol4s=15717
+recol4d=25257
+desc=A muddy yellow snail shell helmet.
+cost=300
+members=yes
+model=obj_3327
+2dxof=3
+2dyof=11
+2dzoom=730
+2dyan=1976
+2dxan=312
+members=yes
+iop2=Wear
+manwear=obj_3327_manwear,0
+womanwear=obj_3327_womanwear,0
+manhead=obj_3327_manhead
+womanhead=obj_3327_womanhead
+
+[obj_3332]
+certlink=obj_3331
+certtemplate=template_for_cert
+
+[obj_3333]
+name=Bruise blue snelm
+recol1s=21036
+recol1d=14772
+recol2s=18922
+recol2d=1041
+recol3s=17831
+recol3d=12657
+recol4s=15717
+recol4d=9488
+desc=A moody blue snail shell helmet.
+cost=300
+members=yes
+model=obj_3327
+2dxof=3
+2dyof=11
+2dzoom=730
+2dyan=1976
+2dxan=312
+members=yes
+iop2=Wear
+manwear=obj_3327_manwear,0
+womanwear=obj_3327_womanwear,0
+manhead=obj_3327_manhead
+womanhead=obj_3327_womanhead
+
+[obj_3334]
+certlink=obj_3333
+certtemplate=template_for_cert
+
+[obj_3335]
+name=Broken bark snelm
+recol1s=21036
+recol1d=26051
+recol2s=18922
+recol2d=21857
+recol3s=17831
+recol3d=21857
+recol4s=15717
+recol4d=19713
+desc=An orange and bark coloured snail shell helmet.
+cost=300
+members=yes
+model=obj_3327
+2dxof=3
+2dyof=11
+2dzoom=730
+2dyan=1976
+2dxan=312
+members=yes
+iop2=Wear
+manwear=obj_3327_manwear,0
+womanwear=obj_3327_womanwear,0
+manhead=obj_3327_manhead
+womanhead=obj_3327_womanhead
+
+[obj_3336]
+certlink=obj_3335
+certtemplate=template_for_cert
+
+[obj_3337]
+name=Myre snelm
+desc=A swamp coloured pointed snail shell helmet.
+cost=300
+members=yes
+model=obj_3337
+2dxof=7
+2dyof=-2
+2dzoom=1190
+2dyan=188
+2dxan=185
+members=yes
+iop2=Wear
+manwear=obj_3337_manwear,0
+womanwear=obj_3337_womanwear,0
+manhead=obj_3337_manhead
+womanhead=obj_3337_womanhead
+
+[obj_3338]
+certlink=obj_3337
+certtemplate=template_for_cert
+
+[obj_3339]
+name=Blood'n'tar snelm
+recol1s=23148
+recol1d=17474
+recol2s=18920
+recol2d=2114
+desc=A red and black pointed snail shell helmet.
+cost=300
+members=yes
+model=obj_3337
+2dxof=7
+2dyof=-2
+2dzoom=1190
+2dyan=188
+2dxan=185
+members=yes
+iop2=Wear
+manwear=obj_3337_manwear,0
+womanwear=obj_3337_womanwear,0
+manhead=obj_3337_manhead
+womanhead=obj_3337_womanhead
+
+[obj_3340]
+certlink=obj_3339
+certtemplate=template_for_cert
+
+[obj_3341]
+name=Ochre snelm
+recol1s=23148
+recol1d=25257
+recol2s=18920
+recol2d=18915
+desc=A muddy yellow coloured pointed snail shell helmet.
+cost=300
+members=yes
+model=obj_3337
+2dxof=7
+2dyof=-2
+2dzoom=1190
+2dyan=188
+2dxan=185
+members=yes
+iop2=Wear
+manwear=obj_3337_manwear,0
+womanwear=obj_3337_womanwear,0
+manhead=obj_3337_manhead
+womanhead=obj_3337_womanhead
+
+[obj_3342]
+certlink=obj_3341
+certtemplate=template_for_cert
+
+[obj_3343]
+name=Bruise blue snelm
+recol1s=23148
+recol1d=9488
+recol2s=18920
+recol2d=14772
+desc=A moody blue pointed snail shell helmet.
+cost=300
+members=yes
+model=obj_3337
+2dxof=7
+2dyof=-2
+2dzoom=1190
+2dyan=188
+2dxan=185
+members=yes
+iop2=Wear
+manwear=obj_3337_manwear,0
+womanwear=obj_3337_womanwear,0
+manhead=obj_3337_manhead
+womanhead=obj_3337_womanhead
+
+[obj_3344]
+certlink=obj_3343
+certtemplate=template_for_cert
+
+[obj_3345]
+name=Blamish myre shell
+recol1s=21036
+recol1d=21036
+recol2s=18922
+recol2d=18922
+recol3s=17831
+recol3d=17831
+recol4s=15717
+recol4d=15717
+desc=A large 'Myre' coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3345
+2dyof=-89
+2dzoom=1130
+2dyan=1732
+2dxan=232
+
+[obj_3346]
+certlink=obj_3345
+certtemplate=template_for_cert
+
+[obj_3347]
+name=Blamish red shell
+recol1s=21036
+recol1d=4228
+recol2s=18922
+recol2d=15492
+recol3s=17831
+recol3d=15492
+recol4s=15717
+recol4d=4228
+desc=A large red and black blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3345
+2dyof=-89
+2dzoom=1130
+2dyan=1732
+2dxan=232
+
+[obj_3348]
+certlink=obj_3347
+certtemplate=template_for_cert
+
+[obj_3349]
+name=Blamish ochre shell
+recol1s=21036
+recol1d=25257
+recol2s=18922
+recol2d=22086
+recol3s=17831
+recol3d=22086
+recol4s=15717
+recol4d=18915
+desc=A large muddy yellow coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3345
+2dyof=-89
+2dzoom=1130
+2dyan=1732
+2dxan=232
+
+[obj_3350]
+certlink=obj_3349
+certtemplate=template_for_cert
+
+[obj_3351]
+name=Blamish blue shell
+recol1s=21036
+recol1d=14772
+recol2s=18922
+recol2d=12657
+recol3s=17831
+recol3d=12657
+recol4s=15717
+recol4d=9488
+desc=A large blue coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3345
+2dyof=-89
+2dzoom=1130
+2dyan=1732
+2dxan=232
+
+[obj_3352]
+certlink=obj_3351
+certtemplate=template_for_cert
+
+[obj_3353]
+name=Blamish bark shell
+recol1s=21036
+recol1d=31201
+recol2s=18922
+recol2d=19777
+recol3s=17831
+recol3d=19777
+recol4s=15717
+recol4d=15360
+desc=A large bark coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3345
+2dyof=-89
+2dzoom=1130
+2dyan=1732
+2dxan=232
+
+[obj_3354]
+certlink=obj_3353
+certtemplate=template_for_cert
+
+[obj_3355]
+name=Blamish myre shell
+desc=A large 'Myre' coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3355
+2dyof=-57
+2dzoom=1800
+2dyan=1948
+2dxan=232
+
+[obj_3356]
+certlink=obj_3355
+certtemplate=template_for_cert
+
+[obj_3357]
+name=Blamish red shell
+recol1s=23148
+recol1d=15492
+recol2s=18920
+recol2d=4228
+desc=A large red coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3355
+2dyof=-57
+2dzoom=1800
+2dyan=1948
+2dxan=232
+
+[obj_3358]
+certlink=obj_3357
+certtemplate=template_for_cert
+
+[obj_3359]
+name=Blamish ochre shell
+recol1s=23148
+recol1d=25257
+recol2s=18920
+recol2d=18915
+desc=A large ochre coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3355
+2dyof=-57
+2dzoom=1800
+2dyan=1948
+2dxan=232
+
+[obj_3360]
+certlink=obj_3359
+certtemplate=template_for_cert
+
+[obj_3361]
+name=Blamish blue shell
+recol1s=23148
+recol1d=15825
+recol2s=18920
+recol2d=9488
+desc=A large blue coloured blamish snail shell, looks protective.
+cost=150
+members=yes
+model=obj_3355
+2dyof=-57
+2dzoom=1800
+2dyan=1948
+2dxan=232
+
+[obj_3362]
+certlink=obj_3361
+certtemplate=template_for_cert
+
+[obj_3363]
+name=Thin snail
+desc=The thin, slimey corpse of a deceased giant snail.
+cost=5
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+
+[obj_3364]
+certlink=obj_3363
+certtemplate=template_for_cert
+
+[obj_3365]
+name=Lean snail
+recol1s=13766
+recol1d=11651
+recol2s=14854
+recol2d=15875
+recol3s=19051
+recol3d=19013
+recol4s=13768
+recol4d=14819
+recol5s=15849
+recol5d=15780
+desc=The lean, slimey corpse of a deceased giant snail.
+cost=10
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+
+[obj_3366]
+certlink=obj_3365
+certtemplate=template_for_cert
+
+[obj_3367]
+name=Fat snail
+recol1s=13766
+recol1d=8516
+recol2s=14854
+recol2d=11652
+recol3s=19051
+recol3d=19013
+recol4s=13768
+recol4d=9572
+recol5s=15849
+recol5d=11716
+desc=The fat, slimey corpse of a deceased giant snail.
+cost=15
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+
+[obj_3368]
+certlink=obj_3367
+certtemplate=template_for_cert
+
+[obj_3369]
+name=Thin snail meat
+recol1s=13766
+recol1d=9472
+recol2s=14854
+recol2d=8418
+recol3s=19051
+recol3d=6306
+recol4s=13768
+recol4d=9472
+recol5s=15849
+recol5d=9472
+desc=A succulently slimey slice of sumptuous snail.
+cost=10
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+iop1=Eat
+
+[obj_3370]
+certlink=obj_3369
+certtemplate=template_for_cert
+
+[obj_3371]
+name=Lean snail meat
+recol1s=13766
+recol1d=14432
+recol2s=14854
+recol2d=10434
+recol3s=19051
+recol3d=12481
+recol4s=13768
+recol4d=7361
+recol5s=15849
+recol5d=14432
+desc=A succulently slimey slice of sumptuous snail.
+cost=20
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+iop1=Eat
+
+[obj_3372]
+certlink=obj_3371
+certtemplate=template_for_cert
+
+[obj_3373]
+name=Fat snail meat
+recol1s=13766
+recol1d=19681
+recol2s=14854
+recol2d=23907
+recol3s=19051
+recol3d=27014
+recol4s=13768
+recol4d=16577
+recol5s=15849
+recol5d=20801
+desc=A succulently slimey slice of sumptuous snail.
+cost=30
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+iop1=Eat
+
+[obj_3374]
+certlink=obj_3373
+certtemplate=template_for_cert
+
+[obj_3375]
+name=Burnt snail
+recol1s=13766
+recol1d=6304
+recol2s=14854
+recol2d=8384
+recol3s=19051
+recol3d=11424
+recol4s=13768
+recol4d=3168
+recol5s=15849
+recol5d=10400
+desc=A slightly super-saute'ed snail.
+cost=10
+members=yes
+model=obj_3363
+2dyof=-70
+2dzoom=1640
+2dyan=1732
+2dxan=220
+
+[obj_3376]
+certlink=obj_3375
+certtemplate=template_for_cert
+
+[obj_3377]
+name=Sample bottle
+desc=An empty sample bottle.
+cost=5
+model=obj_3377
+2dyof=-2
+2dzoom=760
+2dyan=1920
+2dxan=124
+members=yes
+
+[obj_3378]
+certlink=obj_3377
+certtemplate=template_for_cert
+
+[obj_3379]
+name=Slimey eel
+desc=A slime covered eel - yuck!
+model=obj_3379
+2dxof=4
+2dzoom=1650
+2dyan=36
+2dxan=256
+members=yes
+
+[obj_3380]
+certlink=obj_3379
+certtemplate=template_for_cert
+
+[obj_3381]
+name=Cooked slimey eel
+recol1s=5346
+recol1d=16613
+recol2s=4256
+recol2d=13507
+recol3s=18730
+recol3d=18730
+recol4s=30718
+recol4d=23847
+recol5s=30653
+recol5d=17921
+desc=A cooked slimey eel - not delicious, but pretty nutritious.
+model=obj_3379
+2dxof=4
+2dzoom=1650
+2dyan=36
+2dxan=256
+members=yes
+iop1=Eat
+
+[obj_3382]
+certlink=obj_3381
+certtemplate=template_for_cert
+
+[obj_3383]
+name=Burnt eel
+recol1s=5346
+recol1d=6304
+recol2s=4256
+recol2d=3168
+recol3s=18730
+recol3d=8384
+recol4s=30718
+recol4d=10400
+recol5s=30653
+recol5d=10400
+desc=It looks like it's seen one too many fires.
+model=obj_3379
+2dxof=4
+2dzoom=1650
+2dyan=36
+2dxan=256
+members=yes
+
+[obj_3384]
+certlink=obj_3383
+certtemplate=template_for_cert
+
+[obj_3385]
+name=Splitbark helm
+cost=10000
+desc=A wooden helmet.
+model=obj_3385
+iop2=Wear
+manwear=obj_3385_manwear,0
+womanwear=obj_3385_womanwear,0
+manhead=obj_3385_manhead
+womanhead=obj_3385_womanhead
+members=yes
+2dxof=-2
+2dyof=-59
+2dzoom=1040
+2dyan=200
+2dxan=272
+
+[obj_3386]
+certlink=obj_3385
+certtemplate=template_for_cert
+
+[obj_3387]
+name=Splitbark body
+cost=45000
+desc=Provides good protection.
+model=obj_3387
+iop2=Wear
+manwear=obj_3387_manwear,0
+manwear2=obj_3387_manwear2
+womanwear=obj_3387_womanwear,0
+womanwear2=obj_3387_womanwear2
+members=yes
+2dyof=16
+2dzoom=1050
+2dxan=276
+
+[obj_3388]
+certlink=obj_3387
+certtemplate=template_for_cert
+
+[obj_3389]
+name=Splitbark legs
+cost=40000
+desc=These should protect my legs.
+model=obj_3389
+iop2=Wear
+manwear=obj_3389_manwear,0
+womanwear=obj_3389_womanwear,0
+members=yes
+2dxof=4
+2dyof=-1
+2dzoom=1320
+2dxan=252
+
+[obj_3390]
+certlink=obj_3389
+certtemplate=template_for_cert
+
+[obj_3391]
+name=Splitbark gauntlets
+cost=5000
+model=obj_3391
+desc=These should keep my hands safe.
+iop2=Wear
+manwear=obj_3391_manwear,0
+womanwear=obj_3391_womanwear,0
+members=yes
+2dxof=7
+2dzoom=750
+2dyan=284
+2dxan=308
+
+[obj_3392]
+certlink=obj_3391
+certtemplate=template_for_cert
+
+[obj_3393]
+name=Splitbark greaves
+cost=5000
+model=obj_3393
+desc=Wooden foot protection.
+iop2=Wear
+manwear=obj_3393_manwear,0
+womanwear=obj_3393_womanwear,0
+members=yes
+2dxof=6
+2dzoom=810
+2dyan=192
+2dxan=168
+
+[obj_3394]
+certlink=obj_3393
+certtemplate=template_for_cert
+
+[obj_3395]
+name=Diary
+recol1s=13472
+recol1d=6272
+recol2s=29594
+recol2d=13634
+recol3s=20033
+recol3d=6272
+recol4s=15855
+recol4d=6272
+desc=A diary belonging to Herbi Flax.
+model=model_2543_obj
+iop1=Read
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+members=yes
+
+[obj_3396]
+name=Loar remains
+recol1s=24309
+recol1d=256
+desc=The remains of a deadly shade.
+model=model_2595_obj
+2dxof=-4
+2dyof=12
+2dzoom=1780
+2dyan=436
+2dxan=320
+members=yes
+
+[obj_3397]
+certlink=obj_3396
+certtemplate=template_for_cert
+
+[obj_3398]
+name=Phrin remains
+recol1s=24309
+recol1d=3137
+desc=The remains of a deadly shade.
+model=model_2595_obj
+2dxof=-4
+2dyof=12
+2dzoom=1780
+2dyan=436
+2dxan=320
+members=yes
+
+[obj_3399]
+certlink=obj_3398
+certtemplate=template_for_cert
+
+[obj_3400]
+name=Riyl remains
+recol1s=24309
+recol1d=5120
+desc=The remains of a deadly shade.
+model=model_2595_obj
+2dxof=-4
+2dyof=12
+2dzoom=1780
+2dyan=436
+2dxan=320
+members=yes
+
+[obj_3401]
+certlink=obj_3400
+certtemplate=template_for_cert
+
+[obj_3402]
+name=Asyn remains
+recol1s=24309
+recol1d=1068
+desc=The remains of a deadly shade.
+model=model_2595_obj
+2dxof=-4
+2dyof=12
+2dzoom=1780
+2dyan=436
+2dxan=320
+members=yes
+
+[obj_3403]
+certlink=obj_3402
+certtemplate=template_for_cert
+
+[obj_3404]
+name=Fiyr remains
+recol1s=24309
+recol1d=6342
+desc=The remains of a deadly shade.
+model=model_2595_obj
+2dxof=-4
+2dyof=12
+2dzoom=1780
+2dyan=436
+2dxan=320
+members=yes
+
+[obj_3405]
+certlink=obj_3404
+certtemplate=template_for_cert
+
+[obj_3406]
+name=Unfinished potion
+recol1s=15855
+recol1d=26416
+desc=I need another ingredient to finish this potion.
+cost=11
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3407]
+certlink=obj_3406
+certtemplate=template_for_cert
+
+[obj_3408]
+name=Serum 207 (4)
+recol1s=15855
+recol1d=400
+desc=4 doses serum 207 as described in Herbi Flax's diary.
+cost=14
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3409]
+certlink=obj_3408
+certtemplate=template_for_cert
+
+[obj_3410]
+name=Serum 207 (3)
+recol1s=15855
+recol1d=400
+desc=3 doses serum 207 as described in Herbi Flax's diary.
+cost=13
+model=model_2697_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3411]
+certlink=obj_3410
+certtemplate=template_for_cert
+
+[obj_3412]
+name=Serum 207 (2)
+recol1s=15855
+recol1d=400
+desc=2 doses serum 207 as described in Herbi Flax's diary.
+cost=13
+model=model_2384_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3413]
+certlink=obj_3412
+certtemplate=template_for_cert
+
+[obj_3414]
+name=Serum 207 (1)
+recol1s=15855
+recol1d=400
+desc=1 dose serum 207 as described in Herbi Flax's diary.
+cost=11
+model=model_2621_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3415]
+certlink=obj_3414
+certtemplate=template_for_cert
+
+[obj_3416]
+name=Serum 207(p) (4)
+recol1s=15855
+recol1d=479
+desc=4 doses permanent serum 207 as described in Herbi Flax's diary.
+cost=14
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3417]
+name=Serum 207(p) (3)
+recol1s=15855
+recol1d=479
+desc=3 doses permanent serum 207 as described in Herbi Flax's diary.
+cost=13
+model=model_2697_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3418]
+name=Serum 207(p) (2)
+recol1s=15855
+recol1d=479
+desc=2 doses permanent serum 207 as described in Herbi Flax's diary.
+cost=13
+model=model_2384_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3419]
+name=Serum 207(p) (1)
+recol1s=15855
+recol1d=479
+desc=1 dose permanent serum 207 as described in Herbi Flax's diary.
+cost=11
+model=model_2621_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3420]
+name=Limestone brick
+recol1s=5285
+recol1d=14797
+desc=A well carved lime stone brick.
+cost=20
+model=model_2510_obj
+2dxof=8
+2dyof=19
+2dzoom=1580
+2dyan=136
+2dxan=200
+members=yes
+
+[obj_3421]
+certlink=obj_3420
+certtemplate=template_for_cert
+
+[obj_3422]
+name=Olive oil(4)
+recol1s=15855
+recol1d=22465
+desc=4 doses of olive oil
+cost=22
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3423]
+certlink=obj_3422
+certtemplate=template_for_cert
+
+[obj_3424]
+name=Olive oil(3)
+recol1s=15855
+recol1d=22465
+desc=3 doses of olive oil
+cost=20
+model=model_2697_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3425]
+certlink=obj_3424
+certtemplate=template_for_cert
+
+[obj_3426]
+name=Olive oil(2)
+recol1s=15855
+recol1d=22465
+desc=2 doses of olive oil
+cost=17
+model=model_2384_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3427]
+certlink=obj_3426
+certtemplate=template_for_cert
+
+[obj_3428]
+name=Olive oil(1)
+recol1s=15855
+recol1d=22465
+desc=1 dose of olive oil
+cost=14
+model=model_2621_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3429]
+certlink=obj_3428
+certtemplate=template_for_cert
+
+[obj_3430]
+name=Sacred oil(4)
+recol1s=15855
+recol1d=11809
+desc=4 doses of sacred Oil
+cost=100
+model=model_2789_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3431]
+certlink=obj_3430
+certtemplate=template_for_cert
+
+[obj_3432]
+name=Sacred oil(3)
+recol1s=15855
+recol1d=11809
+desc=3 doses of sacred Oil
+cost=90
+model=model_2697_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3433]
+certlink=obj_3432
+certtemplate=template_for_cert
+
+[obj_3434]
+name=Sacred oil(2)
+recol1s=15855
+recol1d=11809
+desc=2 doses of sacred Oil
+cost=75
+model=model_2384_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3435]
+certlink=obj_3434
+certtemplate=template_for_cert
+
+[obj_3436]
+name=Sacred oil(1)
+recol1s=15855
+recol1d=11809
+desc=1 dose of sacred Oil
+cost=60
+model=model_2621_obj
+2dyof=-1
+2dzoom=550
+2dyan=1996
+2dxan=84
+members=yes
+
+[obj_3437]
+certlink=obj_3436
+certtemplate=template_for_cert
+
+[obj_3438]
+name=Pyre logs
+recol1s=15617
+recol1d=10400
+desc=Logs prepared with sacred oil for a funeral pyre.
+cost=8
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3439]
+certlink=obj_3438
+certtemplate=template_for_cert
+
+[obj_3440]
+name=Oak pyre logs
+recol1s=15617
+recol1d=11490
+desc=Oak logs prepared with sacred oil for a funeral pyre.
+cost=40
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3441]
+certlink=obj_3440
+certtemplate=template_for_cert
+
+[obj_3442]
+name=Willow pyre logs
+recol1s=15617
+recol1d=9378
+desc=Willow logs prepared with sacred oil for a funeral pyre.
+cost=80
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3443]
+certlink=obj_3442
+certtemplate=template_for_cert
+
+[obj_3444]
+name=Maple pyre logs
+recol1s=15617
+recol1d=9344
+desc=Maple logs prepared with sacred oil for a funeral pyre.
+cost=160
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3445]
+certlink=obj_3444
+certtemplate=template_for_cert
+
+[obj_3446]
+name=Yew pyre logs
+recol1s=15617
+recol1d=10467
+desc=Yew logs prepared with sacred oil for a funeral pyre.
+cost=320
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3447]
+certlink=obj_3446
+certtemplate=template_for_cert
+
+[obj_3448]
+name=Magic pyre logs
+recol1s=15617
+recol1d=10434
+desc=Magic logs prepared with sacred oil for a funeral pyre.
+members=yes
+cost=640
+model=model_2800_obj
+2dxof=3
+2dyof=66
+2dzoom=670
+2dyan=120
+2dxan=280
+members=yes
+
+[obj_3449]
+certlink=obj_3448
+certtemplate=template_for_cert
+
+[obj_3450]
+name=Bronze key red
+recol1s=31401
+recol1d=8354
+recol2s=15954
+recol2d=15360
+recol3s=30753
+recol3d=8354
+recol4s=992
+recol4d=8354
+recol5s=31
+recol5d=8354
+desc=A bronze key with a blood-red painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=81
+members=yes
+
+[obj_3451]
+name=Bronze key brown
+recol1s=31401
+recol1d=8354
+recol2s=15954
+recol2d=15648
+recol3s=30753
+recol3d=8354
+recol4s=992
+recol4d=8354
+recol5s=31
+recol5d=8354
+desc=A bronze key with a brown painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=82
+members=yes
+
+[obj_3452]
+name=Bronze key crimson
+recol1s=31401
+recol1d=8354
+recol2s=15954
+recol2d=29729
+recol3s=30753
+recol3d=8354
+recol4s=992
+recol4d=8354
+recol5s=31
+recol5d=8354
+desc=A bronze key with a crimson painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=83
+members=yes
+
+[obj_3453]
+name=Bronze key black
+recol1s=31401
+recol1d=8354
+recol2s=15954
+recol2d=2114
+recol3s=30753
+recol3d=8354
+recol4s=992
+recol4d=8354
+recol5s=31
+recol5d=8354
+desc=A bronze key with a black painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=84
+members=yes
+
+[obj_3454]
+name=Bronze key purple
+recol1s=31401
+recol1d=8354
+recol2s=15954
+recol2d=8203
+recol3s=30753
+recol3d=8354
+recol4s=992
+recol4d=8354
+recol5s=31
+recol5d=8354
+desc=A bronze key with a purple painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=85
+members=yes
+
+[obj_3455]
+name=Steel key red
+recol1s=31401
+recol1d=10570
+recol2s=15954
+recol2d=15360
+recol3s=30753
+recol3d=10570
+recol4s=992
+recol4d=10570
+recol5s=31
+recol5d=10570
+desc=A steel key with a blood-red painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=86
+members=yes
+
+[obj_3456]
+name=Steel key brown
+recol1s=31401
+recol1d=10570
+recol2s=15954
+recol2d=15648
+recol3s=30753
+recol3d=10570
+recol4s=992
+recol4d=10570
+recol5s=31
+recol5d=10570
+desc=A steel key with a brown painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=87
+members=yes
+
+[obj_3457]
+name=Steel key crimson
+recol1s=31401
+recol1d=10570
+recol2s=15954
+recol2d=29729
+recol3s=30753
+recol3d=10570
+recol4s=992
+recol4d=10570
+recol5s=31
+recol5d=10570
+desc=A steel key with a crimson painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=88
+members=yes
+
+[obj_3458]
+name=Steel key black
+recol1s=31401
+recol1d=10570
+recol2s=15954
+recol2d=2114
+recol3s=30753
+recol3d=10570
+recol4s=992
+recol4d=10570
+recol5s=31
+recol5d=10570
+desc=A steel key with a black painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=89
+members=yes
+
+[obj_3459]
+name=Steel key purple
+recol1s=31401
+recol1d=10570
+recol2s=15954
+recol2d=8203
+recol3s=30753
+recol3d=10570
+recol4s=992
+recol4d=10570
+recol5s=31
+recol5d=10570
+desc=A steel key with a purple painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=90
+members=yes
+
+[obj_3460]
+name=Black key red
+recol1s=31401
+recol1d=0
+recol2s=15954
+recol2d=15360
+recol3s=30753
+recol3d=0
+recol4s=992
+recol4d=0
+recol5s=31
+recol5d=1057
+desc=A black key with a blood-red painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=91
+members=yes
+
+[obj_3461]
+name=Black key brown
+recol1s=31401
+recol1d=0
+recol2s=15954
+recol2d=15648
+recol3s=30753
+recol3d=0
+recol4s=992
+recol4d=0
+recol5s=31
+recol5d=1057
+desc=A black key with a brown painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=92
+members=yes
+
+[obj_3462]
+name=Black key crimson
+recol1s=31401
+recol1d=0
+recol2s=15954
+recol2d=29729
+recol3s=30753
+recol3d=0
+recol4s=992
+recol4d=0
+recol5s=31
+recol5d=1057
+desc=A black key with a crimson painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=93
+members=yes
+
+[obj_3463]
+name=Black key black
+recol1s=31401
+recol1d=0
+recol2s=15954
+recol2d=2114
+recol3s=30753
+recol3d=0
+recol4s=992
+recol4d=0
+recol5s=31
+recol5d=1057
+desc=A black key with a black painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=94
+members=yes
+
+[obj_3464]
+name=Black key purple
+recol1s=31401
+recol1d=0
+recol2s=15954
+recol2d=8203
+recol3s=30753
+recol3d=0
+recol4s=992
+recol4d=0
+recol5s=31
+recol5d=1057
+desc=A black key with a purple painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=95
+members=yes
+
+[obj_3465]
+name=Silver key red
+recol1s=31401
+recol1d=19028
+recol2s=15954
+recol2d=15360
+recol3s=30753
+recol3d=19028
+recol4s=992
+recol4d=19028
+recol5s=31
+recol5d=19028
+desc=A silver key with a blood-red painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=96
+members=yes
+
+[obj_3466]
+name=Silver key brown
+recol1s=31401
+recol1d=19028
+recol2s=15954
+recol2d=15648
+recol3s=30753
+recol3d=19028
+recol4s=992
+recol4d=19028
+recol5s=31
+recol5d=19028
+desc=A silver key with a brown painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=97
+members=yes
+
+[obj_3467]
+name=Silver key crimson
+recol1s=31401
+recol1d=19028
+recol2s=15954
+recol2d=29729
+recol3s=30753
+recol3d=19028
+recol4s=992
+recol4d=19028
+recol5s=31
+recol5d=19028
+desc=A silver key with a crimson painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=98
+members=yes
+
+[obj_3468]
+name=Silver key black
+recol1s=31401
+recol1d=19028
+recol2s=15954
+recol2d=2114
+recol3s=30753
+recol3d=19028
+recol4s=992
+recol4d=19028
+recol5s=31
+recol5d=19028
+desc=A silver key with a black painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=99
+members=yes
+
+[obj_3469]
+name=Silver key purple
+recol1s=31401
+recol1d=19028
+recol2s=15954
+recol2d=8203
+recol3s=30753
+recol3d=19028
+recol4s=992
+recol4d=19028
+recol5s=31
+recol5d=19028
+desc=A silver key with a purple painted eyelet.
+model=obj_3450
+2dyof=2
+2dzoom=1050
+2dyan=2040
+2dxan=420
+cost=100
+members=yes
+
+[obj_3470]
+name=Fine cloth
+desc=Amazingly untouched by time.
+model=obj_3470
+2dyan=360
+2dzan=168
+2dxan=580
+cost=500
+members=yes
+
+[obj_3471]
+certlink=obj_3470
+certtemplate=template_for_cert
+
+[obj_3472]
+name=Black plateskirt (t)
+recol1s=15855
+recol1d=2114
+recol2s=10570
+recol2d=0
+recol3s=14798
+recol3d=6342
+recol4s=2340
+recol4d=0
+desc=Black plateskirt with trim.
+cost=1920
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3473]
+name=Black plateskirt (g)
+recol1s=15855
+recol1d=2114
+recol2s=10570
+recol2d=0
+recol3s=14798
+recol3d=31366
+recol4s=2340
+recol4d=0
+desc=Black plateskirt with gold trim.
+cost=1920
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3474]
+name=Adam plateskirt (t)
+recol1s=15855
+recol1d=6438
+recol2s=10570
+recol2d=3235
+recol3s=14798
+recol3d=13802
+recol4s=2340
+recol4d=3235
+desc=Adamant plateskirt with trim.
+cost=6400
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3475]
+name=Adam plateskirt (g)
+recol1s=15855
+recol1d=6438
+recol2s=10570
+recol2d=3235
+recol3s=14798
+recol3d=31366
+recol4s=2340
+recol4d=3235
+desc=Adamant plateskirt with gold trim.
+cost=6400
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3476]
+name=Rune plateskirt (g)
+recol1s=15855
+recol1d=6476
+recol2s=10570
+recol2d=3272
+recol3s=14798
+recol3d=31366
+recol4s=2340
+recol4d=3272
+desc=Rune plateskirt with gold trim.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3477]
+name=Rune plateskirt (t)
+recol1s=15855
+recol1d=6476
+recol2s=10570
+recol2d=3272
+recol3s=14798
+recol3d=17048
+recol4s=2340
+recol4d=3272
+desc=Rune plateskirt with trim.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3478]
+name=Zamorak plateskirt
+recol1s=15855
+recol1d=6476
+recol2s=10570
+recol2d=3272
+recol3s=14798
+recol3d=19489
+recol4s=2340
+recol4d=3271
+desc=Rune plateskirt in the colours of Zamorak.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3479]
+name=Saradomin skirt
+recol1s=15855
+recol1d=6476
+recol2s=10570
+recol2d=3272
+recol3s=14798
+recol3d=29588
+recol4s=2340
+recol4d=3271
+desc=Rune plateskirt in the colours of Saradomin.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3480]
+name=Guthix plateskirt
+recol1s=15855
+recol1d=6476
+recol2s=10570
+recol2d=3272
+recol3s=14798
+recol3d=7751
+recol4s=2340
+recol4d=3271
+desc=Rune plateskirt in the colours of Guthix.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+
+[obj_3481]
+name=Gilded platebody
+recol1s=15855
+recol1d=31366
+recol2s=10570
+recol2d=28161
+recol3s=6342
+recol3d=19777
+desc=Rune platebody with gold plate.
+cost=65000
+model=model_2378_obj
+2dyof=14
+2dzoom=1290
+2dxan=424
+iop2=Wear
+manwear=model_3379_obj_wear,0
+manwear2=model_164_obj_wear
+womanwear=model_3383_obj_wear,0
+womanwear2=model_344_obj_wear
+members=yes
+
+[obj_3482]
+certlink=obj_3481
+certtemplate=template_for_cert
+
+[obj_3483]
+name=Gilded platelegs
+recol1s=15855
+recol1d=31366
+recol2s=10570
+recol2d=28161
+recol3s=14798
+recol3d=19777
+desc=Rune platelegs with gold plate.
+cost=64000
+model=model_2582_obj
+2dyof=-8
+2dzoom=1740
+2dxan=444
+iop2=Wear
+manwear=model_268_obj_wear,0
+womanwear=model_432_obj_wear,0
+members=yes
+
+[obj_3484]
+certlink=obj_3483
+certtemplate=template_for_cert
+
+[obj_3485]
+name=Gilded plateskirt
+recol1s=15855
+recol1d=31366
+recol2s=10570
+recol2d=28161
+recol3s=14798
+recol3d=19777
+recol4s=2340
+recol4d=28161
+desc=Rune plateskirt with gold plate.
+cost=64000
+model=obj_3472
+2dxof=5
+2dyof=5
+2dzoom=1100
+2dxan=620
+iop2=Wear
+manwear=obj_3472_manwear,0
+womanwear=obj_3472_womanwear,0
+members=yes
+
+[obj_3486]
+name=Gilded full helm
+recol1s=15855
+recol1d=31366
+recol2s=15360
+recol2d=19777
+desc=Rune full helm with gold plate.
+cost=35200
+model=model_2813_obj
+2dxof=-1
+2dyof=6
+2dzoom=800
+2dyan=152
+2dxan=160
+iop2=Wear
+manwear=model_218_obj_wear,0
+womanwear=model_394_obj_wear,0
+manhead=model_56_obj_wear
+womanhead=model_116_obj_wear
+members=yes
+
+[obj_3487]
+certlink=obj_3486
+certtemplate=template_for_cert
+
+[obj_3488]
+name=Gilded kiteshield
+recol1s=15855
+recol1d=31366
+recol2s=7296
+recol2d=28161
+recol3s=14798
+recol3d=19777
+desc=Rune kiteshield with gold plate.
+model=model_2339_obj
+2dxof=-6
+2dyof=-14
+2dzoom=1560
+2dyan=1104
+2dxan=344
+iop2=Wear
+cost=54400
+manwear=model_486_obj_wear,0
+womanwear=model_486_obj_wear,6
+members=yes
+
+[obj_3489]
+certlink=obj_3488
+certtemplate=template_for_cert
+
+[obj_3490]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3491]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3492]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3493]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3494]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3495]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3496]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3497]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3498]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3499]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3500]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3501]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3502]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3503]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3504]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3505]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3506]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3507]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3508]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3509]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3510]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3511]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3512]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3513]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3514]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3515]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3516]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3517]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3518]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3519]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3520]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3521]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3522]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3523]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3524]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3525]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3526]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3527]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3528]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3529]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3530]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3531]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3532]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3533]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3534]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3535]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3536]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3537]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3538]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3539]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3540]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3541]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3542]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3543]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3544]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3545]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3546]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3547]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3548]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3549]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3550]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3551]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3552]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3553]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3554]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3555]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3556]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3557]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3558]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3559]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3560]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3561]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3562]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3563]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3564]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3565]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3565
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3566]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3567]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3565
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3568]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3569]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3569
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3570]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3571]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3569
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3572]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3573]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3574]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3575]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3576]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3569
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3577]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3578]
+name=Puzzle box
+desc=I need to solve this!
+cost=100
+members=yes
+model=obj_3565
+2dyof=4
+2dzoom=900
+2dyan=80
+2dxan=420
+iop1=Open
+
+[obj_3579]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3580]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3581]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3582]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3583]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3584]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3585]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3586]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3587]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3588]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3589]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3590]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3591]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3592]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3593]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3594]
+name=Clue scroll
+desc=Perhaps someone at the observatory can teach me to navigate?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3595]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3596]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3597]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3598]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3599]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3600]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3601]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3602]
+name=Clue scroll
+desc=Part of the world map, but where?
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3603]
+name=Casket
+desc=I hope there's treasure in it.
+model=model_2450_obj
+2dxof=3
+2dyof=-6
+2dzoom=1410
+2dyan=1592
+2dxan=164
+cost=50
+iop1=Open
+members=yes
+
+[obj_3604]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3605]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3606]
+name=Key
+desc=A key to some drawers.
+members=yes
+cost=1
+model=model_2372_obj
+2dxof=-3
+2dyof=5
+2dzoom=700
+2dyan=20
+2dxan=328
+
+[obj_3607]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3608]
+name=Key
+desc=A key to some drawers.
+members=yes
+cost=1
+model=model_2372_obj
+2dxof=-3
+2dyof=5
+2dzoom=700
+2dyan=20
+2dxan=328
+
+[obj_3609]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3610]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3611]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3612]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3613]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3614]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3615]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3616]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3617]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3618]
+name=Clue scroll
+desc=A clue!
+cost=1
+members=yes
+model=model_3374_obj
+2dxof=1
+2dzoom=1010
+2dyan=672
+2dxan=360
+iop1=Read
+
+[obj_3619]
+name=Sliding piece
+model=obj_3619
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3620]
+name=Sliding piece
+model=obj_3620
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3621]
+name=Sliding piece
+model=obj_3621
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3622]
+name=Sliding piece
+model=obj_3622
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3623]
+name=Sliding piece
+model=obj_3623
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3624]
+name=Sliding piece
+model=obj_3624
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3625]
+name=Sliding piece
+model=obj_3625
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3626]
+name=Sliding piece
+model=obj_3626
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3627]
+name=Sliding piece
+model=obj_3627
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3628]
+name=Sliding piece
+model=obj_3628
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3629]
+name=Sliding piece
+model=obj_3629
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3630]
+name=Sliding piece
+model=obj_3630
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3631]
+name=Sliding piece
+model=obj_3631
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3632]
+name=Sliding piece
+model=obj_3632
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3633]
+name=Sliding piece
+model=obj_3633
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3634]
+name=Sliding piece
+model=obj_3634
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3635]
+name=Sliding piece
+model=obj_3635
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3636]
+name=Sliding piece
+model=obj_3636
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3637]
+name=Sliding piece
+model=obj_3637
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3638]
+name=Sliding piece
+model=obj_3638
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3639]
+name=Sliding piece
+model=obj_3639
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3640]
+name=Sliding piece
+model=obj_3640
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3641]
+name=Sliding piece
+model=obj_3641
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3642]
+name=Sliding piece
+model=obj_3642
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3643]
+name=Sliding piece
+model=obj_3643
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3644]
+name=Sliding piece
+model=obj_3644
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3645]
+name=Sliding piece
+model=obj_3645
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3646]
+name=Sliding piece
+model=obj_3646
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3647]
+name=Sliding piece
+model=obj_3647
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3648]
+name=Sliding piece
+model=obj_3648
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3649]
+name=Sliding piece
+model=obj_3649
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3650]
+name=Sliding piece
+model=obj_3650
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3651]
+name=Sliding piece
+model=obj_3651
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3652]
+name=Sliding piece
+model=obj_3652
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3653]
+name=Sliding piece
+model=obj_3653
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3654]
+name=Sliding piece
+model=obj_3654
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3655]
+name=Sliding piece
+model=obj_3655
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3656]
+name=Sliding piece
+model=obj_3656
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3657]
+name=Sliding piece
+model=obj_3657
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3658]
+name=Sliding piece
+model=obj_3658
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3659]
+name=Sliding piece
+model=obj_3659
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3660]
+name=Sliding piece
+model=obj_3660
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3661]
+name=Sliding piece
+model=obj_3661
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3662]
+name=Sliding piece
+model=obj_3662
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3663]
+name=Sliding piece
+model=obj_3663
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3664]
+name=Sliding piece
+model=obj_3664
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3665]
+name=Sliding piece
+model=obj_3665
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3666]
+name=Sliding piece
+model=obj_3666
+2dxof=-1
+2dyof=1
+2dzoom=2180
+2dxan=520
+iop5=Move
+members=yes
+
+[obj_3667]
+
+[obj_3668]
+certlink=obj_3472
+certtemplate=template_for_cert
+
+[obj_3669]
+certlink=obj_3473
+certtemplate=template_for_cert
+
+[obj_3670]
+certlink=obj_3474
+certtemplate=template_for_cert
+
+[obj_3671]
+certlink=obj_3475
+certtemplate=template_for_cert
+
+[obj_3672]
+certlink=obj_3476
+certtemplate=template_for_cert
+
+[obj_3673]
+certlink=obj_3477
+certtemplate=template_for_cert
+
+[obj_3674]
+certlink=obj_3478
+certtemplate=template_for_cert
+
+[obj_3675]
+certlink=obj_3479
+certtemplate=template_for_cert
+
+[obj_3676]
+certlink=obj_3480
+certtemplate=template_for_cert
+
+[obj_3677]
+certlink=obj_3485
+certtemplate=template_for_cert
+
+[obj_3678]
+name=Flamtaer hammer
+cost=10000
+desc=An exquisitely shaped tool specially designed for fixing temples.
+model=obj_3678
+2dxof=8
+2dyof=-6
+2dzoom=1710
+2dyan=1576
+2dxan=488
+members=yes
+
+[obj_3679]
+certlink=obj_3678
+certtemplate=template_for_cert
+
+[obj_3680]
+name=Dummy shoe1
+recol1s=7298
+recol1d=11525
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3681]
+name=Dummy shoe2
+recol1s=7298
+recol1d=8448
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3682]
+name=Dummy shoe3
+recol1s=7298
+recol1d=13705
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3683]
+name=Dummy shoe4
+recol1s=7298
+recol1d=6309
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3684]
+name=Dummy shoe5
+recol1s=7298
+recol1d=13604
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3685]
+name=Dummy shoe6
+recol1s=7298
+recol1d=11626
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3686]
+name=Fremennik
+recol1s=6273
+recol1d=25128
+recol2s=2340
+recol2d=7365
+recol3s=14724
+recol3d=14662
+recol4s=7328
+recol4d=14696
+recol5s=5120
+recol5d=16710
+desc=One of Rellekka's many citizens.
+model=obj_3686
+2dxof=6
+2dyof=-32
+2dzoom=2660
+2dyan=1876
+2dxan=28
+
+[obj_3687]
+certlink=obj_3686
+certtemplate=template_for_cert
+
+[obj_3688]
+name=Unstrung lyre
+desc=It's almost a musical instrument.
+model=obj_3688
+manwear=obj_3688_manwear,0
+womanwear=obj_3688_manwear,0
+2dxof=-4
+2dzoom=1230
+2dyan=144
+2dxan=464
+members=yes
+
+[obj_3689]
+name=Lyre
+desc=It's a musical instrument I don't know how to play.
+model=obj_3688
+manwear=obj_3688_manwear,0
+womanwear=obj_3688_manwear,0
+iop1=Play
+2dxof=-4
+2dzoom=1230
+2dyan=144
+2dxan=464
+members=yes
+
+[obj_3690]
+name=Enchanted lyre
+desc=A musical instrument that I can magically play.
+model=obj_3688
+iop1=Play
+2dxof=-4
+2dzoom=1230
+2dyan=144
+2dxan=464
+manwear=obj_3688_manwear,0
+womanwear=obj_3688_manwear,0
+members=yes
+
+[obj_3691]
+name=Enchanted lyre
+desc=This will teleport me to Rellekka when I play it.
+model=obj_3688
+iop1=Play
+2dxof=-4
+2dzoom=1230
+2dyan=144
+2dxan=464
+cost=1000
+manwear=obj_3688_manwear,0
+members=yes
+
+[obj_3692]
+name=Branch
+desc=I can use this to make a lyre.
+model=obj_3692
+2dxof=-8
+2dyof=-21
+2dzoom=940
+2dyan=152
+2dxan=268
+members=yes
+
+[obj_3693]
+name=Golden fleece
+recol1s=29595
+recol1d=30543
+desc=I can spin this into golden wool...
+model=model_2779_obj
+2dyof=-7
+2dzoom=1070
+2dyan=160
+2dxan=332
+ambient=30
+contrast=30
+members=yes
+
+[obj_3694]
+name=Golden wool
+recol1s=29595
+recol1d=30543
+desc=I can use this to make a lyre.
+model=obj_3694
+2dxof=6
+2dyof=-9
+2dzoom=720
+2dyan=448
+2dxan=152
+ambient=30
+contrast=30
+members=yes
+
+[obj_3695]
+name=Pet rock
+recol1s=15369
+recol1d=10570
+desc=The lowest maintenance pet you will ever have.
+model=obj_3695
+manwear=obj_3695_manwear,0
+womanwear=obj_3695_manwear,0
+2dxof=-4
+2dzoom=1010
+2dyan=1980
+2dxan=136
+members=yes
+iop1=Feed
+iop2=Stroke
+iop3=Talk-to
+
+[obj_3696]
+name=Hunters' talisman
+desc=Talisman to bind the draugen
+model=obj_3696
+2dxof=4
+2dyof=4
+2dzoom=1170
+2dyan=1264
+2dxan=576
+cost=4
+iop1=Locate
+members=yes
+
+[obj_3697]
+name=Hunters' talisman
+desc=Talisman to bind the draugen
+model=obj_3696
+2dxof=4
+2dyof=4
+2dzoom=1170
+2dyan=1264
+2dxan=576
+cost=4
+iop1=Locate
+members=yes
+
+[obj_3698]
+name=Exotic flower
+recol1s=9702
+recol1d=9574
+recol2s=21017
+recol2d=15525
+recol3s=18455
+recol3d=15525
+recol4s=14967
+recol4d=15525
+recol5s=27363
+recol5d=13345
+desc=Some flowers from a distant land.
+model=model_1781_obj
+2dyof=-2
+2dzoom=840
+2dyan=816
+2dxan=612
+members=yes
+
+[obj_3699]
+name=Fremennik ballad
+recol1s=28434
+recol1d=26320
+desc=A hauntingly beautiful love ballad.
+model=model_2429_obj
+2dyof=2
+2dzoom=760
+2dyan=28
+2dxan=552
+members=yes
+
+[obj_3700]
+name=Sturdy boots
+desc=A pair of sturdy custom made boots.
+model=model_2837_obj
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3701]
+name=Hunters map
+recol1s=24174
+recol1d=10597
+recol2s=21003
+recol2d=7426
+recol3s=17832
+recol3d=4256
+desc=A map showing very active hunting spots.
+model=model_2774_obj
+2dxof=-1
+2dyof=56
+2dzoom=990
+2dyan=1716
+2dxan=264
+members=yes
+
+[obj_3702]
+name=Custom bow string
+desc=A finely crafted string for a custom bow.
+model=model_2552_obj
+2dxof=3
+2dyof=2
+2dzoom=530
+2dyan=1872
+2dxan=148
+members=yes
+
+[obj_3703]
+name=Unusual fish
+recol1s=15855
+recol1d=15885
+recol2s=26425
+recol2d=20113
+recol3s=32
+recol3d=9543
+desc=An extremely rare, non edible fish.
+model=model_2355_obj
+2dyof=3
+2dzoom=1340
+2dyan=1920
+2dxan=464
+members=yes
+
+[obj_3704]
+name=Sea fishing map
+recol1s=24174
+recol1d=24272
+recol2s=21003
+recol2d=21101
+recol3s=17832
+recol3d=17930
+desc=Map showing the best fishing spots out at sea.
+model=model_2774_obj
+2dxof=-1
+2dyof=56
+2dzoom=990
+2dyan=1716
+2dxan=264
+members=yes
+
+[obj_3705]
+name=Weather forecast
+recol1s=28434
+recol1d=23183
+desc=An estimate of expected local weather patterns.
+model=model_2429_obj
+2dyof=2
+2dzoom=760
+2dyan=28
+2dxan=552
+members=yes
+
+[obj_3706]
+name=Champions token
+recol1s=31457
+recol1d=23012
+desc=Shows the wearer is worthy of the Champions table.
+model=model_2784_obj
+2dxof=3
+2dyof=-35
+2dzoom=830
+2dyan=180
+2dzan=2024
+2dxan=268
+members=yes
+
+[obj_3707]
+name=Legendary cocktail
+desc=Probably the greatest cocktail in the world.
+model=model_2738_obj
+2dyof=1
+2dzoom=700
+2dyan=1988
+2dxan=104
+members=yes
+
+[obj_3708]
+name=Fiscal statement
+recol1s=15648
+recol1d=18821
+recol2s=29594
+recol2d=25330
+recol3s=30753
+recol3d=24739
+desc=A signed statement promising a reduction on sales tax.
+model=model_2675_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+members=yes
+
+[obj_3709]
+name=Promissory note
+recol1s=15648
+recol1d=18821
+recol2s=29594
+recol2d=25330
+recol3s=30753
+recol3d=24739
+desc=A legally binding contract promising not to enter the longhall.
+model=model_2675_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+members=yes
+
+[obj_3710]
+name=Warriors' contract
+recol1s=15648
+recol1d=18821
+recol2s=29594
+recol2d=25330
+recol3s=30753
+recol3d=24739
+desc=This employment contract is for a warrior to act as a bodyguard.
+model=model_2675_obj
+2dxof=1
+2dyof=7
+2dzoom=1040
+2dyan=120
+2dxan=380
+members=yes
+
+[obj_3711]
+name=Keg of beer
+desc=A lot of beer in a barrel.
+model=obj_3711
+manwear=obj_3711_manwear,0
+womanwear=obj_3711_manwear,0
+2dyof=-3
+2dzoom=1370
+2dyan=4
+2dxan=128
+members=yes
+
+[obj_3712]
+name=Low alcohol keg
+desc=Suspiciously close to beer, but without the side effects.
+model=obj_3711
+2dyof=-3
+2dzoom=1370
+2dyan=4
+2dxan=128
+members=yes
+
+[obj_3713]
+name=Strange object
+desc=It's some kind of weird little parcel thing.
+model=obj_3713
+2dxof=-2
+2dyof=-2
+2dzoom=920
+2dyan=1948
+2dxan=112
+members=yes
+
+[obj_3714]
+name=Lit strange object
+desc=It's some kind of weird little parcel thing. On fire.
+model=obj_3713
+2dxof=-2
+2dyof=-2
+2dzoom=920
+2dyan=1948
+2dxan=112
+members=yes
+
+[obj_3715]
+name=Red disk
+recol1s=31393
+recol1d=25859
+recol2s=31393
+recol2d=23745
+desc=A red coloured disk, apparently made of wood.
+model=model_2484_obj
+2dxof=15
+2dyof=16
+2dzoom=230
+2dxan=356
+members=yes
+
+[obj_3716]
+name=Red disk
+recol1s=31393
+recol1d=0
+recol2s=31393
+recol2d=0
+desc=A red coloured disk, apparently made of wood.
+model=model_2484_obj
+2dxof=15
+2dyof=16
+2dzoom=230
+2dxan=356
+members=yes
+
+[obj_3717]
+name=Viking dummy lid
+model=model_loc_2733_0
+members=yes
+
+[obj_3718]
+name=Magnet
+desc=A very attractive magnet.
+cost=3
+model=model_2798_obj
+2dxof=3
+2dyof=7
+2dzoom=1130
+2dyan=132
+2dxan=440
+members=yes
+
+[obj_3719]
+name=Blue thread
+recol1s=17898
+recol1d=31
+desc=Some blue thread.
+members=yes
+model=model_2552_obj
+2dxof=3
+2dyof=2
+2dzoom=530
+2dyan=1872
+2dxan=148
+
+[obj_3720]
+name=Small pick
+desc=A small pick for cracking small objects.
+model=model_2792_obj
+2dxof=-6
+2dyof=-10
+2dzoom=700
+2dyan=1076
+2dxan=476
+members=yes
+
+[obj_3721]
+name=Toy ship
+desc=Might be fun to play with in the bath.
+cost=2
+members=yes
+model=obj_3721
+2dxof=1
+2dyof=-3
+2dzoom=1160
+2dyan=244
+2dxan=68
+ambient=20
+contrast=20
+
+[obj_3722]
+name=Full bucket
+desc=This bucket is completely full. It has a 5 painted on it's side.
+model=model_2504_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3723]
+name=4/5ths full bucket
+desc=This bucket is eighty percent full. It has a 5 painted on it's side.
+model=model_2504_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3724]
+name=3/5ths full bucket
+desc=This bucket is sixty percent full. It has a 5 painted on it's side.
+model=model_2504_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3725]
+name=2/5ths full bucket
+desc=This bucket is forty percent full. It has a 5 painted on it's side.
+model=model_2397_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3726]
+name=1/5ths full bucket
+desc=This bucket is twenty percent full. It has a 5 painted on it's side.
+model=model_2397_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3727]
+name=Empty bucket
+desc=This bucket is completely empty. It has a 5 painted on it's side.
+model=model_2397_obj
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3728]
+name=Frozen bucket
+desc=This bucket of water is frozen solid.
+model=obj_3728
+2dyof=-18
+2dzoom=1020
+2dyan=1688
+2dxan=204
+members=yes
+
+[obj_3729]
+name=Full jug
+recol1s=32767
+recol1d=10645
+desc=This jug is completely full. It has a 3 painted on it's side.
+model=model_2390_obj
+2dxof=1
+2dyof=100
+2dzoom=600
+2dyan=84
+2dxan=260
+members=yes
+
+[obj_3730]
+name=2/3rds full jug
+recol1s=32767
+recol1d=15855
+desc=This jug is two thirds full. It has a 3 painted on it's side.
+model=model_2390_obj
+2dxof=1
+2dyof=100
+2dzoom=600
+2dyan=84
+2dxan=260
+members=yes
+
+[obj_3731]
+name=1/3rds full jug
+recol1s=32767
+recol1d=15855
+desc=This jug is one thirds full. It has a 3 painted on it's side.
+model=model_2390_obj
+2dxof=1
+2dyof=100
+2dzoom=600
+2dyan=84
+2dxan=260
+members=yes
+
+[obj_3732]
+name=Empty jug
+recol1s=32767
+recol1d=15855
+desc=This jug is completely empty. It has a 3 painted on it's side.
+model=model_2390_obj
+2dxof=1
+2dyof=100
+2dzoom=600
+2dyan=84
+2dxan=260
+members=yes
+
+[obj_3733]
+name=Frozen jug
+recol1s=32767
+recol1d=15855
+recol2s=15855
+recol2d=22200
+desc=This jug of water is frozen solid.
+model=model_2390_obj
+2dxof=1
+2dyof=100
+2dzoom=600
+2dyan=84
+2dxan=260
+members=yes
+
+[obj_3734]
+name=Vase
+desc=An unusually shaped vase. You can see something glinting inside.
+model=obj_3734
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Shake
+
+[obj_3735]
+name=Vase of water
+desc=An unusually shaped vase full of water. You can see something glinting inside.
+model=obj_3734
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Shake
+
+[obj_3736]
+name=Frozen vase
+desc=An unusually shaped vase full of ice. You can see something glinting inside.
+model=obj_3734
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Shake
+
+[obj_3737]
+name=Vase lid
+desc=This looks like a lid to some kind of container...
+model=obj_3737
+2dxof=-4
+2dyof=28
+2dzoom=1260
+2dxan=152
+members=yes
+
+[obj_3738]
+name=Sealed vase
+desc=The lid is screwed on tightly.
+model=obj_3738
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Remove-lid
+
+[obj_3739]
+name=Sealed vase
+desc=The lid is screwed on tightly. It is very cold.
+model=obj_3738
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Remove-lid
+
+[obj_3740]
+name=Sealed vase
+desc=The lid is screwed on tightly. It is full of water.
+model=obj_3738
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+iop1=Remove-lid
+
+[obj_3741]
+name=Frozen key
+desc=A key encased in ice.
+model=obj_3741
+2dxof=-2
+2dyof=-13
+2dzoom=1660
+2dyan=44
+2dxan=160
+members=yes
+
+[obj_3742]
+name=Red herring
+recol1s=15855
+recol1d=16550
+recol2s=26425
+recol2d=27978
+desc=The colouring on it seems to be some kind of sticky goop...
+model=model_2353_obj
+2dxof=3
+2dyof=8
+2dzoom=900
+2dyan=1904
+2dxan=436
+ambient=30
+contrast=30
+members=yes
+
+[obj_3743]
+name=Red disk
+recol1s=31393
+recol1d=25859
+recol2s=31393
+recol2d=23745
+desc=A red coloured disk, apparently made of wood.
+model=model_2484_obj
+2dxof=3
+2dzoom=710
+2dyan=2012
+2dxan=184
+members=yes
+
+[obj_3744]
+name=Wooden disk
+recol1s=31393
+recol1d=21003
+recol2s=31393
+recol2d=18889
+desc=A simple looking disk made of wood.
+model=model_2484_obj
+2dxof=3
+2dzoom=710
+2dyan=2012
+2dxan=184
+members=yes
+
+[obj_3745]
+name=Seers' key
+recol1s=31393
+recol1d=17799
+desc=The key to leave the Seers' house.
+model=model_2372_obj
+2dxof=-3
+2dyof=5
+2dzoom=700
+2dyan=20
+2dxan=328
+members=yes
+
+[obj_3746]
+name=Sticky red goop
+desc=Yup, it's sticky, it's red and it's goop.
+model=obj_3746
+2dxof=-1
+2dzoom=1090
+2dyan=2020
+2dxan=304
+
+[obj_3747]
+certlink=obj_3746
+certtemplate=template_for_cert
+
+[obj_3748]
+name=Fremennik helm
+desc=A sturdy helm worn only by Fremennik clan members.
+model=obj_3748
+2dxof=4
+2dyof=-1
+2dzoom=540
+2dyan=188
+2dxan=88
+iop2=Wear
+manwear=model_215_idk,0
+manwear2=obj_3748_manwear2
+manwear3=obj_3748_manwear3
+womanwear=model_391_idk,0
+womanwear3=obj_3748_manwear2
+womanwear2=obj_3748_womanwear2
+manhead=obj_3686
+manhead2=obj_3748_manhead2
+womanhead=obj_3748_womanhead
+womanhead2=obj_3748_manhead2
+members=yes
+cost=5000
+
+[obj_3749]
+name=Archer helm
+desc=This helmet is worn by archers.
+cost=60000
+model=obj_3749
+2dxof=-2
+2dyof=-4
+2dzoom=1010
+2dxan=16
+iop2=Wear
+manwear=model_215_idk,0
+manwear2=obj_3749_manwear2
+manwear3=obj_3748_manwear3
+womanwear=model_391_idk,0
+womanwear2=obj_3749_womanwear2
+womanwear3=obj_3748_womanwear2
+manhead=obj_3686
+manhead2=obj_3749_manhead2
+womanhead=obj_3748_womanhead
+womanhead2=obj_3749_manhead2
+members=yes
+
+[obj_3750]
+certlink=obj_3749
+certtemplate=template_for_cert
+
+[obj_3751]
+name=Berserker helm
+desc=This helmet is worn by berserkers.
+cost=60000
+model=obj_3751
+2dxof=2
+2dzoom=890
+2dyan=120
+2dxan=24
+iop2=Wear
+manwear=model_215_idk,0
+manwear2=obj_3751_manwear2
+manwear3=obj_3748_manwear3
+womanwear=model_391_idk,0
+womanwear2=obj_3751_womanwear2
+womanwear3=obj_3748_womanwear2
+manhead=obj_3686
+manhead2=obj_3751_manhead2
+womanhead=obj_3748_womanhead
+womanhead2=obj_3751_manhead2
+members=yes
+
+[obj_3752]
+certlink=obj_3751
+certtemplate=template_for_cert
+
+[obj_3753]
+name=Warrior helm
+desc=This helmet is worn by warriors.
+cost=60000
+model=obj_3753
+2dxof=2
+2dzoom=1100
+2dyan=204
+2dxan=12
+iop2=Wear
+manwear=model_215_idk,0
+manwear2=obj_3753_manwear2
+manwear3=obj_3748_manwear3
+womanwear=model_391_idk,0
+womanwear2=obj_3753_womanwear2
+womanwear3=obj_3748_womanwear2
+manhead=obj_3686
+manhead2=obj_3753_manhead2
+womanhead=obj_3748_womanhead
+womanhead2=obj_3753_manhead2
+members=yes
+
+[obj_3754]
+certlink=obj_3753
+certtemplate=template_for_cert
+
+[obj_3755]
+name=Farseer helm
+desc=This helmet is worn by farseers.
+cost=60000
+model=obj_3755
+2dxof=2
+2dzoom=820
+2dyan=104
+2dxan=32
+iop2=Wear
+manwear=model_215_idk,0
+manwear2=obj_3755_manwear2
+manwear3=obj_3748_manwear3
+womanwear=model_391_idk,0
+womanwear2=obj_3755_womanwear2
+womanwear3=obj_3748_womanwear2
+manhead=obj_3686
+manhead2=obj_3755_manhead2
+womanhead=obj_3748_womanhead
+womanhead2=obj_3755_manhead2
+members=yes
+
+[obj_3756]
+certlink=obj_3755
+certtemplate=template_for_cert
+
+[obj_3757]
+name=Fremennik blade
+desc=A sword used only by Fremennik warriors.
+model=obj_3757
+2dxof=1
+2dyof=23
+2dzoom=1710
+2dyan=1940
+2dxan=332
+iop2=Wield
+manwear=obj_3757_manwear,0
+womanwear=obj_3757_manwear,6
+members=yes
+cost=5000
+
+[obj_3758]
+name=Fremennik shield
+desc=A shield worn by Fremennik warriors.
+model=obj_3758
+2dxof=3
+2dyof=9
+2dzoom=2080
+2dyan=252
+2dxan=432
+iop2=Wield
+manwear=obj_3758_manwear,0
+womanwear=obj_3758_manwear,6
+members=yes
+cost=5000
+
+[obj_3759]
+name=Fremennik cloak
+recol1s=7329
+recol1d=14175
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3760]
+certlink=obj_3759
+certtemplate=template_for_cert
+
+[obj_3761]
+name=Fremennik cloak
+recol1s=7329
+recol1d=6305
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3762]
+certlink=obj_3761
+certtemplate=template_for_cert
+
+[obj_3763]
+name=Fremennik cloak
+recol1s=7329
+recol1d=10576
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3764]
+certlink=obj_3763
+certtemplate=template_for_cert
+
+[obj_3765]
+name=Fremennik cloak
+recol1s=7329
+recol1d=256
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3766]
+certlink=obj_3765
+certtemplate=template_for_cert
+
+[obj_3767]
+name=Fremennik shirt
+recol1s=14724
+recol1d=11525
+recol2s=10464
+recol2d=7297
+recol3s=7328
+recol3d=9411
+desc=The latest in Fremennik fashion.
+cost=250
+model=model_2786_obj
+manwear=model_162_idk,0
+manwear2=model_292_idk
+manwear3=obj_3767_manwear3
+womanwear=model_348_idk,0
+womanwear2=model_470_idk
+womanwear3=obj_3767_womanwear3
+iop2=Wear
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3768]
+certlink=obj_3767
+certtemplate=template_for_cert
+
+[obj_3769]
+name=Fremennik shirt
+recol1s=14724
+recol1d=11623
+recol2s=7328
+recol2d=10566
+recol3s=10464
+recol3d=16710
+desc=The latest in Fremennik fashion.
+cost=250
+model=model_2786_obj
+manwear=model_162_idk,0
+manwear2=model_292_idk
+manwear3=obj_3767_manwear3
+womanwear=model_348_idk,0
+womanwear2=model_470_idk
+womanwear3=obj_3767_womanwear3
+iop2=Wear
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3770]
+certlink=obj_3769
+certtemplate=template_for_cert
+
+[obj_3771]
+name=Fremennik shirt
+recol1s=14724
+recol1d=17897
+recol2s=7328
+recol2d=20011
+recol3s=10464
+recol3d=17863
+desc=The latest in Fremennik fashion.
+cost=250
+model=model_2786_obj
+manwear=model_162_idk,0
+manwear2=model_292_idk
+manwear3=obj_3767_manwear3
+womanwear=model_348_idk,0
+womanwear2=model_470_idk
+womanwear3=obj_3767_womanwear3
+iop2=Wear
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3772]
+certlink=obj_3771
+certtemplate=template_for_cert
+
+[obj_3773]
+name=Fremennik shirt
+recol1s=14724
+recol1d=9216
+recol2s=7328
+recol2d=12453
+recol3s=10464
+recol3d=10405
+cost=250
+desc=The latest in Fremennik fashion.
+model=model_2786_obj
+manwear=model_162_idk,0
+manwear2=model_292_idk
+manwear3=obj_3767_manwear3
+womanwear=model_348_idk,0
+womanwear2=model_470_idk
+womanwear3=obj_3767_womanwear3
+iop2=Wear
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3774]
+certlink=obj_3773
+certtemplate=template_for_cert
+
+[obj_3775]
+name=Fremennik shirt
+recol1s=14724
+recol1d=2119
+recol2s=7328
+recol2d=5288
+recol3s=10464
+recol3d=5290
+cost=250
+desc=The latest in Fremennik fashion.
+model=model_2786_obj
+manwear=model_162_idk,0
+manwear2=model_292_idk
+manwear3=obj_3767_manwear3
+womanwear=model_348_idk,0
+womanwear2=model_470_idk
+womanwear3=obj_3767_womanwear3
+iop2=Wear
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3776]
+certlink=obj_3775
+certtemplate=template_for_cert
+
+[obj_3777]
+name=Fremennik cloak
+recol1s=7329
+recol1d=10240
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3778]
+certlink=obj_3777
+certtemplate=template_for_cert
+
+[obj_3779]
+name=Fremennik cloak
+recol1s=7329
+recol1d=10570
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3780]
+certlink=obj_3779
+certtemplate=template_for_cert
+
+[obj_3781]
+name=Fremennik cloak
+recol1s=7329
+recol1d=30337
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3782]
+certlink=obj_3781
+certtemplate=template_for_cert
+
+[obj_3783]
+name=Fremennik cloak
+recol1s=7329
+recol1d=231
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3784]
+certlink=obj_3783
+certtemplate=template_for_cert
+
+[obj_3785]
+name=Fremennik cloak
+recol1s=7329
+recol1d=13325
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3786]
+certlink=obj_3785
+certtemplate=template_for_cert
+
+[obj_3787]
+name=Fremennik cloak
+recol1s=7329
+recol1d=25073
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3788]
+certlink=obj_3787
+certtemplate=template_for_cert
+
+[obj_3789]
+name=Fremennik cloak
+recol1s=7329
+recol1d=0
+cost=250
+desc=The latest fashion in Rellekka.
+model=obj_3759
+2dxof=3
+2dyof=6
+2dzoom=2140
+2dyan=948
+2dxan=400
+iop2=Wear
+manwear=model_317_npc,0
+womanwear=model_479_npc,0
+members=yes
+
+[obj_3790]
+certlink=obj_3789
+certtemplate=template_for_cert
+
+[obj_3791]
+name=Fremennik boots
+recol1s=7298
+recol1d=256
+desc=Very stylish!
+model=model_2837_obj
+manwear=model_185_obj_wear,0
+womanwear=model_361_obj_wear,0
+iop2=Wear
+cost=500
+2dxof=1
+2dyof=-6
+2dzoom=770
+2dyan=160
+2dxan=152
+members=yes
+
+[obj_3792]
+certlink=obj_3791
+certtemplate=template_for_cert
+
+[obj_3793]
+name=Fremennik robe
+recol1s=14724
+recol1d=256
+desc=The latest fashion in Rellekka.
+model=model_2786_obj
+manwear=model_170_idk,0
+womanwear=model_348_idk,0
+manwear2=model_292_idk
+womanwear2=model_456_idk
+iop2=Wear
+cost=500
+2dyof=7
+2dzoom=1370
+2dxan=536
+members=yes
+
+[obj_3794]
+certlink=obj_3793
+certtemplate=template_for_cert
+
+[obj_3795]
+name=Fremennik skirt
+recol1s=2340
+recol1d=256
+desc=The latest fashion in Rellekka.
+model=model_2521_obj
+manwear=model_265_obj_wear,0
+womanwear=model_428_idk,0
+iop2=Wear
+cost=500
+2dyof=1
+2dzoom=1940
+2dxan=572
+members=yes
+
+[obj_3796]
+certlink=obj_3795
+certtemplate=template_for_cert
+
+[obj_3797]
+name=Fremennik hat
+recol1s=239
+recol1d=256
+desc=A silly pointed hat.
+model=model_2483_obj
+manwear=model_202_obj_wear,0
+womanwear=model_377_obj_wear,0
+manhead=model_44_obj_wear
+womanhead=model_102_obj_wear
+cost=500
+iop2=Wear
+2dxof=5
+2dyof=-10
+2dzoom=800
+2dyan=156
+2dxan=152
+members=yes
+
+[obj_3798]
+certlink=obj_3797
+certtemplate=template_for_cert
+
+[obj_3799]
+name=Gloves
+recol1s=9473
+recol1d=256
+recol2s=10468
+recol2d=256
+desc=These will keep my hands warm!
+cost=500
+model=model_2649_obj
+iop2=Wear
+manwear=model_179_obj_wear,0
+womanwear=model_356_obj_wear,0
+2dxof=8
+2dyof=-8
+2dzoom=930
+2dyan=828
+2dxan=420
+members=yes
+
+[obj_3800]
+certlink=obj_3799
+certtemplate=template_for_cert
+
+[obj_3801]
+name=Keg of beer
+iop1=Drink
+desc=A lot of beer in a barrel.
+model=obj_3711
+manwear=obj_3711_manwear,0
+womanwear=obj_3711_manwear,0
+2dyof=-3
+2dzoom=1370
+2dyan=4
+2dxan=128
+cost=250
+members=yes
+
+[obj_3802]
+certlink=obj_3801
+certtemplate=template_for_cert
+
+[obj_3803]
+name=Beer
+iop1=Drink
+desc=Frothy and alcoholic.
+model=obj_3803
+manwear=obj_3803_manwear,0
+womanwear=obj_3803_manwear,0
+2dxof=-4
+2dyof=1
+2dzoom=670
+2dyan=76
+2dxan=132
+cost=20
+members=yes
+
+[obj_3804]
+certlink=obj_3803
+certtemplate=template_for_cert
+
+[obj_3805]
+name=Tankard
+desc=A big cup for a big thirst.
+model=obj_3805
+2dxof=-4
+2dyof=1
+2dzoom=670
+2dyan=76
+2dxan=132
+cost=5
+members=yes
+
+[obj_3806]
+certlink=obj_3805
+certtemplate=template_for_cert
+
+[obj_3807]
+name=Bolt2
+stackable=yes
+model=obj_3807
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3808]
+name=Bolt3
+stackable=yes
+model=obj_3808
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3809]
+name=Bolt4
+stackable=yes
+model=obj_3809
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3810]
+name=Bolts
+stackable=yes
+model=model_2664_obj
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3811]
+name=Poison bolt2
+recol1s=14798
+recol1d=8682
+recol2s=5285
+recol2d=8682
+stackable=yes
+model=obj_3807
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3812]
+name=Poison bolt3
+recol1s=14798
+recol1d=8682
+recol2s=5285
+recol2d=8682
+stackable=yes
+model=obj_3808
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3813]
+name=Poison bolt4
+recol1s=14798
+recol1d=8682
+recol2s=5285
+recol2d=8682
+stackable=yes
+model=obj_3809
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3814]
+name=Poison bolts
+recol1s=14798
+recol1d=8682
+recol2s=5285
+recol2d=8682
+stackable=yes
+model=model_2664_obj
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3815]
+name=Opal bolt2
+recol1s=15855
+recol1d=3205
+recol2s=21140
+recol2d=3205
+recol3s=14798
+recol3d=3206
+recol4s=10570
+recol4d=3206
+recol5s=5285
+recol5d=21140
+stackable=yes
+model=obj_3807
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3816]
+name=Opal bolt3
+recol1s=15855
+recol1d=3205
+recol2s=21140
+recol2d=3205
+recol3s=14798
+recol3d=3206
+recol4s=10570
+recol4d=3206
+recol5s=5285
+recol5d=21140
+stackable=yes
+model=obj_3808
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3817]
+name=Opal bolt4
+recol1s=15855
+recol1d=3205
+recol2s=21140
+recol2d=3205
+recol3s=14798
+recol3d=3206
+recol4s=10570
+recol4d=3206
+recol5s=5285
+recol5d=21140
+stackable=yes
+model=obj_3809
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3818]
+name=Opal bolts
+recol1s=15855
+recol1d=3205
+recol2s=21140
+recol2d=3205
+recol3s=14798
+recol3d=3206
+recol4s=10570
+recol4d=3206
+recol5s=5285
+recol5d=21140
+stackable=yes
+model=model_2664_obj
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3819]
+name=Pearl bolt2
+recol1s=15855
+recol1d=22161
+recol2s=21140
+recol2d=22162
+recol3s=14798
+recol3d=22161
+recol4s=10570
+recol4d=22161
+stackable=yes
+model=obj_3807
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3820]
+name=Pearl bolt3
+recol1s=15855
+recol1d=22161
+recol2s=21140
+recol2d=22162
+recol3s=14798
+recol3d=22161
+recol4s=10570
+recol4d=22161
+stackable=yes
+model=obj_3808
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3821]
+name=Pearl bolt4
+recol1s=15855
+recol1d=22161
+recol2s=21140
+recol2d=22162
+recol3s=14798
+recol3d=22161
+recol4s=10570
+recol4d=22161
+stackable=yes
+model=obj_3809
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3822]
+name=Pearl bolts
+recol1s=15855
+recol1d=22161
+recol2s=21140
+recol2d=22162
+recol3s=14798
+recol3d=22161
+recol4s=10570
+recol4d=22161
+stackable=yes
+model=model_2664_obj
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3823]
+name=Barbed bolt2
+recol1s=5285
+recol1d=13472
+stackable=yes
+model=obj_3807
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3824]
+name=Barbed bolt3
+recol1s=5285
+recol1d=13472
+stackable=yes
+model=obj_3808
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3825]
+name=Barbed bolt4
+recol1s=5285
+recol1d=13472
+stackable=yes
+model=obj_3809
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3826]
+name=Barbed bolts
+recol1s=5285
+recol1d=13472
+stackable=yes
+model=model_2664_obj
+2dxof=-1
+2dyof=-42
+2dzoom=640
+2dyan=4
+2dxan=244
+
+[obj_3827]
+name=Torn page 1
+recol1s=23254
+recol1d=26424
+recol2s=22197
+recol2d=25367
+recol3s=21140
+recol3d=24310
+recol4s=20083
+recol4d=24308
+recol5s=19026
+recol5d=23251
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3828]
+name=Torn page 2
+recol1s=23254
+recol1d=26424
+recol2s=22197
+recol2d=25367
+recol3s=21140
+recol3d=24310
+recol4s=20083
+recol4d=24308
+recol5s=19026
+recol5d=23251
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3829]
+name=Torn page 3
+recol1s=23254
+recol1d=26424
+recol2s=22197
+recol2d=25367
+recol3s=21140
+recol3d=24310
+recol4s=20083
+recol4d=24308
+recol5s=19026
+recol5d=23251
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3830]
+name=Torn page 4
+recol1s=23254
+recol1d=26424
+recol2s=22197
+recol2d=25367
+recol3s=21140
+recol3d=24310
+recol4s=20083
+recol4d=24308
+recol5s=19026
+recol5d=23251
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3831]
+name=Torn page 1
+recol1s=23254
+recol1d=26260
+recol2s=22197
+recol2d=25203
+recol3s=21140
+recol3d=23155
+recol4s=20083
+recol4d=22098
+recol5s=19026
+recol5d=22032
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3832]
+name=Torn page 2
+recol1s=23254
+recol1d=26260
+recol2s=22197
+recol2d=25203
+recol3s=21140
+recol3d=23155
+recol4s=20083
+recol4d=22098
+recol5s=19026
+recol5d=22032
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3833]
+name=Torn page 3
+recol1s=23254
+recol1d=26260
+recol2s=22197
+recol2d=25203
+recol3s=21140
+recol3d=23155
+recol4s=20083
+recol4d=22098
+recol5s=19026
+recol5d=22032
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3834]
+name=Torn page 4
+recol1s=23254
+recol1d=26260
+recol2s=22197
+recol2d=25203
+recol3s=21140
+recol3d=23155
+recol4s=20083
+recol4d=22098
+recol5s=19026
+recol5d=22032
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3835]
+name=Torn page 1
+recol1s=23254
+recol1d=19186
+recol2s=22197
+recol2d=18129
+recol3s=21140
+recol3d=18065
+recol4s=20083
+recol4d=17008
+recol5s=19026
+recol5d=15951
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3836]
+name=Torn page 2
+recol1s=23254
+recol1d=19186
+recol2s=22197
+recol2d=18129
+recol3s=21140
+recol3d=18065
+recol4s=20083
+recol4d=17008
+recol5s=19026
+recol5d=15951
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3837]
+name=Torn page 3
+recol1s=23254
+recol1d=19186
+recol2s=22197
+recol2d=18129
+recol3s=21140
+recol3d=18065
+recol4s=20083
+recol4d=17008
+recol5s=19026
+recol5d=15951
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3838]
+name=Torn page 4
+recol1s=23254
+recol1d=19186
+recol2s=22197
+recol2d=18129
+recol3s=21140
+recol3d=18065
+recol4s=20083
+recol4d=17008
+recol5s=19026
+recol5d=15951
+desc=This seems to have been torn from a book...
+cost=200
+stackable=yes
+members=yes
+model=obj_3827
+2dxof=1
+2dyof=5
+2dzoom=680
+2dyan=80
+2dxan=400
+
+[obj_3839]
+name=Damaged book
+recol1s=13472
+recol1d=26425
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=An incomplete book of Saradomin.
+model=model_2543_obj
+iop2=Wield
+members=yes
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3840]
+name=Holy book
+recol1s=13472
+recol1d=26425
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=The holy book of Saradomin.
+model=model_2543_obj
+iop2=Wield
+iop3=Preach
+members=yes
+cost=1000
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3841]
+name=Damaged book
+recol1s=13472
+recol1d=19489
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=An incomplete book of Zamorak.
+model=model_2543_obj
+iop2=Wield
+members=yes
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3842]
+name=Unholy book
+recol1s=13472
+recol1d=19489
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=The holy book of Zamorak.
+model=model_2543_obj
+iop2=Wield
+iop3=Preach
+members=yes
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3843]
+name=Damaged book
+recol1s=13472
+recol1d=448
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=An incomplete book of Guthix.
+model=model_2543_obj
+iop2=Wield
+members=yes
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3844]
+name=Book of balance
+recol1s=13472
+recol1d=448
+recol2s=15855
+recol2d=20033
+recol3s=29594
+recol3d=15855
+desc=The holy book of Guthix.
+model=model_2543_obj
+iop2=Wield
+iop3=Preach
+members=yes
+manwear=model_556,0
+womanwear=model_556,6
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+cost=200
+
+[obj_3845]
+name=Journal
+recol1s=13472
+recol1d=12387
+recol2s=29594
+recol2d=29587
+desc=A daily journal.
+iop1=Read
+members=yes
+model=model_2794_obj
+2dzoom=840
+2dyan=152
+2dxan=256
+
+[obj_3846]
+name=Diary
+recol1s=13472
+recol1d=16709
+recol2s=29594
+recol2d=26417
+desc=Someone's Diary.
+iop1=Read
+members=yes
+model=model_2633_obj
+2dxof=1
+2dyof=22
+2dzoom=860
+2dyan=120
+2dxan=276
+
+[obj_3847]
+name=Manual
+recol1s=13472
+recol1d=22192
+recol2s=29594
+recol2d=29587
+recol3s=20033
+recol3d=19654
+recol4s=15855
+recol4d=19654
+desc=Looks like some kind of manual.
+iop1=Read
+members=yes
+model=model_2543_obj
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+
+[obj_3848]
+name=Lighthouse key
+recol1s=31393
+recol1d=17799
+desc=The key to the front door of the lighthouse.
+model=model_2372_obj
+2dxof=-3
+2dyof=5
+2dzoom=700
+2dyan=20
+2dxan=328
+members=yes
+
+[obj_3849]
+name=Rusty casket
+desc=Looks old and rusty...
+model=obj_3849
+2dxof=1
+2dyof=-2
+2dzoom=1430
+2dyan=1948
+2dxan=72
+members=yes
+
+[obj_3850]
+name=Readbook dummy
+recol1s=13472
+recol1d=7494
+recol2s=15855
+recol2d=7329
+recol3s=20033
+recol3d=7329
+model=model_2543_obj
+2dxof=1
+2dyof=-21
+2dzoom=830
+2dyan=116
+2dxan=244
+manwear=obj_3850_manwear,0
+womanwear=obj_3850_manwear,6
+
+[obj_3851]
+certlink=obj_3850
+certtemplate=template_for_cert
+
+[obj_3852]
+certlink=blessedsnake
+certtemplate=template_for_cert
+
+[obj_3853]
+name=Games necklace(8)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3854]
+certlink=obj_3853
+certtemplate=template_for_cert
+
+[obj_3855]
+name=Games necklace(7)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3856]
+certlink=obj_3855
+certtemplate=template_for_cert
+
+[obj_3857]
+name=Games necklace(6)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3858]
+certlink=obj_3857
+certtemplate=template_for_cert
+
+[obj_3859]
+name=Games necklace(5)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3860]
+certlink=obj_3859
+certtemplate=template_for_cert
+
+[obj_3861]
+name=Games necklace(4)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3862]
+certlink=obj_3861
+certtemplate=template_for_cert
+
+[obj_3863]
+name=Games necklace(3)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3864]
+certlink=obj_3863
+certtemplate=template_for_cert
+
+[obj_3865]
+name=Games necklace(2)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3866]
+certlink=obj_3865
+certtemplate=template_for_cert
+
+[obj_3867]
+name=Games necklace(1)
+recol1s=10570
+recol1d=23
+cost=1050
+desc=An enchanted necklace.
+model=model_2506_obj
+2dxof=1
+2dyof=16
+2dzoom=620
+2dyan=68
+2dxan=424
+iop2=Wear
+manwear=model_281_obj_wear,0
+womanwear=model_445_obj_wear,0
+iop4=Rub
+
+[obj_3868]
+certlink=obj_3867
+certtemplate=template_for_cert
+
+[obj_3869]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2399_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3870]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2652_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3871]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2737_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3872]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2405_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3873]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2481_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3874]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2340_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3875]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2734_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3876]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2707_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3877]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2382_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3878]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2735_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3879]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2665_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3880]
+name=Board game piece
+recol1s=15855
+recol1d=28903
+desc=A piece used in board games.
+model=model_2434_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3881]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2399_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3882]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2652_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3883]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2737_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3884]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2405_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3885]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2481_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3886]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2340_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3887]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2734_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3888]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2707_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3889]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2382_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3890]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2735_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3891]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2665_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3892]
+name=Board game piece
+desc=A piece used in board games.
+model=model_2434_obj
+2dyof=1
+2dzoom=740
+2dxan=516
+members=yes
+
+[obj_3893]
+name=Stool
+desc=A comfy stool.
+cost=800
+model=model_2544_obj
+manwear=obj_3893_manwear,0
+womanwear=obj_3893_manwear,6
+members=yes
+

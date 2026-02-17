@@ -1,6 +1,3 @@
-// todo: real name
-type=overlay
-
 [com_2]
 type=layer
 x=457

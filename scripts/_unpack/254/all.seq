@@ -86,6 +86,8 @@ frame16=anim_965
 frame17=anim_1249
 
 [human_lowwall_fail]
+preanim_move=delayanim
+postanim_move=delaymove
 frame1=anim_861
 frame2=anim_1141
 frame3=anim_1427
@@ -99,6 +101,7 @@ frame10=anim_8294
 frame11=anim_8295
 frame12=anim_8296
 frame13=anim_8297
+delay13=4
 
 [agilityarena_sawblades_twist]
 frame1=anim_8238

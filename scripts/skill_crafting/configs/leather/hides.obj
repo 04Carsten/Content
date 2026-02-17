@@ -9,6 +9,8 @@ recol1d=8416
 2dzoom=1190
 2dyan=116
 2dxan=440
+manwear=model_4046,0
+womanwear=model_4046,0
 weight=5lb
 
 [hard_leather]
@@ -27,6 +29,7 @@ weight=7lb
 
 //green
 [dragon_leather]
+cost=50
 name=Dragon leather
 desc=It's a piece of prepared dragonhide.
 model=model_2338_obj
@@ -42,6 +45,7 @@ members=yes
 
 //blue
 [dragon_leather_blue]
+cost=70
 name=Dragon leather
 desc=It's a piece of prepared dragonhide.
 model=model_2338_obj
@@ -57,6 +61,7 @@ members=yes
 
 //red
 [dragon_leather_red]
+cost=90
 name=Dragon leather
 desc=It's a piece of prepared dragonhide.
 model=model_2338_obj
@@ -72,6 +77,7 @@ members=yes
 
 //black
 [dragon_leather_black]
+cost=110
 name=Dragon leather
 desc=It's a piece of prepared dragonhide.
 model=model_2338_obj

@@ -3,8 +3,8 @@ mes("The gnome is not interested in chatting."); // osrs
 [opnpc1,gnomeballer_green_withball]
 mes("The gnome is not interested in chatting."); // osrs
 
-[opnpct,gnomeball:com_7] @player_gnomeball_pass;
-[apnpct,gnomeball:com_7] @player_gnomeball_pass;
+// [opnpct,gnomeball:com_7] @player_gnomeball_pass;
+// [apnpct,gnomeball:com_7] @player_gnomeball_pass;
 
 [label,player_gnomeball_pass]
 if (inv_getobj(worn, ^wearpos_rhand) ! ball_gnomeball_game) {

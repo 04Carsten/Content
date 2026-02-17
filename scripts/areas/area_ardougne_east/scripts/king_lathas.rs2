@@ -64,7 +64,7 @@ if(%biohazard = ^biohazard_reported_elena) {
             ~chatnpc("<p,neutral>A crazy loon who claims to be the son of Zamorak.");
             %ibanmulti = setbit(%ibanmulti, ^upass_started_bit);
             ~setupassgrilltrap;
-            ~send_quest_progress(questlist:upass, 1, ^upass_complete);
+            // ~send_quest_progress(questlist:upass, 1, ^upass_complete);
             ~chatnpc("<p,neutral>Go meet my main tracker, Koftik. He will help you. He waits for you at the west side of West Ardougne.");
             ~chatnpc("<p,neutral>We must find a way through these caverns if we are to stop my brother Tyras.");
             ~chatplayer("<p,neutral>I'll do my best Lathas.");
