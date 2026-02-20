@@ -179,7 +179,6 @@ data=lookup,herblore
 data=op,Herbs,skill_guide_herblore_herbs
 data=op,Potions,skill_guide_herblore_potions
 
-// note: derived from 2007 clientscript
 [skill_guide_herblore_herbs]
 table=skill_guides
 data=name,Herblore - Herbs
@@ -479,25 +478,45 @@ data=inv,skill_guide_smithing_bronze
 data=unlock,1,Bronze daggers.\n          1 Bar
 // [sic] exact number of spaces
 data=unlock,1,Bronze axes.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,2,Bronze maces.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,3,Bronze medium helms.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,4,Bronze shortswords.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,4,Members: Bronze dart tips.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,4,Members: Bronze wire.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,5,Bronze scimitars.\n          2 Bars
+// [sic] exact number of spaces
 data=unlock,5,Members: Bronze arrow heads.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,6,Bronze longswords.\n          2 Bars
+// [sic] exact number of spaces
 data=unlock,7,Bronze full helms.\n          2 Bars
+// [sic] exact number of spaces
 data=unlock,7,Members: Bronze throwing knives.\n          1 Bar
+// [sic] exact number of spaces
 data=unlock,8,Bronze square shields.\n          2 Bars
+// [sic] exact number of spaces
 data=unlock,9,Bronze warhammers.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,10,Bronze battleaxes.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,11,Bronze chainmail bodies.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,12,Bronze kite shields.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,13,Members: Bronze claws.\n          2 Bars
+// [sic] exact number of spaces
 data=unlock,14,Bronze two handed swords.\n          3 Bar
+// [sic] exact number of spaces
 data=unlock,16,Bronze plate legs.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,16,Bronze plate skirts.\n          3 Bars
+// [sic] exact number of spaces
 data=unlock,18,Bronze plate bodies.\n          5 Bars
 
 // note: derived from 2007 clientscript
@@ -682,7 +701,7 @@ data=unlock,80,Members: Manta ray - Trawler minigame.
 [skill_guide_cooking]
 table=skill_guide_ops
 data=lookup,cooking
-data=op,Meat,skill_guide_cooking_meat
+data=op,Meats,skill_guide_cooking_meat
 data=op,Bread,skill_guide_cooking_bread
 data=op,Pies,skill_guide_cooking_pies
 data=op,Stews,skill_guide_cooking_stews
@@ -848,6 +867,7 @@ data=op,Trees,skill_guide_woodcutting_trees
 [skill_guide_woodcutting_trees]
 table=skill_guides
 data=name,Woodcutting
+data=advancement,Able to cut down:
 data=inv,skill_guide_woodcutting
 data=unlock,1,Normal trees.
 data=unlock,1,Members: Achey trees.
@@ -862,10 +882,10 @@ data=unlock,75,Members: Magic trees.
 [skill_guide_fletching]
 table=skill_guide_ops
 data=lookup,fletching
-data=op,Bows,skill_guide_fletching_bows
 data=op,Arrows,skill_guide_fletching_arrows
-data=op,Darts,skill_guide_fletching_darts
+data=op,Bows,skill_guide_fletching_bows
 data=op,Bolts,skill_guide_fletching_bolts
+data=op,Darts,skill_guide_fletching_darts
 
 // note: derived from 2007 clientscript
 [skill_guide_fletching_bows]
@@ -885,10 +905,10 @@ data=unlock,70,Yew longbows.
 data=unlock,80,Magic shortbows.
 data=unlock,85,Magic longbows.
 
-// note: derived from 2007 clientscript
 [skill_guide_fletching_arrows]
 table=skill_guides
 data=name,Fletching - Arrows
+data=advancement,Able to fletch:
 data=inv,skill_guide_fletching_arrows
 data=unlock,1,Bronze arrows.
 data=unlock,15,Iron arrows.

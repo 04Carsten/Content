@@ -135,99 +135,108 @@ if_sethide(skill_guide:guide8, true); // op8 vis
 if_sethide(skill_guide:guide9, true); // op9 vis
 if_sethide(skill_guide:guide10, true); // op10 vis
 
-if ($categories < 2) {
-    // every button is hidden
-} else if ($categories = 2) {
-    if_sethide(skill_guide:guide23, false);
-
+if ($categories > 0) {
+    // compiler bug (?) makes me store db_getfield into a var, else it corrupts the proc args by inserting the dbrow id
     $op = db_getfield($guides, skill_guide_ops:op:0, 0);
-    if_settext(skill_guide:op2, $op);
+    ~skill_guide_set_op(0, $categories, $op);
+}
 
+if ($categories > 1) {
     $op = db_getfield($guides, skill_guide_ops:op:0, 1);
-    if_settext(skill_guide:op3, $op);
-} else {
-    if_sethide(skill_guide:guide1, false);
-    if_sethide(skill_guide:guide23, false);
+    ~skill_guide_set_op(1, $categories, $op);
+}
 
-    // I tried passing getfield directly into if_settext and it didn't work...
-    $op = db_getfield($guides, skill_guide_ops:op:0, 0);
-    if_settext(skill_guide:op1, $op);
-
-    $op = db_getfield($guides, skill_guide_ops:op:0, 1);
-    if_settext(skill_guide:op2, $op);
-
+if ($categories > 2) {
     $op = db_getfield($guides, skill_guide_ops:op:0, 2);
-    if_settext(skill_guide:op3, $op);
+    ~skill_guide_set_op(2, $categories, $op);
+}
 
-    if ($categories > 3) {
-        if_sethide(skill_guide:guide4, false);
+if ($categories > 3) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 3);
+    ~skill_guide_set_op(3, $categories, $op);
+}
 
-        $op = db_getfield($guides, skill_guide_ops:op:0, 3);
-        if_settext(skill_guide:op4, $op);
-    }
+if ($categories > 4) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 4);
+    ~skill_guide_set_op(4, $categories, $op);
+}
 
-    if ($categories > 4) {
-        if_sethide(skill_guide:guide5, false);
+if ($categories > 5) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 5);
+    ~skill_guide_set_op(5, $categories, $op);
+}
 
-        $op = db_getfield($guides, skill_guide_ops:op:0, 4);
-        if_settext(skill_guide:op5, $op);
-    }
+if ($categories > 6) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 6);
+    ~skill_guide_set_op(6, $categories, $op);
+}
 
-    if ($categories > 5) {
-        if_sethide(skill_guide:guide6, false);
+if ($categories > 7) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 7);
+    ~skill_guide_set_op(7, $categories, $op);
+}
 
-        $op = db_getfield($guides, skill_guide_ops:op:0, 5);
-        if_settext(skill_guide:op6, $op);
-    }
+if ($categories > 8) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 8);
+    ~skill_guide_set_op(8, $categories, $op);
+}
 
-    if ($categories > 6) {
-        if_sethide(skill_guide:guide7, false);
-
-        $op = db_getfield($guides, skill_guide_ops:op:0, 6);
-        if_settext(skill_guide:op7, $op);
-    }
-
-    if ($categories > 7) {
-        if_sethide(skill_guide:guide8, false);
-
-        $op = db_getfield($guides, skill_guide_ops:op:0, 7);
-        if_settext(skill_guide:op8, $op);
-    }
-
-    if ($categories > 8) {
-        if_sethide(skill_guide:guide9, false);
-
-        $op = db_getfield($guides, skill_guide_ops:op:0, 8);
-        if_settext(skill_guide:op9, $op);
-    }
-
-    if ($categories > 9) {
-        if_sethide(skill_guide:guide10, false);
-
-        $op = db_getfield($guides, skill_guide_ops:op:0, 9);
-        if_settext(skill_guide:op10, $op);
-    }
+if ($categories > 9) {
+    $op = db_getfield($guides, skill_guide_ops:op:0, 9);
+    ~skill_guide_set_op(9, $categories, $op);
 }
 
 if_openmain(skill_guide);
 if_setscrollpos(skill_guide:back, 0);
 
+// 1 op: hide all buttons
+// <7 ops: bottom-align buttons (by starting at op "2")
+// 7+ ops: top-align buttons (by starting at op "1")
+[proc,skill_guide_set_op](int $op, int $max, string $text)
+if ($max < 2) {
+    return;
+}
+
+if ($max < 7) {
+    $op = add($op, 1);
+}
+
+switch_int ($op) {
+    case 0 :
+        if_sethide(skill_guide:guide1, false);
+        if_settext(skill_guide:op1, $text);
+    case 1 :
+        if_sethide(skill_guide:guide23, false);
+        if_settext(skill_guide:op2, $text);
+    case 2 :
+        if_sethide(skill_guide:guide23, false);
+        if_settext(skill_guide:op3, $text);
+    case 3 :
+        if_sethide(skill_guide:guide4, false);
+        if_settext(skill_guide:op4, $text);
+    case 4 :
+        if_sethide(skill_guide:guide5, false);
+        if_settext(skill_guide:op5, $text);
+    case 5 :
+        if_sethide(skill_guide:guide6, false);
+        if_settext(skill_guide:op6, $text);
+    case 6 :
+        if_sethide(skill_guide:guide7, false);
+        if_settext(skill_guide:op7, $text);
+    case 7 :
+        if_sethide(skill_guide:guide8, false);
+        if_settext(skill_guide:op8, $text);
+    case 8 :
+        if_sethide(skill_guide:guide9, false);
+        if_settext(skill_guide:op9, $text);
+    case 9 :
+        if_sethide(skill_guide:guide10, false);
+        if_settext(skill_guide:op10, $text);
+}
+
 [if_button,skill_guide:op1] @change_skill_guide(0);
-
-[if_button,skill_guide:op2]
-if (%skill_guide_pages = 2) {
-    @change_skill_guide(0);
-} else {
-    @change_skill_guide(1);
-}
-
-[if_button,skill_guide:op3]
-if (%skill_guide_pages = 2) {
-    @change_skill_guide(1);
-} else {
-    @change_skill_guide(2);
-}
-
+[if_button,skill_guide:op2] @change_skill_guide(1);
+[if_button,skill_guide:op3] @change_skill_guide(2);
 [if_button,skill_guide:op4] @change_skill_guide(3);
 [if_button,skill_guide:op5] @change_skill_guide(4);
 [if_button,skill_guide:op6] @change_skill_guide(5);
@@ -237,4 +246,7 @@ if (%skill_guide_pages = 2) {
 [if_button,skill_guide:op10] @change_skill_guide(9);
 
 [label,change_skill_guide](int $page)
+if (%skill_guide_pages < 7) {
+    $page = sub($page, 1);
+}
 @skill_guide(%skill_guide_skill, $page);
