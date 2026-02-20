@@ -70,7 +70,7 @@ data=unlock,20,Members: Willow bows.\n          Ammo: Arrows up to mithril.
 // [sic] exact number of spaces
 data=unlock,30,Members: Maple bows.\n          Ammo: Arrows up to adamant.
 // [sic] exact number of spaces
-data=unlock,40,Members: Yew bows\n          Ammo: Arrows up to rune.
+data=unlock,40,Members: Yew bows.\n          Ammo: Arrows up to rune.
 // [sic] exact number of spaces
 data=unlock,60,Members: Magic bows.\n          Ammo: Arrows up to rune.
 
