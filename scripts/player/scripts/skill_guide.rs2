@@ -95,54 +95,43 @@ if ($lookup ! %skill_guide_skill) {
     if_sethide(skill_guide:guide10, true); // op10 vis
 
     if ($categories > 0) {
-        // compiler bug (?) makes me store db_getfield into a var, else it corrupts the proc args by inserting the dbrow id
-        $op = db_getfield($guides, skill_guide_ops:op:0, 0);
-        ~skill_guide_set_op(0, $categories, $op);
+        ~skill_guide_set_op(0, $categories, db_getfield($guides, skill_guide_ops:op:0, 0));
     }
 
     if ($categories > 1) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 1);
-        ~skill_guide_set_op(1, $categories, $op);
+        ~skill_guide_set_op(1, $categories, db_getfield($guides, skill_guide_ops:op:0, 1));
     }
 
     if ($categories > 2) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 2);
-        ~skill_guide_set_op(2, $categories, $op);
+        ~skill_guide_set_op(2, $categories, db_getfield($guides, skill_guide_ops:op:0, 2));
     }
 
     if ($categories > 3) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 3);
-        ~skill_guide_set_op(3, $categories, $op);
+        ~skill_guide_set_op(3, $categories, db_getfield($guides, skill_guide_ops:op:0, 3));
     }
 
     if ($categories > 4) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 4);
-        ~skill_guide_set_op(4, $categories, $op);
+        ~skill_guide_set_op(4, $categories, db_getfield($guides, skill_guide_ops:op:0, 4));
     }
 
     if ($categories > 5) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 5);
-        ~skill_guide_set_op(5, $categories, $op);
+        ~skill_guide_set_op(5, $categories, db_getfield($guides, skill_guide_ops:op:0, 5));
     }
 
     if ($categories > 6) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 6);
-        ~skill_guide_set_op(6, $categories, $op);
+        ~skill_guide_set_op(6, $categories, db_getfield($guides, skill_guide_ops:op:0, 6));
     }
 
     if ($categories > 7) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 7);
-        ~skill_guide_set_op(7, $categories, $op);
+        ~skill_guide_set_op(7, $categories, db_getfield($guides, skill_guide_ops:op:0, 7));
     }
 
     if ($categories > 8) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 8);
-        ~skill_guide_set_op(8, $categories, $op);
+        ~skill_guide_set_op(8, $categories, db_getfield($guides, skill_guide_ops:op:0, 8));
     }
 
     if ($categories > 9) {
-        $op = db_getfield($guides, skill_guide_ops:op:0, 9);
-        ~skill_guide_set_op(9, $categories, $op);
+        ~skill_guide_set_op(9, $categories, db_getfield($guides, skill_guide_ops:op:0, 9));
     }
 }
 

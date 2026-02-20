@@ -435,7 +435,6 @@ data=unlock,1,Rune essence (after completing Rune Mysteries).
 data=unlock,1,Clay.
 data=unlock,1,Copper ore.
 data=unlock,1,Tin ore.
-data=unlock,10,Blurite ore.
 data=unlock,15,Iron ore.
 data=unlock,20,Silver ore.
 data=unlock,30,Coal.
