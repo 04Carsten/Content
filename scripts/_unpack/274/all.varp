@@ -24,9 +24,15 @@
 
 [varp_332]
 
-[varp_333]
+[skill_guide_skill]
+type=stat
+scope=temp
+protect=no
 
-[varp_334]
+[skill_guide_pages]
+type=int
+scope=temp
+protect=no
 
 [eadgar_quest]
 

@@ -950,7 +950,7 @@
 // info: Get the index of a char in a string
 [command,string_indexof_char](string $text, char $char)(int)
 // info: Get the index of a string in a string
-[command,string_indexof_string](string $text1, string $text2)(int)
+[command,string_indexof_string](string $find, string $text)(int)
 
 // Number ops (4600-4699)
 // info: Add two numbers together

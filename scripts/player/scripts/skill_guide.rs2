@@ -1,0 +1,240 @@
+[if_button,stats:attack] @skill_guide(attack, 0);
+[if_button,stats:hitpoints] @skill_guide(attack, 0);
+[if_button,stats:strength] @skill_guide(attack, 0);
+[if_button,stats:defence] @skill_guide(attack, 0);
+[if_button,stats:mining] @skill_guide(mining, 0);
+[if_button,stats:agility] @skill_guide(agility, 0);
+[if_button,stats:smithing] @skill_guide(smithing, 0);
+[if_button,stats:herblore] @skill_guide(herblore, 0);
+[if_button,stats:fishing] @skill_guide(fishing, 0);
+[if_button,stats:ranged] @skill_guide(ranged, 0);
+[if_button,stats:thieving] @skill_guide(thieving, 0);
+[if_button,stats:cooking] @skill_guide(cooking, 0);
+[if_button,stats:prayer] @skill_guide(prayer, 0);
+[if_button,stats:crafting] @skill_guide(crafting, 0);
+[if_button,stats:firemaking] @skill_guide(firemaking, 0);
+[if_button,stats:magic] @skill_guide(magic, 0);
+[if_button,stats:fletching] @skill_guide(fletching, 0);
+[if_button,stats:woodcutting] @skill_guide(woodcutting, 0);
+[if_button,stats:runecrafting] @skill_guide(runecraft, 0);
+
+[label,skill_guide](stat $lookup, int $page)
+// todo: need to optimize this so there's no visual lag, then get rid of this if_close/delay
+if_close;
+if (map_live = false & p_finduid(uid) = true) {
+    // temp: see above
+    p_delay(0);
+}
+
+%skill_guide_skill = $lookup;
+%skill_guide_pages = 0;
+
+// db_find_with_count would be useful here but we need a compiler update first
+db_find(skill_guide_ops:lookup, $lookup);
+def_dbrow $guides = db_findnext;
+if ($guides = null) {
+    if_close;
+    mes("TODO.");
+    return;
+}
+
+def_int $categories = db_getfieldcount($guides, skill_guide_ops:op);
+if ($page >= $categories) {
+    if_close;
+    mes("TODO.");
+    return;
+}
+
+%skill_guide_pages = $categories;
+
+def_string $op;
+def_dbrow $guide;
+$op, $guide = db_getfield($guides, skill_guide_ops:op, $page);
+
+// set header
+if_settext(skill_guide:skill_name, "@dre@<db_getfield($guide, skill_guides:name, 0)>");
+if_settext(skill_guide:advancement, db_getfield($guide, skill_guides:advancement, 0));
+
+def_int $members = ~stat_members($lookup);
+if ($members = ^true) {
+    if (map_members = ^true) {
+        // blue on members world
+        if_settext(skill_guide:skill_members, "@dbl@Members only skill");
+    } else {
+        // red on free world
+        if_settext(skill_guide:skill_members, "@dre@Members only skill");
+    }
+} else {
+    if_settext(skill_guide:skill_members, "");
+}
+
+// set unlocks
+def_inv $inv = db_getfield($guide, skill_guides:inv, 0);
+if ($inv ! null) {
+    inv_transmit($inv, skill_guide:levelinv);
+} else {
+    inv_stoptransmit(skill_guide:levelinv);
+    inv_stoptransmit(skill_guide:levelinv2);
+}
+
+def_int $base = stat_base($lookup);
+def_stat $skill = db_getfield($guide, skill_guides:base, 0);
+if ($skill ! null) {
+    $base = stat_base($skill);
+}
+
+def_int $rows = db_getfieldcount($guide, skill_guides:unlock);
+def_int $i = 0;
+
+while ($i < $rows & $i < 40) {
+    def_int $level;
+    def_string $text;
+    $level, $text = db_getfield($guide, skill_guides:unlock, $i);
+
+    // todo: apply color to newlines
+    def_string $color;
+    if ($level > $base) {
+        $color = "@dre@";
+    } else if ($members = ^false & string_indexof_string("Members:", $text) = 0) {
+        // members unlocks show as dbl on free skills (members world/account check too?)
+        $color = "@dbl@";
+    }
+
+    def_component $comLevel = enum(int, component, skill_guide_levels, $i);
+    if ($level = -1) {
+        if_settext($comLevel, "");
+    } else {
+        if_settext($comLevel, "<$color><tostring($level)>");
+    }
+
+    def_component $comText = enum(int, component, skill_guide_rows, $i);
+    if_settext($comText, "<$color><$text>");
+
+    $i = add($i, 1);
+}
+
+// clear old unlocks
+while ($i < 40) {
+    def_component $comLevel = enum(int, component, skill_guide_levels, $i);
+    if_settext($comLevel, "");
+
+    def_component $comText = enum(int, component, skill_guide_rows, $i);
+    if_settext($comText, "");
+
+    $i = add($i, 1);
+}
+
+// set ops on right side
+if_sethide(skill_guide:guide1, true); // op1 vis
+if_sethide(skill_guide:guide23, true); // op2, op3 vis
+if_sethide(skill_guide:guide4, true); // op4 vis
+if_sethide(skill_guide:guide5, true); // op5 vis
+if_sethide(skill_guide:guide6, true); // op6 vis
+if_sethide(skill_guide:guide7, true); // op7 vis
+if_sethide(skill_guide:guide8, true); // op8 vis
+if_sethide(skill_guide:guide9, true); // op9 vis
+if_sethide(skill_guide:guide10, true); // op10 vis
+
+if ($categories < 2) {
+    // every button is hidden
+} else if ($categories = 2) {
+    if_sethide(skill_guide:guide23, false);
+
+    $op = db_getfield($guides, skill_guide_ops:op:0, 0);
+    if_settext(skill_guide:op2, $op);
+
+    $op = db_getfield($guides, skill_guide_ops:op:0, 1);
+    if_settext(skill_guide:op3, $op);
+} else {
+    if_sethide(skill_guide:guide1, false);
+    if_sethide(skill_guide:guide23, false);
+
+    // I tried passing getfield directly into if_settext and it didn't work...
+    $op = db_getfield($guides, skill_guide_ops:op:0, 0);
+    if_settext(skill_guide:op1, $op);
+
+    $op = db_getfield($guides, skill_guide_ops:op:0, 1);
+    if_settext(skill_guide:op2, $op);
+
+    $op = db_getfield($guides, skill_guide_ops:op:0, 2);
+    if_settext(skill_guide:op3, $op);
+
+    if ($categories > 3) {
+        if_sethide(skill_guide:guide4, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 3);
+        if_settext(skill_guide:op4, $op);
+    }
+
+    if ($categories > 4) {
+        if_sethide(skill_guide:guide5, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 4);
+        if_settext(skill_guide:op5, $op);
+    }
+
+    if ($categories > 5) {
+        if_sethide(skill_guide:guide6, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 5);
+        if_settext(skill_guide:op6, $op);
+    }
+
+    if ($categories > 6) {
+        if_sethide(skill_guide:guide7, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 6);
+        if_settext(skill_guide:op7, $op);
+    }
+
+    if ($categories > 7) {
+        if_sethide(skill_guide:guide8, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 7);
+        if_settext(skill_guide:op8, $op);
+    }
+
+    if ($categories > 8) {
+        if_sethide(skill_guide:guide9, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 8);
+        if_settext(skill_guide:op9, $op);
+    }
+
+    if ($categories > 9) {
+        if_sethide(skill_guide:guide10, false);
+
+        $op = db_getfield($guides, skill_guide_ops:op:0, 9);
+        if_settext(skill_guide:op10, $op);
+    }
+}
+
+if_openmain(skill_guide);
+if_setscrollpos(skill_guide:back, 0);
+
+[if_button,skill_guide:op1] @change_skill_guide(0);
+
+[if_button,skill_guide:op2]
+if (%skill_guide_pages = 2) {
+    @change_skill_guide(0);
+} else {
+    @change_skill_guide(1);
+}
+
+[if_button,skill_guide:op3]
+if (%skill_guide_pages = 2) {
+    @change_skill_guide(1);
+} else {
+    @change_skill_guide(2);
+}
+
+[if_button,skill_guide:op4] @change_skill_guide(3);
+[if_button,skill_guide:op5] @change_skill_guide(4);
+[if_button,skill_guide:op6] @change_skill_guide(5);
+[if_button,skill_guide:op7] @change_skill_guide(6);
+[if_button,skill_guide:op8] @change_skill_guide(7);
+[if_button,skill_guide:op9] @change_skill_guide(8);
+[if_button,skill_guide:op10] @change_skill_guide(9);
+
+[label,change_skill_guide](int $page)
+@skill_guide(%skill_guide_skill, $page);
