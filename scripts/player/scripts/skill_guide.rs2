@@ -29,7 +29,6 @@ if (map_live = false & p_finduid(uid) = true) {
 %skill_guide_skill = $lookup;
 %skill_guide_pages = 0;
 
-// db_find_with_count would be useful here but we need a compiler update first
 db_find(skill_guide_ops:lookup, $lookup);
 def_dbrow $guides = db_findnext;
 if ($guides = null) {

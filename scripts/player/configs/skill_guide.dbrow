@@ -36,6 +36,12 @@ data=unlock,30,Adamantite.
 data=unlock,40,Rune.
 data=unlock,60,Members: Dragon.
 
+// strength: I think this came later and only attack/defence was available at first
+// skill_guide_strength_weapons_and_armour: inv 421
+// skill_guide_strength_shortcuts: inv 422
+
+// hitpoints: same thing?
+
 // ----
 
 [skill_guide_ranged]
@@ -44,6 +50,8 @@ data=lookup,ranged
 data=op,Bows,skill_guide_ranged_bows
 data=op,Thrown,skill_guide_ranged_thrown
 data=op,Armour,skill_guide_ranged_armour
+// skill_guide_ranged_shortcuts: inv 420
+// skill_guide_ranged_crossbows: inv 425
 
 [skill_guide_ranged_bows]
 table=skill_guides
@@ -117,6 +125,7 @@ table=skill_guide_ops
 data=lookup,magic
 data=op,Spells,skill_guide_magic_spells
 data=op,Armour,skill_guide_magic_armour
+// skill_guide_magic_bolts: inv 424
 
 // note: derived from 2007 clientscript
 [skill_guide_magic_spells]
@@ -148,6 +157,7 @@ data=op,Prayer,skill_guide_prayer_prayer
 [skill_guide_prayer_prayer]
 table=skill_guides
 data=name,Prayer
+// skill_guide_prayer: inv 275 (does this mean no prayer guide, or could they be text-only with no inv?)
 data=unlock,-1,"To view the available prayers, select\nthe Prayer icon on the side interface.\nYou can see what each Prayer does by\nmoving your mouse over its icon."
 
 // ----
@@ -156,20 +166,23 @@ data=unlock,-1,"To view the available prayers, select\nthe Prayer icon on the si
 table=skill_guide_ops
 data=lookup,agility
 data=op,Agility,skill_guide_agility_agility
+// skill_guide_agility_courses: inv 321
+// skill_guide_agility_areas: inv 322
+// skill_guide_agility_shortcuts: inv 323
 
-// note: derived from 2007 clientscript
-// todo: any references to shortcuts yet?
+// note: Using Courses for now. What was this originally? It has an inv...
 [skill_guide_agility_agility]
 table=skill_guides
 data=name,Agility
+data=advancement,Access to:
 data=inv,skill_guide_agility
-data=unlock,1,Gnome Stronghold Agility Course.
+data=unlock,1,Gnome Stronghold agility course.
 data=unlock,1,Gnomeball game.
-data=unlock,1,Low-level Agility Arena obstacles.
-data=unlock,20,Medium-level Agility Arena obstacles.
-data=unlock,35,Barbarian Outpost Agility Course.
-data=unlock,40,High-level Agility Arena obstacles.
-data=unlock,52,Wilderness Course.
+data=unlock,1,Low-level agility arena obstacles.
+data=unlock,20,Medium-level agility arena obstacles.
+data=unlock,35,Barbarian Outpost agility course.
+data=unlock,40,High-level agility arena obstacles.
+data=unlock,52,Wilderness course.
 
 // ----
 
@@ -238,6 +251,8 @@ table=skill_guide_ops
 data=lookup,thieving
 data=op,Stalls,skill_guide_thieving_stalls
 data=op,Pickpocket,skill_guide_thieving_pickpocket
+// skill_guide_thieving_chests: inv 274
+// skill_guide_thieving_other: inv 415
 
 // note: derived from 2007 clientscript
 [skill_guide_thieving_stalls]
@@ -280,6 +295,7 @@ data=op,Pottery,skill_guide_crafting_pottery
 data=op,Glass,skill_guide_crafting_glass
 data=op,Jewellery,skill_guide_crafting_jewellery
 data=op,Staffs,skill_guide_crafting_staffs
+// skill_guide_crafting_weaving: inv 286
 
 // note: derived from 2007 clientscript
 [skill_guide_crafting_spinning]
@@ -410,12 +426,12 @@ data=lookup,mining
 data=op,Ores,skill_guide_mining_ores
 data=op,Pickaxes,skill_guide_mining_pickaxes
 
-// note: derived from 2007 clientscript
 [skill_guide_mining_ores]
 table=skill_guides
 data=name,Mining - Ores
+data=advancement,Able to mine:
 data=inv,skill_guide_mining_ores
-data=unlock,1,Rune essence\n(after Rune Mysteries quest).
+data=unlock,1,Rune essence (after completing Rune Mysteries).
 data=unlock,1,Clay.
 data=unlock,1,Copper ore.
 data=unlock,1,Tin ore.
@@ -432,6 +448,7 @@ data=unlock,85,Runite ore.
 [skill_guide_mining_pickaxes]
 table=skill_guides
 data=name,Mining - Pickaxes
+data=advancement,Able to mine with:
 data=inv,skill_guide_mining_pickaxes
 data=unlock,1,Bronze pickaxe.
 data=unlock,1,Iron pickaxe.
@@ -452,6 +469,7 @@ data=op,Steel,skill_guide_smithing_steel
 data=op,Mithril,skill_guide_smithing_mithril
 data=op,Adamant,skill_guide_smithing_adamant
 data=op,Rune,skill_guide_smithing_rune
+// skill_guide_smithing_blurite: inv 426
 
 [skill_guide_smithing_smelting]
 table=skill_guides
@@ -708,6 +726,11 @@ data=op,Stews,skill_guide_cooking_stews
 data=op,Pizzas,skill_guide_cooking_pizzas
 data=op,Cakes,skill_guide_cooking_cakes
 data=op,Wine,skill_guide_cooking_wine
+// skill_guide_cooking_hotdrinks: inv 234
+// skill_guide_cooking_brewing: inv 284
+// skill_guide_cooking_vegetables: inv 285
+// skill_guide_cooking_dairy: inv 335
+// skill_guide_cooking_gnome: inv 437
 
 [skill_guide_cooking_meat]
 table=skill_guides
@@ -844,7 +867,6 @@ table=skill_guides
 data=name,Firemaking
 data=inv,skill_guide_firemaking
 data=unlock,1,Logs.
-data=unlock,1,Members: Achey logs.
 data=unlock,5,Members: Pyre logs.
 data=unlock,15,Oak logs.
 data=unlock,20,Members: Oak pyre logs.
@@ -863,6 +885,8 @@ data=unlock,80,Members: Magic pyre logs.
 table=skill_guide_ops
 data=lookup,woodcutting
 data=op,Trees,skill_guide_woodcutting_trees
+// skill_guide_woodcutting_axes: inv 336
+// skill_guide_woodcutting_canoes: inv 353
 
 [skill_guide_woodcutting_trees]
 table=skill_guides
@@ -870,7 +894,6 @@ data=name,Woodcutting
 data=advancement,Able to cut down:
 data=inv,skill_guide_woodcutting
 data=unlock,1,Normal trees.
-data=unlock,1,Members: Achey trees.
 data=unlock,15,Oak trees.
 data=unlock,30,Willow trees.
 data=unlock,45,Members: Maple trees.
@@ -886,6 +909,7 @@ data=op,Arrows,skill_guide_fletching_arrows
 data=op,Bows,skill_guide_fletching_bows
 data=op,Bolts,skill_guide_fletching_bolts
 data=op,Darts,skill_guide_fletching_darts
+// skill_guide_fletching_cbows: inv 423
 
 // note: derived from 2007 clientscript
 [skill_guide_fletching_bows]
