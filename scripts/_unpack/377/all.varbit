@@ -1,33 +1,3 @@
-[troll_freed_eadgar]
-basevar=troll_varbit
-startbit=0
-endbit=0
-
-[troll_opened_back_exit]
-basevar=troll_varbit
-startbit=1
-endbit=1
-
-[troll_entered_stronghold]
-basevar=troll_varbit
-startbit=2
-endbit=2
-
-[troll_accepted_challenge]
-basevar=troll_varbit
-startbit=3
-endbit=3
-
-[troll_told]
-basevar=troll_varbit
-startbit=4
-endbit=4
-
-[troll_to_the_death]
-basevar=troll_varbit
-startbit=5
-endbit=5
-
 [varbit_6]
 basevar=varp_336
 startbit=0
@@ -1009,7 +979,7 @@ startbit=4
 endbit=4
 
 [varbit_202]
-basevar=varp_142
+basevar=gnome_restaurant_progress
 startbit=1
 endbit=1
 
@@ -1429,57 +1399,57 @@ startbit=11
 endbit=11
 
 [varbit_286]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=0
 endbit=0
 
 [varbit_287]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=1
 endbit=1
 
 [varbit_288]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=3
 endbit=3
 
 [varbit_289]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=4
 endbit=4
 
 [varbit_290]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=5
 endbit=5
 
 [varbit_291]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=6
 endbit=6
 
 [varbit_292]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=7
 endbit=7
 
 [varbit_293]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=9
 endbit=9
 
 [varbit_294]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=14
 endbit=14
 
 [varbit_295]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=15
 endbit=15
 
 [varbit_296]
-basevar=varp_117
+basevar=zq_map_mechanisms
 startbit=16
 endbit=16
 
@@ -3409,37 +3379,37 @@ startbit=26
 endbit=26
 
 [varbit_693]
-basevar=varp_79
+basevar=xplamp
 startbit=0
 endbit=2
 
 [varbit_694]
-basevar=varp_79
+basevar=xplamp
 startbit=3
 endbit=5
 
 [varbit_695]
-basevar=varp_79
+basevar=xplamp
 startbit=6
 endbit=8
 
 [varbit_696]
-basevar=varp_79
+basevar=xplamp
 startbit=9
 endbit=11
 
 [varbit_697]
-basevar=varp_79
+basevar=xplamp
 startbit=12
 endbit=14
 
 [varbit_698]
-basevar=varp_79
+basevar=xplamp
 startbit=15
 endbit=17
 
 [varbit_699]
-basevar=varp_79
+basevar=xplamp
 startbit=18
 endbit=31
 
@@ -4314,22 +4284,22 @@ startbit=6
 endbit=10
 
 [varbit_878]
-basevar=varp_79
+basevar=xplamp
 startbit=0
 endbit=7
 
 [varbit_879]
-basevar=varp_79
+basevar=xplamp
 startbit=8
 endbit=15
 
 [varbit_880]
-basevar=varp_79
+basevar=xplamp
 startbit=16
 endbit=23
 
 [varbit_881]
-basevar=varp_79
+basevar=xplamp
 startbit=24
 endbit=31
 
@@ -5109,32 +5079,32 @@ startbit=26
 endbit=26
 
 [varbit_1037]
-basevar=varp_186
+basevar=dragon_shield
 startbit=0
 endbit=2
 
 [varbit_1038]
-basevar=varp_186
+basevar=dragon_shield
 startbit=3
 endbit=7
 
 [varbit_1039]
-basevar=varp_186
+basevar=dragon_shield
 startbit=8
 endbit=12
 
 [varbit_1040]
-basevar=varp_186
+basevar=dragon_shield
 startbit=13
 endbit=21
 
 [varbit_1041]
-basevar=varp_186
+basevar=dragon_shield
 startbit=22
 endbit=29
 
 [varbit_1042]
-basevar=varp_186
+basevar=dragon_shield
 startbit=30
 endbit=31
 
@@ -6584,17 +6554,17 @@ startbit=26
 endbit=26
 
 [varbit_1332]
-basevar=varp_79
+basevar=xplamp
 startbit=0
 endbit=3
 
 [varbit_1333]
-basevar=varp_79
+basevar=xplamp
 startbit=4
 endbit=7
 
 [rightclick_report_abuse_disabled]
-basevar=varp_79
+basevar=xplamp
 startbit=8
 endbit=8
 
@@ -7594,47 +7564,47 @@ startbit=3
 endbit=3
 
 [varbit_1538]
-basevar=varp_79
+basevar=xplamp
 startbit=0
 endbit=2
 
 [varbit_1539]
-basevar=varp_79
+basevar=xplamp
 startbit=3
 endbit=5
 
 [varbit_1540]
-basevar=varp_79
+basevar=xplamp
 startbit=6
 endbit=8
 
 [varbit_1541]
-basevar=varp_79
+basevar=xplamp
 startbit=9
 endbit=11
 
 [varbit_1542]
-basevar=varp_79
+basevar=xplamp
 startbit=12
 endbit=14
 
 [varbit_1543]
-basevar=varp_79
+basevar=xplamp
 startbit=15
 endbit=17
 
 [varbit_1544]
-basevar=varp_79
+basevar=xplamp
 startbit=18
 endbit=20
 
 [varbit_1545]
-basevar=varp_79
+basevar=xplamp
 startbit=21
 endbit=23
 
 [varbit_1546]
-basevar=varp_79
+basevar=xplamp
 startbit=24
 endbit=26
 
@@ -9938,23 +9908,23 @@ basevar=marketthief
 startbit=23
 endbit=23
 
-[fishingcompo_garlicpipe]
-basevar=garlicpipe
+[fishingcompo_hemenster_comp_stage]
+basevar=hemenster_comp_stage
 startbit=0
 endbit=0
 
 [fishingcompo_paid]
-basevar=garlicpipe
+basevar=hemenster_comp_stage
 startbit=2
 endbit=2
 
 [fishingcompo_passed]
-basevar=garlicpipe
+basevar=hemenster_comp_stage
 startbit=3
 endbit=3
 
 [fishingcompo_stranger]
-basevar=garlicpipe
+basevar=hemenster_comp_stage
 startbit=4
 endbit=4
 
@@ -10024,92 +9994,92 @@ startbit=20
 endbit=20
 
 [varbit_2068]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=1
 endbit=1
 
 [varbit_2069]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=2
 endbit=2
 
 [varbit_2070]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=3
 endbit=3
 
 [varbit_2071]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=4
 endbit=4
 
 [varbit_2072]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=5
 endbit=5
 
 [varbit_2073]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=6
 endbit=6
 
 [varbit_2074]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=7
 endbit=7
 
 [varbit_2075]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=8
 endbit=8
 
 [varbit_2076]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=9
 endbit=9
 
 [varbit_2077]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=10
 endbit=10
 
 [varbit_2078]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=11
 endbit=11
 
 [varbit_2079]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=12
 endbit=12
 
 [varbit_2080]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=13
 endbit=13
 
 [varbit_2081]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=14
 endbit=14
 
 [varbit_2082]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=15
 endbit=15
 
 [varbit_2083]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=16
 endbit=16
 
 [varbit_2084]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=17
 endbit=17
 
 [varbit_2085]
-basevar=varp_66
+basevar=waterfall_golrie_and_puzzle
 startbit=18
 endbit=18
 

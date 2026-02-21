@@ -14,30 +14,29 @@ if (p_finduid(uid) = true) {
         mes("[DEBUG]: No wearpos set on <oc_debugname($obj)>");
         return;
     }
-    // if (~duel_arena_equip_check($obj) = false) { TODO 377: re-enable all these checks with conversions
-    //     return;
-    // }
-    // if (~duel_arena_flower_power_equip_check($obj) = false) {
-    //     return;
-    // }
-    // might be rework behaviour, hard to confirm
-    // if(inzone(0_51_147_0_0, 0_51_147_19_63, coord) = true) {
-    //     if(npc_find(coord, desertminingmercenary2, 4, 2) = true | npc_find(coord, desertminingmercenary1, 4, 2) = true) {
-    //         ~npc_retaliate(0);
-    //         ~desertcamp_guard_search;
-    //     }
-    // }
-    // if ((oc_wearpos($obj) = ^wearpos_rhand | oc_wearpos($obj) = ^wearpos_lhand) & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
-    //     mes("You feel it would be cheating to hold anything other than a gnomeball on the");
-    //     mes("gnomeball pitch");
-    //     return;
-    // }
+    if (~duel_arena_equip_check($obj) = false) {
+        return;
+    }
+    if (~duel_arena_flower_power_equip_check($obj) = false) {
+        return;
+    }
+    if(inzone(0_51_147_0_0, 0_51_147_19_63, coord) = true) {
+        if(npc_find(coord, desertminingmercenary2, 4, 2) = true | npc_find(coord, desertminingmercenary1, 4, 2) = true) {
+            ~npc_retaliate(0);
+            ~desertcamp_guard_search;
+        }
+    }
+    if ((oc_wearpos($obj) = ^wearpos_rhand | oc_wearpos($obj) = ^wearpos_lhand) & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+        mes("You feel it would be cheating to hold anything other than a gnomeball on the");
+        mes("gnomeball pitch");
+        return;
+    }
     def_obj $previous_weapon = inv_getobj(worn, ^wearpos_rhand);
     if (~try_equip($slot) = false) {
         mes("You don't have enough free space to do that.");
         return;
     }
-
+    // todo: this needs a better home...
     if (%tutorial < ^tutorial_complete) {
         if (%tutorial = ^newbie_combat_instructor_worn_inventory & $obj = bronze_dagger){
             %tutorial = ^newbie_combat_instructor_dagger_equipped;
@@ -71,13 +70,13 @@ if (p_finduid(uid) = true) {
 [proc,unequip](int $slot)
 if (p_finduid(uid) = true) {
     def_obj $obj = inv_getobj(worn, $slot);
-    // if (~duel_arena_flower_power_unequip_check($slot) = false) {
-    //     return;
-    // }
-    // if ($obj = ball_gnomeball_game & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
-    //     mes("You feel it would be cheating to put the ball in your pack whilst on the pitch.");
-    //     return;
-    // }
+    if (~duel_arena_flower_power_unequip_check($slot) = false) {
+        return;
+    }
+    if ($obj = ball_gnomeball_game & ~inzone_coord_pair_table(gnomeball_zones, coord) = true) {
+        mes("You feel it would be cheating to put the ball in your pack whilst on the pitch.");
+        return;
+    }
     def_int $count = inv_getnum(worn, $slot);
     def_int $overflow = inv_itemspace2(inv, $obj, $count, inv_size(inv));
     if ($overflow >= $count) {
