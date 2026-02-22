@@ -69,7 +69,7 @@ if_setscrollpos(skill_guide:back, 0);
 $i = ~skill_guide_update_rows($guide, $base, $members, $i, $rows, 6);
 
 // only refresh when changing skills (sends less packets)
-if ($lookup ! %skill_guide_skill) {
+if ($lookup ! %skill_guide_skill | %skill_guide_pages = 0) {
     // update header
     if ($members = ^true) {
         if (map_members = ^true) {
