@@ -6267,8 +6267,8 @@
 6266=levelup_crafting:continue
 6267=levelup_crafting:icon
 6268=levelup_crafting:icon2
-6269=music:com_180
-6270=music:com_181
+6269=music:auto
+6270=music:manual
 6271=music:com_182
 6272=music:com_183
 6273=options_ld:com_3
@@ -9923,7 +9923,7 @@
 9922=inter_184:com_82
 9923=inter_184:com_83
 9924=inter_184:com_84
-9925=music:com_251
+9925=music:loop
 9926=music:com_252
 9927=questlist:upass
 9928=player_kit_tailor_legs_woman:com_140

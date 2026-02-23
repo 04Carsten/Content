@@ -145,6 +145,20 @@ data=playbutton,music:ballad_of_enchantment
 data=unlock,1,19
 data=track,ballad of enchantment
 
+[music_Bandit_Camp]
+table=music
+data=name,Bandit Camp
+data=playbutton,music:bandit_camp
+data=unlock,7,22
+data=track,bandit camp
+
+[music_Barbarianism]
+table=music
+data=name,Barbarianism
+data=playbutton,music:barbarianism
+data=unlock,9,1
+data=track,barbarianism
+
 [music_Baroque]
 table=music
 data=name,Baroque
@@ -166,12 +180,33 @@ data=playbutton,music:big_chords
 data=unlock,1,22
 data=track,big chords
 
+[music_Bone_Dance]
+table=music
+data=name,Bone Dance
+data=playbutton,music:bone_dance
+data=unlock,6,23
+data=track,bone dance
+
 [music_Book_Of_Spells]
 table=music
 data=name,Book Of Spells
 data=playbutton,music:book_of_spells
 data=unlock,1,23
 data=track,book of spells
+
+[music_Borderland]
+table=music
+data=name,Borderland
+data=playbutton,music:borderland
+data=unlock,8,9
+data=track,borderland
+
+[music_Breeze]
+table=music
+data=name,Breeze
+data=playbutton,music:breeze
+data=unlock,7,2
+data=track,breeze
 
 [music_Camelot]
 table=music
@@ -229,6 +264,13 @@ data=playbutton,music:contest
 data=unlock,7,16
 data=track,contest
 
+[music_Crystal_Castle]
+table=music
+data=name,Crystal Castle
+data=playbutton,music:crystal_castle
+data=unlock,7,18
+data=track,crystal castle
+
 [music_Crystal_Cave]
 table=music
 data=name,Crystal Cave
@@ -270,6 +312,13 @@ data=name,Dead Quiet
 data=playbutton,music:dead_quiet
 data=unlock,6,21
 data=track,dead quiet
+
+[music_Deadlands]
+table=music
+data=name,Deadlands
+data=playbutton,music:deadlands
+data=unlock,8,6
+data=track,deadlands
 
 [music_Deep_Wildy]
 table=music
@@ -320,6 +369,13 @@ data=playbutton,music:egypt
 data=unlock,2,5
 data=track,egypt
 
+[music_Elven_Mist]
+table=music
+data=name,Elven Mist
+data=playbutton,music:elven_mist
+data=unlock,7,10
+data=track,elven mist
+
 [music_Emotion]
 table=music
 data=name,Emotion
@@ -340,6 +396,13 @@ data=name,Escape
 data=playbutton,music:escape
 data=unlock,6,16
 data=track,escape
+
+[music_Everywhere]
+table=music
+data=name,Everywhere
+data=playbutton,music:everywhere
+data=unlock,7,27
+data=track,everywhere
 
 [music_Expanse]
 table=music
@@ -362,12 +425,26 @@ data=playbutton,music:expedition
 data=unlock,2,10
 data=track,expedition
 
+[music_Exposed]
+table=music
+data=name,Exposed
+data=playbutton,music:exposed
+data=unlock,7,28
+data=track,exposed
+
 [music_Faerie]
 table=music
 data=name,Faerie
 data=playbutton,music:faerie
 data=unlock,2,11
 data=track,faerie
+
+[music_Faithless]
+table=music
+data=name,Faithless
+data=playbutton,music:faithless
+data=unlock,9,9
+data=track,faithless
 
 [music_Fanfare]
 table=music
@@ -410,6 +487,13 @@ data=name,Forbidden
 data=playbutton,music:forbidden
 data=unlock,6,25
 data=track,forbidden
+
+[music_Forest]
+table=music
+data=name,Forest
+data=playbutton,music:forest
+data=unlock,7,11
+data=track,forest
 
 [music_Forever]
 table=music
@@ -642,12 +726,26 @@ data=playbutton,music:lasting
 data=unlock,3,7
 data=track,lasting
 
+[music_Legend]
+table=music
+data=name,Legend
+data=playbutton,music:legend
+data=unlock,8,11
+data=track,legend
+
 [music_Legion]
 table=music
 data=name,Legion
 data=playbutton,music:legion
 data=unlock,3,8
 data=track,legion
+
+[music_Lighthouse]
+table=music
+data=name,Lighthouse
+data=playbutton,music:lighthouse
+data=unlock,8,27
+data=track,lighthouse
 
 [music_Lightness]
 table=music
@@ -683,6 +781,13 @@ data=name,Long Way Home
 data=playbutton,music:long_way_home
 data=unlock,3,12
 data=track,long way home
+
+[music_Lost_Soul]
+table=music
+data=name,Lost Soul
+data=playbutton,music:lost_soul
+data=unlock,7,12
+data=track,lost soul
 
 [music_Lullaby]
 table=music
@@ -753,6 +858,13 @@ data=name,Mellow
 data=playbutton,music:mellow
 data=unlock,3,19
 data=track,mellow
+
+[music_Meridian]
+table=music
+data=name,Meridian
+data=playbutton,music:meridian
+data=unlock,7,13
+data=track,meridian
 
 [music_Miles_Away]
 table=music
@@ -830,6 +942,13 @@ data=playbutton,music:oriental
 data=unlock,3,27
 data=track,oriental
 
+[music_Overpass]
+table=music
+data=name,Overpass
+data=playbutton,music:overpass
+data=unlock,7,15
+data=track,overpass
+
 [music_Overture]
 table=music
 data=name,Overture
@@ -843,6 +962,13 @@ data=name,Parade
 data=playbutton,music:parade
 data=unlock,3,29
 data=track,parade
+
+[music_Pirates_of_Peril]
+table=music
+data=name,Pirates of Peril
+data=playbutton,music:pirates_of_peril
+data=unlock,9,6
+data=track,pirates of peril
 
 [music_Principality]
 table=music
@@ -879,6 +1005,13 @@ data=playbutton,music:reggae2
 data=unlock,4,1
 data=track,reggae2
 
+[music_Rellekka]
+table=music
+data=name,Rellekka
+data=playbutton,music:rellekka
+data=unlock,8,7
+data=track,rellekka
+
 [music_Righteousness]
 table=music
 data=name,Righteousness
@@ -913,6 +1046,13 @@ data=name,Sad Meadow
 data=playbutton,music:sad_meadow
 data=unlock,4,5
 data=track,sad meadow
+
+[music_Saga]
+table=music
+data=name,Saga
+data=playbutton,music:saga
+data=unlock,8,8
+data=track,saga
 
 [music_Scape_Cave]
 table=music
@@ -976,6 +1116,13 @@ data=playbutton,music:serene
 data=unlock,4,13
 data=track,serene
 
+[music_Shadowland]
+table=music
+data=name,Shadowland
+data=playbutton,music:shadowland
+data=unlock,8,4
+data=track,shadowland
+
 [music_Shine]
 table=music
 data=name,Shine
@@ -1018,6 +1165,13 @@ data=playbutton,music:splendour
 data=unlock,4,17
 data=track,splendour
 
+[music_Spooky]
+table=music
+data=name,Spooky
+data=playbutton,music:spooky
+data=unlock,4,18
+data=track,spooky
+
 [music_Spooky_Jungle]
 table=music
 data=name,Spooky Jungle
@@ -1031,13 +1185,6 @@ data=name,Stagnant
 data=playbutton,music:stagnant
 data=unlock,7,1
 data=track,stagnant
-
-[music_Spooky]
-table=music
-data=name,Spooky
-data=playbutton,music:spooky
-data=unlock,4,18
-data=track,spooky
 
 [music_Starlight]
 table=music
@@ -1059,6 +1206,13 @@ data=name,Still Night
 data=playbutton,music:still_night
 data=unlock,4,22
 data=track,still night
+
+[music_Sunburn]
+table=music
+data=name,Sunburn
+data=playbutton,music:sunburn
+data=unlock,7,23
+data=track,sunburn
 
 [music_Talking_Forest]
 table=music
@@ -1312,6 +1466,13 @@ data=playbutton,music:wilderness4
 data=unlock,5,16
 data=track,wilderness4
 
+[music_Wildwood]
+table=music
+data=name,Wildwood
+data=playbutton,music:wildwood
+data=unlock,9,0
+data=track,wildwood
+
 [music_Witching]
 table=music
 data=name,Witching
@@ -1339,6 +1500,13 @@ data=name,Wonderous
 data=playbutton,music:wonderous
 data=unlock,5,19
 data=track,wonderous
+
+[music_Woodland]
+table=music
+data=name,Woodland
+data=playbutton,music:woodland
+data=unlock,7,14
+data=track,woodland
 
 [music_Workshop]
 table=music
