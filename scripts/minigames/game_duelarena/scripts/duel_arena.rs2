@@ -3,6 +3,12 @@ if (.busy = true) {
     mes("Other player is busy at the moment."); // https://youtu.be/YkJQDvB14-U?t=26
     return;
 }
+
+if (map_members = ^false) { // theres an area f2p worlds have access to that lets you duel other players
+    mes(^mes_members_do_that); // guess
+    return;
+}
+
 // prevent people from dueling in a duel or if you arent in the duel area
 if (~in_duel_arena(coord) = true | ~inzone_coord_pair_table(duel_arena_zones, coord) = false) {
     mes("You can't do that here."); // https://youtu.be/nUwvlFkcsqA?t=17
@@ -11,10 +17,6 @@ if (~in_duel_arena(coord) = true | ~inzone_coord_pair_table(duel_arena_zones, co
 // if the other player isnt in the duel area
 if (~inzone_coord_pair_table(duel_arena_zones, .coord) = false) {
     mes("That player is not in the duel challenge area."); // https://youtu.be/YlnPnlfgMQ4?t=51
-    return;
-}
-if (map_members = ^false) { // theres an area f2p worlds have access to that lets you duel other players
-    mes(^mes_members_do_that); // guess
     return;
 }
 
