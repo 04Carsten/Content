@@ -131,11 +131,11 @@ stock5=shortbow,4,100
 stock6=longbow,4,100
 stock7=oak_shortbow,3,200
 stock8=oak_longbow,3,200
-stock7=willow_shortbow,2,200
-stock8=willow_longbow,2,200
-stock7=maple_shortbow,1,100
-stock8=maple_longbow,1,100
-stock9=crossbow,2,400
+stock9=willow_shortbow,2,200
+stock10=willow_longbow,2,200
+stock11=maple_shortbow,1,100
+stock12=maple_longbow,1,100
+stock13=crossbow,2,400
 
 [clotheshop]
 // https://classic.runescape.wiki/w/The_Clothes_Shop

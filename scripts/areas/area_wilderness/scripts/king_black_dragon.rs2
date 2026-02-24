@@ -93,8 +93,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
     }
 }
 queue(combat_damage_player, calc($duration / 30), $damage);
-//queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
-queue(playerhit_n_retaliate, calc($duration / 30), npc_uid);
+queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
 ~npc_set_attack_vars;
 // ------------
 
@@ -120,8 +119,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
 
 }
 queue(combat_damage_player, 0, $damage);
-//queue*(playerhit_n_retaliate, 0)(npc_uid);
-queue(playerhit_n_retaliate, 0, npc_uid);
+queue*(playerhit_n_retaliate, 0)(npc_uid);
 ~npc_set_attack_vars;
 
 // ------------
@@ -152,8 +150,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
     }
 }
 queue(combat_damage_player, 0, $damage);
-//queue*(playerhit_n_retaliate, 0)(npc_uid);
-queue(playerhit_n_retaliate, 0, npc_uid);
+queue*(playerhit_n_retaliate, 0)(npc_uid);
 ~npc_set_attack_vars;
 
 // ------------
@@ -195,8 +192,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
     }
 }
 queue(combat_damage_player, 0, $damage);
-//queue*(playerhit_n_retaliate, 0)(npc_uid);
-queue(playerhit_n_retaliate, 0, npc_uid);
+queue*(playerhit_n_retaliate, 0)(npc_uid);
 ~npc_set_attack_vars;
 // ------------
 
@@ -231,8 +227,7 @@ if (randominc($attack_roll) > randominc($defence_roll)) {
     }
 }
 queue(combat_damage_player, 0, $damage);
-//queue*(playerhit_n_retaliate, 0)(npc_uid);
-queue(playerhit_n_retaliate, 0, npc_uid);
+queue*(playerhit_n_retaliate, 0)(npc_uid);
 ~npc_set_attack_vars;
 
 [queue,kbd_freeze_player](int $duration)

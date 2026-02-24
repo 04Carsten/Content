@@ -13,7 +13,7 @@ switch_int(~p_choice3("Why are you called Dad?", 1, "I accept your challenge!", 
         %troll_accepted_challenge = ^true;
         %npc_aggressive_player = uid;
         %npc_lastcombat = sub(^max_32bit_int, 8);
-        //queue*(troll_champion_challenge, 0)(npc_uid);
+        queue*(troll_champion_challenge, 0)(npc_uid);
         ~chatplayer("<p,happy>I accept your challenge!");
         ~chatnpc("<p,happy>Tiny human brave. Dad squish!");
     case 3 :
@@ -116,7 +116,7 @@ if(finduid(%npc_aggressive_player) = true) {
     if(npc_stat(hitpoints) < 20 & p_finduid(%npc_aggressive_player) = true) { // should be correct, confirmed doesnt queue
         @defeat_dad;
     }
-    hint_npc(npc_uid);
+    hint_npc;
 }
 ~npc_default_damage(last_int);
 
@@ -157,7 +157,7 @@ while (npc_findnext = true) {
 [queue,troll_champion_challenge](npc_uid $npc_uid)
 if(npc_finduid($npc_uid) = true) {
     npc_setmode(opplayer2);
-    hint_npc(npc_uid);
+    hint_npc;
 }
 
 [proc,trollchamp_in_combat_check]()(boolean)
@@ -188,10 +188,10 @@ if(~trollchamp_in_combat_check = false) {
 %npc_aggressive_player = uid;
 if(%troll_accepted_challenge = ^false) {
     %troll_accepted_challenge = ^true;
-    //queue*(troll_champion_challenge, 0)(npc_uid);
+    queue*(troll_champion_challenge, 0)(npc_uid);
     ~chatnpc("<p,happy>Tiny human brave. Dad squish!");
 } else {
-    hint_npc(npc_uid);
+    hint_npc;
     npc_setmode(opplayer2);
 }
 if (~sa_enabled = true) {

@@ -121,11 +121,11 @@ if(last_useitem = softclay) {
     ~chatnpc_specific($golem_name, $golem_npc, "<p,confused>New instructions...|Updating program....");
     ~chatnpc_specific($golem_name, $golem_npc, "<p,happy>Task complete!");
     ~chatnpc_specific($golem_name, $golem_npc, "<p,happy>Thank you. Now my mind is at rest.");
-    queue(golem_complete, 0);
+    queue(golem_complete, 0, 0);
 } else if(last_useitem = golem_golemkey) {
     if(%golem_head_open = 0) {
         mes("You insert the key and the golem's skull hinges open.");
-        queue(golem_head_queue, 10);
+        queue(golem_head_queue, 10, 0);
         %golem_head_open = 1;
     } else {
         mes("The golem's head is already open.");

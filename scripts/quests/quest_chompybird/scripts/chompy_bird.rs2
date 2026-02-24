@@ -8,7 +8,7 @@
     npc_anim(chompy_landing, 0);
     npc_say("Sqwirk!");
     if(finduid(%quest_chompybird_baiter) = true) {
-        hint_npc(npc_uid);
+        hint_npc;
     }
 
     // todo confirm behaviour, looks like it wanders first then hunts?
@@ -168,7 +168,7 @@ return(~npc_projectile(coord, npc_uid, oc_param($ammo, proj_travel), 40, 36, 41,
 
 [ai_queue3,chompy_bird]
 if(npc_findhero = ^true) { // happens before npc_death
-    queue(chompybird_kill, 0);
+    queue(chompybird_kill, 0, 0);
 }
 gosub(npc_death);
 

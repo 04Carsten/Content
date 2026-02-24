@@ -45,7 +45,7 @@ settimer(general_macro_events, 500);
 // - https://youtu.be/T0ulsgorBkY?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT
 // - https://youtu.be/HwGAzcmvF9k?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT
 // npc spawns only after interface is closed
-queue(macro_event_login, 0);
+queue(macro_event_login, 0, 0);
 // TODO: Find out if these run on login?
 ~macro_cube_login;
 // so pk skulls persist after logging back in
@@ -80,8 +80,8 @@ if (%tutorial < ^tutorial_complete & ~in_tutorial_island(coord) = true) {
 ~initalltabs;
 ~update_all(inv_getobj(worn, ^wearpos_rhand));
 cam_reset;
-queue(follower_login, 0);
-if (map_production = true) {
+queue(follower_login, 0, 0);
+if (map_live = true) {
     if_openfull(inter_353, inter_313);
     if_settext(inter_353:com_1,"Did you know, all the weapon stats are listed on our new");
     if_settext(inter_353:com_2,"Knowledge Base?");
@@ -109,7 +109,7 @@ if_settab(friends, ^tab_friends);
 if_settab(ignore, ^tab_ignore);
 if_settab(logout, ^tab_logout);
 if_settab(controls, ^tab_player_controls);
-if (lowmemory = true) {
+if (lowmem = true) {
     if_settab(options_ld, ^tab_game_options);
     if_settab(music_ld, ^tab_musicplayer);
 } else {

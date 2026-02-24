@@ -95,7 +95,7 @@ if (inv_total(inv, $uncooked_item) = 1) {
     return;
 }
 def_int $count = ~cookx($uncooked_item);
-weakqueue(cook_generic, 3, sub($count, 1), $low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
+weakqueue*(cook_generic, 3)(sub($count, 1), $low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
 @cook_item($low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
 
 [label,cook_item](int $low, int $high, seq $anim, string $succesmessage, string $burnmessage, obj $uncooked_item, namedobj $cooked_item, namedobj $burnt_item, namedobj $additional_item, int $experience)
@@ -164,7 +164,7 @@ if (inv_total(inv, $uncooked_item) < 1) {
     mes("You don't have any more <lowercase(oc_name($cooked_item))> to cook."); // https://youtu.be/Pa_BfSX1qmI?t=91
     return;
 }
-weakqueue(cook_generic, 3, sub($count, 1), $low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
+weakqueue*(cook_generic, 3)(sub($count, 1), $low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
 @cook_item($low, $high, $anim, $succesmessage, $burnmessage, $uncooked_item, $cooked_item, $burnt_item, $additional_item, $experience);
 
 [debugproc,c]

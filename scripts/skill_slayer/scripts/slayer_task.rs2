@@ -109,29 +109,29 @@ if(npc_findhero = ^true) {
     if(.finduid(%npc_aggressive_player) = true & uid ! .uid) {
         if(%slayer_target = $key) {
             if_close;
-            queue(progress_task_split, 0, npc_uid);
+            queue*(progress_task_split, 0)(npc_uid);
         }
         if(.%slayer_target = $key) {
             .if_close;
-            .queue(progress_task_split, 0, npc_uid);
+            .queue*(progress_task_split, 0)(npc_uid);
         }
     } else if(%slayer_target = $key) {
         if_close;
-        queue(progress_task, 0, npc_uid);
+        queue*(progress_task, 0)(npc_uid);
     }
 } else if(finduid(%npc_aggressive_player) = true) {
     if(.npc_findhero = ^true & uid ! .uid) {
         if(%slayer_target = $key) {
             if_close;
-            queue(progress_task_split, 0, npc_uid);
+            queue*(progress_task_split, 0)(npc_uid);
         }
         if(.%slayer_target = $key) {
             .if_close;
-            .queue(progress_task_split, 0, npc_uid);
+            .queue*(progress_task_split, 0)(npc_uid);
         }
     } else if(%slayer_target = $key) {
         if_close;
-        queue(progress_task, 0, npc_uid);
+        queue*(progress_task, 0)(npc_uid);
     }
 }
 
@@ -158,4 +158,4 @@ if(npc_finduid($uid) = true) {
 [proc,complete_task]
 // https://youtu.be/xq8oz9of6Ck?si=WgGJ5L-rC1sCCh2F&t=66
 mes("You've completed your task; return to a Slayer master.");
-midi_jingle(^advance_slayer_jingle, ^advance_slayer_millis);
+// midi_jingle(^advance_slayer_jingle, ^advance_slayer_millis);

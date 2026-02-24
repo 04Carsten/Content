@@ -47,4 +47,4 @@ if (~npc_player_hit_roll(^magic_style) = true | inv_total(worn, slayer_nosepeg) 
 }
 spotanim_pl(specter_goo_impact, 320, $duration);
 sound_synth(goo_hit, 0, $duration);
-queue(playerhit_n_retaliate, calc($duration / 30), npc_uid);
+queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);

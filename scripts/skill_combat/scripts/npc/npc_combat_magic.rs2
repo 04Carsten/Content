@@ -131,7 +131,7 @@ spotanim_pl(db_getfield($spell_data, magic_spell_table:spotanim_target, 0), $dur
 if (db_getfieldcount($spell_data, magic_spell_table:sound_hit) > 0) {
     sound_synth(db_getfield($spell_data, magic_spell_table:sound_hit, 0), 0, $duration);
 }
-queue(playerhit_n_retaliate, calc($duration / 30), npc_uid);
+queue*(playerhit_n_retaliate, calc($duration / 30))(npc_uid);
 
 [proc,npc_stat_change_effect](dbrow $spell_data)
 def_stat $stat;
@@ -165,4 +165,4 @@ sound_synth(db_getfield($spell_data, magic_spell_table:sound_cast, 0), 0, 0);
 sound_synth(spellfail, 0, $duration);
 spotanim_pl(failedspell_impact, 92, $duration);
 // splashing in osrs causes insta auto retal
-queue(playerhit_n_retaliate, 0, npc_uid);
+queue*(playerhit_n_retaliate, 0)(npc_uid);

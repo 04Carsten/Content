@@ -1,5 +1,5 @@
 [proc,player_die]
-strongqueue(player_death_default, 0);
+strongqueue(player_death_default, 0, 0);
 
 [proc,player_death]
 %death = ^true;
@@ -52,7 +52,7 @@ healenergy(10000);
 ~player_end_poison;
 
 [proc,player_death_lose_items]
-if (staffmodlevel > 1 & map_production = true) { return; }
+if (staffmodlevel > 1 & map_live = true) { return; }
 
 def_boolean $skulled = false;
 if (%pk_skull > 0) { $skulled = true; }
@@ -99,7 +99,7 @@ inv_clear(deathkeep);
 
 [proc,pvp_death_lose_items]
 ~pvp_death_message(.uid);
-if (staffmodlevel > 1 & map_production = true) { return; }
+if (staffmodlevel > 1 & map_live = true) { return; }
 
 def_boolean $skulled = false;
 if (%pk_skull > 0) { $skulled = true; }

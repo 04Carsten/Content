@@ -221,7 +221,7 @@ if(%sheep = calc(^sheep_last_wool) & inv_total(inv, ball_of_wool) > 0) {
     %sheep = ^sheep_last_wool;
     // The last ball of wool is no longer taken separately in this June 2008 source: https://youtu.be/SmomTYcvcS4?t=214
     // But is taken separately in Feburary 2008: https://youtu.be/Qg1HOZAN6XY?t=285
-    queue(sheep_complete, 0);
+    queue(sheep_complete, 0, 0);
     return;
 }
 

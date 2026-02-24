@@ -89,8 +89,7 @@ if (~npc_player_hit_roll(^magic_style) = true & ~check_protect_prayer(^magic_sty
 }
 if ($damage > 0) {
     queue(combat_damage_player, 0, $damage);
-    //queue*(playerhit_n_retaliate, 0)(npc_uid); //update when queue* added
-    queue(playerhit_n_retaliate, 0, npc_uid);
+    queue*(playerhit_n_retaliate, 0)(npc_uid);
 }
 %npc_action_delay = add(map_clock, $attackspeed);
 ~npc_set_attack_vars;
