@@ -1040,7 +1040,7 @@ data=musicdata,music_Wild_Side
 table=musicregion
 data=mapsquare,0_47_61_0_0
 data=name,Pirates Of Peril
-data=musicdata,music_Pirates_Of_Peril
+data=musicdata,music_Pirates_of_Peril
 
 [musicregion_48_47]
 table=musicregion
