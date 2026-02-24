@@ -318,8 +318,8 @@
 [command,damage](player_uid $uid, int $type, int $amount)
 // info: Hurt the secondary player
 [command,.damage](player_uid $uid, int $type, int $amount)
-// info: internal- set which buttons can re-trigger the suspended script
-[command,if_setresumebuttons](component $component1, component $component2, component $component3, component $component4, component $component5)
+// info: internal- set which buttons can re-trigger a script suspended with p_pausebutton
+[command,if_addresumebutton](component $button)
 // info: Choose a text string based on the player's gender
 [command,text_gender](string $male_text, string $female_text)(string)
 // info: Choose a text string based on the secondary player's gender
