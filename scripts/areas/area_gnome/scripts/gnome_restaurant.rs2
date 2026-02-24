@@ -21,7 +21,7 @@ inv_add(inv, giannes_cook_book, 1);
 ~chatplayer("<p,happy>Ok then.");
 
 
-[label,gnome_restaurant_assign_cheese+tom_batta]
+[label,gnome_restaurant_assign_cheese_tom_batta]
 ~chatplayer("<p,neutral>Hi Mr Gianne.");
 ~chatnpc("<p,happy>Hello <displayname()>. So what did you think of the book?");
 ~chatplayer("<p,confused>I'm not too sure about toad's legs.");

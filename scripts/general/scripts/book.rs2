@@ -1,9 +1,9 @@
 [if_button,book:close]
-if_close();
+if_close;
 
 [if_button,book:com_84]
 switch_obj (%open_book) {
-    /*case baxtorian_book_waterfall_quest : @book_flip_page(^book_direction_backward, 0, 4, book_on_baxtorian_page);
+    case baxtorian_book_waterfall_quest : @book_flip_page(^book_direction_backward, 0, 4, book_on_baxtorian_page);
     case witches_diary : @book_flip_page(^book_direction_backward, 0, 3, witches_diary);
     case ardougne_book : @book_flip_page(^book_direction_backward, 0, 3, guide_ardougne);
     case the_shield_of_arrav : @book_flip_page(^book_direction_backward, 0, 2, shieldofarrav_book);
@@ -17,7 +17,7 @@ switch_obj (%open_book) {
     case ibansdove : @book_flip_page(^book_direction_backward, 0, 2, ibanconscience);
     case digsitebook : @book_flip_page(^book_direction_backward, 0, 1, book_on_chemicals);
     case book_of_binding : @book_flip_page(^book_direction_backward, 0, 4, book_of_binding_page);
-    case elemental_workshop_shield_book : @book_flip_page(^book_direction_backward, 0, 1, elemental_shield_book);*/
+    case elemental_workshop_shield_book : @book_flip_page(^book_direction_backward, 0, 1, elemental_shield_book);
     case golem_notes : @book_flip_page(^book_direction_backward, 0, 9, golem_notes);
     case rcu_instruction_book : @book_flip_page(^book_direction_backward, 0, ^abyssal_notes_book_total_pages, rcu_instruction_book);
 }
@@ -25,7 +25,7 @@ p_delay(0);
 
 [if_button,book:com_86]
 switch_obj (%open_book) {
-    /*case baxtorian_book_waterfall_quest : @book_flip_page(^book_direction_forward, 0, 4, book_on_baxtorian_page);
+    case baxtorian_book_waterfall_quest : @book_flip_page(^book_direction_forward, 0, 4, book_on_baxtorian_page);
     case witches_diary : @book_flip_page(^book_direction_forward, 0, 3, witches_diary);
     case ardougne_book : @book_flip_page(^book_direction_forward, 0, 3, guide_ardougne);
     case the_shield_of_arrav : @book_flip_page(^book_direction_forward, 0, 2, shieldofarrav_book);
@@ -39,7 +39,7 @@ switch_obj (%open_book) {
     case ibansdove : @book_flip_page(^book_direction_forward, 0, 2, ibanconscience);
     case digsitebook : @book_flip_page(^book_direction_forward, 0, 1, book_on_chemicals);
     case book_of_binding : @book_flip_page(^book_direction_forward, 0, 4, book_of_binding_page);
-    case elemental_workshop_shield_book : @book_flip_page(^book_direction_forward, 0, 1, elemental_shield_book);*/
+    case elemental_workshop_shield_book : @book_flip_page(^book_direction_forward, 0, 1, elemental_shield_book);
     case golem_notes : @book_flip_page(^book_direction_forward, 0, 9, golem_notes);
     case rcu_instruction_book : @book_flip_page(^book_direction_forward, 0, ^abyssal_notes_book_total_pages, rcu_instruction_book);
 }

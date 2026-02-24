@@ -6,7 +6,7 @@ if ($category = gnome_crunchies | $category = gnome_batta | $category = gnome_bo
 [label,gianne_dialogue]
 switch_int(%gnome_restaurant_progress) {
     case 0 : @gnome_restaurant_start;
-    case 1 : @gnome_restaurant_assign_cheese+tom_batta;
+    case 1 : @gnome_restaurant_assign_cheese_tom_batta;
     case 2 : @gnome_restaurant_assign_chocolate_bomb;
     case 3 : @gnome_restaurant_assign_toad_batta;
     case 4 : @gnome_restaurant_assign_worm_hole;

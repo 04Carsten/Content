@@ -75,4 +75,3 @@ switch_int(%biohazard) {
 
 [label,bravek_enter_room]
 ~open_and_close_door2(loc_param(next_loc_stage), ~check_axis(coord, loc_coord, loc_angle), door_open);
-

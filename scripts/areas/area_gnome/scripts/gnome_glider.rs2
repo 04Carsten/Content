@@ -178,4 +178,3 @@ if(%grandtree = ^grandtree_complete) {
 [label,gnome_pilot_creative]
 ~chatplayer("<p,quiz>What happened here?");
 ~chatnpc("<p,shifty>Call it 'creative landing'.");
-
