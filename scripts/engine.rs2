@@ -307,11 +307,11 @@
 // info: Set a component's model to a npc's chat head
 [command,if_setnpchead](component $component, npc $npc)
 // info: Reposition a component
-[command,if_setposition](component $component, int $x, int $y);
+[command,if_setposition](component $component, int $x, int $y)
 // info: Reposition a component for the secondary player
-[command,.if_setposition](component $component, int $x, int $y);
+[command,.if_setposition](component $component, int $x, int $y)
 // info: Set the scrollbar position on a component
-[command,if_setscrollpos](component $component, int $y);
+[command,if_setscrollpos](component $component, int $y)
 // info: Give xp in a stat
 [command,stat_advance](stat $stat, int $exp)
 // info: Hurt a player
@@ -393,7 +393,7 @@
 // info: Get the number of queued scripts that are specifically $queue for the secondary player
 [command,.getqueue](queue $queue)(int)
 // info: Requires protected access - merge the player's visual model with a loc so render priorities are correct
-[command,p_locmerge](int $startCycle, int $endCycle, coord $southEast, coord $northWest);
+[command,p_locmerge](int $startCycle, int $endCycle, coord $southEast, coord $northWest)
 // info: Show the welcome screen
 [command,last_login_info]
 // info: Requires protected access - teleport the player to $coord, short distances (1-2 tiles) will visually walk/run
