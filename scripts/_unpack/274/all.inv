@@ -1,16 +1,10 @@
 [tbwt_tiadeche_final_inventory]
 size=3
 
-[karamja_fishrestaurant]
-size=6
+// [karamja_fishrestaurant]
+// size=6
 
 [tbwt_tamayu_final_inventory]
-size=40
-
-[regicide_general_shop]
-size=40
-
-[regicide_general_shop_2]
 size=40
 
 // https://web.archive.org/web/20060415002448/http://kbase.runescape.com/lang/en/aff/runescape/viewarticle.ws?article_id=2379
@@ -47,23 +41,18 @@ stock1=woodplank,1000,1000
 stock2=limestonebrick,1000,10
 stock3=swamppaste,1000,10
 
-[viking_clothes_shop]
-size=21
+// [viking_clothes_shop]
+// size=21
 
-[viking_bar]
-size=3
+// [viking_bar]
+// size=3
 
-[viking_weapons_shop]
-size=11
+// [viking_weapons_shop]
+// size=11
 
-[viking_general_store]
-size=40
+// [viking_fishmonger]
+// size=24
 
-[viking_fishmonger]
-size=24
+// [viking_furshop]
+// size=12
 
-[viking_furshop]
-size=12
-
-[lighthouseshop]
-size=40

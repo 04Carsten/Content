@@ -332,6 +332,15 @@ param=slashdefence,1
 param=strengthbonus,6
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_iron_spear_kp]
 name=Iron spear(kp)
@@ -365,6 +374,15 @@ param=slashdefence,1
 param=strengthbonus,10
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_steel_spear_kp]
 name=Steel spear(kp)
@@ -398,6 +416,15 @@ param=slashdefence,1
 param=strengthbonus,12
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_mithril_spear_kp]
 name=Mithril spear(kp)
@@ -431,6 +458,15 @@ param=slashdefence,1
 param=strengthbonus,18
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_adamant_spear_kp]
 name=Adamant spear(kp)
@@ -464,6 +500,15 @@ param=slashdefence,1
 param=strengthbonus,28
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_rune_spear_kp]
 name=Rune spear(kp)
@@ -497,6 +542,15 @@ param=slashdefence,1
 param=strengthbonus,42
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_spear_spike
+param=slashattack_anim,human_scythe_sweep
+param=crushattack_anim,human_spear_lunge
+param=defend_anim,human_spear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [tbwt_dragon_spear_kp]
 name=Dragon spear(kp)
@@ -531,6 +585,15 @@ param=rangedefence,5
 param=strengthbonus,60
 param=attackrate,6
 param=ready_baseanim,human_staffready
+param=stabattack_anim,human_dspear_stab
+param=slashattack_anim,human_dspear_slash
+param=crushattack_anim,human_dspear_lunge
+param=defend_anim,human_dspear_block
+param=stab_sound,staff_stab
+param=slash_sound,staff_hit
+param=crush_sound,staff_hit
+// param=poison_severity, TODO
+// osrs slash sound staff_crush / crush sound newstaff
 
 [banana_left]
 name=Banana left
