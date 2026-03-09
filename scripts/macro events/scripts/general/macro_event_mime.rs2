@@ -204,7 +204,7 @@ if (testbit(%emote_access, ^macro_mime_climb_rope) = ^false) {
 if (testbit(%emote_access, ^macro_mime_lean) = ^false) {
     if ($current = $pick) {
         %emote_access = setbit(%emote_access, ^macro_mime_lean);
-        ~mesbox("You can now use the Lean on air emote!");
+        ~mesbox("You can now use the Lean emote!"); // https://i.imgur.com/b7WvfEH.png (2005)
         return;
     }
     $current = add($current, 1);
