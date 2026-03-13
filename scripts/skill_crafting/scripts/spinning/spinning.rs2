@@ -1,41 +1,109 @@
 [oplocu,spinning_wheel]
 switch_obj (last_useitem) 
 {
-    case wool : @craft_spinning(last_useitem);
+    case wool : @craft_spinning(last_useitem, 1, loc_type, loc_coord);
     case flax :
         if (map_members = ^false) {
             mes(^mes_members_feature);
             return;
         }
-        @craft_spinning(last_useitem);
+        @craft_spinning(last_useitem, 1, loc_type, loc_coord);
     case ball_of_wool : ~objbox(ball_of_wool, "You have already spun this wool.", 250, 0, divide(^objbox_height, 2));
     case bow_string : ~objbox(bow_string, "You have already spun this bow string.", 250, 0, divide(^objbox_height, 2));
     case default : ~displaymessage(^dm_default);
 }
 
-[label,craft_spinning](obj $spinning_obj)
+[queue,crafting_spinning](obj $spinning_obj, int $amt, loc $loc, coord $coord)
+if ($amt = 0) {
+    return;
+}
+
+if (inv_total(inv, $spinning_obj) = 0) {
+    // From https://youtu.be/W77l-6ZquQQ?si=-3acNd8zIcPvrWM5&t=340
+    // Couldn't find sources for this happening with wool
+    if ($spinning_obj = flax) {
+        mes("You have run out of flax.");
+    }
+
+    return;
+}
+
 def_struct $struct = oc_param($spinning_obj, crafting_spinning_struct);
+
+inv_del(inv, struct_param($struct, ingredient), 1);
+inv_add(inv, struct_param($struct, product), 1);
+mes(struct_param($struct, processmessage));
+stat_advance(crafting, struct_param($struct, productexp));
+
+@craft_spinning($spinning_obj, sub($amt, 1), $loc, $coord);
+
+[oploc2,spinning_wheel]
+def_int $amt = 0;
+def_int $count = 0;
+def_obj $obj;
+
+$obj, $amt = ~skill_multi2(
+    wool, 0, -2, 200, "\\n\\n\\n\\nWool", 
+    flax, 0, -3, 200, "\\n\\n\\n\\nFlax"
+);
+$amt = min($amt, inv_total(inv, $obj));
+def_struct $struct = oc_param($obj, crafting_spinning_struct);
+
+if ($obj = flax & map_members = ^false) {
+    mes(^mes_members_crafting);
+    return;
+}
+
+def_int $level = struct_param($struct, levelrequire);
+if (stat(crafting) < $level) {
+    ~mesbox("You need level <tostring($level)> Crafting to make that.");
+    return;
+}
+
+if ($amt = 0) {
+    return;
+}
+
+@craft_spinning($obj, $amt, loc_type, loc_coord);
+
+[label,craft_spinning](obj $spinning_obj, int $amt, loc $loc, coord $coord)
+def_struct $struct = oc_param($spinning_obj, crafting_spinning_struct);
+
 // check if we have the required level
 def_int $level = struct_param($struct, levelrequire);
 if (stat(crafting) < $level) {
     ~mesbox("You need level <tostring($level)> Crafting to make that.");
     return;
 }
+
 // macro event
 if (afk_event = ^true) {
     ~macro_event_general_spawn(~macro_event_set_random);
     return;
 }
+
+// loc_anim does not work without this check
+if (loc_find($coord, $loc) = false) {
+    return;   
+}
+
+// Make sure the player has an item to spin
+if (inv_total(inv, $spinning_obj) = 0) {
+    // From https://youtu.be/W77l-6ZquQQ?si=-3acNd8zIcPvrWM5&t=340
+    // Couldn't find sources for this happening with wool
+    if ($spinning_obj = flax) {
+        mes("You have run out of flax.");
+    }
+
+    return;
+}
+
 // play human animation
 anim(human_spinningwheel, 0);
 loc_anim(spinningwheel);
 sound_synth(spinning, 0, 0);
-inv_del(inv, struct_param($struct, ingredient), 1);
-inv_add(inv, struct_param($struct, product), 1);
-mes(struct_param($struct, processmessage));
-stat_advance(crafting, struct_param($struct, productexp));
-p_delay(3);
-//weakqueue(crafting_spinning, 2, $struct);
+
+weakqueue*(crafting_spinning, 3)($spinning_obj, $amt, $loc, $coord);
 
 /**
 //May have not used weakqueue for this back then https://youtu.be/eQEYx8hwA_I?t=410
