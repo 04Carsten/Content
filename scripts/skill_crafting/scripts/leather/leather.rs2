@@ -125,10 +125,10 @@ if($product = hardleather_body) {
         inv_del(inv, thread, 1);
         %thread_used = 0;
         if(inv_total(inv, thread) = 0) {
-            mes("You use up your last reel of Thread.");
+            mes("You use up your last reel of thread"); // https://i.imgur.com/cpc8CJ0.png (2006)
             return;
         }
-        mes("You use up one of your reels of Thread.");
+        mes("You use up one of your reels of thread");
     }
     return;
 }
@@ -168,10 +168,10 @@ if (%thread_used > 4) {
     inv_del(inv, thread, 1);
     %thread_used = 0;
     if(inv_total(inv, thread) = 0) {
-        mes("You use up your last reel of Thread.");
+        mes("You use up your last reel of thread"); // https://i.imgur.com/cpc8CJ0.png (2006)
         return;
     }
-    mes("You use up one of your reels of Thread.");
+    mes("You use up one of your reels of thread");  
 }
 $count = sub($count, 1);
 if($count < 1) {
