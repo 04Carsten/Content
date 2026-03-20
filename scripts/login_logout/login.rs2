@@ -3,13 +3,16 @@ mes("Welcome to RuneScape.");
 cam_reset;
 
 %musicplay = 1; // set to auto on login
-minimap_toggle(0); // always reset on login (osrs)
+%currentsong = null;
+
 if (%option_brightness = 0) {
     // sane defaults for game controls
     %option_brightness = 2;
     %option_music = 2;
     %option_sounds = 2;
 }
+
+minimap_toggle(0); // always reset on login (osrs)
 
 if(~wilderness_level(coord) > 0) {
     set_player_op("Attack", 2, ^false);

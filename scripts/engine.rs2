@@ -78,6 +78,7 @@
 [command,map_findsquare](coord $coord, int $minradius, int $maxradius, int $type)(coord)
 // info: Returns true if the map tile at $coord is in a multi-way combat area
 [command,map_multiway](coord $coord)(boolean)
+[command,midi_length](midi $track)(int)
 
 // Player ops (2000-2499)
 // info: Get access to $player if they are in the world
@@ -327,9 +328,9 @@
 // info: Play a song
 [command,midi_song](midi $song)
 // info: Play a jingle (advancing levels, completing quests, ...)
-[command,midi_jingle](midi $jingle, int $length)
+[command,midi_jingle](midi $jingle)
 // info: Play a jingle for the secondary player (advancing levels, completing quests, ...)
-[command,.midi_jingle](midi $jingle, int $length)
+[command,.midi_jingle](midi $jingle)
 // info: Change the active_player type of minimap displayed
 [command,minimap_toggle](int $type)
 // info: Change the secondary active_player type of minimap displayed
