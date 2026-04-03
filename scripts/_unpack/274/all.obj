@@ -1041,6 +1041,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [03_confuse]
 name=Spell
@@ -1050,6 +1051,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [05_water_strike]
 name=Spell
@@ -1059,6 +1061,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [07_enchant_amulet_lvl1]
 name=Spell
@@ -1068,6 +1071,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [09_earth_strike]
 name=Spell
@@ -1077,6 +1081,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [11_weaken]
 name=Spell
@@ -1086,6 +1091,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [13_fire_strike]
 name=Spell
@@ -1095,6 +1101,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [15_bones_bananas]
 name=Spell
@@ -1104,6 +1111,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [17_wind_bolt]
 name=Spell
@@ -1113,6 +1121,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [19_curse]
 name=Spell
@@ -1122,6 +1131,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [20_bind]
 name=Spell
@@ -1131,6 +1141,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [21_low_alchemy]
 name=Spell
@@ -1140,6 +1151,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [23_water_bolt]
 name=Spell
@@ -1149,6 +1161,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [25_varrock_teleport]
 name=Spell
@@ -1158,6 +1171,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [27_enchant_amulet_lvl2]
 name=Spell
@@ -1167,6 +1181,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [29_earth_bolt]
 name=Spell
@@ -1176,6 +1191,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [31_lumbridge_teleport]
 name=Spell
@@ -1185,6 +1201,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [33_tele_grab]
 name=Spell
@@ -1194,6 +1211,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [35_fire_bolt]
 name=Spell
@@ -1203,6 +1221,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [37_falador_teleport]
 name=Spell
@@ -1212,6 +1231,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [39_crumble_undead]
 name=Spell
@@ -1221,6 +1241,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [41_wind_blast]
 name=Spell
@@ -1230,6 +1251,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [43_superheat_item]
 name=Spell
@@ -1239,6 +1261,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [45_camelot_teleport]
 name=Spell
@@ -1248,6 +1271,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [47_water_blast]
 name=Spell
@@ -1257,6 +1281,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [49_enchant_amulet_lvl3]
 name=Spell
@@ -1266,6 +1291,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [50_iban_blast]
 name=Spell
@@ -1275,6 +1301,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [50_snare]
 name=Spell
@@ -1284,6 +1311,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [51_ardougne_teleport]
 name=Spell
@@ -1293,6 +1321,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [53_earth_blast]
 name=Spell
@@ -1302,6 +1331,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [55_high_alchemy]
 name=Spell
@@ -1311,6 +1341,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [56_charge_water_orb]
 name=Spell
@@ -1320,6 +1351,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [57_enchant_amulet_lvl4]
 name=Spell
@@ -1329,6 +1361,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [58_watchtower_teleport]
 name=Spell
@@ -1338,6 +1371,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [59_fire_blast]
 name=Spell
@@ -1347,6 +1381,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [60_charge_earth_orb]
 name=Spell
@@ -1356,6 +1391,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [60_claws_of_guthix]
 name=Spell
@@ -1365,6 +1401,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [60_flames_of_zamorak]
 name=Spell
@@ -1374,6 +1411,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [60_saradomin_strike]
 name=Spell
@@ -1383,6 +1421,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [61_trollheim_teleport]
 name=Spell
@@ -1392,6 +1431,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [62_wind_wave]
 name=Spell
@@ -1401,6 +1441,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [63_charge_fire_orb]
 name=Spell
@@ -1410,6 +1451,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [65_water_wave]
 name=Spell
@@ -1419,6 +1461,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [66_charge_air_orb]
 name=Spell
@@ -1428,6 +1471,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [66_vulnerability]
 name=Spell
@@ -1437,6 +1481,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [68_enchant_amulet_lvl5]
 name=Spell
@@ -1446,6 +1491,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [70_earth_wave]
 name=Spell
@@ -1455,6 +1501,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [73_enfeeble]
 name=Spell
@@ -1464,6 +1511,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [75_fire_wave]
 name=Spell
@@ -1473,6 +1521,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [79_entangle]
 name=Spell
@@ -1482,6 +1531,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [80_charge]
 name=Spell
@@ -1491,6 +1541,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [80_stun]
 name=Spell
@@ -1500,6 +1551,7 @@ model=model_3374_obj
 2dyan=672
 2dxan=360
 tradeable=no
+dummyitem=inv_only
 
 [vampire_dust]
 name=Vampire dust
