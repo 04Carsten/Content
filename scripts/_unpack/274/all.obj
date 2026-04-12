@@ -1,16 +1,3 @@
-[tbwt_raw_karambwan]
-name=Raw karambwan
-desc=A raw green octopus.
-cost=200
-members=yes
-model=obj_3142
-2dyof=7
-2dzoom=1800
-2dyan=56
-2dxan=388
-weight=700g
-category=category_57
-
 [tbwt_cooked_karambwan]
 name=Cooked karambwan
 recol1s=6436
@@ -26,6 +13,8 @@ model=obj_3142
 iop1=Eat
 weight=650g
 category=58
+param=grindable_ingredient_refined,tbwt_cooked_karambwan_paste
+param=grindable_ingredient_message,You grind the cooked Karambwan to form a sticky paste.
 // param=param_1564,1001
 
 [tbwt_poorly_cooked_karambwan]
@@ -44,6 +33,8 @@ iop1=Eat
 weight=650g
 category=58
 tradeable=no
+param=grindable_ingredient_refined,tbwt_poisonous_karambwan_paste
+param=grindable_ingredient_message,You grind the cooked Karambwan to form a sticky paste.
 
 [tbwt_burnt_karambwan]
 name=Burnt karambwan
@@ -60,21 +51,6 @@ model=obj_3142
 weight=600g
 category=category_116
 tradeable=no
-
-[tbwt_raw_karambwanji]
-name=Raw karambwanji
-desc=Small brightly coloured tropical fish.
-cost=10
-members=yes
-model=obj_3150
-2dxof=6
-2dyof=6
-2dzoom=1000
-2dxan=464
-weight=170g
-category=category_57
-tradeable=no
-// weight guesses.
 
 [tbwt_cooked_karambwanji]
 name=Karambwanji
@@ -95,6 +71,8 @@ model=obj_3150
 iop1=Eat
 weight=120g
 category=category_15
+param=grindable_ingredient_refined,tbwt_cooked_karambwanji_paste
+param=grindable_ingredient_message,You grind the cooked Karambwanji to form a sticky paste.
 // param=param_59,1
 
 [tbwt_raw_karambwan_paste]
@@ -189,18 +167,6 @@ manwear=obj_3157_manwear,0
 womanwear=obj_3157_manwear,6
 wearpos=righthand
 weight=3kg
-
-[tbwt_karambwan_vessel_loaded_with_karambwanji]
-name=Karambwan vessel
-desc=This Karambwan Vessel is loaded with Karambwanji.
-cost=40
-members=yes
-model=obj_3159
-2dzoom=940
-2dxan=72
-manwear=obj_3157_manwear,0
-womanwear=obj_3157_manwear,6
-weight=3150g
 
 [tbwt_crafting_manual]
 name=Crafting manual
@@ -300,301 +266,6 @@ model=obj_3169
 weight=1200g
 tradeable=no
 
-[tbwt_bronze_spear_kp]
-name=Bronze spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned bronze tipped spear.
-cost=26
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=5lb
-param=stabattack,5
-param=slashattack,5
-param=crushattack,5
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,6
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_iron_spear_kp]
-name=Iron spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned iron tipped spear.
-cost=91
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=5lb
-param=stabattack,8
-param=slashattack,8
-param=crushattack,8
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,10
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_steel_spear_kp]
-name=Steel spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned steel tipped spear.
-cost=325
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=5lb
-param=stabattack,12
-param=slashattack,12
-param=crushattack,12
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,12
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_mithril_spear_kp]
-name=Mithril spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned mithril tipped spear.
-cost=845
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=4lb
-param=stabattack,17
-param=slashattack,17
-param=crushattack,17
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,18
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_adamant_spear_kp]
-name=Adamant spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned adamantite tipped spear.
-cost=2080
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=6lb
-param=stabattack,24
-param=slashattack,24
-param=crushattack,24
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,28
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_rune_spear_kp]
-name=Rune spear(kp)
-recol1s=8456
-recol1d=18260
-recol2s=7399
-recol2d=18260
-desc=A Karambwan poisoned rune tipped spear.
-cost=20800
-members=yes
-model=model_2719_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_540_obj_wear,0
-womanwear=model_540_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=5lb
-param=stabattack,36
-param=slashattack,36
-param=crushattack,36
-param=stabdefence,1
-param=slashdefence,1
-param=strengthbonus,42
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_spear_spike
-param=slashattack_anim,human_scythe_sweep
-param=crushattack_anim,human_spear_lunge
-param=defend_anim,human_spear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
-[tbwt_dragon_spear_kp]
-name=Dragon spear(kp)
-recol1s=896
-recol1d=18260
-desc=A Karambwan poisoned dragon tipped spear.
-cost=62400
-members=yes
-model=model_2482_obj
-2dxof=7
-2dyof=-4
-2dzoom=1490
-2dyan=112
-2dzan=144
-2dxan=1960
-manwear=model_505_obj_wear,0
-womanwear=model_505_obj_wear,6
-iop2=Wield
-wearpos=righthand
-wearpos2=lefthand
-tradeable=no
-category=weapon_spear
-weight=5lb
-param=stabattack,55
-param=slashattack,55
-param=crushattack,55
-param=stabdefence,5
-param=slashdefence,5
-param=crushdefence,5
-param=magicdefence,5
-param=rangedefence,5
-param=strengthbonus,60
-param=attackrate,6
-param=ready_baseanim,human_staffready
-param=stabattack_anim,human_dspear_stab
-param=slashattack_anim,human_dspear_slash
-param=crushattack_anim,human_dspear_lunge
-param=defend_anim,human_dspear_block
-param=stab_sound,staff_stab
-param=slash_sound,staff_hit
-param=crush_sound,staff_hit
-// param=poison_severity, TODO
-// osrs slash sound staff_crush / crush sound newstaff
-
 [banana_left]
 name=Banana left
 desc=Mmm this looks tasty.
@@ -678,7 +349,8 @@ model=model_2674_obj
 2dxan=400
 iop1=Bury
 weight=500g
-category=6
+category=bones
+param=bone_exp,50
 
 [mm_small_zombie_monkey_bones]
 name=Monkey bones
