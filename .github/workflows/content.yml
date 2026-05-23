@@ -14,28 +14,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         path: content
 
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         repository: LostCityRS/Engine-TS
         ref: '274'
         path: engine
 
-    - uses: oven-sh/setup-bun@v2
+    - name: Install Node.js
+      uses: actions/setup-node@v6
       with:
-        bun-version: latest
+        node-version: 24
+        cache: npm
 
-    - uses: actions/setup-java@v4
-      with:
-        distribution: 'temurin'
-        java-version: '17'
-
-    - working-directory: engine
-      run: bun install
+    - name: Install dependencies
+      working-directory: engine
+      run: npm ci
 
     - name: Pack
       working-directory: engine
-      run: bun run build
+      run: npm run build
