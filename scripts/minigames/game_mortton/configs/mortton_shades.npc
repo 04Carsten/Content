@@ -32,6 +32,7 @@ timer=1
 param=next_npc_type,shade_level1
 // guess
 huntrange=3
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1276
@@ -68,7 +69,9 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones1
 param=undead,^true
+param=shadeshadow,shadeshadow_level1
 timer=1
+category=shade
 // huntrange= TODO
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
@@ -102,7 +105,8 @@ op2=Attack
 vislevel=60
 wanderrange=5
 maxrange=11
-// respawnrate= TODO
+blockwalk=none
+respawnrate=50
 hitpoints=56
 attack=64
 strength=47
@@ -118,9 +122,12 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones2
 param=undead,^true
+param=next_npc_type,shade_level2
 huntmode=shades
 // guess
 huntrange=3
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1279
@@ -140,7 +147,7 @@ alwaysontop=yes
 vislevel=60
 wanderrange=5
 maxrange=11
-// respawnrate= TODO
+respawnrate=50
 hitpoints=56
 attack=64
 strength=47
@@ -156,8 +163,11 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones2
 param=undead,^true
+param=shadeshadow,shadeshadow_level2
 huntmode=cowardly
 // huntrange= TODO
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1280
@@ -174,7 +184,8 @@ op2=Attack
 vislevel=80
 wanderrange=5
 maxrange=11
-// respawnrate= TODO
+blockwalk=none
+respawnrate=50
 hitpoints=76
 attack=88
 strength=55
@@ -190,9 +201,12 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones3
 param=undead,^true
+param=next_npc_type,shade_level3
 huntmode=shades
 // guess
 huntrange=3
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1281
@@ -212,7 +226,7 @@ alwaysontop=yes
 vislevel=80
 wanderrange=5
 maxrange=11
-// respawnrate= TODO
+respawnrate=50
 hitpoints=76
 attack=88
 strength=55
@@ -228,8 +242,11 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones3
 param=undead,^true
+param=shadeshadow,shadeshadow_level3
 huntmode=cowardly
 // huntrange= TODO
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1282
@@ -246,7 +263,8 @@ op2=Attack
 vislevel=100
 wanderrange=7
 maxrange=11
-// respawnrate= TODO
+blockwalk=none
+respawnrate=50
 hitpoints=90
 attack=102
 strength=84
@@ -262,9 +280,12 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones4
 param=undead,^true
+param=next_npc_type,shade_level4
 huntmode=shades
 // guess
 huntrange=3
+timer=1
+category=shade
 // huntrange= TODO
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
@@ -285,7 +306,7 @@ alwaysontop=yes
 vislevel=100
 wanderrange=7
 maxrange=11
-// respawnrate= TODO
+respawnrate=50
 hitpoints=90
 attack=102
 strength=84
@@ -301,8 +322,11 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones4
 param=undead,^true
+param=shadeshadow,shadeshadow_level4
 huntmode=cowardly
 // huntrange= TODO
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1284
@@ -317,7 +341,8 @@ op2=Attack
 vislevel=120
 wanderrange=7
 maxrange=11
-// respawnrate= TODO
+blockwalk=none
+respawnrate=50
 hitpoints=110
 attack=120
 strength=100
@@ -333,9 +358,12 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones5
 param=undead,^true
+param=next_npc_type,shade_level5
 huntmode=shades
 // guess
 huntrange=3
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1285
@@ -353,7 +381,7 @@ alwaysontop=yes
 vislevel=120
 wanderrange=7
 maxrange=11
-// respawnrate= TODO
+respawnrate=50
 hitpoints=110
 attack=120
 strength=100
@@ -369,8 +397,11 @@ param=defend_sound,shade_hit
 param=death_sound,shade_death
 param=death_drop,shade_bones5
 param=undead,^true
+param=shadeshadow,shadeshadow_level5
 huntmode=cowardly
 // huntrange= TODO
+timer=1
+category=shade
 // TODO immune to poison
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1286
