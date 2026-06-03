@@ -476,7 +476,7 @@ if(loc_type = regicide_cross_over3) {
 ~chatnpc("<p,neutral>I remember you! You're the one who's working with them wicked elves. I will make you pay for that mistake.");
 ~npc_retaliate(0);
 
-[oploc1,loc_3941]
+[oploc1,regicide_old_camp_footprints]
 if(%regicide_quest = ^regicide_defeated_guard) {
     mes("I know where those tracks lead.");
 } else if(%regicide_quest = ^regicide_spoken_tracker2) {
