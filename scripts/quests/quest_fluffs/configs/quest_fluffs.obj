@@ -2,7 +2,7 @@
 name=Doogle leaves
 desc=A tasty herb good for seasoning.
 cost=2
-model=model_2364_obj
+model=inv_herb
 recol1s=15855
 recol1d=13068
 recol2s=26425

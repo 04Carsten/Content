@@ -1,7 +1,7 @@
 [snake_vine_full]
 name=Marshy jungle vine
 desc=A marshy jungle vine.
-model=model_loc_1205
+model=plants_vine+sep_leaves
 hillskew=yes
 op2=Search
 recol1s=640
@@ -12,7 +12,7 @@ recol2d=30497
 [snake_vine_empty]
 name=Marshy jungle vine
 desc=A marshy jungle vine.
-model=model_loc_1205
+model=plants_vine+sep_leaves
 hillskew=yes
 recol1s=24449
 recol1d=640

@@ -1,7 +1,7 @@
 [book_of_astrology]
 name=Astrology book
 desc=A book on the history of Astrology in RuneScape.
-model=model_2794_obj
+model=inv_book
 weight=3g
 iop1=Read
 members=yes
@@ -13,7 +13,7 @@ tradeable=no
 [keep_key]
 name=Keep key
 desc=A small key for a jail door.
-model=model_2372_obj
+model=inv_key
 2dxof=-3
 2dyof=5
 2dzoom=700

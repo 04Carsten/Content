@@ -3,7 +3,7 @@
 [vial_water]
 name=Vial of water
 desc=A glass vial containing water.
-model=model_2789_obj
+model=inv_vial
 recol1s=15855
 recol1d=16956
 2dyof=-1
@@ -20,7 +20,7 @@ category=potion
 [vial_empty]
 name=Vial
 desc=An empty glass vial.
-model=model_2747_obj
+model=inv_vial_empty
 2dyof=-1
 2dzoom=550
 2dyan=1996

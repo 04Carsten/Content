@@ -191,7 +191,7 @@ active=no
 [boardgames_draughts_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -204,7 +204,7 @@ param=next_loc_stage,elfdooropen_reverse
 [boardgames_runelink_door_experienced]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -217,7 +217,7 @@ param=next_loc_stage,elfdooropen_reverse
 [elfdoor_reverse]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -231,7 +231,7 @@ param=next_loc_stage,elfdooropen_reverse
 [elfdooropen_reverse]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -246,7 +246,7 @@ param=next_loc_stage,elfdoor_reverse
 [elfdoor_locked]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -270,7 +270,7 @@ op1=Read
 [boardgames_runelink_ladderup_experienced]
 name=Ladder up
 desc=The ladder to the Runelink challenge room for experienced players.
-model=model_loc_11
+model=furniture_ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -278,7 +278,7 @@ op1=Climb-up
 [boardgames_runelink_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Runelink challenge room.
-model=model_loc_10
+model=furniture_laddertop
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -286,7 +286,7 @@ op1=Climb-Down
 [boardgames_draughts_ladderup_experienced]
 name=Ladder up
 desc=The ladder to the Draughts challenge room for experienced players.
-model=model_loc_11
+model=furniture_ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -294,7 +294,7 @@ op1=Climb-up
 [boardgames_draughts_ladderdown_experienced]
 name=Ladder
 desc=The ladder back to the Draughts challenge room.
-model=model_loc_10
+model=furniture_laddertop
 forceapproach=north
 active=yes
 op1=Climb-Down
@@ -302,7 +302,7 @@ op1=Climb-Down
 [boardgames_ladderup]
 name=Ladder up
 desc=The ladder back up to the Toad and Chicken.
-model=model_loc_11
+model=furniture_ladder
 forceapproach=north
 active=yes
 op1=Climb-up
@@ -310,7 +310,7 @@ op1=Climb-up
 [boardgames_ladderdown]
 name=Ladder
 desc=Leads down to the Burthorpe Games Rooms.
-model=model_loc_1759
+model=furniture_dungeonladder
 active=yes
 op1=Climb-Down
 forceapproach=east
@@ -372,7 +372,7 @@ active=no
 [boardgames_barstool_white]
 name=Stool
 desc=A comfy stool.
-model=model_loc_1100
+model=furniture_barstool
 recol1s=17441
 recol1d=21147
 recol2s=9312
@@ -380,7 +380,7 @@ recol2d=4192
 blockrange=no
 
 [boardgames_barstool_invis]
-model=model_loc_83
+model=blank
 blockrange=no
 
 [boardgames_draughts_plaque]

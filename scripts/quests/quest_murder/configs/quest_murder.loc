@@ -1,7 +1,7 @@
 [loc_2650]
 name=Sinclair family compost heap
 desc=A pile of smelly rotting waste.
-model=model_loc_152
+model=outdoorfurniture_compost
 width=2
 length=2
 op2=Investigate
@@ -9,7 +9,7 @@ op2=Investigate
 [quest_murder_beehive]
 name=Sinclair family beehive
 desc=A sturdily constructed home for bees.
-model=model_beehive
+model=outdoorfurniture_beehive
 op2=Investigate
 
 [murderdrain]
@@ -21,7 +21,7 @@ op2=Investigate
 [loc_2653]
 name=Spiders' nest
 desc=It looks like a spiders nest to me.
-model=model_loc_706_q
+model=walldecor_floorweb_q
 op2=Investigate
 recol1s=31457
 recol1d=21140
@@ -93,13 +93,13 @@ op2=Investigate
 [murderdoggatel]
 name=Sturdy wooden gate
 desc=luckily its what keeps that vicious dog inside.
-model=model_loc_47
+model=fence_gateclosedl
 op1=Investigate
 
 [murderdoggater]
 name=Sturdy wooden gate
 desc=luckily its what keeps that vicious dog inside.
-model=model_loc_47
+model=fence_gateclosedl
 mirror=yes
 op1=Investigate
 

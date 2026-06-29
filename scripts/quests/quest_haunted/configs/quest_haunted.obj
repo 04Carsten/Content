@@ -23,7 +23,7 @@ weight=1oz
 [poison]
 name=Poison
 desc=This stuff looks nasty.
-model=model_2714_obj
+model=inv_poison
 2dxof=-2
 2dyof=-7
 2dzoom=780
@@ -46,7 +46,7 @@ tradeable=no
 [closet_key]
 name=Key
 desc=A slightly smelly key.
-model=model_2372_obj
+model=inv_key
 2dxof=-3
 2dyof=5
 2dzoom=700

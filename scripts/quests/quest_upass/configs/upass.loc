@@ -1,7 +1,7 @@
 [upass_caveentrance2]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -9,7 +9,7 @@ op1=Enter
 [cave_exit_upass]
 name=Underground Pass Exit
 desc=The easy way out...
-model=model_loc_2
+model=cave_entrance
 width=6
 length=4
 resizex=200
@@ -474,7 +474,7 @@ forcedecor=yes
 [upass_swampbubbles1]
 name=Swamp
 desc=This area may not be safe...
-model=model_swamp_bubbles
+model=floor_swampbubbles
 anim=swampbubs
 op1=Cross
 
@@ -499,7 +499,7 @@ recol5d=4161
 [caverockpile]
 name=Pile of rocks
 desc=I can climb this pile of rocks...
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 mapscene=11
 op1=Climb
@@ -531,7 +531,7 @@ active=no
 [cavewitch_door]
 name=Door
 desc=The door is closed.
-model=model_loc_3
+model=basic_poordoor
 active=yes
 op1=Open
 op2=Knock
@@ -543,7 +543,7 @@ recol2d=11458
 [witchdoor]
 name=Door
 desc=The door is open.
-model=model_loc_3
+model=basic_poordoor
 active=yes
 op1=Close
 retex1s=wall
@@ -554,19 +554,19 @@ recol2d=11458
 [cavewitchchest]
 name=Chest
 desc=I wonder what's inside.
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 
 [cavewitchchestopen]
 name=Chest
 desc=I wonder what's inside.
-model=model_loc_76
+model=furniture_chestopen
 op1=Search
 
 [upassshutchest1]
 name=Chest
 desc=I wonder what's inside.
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 
 [walkway_upass_narrow_mid]
@@ -797,7 +797,7 @@ sharelight=yes
 [mudpile_upass]
 name=Rockpile
 desc=A pile of rocks.
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 op1=Climb
 recol1s=12512
@@ -814,7 +814,7 @@ op1=Search
 [rockslide2_obstacle_upass]
 name=Rockslide
 desc=A deposit of rocks.
-model=model_loc_439
+model=cavern_rockslide_small3
 mapscene=12
 hillskew=yes
 op1=Climb-over
@@ -896,7 +896,7 @@ sharelight=yes
 hillskew=yes
 
 [skewsteps1_upass]
-model=model_loc_1862
+model=furniture_skewsteps2
 hillskew=yes
 sharelight=yes
 forcedecor=yes
@@ -1043,7 +1043,7 @@ active=no
 [rocks_obstaclepit_upass]
 name=Rock pile
 desc=A pile of rocks.
-model=model_loc_472
+model=cavern_rockslide2
 mapscene=12
 resizex=50
 resizey=50

@@ -1,7 +1,7 @@
 [shilo_brokencart]
 name=Broken cart
 desc=This looks like it's being used to block entrance to the village.
-model=model_loc_306
+model=outdoorfurniture_brokencart
 width=3
 length=3
 op1=Look-at
@@ -47,7 +47,7 @@ recol6d=6273
 [ahzarhoon_entrance_fissure_withrope]
 name=Fissure
 desc=A narrow fissure in the ground.
-model=model_loc_492
+model=cavern_potholewithrope
 hillskew=yes
 width=3
 length=3
@@ -72,7 +72,7 @@ recol6d=6273
 [secretrubble]
 name=Cave in
 desc=A pile of rubble.
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 op2=Search
 
@@ -87,7 +87,7 @@ op2=Investigate
 [secretrubblebook]
 name=Loose rocks
 desc=A pile of loose rocks.
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 op2=Search
 
@@ -109,7 +109,7 @@ op2=Search
 [zqwaterfallrocks]
 name=Waterfall rocks
 desc=Wet rocks, it looks like you might be able to climb them.
-model=model_loc_436
+model=cavern_rockslide_small
 hillskew=yes
 op1=Look-at
 op2=Search
@@ -117,7 +117,7 @@ op2=Search
 [zqtableraft]
 name=Smashed table
 desc=This table has seen better days.
-model=model_loc_599
+model=furniture_smashedtable
 op1=Look-at
 op2=Craft
 
@@ -134,7 +134,7 @@ model=model_loc_2228
 [zq_tribal_statue]
 name=Tribal Statue
 desc=A statue to mark Taie Bwo Wannai sacred grounds.
-model=model_loc_567
+model=outdoorfurniture_tribalstatue
 width=2
 length=2
 op1=Investigate
@@ -142,7 +142,7 @@ op1=Investigate
 [brimhavencart]
 name=Travel cart
 desc=A sturdy cart for travelling in.
-model=model_loc_307
+model=outdoorfurniture_cart
 width=2
 length=3
 op1=Look-at
@@ -182,7 +182,7 @@ hillskew=yes
 [zqdolmen]
 name=Tomb dolmen
 desc=An ancient construct for supporting the bones of the deceased.
-model=model_loc_410
+model=outdoorfurniture_dolmen
 width=2
 length=2
 op1=Inspect
@@ -200,7 +200,7 @@ op1=Climb
 [zqquest_hidytree]
 name=Palm tree
 desc=An exotic looking tree.
-model=model_loc_1313
+model=plants_medplant
 width=3
 length=2
 op2=Search
@@ -397,7 +397,7 @@ op1=Climb
 [zqrashdolmen]
 name=Tomb dolmen
 desc=An ancient construct for supporting the bones of the deceased.
-model=model_loc_410
+model=outdoorfurniture_dolmen
 width=2
 length=2
 op1=Look-at
@@ -423,7 +423,7 @@ category=shilo_metalgate
 [zqwoodengateclosed_l]
 name=Wooden gate
 desc=The gate is closed.
-model=model_loc_47
+model=fence_gateclosedl
 active=yes
 op1=Open
 blockrange=no
@@ -432,7 +432,7 @@ category=shilo_woodengate
 [zqwoodengateclosed_r]
 name=Wooden gate
 desc=The gate is closed.
-model=model_loc_47
+model=fence_gateclosedl
 mirror=yes
 active=yes
 op1=Open
@@ -440,10 +440,10 @@ blockrange=no
 category=shilo_woodengate
 
 [zqwoodengateclosed_l_inactive]
-model=model_loc_47
+model=fence_gateclosedl
 blockrange=no
 
 [zqwoodengateclosed_r_inactive]
-model=model_loc_47
+model=fence_gateclosedl
 mirror=yes
 blockrange=no

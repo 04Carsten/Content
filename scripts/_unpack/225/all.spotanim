@@ -1586,7 +1586,7 @@ model=model_3446_spotanim
 anim=chompy_toad_explode
 
 [ogre_bellows_use]
-model=model_3440_obj
+model=inv_ogre_bellows_empty
 anim=ogre_bellows_use
 
 [ogre_arrow_travel]

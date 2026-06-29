@@ -134,13 +134,13 @@ op1=Touch
 [macro_maze_chest]
 name=Chest
 desc=I wonder what's inside...
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 
 [macro_maze_chestempty]
 name=Chest
 desc=It looks empty.
-model=model_loc_76
+model=furniture_chestopen
 op1=Search
 
 [godsorb]
@@ -213,14 +213,14 @@ resizex=128
 resizey=48
 
 [macro_theatre_chair]
-model=model_loc_1088
+model=furniture_chair
 recol1s=10401
 recol1d=7298
 blockrange=no
 active=no
 
 [dugupsoil1_macromaze]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=15855
 recol2s=14594
@@ -231,7 +231,7 @@ hillskew=yes
 forcedecor=yes
 
 [dugupsoil2_macromaze]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=15855
 recol2s=14594
@@ -242,7 +242,7 @@ hillskew=yes
 forcedecor=yes
 
 [loc_3650]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=15855
 recol2s=14594
@@ -262,7 +262,7 @@ model=loc_3652
 [troll_climbingrocks]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_471
+model=cavern_rockslide1
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -273,7 +273,7 @@ resizez=64
 blockrange=no
 
 [dugupsoil1_lawtemple]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=8458
 recol2s=14594
@@ -283,7 +283,7 @@ recol3d=8458
 hillskew=yes
 
 [dugupsoil2_lawtemple]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=8458
 recol2s=14594
@@ -293,7 +293,7 @@ recol3d=8458
 hillskew=yes
 
 [dugupsoil3_lawtemple]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=8458
 recol2s=14594
@@ -328,7 +328,7 @@ hillskew=yes
 active=no
 
 [lawtemple_cavewall_top5]
-model=model_loc_1435
+model=dng_hole_l
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -336,7 +336,7 @@ hillskew=yes
 active=no
 
 [lawtemple_cavewall_top_higher]
-model=model_loc_1436
+model=dng_hole_r
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -386,7 +386,7 @@ resizez=256
 blockrange=no
 
 [troll_climbingrocks_inactive]
-model=model_loc_471
+model=cavern_rockslide1
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -484,7 +484,7 @@ blockrange=no
 [eadgar_kitchen_foodtrough]
 name=Food Trough
 desc=It doesn't contain anything particularly appetising.
-model=model_loc_40
+model=outdoorfurniture_foodtrough_wooden
 recol1s=15520
 recol1d=10468
 recol2s=15855
@@ -495,7 +495,7 @@ blockrange=no
 [eadgar_rack]
 name=Rack
 desc=Makes you taller.
-model=model_loc_647
+model=furniture_rack
 width=3
 length=2
 op1=Search
@@ -512,7 +512,7 @@ blockrange=no
 [eadgar_cave_sign]
 name=Sign
 desc=Welcome to Mad Eadgar's! If I'm not in, I've probably been captured again.
-model=model_loc_1032
+model=outdoorfurniture_dangersign
 recol1s=10400
 recol1d=7364
 recol2s=32767
@@ -523,7 +523,7 @@ blockrange=no
 [eadgar_troll_cauldron]
 name=Troll Stew
 desc=I don't want to look too closely at what's cooking in there...
-model=model_loc_692
+model=furniture_cauldron
 recol1s=544
 recol1d=23181
 recol2s=320
@@ -538,7 +538,7 @@ resizez=192
 [stalagmite_large_dusty]
 name=Stalagmites
 desc=limestone ceiling growth.
-model=model_loc_468
+model=cave_stalagmite_twin
 recol1s=13537
 recol1d=18953
 hillskew=yes

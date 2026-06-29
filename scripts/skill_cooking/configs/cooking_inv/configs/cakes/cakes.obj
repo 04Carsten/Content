@@ -127,7 +127,7 @@ weight=150g
 [pot_flour]
 name=Pot of flour
 desc=There is flour in this pot.
-model=model_2406_obj
+model=inv_pot-full
 2dxof=-1
 2dyof=2
 2dzoom=990
@@ -140,7 +140,7 @@ weight=3lb
 name=Bucket of milk
 desc=It's a bucket of milk.
 cost=6
-model=model_2504_obj
+model=inv_bucket-full
 recol1s=173
 recol1d=32767
 2dyof=-18

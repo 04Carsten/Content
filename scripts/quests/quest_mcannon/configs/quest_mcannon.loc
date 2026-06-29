@@ -47,7 +47,7 @@ blockwalk=no
 [mcannondoor]
 name=Door
 desc=The door is closed.
-model=model_loc_3
+model=basic_poordoor
 active=yes
 op1=Open
 retex1s=wall
@@ -59,7 +59,7 @@ param=next_loc_stage,elenagateopen
 [mcannondoor1]
 name=Door
 desc=The door is closed.
-model=model_loc_3
+model=basic_poordoor
 active=yes
 op1=Open
 retex1s=wall
@@ -134,7 +134,7 @@ op1=Inspect
 [mcannoncave]
 name=Cave Entrance
 desc=The entrance to the Goblin's cave.
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -143,7 +143,7 @@ op1=Enter
 [mcanmudpile]
 name=Mud pile
 desc=Mud caved in from above.
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 shadow=no
 blockrange=no

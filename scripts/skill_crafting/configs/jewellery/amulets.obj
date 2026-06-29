@@ -102,31 +102,31 @@ dummyitem=inv_only
 
 [invis_amulet1]
 name=Sapphire amulet
-model=model_loc_2733_0
+model=floor_invisableicon_0
 param=crafting_jewelry_struct,unstrung_sapphire_amulet
 dummyitem=inv_only
 
 [invis_amulet2]
 name=Emerald amulet
-model=model_loc_2733_0
+model=floor_invisableicon_0
 param=crafting_jewelry_struct,unstrung_emerald_amulet
 dummyitem=inv_only
 
 [invis_amulet3]
 name=Ruby amulet
-model=model_loc_2733_0
+model=floor_invisableicon_0
 param=crafting_jewelry_struct,unstrung_ruby_amulet
 dummyitem=inv_only
 
 [invis_amulet4]
 name=Diamond amulet
-model=model_loc_2733_0
+model=floor_invisableicon_0
 param=crafting_jewelry_struct,unstrung_diamond_amulet
 dummyitem=inv_only
 
 [invis_amulet5]
 name=Dragonstoneamulet
-model=model_loc_2733_0
+model=floor_invisableicon_0
 param=crafting_jewelry_struct,unstrung_dragonstone_amulet
 dummyitem=inv_only
 
@@ -134,7 +134,7 @@ dummyitem=inv_only
 cost=350
 name=Gold amulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=32767
 recol1d=22241
 recol2s=13537
@@ -156,7 +156,7 @@ weight=7g
 cost=900
 name=Sapphire amulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=32767
 recol1d=23
 recol2s=13537
@@ -179,7 +179,7 @@ category=category_621
 cost=1275
 name=Emerald amulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=32767
 recol1d=672
 recol2s=13537
@@ -201,7 +201,7 @@ weight=7g
 cost=2025
 name=Ruby amulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=32767
 recol1d=30753
 recol2s=13537
@@ -223,7 +223,7 @@ weight=7g
 cost=3525
 name=Diamond amulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=13537
 recol1d=32767
 recol2s=8321
@@ -243,7 +243,7 @@ weight=7g
 cost=17625
 name=Dragonstoneamulet
 desc=I wonder if I can get this enchanted.
-model=model_2796_obj
+model=inv_amulet_enchanted
 recol1s=32767
 recol1d=12307
 recol2s=13537

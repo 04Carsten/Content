@@ -1,7 +1,7 @@
 [troll_pass_entrance]
 name=Cave Entrance
 desc=Looks like small cave.
-model=model_loc_2
+model=cave_entrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -43,7 +43,7 @@ op1=Exit
 [troll_mad_eadgar_entrance]
 name=Cave Entrance
 desc=Looks like small cave.
-model=model_loc_2
+model=cave_entrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -408,7 +408,7 @@ resizez=128
 [troll_corpse]
 name=Corpse
 desc=Now that's what I call slimline!
-model=model_loc_660
+model=floor_corpse1
 recol1s=27413
 recol1d=23183
 blockrange=no
@@ -417,7 +417,7 @@ blockrange=no
 [troll_corpse2]
 name=Corpse
 desc=He looks very relaxed.
-model=model_loc_661
+model=floor_corpse2
 recol1s=27413
 recol1d=23183
 blockrange=no
@@ -426,7 +426,7 @@ blockrange=no
 [troll_corpse3]
 name=Corpse
 desc=Now he's just too thin.
-model=model_loc_662
+model=floor_corpse3
 recol1s=27413
 recol1d=23183
 width=2
@@ -446,7 +446,7 @@ blockrange=no
 [troll_chair]
 name=Chair
 desc=The ideal thing to sit on.
-model=model_loc_1088
+model=furniture_chair
 recol1s=10401
 recol1d=9411
 blockrange=no
@@ -455,7 +455,7 @@ blockrange=no
 [troll_smashedchair]
 name=Smashed chair
 desc=Not so good for sitting on.
-model=model_loc_1089
+model=furniture_smashedchair
 recol1s=10401
 recol1d=9411
 blockrange=no

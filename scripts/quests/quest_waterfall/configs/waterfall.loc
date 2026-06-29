@@ -15,7 +15,7 @@ length=2
 [bookcase_waterfall_quest]
 name=Bookcase
 desc=A good source of books!
-model=model_loc_380
+model=furniture_bookcase
 length=2
 op1=Search
 forceapproach=east
@@ -37,7 +37,7 @@ blockrange=no
 [glarials_tombstone_waterfall_quest]
 name=Tombstone of glarial
 desc=There is an indent the size of a pebble in the stone's center.
-model=model_loc_406
+model=graveyard_largegrave
 width=2
 length=2
 op1=Read
@@ -52,7 +52,7 @@ op1=Search
 [glarials_chest_closed_waterfall_quest]
 name=Closed chest
 desc=I wonder what's inside.
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 forceapproach=north
 recol1s=10570
@@ -61,7 +61,7 @@ recol1d=17921
 [glarials_chest_open_waterfall_quest]
 name=Open chest
 desc=Perhaps I should search it.
-model=model_loc_76
+model=furniture_chestopen
 op1=Search
 op2=Shut
 forceapproach=north
@@ -100,7 +100,7 @@ op1=Search
 [baxtorian_door_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 op1=Open
 retex1s=wall
 retex1d=elfdoor
@@ -108,7 +108,7 @@ recol2s=6342
 recol2d=11458
 
 [baxtorian_door_open_waterfall_quest]
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -117,7 +117,7 @@ recol2d=11458
 [baxtorian_door_2_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=model_loc_3
+model=basic_poordoor
 op1=Open
 retex1s=wall
 retex1d=elfdoor
@@ -125,7 +125,7 @@ recol2s=6342
 recol2d=11458
 
 [baxtorian_door_2_open_waterfall_quest]
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -141,7 +141,7 @@ resizez=50
 [statue_king_waterfall_quest]
 name=Statue of Baxtorian
 desc=A statue of Baxtorian chiselled in stone.
-model=model_loc_563
+model=outdoorfurniture_statue_king
 recol1s=15855
 recol1d=10572
 recol2s=32765
@@ -150,7 +150,7 @@ recol2d=21001
 [statue_queen_waterfall_quest]
 name=Statue of Glarial
 desc=A statue of Glarial chiselled in stone.
-model=model_loc_564
+model=outdoorfurniture_statue_queen
 recol1s=15855
 recol1d=10572
 recol2s=32765

@@ -569,7 +569,7 @@ ambient=20
 active=no
 
 [horror_stalagmite_twin_grey]
-model=model_loc_468
+model=cave_stalagmite_twin
 recol1s=13537
 recol1d=10535
 hillskew=yes
@@ -591,7 +591,7 @@ hillskew=yes
 active=no
 
 [horror_rockslide1]
-model=model_loc_471
+model=cavern_rockslide1
 recol1s=12580
 recol1d=10535
 width=2
@@ -603,7 +603,7 @@ mapscene=11
 active=no
 
 [horror_rockslide2]
-model=model_loc_472
+model=cavern_rockslide2
 recol1s=12580
 recol1d=10535
 width=2
@@ -615,7 +615,7 @@ mapscene=11
 active=no
 
 [horror_rockslide3]
-model=model_loc_473
+model=cavern_rockslide3
 recol1s=12580
 recol1d=10535
 width=2
@@ -627,7 +627,7 @@ hillskew=yes
 mapscene=12
 
 [horror_rockslide4]
-model=model_loc_474
+model=cavern_rockslide4
 recol1s=12580
 recol1d=10535
 width=2
@@ -639,14 +639,14 @@ hillskew=yes
 mapscene=12
 
 [horror_rockslide5]
-model=model_loc_475
+model=cavern_rockslide5
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
 [horror_rockslide6]
-model=model_loc_476
+model=cavern_rockslide6
 recol1s=12580
 recol1d=10535
 hillskew=yes
@@ -664,7 +664,7 @@ ambient=20
 [horror_shell1]
 name=Shell
 desc=Best left on the beach.
-model=model_loc_1266
+model=outdoorfurniture_shell1
 recol1s=23179
 recol1d=16879
 recol2s=28397
@@ -674,13 +674,13 @@ active=yes
 [horror_shell2]
 name=Shell
 desc=This once belonged to a sea animal.
-model=model_loc_1267
+model=outdoorfurniture_shell2
 active=yes
 
 [horror_shell1big]
 name=Shell
 desc=Best left for the crabs.
-model=model_loc_1269
+model=outdoorfurniture_shell1big
 recol1s=24176
 recol1d=14730
 recol2s=27381
@@ -690,7 +690,7 @@ active=yes
 [horror_shell2big]
 name=Shell
 desc=I can hear the sea with this.
-model=model_loc_1270
+model=outdoorfurniture_shell2big
 recol1s=16812
 recol1d=14730
 recol2s=21040
@@ -735,6 +735,6 @@ op1=Cross
 [horror_bookcase]
 name=Bookcase
 desc=Shelves filled with interesting books.
-model=model_loc_380
+model=furniture_bookcase
 length=2
 op1=Search

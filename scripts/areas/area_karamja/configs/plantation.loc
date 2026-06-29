@@ -65,5 +65,5 @@ mapscene=5
 [bananacrate]
 name=Crate
 desc=Used for storage.
-model=model_loc_63
+model=warehouse_shop_crate
 op1=Search

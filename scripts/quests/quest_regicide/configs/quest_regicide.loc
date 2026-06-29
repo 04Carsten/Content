@@ -9,13 +9,13 @@ mapscene=11
 [regicide_tree_dead1]
 name=Tree
 desc=A tree.
-model=loc_3886
+model=quest_regicide_tree_dead1
 mapscene=6
 
 [regicide_tree_dead2]
 name=Tree
 desc=A tree.
-model=loc_3887
+model=quest_regicide_tree_dead2
 width=3
 length=3
 mapscene=6
@@ -23,7 +23,7 @@ mapscene=6
 [regicide_tree_dead1_d1]
 name=Tree
 desc=A tree.
-model=loc_3886
+model=quest_regicide_tree_dead1
 recol1s=15784
 recol1d=12679
 mapscene=6
@@ -31,7 +31,7 @@ mapscene=6
 [regicide_tree_dead2_d1]
 name=Tree
 desc=A tree.
-model=loc_3887
+model=quest_regicide_tree_dead2
 recol1s=15784
 recol1d=12679
 width=3
@@ -41,7 +41,7 @@ mapscene=6
 [regicide_tree_dead1_d2]
 name=Tree
 desc=A tree.
-model=loc_3886
+model=quest_regicide_tree_dead1
 recol1s=15784
 recol1d=10534
 mapscene=6
@@ -49,7 +49,7 @@ mapscene=6
 [regicide_tree_dead2_d2]
 name=Tree
 desc=A tree.
-model=loc_3887
+model=quest_regicide_tree_dead2
 recol1s=15784
 recol1d=10534
 width=3
@@ -123,7 +123,7 @@ mirror=yes
 [regicide_rareflower_1]
 name=Flowers
 desc=A rare flower.
-model=model_loc_1192
+model=plants_rareflower_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -145,7 +145,7 @@ resizez=100
 [regicide_rareflowers_1]
 name=Flowers
 desc=Don't flowers make you feel better?
-model=model_loc_1193
+model=plants_rareflowers_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -167,7 +167,7 @@ resizez=200
 [regicide_rareflower_2]
 name=Flowers
 desc=A rare flower.
-model=model_loc_1192
+model=plants_rareflower_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -189,7 +189,7 @@ resizez=170
 [regicide_rareflowers_2]
 name=Flowers
 desc=Don't flowers make you feel better?
-model=model_loc_1193
+model=plants_rareflowers_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -211,7 +211,7 @@ resizez=170
 [regicide_rareflower_3]
 name=Flowers
 desc=A rare flower.
-model=model_loc_1192
+model=plants_rareflower_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -233,7 +233,7 @@ resizez=150
 [regicide_rareflowers_3]
 name=Flowers
 desc=Don't flowers make you feel better?
-model=model_loc_1193
+model=plants_rareflowers_1
 recol1s=7168
 recol1d=31549
 recol2s=26921
@@ -280,7 +280,7 @@ active=no
 [regicide_mushroom2]
 name=Mushroom
 desc=Fungal growth.
-model=model_loc_1165
+model=plants_mushroom2
 recol1s=18594
 recol1d=8886
 recol2s=3170
@@ -290,7 +290,7 @@ blockrange=no
 [regicide_mushrooms2]
 name=Mushrooms
 desc=Poisonous no doubt.
-model=model_loc_1166
+model=plants_mushrooms2
 recol1s=18594
 recol1d=8886
 recol2s=3170
@@ -309,7 +309,7 @@ blockrange=no
 [regicide_mushroom2_large]
 name=Mushroom
 desc=Poisonous no doubt.
-model=model_loc_1169
+model=plants_mushroom2_large
 recol1s=18594
 recol1d=8886
 recol2s=3170
@@ -622,7 +622,7 @@ model=loc_3947
 length=2
 
 [dugupsoil1_brownmud]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=10500
 recol2s=14594
@@ -633,7 +633,7 @@ hillskew=yes
 active=no
 
 [dugupsoil2_brownmud]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=10500
 recol2s=14594
@@ -644,7 +644,7 @@ hillskew=yes
 active=no
 
 [dugupsoil3_brownmud]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=10500
 recol2s=14594
@@ -739,7 +739,7 @@ length=2
 active=no
 
 [regicide_swamp_bubble1]
-model=model_swamp_bubbles
+model=floor_swampbubbles
 recol1s=3301
 recol1d=3203
 anim=swampbubs
@@ -783,7 +783,7 @@ active=no
 [regicide_tree_swamp1]
 name=tree
 desc=A tree
-model=loc_3886
+model=quest_regicide_tree_dead1
 recol1s=15784
 recol1d=3203
 recol2s=11712
@@ -795,7 +795,7 @@ resizez=60
 [regicide_tree_swamp2]
 name=tree
 desc=A tree
-model=loc_3886
+model=quest_regicide_tree_dead1
 recol1s=15784
 recol1d=3203
 recol2s=11712
@@ -807,7 +807,7 @@ resizez=80
 [regicide_pile_of_skulls]
 name=Pile of skulls
 desc=Disturbing but tidy.
-model=model_loc_658
+model=wilderness_pileofskulls
 recol1s=31709
 recol1d=3203
 blockrange=no
@@ -815,7 +815,7 @@ blockrange=no
 [regicide_charred_bones]
 name=Charred bones
 desc=I don't even want to think about what did that...
-model=model_loc_659
+model=wilderness_charredbones
 recol1s=21140
 recol1d=3203
 recol2s=19026
@@ -840,7 +840,7 @@ blockrange=no
 [regicide_corpse2]
 name=Corpse
 desc=He looks very relaxed.
-model=model_loc_661
+model=floor_corpse2
 recol1s=27413
 recol1d=3203
 blockrange=no
@@ -1173,7 +1173,7 @@ op1=Climb-down
 [regicide_voyage_temple_entrance]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=model_loc_2
+model=cave_entrance
 recol1s=10400
 recol1d=16737
 recol2s=8288

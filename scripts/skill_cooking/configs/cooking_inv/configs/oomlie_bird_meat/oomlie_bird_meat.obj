@@ -1,7 +1,7 @@
 [raw_oomlie]
 name=Raw oomlie
 desc=Raw meat from the oomlie bird.
-model=model_2498_obj
+model=inv_chicken_carcass
 recol1s=15619
 recol1d=22098
 2dxof=-3
@@ -53,7 +53,7 @@ name=Burnt oomlie
 desc=Oh dear, it's totally burnt!
 cost=1
 members=yes
-model=model_2498_obj
+model=inv_chicken_carcass
 recol1s=15619
 recol1d=5285
 2dxof=-3

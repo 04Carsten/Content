@@ -1,7 +1,7 @@
 [stairs]
 name=Staircase
 desc=I can climb these stairs.
-model=model_loc_54
+model=furniture_stairs
 width=2
 length=3
 op1=Climb-up
@@ -12,7 +12,7 @@ mapscene=7
 [stairstop]
 name=Staircase
 desc=They go down.
-model=model_loc_55
+model=furniture_stairstop
 width=2
 length=2
 op1=Climb-down
@@ -33,7 +33,7 @@ mapscene=7
 [yanillestairsup]
 name=Staircase
 desc=I can climb this.
-model=model_loc_54
+model=furniture_stairs
 width=2
 length=3
 op1=Climb-up
@@ -43,7 +43,7 @@ mapscene=7
 [stairs_cellar]
 name=Staircase
 desc=I can use these stairs to climb down.
-model=model_loc_98
+model=furniture_stairsdown
 width=2
 length=3
 op1=Climb-down
@@ -53,7 +53,7 @@ mapscene=7
 [loc_1734]
 name=Staircase
 desc=I can climb these stairs.
-model=model_loc_54
+model=furniture_stairs
 width=2
 length=3
 op1=Climb-up
@@ -82,7 +82,7 @@ mapscene=7
 [spiralstairs]
 name=Staircase
 desc=I can climb up these stairs.
-model=model_loc_1738
+model=furniture_spiralstairs
 width=2
 length=2
 op1=Climb-up
@@ -91,7 +91,7 @@ mapscene=7
 [spiralstairsmiddle]
 name=Staircase
 desc=I can climb up or go down these stairs.
-model=model_loc_1738
+model=furniture_spiralstairs
 width=2
 length=2
 op1=Climb
@@ -102,7 +102,7 @@ mapscene=7
 [spiralstairstop]
 name=Staircase
 desc=I can climb down these stairs.
-model=model_loc_1740
+model=furniture_spiralstairstop
 op1=Climb-down
 forceapproach=east
 mapscene=7
@@ -110,7 +110,7 @@ mapscene=7
 [balance40up]
 name=Staircase
 desc=I can climb up these stairs.
-model=model_loc_54
+model=furniture_stairs
 width=2
 length=3
 op1=Climb-up

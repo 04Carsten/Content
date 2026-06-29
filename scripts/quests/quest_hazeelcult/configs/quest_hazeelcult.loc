@@ -59,7 +59,7 @@ op1=Board
 [hazeelcbshut]
 name=Cupboard
 desc=It's closed.
-model=model_loc_368
+model=furniture_cupboard_-high
 length=2
 op1=Open
 forceapproach=east
@@ -68,7 +68,7 @@ param=cupboard_other,hazeelcbopen
 [hazeelcbopen]
 name=Cupboard
 desc=It's open.
-model=model_loc_371
+model=furniture_cupboard_open-high
 length=2
 op1=Search
 op2=Shut
@@ -78,7 +78,7 @@ param=cupboard_other,hazeelcbshut
 [hazeelcultcave]
 name=Cave entrance
 desc=I can probably squeeze my way inside there.
-model=model_loc_194
+model=cave_entrance4
 width=4
 length=4
 active=yes
@@ -87,7 +87,7 @@ op1=Enter
 [hazeelcultstairs]
 name=Stairs
 desc=It's a flight of stairs.
-model=model_loc_54
+model=furniture_stairs
 width=2
 length=3
 op1=Climb-up
@@ -109,14 +109,14 @@ occlude=yes
 [carnilleanshutchest]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 forceapproach=north
 
 [carnilleanopenchest]
 name=Chest
 desc=It's open.
-model=model_loc_76
+model=furniture_chestopen
 op1=Search
 op2=Close
 forceapproach=north
@@ -124,7 +124,7 @@ forceapproach=north
 [carnilleancrate]
 name=Crate
 desc=Used for storage.
-model=model_loc_63
+model=warehouse_shop_crate
 active=yes
 op1=Search
 

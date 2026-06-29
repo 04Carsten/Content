@@ -17,7 +17,7 @@ op1=Walk-Up
 [rehnisonstairs]
 name=Stairs
 desc=A flight of stairs.
-model=model_loc_1738
+model=furniture_spiralstairs
 width=2
 length=2
 op1=Walk-up
@@ -25,5 +25,5 @@ op1=Walk-up
 [rehnisonstairstop]
 name=Stairs
 desc=A flight of stairs.
-model=model_loc_1740
+model=furniture_spiralstairstop
 op1=Walk-down

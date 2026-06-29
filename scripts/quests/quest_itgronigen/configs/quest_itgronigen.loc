@@ -1,35 +1,35 @@
 [obs_dungeonladderdown]
 name=Ladder
 desc=I can climb down this ladder.
-model=model_loc_1759
+model=furniture_dungeonladder
 active=yes
 op1=Climb-down
 
 [loc_2188]
 name=Ladder
 desc=I can climb up this ladder.
-model=model_loc_11
+model=furniture_ladder
 active=yes
 op1=Climb-up
 
 [loc_2189]
 name=Ladder
 desc=I can climb up this ladder.
-model=model_loc_11
+model=furniture_ladder
 active=yes
 op1=Climb-up
 
 [domeladderdown]
 name=Ladder
 desc=I can climb down this ladder.
-model=model_loc_1759
+model=furniture_dungeonladder
 active=yes
 op1=Climb-down
 
 [shutdungeonchest]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -37,7 +37,7 @@ forceapproach=north
 [loc_2192]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -45,7 +45,7 @@ forceapproach=north
 [loc_2193]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -53,7 +53,7 @@ forceapproach=north
 [opendungeonchest]
 name=Chest
 desc=Perhaps I should search it.
-model=model_loc_76
+model=furniture_chestopen
 active=yes
 op1=Close
 op2=Search
@@ -62,7 +62,7 @@ forceapproach=north
 [loc_2195]
 name=Chest
 desc=Perhaps I should search it.
-model=model_loc_76
+model=furniture_chestopen
 active=yes
 op1=Close
 op2=Search
@@ -71,7 +71,7 @@ forceapproach=north
 [loc_2196]
 name=Chest
 desc=Perhaps I should search it.
-model=model_loc_76
+model=furniture_chestopen
 active=yes
 op1=Close
 op2=Search
@@ -80,7 +80,7 @@ forceapproach=north
 [loc_2197]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -88,7 +88,7 @@ forceapproach=north
 [loc_2198]
 name=Chest
 desc=Perhaps I should search it.
-model=model_loc_76
+model=furniture_chestopen
 active=yes
 op1=Close
 op2=Search

@@ -76,7 +76,7 @@ active=no
 [viking_trollcave_entrance]
 name=Cave Entrance
 desc=This must be Lallis' home.
-model=model_loc_2
+model=cave_entrance
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -104,7 +104,7 @@ op1=Open
 [viking_troll_cauldron]
 name=Lalli's Stew
 desc=It smells pretty good actually.
-model=model_loc_692
+model=furniture_cauldron
 recol1s=544
 recol1d=23181
 recol2s=320
@@ -119,7 +119,7 @@ resizez=192
 [vt_mazeportal_1]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -128,7 +128,7 @@ contrast=100
 [vt_mazeportal_2]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -137,7 +137,7 @@ contrast=100
 [vt_mazeportal_3]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -146,7 +146,7 @@ contrast=100
 [vt_mazeportal_4]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -155,7 +155,7 @@ contrast=100
 [vt_mazeportal_5]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -164,7 +164,7 @@ contrast=100
 [vt_mazeportal_6]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -173,7 +173,7 @@ contrast=100
 [vt_mazeportal_7]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -182,7 +182,7 @@ contrast=100
 [vt_mazeportal_wrong]
 name=Portal
 desc=A portal from this mystical place.
-model=model_loc_740
+model=floor_glowingcircle
 anim=glowingcircle
 op1=Use
 ambient=100
@@ -191,7 +191,7 @@ contrast=100
 [vt_mazeladdertopentrance]
 name=Ladder
 desc=Takes me into the maze.
-model=model_loc_10
+model=furniture_laddertop
 active=yes
 op1=Climb-down
 mapscene=7
@@ -276,7 +276,7 @@ op1=Open
 [viking_seer_chest_closed]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 recol1s=10570
 recol1d=7332
 recol2s=16897
@@ -287,7 +287,7 @@ forceapproach=north
 [viking_seer_chest_open]
 name=Chest
 desc=I wonder what's inside?
-model=model_loc_76
+model=furniture_chestopen
 recol1s=10570
 recol1d=7332
 recol2s=16897
@@ -357,7 +357,7 @@ raiseobject=no
 [viking_seer_trapdoor_closed]
 name=Trapdoor
 desc=I wonder what's under it?
-model=model_loc_100
+model=furniture_trapdoor
 recol1s=15617
 recol1d=16741
 recol2s=8320
@@ -379,13 +379,13 @@ active=yes
 [viking_seers_tap]
 name=Tap
 desc=Water comes out of it.
-model=loc_4176
+model=game_castlewars_tap
 active=yes
 
 [viking_cupboardhigh]
 name=Cupboard
 desc=This may be worth opening.
-model=model_loc_368
+model=furniture_cupboard_-high
 length=2
 forceapproach=east
 op1=Open
@@ -393,7 +393,7 @@ op1=Open
 [viking_cupboardopen_high]
 name=Cupboard
 desc=This may be worth searching.
-model=model_loc_371
+model=furniture_cupboard_open-high
 length=2
 op1=Shut
 op2=Search
@@ -437,7 +437,7 @@ op1=Study
 [viking_seerboxes_1]
 name=Boxes
 desc=A pile of boxes for storage.
-model=model_loc_359
+model=warehouse_shop_boxes
 retex1s=wood2
 retex1d=elfwood
 op1=Search
@@ -453,7 +453,7 @@ op1=Search
 [viking_seercrate]
 name=Crate
 desc=A wooden crate for storage.
-model=model_loc_63
+model=warehouse_shop_crate
 op1=Search
 
 [viking_seercrate_2]
@@ -884,7 +884,7 @@ active=yes
 [viking_chest_closed]
 name=Chest
 desc=I wonder what's inside?
-model=wooden_chest
+model=furniture_chestclosed
 recol1s=10570
 recol1d=7332
 recol2s=16897
@@ -895,7 +895,7 @@ forceapproach=north
 [viking_chest_open]
 name=Chest
 desc=I wonder what's inside?
-model=model_loc_76
+model=furniture_chestopen
 recol1s=10570
 recol1d=7332
 recol2s=16897
@@ -1137,7 +1137,7 @@ blockrange=no
 [viking_market]
 name=Market stall
 desc=Always a source of good bargains.
-model=market_stall
+model=outdoorfurniture_market
 recol1s=32767
 recol1d=18956
 recol2s=15890
@@ -1153,7 +1153,7 @@ length=2
 name=Fish stall
 desc=There's something fishy about this stall.
 model=loc_4277
-model2=market_stall
+model2=outdoorfurniture_market
 recol1s=32767
 recol1d=18956
 recol2s=15890
@@ -1174,7 +1174,7 @@ active=yes
 [viking_fur_market]
 name=Fur stall
 desc=Around here, this is where you buy new doors.
-model=fur_stall
+model=outdoorfurniture_furmarket
 recol1s=32767
 recol1d=18956
 recol2s=15890
@@ -1193,7 +1193,7 @@ op2=Steal-from
 active=yes
 
 [viking_skewsteps]
-model=model_loc_1862
+model=furniture_skewsteps2
 recol1s=15855
 recol1d=8421
 hillskew=yes
@@ -1234,7 +1234,7 @@ resizez=60
 [viking_tap]
 name=Tap
 desc=Water comes out of this.
-model=loc_4176
+model=game_castlewars_tap
 active=yes
 
 [viking_keg]
@@ -1254,7 +1254,7 @@ blockrange=no
 [viking_poorbed]
 name=Bed
 desc=I guess I could sleep in it if I was really tired.
-model=model_loc_423
+model=furniture_poorbed2
 recol1s=26389
 recol1d=25265
 recol2s=29596
@@ -1325,7 +1325,7 @@ forcedecor=yes
 [viking_broken_cart]
 name=Abandoned Cart
 desc=Yup, looks like this neighbourhood is perfectly safe for travellers...
-model=model_loc_306
+model=outdoorfurniture_brokencart
 retex1s=planks
 retex1d=elfwood
 recol2s=15617
@@ -1336,7 +1336,7 @@ length=3
 [viking_boxes_1]
 name=Boxes
 desc=A pile of boxes for storage.
-model=model_loc_359
+model=warehouse_shop_boxes
 retex1s=wood2
 retex1d=elfwood
 blockrange=no
@@ -1359,7 +1359,7 @@ retex1d=elfwood
 [viking_crate]
 name=Crate
 desc=A wooden crate for storage.
-model=model_loc_63
+model=warehouse_shop_crate
 op1=Search
 blockrange=no
 category=empty_crate
@@ -1401,7 +1401,7 @@ category=smithing_furnace
 [viking_furnace2]
 name=Furnace
 desc=A hot place for forging things in.
-model=model_loc_2785
+model=furniture_furnace2
 recol1s=7399
 recol1d=7365
 recol2s=5285
@@ -1434,7 +1434,7 @@ active=yes
 [viking_fencegate_l]
 name=Gate
 desc=A wooden gate.
-model=model_loc_47
+model=fence_gateclosedl
 recol1s=12480
 recol1d=9445
 op1=Open
@@ -1444,7 +1444,7 @@ blockrange=no
 [viking_fencegate_r]
 name=Gate
 desc=A wooden gate.
-model=model_loc_47
+model=fence_gateclosedl
 recol1s=12480
 recol1d=9445
 mirror=yes
@@ -1455,14 +1455,14 @@ blockrange=no
 [inacviking_fencegate_l]
 name=Gate
 desc=A wooden gate.
-model=model_loc_47
+model=fence_gateclosedl
 recol1s=12480
 recol1d=9445
 active=yes
 blockrange=no
 
 [inacviking_fencegate_r]
-model=model_loc_47
+model=fence_gateclosedl
 recol1s=12480
 recol1d=9445
 mirror=yes
@@ -1485,7 +1485,7 @@ hillskew=yes
 active=no
 
 [viking_cavewall_top5]
-model=model_loc_1435
+model=dng_hole_l
 recol1s=12580
 recol1d=10535
 sharelight=yes
@@ -1494,7 +1494,7 @@ active=no
 active=no
 
 [viking_cavewall_top_higher]
-model=model_loc_1436
+model=dng_hole_r
 recol1s=12580
 recol1d=10535
 sharelight=yes
@@ -1524,7 +1524,7 @@ active=no
 active=no
 
 [viking_cavewall_lighter_top5]
-model=model_loc_1435
+model=dng_hole_l
 recol1s=12580
 recol1d=13704
 sharelight=yes
@@ -1534,7 +1534,7 @@ active=no
 active=no
 
 [viking_cavewall_lighter_top_higher]
-model=model_loc_1436
+model=dng_hole_r
 recol1s=12580
 recol1d=13704
 sharelight=yes
@@ -1577,7 +1577,7 @@ blockrange=no
 active=no
 
 [viking_spade]
-model=model_loc_514
+model=outdoorfurniture_mining_spade
 recol1s=14798
 recol1d=11493
 blockrange=no
@@ -1621,22 +1621,22 @@ mapscene=6
 blockrange=no
 
 [viking_full_twig]
-model=model_loc_1246
+model=plants_ground_detail-c
 hillskew=yes
 active=no
 
 [viking_broken_twig]
-model=model_loc_1247
+model=plants_ground_detail-d
 hillskew=yes
 active=no
 
 [viking_sticks_twigs]
-model=model_loc_1248
+model=plants_ground_detail-e
 hillskew=yes
 active=no
 
 [viking_grass_1]
-model=loc_4333
+model=floor_new_grass1
 recol1s=21140
 recol1d=16871
 recol2s=15855
@@ -1648,7 +1648,7 @@ hillskew=yes
 active=no
 
 [viking_grass_2]
-model=loc_4334
+model=floor_new_grass2
 recol1s=21140
 recol1d=16871
 recol2s=15855
@@ -1660,7 +1660,7 @@ hillskew=yes
 active=no
 
 [viking_grass_3]
-model=loc_4335
+model=floor_new_grass3
 recol1s=21140
 recol1d=16871
 recol2s=15855
@@ -1672,7 +1672,7 @@ hillskew=yes
 active=no
 
 [viking_grass_4]
-model=loc_4336
+model=floor_new_grass4
 recol1s=21140
 recol1d=16871
 recol2s=15855
@@ -1694,7 +1694,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_1]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=10534
 recol2s=15586
@@ -1705,7 +1705,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_2]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=10534
 recol2s=15586
@@ -1716,7 +1716,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_3]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=10534
 recol2s=15586
@@ -1727,7 +1727,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_brown_1]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=11523
 recol2s=15586
@@ -1738,7 +1738,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_brown_2]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=11523
 recol2s=15586
@@ -1749,7 +1749,7 @@ hillskew=yes
 active=no
 
 [viking_dugupsoil_brown_3]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=11523
 recol2s=15586
@@ -1760,7 +1760,7 @@ hillskew=yes
 active=no
 
 [viking_bluebells]
-model=model_loc_1178
+model=plants_heather
 recol1s=23026
 recol1d=10615
 recol2s=197
@@ -1771,7 +1771,7 @@ hillskew=yes
 active=no
 
 [viking_bluebells2]
-model=model_loc_1179
+model=plants_heather2
 recol1s=23026
 recol1d=10615
 recol2s=197
@@ -1782,7 +1782,7 @@ hillskew=yes
 active=no
 
 [viking_bluebells3]
-model=model_loc_1180
+model=plants_heather3
 recol1s=23026
 recol1d=10615
 recol2s=197
@@ -1795,7 +1795,7 @@ active=no
 [viking_shell1]
 name=Shell
 desc=Best left on the beach.
-model=model_loc_1266
+model=outdoorfurniture_shell1
 recol1s=23179
 recol1d=16879
 recol2s=28397
@@ -1805,13 +1805,13 @@ active=yes
 [viking_shell2]
 name=Shell
 desc=This once belonged to a sea animal.
-model=model_loc_1267
+model=outdoorfurniture_shell2
 active=yes
 
 [viking_shell1big]
 name=Shell
 desc=Best left for the crabs.
-model=model_loc_1269
+model=outdoorfurniture_shell1big
 recol1s=24176
 recol1d=14730
 recol2s=27381
@@ -1821,7 +1821,7 @@ active=yes
 [viking_shell2big]
 name=Shell
 desc=I can hear the sea with this.
-model=model_loc_1270
+model=outdoorfurniture_shell2big
 recol1s=16812
 recol1d=14730
 recol2s=21040
@@ -1844,7 +1844,7 @@ active=yes
 hillskew=yes
 
 [viking_stalagmite_twin_grey]
-model=model_loc_468
+model=cave_stalagmite_twin
 recol1s=13537
 recol1d=10535
 hillskew=yes
@@ -1866,7 +1866,7 @@ hillskew=yes
 active=no
 
 [viking_rockslide1]
-model=model_loc_471
+model=cavern_rockslide1
 recol1s=12580
 recol1d=10535
 width=2
@@ -1878,7 +1878,7 @@ mapscene=11
 active=no
 
 [viking_rockslide2]
-model=model_loc_472
+model=cavern_rockslide2
 recol1s=12580
 recol1d=10535
 width=2
@@ -1890,7 +1890,7 @@ mapscene=11
 active=no
 
 [viking_rockslide3]
-model=model_loc_473
+model=cavern_rockslide3
 recol1s=12580
 recol1d=10535
 width=2
@@ -1902,7 +1902,7 @@ hillskew=yes
 mapscene=12
 
 [viking_rockslide4]
-model=model_loc_474
+model=cavern_rockslide4
 recol1s=12580
 recol1d=10535
 width=2
@@ -1914,14 +1914,14 @@ hillskew=yes
 mapscene=12
 
 [viking_rockslide5]
-model=model_loc_475
+model=cavern_rockslide5
 recol1s=12580
 recol1d=10535
 hillskew=yes
 active=no
 
 [viking_rockslide6]
-model=model_loc_476
+model=cavern_rockslide6
 recol1s=12580
 recol1d=10535
 hillskew=yes

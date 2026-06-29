@@ -1,13 +1,13 @@
 [swampbubbles]
 name=Swamp bubbles
 desc=The noxious liquid bubbles horribly.
-model=model_swamp_bubbles
+model=floor_swampbubbles
 anim=swampbubs
 
 [swampbubbles_swamp]
 name=Swamp bubbles
 desc=The noxious liquid bubbles horribly.
-model=model_swamp_bubbles
+model=floor_swampbubbles
 anim=swampbubs
 recol1s=3297
 recol1d=1418
@@ -15,7 +15,7 @@ recol1d=1418
 [rantzogrecaveentrance]
 name=Cave entrance
 desc=The entrance to Rantz's cave
-model=model_loc_2
+model=cave_entrance
 width=3
 length=2
 op1=Enter

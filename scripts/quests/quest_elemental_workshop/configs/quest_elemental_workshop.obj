@@ -1,6 +1,6 @@
 [elemental_workshop_shield_book]
 desc=A very thickley bound book.
-model=model_2794_obj
+model=inv_book
 cost=10
 tradeable=no
 members=true
@@ -14,7 +14,7 @@ weight=4oz
 
 [elemental_workshop_key]
 desc=An old battered key.
-model=model_2372_obj
+model=inv_key
 cost=1
 tradeable=no
 members=true
@@ -81,7 +81,7 @@ param=defend_anim,human_shield_defence
 
 [elemental_workshop_ore]
 desc=This needs refining.
-model=model_2748_obj
+model=inv_ore
 2dxof=1
 2dyof=15
 2dzoom=1400
@@ -97,7 +97,7 @@ weight=5lb
 
 [elemental_workshop_bar]
 desc=It's a bar of refined elemental ore.
-model=model_2408_obj
+model=inv_orebar
 2dxof=1
 2dyof=65528
 2dzoom=820

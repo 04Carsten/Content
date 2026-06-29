@@ -25,14 +25,14 @@ op1=Climb-over
 [gnome_tree_branch_1]
 name=Tree branch
 desc=I can climb up this.
-model=model_loc_1140
+model=tree_tk_end2
 active=yes
 op1=Climb
 
 [balancing_rope]
 name=Balancing rope
 desc=I can balance on this rope.
-model=model_loc_269
+model=ship_rope
 hillskew=yes
 sharelight=yes
 active=yes
@@ -41,14 +41,14 @@ op1=Walk-on
 [climbing_tree]
 name=Tree branch
 desc=I can climb down here.
-model=model_loc_1138
+model=tree_tk_l
 active=yes
 op1=Climb-down
 
 [climbing_tree2]
 name=Tree branch
 desc=I can climb down here.
-model=model_loc_1143
+model=tree_tk_ns
 active=yes
 op1=Climb-down
 

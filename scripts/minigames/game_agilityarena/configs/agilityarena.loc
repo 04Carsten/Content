@@ -1,5 +1,5 @@
 [inviswall_serverside]
-model=model_loc_83
+model=blank
 breakroutefinding=yes
 active=no
 mapscene=22
@@ -17,7 +17,7 @@ op1=Walk-on
 [agilityarena_ropebalance_middle]
 name=Balancing rope
 desc=I can balance on this rope.
-model=model_loc_269
+model=ship_rope
 blockwalk=no
 sharelight=yes
 forcedecor=yes
@@ -378,7 +378,7 @@ forcedecor=yes
 active=yes
 
 [agility_wall]
-model=model_loc_3
+model=basic_poordoor
 retex1s=wall
 retex1d=elfbrick
 recol2s=6342
@@ -554,7 +554,7 @@ forcedecor=yes
 op1=Tag
 
 [lavabubbles_large]
-model=model_loc_731
+model=outdoorfurniture_lavabubbles
 anim=lavabubbles
 shadow=no
 active=no
@@ -585,7 +585,7 @@ model=loc_3612
 active=no
 
 [dugupsoil1_agility]
-model=model_loc_184
+model=floor_dugupsoil1
 recol1s=13505
 recol1d=16808
 recol2s=14594
@@ -596,7 +596,7 @@ hillskew=yes
 active=no
 
 [dugupsoil2_agility]
-model=model_loc_185
+model=floor_dugupsoil2
 recol1s=13505
 recol1d=16808
 recol2s=14594
@@ -607,7 +607,7 @@ hillskew=yes
 active=no
 
 [dugupsoil3_agility]
-model=model_loc_186
+model=floor_dugupsoil3
 recol1s=13505
 recol1d=16808
 recol2s=14594
@@ -618,7 +618,7 @@ hillskew=yes
 active=no
 
 [dugupsoil4_agility]
-model=model_loc_317
+model=floor_dugupsoil4
 recol1s=13505
 recol1d=16808
 recol2s=14594
@@ -631,7 +631,7 @@ active=no
 [agilityarena_ladderdown]
 name=Ladder
 desc=Leads down into the Agility Arena.
-model=model_loc_1759
+model=furniture_dungeonladder
 active=yes
 op1=Climb-Down
 forceapproach=east
@@ -640,7 +640,7 @@ active=yes
 [agilityarena_ladderup]
 name=Ladder
 desc=Leads back to Brimhaven.
-model=model_loc_11
+model=furniture_ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -648,7 +648,7 @@ active=yes
 forceapproach=south
 
 [agility_trapdoor_nonactive]
-model=model_loc_100
+model=furniture_trapdoor
 recol1s=8320
 recol1d=16808
 active=no

@@ -65,28 +65,28 @@ category=incorrect_clock_spindle
 [ctlevera]
 name=Lever
 desc=Yup, definitely a lever.
-model=model_loc_33
+model=walldecor_leverdown
 active=yes
 op1=Pull
 
 [ctleverb]
 name=Lever
 desc=Yup, definitely a lever.
-model=model_loc_34
+model=walldecor_leverup
 active=yes
 op1=Pull
 
 [ctlevera2]
 name=Lever
 desc=Yup, definitely a lever.
-model=model_loc_34
+model=walldecor_leverup
 active=yes
 op1=Pull
 
 [ctleverb2]
 name=Lever
 desc=Yup, definitely a lever.
-model=model_loc_33
+model=walldecor_leverdown
 active=yes
 op1=Pull
 
@@ -100,6 +100,6 @@ op1=Go-through
 [ctfoodtrough]
 name=Food trough
 desc=Animals have no table manners.
-model=model_loc_40
+model=outdoorfurniture_foodtrough_wooden
 width=2
 active=yes

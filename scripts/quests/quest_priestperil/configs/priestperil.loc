@@ -1,7 +1,7 @@
 [pipeastsidetrapdoor]
 name=Trapdoor
 desc=I wonder what's under it?
-model=model_loc_100
+model=furniture_trapdoor
 active=yes
 op1=Open
 
@@ -516,7 +516,7 @@ category=priestperil_monument
 [smallchurchorgan]
 name=Church organ
 desc=With skill I can play this.
-model=model_loc_416
+model=quest_churchorgan
 width=2
 resizex=64
 resizez=64

@@ -1,7 +1,7 @@
 [hazeel_scroll]
 name=Scroll of hazeel
 desc=Scroll containing a powerful enchantment of restoration.
-model=model_2600_obj
+model=inv_scroll
 members=yes
 2dxof=1
 2dyof=7
@@ -16,7 +16,7 @@ tradeable=no
 name=Key
 desc=This key opens a chest in the Carnillean household.
 members=yes
-model=model_2372_obj
+model=inv_key
 2dxof=-3
 2dyof=5
 2dzoom=700

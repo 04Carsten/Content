@@ -1,7 +1,7 @@
 [mcannonremains]
 name=Dwarf remains
 desc=The body of a Dwarf savaged by Goblins.
-model=model_2595_obj
+model=inv_corpse
 2dxof=-4
 2dyof=12
 2dzoom=1780
@@ -14,7 +14,7 @@ tradeable=no
 [mcannontoolkit]
 name=Tool kit
 desc=These could be handy.
-model=model_2679_obj
+model=inv_tool_belt
 2dxof=-2
 2dyof=-2
 2dzoom=780
@@ -27,7 +27,7 @@ tradeable=no
 [mcannonball]
 name=Cannonball
 desc=Ammo for the Dwarf Cannon.
-model=model_2413_obj
+model=inv_cannonball
 2dxof=1
 2dzoom=1400
 2dyan=1852
@@ -41,7 +41,7 @@ cost=5
 [nulodions_notes]
 name=Nulodion's notes.
 desc=Construction notes for Dwarf cannon ammo.
-model=model_2600_obj
+model=inv_scroll
 2dyof=49
 2dzoom=750
 2dyan=1380
@@ -54,7 +54,7 @@ tradeable=no
 [ammo_mould]
 name=Ammo mould
 desc=Used to make cannon ammunition.
-model=model_2706_obj
+model=inv_cannon_mould
 2dxof=8
 2dzoom=2160
 2dyan=88
@@ -67,7 +67,7 @@ tradeable=no
 [mcannonbook]
 name=Instruction manual
 desc=An old note book.
-model=model_2794_obj
+model=inv_book
 2dzoom=840
 2dyan=152
 2dxan=256

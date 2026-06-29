@@ -1,7 +1,7 @@
 [thbankchest]
 name=Shantay chest
 desc=This is used by Shantay and his men to take items to the bank on your behalf.
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 forceapproach=north
 

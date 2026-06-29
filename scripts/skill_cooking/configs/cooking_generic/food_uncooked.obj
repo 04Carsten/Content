@@ -57,7 +57,7 @@ category=cooking_generic
 [raw_chicken]
 name=Raw chicken
 desc=I need to cook this first.
-model=model_2498_obj
+model=inv_chicken_carcass
 recol1s=15619
 recol1d=22098
 2dxof=-3

@@ -1,7 +1,7 @@
 [lobster_pot]
 name=Lobster pot
 desc=Useful for catching lobsters.
-model=model_2663_obj
+model=inv_lobsterpot
 2dzoom=1180
 2dyan=1668
 2dxan=192
@@ -43,7 +43,7 @@ weight=18lb
 param=fish_equipment_struct,fish_equipment_big_net
 
 [fishing_rod]
-model=model_2828_obj
+model=inv_fishingrod
 name=Fishing rod
 desc=Useful for catching sardine or herring.
 2dxof=-3
@@ -95,8 +95,8 @@ members=yes
 model=obj_3159
 2dzoom=940
 2dxan=72
-manwear=obj_3157_manwear,0
-womanwear=obj_3157_manwear,6
+manwear=human_weapons_octopus_pot,0
+womanwear=human_weapons_octopus_pot,6
 weight=3150g
 param=fish_equipment_struct,fish_equipment_karambwan_vessel
 
@@ -116,7 +116,7 @@ weight=2g
 [feather]
 name=Feather
 desc=Used for fly fishing.
-model=model_2476_obj
+model=inv_feather
 2dxof=4
 2dyof=10
 2dzoom=700
@@ -130,7 +130,7 @@ category=category_532
 [shrimp]
 name=Shrimps
 desc=Some nicely cooked fish.
-model=model_2590_obj
+model=inv_shrimp
 2dzoom=950
 2dyan=552
 2dxan=272
@@ -142,7 +142,7 @@ category=category_58
 [raw_shrimp]
 name=Raw shrimps
 desc=I should try cooking this.
-model=model_2590_obj
+model=inv_shrimp
 recol1s=31201
 recol1d=30419
 recol2s=31041
@@ -158,7 +158,7 @@ param=fishing_struct,fishing_struct_shrimps
 [anchovies]
 name=Anchovies
 desc=Some nicely cooked fish.
-model=model_2590_obj
+model=inv_shrimp
 recol1s=31201
 recol1d=7442
 recol2s=31041
@@ -175,7 +175,7 @@ param=pizza_topping_struct,anchovy_topping
 [raw_anchovies]
 name=Raw anchovies
 desc=I should try cooking this.
-model=model_2590_obj
+model=inv_shrimp
 recol1s=31201
 recol1d=14804
 recol2s=31041
@@ -191,7 +191,7 @@ param=fishing_struct,fishing_struct_anchovies
 [burntfish1]
 name=Burnt fish
 desc=Oops!
-model=model_2590_obj
+model=inv_shrimp
 recol1s=31201
 recol1d=10570
 recol2s=31041
@@ -208,7 +208,7 @@ name=Raw karambwan
 desc=A raw green octopus.
 cost=200
 members=yes
-model=obj_3142
+model=quest_tbwt_inv_octopus
 2dyof=7
 2dzoom=1800
 2dyan=56
@@ -223,7 +223,7 @@ name=Raw karambwanji
 desc=Small brightly coloured tropical fish.
 cost=10
 members=yes
-model=obj_3150
+model=quest_tbwt_inv_fish_tropical
 2dxof=6
 2dyof=6
 2dzoom=1000
@@ -909,7 +909,7 @@ category=category_116
 [seaweed]
 name=Seaweed
 desc=Slightly damp seaweed.
-model=model_2370_obj
+model=inv_seaweed
 2dxof=7
 2dyof=-13
 2dzoom=1360
@@ -923,7 +923,7 @@ category=cooking_generic
 [edible_seaweed]
 name=Edible seaweed
 desc=Slightly damp seaweed.
-model=model_2370_obj
+model=inv_seaweed
 2dxof=7
 2dyof=-13
 2dzoom=1360
@@ -938,7 +938,7 @@ members=yes
 [casket]
 name=Casket
 desc=I hope there's treasure in it.
-model=model_2450_obj
+model=inv_casket
 2dxof=3
 2dyof=-6
 2dzoom=1410
@@ -952,7 +952,7 @@ members=yes
 [oystershell]
 name=Oyster
 desc=It's a rare oyster.
-model=model_2363_obj
+model=inv_oysterclosed
 2dxof=-1
 2dyof=6
 2dzoom=700
@@ -966,7 +966,7 @@ members=yes
 [oysterempty]
 name=Empty oyster
 desc=It's empty.
-model=model_2593_obj
+model=inv_oyster-open_empty
 2dxof=4
 2dyof=50
 2dzoom=910
@@ -979,7 +979,7 @@ members=yes
 [smalloysterpearls]
 name=Oyster pearl
 desc=I could work wonders with a chisel on this pearl.
-model=model_2721_obj
+model=inv_oyster-onepearl
 2dxof=4
 2dyof=50
 2dzoom=910
@@ -992,7 +992,7 @@ members=yes
 [bigoysterpearls]
 name=Oyster pearls
 desc=I could work wonders with a chisel on these pearls.
-model=model_2377_obj
+model=inv_oyster-fewpearls
 2dxof=4
 2dyof=50
 2dzoom=910
@@ -1005,7 +1005,7 @@ members=yes
 [mort_slimey_eel]
 name=Slimey eel
 desc=A slime covered eel - yuck!
-model=obj_3379
+model=quest_routethrough_inv_slimey_eel
 2dxof=4
 2dzoom=1650
 2dyan=36
@@ -1027,7 +1027,7 @@ recol4d=23847
 recol5s=30653
 recol5d=17921
 desc=A cooked slimey eel - not delicious, but pretty nutritious.
-model=obj_3379
+model=quest_routethrough_inv_slimey_eel
 2dxof=4
 2dzoom=1650
 2dyan=36
@@ -1050,7 +1050,7 @@ recol4d=10400
 recol5s=30653
 recol5d=10400
 desc=It looks like it's seen one too many fires.
-model=obj_3379
+model=quest_routethrough_inv_slimey_eel
 2dxof=4
 2dzoom=1650
 2dyan=36

@@ -23,7 +23,7 @@ op1=Walk-across
 [climbingcaverocks1]
 name=Pile of rubble
 desc=I can climb up these rocks to another cave.
-model=model_loc_13
+model=outdoorfurniture_mudpile
 length=2
 op1=Climb-up
 recol1s=12512
@@ -32,7 +32,7 @@ recol1d=15749
 [climbingcaverocks2]
 name=Pile of rubble
 desc=I can climb down these rocks to another cave.
-model=model_loc_492
+model=cavern_potholewithrope
 width=2
 length=2
 op1=Climb-down
@@ -56,6 +56,6 @@ param=obstacle_high_fail,330
 [shuttwistedchest]
 name=Closed chest
 desc=I wonder what's inside.
-model=wooden_chest
+model=furniture_chestclosed
 op1=Open
 forceapproach=north

@@ -3,7 +3,7 @@
 name=Burnt chicken
 desc=Oh dear, it's totally burnt!
 cost=1
-model=model_2498_obj
+model=inv_chicken_carcass
 recol1s=15619
 recol1d=5285
 2dxof=-3

@@ -45,7 +45,7 @@ param=next_loc_stage,loc_1563
 [tobanchest]
 name=Chest
 desc=I wonder what's inside it.
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -69,21 +69,21 @@ op1=Steal-From
 [watchleverup]
 name=Lever
 desc=A lever for activating something.
-model=model_loc_34_q
+model=walldecor_leverup_q
 op1=Pull
 active=yes
 
 [watchleverdown]
 name=Lever
 desc=A lever for activating something.
-model=model_loc_33_q
+model=walldecor_leverdown_q
 op1=Pull
 active=yes
 
 [watchladderup]
 name=Ladder
 desc=This leads to the watchtower.
-model=model_loc_11
+model=furniture_ladder
 op1=Climb-up
 
 [watchladderdown]
@@ -95,49 +95,49 @@ op1=Climb-down
 [watchtowerbush]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [watchtowerbushnail]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [watchtowerbushdagger]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [watchtowerbusheyepatch]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [watchtowerbushrobe]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [watchtowerbusharmour]
 name=Bush
 desc=A leafy bush.
-model=model_loc_1124
+model=plants_bush1
 op1=Search
 mapscene=9
 
 [shamanentrance]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -146,7 +146,7 @@ active=yes
 [skavid_cave1]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -154,7 +154,7 @@ op1=Enter
 [skavid_cave2]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -162,7 +162,7 @@ op1=Enter
 [skavid_cave3]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -170,7 +170,7 @@ op1=Enter
 [skavid_cave4]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -178,7 +178,7 @@ op1=Enter
 [skavid_cave5]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -186,7 +186,7 @@ op1=Enter
 [skavid_cave6]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -194,7 +194,7 @@ op1=Enter
 [tobancave]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -202,13 +202,13 @@ op1=Enter
 [tobanladderdown]
 name=Ladder
 desc=This leads downwards.
-model=model_loc_1759
+model=furniture_dungeonladder
 op1=Climb-down
 
 [enclavecave]
 name=Cave entrance
 desc=I think I can squeeze through here...
-model=model_loc_2
+model=cave_entrance
 width=4
 length=2
 op1=Enter
@@ -316,7 +316,7 @@ op1=Climb
 [shuttanothchest1]
 name=Chest
 desc=I wonder what's inside it?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
@@ -324,19 +324,19 @@ forceapproach=north
 [shuttanothchest2]
 name=Chest
 desc=I wonder what's inside it?
-model=wooden_chest
+model=furniture_chestclosed
 active=yes
 op1=Open
 forceapproach=north
 
 [opentanothchest1]
-model=model_loc_76
+model=furniture_chestopen
 op1=Close
 forceapproach=north
 active=no
 
 [opentanothchest2]
-model=model_loc_76
+model=furniture_chestopen
 active=no
 op1=Close
 forceapproach=north
@@ -364,7 +364,7 @@ op1=Climb-over
 [towerladder]
 name=Ladder
 desc=This goes up!
-model=model_loc_11
+model=furniture_ladder
 op1=Climb-up
 
 [tobanblock]

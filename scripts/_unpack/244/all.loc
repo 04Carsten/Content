@@ -11,7 +11,7 @@ model=model_loc_3388
 length=2
 op1=Search
 forceapproach=east
-model=model_loc_380
+model=furniture_bookcase
 name=Bookcase
 desc=A good source of books!
 
@@ -63,13 +63,13 @@ desc=A wooden crate for storage.
 
 [elemental_workshop_box_3]
 op1=Search
-model=model_loc_359
+model=warehouse_shop_boxes
 name=Boxes
 desc=A pile of boxes for storage.
 
 [elemental_workshop_box_4]
 op1=Search
-model=model_loc_359
+model=warehouse_shop_boxes
 name=Boxes
 desc=A pile of boxes for storage.
 
@@ -83,7 +83,7 @@ desc=A wooden crate for storage.
 
 [elemental_workshop_box_6]
 op1=Search
-model=model_loc_359
+model=warehouse_shop_boxes
 name=Crate
 desc=A wooden crate for storage.
 
@@ -242,7 +242,7 @@ width=2
 length=2
 op1=Climb-up
 mapscene=7
-model=model_loc_1738
+model=furniture_spiralstairs
 name=Staircase
 desc=I can climb up these stairs.
 
