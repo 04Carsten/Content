@@ -534,7 +534,7 @@ timer=1
 
 [vampire_misty]
 name=vampire_misty
-model1=loc_4047_8
+model1=loc_4047
 size=2
 walkanim=misty
 readyanim=misty

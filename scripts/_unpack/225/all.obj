@@ -55,7 +55,7 @@ iop1=Dig
 name=Rope
 desc=A coil of rope.
 cost=18
-model=ship_pileofrope2_8
+model=ship_pileofrope2
 recol1s=11524
 recol1d=7296
 2dxof=-2
@@ -217,7 +217,7 @@ param=stab_sound,hacksword_stab
 
 [cooking_pot]
 name=Cooking pot
-model=furniture_cauldron_8
+model=furniture_cauldron
 recol1s=10570
 recol1d=12615
 recol2s=544
@@ -853,7 +853,7 @@ category=category_715
 name=Garlic
 desc=A clove of garlic.
 cost=3
-model=plants_onion_8
+model=plants_onion
 2dzoom=670
 2dyan=116
 2dxan=116

@@ -9,7 +9,7 @@ ambient=40
 contrast=40
 
 [sp_attackglow_red]
-model=floor_glowingcircle_8
+model=floor_glowingcircle
 anim=sp_attackglow
 ambient=60
 contrast=60
@@ -17,7 +17,7 @@ recol1s=31658
 recol1d=30819
 
 [sp_attackglow_blue]
-model=floor_glowingcircle_8
+model=floor_glowingcircle
 anim=sp_attackglow
 ambient=60
 contrast=60

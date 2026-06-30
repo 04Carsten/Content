@@ -250,12 +250,12 @@ model=inv_bannana
 manwear=human_weapons_bannana,0
 womanwear=human_weapons_bannana,6
 weight=1oz
-category=category_86
+category=category6
 
 [cabbage]
 name=Cabbage
 desc=Yuck I don't like cabbage.
-model=plants_cabbage_8
+model=plants_cabbage
 2dxof=1
 2dzoom=1280
 2dyan=348
@@ -270,7 +270,7 @@ param=batta_message,You add the Cabbage to the gnome batta.
 [magic_cabbage]
 name=Cabbage
 desc=Yuck I don't like cabbage.
-model=plants_cabbage_8
+model=plants_cabbage
 2dxof=1
 2dzoom=1280
 2dyan=348
@@ -374,14 +374,14 @@ iop1=Eat
 members=yes
 cost=1
 weight=120g
-category=category_86
+category=category6
 tradeable=no
 
 [onion]
 name=Onion
 desc=A strong smelling onion.
 cost=3
-model=plants_onion_8
+model=plants_onion
 recol1s=31674
 recol1d=24108
 2dzoom=670

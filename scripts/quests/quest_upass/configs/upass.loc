@@ -878,7 +878,7 @@ hillskew=yes
 mirror=yes
 
 [upass_falloff_8]
-model=cavern_upass_falloff
+model=cavern_upass_falloff_8
 active=no
 sharelight=yes
 hillskew=yes

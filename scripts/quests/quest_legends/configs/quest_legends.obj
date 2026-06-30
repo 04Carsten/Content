@@ -583,7 +583,7 @@ tradeable=no
 name=Yommi totem
 desc=A well carved totem pole made from the trunk of a Yommi tree.
 members=yes
-model=quest_totempole_8
+model=quest_totempole
 2dxof=-84
 2dyof=-51
 2dzoom=4070
@@ -595,7 +595,7 @@ tradeable=no
 [thtotempolegift]
 name=Gilded totem
 desc=A gilded totem pole from the Kharazi tribe.
-model=quest_totempole_8
+model=quest_totempole
 recol1s=13672
 recol1d=6211
 recol2s=7363

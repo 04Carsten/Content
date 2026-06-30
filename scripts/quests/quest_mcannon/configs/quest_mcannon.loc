@@ -29,7 +29,7 @@ blockwalk=no
 [multicannon_stand]
 name=Cannon stand
 desc=The mounting for the muticannon.
-model=quest_loc
+model=quest_loc_8
 length=3
 width=3
 op1=Pick-up
