@@ -2376,7 +2376,7 @@
 2375=inv_cert
 2376=inv_hammer
 2377=inv_oyster-fewpearls
-2378=inv_model_2378
+2378=inv_platemail_trim
 2379=inv_dart
 2380=inv_moltenglass
 2381=inv_seeds
@@ -2472,7 +2472,7 @@
 2471=inv_model_2471
 2472=inv_heartcrystal
 2473=inv_runetalisman_death
-2474=inv_model_2474
+2474=inv_hardleatherarmour
 2475=inv_runetalisman_blood
 2476=inv_feather
 2477=inv_dragon_mediumhelmet
@@ -2505,7 +2505,7 @@
 2504=inv_bucket-full
 2505=inv_candleholder
 2506=inv_goldnecklace
-2507=inv_model_2507
+2507=inv_dragonhidechaps
 2508=inv_pendant
 2509=inv_book_studded
 2510=inv_zqplaque
@@ -2538,8 +2538,8 @@
 2537=inv_santahat
 2538=inv_twig_rune_z
 2539=inv_model_2539
-2540=inv_model_2540
-2541=inv_model_2541
+2540=inv_leatherarmour
+2541=inv_coif
 2542=inv_armouredskirt
 2543=inv_book_fancy
 2544=inv_hatchet
@@ -2553,7 +2553,7 @@
 2552=inv_bow-string
 2553=inv_bunnyears
 2554=inv_torch-unlit
-2555=inv_model_2555
+2555=inv_chaps
 2556=inv_bowl_chunks
 2557=inv_throwingknives
 2558=inv_chainbody
@@ -2563,7 +2563,7 @@
 2562=inv_shortbow
 2563=inv_runetalisman_chaos
 2564=inv_pizzabase+tom+cheese
-2565=inv_model_2565
+2565=inv_studdedarmour
 2566=inv_silverlight
 2567=inv_piedish
 2568=inv_model_2568
@@ -2579,7 +2579,7 @@
 2578=inv_ellenaportrait
 2579=inv_gnomebowl-froglegs
 2580=inv_nails
-2581=inv_model_2581
+2581=inv_studdedchaps
 2582=inv_platelegs
 2583=inv_holyforce
 2584=inv_model_2584
@@ -2654,7 +2654,7 @@
 2653=inv_pineapplering
 2654=inv_zqboneshard
 2655=inv_cocktail-empty
-2656=inv_model_2656
+2656=inv_vambraces
 2657=inv_grinder
 2658=inv_seaslug
 2659=inv_gnomebatta_tin_empty
@@ -2743,7 +2743,7 @@
 2742=inv_ash
 2743=inv_sprigofleaves
 2744=inv_zqcrystal
-2745=inv_model_2745
+2745=inv_dragonhidearmour
 2746=inv_papyrus
 2747=inv_vial_empty
 2748=inv_ore
@@ -3018,7 +3018,7 @@
 3017=model_3017_spotanim
 3018=model_3018_spotanim
 3019=model_3019_npc
-3020=model_3020_obj
+3020=inv_platemail_saradomin
 3021=inv_robinhood
 3022=npc_butterfly
 3023=npc_butterfly2
@@ -3373,8 +3373,8 @@
 3372=inv_trail_puzzle
 3373=inv_berret
 3374=inv_trail_scroll
-3375=model_3375_obj
-3376=model_3376_obj
+3375=inv_platemail_zamorak
+3376=inv_platemail_guthix
 3377=inv_headband
 3378=man_hat_robinhood
 3379=man_torso_platemail_trim
@@ -4104,8 +4104,8 @@
 4103=quest_routethrough_inv_snail_corpse
 4104=quest_routethrough_inv_snail_shell
 4105=quest_routethrough_inv_snail_shell2
-4106=obj_3327
-4107=obj_3337
+4106=inv_snelmround
+4107=inv_snelmpoint
 4108=npc_1227
 4109=npc_1232
 4110=chat_male_hat_split_bark_helm
@@ -4204,9 +4204,9 @@
 4203=if_slidingpuzzle_trail_d24
 4204=inv_trail_puzzle_maple
 4205=inv_trail_puzzle_troll
-4206=obj_3472_manwear
-4207=obj_3472_womanwear
-4208=obj_3472
+4206=man_legs_armouredskirt_trim
+4207=woman_legs_armouredskirt_trim
+4208=inv_armouedskirt_trim
 4209=quest_shades_inv_mallet
 4210=chat_male_head_viking_helmet_basic
 4211=obj_3748_manhead2
@@ -4274,10 +4274,10 @@
 4273=quest_viking_inv_tankard_empty
 4274=quest_viking_inv_tankard_full
 4275=quest_viking_inv_helmet
-4276=obj_3751
+4276=quest_viking_inv_helmet_crush
 4277=quest_viking_inv_helmet_magic
 4278=quest_viking_inv_helmet_ranged
-4279=obj_3753
+4279=quest_viking_inv_helmet_slash
 4280=quest_viking_inv_keg
 4281=quest_viking_inv_shield
 4282=quest_viking_inv_sword
