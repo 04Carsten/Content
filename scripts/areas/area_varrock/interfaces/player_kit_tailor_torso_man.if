@@ -1272,7 +1272,7 @@ x=50
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_141]
@@ -1281,7 +1281,7 @@ x=114
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_142]
@@ -1290,7 +1290,7 @@ x=176
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_143]
@@ -1299,7 +1299,7 @@ x=240
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_144]
@@ -1308,7 +1308,7 @@ x=302
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_145]
@@ -1317,7 +1317,7 @@ x=358
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_146]
@@ -1326,7 +1326,7 @@ x=420
 y=185
 width=32
 height=32
-model=model_173_npc
+model=man_arms_bare
 zoom=800
 
 [com_147]

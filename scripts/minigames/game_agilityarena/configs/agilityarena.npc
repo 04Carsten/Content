@@ -2,7 +2,7 @@
 name=Cap'n Izzy No-Beard
 model1=man_head_dredlocks
 model2=man_jaw_none
-model3=man_hat_model_193
+model3=man_hat_pirate2
 model4=man_torso_basic
 model5=model_319
 model6=man_arms_buff
@@ -32,7 +32,7 @@ moverestrict=indoors
 
 [agilityarena_tickettrader]
 name=Pirate Jackie the Fruit
-model1=woman_head_model_388
+model1=woman_head_pirate
 model2=woman_torso_basic
 model3=woman_arms_basic
 model4=woman_hands_gloves

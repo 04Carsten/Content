@@ -477,7 +477,7 @@ huntrange=3
 [vampire_flyer]
 name=Vampire
 model1=npc_1220
-model2=npc_1220i2
+model2=man_torso_vampire
 model3=npc_1220i3
 model4=man_legs_tatty
 model5=man_feet_basic
@@ -611,7 +611,7 @@ model2=man_torso_platemail
 model3=model_174_npc
 model4=man_hands_basic
 model5=man_legs_robe
-model6=human_weapons_twohandedsword
+model6=human_weapons_dh-sword
 recol1s=15855
 recol1d=7202
 recol2s=10570

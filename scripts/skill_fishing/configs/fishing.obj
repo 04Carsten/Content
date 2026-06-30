@@ -6,8 +6,8 @@ model=inv_lobsterpot
 2dyan=1668
 2dxan=192
 cost=20
-manwear=human_weapons_model_531,0
-womanwear=human_weapons_model_531,6
+manwear=human_weapons_lobsterpot,0
+womanwear=human_weapons_lobsterpot,6
 weight=9oz
 param=fish_equipment_struct,fish_equipment_lobster_pot
 

@@ -1,7 +1,7 @@
 [boardgames_barmaid]
 name=Sam
 model1=woman_head_mediumhair
-model2=woman_torso_model_467
+model2=woman_torso_apron
 model3=woman_arms_longsleeves
 model4=woman_hands_basic
 model5=woman_legs_basic
@@ -29,7 +29,7 @@ param=shop_title,The Toad and Chicken
 [boardgames_barmaid2]
 name=Rachael
 model1=woman_head_longhair
-model2=woman_torso_model_467
+model2=woman_torso_apron
 model3=woman_arms_longsleeves
 model4=woman_hands_basic
 model5=woman_legs_basic

@@ -306,7 +306,7 @@ model=proj_vialtravel_gnomeball
 anim=vial_travel
 
 [attacksword]
-model=human_weapons_sword
+model=human_weapons_shortsword
 anim=seq_451
 
 // unconfirmed name

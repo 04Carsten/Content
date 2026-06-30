@@ -80,7 +80,7 @@ model1=woman_arms_basic
 
 [woman_arms_bare_braceless]
 type=woman_arms
-model1=woman_arms_bare_braceless
+model1=woman_arms_bare
 
 [woman_arms_buff]
 type=woman_arms

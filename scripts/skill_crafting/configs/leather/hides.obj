@@ -9,8 +9,8 @@ recol1d=8416
 2dzoom=1190
 2dyan=116
 2dxan=440
-manwear=model_4046,0
-womanwear=model_4046,0
+manwear=human_weapons_leather,0
+womanwear=human_weapons_leather,0
 weight=5lb
 
 [hard_leather]

@@ -12,8 +12,8 @@ recol1d=31041
 2dxan=424
 iop2=Wear
 wearpos=front
-manwear=man_necklaces_amulet_enchanted,0
-womanwear=woman_necklaces_amulet_enchanted,0
+manwear=man_necklaces_basic,0
+womanwear=woman_necklaces_basic,0
 weight=10g
 tradeable=no
 

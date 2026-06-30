@@ -200,10 +200,10 @@ recol1d=32767
 2dzoom=580
 2dxan=668
 wearpos=hat
-manwear=man_hat_model_199,0
-womanwear=woman_hat_model_374,0
-manhead=chat_male_model_41
-womanhead=chat_female_model_99
+manwear=man_hat_chefs,0
+womanwear=woman_hat_chefs,0
+manhead=chat_male_hat_chefs
+womanhead=chat_female_hat_chefs
 iop2=Wear
 weight=2lb
 
@@ -247,8 +247,8 @@ model=inv_bannana
 2dzoom=930
 2dyan=1944
 2dxan=280
-manwear=model_3874,0
-womanwear=model_3874,6
+manwear=human_weapons_bannana,0
+womanwear=human_weapons_bannana,6
 weight=1oz
 category=category_86
 
