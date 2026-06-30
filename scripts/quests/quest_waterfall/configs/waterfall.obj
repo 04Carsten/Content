@@ -29,7 +29,7 @@ tradeable=no
 [glarials_pebble_waterfall_quest]
 name=Glarial's pebble
 desc=A small pebble with elven inscription.
-model=model_2701_obj
+model=inv_ornatepebble
 2dzoom=640
 2dyan=1808
 2dxan=236
@@ -59,7 +59,7 @@ tradeable=no
 [glarials_urn_full_waterfall_quest]
 name=Glarial's urn
 desc=An urn containing Glarial's ashes
-model=model_2704_obj
+model=inv_urn
 2dyof=-3
 2dzoom=1070
 2dyan=104
@@ -71,7 +71,7 @@ tradeable=no
 [glarials_urn_empty_waterfall_quest]
 name=Glarial's urn
 desc=An empty urn made for Glarial's ashes
-model=model_2704_obj
+model=inv_urn
 2dyof=-3
 2dzoom=1070
 2dyan=104
@@ -97,7 +97,7 @@ tradeable=no
 name=Mithril seeds
 desc=Magical seeds in a mithril case.
 cost=200
-model=model_2381_obj
+model=inv_seeds
 recol1s=4232
 recol1d=512
 2dxof=7

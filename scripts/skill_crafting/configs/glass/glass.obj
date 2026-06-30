@@ -1,6 +1,6 @@
 [molten_glass]
 cost=2
-model=model_2380_obj
+model=inv_moltenglass
 weight=3g
 2dxof=4
 2dyof=132
@@ -44,9 +44,9 @@ weight=2500g
 name=Glassblowing pipe
 cost=2
 members=yes
-model=model_2570_obj
-manwear=model_515_obj_wear,0
-womanwear=model_515_obj_wear,0
+model=inv_glassblowingpipe
+manwear=human_weapons_glassblowingpipe,0
+womanwear=human_weapons_glassblowingpipe,0
 2dxof=2
 2dyof=-18
 2dzoom=1400

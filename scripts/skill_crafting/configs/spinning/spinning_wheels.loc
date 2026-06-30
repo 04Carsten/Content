@@ -9,7 +9,7 @@ category=spinning_wheel
 [flax]
 name=Flax
 desc=A plant cultivated for fibres.
-model=model_loc_2646
+model=plants_loc_2646
 op2=Pick
 
 [viking_spinningwheel]

@@ -26,7 +26,7 @@ tradeable=no
 [lens_mould]
 name=Lens mould
 desc=An unusual clay mould in the shape of a disc.
-model=model_2773_obj
+model=inv_lensmould
 2dyof=-17
 2dzoom=2610
 2dyan=1912
@@ -38,7 +38,7 @@ tradeable=no
 [lens]
 name=Lens
 desc=A perfectly circular disc of glass.
-model=model_2545_obj
+model=inv_lens
 weight=3g
 2dxof=6
 2dyof=28

@@ -1,7 +1,7 @@
 [fullstyle]
 name=Stile
 desc=I can climb over the fence with this.
-model=model_loc_993
+model=fence_loc_993
 length=2
 hillskew=yes
 op1=Climb-over
@@ -10,19 +10,19 @@ blockrange=no
 [castlecrumbly]
 name=Crumbling wall
 desc=It looks like I might be able to climb over this piece of the wall...
-model=model_loc_1660
+model=castle_loc_1660
 op1=Climb-over
 
 [watchshortcut]
 name=Climbing rocks
 desc=The irregular surface can be climbed.
-model=model_loc_448
+model=walldecor_loc_448
 op1=Climb-up
 
 [loc_2320]
 name=Monkeybars
 desc=I can traverse these.
-model=model_loc_2320
+model=outdoorfurniture_loc_2320
 width=3
 op1=Swing across
 blockwalk=no
@@ -72,7 +72,7 @@ param=dir,0
 [zq_logbalance]
 name=A wooden log
 desc=A nearly rotten wooden log that crosses the river.
-model=model_loc_2291
+model=floor_loc_2291
 op1=Balance
 sharelight=yes
 mapscene=13
@@ -80,7 +80,7 @@ mapscene=13
 [zqrockjump1]
 name=Stepping stones
 desc=A rocky outcrop from the running water.
-model=model_loc_2311
+model=floor_loc_2311
 op1=Balance
 active=yes
 category=karamja_stepping_stone
@@ -88,7 +88,7 @@ category=karamja_stepping_stone
 [zqrockjump2]
 name=Stepping stones
 desc=A rocky outcrop from the running water.
-model=model_loc_2311
+model=floor_loc_2311
 op1=Balance
 active=yes
 category=karamja_stepping_stone
@@ -96,7 +96,7 @@ category=karamja_stepping_stone
 [zqrockjump3]
 name=Stepping stones
 desc=A rocky outcrop from the running water.
-model=model_loc_2311
+model=floor_loc_2311
 op1=Balance
 active=yes
 category=karamja_stepping_stone

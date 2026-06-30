@@ -171,7 +171,7 @@ members=yes
 [cactus_potato]
 name=Potato cactus
 desc=How am I supposed to eat that?!
-model=obj_3138
+model=quest_kalphite_inv_cactus_potato
 2dyof=20
 2dzoom=1240
 2dyan=300

@@ -422,7 +422,7 @@ length=2
 [regicide_trap_hand_holds]
 name=Protruding rocks
 desc=Looks like I can climb these.
-model=model_loc_1444
+model=walldecor_loc_1444
 op1=Climb
 
 [regicide_trap_logslam]
@@ -435,7 +435,7 @@ length=3
 [regicide_logbalance1]
 name=Log balance
 desc=I can balance on this log.
-model=model_loc_2291
+model=floor_loc_2291
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -446,7 +446,7 @@ active=yes
 [regicide_logbalance2]
 name=Log balance
 desc=I can balance on this log.
-model=model_loc_2292
+model=floor_loc_2292
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -457,7 +457,7 @@ active=yes
 [regicide_logbalance1_start]
 name=Log balance
 desc=I can balance on this log.
-model=model_loc_2291
+model=floor_loc_2291
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -470,7 +470,7 @@ category=regicide_logbalance
 [regicide_logbalance2_start]
 name=Log balance
 desc=I can balance on this log.
-model=model_loc_2291
+model=floor_loc_2291
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -483,7 +483,7 @@ category=regicide_logbalance
 [regicide_logbalance3_start]
 name=Log balance
 desc=I can balance on this log.
-model=model_loc_2291
+model=floor_loc_2291
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -551,7 +551,7 @@ op1=Enter
 category=regicide_cross_over
 
 [regicide_rabbit_hutch]
-model=model_loc_748
+model=cave_loc_748
 recol1s=25295
 recol1d=15750
 recol2s=23179
@@ -577,7 +577,7 @@ op1=Follow
 blockwalk=no
 
 [regicide_hollowlog]
-model=model_loc_1334
+model=plants_loc_1334
 recol1s=18823
 recol1d=16808
 recol2s=20904
@@ -586,7 +586,7 @@ width=3
 active=no
 
 [regicide_hollowlogsmaller]
-model=model_loc_1335
+model=plants_loc_1335
 recol1s=18823
 recol1d=16808
 recol2s=20904
@@ -706,7 +706,7 @@ hillskew=yes
 active=no
 
 [regicide_swamp_root1]
-model=model_loc_1323
+model=wilderness_loc_1323
 recol1s=6240
 recol1d=3203
 resizex=256
@@ -717,7 +717,7 @@ length=2
 active=no
 
 [regicide_swamp_root2]
-model=model_loc_1324
+model=wilderness_loc_1324
 recol1s=6240
 recol1d=3203
 resizex=256
@@ -728,7 +728,7 @@ length=2
 active=no
 
 [regicide_swamp_root3]
-model=model_loc_1325
+model=wilderness_loc_1325
 recol1s=6240
 recol1d=3203
 resizex=256
@@ -989,7 +989,7 @@ recol1d=16808
 active=no
 
 [regicide_spearwall]
-model=model_loc_848
+model=quest_spearwall
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -1005,7 +1005,7 @@ blockrange=no
 active=no
 
 [regicide_spearwall_straight]
-model=model_loc_2067
+model=castle_loc_2067
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -1022,7 +1022,7 @@ active=no
 [regicide_standard1_tyrus]
 name=Standard
 desc=A standard of Kandarin.
-model=model_loc_864
+model=outdoorfurniture_standard1_kandarin
 recol1s=12547
 recol1d=16808
 recol2s=24675
@@ -1037,7 +1037,7 @@ ambient=10
 [regicide_standard2_tyrus]
 name=Standard
 desc=A standard of Kandarin.
-model=model_loc_866
+model=outdoorfurniture_standard2_kandarin
 recol1s=12547
 recol1d=16808
 recol2s=24675
@@ -1291,7 +1291,7 @@ sharelight=yes
 active=no
 
 [regicide_bridge_e_l_high]
-model=model_loc_3009
+model=castle_loc_3009
 retex1s=pebblefloor
 retex1d=elfbrick
 recol2s=12683

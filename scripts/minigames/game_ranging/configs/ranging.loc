@@ -17,13 +17,13 @@ mapscene=7
 [loc_2513]
 name=Target
 desc=I wonder if I can hit a bullseye?
-model=model_loc_829
+model=outdoorfurniture_loc_829
 op1=Fire-at
 
 [ranging_guild_door]
 name=Guild door
 desc=The door to the Ranging Guild.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall

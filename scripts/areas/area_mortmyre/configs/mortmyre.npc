@@ -607,11 +607,11 @@ param=death_sound,null
 [vampire_count]
 name=vampire_count
 model1=npc_1220
-model2=model_306_obj_wear
+model2=man_torso_platemail
 model3=model_174_npc
 model4=man_hands_basic
 model5=man_legs_robe
-model6=model_546_obj_wear
+model6=human_weapons_twohandedsword
 recol1s=15855
 recol1d=7202
 recol2s=10570

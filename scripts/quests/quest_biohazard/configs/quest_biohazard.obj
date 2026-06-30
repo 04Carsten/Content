@@ -96,8 +96,8 @@ model=inv_pendant
 members=yes
 iop2=Wear
 wearpos=front
-manwear=model_282_obj_wear,0
-womanwear=model_446_obj_wear,0
+manwear=man_necklaces_pendant,0
+womanwear=woman_necklaces_pendant,0
 weight=10g
 tradeable=no
 

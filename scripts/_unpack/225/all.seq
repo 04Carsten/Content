@@ -12531,7 +12531,7 @@ frame7=anim_4581
 frame8=anim_4606
 frame9=anim_4664
 
-[seq_924]
+[sp_attack_impale_spotanim]
 frame1=anim_8732
 frame2=anim_8733
 frame3=anim_8734

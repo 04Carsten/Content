@@ -23,7 +23,7 @@ mapscene=7
 [yanillestairsdown]
 name=Staircase
 desc=I can climb down this.
-model=model_loc_1727
+model=furniture_loc_1727
 width=2
 length=3
 op1=Climb-down
@@ -63,7 +63,7 @@ mapscene=7
 [loc_1736]
 name=Staircase
 desc=I can climb down these stairs.
-model=model_loc_1736
+model=outdoorfurniture_loc_1736
 length=2
 op1=Climb-down
 sharelight=yes
@@ -73,7 +73,7 @@ mapscene=7
 [outdoorstairs_wooden_bottom]
 name=Staircase
 desc=I can climb up these stairs.
-model=model_loc_1737
+model=outdoorfurniture_loc_1737
 op1=Climb-up
 sharelight=yes
 forceapproach=north
@@ -118,7 +118,7 @@ op1=Climb-up
 [cryptstairsdown]
 name=Stairs
 desc=Looks spooky...
-model=model_loc_1732
+model=spooky_loc_1732
 width=2
 length=3
 op1=Walk-Down

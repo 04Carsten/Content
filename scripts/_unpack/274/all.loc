@@ -315,7 +315,7 @@ model=quest_shades_swamp_plants_mushroom_massive3
 [gnome_obstacle_pipe]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
-model=model_loc_2287
+model=outdoorfurniture_loc_2287
 retex1s=wall
 retex1d=planks
 op1=Squeeze-through
@@ -695,14 +695,14 @@ forceapproach=north
 [shadelairentrancel]
 name=Wooden doors
 desc=These doors look very ominous..a sign says...'to the tombs'.
-model=model_loc_2240
+model=basic_loc_2240
 width=2
 op1=Open
 
 [shadelairentrancer]
 name=Wooden doors
 desc=These doors look very ominous..a sign says...'to the tombs'.
-model=model_loc_2240
+model=basic_loc_2240
 width=2
 mirror=yes
 op1=Open
@@ -710,13 +710,13 @@ op1=Open
 [shadelairdooropenl]
 name=Hillside entrance
 desc=Large doors set into the hillside.
-model=model_loc_2238
+model=basic_loc_2238
 width=2
 
 [shadelairdooropenr]
 name=Hillside entrance
 desc=Large doors set into the hillside.
-model=model_loc_2238
+model=basic_loc_2238
 width=2
 mirror=yes
 
@@ -744,7 +744,7 @@ offsety=0
 offsetz=20
 
 [death_cavewall_face1_nominimap]
-model=model_loc_1417
+model=cavern_cavewall_face1_dark
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -1078,7 +1078,7 @@ op1=Enter
 blockrange=no
 
 [castlewars_wall_saradomin]
-model=basic_poshdoor_thick
+model=castle_wall_ext
 retex1s=wall
 retex1d=elfbrick
 recol2s=6342
@@ -1089,7 +1089,7 @@ occlude=yes
 blockrange=no
 
 [castlewars_castlebattlements_saradomin]
-model=game_castlewars_castlebattlements
+model=castle_edge
 retex1s=wall
 retex1d=elfbrick
 sharelight=yes
@@ -1194,7 +1194,7 @@ contrast=40
 [castlewars_saradomin_maindoorr]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Open
 op2=Attack
 mirror=yes
@@ -1203,7 +1203,7 @@ raiseobject=no
 [castlewars_saradomin_maindoorl]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Open
 op2=Attack
 raiseobject=no
@@ -1211,7 +1211,7 @@ raiseobject=no
 [castlewars_saradomin_maindoorr_open]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Close
 mirror=yes
 raiseobject=no
@@ -1219,14 +1219,14 @@ raiseobject=no
 [castlewars_saradomin_maindoorl_open]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Close
 raiseobject=no
 
 [castlewars_zamorak_maindoorr]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Open
 op2=Attack
 mirror=yes
@@ -1235,7 +1235,7 @@ raiseobject=no
 [castlewars_zamorak_maindoorl]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Open
 op2=Attack
 raiseobject=no
@@ -1243,7 +1243,7 @@ raiseobject=no
 [castlewars_zamorak_maindoorr_open]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Close
 mirror=yes
 raiseobject=no
@@ -1251,7 +1251,7 @@ raiseobject=no
 [castlewars_zamorak_maindoorl_open]
 name=Large door
 desc=A large double door.
-model=model_loc_71
+model=castle_loc_71
 op1=Close
 raiseobject=no
 
@@ -1350,7 +1350,7 @@ active=yes
 op1=Climb
 
 [castlewars_battlements_saradomin_blockrange]
-model=game_castlewars_castlebattlements
+model=castle_edge
 retex1s=wall
 retex1d=elfbrick
 sharelight=yes
@@ -1358,7 +1358,7 @@ sharelight=yes
 [castlewars_battlements_saradomin_climbable]
 name=Battlements
 desc=Maybe I could tie a rope to this..
-model=game_castlewars_castlebattlements
+model=castle_edge
 retex1s=wall
 retex1d=elfbrick
 active=yes
@@ -1368,7 +1368,7 @@ blockrange=no
 [castlewars_battlements_zamorak_climbable]
 name=Battlements
 desc=Maybe I could tie a rope to this..
-model=game_castlewars_castlebattlements
+model=castle_edge
 retex1s=wall
 retex1d=mossybricks
 active=yes
@@ -1378,7 +1378,7 @@ blockrange=no
 [castlewars_cavewall_rockslide]
 name=Cave wall
 desc=It doesn't look very stable...
-model=model_loc_1417
+model=cavern_cavewall_face1_dark
 sharelight=yes
 occlude=yes
 hillskew=yes
@@ -1538,7 +1538,7 @@ op1=Take-from
 [castlewars_saradomin_sidedoor]
 name=Door
 desc=An elf-fashioned door.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -1550,7 +1550,7 @@ raiseobject=no
 [castlewars_saradomin_sidedoor_open]
 name=Door
 desc=An elf-fashioned door.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -1562,7 +1562,7 @@ raiseobject=no
 [castlewars_zamorak_sidedoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -1574,7 +1574,7 @@ raiseobject=no
 [castlewars_zamorak_sidedoor_open]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -1586,7 +1586,7 @@ raiseobject=no
 [castlewars_saradomin_spawndoor]
 name=Door
 desc=An elf-fashioned door.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -1598,7 +1598,7 @@ raiseobject=no
 [castlewars_zamorak_spawndoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -2173,7 +2173,7 @@ active=no
 ambient=20
 
 [cave_generic_hole_bk]
-model=dng_hole_bk
+model=cavern_cavewall_generic_hole_bk
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -2185,7 +2185,7 @@ active=no
 ambient=20
 
 [cave_generic_hole_bkl]
-model=dng_hole_bkl
+model=cavern_cavewall_generic_hole_bkl
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -2197,7 +2197,7 @@ active=no
 ambient=20
 
 [cave_generic_hole_bkr]
-model=dng_hole_bkr
+model=cavern_cavewall_generic_hole_bkr
 recol1s=21140
 recol1d=4554
 recol2s=15855
@@ -2214,7 +2214,7 @@ sharelight=yes
 hillskew=yes
 
 [loc_4534]
-model=model_loc_1434
+model=cavern_cavewall_top_dark
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -2222,7 +2222,7 @@ hillskew=yes
 active=no
 
 [cave_generic_hole_l]
-model=dng_hole_l
+model=cavern_cavewall_top5
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -2230,7 +2230,7 @@ hillskew=yes
 active=no
 
 [loc_4536]
-model=dng_hole_r
+model=cavern_cavewall_top5_high
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -2256,7 +2256,7 @@ resizex=128
 resizey=64
 
 [loc_4538]
-model=model_loc_1434
+model=cavern_cavewall_top_dark
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -2267,7 +2267,7 @@ resizex=128
 resizey=64
 
 [loc_4539]
-model=dng_hole_l
+model=cavern_cavewall_top5
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -2278,7 +2278,7 @@ resizex=128
 resizey=64
 
 [cave_generic_hole_r]
-model=dng_hole_r
+model=cavern_cavewall_top5_high
 recol1s=12580
 recol1d=11592
 sharelight=yes

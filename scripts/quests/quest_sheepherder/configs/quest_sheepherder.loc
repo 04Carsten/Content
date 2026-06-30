@@ -1,7 +1,7 @@
 [plaguesheep_furnace]
 name=Furnace
 desc=Very hot.
-model=model_loc_165
+model=furniture_loc_165
 width=3
 length=3
 forceapproach=east

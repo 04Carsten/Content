@@ -1,7 +1,7 @@
 [range]
 name=Range
 desc=Ideal for cooking on.
-model=model_loc_114
+model=furniture_loc_114
 length=2
 forceapproach=east
 category=cooking_oven
@@ -9,19 +9,19 @@ category=cooking_oven
 [loc_2729]
 name=Range
 desc=Ideal for cooking on.
-model=model_loc_114
+model=furniture_loc_114
 category=cooking_oven
 
 [loc_2730]
 name=Range
 desc=Ideal for cooking on.
-model=model_loc_114
+model=furniture_loc_114
 category=cooking_oven
 
 [loc_2731]
 name=Range
 desc=Ideal for cooking on.
-model=model_loc_114
+model=furniture_loc_114
 category=cooking_oven
 
 [fireplace]

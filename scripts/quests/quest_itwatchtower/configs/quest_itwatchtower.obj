@@ -1,7 +1,7 @@
 [explodingvial]
-model=model_552_obj_wear
-manwear=model_538_obj_wear,0
-womanwear=model_538_obj_wear,6
+model=human_weapons_vial
+manwear=human_weapons_explodingvial,0
+womanwear=human_weapons_explodingvial,6
 weight=25g
 dummyitem=graphic_only
 
@@ -9,7 +9,7 @@ dummyitem=graphic_only
 name=Ogre relic
 desc=An old statue of an ogre warrior.
 members=yes
-model=model_2698_obj
+model=inv_ogrerelic
 2dzoom=1710
 2dyan=1668
 2dxan=104
@@ -19,7 +19,7 @@ tradeable=no
 [relicpart1]
 name=Relic part 1
 desc=Part of an ogre relic.
-model=model_2585_obj
+model=inv_ogrerelic1
 members=yes
 2dxof=-2
 2dzoom=1310
@@ -32,7 +32,7 @@ tradeable=no
 [relicpart2]
 name=Relic part 2
 desc=Part of an ogre relic.
-model=model_2587_obj
+model=inv_ogrerelic2
 members=yes
 2dzoom=860
 2dyan=1696
@@ -43,7 +43,7 @@ tradeable=no
 [relicpart3]
 name=Relic part 3
 desc=Part of an ogre relic.
-model=model_2588_obj
+model=inv_ogrerelic3
 members=yes
 2dzoom=560
 2dyan=108
@@ -54,7 +54,7 @@ tradeable=no
 [skavidmap]
 name=Skavid map
 desc=It's a map.
-model=model_2383_obj
+model=inv_skanidmap
 2dxof=2
 2dyof=14
 2dzoom=2120
@@ -67,7 +67,7 @@ tradeable=no
 [ogretooth]
 name=Ogre tooth
 desc=Very tooth like.
-model=model_2522_obj
+model=inv_ogretooth
 2dxof=1
 2dyof=17
 2dzoom=510
@@ -91,7 +91,7 @@ tradeable=no
 
 [rockcake]
 name=Rock cake
-model=model_2817_obj
+model=inv_rockcake
 2dyof=-4
 2dzoom=740
 2dyan=152
@@ -104,7 +104,7 @@ tradeable=no
 
 [powering_crystal1]
 name=Crystal
-model=model_2335_obj
+model=inv_poweringcrystal
 recol1s=22292
 recol1d=27361
 2dxof=1
@@ -118,7 +118,7 @@ tradeable=no
 
 [powering_crystal2]
 name=Crystal
-model=model_2335_obj
+model=inv_poweringcrystal
 recol1s=22292
 recol1d=31070
 2dxof=1
@@ -132,7 +132,7 @@ tradeable=no
 
 [powering_crystal3]
 name=Crystal
-model=model_2335_obj
+model=inv_poweringcrystal
 recol1s=22292
 recol1d=3764
 2dxof=1
@@ -146,7 +146,7 @@ tradeable=no
 
 [powering_crystal4]
 name=Crystal
-model=model_2335_obj
+model=inv_poweringcrystal
 recol1s=2978
 recol1d=32767
 2dxof=1
@@ -161,7 +161,7 @@ tradeable=no
 [fingernails]
 name=Finger nails
 desc=Eeeeyeeew!
-model=model_1787_obj
+model=quest_fingernails
 2dyof=-8
 2dzoom=670
 2dyan=40
@@ -184,7 +184,7 @@ tradeable=no
 [watchtowerarmour]
 name=Unusual armour
 desc=Looks kind of useless...
-model=model_2574_obj
+model=inv_goblinarmour
 2dyof=3
 2dzoom=1500
 2dxan=608
@@ -324,7 +324,7 @@ tradeable=no
 name=Nightshade
 desc=Deadly!
 cost=30
-model=model_2762_obj
+model=inv_nightshade_watchtower
 2dxof=10
 2dyof=-27
 2dzoom=1730

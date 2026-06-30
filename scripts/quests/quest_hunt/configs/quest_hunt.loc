@@ -1,6 +1,6 @@
 [wydindoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall

@@ -2,7 +2,7 @@
 name=Cap'n Izzy No-Beard
 model1=man_head_dredlocks
 model2=man_jaw_none
-model3=model_193_npc
+model3=man_hat_model_193
 model4=man_torso_basic
 model5=model_319
 model6=man_arms_buff
@@ -26,13 +26,13 @@ op1=Talk-to
 op3=Pay
 vislevel=hide
 head1=chat_male_head_dredlocks
-head2=model_36_npc_head
+head2=chat_male_model_36
 timer=1
 moverestrict=indoors
 
 [agilityarena_tickettrader]
 name=Pirate Jackie the Fruit
-model1=model_388_npc
+model1=woman_head_model_388
 model2=woman_torso_basic
 model3=woman_arms_basic
 model4=woman_hands_gloves
@@ -54,5 +54,5 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 op1=Talk-to
 op3=Trade
 vislevel=hide
-head1=model_111_npc_head
+head1=chat_female_head_model_111
 moverestrict=indoors

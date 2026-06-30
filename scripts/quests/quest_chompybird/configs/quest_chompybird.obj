@@ -60,7 +60,7 @@ category=ogre_bellows
 name=Bloated toad
 desc=An inflated toad.
 members=yes
-model=model_3447_obj
+model=ogre_area_npc_chompy_toad
 2dxof=-2
 2dyof=-34
 2dzoom=1430
@@ -133,6 +133,6 @@ weight=10kg
 tradeable=no
 
 [chompy_bird_obj]
-model=model_3445_obj
+model=chompy_bird
 // there's a cert, so it must be tradeable and therefore not a dummyitem?
 //dummyitem=graphic_only

@@ -345,7 +345,7 @@ mapscene=7
 [troll_climbingrocks_top]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2231
+model=quest_loc_2231
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -354,7 +354,7 @@ op1=Climb
 [troll_climbingrocks_bottom]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2232
+model=quest_loc_2232
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -396,7 +396,7 @@ active=yes
 blockrange=no
 
 [troll_floor_depth2]
-model=model_loc_767
+model=floor_depth2
 recol1s=7329
 recol1d=11592
 hillskew=yes
@@ -436,7 +436,7 @@ blockrange=no
 [troll_rockcounter]
 name=Counter
 desc=A counter made from a stone block.
-model=model_loc_2791
+model=cave_loc_2791
 recol1s=10400
 recol1d=11592
 width=2
@@ -464,7 +464,7 @@ blockrange=no
 [troll_mountain_shortcut_climbingrocks1]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2231
+model=quest_loc_2231
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -475,7 +475,7 @@ blockrange=no
 [troll_mountain_shortcut_climbingrocks2]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2232
+model=quest_loc_2232
 recol1s=12580
 recol1d=8454
 hillskew=yes

@@ -78,7 +78,7 @@ resizey=192
 resizez=192
 
 [death_troll_spearwall]
-model=model_loc_848
+model=quest_spearwall
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -94,7 +94,7 @@ blockrange=no
 active=no
 
 [death_troll_spearwall_straight]
-model=model_loc_2067
+model=castle_loc_2067
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -129,17 +129,17 @@ blockwalk=no
 blockrange=no
 
 [death_trollbloodsplat1]
-model=model_loc_652
+model=floor_loc_652
 recol1s=10240
 recol1d=8290
 
 [death_trollbloodsplat2]
-model=model_loc_653
+model=floor_loc_653
 recol1s=10240
 recol1d=8290
 
 [death_trollbloodsplat3]
-model=model_loc_654
+model=floor_loc_654
 recol1s=10240
 recol1d=8290
 
@@ -210,7 +210,7 @@ contrast=70
 [death_burthorpe_standard]
 name=Standard
 desc=A standard of Asgarnia.
-model=model_loc_863
+model=outdoorfurniture_standard1_asgarnia
 recol1s=26
 recol1d=10580
 recol2s=29596
@@ -219,7 +219,7 @@ recol2d=22197
 [death_burthorpe_flag]
 name=Flagpole
 desc=The flag of Asgarnia.
-model=model_loc_860
+model=outdoorfurniture_flagpole_asgarnia
 recol1s=25
 recol1d=10580
 recol2s=29596
@@ -266,7 +266,7 @@ category=empty_boxes
 [death_boxes_2]
 name=Boxes
 desc=A pile of boxes for storage.
-model=model_2139
+model=warehouse_shop_model_2139
 retex1s=wood2
 retex1d=elfwood
 blockrange=no
@@ -276,7 +276,7 @@ category=empty_boxes
 [death_boxes_3]
 name=Boxes
 desc=A pile of boxes for storage.
-model=model_2140
+model=warehouse_shop_model_2140
 retex1s=wood2
 retex1d=elfwood
 blockrange=no
@@ -478,7 +478,7 @@ hillskew=yes
 active=no
 
 [death_dugupsoil_squished_1]
-model=model_loc_1798
+model=floor_loc_1798
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -488,7 +488,7 @@ recol3d=10535
 hillskew=yes
 
 [death_dugupsoil_squished_2]
-model=model_loc_1799
+model=floor_loc_1799
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -498,7 +498,7 @@ recol3d=10535
 hillskew=yes
 
 [death_dugupsoil_squished_3]
-model=model_loc_1800
+model=floor_loc_1800
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -585,7 +585,7 @@ hillskew=yes
 [death_climbingrocks_top]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2231
+model=quest_loc_2231
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -594,7 +594,7 @@ op1=Climb
 [death_climbingrocks_bottom]
 name=Rocks
 desc=A rocky outcrop.
-model=model_loc_2232
+model=quest_loc_2232
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -602,7 +602,7 @@ forcedecor=yes
 op1=Climb
 
 [death_climbingrocks_falloff]
-model=model_loc_2233
+model=quest_loc_2233
 recol1s=12580
 recol1d=8454
 hillskew=yes
@@ -659,7 +659,7 @@ category=gate_outer_open
 param=next_loc_stage,death_fencegate_r
 
 [death_fencing]
-model=model_loc_980
+model=fence
 recol1s=10400
 recol1d=10502
 recol2s=10401
@@ -671,7 +671,7 @@ blockrange=no
 [death_fullstyle]
 name=Stile
 desc=I can climb over the fence with this.
-model=model_loc_993
+model=fence_loc_993
 recol1s=10400
 recol1d=10502
 recol2s=10401
@@ -682,7 +682,7 @@ op1=Climb-over
 blockrange=no
 
 [death_wall_support]
-model=model_loc_3181
+model=arena_loc_3181
 recol1s=12580
 recol1d=10502
 active=no
@@ -755,14 +755,14 @@ sharelight=yes
 op1=Exit
 
 [death_mountain_cavewall_face1]
-model=model_loc_1417
+model=cavern_cavewall_face1_dark
 recol1s=12580
 recol1d=11592
 sharelight=yes
 hillskew=yes
 
 [death_mountain_cavewall_top]
-model=model_loc_1434
+model=cavern_cavewall_top_dark
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -770,7 +770,7 @@ hillskew=yes
 active=no
 
 [death_mountain_cavewall_top5]
-model=dng_hole_l
+model=cavern_cavewall_top5
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -778,7 +778,7 @@ hillskew=yes
 active=no
 
 [death_mountaincavewall_top_higher]
-model=dng_hole_r
+model=cavern_cavewall_top5_high
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -806,7 +806,7 @@ blockrange=no
 [death_castledoor]
 name=Large door
 desc=A sturdy wooden door.
-model=basic_poshdoor_thick
+model=castle_wall_ext
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -814,7 +814,7 @@ recol2d=11458
 op1=Open
 
 [castledoor_inactive]
-model=basic_poshdoor_thick
+model=castle_wall_ext
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -824,7 +824,7 @@ active=no
 [death_sherpa_door]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -835,7 +835,7 @@ op1=Open
 [death_sherpa_backdoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door
 recol2s=6342
@@ -846,7 +846,7 @@ op1=Open
 [death_harold_door]
 name=Door
 desc=A nicely fitted door.
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=door2
 recol2s=6342

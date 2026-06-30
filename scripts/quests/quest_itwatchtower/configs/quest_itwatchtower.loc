@@ -1,13 +1,13 @@
 [blacksmithtools]
 name=Blacksmith's tools
 desc=Various implements for working with metal.
-model=model_loc_2784
+model=walldecor_loc_2784
 active=yes
 
 [ogreguardgate1]
 name=City gate
 desc=An entrance to Gu'Tanoth.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 category=double_door_open_and_close_left
@@ -16,7 +16,7 @@ param=next_loc_stage,loc_1562
 [ogreguardgate1right]
 name=City gate
 desc=An entrance to Gu'Tanoth.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 mirror=yes
@@ -26,7 +26,7 @@ param=next_loc_stage,loc_1563
 [ogreguardgate2]
 name=City gate
 desc=An entrance to Gu'Tanoth.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 category=double_door_open_and_close_left
@@ -35,7 +35,7 @@ param=next_loc_stage,loc_1562
 [ogreguardgate2right]
 name=City gate
 desc=An entrance to Gu'Tanoth.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 mirror=yes
@@ -53,7 +53,7 @@ forceapproach=north
 [empty_rock_cake_counter]
 name=Counter
 desc=A counter made from a stone block.
-model=model_loc_2791
+model=cave_loc_2791
 width=2
 active=yes
 op1=Steal-From
@@ -61,7 +61,7 @@ op1=Steal-From
 [rockcounter_withcakes]
 name=Counter
 desc=An ogre is selling cakes here.
-model=model_loc_2793
+model=cave_loc_2793
 width=2
 active=yes
 op1=Steal-From
@@ -89,7 +89,7 @@ op1=Climb-up
 [watchladderdown]
 name=Ladder
 desc=This leads downwards.
-model=model_loc_133
+model=furniture_loc_133
 op1=Climb-down
 
 [watchtowerbush]
@@ -216,20 +216,20 @@ op1=Enter
 [shamangate]
 name=Gate
 desc=The gate has been locked shut.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 
 [shamangate2]
 name=Gate
 desc=The gate has been locked shut.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 mirror=yes
 
 [rock_of_dalgroth]
 name=Rock of Dalgroth
 desc=A strange looking rock...
-model=model_loc_2816
+model=quest_loc_2816
 width=2
 length=2
 mapscene=11
@@ -239,7 +239,7 @@ op2=Mine
 [cave1exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -249,7 +249,7 @@ recol1d=7366
 [cave2exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -259,7 +259,7 @@ recol1d=7366
 [cave3exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -269,7 +269,7 @@ recol1d=7366
 [cave4exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -279,7 +279,7 @@ recol1d=7366
 [cave5exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -289,7 +289,7 @@ recol1d=7366
 [cave6exit]
 name=Cave exit
 desc=I think I can get out here...
-model=model_loc_727
+model=cavern_loc_727
 sharelight=yes
 op1=Leave
 hillskew=yes
@@ -299,18 +299,18 @@ recol1d=7366
 [yanilleholein]
 name=Hole
 desc=A hole.
-model=model_loc_696
+model=outdoorfurniture_loc_696
 op1=Climb-down
 
 [yanilleholeout]
 name=Hole
 desc=A hole
-model=model_loc_696
+model=outdoorfurniture_loc_696
 
 [darkcave_escape]
 name=Climbing rope
 desc=I hope this leads the way out.
-model=model_loc_1762
+model=outdoorfurniture_loc_1762
 op1=Climb
 
 [shuttanothchest1]
@@ -344,13 +344,13 @@ forceapproach=north
 [tanothjump1]
 name=Rock
 desc=You can probably jump over from here.
-model=plainrock2
+model=mine_rocks2
 op1=Jump-From
 
 [tanothjump2]
 name=Rock
 desc=You can probably jump over from here.
-model=plainrock2
+model=mine_rocks2
 op1=Jump-From
 
 [ganothbattlement]
@@ -370,11 +370,11 @@ op1=Climb-up
 [tobanblock]
 name=Battlement
 desc=A low wall is blocking your path.
-model=model_loc_1629
+model=crumbly_low
 op1=Climb_over
 active=yes
 
 [darkcaverock]
 name=Rock
-model=plainrock1
+model=mine_rocks1
 op1=Search

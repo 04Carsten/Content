@@ -1,7 +1,7 @@
 [ikov_leverbracket]
 name=Lever bracket
 desc=Seems very old...
-model=model_loc_86
+model=walldecor_loc_86
 active=yes
 
 [ikov_mendedlever]
@@ -18,7 +18,7 @@ active=no
 [ikov_mendedleverdoorl]
 name=Gate
 desc=A wrought iron gate.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 blockrange=no
@@ -28,7 +28,7 @@ param=next_loc_stage,loc_1562
 [ikov_mendedleverdoorr]
 name=Gate
 desc=A wrought iron gate.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 mirror=yes
 active=yes
@@ -47,7 +47,7 @@ op2=Search for traps
 [ikov_trapleverdoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 active=yes
@@ -59,7 +59,7 @@ recol2d=11458
 [ikov_firewarriordoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 active=yes
@@ -71,7 +71,7 @@ recol2d=11458
 [ikov_dooroffearl]
 name=Gate
 desc=A wrought iron gate.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 active=yes
 blockrange=no
@@ -81,7 +81,7 @@ param=next_loc_stage,loc_1562
 [ikov_dooroffearr]
 name=Gate
 desc=A wrought iron gate.
-model=model_loc_52
+model=outdoorfurniture_loc_52
 op1=Open
 mirror=yes
 active=yes
@@ -133,7 +133,7 @@ recol3d=5216
 [ikov_shinykeydoor]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 active=yes
@@ -156,7 +156,7 @@ mapscene=7
 [ikov_luciendoor]
 name=Door
 desc=A sturdy door.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall

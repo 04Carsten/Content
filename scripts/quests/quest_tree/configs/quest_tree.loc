@@ -24,7 +24,7 @@ forceapproach=north
 [khazard_stronghold_door]
 name=Door
 desc=The door is closed.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -35,7 +35,7 @@ recol2d=11458
 [khazzacklowwall]
 name=Crumbled wall
 desc=This wall has seen better days.
-model=model_loc_2185
+model=crumbly_loc_2185
 op1=Climb-over
 active=yes
 retex1s=wall

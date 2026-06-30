@@ -1,6 +1,6 @@
 [0_45_48_seabird1]
 name=Gull
-model1=model_2850_npc
+model1=npc_bird
 desc=A sea bird.
 size=2
 walkanim=bird_walk
@@ -26,7 +26,7 @@ param=death_sound,bird_death
 
 [0_45_48_seabird2]
 name=Cormorant
-model1=model_2850_npc
+model1=npc_bird
 desc=A sea bird.
 size=2
 walkanim=bird_walk
@@ -52,7 +52,7 @@ param=death_sound,bird_death
 
 [0_45_48_seabird3]
 name=Albatross
-model1=model_2850_npc
+model1=npc_bird
 desc=A sea bird.
 size=2
 walkanim=bird_walk
@@ -84,7 +84,7 @@ model3=man_jaw_long
 model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
-model7=model_260_npc
+model7=man_legs_model_260
 model8=npc_1213
 recol1s=2340
 recol1d=32767
@@ -133,7 +133,7 @@ model4=man_arms_basic
 model5=man_hands_basic
 model6=man_legs_basic2
 model7=man_feet_boots
-model8=model_194_npc
+model8=man_hat_model_194
 model9=man_torsoextra_shirt
 model10=model_319
 recol1s=2340
@@ -153,7 +153,7 @@ op1=Talk-to
 vislevel=hide
 head1=chat_male_head_shorthair
 head2=chat_male_jaw_medium
-head3=model_37_npc_head
+head3=chat_male_model_37
 wanderrange=2
 
 [falador_gardener]
@@ -166,7 +166,7 @@ model5=man_arms_basic
 model6=man_hands_gloves
 model7=man_legs_turnups
 model8=man_feet_boots
-model9=model_495_npc
+model9=human_weapons_model_495
 recol1s=15648
 recol1d=16705
 desc=An old gardener.
@@ -193,13 +193,13 @@ param=attack_sound,farmersfork_stab
 name=Bedabin Nomad Fighter
 model1=man_head_bald
 model2=man_jaw_moustache
-model3=model_191_npc
+model3=man_hat_model_191
 model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe
 model8=man_feet_boots
-model9=model_490_obj_wear
+model9=human_weapons_scimitar
 recol1s=14724
 recol1d=32767
 recol2s=2340
@@ -219,7 +219,7 @@ op1=Talk-to
 op2=Attack
 vislevel=56
 head1=chat_male_head_bald
-head2=model_34_npc_head
+head2=chat_male_model_34
 head3=chat_male_jaw_moustache
 wanderrange=20
 maxrange=22

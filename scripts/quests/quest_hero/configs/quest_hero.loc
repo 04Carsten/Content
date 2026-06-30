@@ -1,6 +1,6 @@
 [grubordoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -10,7 +10,7 @@ recol2d=11458
 
 [garvdoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -20,7 +20,7 @@ recol2d=11458
 
 [herokitchendoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -30,7 +30,7 @@ recol2d=11458
 
 [pete_sidedoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -41,7 +41,7 @@ recol2d=11458
 [herokitchenpanel]
 name=Wall
 desc=There is something unusual about this wall...
-model=basic_poshdoor_thick
+model=castle_wall_ext
 op1=Push
 
 [gripcbshut]
@@ -63,7 +63,7 @@ forceapproach=east
 
 [pete_treasuredoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall

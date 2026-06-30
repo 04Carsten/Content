@@ -220,7 +220,7 @@ category=usable_table
 [glass_fronted_counter]
 name=Counter
 desc=Items are for sale here.
-model=model_loc_617
+model=furniture_loc_617
 width=2
 blockrange=no
 category=usable_table
@@ -251,7 +251,7 @@ category=usable_table
 [v_bigroundtable]
 name=Table
 desc=It's a banquet table.
-model=model_loc_621
+model=furniture_loc_621
 width=5
 length=5
 blockrange=no
@@ -261,7 +261,7 @@ category=unusable_table
 [v_bigroundtable_brown]
 name=Table
 desc=It's a banquet table.
-model=model_loc_621
+model=furniture_loc_621
 width=5
 length=5
 blockrange=no
@@ -300,7 +300,7 @@ category=usable_table
 [rockcounter]
 name=Counter
 desc=A counter made from a stone block.
-model=model_loc_2791
+model=cave_loc_2791
 width=2
 active=yes
 category=usable_table

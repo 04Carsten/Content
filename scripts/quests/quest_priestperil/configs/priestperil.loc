@@ -8,7 +8,7 @@ op1=Open
 [pipeastsidetrapdoor_open]
 name=Trapdoor
 desc=I can see a holy barrier at the bottom.
-model=model_loc_1570
+model=furniture_loc_1570
 active=yes
 op1=Climb-down
 op2=Close
@@ -116,19 +116,19 @@ op1=Pass-through
 [pip_underground_door1]
 name=Gate
 desc=A sturdy metal gate.
-model=model_loc_37
+model=basic_loc_37
 op1=Open
 param=next_loc_stage,inacpip_underground_door
 
 [pip_underground_door2]
 name=Gate
 desc=A sturdy metal gate.
-model=model_loc_37
+model=basic_loc_37
 op1=Open
 param=next_loc_stage,inacpip_underground_door
 
 [inacpip_underground_door]
-model=model_loc_37
+model=basic_loc_37
 active=no
 
 [underground_wall_toplvl2]
@@ -248,14 +248,14 @@ active=no
 [pip_prisondoor]
 name=Cell door
 desc=A hastily constructed yet sturdy prison door.
-model=model_loc_37
+model=basic_loc_37
 op1=Open
 op2=Talk-through
 category=door_open_and_close
 param=next_loc_stage,inactive_pipprisondoor
 
 [inactive_pipprisondoor]
-model=model_loc_37
+model=basic_loc_37
 active=no
 
 [prisonwall_spare]

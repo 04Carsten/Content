@@ -23,7 +23,7 @@ op1=Enter
 [rantzogrecaveexitr]
 name=Cave exit
 desc=Exit this way for fresh air and daylight.
-model=model_loc_1423
+model=cavern_loc_1423
 sharelight=yes
 hillskew=yes
 op1=Walk through
@@ -31,7 +31,7 @@ op1=Walk through
 [rantzogrecaveexitl]
 name=Cave exit
 desc=Exit this way for fresh air and daylight.
-model=model_loc_1423
+model=cavern_loc_1423
 sharelight=yes
 hillskew=yes
 mirror=yes

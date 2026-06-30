@@ -1,7 +1,7 @@
 [mappart1]
 name=Map part
 desc=An incomplete map piece.
-model=model_2686_obj
+model=inv_treasuremap-1
 2dxof=44
 2dyof=-21
 2dzoom=1110
@@ -14,7 +14,7 @@ tradeable=no
 [mappart2]
 name=Map part
 desc=An incomplete map piece.
-model=model_2689_obj
+model=inv_treasuremap-2
 2dxof=6
 2dyof=2
 2dzoom=1400
@@ -27,7 +27,7 @@ tradeable=no
 [mappart3]
 name=Map part
 desc=An incomplete map piece.
-model=model_2692_obj
+model=inv_treasuremap-3
 2dxof=-41
 2dyof=37
 2dzoom=1340
@@ -40,7 +40,7 @@ tradeable=no
 [dragonmap]
 name=Crandor map
 desc=A map to Crandor.
-model=model_2497_obj
+model=inv_treasuremap
 2dyof=-1
 2dzoom=2090
 2dyan=1688

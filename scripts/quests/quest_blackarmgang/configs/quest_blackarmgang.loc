@@ -1,7 +1,7 @@
 [phoenixdoor]
 name=Door
 desc=A solid looking door.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -12,7 +12,7 @@ recol2d=11458
 [phoenixdoor2]
 name=Door
 desc=A solid looking door.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -23,7 +23,7 @@ recol2d=11458
 [blackarmdoor]
 name=Door
 desc=A solid looking door.
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall

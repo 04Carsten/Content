@@ -149,7 +149,7 @@ model=loc_3637
 anim=godsorb
 
 [macro_theatrewall]
-model=model_loc_1904
+model=basic_loc_1904
 recol1s=26423
 recol1d=2114
 sharelight=yes
@@ -200,7 +200,7 @@ ambient=80
 contrast=80
 
 [macro_theatre_floor]
-model=model_loc_796
+model=floor_pier
 recol1s=9409
 recol1d=7328
 recol2s=11523
@@ -313,14 +313,14 @@ ambient=60
 contrast=60
 
 [lawtemple_cavewall_face1]
-model=model_loc_1417
+model=cavern_cavewall_face1_dark
 recol1s=12580
 recol1d=6345
 sharelight=yes
 hillskew=yes
 
 [lawtemple_cavewall_top]
-model=model_loc_1434
+model=cavern_cavewall_top_dark
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -328,7 +328,7 @@ hillskew=yes
 active=no
 
 [lawtemple_cavewall_top5]
-model=dng_hole_l
+model=cavern_cavewall_top5
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -336,7 +336,7 @@ hillskew=yes
 active=no
 
 [lawtemple_cavewall_top_higher]
-model=dng_hole_r
+model=cavern_cavewall_top5_high
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -463,7 +463,7 @@ op2=Search
 blockrange=no
 
 [eadgar_kitchen_goat_poo]
-model=model_mudpile_upass
+model=quest_loc_3818
 recol1s=7329
 recol1d=7328
 active=no
@@ -471,7 +471,7 @@ forcedecor=yes
 blockrange=no
 
 [eadgar_kitchen_goat_poo_small]
-model=model_mudpile_upass
+model=quest_loc_3818
 recol1s=7329
 recol1d=7328
 active=no
@@ -546,7 +546,7 @@ hillskew=yes
 [stagamite_small_dusty]
 name=Stalagmite
 desc=A tooth shaped rock formation protruding from the floor.
-model=model_loc_534
+model=cave_loc_534
 recol1s=13537
 recol1d=18953
 blockwalk=no

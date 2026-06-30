@@ -2,7 +2,7 @@
 name=Ball
 desc=A childs' ball.
 cost=1
-model=model_2755_obj
+model=inv_ball
 2dzoom=970
 2dyan=1956
 2dxan=300
@@ -45,7 +45,7 @@ tradeable=no
 name=Magnet
 desc=A very attractive magnet.
 cost=3
-model=model_2798_obj
+model=inv_magnet
 2dxof=3
 2dyof=7
 2dzoom=1130

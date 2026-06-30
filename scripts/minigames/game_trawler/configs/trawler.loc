@@ -32,7 +32,7 @@ mirror=yes
 [trawlernet_l]
 name=Trawler net
 desc=Smells like fish.
-model=model_loc_2164
+model=ship_loc_2164
 width=2
 length=6
 op1=Inspect
@@ -40,7 +40,7 @@ op1=Inspect
 [trawlernet_r]
 name=Trawler net
 desc=Smells like fish.
-model=model_loc_2164
+model=ship_loc_2164
 width=2
 length=6
 mirror=yes
@@ -49,7 +49,7 @@ op1=Inspect
 [trawlernetland]
 name=Trawler net
 desc=Smells like fish.
-model=model_loc_2166
+model=ship_loc_2166
 width=2
 length=2
 op1=Inspect
@@ -67,22 +67,22 @@ forceapproach=south
 [filledhole]
 name=Repaired leak
 desc=A patch of swamp tar has bunged up the hole.
-model=model_loc_2168
+model=ship_loc_2168
 width=2
 blockwalk=no
 
 [game_trawler_spray1]
 name=Spray
 desc=There's a strong wind whipping up the sea.
-model=model_loc_362
+model=outdoorfurniture_barrel
 
 [game_trawler_spray2]
 name=Spray
 desc=There's a strong wind whipping up the sea.
-model=model_loc_362
+model=outdoorfurniture_barrel
 
 [ship_controls]
-model=model_loc_1785
+model=mill_top3
 active=no
 
 [trawlernet_top_l]
@@ -119,7 +119,7 @@ sharelight=yes
 [game_trawler_hole]
 name=Hole
 desc=This old trawler has seen better days.
-model=model_loc_2176
+model=ship_loc_2176
 width=2
 active=yes
 
@@ -134,7 +134,7 @@ blockwalk=no
 [trawler_gangplank]
 name=Gangplank
 desc=Handy for boarding boats.
-model=model_loc_69
+model=ship_loc_69
 op1=Cross
 active=yes
 sharelight=yes
@@ -142,7 +142,7 @@ sharelight=yes
 [trawler_gangplankoff]
 name=Gangplank
 desc=Handy for boarding boats.
-model=model_loc_69
+model=ship_loc_69
 op1=Cross
 active=yes
 sharelight=yes

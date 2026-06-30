@@ -2,7 +2,7 @@
 name=Gold ring
 desc=A valuable ring.
 cost=350
-model=model_2784_obj
+model=inv_ring_no_gem
 recol1s=32767
 recol1d=22241
 2dxof=3

@@ -2,7 +2,7 @@
 name=Orb of protection
 desc=A strange glowing green orb.
 members=yes
-model=model_2336_obj
+model=inv_glowingorb
 recol1s=32767
 recol1d=15337
 2dzoom=1260
@@ -14,7 +14,7 @@ tradeable=no
 name=Orb of protection
 desc=Two strange glowing green orbs.
 members=yes
-model=model_2337_obj
+model=inv_glowingorbs
 recol1s=32767
 recol1d=15337
 2dzoom=1550

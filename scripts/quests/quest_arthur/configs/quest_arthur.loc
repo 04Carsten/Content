@@ -1,6 +1,6 @@
 [jewellersdoor]
 name=Door
-model=basic_poordoor
+model=basic_wall
 active=yes
 op1=Open
 retex1s=wall
@@ -18,7 +18,7 @@ mapscene=7
 [merlins_crystal]
 name=Giant crystal
 desc=Can I see something inside...?
-model=model_loc_62
+model=quest_loc_62
 active=yes
 width=2
 length=2
@@ -40,7 +40,7 @@ op2=Hide-in
 [merlincrate_wall]
 name=Crate wall
 desc=Surprisingly sturdy looking.
-model=basic_poordoor
+model=basic_wall
 sharelight=yes
 occlude=yes
 op1=Climb-out
@@ -52,7 +52,7 @@ recol2d=23020
 [arhein_ship_on]
 name=Gangplank
 desc=Handy for boarding boats.
-model=model_loc_69
+model=ship_loc_69
 op1=Cross
 active=yes
 sharelight=yes

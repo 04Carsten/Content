@@ -1,7 +1,7 @@
 [keyprint]
 name=Key print
 desc=An imprint of a key in a lump of clay.
-model=model_2389_obj
+model=inv_keyprint
 2dyof=-9
 2dzoom=900
 2dyan=1988
@@ -10,7 +10,7 @@ weight=10g
 tradeable=no
 
 [plainwig]
-model=model_2783_obj
+model=inv_wig
 recol1s=29476
 recol1d=23252
 2dxof=3
@@ -24,7 +24,7 @@ desc=A grey woollen wig.
 tradeable=no
 
 [blondwig]
-model=model_2783_obj
+model=inv_wig
 2dxof=3
 2dyof=16
 2dzoom=630

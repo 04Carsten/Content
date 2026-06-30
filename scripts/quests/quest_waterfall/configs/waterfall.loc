@@ -1,14 +1,14 @@
 [lograft_waterfall_quest]
 name=Log raft
 desc=A primitive looking boat.
-model=model_loc_1987
+model=outdoorfurniture_loc_1987
 length=2
 op1=Board
 
 [lograft_broken]
 name=Broken log raft
 desc=Oops!
-model=model_loc_1988
+model=outdoorfurniture_loc_1988
 width=2
 length=2
 
@@ -23,13 +23,13 @@ forceapproach=east
 [golrie_crate_waterfall_quest]
 name=Crate
 desc=A wooden crate for storage.
-model=model_loc_355
+model=warehouse_shop_loc_355
 op1=Search
 
 [golrie_gate_waterfall_quest]
 name=Door
 desc=Solid bars of iron.
-model=model_loc_37
+model=basic_loc_37
 op1=Open
 active=yes
 blockrange=no
@@ -45,7 +45,7 @@ op1=Read
 [glarials_tomb_waterfall_quest]
 name=Tomb of glarial
 desc=A stone tomb surrounded by flowers.
-model=model_loc_402
+model=graveyard_loc_402
 width=2
 op1=Search
 
@@ -71,7 +71,7 @@ recol1d=17921
 [crossing_rock_waterfall_quest]
 name=Rock
 desc=Looks rock solid.
-model=model_loc_1996
+model=quest_loc_1996
 op1=Swim to
 shadow=no
 blockwalk=no
@@ -79,7 +79,7 @@ blockwalk=no
 [crossing_rock_roped_waterfall_quest]
 name=Rock
 desc=Looks rock solid.
-model=model_loc_1997
+model=quest_loc_1997
 op1=Swim to
 shadow=no
 blockwalk=no
@@ -87,20 +87,20 @@ blockwalk=no
 [crossing_rope_waterfall_quest]
 name=Rope
 desc=Rope
-model=model_loc_1998
+model=quest_loc_1998
 shadow=no
 blockwalk=no
 
 [baxtorian_crate_waterfall_quest]
 name=Crate
 desc=A wooden crate for storage.
-model=model_loc_355
+model=warehouse_shop_loc_355
 op1=Search
 
 [baxtorian_door_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=basic_poordoor
+model=basic_wall
 op1=Open
 retex1s=wall
 retex1d=elfdoor
@@ -108,7 +108,7 @@ recol2s=6342
 recol2d=11458
 
 [baxtorian_door_open_waterfall_quest]
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -117,7 +117,7 @@ recol2d=11458
 [baxtorian_door_2_waterfall_quest]
 name=Door
 desc=An elf-fashioned door.
-model=basic_poordoor
+model=basic_wall
 op1=Open
 retex1s=wall
 retex1d=elfdoor
@@ -125,7 +125,7 @@ recol2s=6342
 recol2d=11458
 
 [baxtorian_door_2_open_waterfall_quest]
-model=basic_poordoor
+model=basic_wall
 retex1s=wall
 retex1d=elfdoor
 recol2s=6342
@@ -133,7 +133,7 @@ recol2d=11458
 
 [stonepillar_small_waterfall_quest]
 name=Pillar
-model=model_loc_1867
+model=outdoorfurniture_loc_1867
 resizex=50
 resizey=50
 resizez=50

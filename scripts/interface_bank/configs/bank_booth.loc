@@ -9,7 +9,7 @@ blockrange=no
 [loc_2214]
 name=Bank booth
 desc=This booth is for private customers only.
-model=model_loc_2214
+model=furniture_loc_2214
 blockrange=no
 
 [bankboothclosed]

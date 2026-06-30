@@ -1,7 +1,7 @@
 [tinderbox]
 name=Tinderbox
 desc=Useful for lighting a fire.
-model=model_2348_obj
+model=inv_tinderbox
 recol1s=32767
 recol1d=21140
 manwear=model_488_obj_wear,0
@@ -32,7 +32,7 @@ param=brew_potion_struct_secondary,ashesvial
 cost=4
 name=Torch
 desc=A lit home-made torch.
-model=model_2671_obj
+model=inv_torch-lit
 2dyof=-6
 2dzoom=1310
 2dyan=1660
@@ -45,7 +45,7 @@ category=light_source_lit
 cost=4
 name=Torch
 desc=An unlit home-made torch.
-model=model_2554_obj
+model=inv_torch-unlit
 2dzoom=1660
 2dyan=312
 2dxan=1632
