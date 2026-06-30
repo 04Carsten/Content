@@ -1587,7 +1587,7 @@ anim=chompy_toad_explode
 
 [ogre_bellows_use]
 model=inv_ogre_bellows_empty
-anim=ogre_bellows_use
+anim=human_ogre_bellow
 
 [ogre_arrow_travel]
 model=proj_arrow
