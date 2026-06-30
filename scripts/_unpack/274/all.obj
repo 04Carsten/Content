@@ -538,7 +538,7 @@ name=Dummy
 model=if_eadgar_fadetoblack
 2dzoom=130
 2dxan=512
-code10=seq_1255
+code10=eadgar_fade_to_black
 tradeable=no
 
 [01_wind_strike]
