@@ -102,7 +102,7 @@ recol2d=11458
 [chronodoorl]
 name=Gate
 desc=This gate is closed shut.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 retex1s=wall
@@ -116,7 +116,7 @@ param=open_sound,grate_open
 [chronodoorr]
 name=Gate
 desc=This gate is closed shut.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 mirror=yes

@@ -163,7 +163,7 @@ forceapproach=north
 
 [funladdertop]
 name=Ladder
-model=furniture_loc_133
+model=furniture_ladderdown
 active=yes
 op1=Climb-down
 mapscene=7
@@ -179,7 +179,7 @@ mapscene=7
 [elvarg_gate_right]
 name=Gate
 desc=It's closed.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 retex1s=wall
@@ -191,7 +191,7 @@ param=next_loc_stage,loc_1563
 [elvarg_gate_left]
 name=Gate
 desc=It's closed.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 mirror=yes
@@ -204,7 +204,7 @@ param=next_loc_stage,loc_1562
 [crandor_rock_opening]
 name=Rock opening
 desc=A collection of rocks over what looks like a depression.
-model=cave_loc_748
+model=cave_entrance5
 hillskew=yes
 width=2
 length=2
@@ -214,7 +214,7 @@ op1=Climb-down
 [crandor_climbing_rope]
 name=Climbing rope
 desc=A rope hangs here that I can climb.
-model=outdoorfurniture_loc_1762
+model=outdoorfurniture_rope
 op1=Climb
 
 [dragonsecretdoor]

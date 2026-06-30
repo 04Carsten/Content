@@ -17,7 +17,7 @@ mapscene=7
 [loc_2513]
 name=Target
 desc=I wonder if I can hit a bullseye?
-model=outdoorfurniture_loc_829
+model=outdoorfurniture_target
 op1=Fire-at
 
 [ranging_guild_door]

@@ -29,7 +29,7 @@ recol1d=21140
 [murderfountain]
 name=Sinclair family fountain
 desc=This fountain suits the garden.
-model=outdoorfurniture_loc_153
+model=outdoorfurniture_fountain
 width=2
 length=2
 mapscene=8
@@ -87,7 +87,7 @@ op2=Take From
 [murdersacks]
 name=Sacks
 desc=some sacks of general garden items.
-model=outdoorfurniture_loc_23
+model=outdoorfurniture_sacks
 op2=Investigate
 
 [murderdoggatel]

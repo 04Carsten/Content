@@ -41,7 +41,7 @@ recol2d=11458
 [herokitchenpanel]
 name=Wall
 desc=There is something unusual about this wall...
-model=castle_wall_ext
+model=castle_wall
 op1=Push
 
 [gripcbshut]

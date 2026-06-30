@@ -576,7 +576,7 @@ hillskew=yes
 active=no
 
 [horror_stalagtite_twin_grey]
-model=cave_loc_469
+model=cave_stalagtite_twin
 recol1s=13537
 recol1d=10535
 blockwalk=no
@@ -584,7 +584,7 @@ hillskew=yes
 active=no
 
 [horror_stalagmite_small_grey]
-model=cave_loc_534
+model=cave_stagamite_small
 recol1s=13537
 recol1d=10535
 hillskew=yes
@@ -700,7 +700,7 @@ active=yes
 [horror_rubble_1]
 name=Bowl
 desc=It is a buried Bowl.
-model=floor_loc_174
+model=floor_rubble_ground_detail_1
 recol1s=17969
 recol1d=10534
 recol2s=10570

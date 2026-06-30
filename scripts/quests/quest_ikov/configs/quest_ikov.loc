@@ -18,7 +18,7 @@ active=no
 [ikov_mendedleverdoorl]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 active=yes
 blockrange=no
@@ -28,7 +28,7 @@ param=next_loc_stage,loc_1562
 [ikov_mendedleverdoorr]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 mirror=yes
 active=yes
@@ -71,7 +71,7 @@ recol2d=11458
 [ikov_dooroffearl]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 active=yes
 blockrange=no
@@ -81,7 +81,7 @@ param=next_loc_stage,loc_1562
 [ikov_dooroffearr]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 mirror=yes
 active=yes

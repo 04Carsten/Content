@@ -15,7 +15,7 @@ recol1d=1418
 [rantzogrecaveentrance]
 name=Cave entrance
 desc=The entrance to Rantz's cave
-model=cave_entrance
+model=cave_entrance3
 width=3
 length=2
 op1=Enter

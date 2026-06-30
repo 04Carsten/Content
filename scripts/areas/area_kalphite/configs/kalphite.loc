@@ -16,7 +16,7 @@ op1=Climb-down
 [kalphite_burrow_exit]
 name=Rope
 desc=I hope this holds!
-model=outdoorfurniture_loc_1762
+model=outdoorfurniture_rope
 blockwalk=no
 blockrange=no
 op1=Climb-up
@@ -59,7 +59,7 @@ op1=Climb-down
 [kalphite_chamber_exit]
 name=Rope
 desc=I hope this holds!
-model=outdoorfurniture_loc_1762
+model=outdoorfurniture_rope
 blockwalk=no
 blockrange=no
 op1=Climb-up

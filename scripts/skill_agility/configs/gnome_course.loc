@@ -1,7 +1,7 @@
 [loc_154]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
-model=outdoorfurniture_loc_2287
+model=outdoorfurniture_obstical_doublepipe_foranim
 retex1s=wall
 retex1d=planks
 op1=Squeeze-through
@@ -10,7 +10,7 @@ width=2
 [gnome_log_balance1]
 name=Log balance
 desc=A slippery log I can walk across.
-model=floor_loc_2291
+model=floor_log_balance1
 op1=Walk-across
 active=yes
 sharelight=yes
@@ -18,7 +18,7 @@ sharelight=yes
 [obstical_net2]
 name=Obstacle net
 desc=This must be climbed over.
-model=outdoorfurniture_loc_2284
+model=outdoorfurniture_obstical_net
 width=2
 op1=Climb-over
 
@@ -55,6 +55,6 @@ op1=Climb-down
 [obstical_net3]
 name=Obstacle net
 desc=This must be climbed over.
-model=outdoorfurniture_loc_2284
+model=outdoorfurniture_obstical_net
 width=2
 op1=Climb-over

@@ -31,7 +31,7 @@ mapscene=26
 [mortmyre_metalgateclosed_l]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 active=yes
 blockrange=no
@@ -41,7 +41,7 @@ param=next_loc_stage,loc_1562
 [mortmyre_metalgateclosed_r]
 name=Gate
 desc=A wrought iron gate.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 mirror=yes
 active=yes

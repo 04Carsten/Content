@@ -1,7 +1,7 @@
 
 [legendsguildgatel]
 name=Gate
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 op2=Search
@@ -11,7 +11,7 @@ param=open_sound,grate_open
 
 [legendsguildgater]
 name=Gate
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 mirror=yes
 active=yes
 op1=Open
@@ -90,7 +90,7 @@ param=next_loc_stage,junglestump_kharazi
 [junglestump_kharazi]
 name=Tree stump
 desc=This tree has been cut down.
-model=plants_loc_1341
+model=plants_treestump
 mapscene=5
 blockwalk=no
 recol1s=4194
@@ -99,7 +99,7 @@ recol1d=5218
 [kharazi_jungle_plant1]
 name=Jungle Bush
 desc=A jungle bush, quite common to these areas.
-model=plants_loc_1390
+model=plants_jungle2
 op1=Chop-down
 op3=hidden
 mapscene=5
@@ -110,7 +110,7 @@ param=next_loc_stage,kharazi_jungle_plant1_slashed
 [kharazi_jungle_plant2]
 name=Jungle Bush
 desc=A jungle bush, quite common to these areas.
-model=plants_loc_1390
+model=plants_jungle2
 op1=Chop-down
 op3=hidden
 mapscene=5
@@ -123,7 +123,7 @@ param=next_loc_stage,kharazi_jungle_plant1_slashed
 [kharazi_jungle_plant1_slashed]
 name=Slashed bush
 desc=A jungle bush that has been chopped down.
-model=plants_loc_2894
+model=plants_jungle2_chopped
 mapscene=5
 blockwalk=no
 recol1s=5504
@@ -132,7 +132,7 @@ recol1d=736
 [kharazi_jungle_plant2_slashed]
 name=Slashed bush
 desc=A jungle bush that has been chopped down.
-model=plants_loc_2894
+model=plants_jungle2_chopped
 mapscene=5
 blockwalk=no
 recol1s=5504
@@ -141,7 +141,7 @@ recol1d=736
 [legendsguilddoorl]
 name=Legends Guild door
 desc=A door to the Legends Guild.
-model=basic_loc_1573
+model=basic_palacedoor-l
 active=yes
 op1=Open
 recol1s=27361
@@ -157,7 +157,7 @@ param=open_sound,door_open
 [legendsguilddoorr]
 name=Legends Guild door
 desc=A door to the Legends Guild.
-model=basic_loc_1573
+model=basic_palacedoor-l
 active=yes
 op1=Open
 mirror=yes
@@ -172,7 +172,7 @@ param=next_loc_stage,inac_legendsguilddoorr
 param=open_sound,door_open
 
 [inac_legendsguilddoorl]
-model=basic_loc_1573
+model=basic_palacedoor-l
 recol1s=27361
 recol1d=15871
 recol2s=15814
@@ -181,7 +181,7 @@ recol3s=24129
 recol3d=20159
 
 [inac_legendsguilddoorr]
-model=basic_loc_1573
+model=basic_palacedoor-l
 mirror=yes
 recol1s=27361
 recol1d=15871
@@ -213,7 +213,7 @@ recol1d=32767
 [lgshamancaverock3]
 name=Rocks
 desc=Stoney!
-model=mine_loc_453
+model=mine_rock3
 op1=Search
 mapscene=12
 
@@ -324,7 +324,7 @@ model=quest_loc_2913
 [legends_cave_entrance_3]
 name=Cave Entrance
 desc=A dark cave entrance leading to the surface.
-model=cave_entrance
+model=cave_entrance3
 width=4
 length=2
 op1=Enter
@@ -453,7 +453,7 @@ op2=Search
 [lg_gemplacerock]
 name=Carved rock
 desc=An ornately carved rock with a pointed recepticle.
-model=cave_loc_534
+model=cave_stagamite_small
 op1=Look
 op2=Search
 recol1s=13537
@@ -462,7 +462,7 @@ recol1d=7329
 [lg_dwarfremains]
 name=Buried skeleton
 desc=A half buried skeleton, probably dwarven remains.
-model=floor_loc_2929
+model=floor_corpse_withpickaxe
 op1=Search
 
 [lgmagictrialgateclosed]
@@ -590,7 +590,7 @@ op1=Look
 [sacred_water]
 name=Water Pool
 desc=A sparkling, babbling flow of water from an underground source.
-model=outdoorfurniture_loc_443
+model=outdoorfurniture_boulder_group
 width=2
 length=2
 op1=Look
@@ -600,7 +600,7 @@ mapscene=8
 [sacred_water_polluted]
 name=Polluted water
 desc=Disgusting filthy quagmire that oozes from the ground.
-model=outdoorfurniture_loc_443
+model=outdoorfurniture_boulder_group
 width=2
 length=2
 op1=Look
@@ -733,7 +733,7 @@ recol2d=19012
 [fertilesoil]
 name=Fertile Soil
 desc=This earth is particularly fertile.
-model=floor_loc_2956
+model=floor_fertilesoil
 width=3
 length=3
 hillskew=yes
@@ -743,7 +743,7 @@ blockwalk=no
 [damaged_earth]
 name=Damaged Earth
 desc=This earth is damaged by cultivation, time will return the fertility.
-model=floor_loc_2956
+model=floor_fertilesoil
 width=3
 length=3
 hillskew=yes
@@ -752,7 +752,7 @@ blockwalk=no
 [lgclimbrope_viyeldicaves]
 name=Climbing rope
 desc=A rope hangs here.
-model=outdoorfurniture_loc_1762
+model=outdoorfurniture_rope
 op1=Climb
 
 [rocky_ledge]
@@ -810,33 +810,33 @@ recol1s=7488
 recol1d=31050
 
 [cavewall_face1_hce]
-model=cavern_loc_2967
+model=cavern_cavewall_face1_hce
 sharelight=yes
 hillskew=yes
 
 [cavewall_face1_hcf]
-model=cavern_loc_2968
+model=cavern_cavewall_face1_hcf
 sharelight=yes
 hillskew=yes
 
 [heart_recess_empty]
 name=Recess
 desc=It looks like a strangly shaped depression in the rock.
-model=cavern_loc_2967
+model=cavern_cavewall_face1_hce
 hillskew=yes
 op1=Search
 
 [heart_recess_full]
 name=Filled Recess
 desc=This recess has a glowing heart shaped crystal in it.
-model=cavern_loc_2968
+model=cavern_cavewall_face1_hcf
 hillskew=yes
 op1=Search
 
 [legendsquest_force_barrier]
 name=Shimmering field
 desc=This looks like some sort of shimering surface.
-model=basic_loc_2228
+model=basic_force_barrier
 active=yes
 op1=Walk-through
 op2=Look
@@ -871,13 +871,13 @@ op1=Smash-to-bits
 [kharazi_bamboo_tree_base_leafy]
 name=Leafy Palm Tree
 desc=This tree is particularly leafy.
-model=plants_loc_1326
+model=plants_bamboo_tree_base
 mapscene=0
 op1=Shake
 
 [kharazi_bamboo_tree_inac]
 name=Leafy Palm Tree
 desc=This tree is particularly leafy.
-model=plants_loc_1326
+model=plants_bamboo_tree_base
 mapscene=0
 

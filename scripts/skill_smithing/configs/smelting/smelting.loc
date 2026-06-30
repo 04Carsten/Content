@@ -20,7 +20,7 @@ category=smithing_furnace
 [furnace_legendsquest]
 name=Furnace
 desc=A hot place for forging things in.
-model=cave_loc_2966
+model=cave_furnace_upass
 width=3
 length=3
 forceapproach=east
@@ -44,7 +44,7 @@ category=smithing_furnace
 [furnace_upass]
 name=Furnace
 desc=A hot place for forging things in.
-model=cave_loc_2966
+model=cave_furnace_upass
 width=3
 length=3
 forceapproach=east

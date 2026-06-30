@@ -1,14 +1,14 @@
 [lograft_waterfall_quest]
 name=Log raft
 desc=A primitive looking boat.
-model=outdoorfurniture_loc_1987
+model=outdoorfurniture_lograft
 length=2
 op1=Board
 
 [lograft_broken]
 name=Broken log raft
 desc=Oops!
-model=outdoorfurniture_loc_1988
+model=outdoorfurniture_lograft_broken
 width=2
 length=2
 
@@ -29,7 +29,7 @@ op1=Search
 [golrie_gate_waterfall_quest]
 name=Door
 desc=Solid bars of iron.
-model=basic_loc_37
+model=basic_prisondoor
 op1=Open
 active=yes
 blockrange=no
@@ -133,7 +133,7 @@ recol2d=11458
 
 [stonepillar_small_waterfall_quest]
 name=Pillar
-model=outdoorfurniture_loc_1867
+model=outdoorfurniture_stonepillar
 resizex=50
 resizey=50
 resizez=50

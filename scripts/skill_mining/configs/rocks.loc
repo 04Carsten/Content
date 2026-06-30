@@ -39,7 +39,7 @@ param=mining_rock_empty,1
 [rocks3]
 name=Rocks
 desc=Stoney!
-model=mine_loc_453
+model=mine_rock3
 op1=Mine
 op2=Prospect
 op3=hidden

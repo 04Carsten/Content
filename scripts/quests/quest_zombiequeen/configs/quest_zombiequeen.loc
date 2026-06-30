@@ -10,7 +10,7 @@ op2=Search
 [ahzarhoon_entrance]
 name=Mound of earth
 desc=Something seems to be buried under this.
-model=outdoorfurniture_loc_2217
+model=outdoorfurniture_boulder1_recol
 width=3
 length=3
 resizex=256
@@ -22,7 +22,7 @@ op2=Search
 [ahzarhoon_entrance_fissure]
 name=Fissure
 desc=A narrow fissure in the ground.
-model=cavern_loc_2218
+model=cavern_pothole
 width=3
 length=3
 resizex=192
@@ -94,7 +94,7 @@ op2=Search
 [zqsacks]
 name=Old sacks
 desc=Probably nothing useful in these.
-model=outdoorfurniture_loc_23
+model=outdoorfurniture_sacks
 op2=Search
 
 [zqgallows]
@@ -124,12 +124,12 @@ op2=Craft
 [zqlograft]
 name=Crude raft
 desc=A crudely constructed raft.
-model=outdoorfurniture_loc_1987
+model=outdoorfurniture_lograft
 length=2
 op2=Disembark
 
 [zq_waterfall]
-model=basic_loc_2228
+model=basic_force_barrier
 
 [zq_tribal_statue]
 name=Tribal Statue
@@ -191,7 +191,7 @@ op2=Search
 [zqhandholds]
 name=Climbing rocks
 desc=I can climb the rocky outcrop.
-model=outdoorfurniture_loc_535
+model=outdoorfurniture_boulder3_gdecor
 forcedecor=yes
 active=yes
 hillskew=yes
@@ -262,14 +262,14 @@ op2=Search
 [zq_doorblock_jungle1]
 name=Jungle plant
 desc=Commonly found in these parts.
-model=plants_loc_1390
+model=plants_jungle2
 width=2
 blockwalk=no
 
 [zq_doorblock_jungle2]
 name=Jungle plant
 desc=A leafy fern.
-model=plants_loc_1390
+model=plants_jungle2
 width=2
 recol1s=5504
 recol1d=736
@@ -376,13 +376,13 @@ op2=Search
 
 [zombiequeengateclosedl]
 name=Ancient metal gate
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 op2=Search
 
 [zombiequeengateclosedr]
 name=Ancient metal gate
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 mirror=yes
 op1=Open
 op2=Search
@@ -406,7 +406,7 @@ op2=Search
 [zqshilogateclosedl]
 name=Metal gate
 desc=The gate is closed.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 blockrange=no
 category=shilo_metalgate
@@ -414,7 +414,7 @@ category=shilo_metalgate
 [zqshilogateclosedr]
 name=Metal gate
 desc=The gate is closed.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 op1=Open
 mirror=yes
 blockrange=no

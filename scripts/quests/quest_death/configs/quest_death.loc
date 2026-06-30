@@ -94,7 +94,7 @@ blockrange=no
 active=no
 
 [death_troll_spearwall_straight]
-model=castle_loc_2067
+model=castle_spearwall_row
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -129,17 +129,17 @@ blockwalk=no
 blockrange=no
 
 [death_trollbloodsplat1]
-model=floor_loc_652
+model=floor_bloodsplatter1
 recol1s=10240
 recol1d=8290
 
 [death_trollbloodsplat2]
-model=floor_loc_653
+model=floor_bloodsplatter2
 recol1s=10240
 recol1d=8290
 
 [death_trollbloodsplat3]
-model=floor_loc_654
+model=floor_bloodsplatter3
 recol1s=10240
 recol1d=8290
 
@@ -478,7 +478,7 @@ hillskew=yes
 active=no
 
 [death_dugupsoil_squished_1]
-model=floor_loc_1798
+model=floor_dugupsoil1_squished
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -488,7 +488,7 @@ recol3d=10535
 hillskew=yes
 
 [death_dugupsoil_squished_2]
-model=floor_loc_1799
+model=floor_dugupsoil2_squished
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -498,7 +498,7 @@ recol3d=10535
 hillskew=yes
 
 [death_dugupsoil_squished_3]
-model=floor_loc_1800
+model=floor_dugupsoil3_squished
 recol1s=13505
 recol1d=11592
 recol2s=15586
@@ -671,7 +671,7 @@ blockrange=no
 [death_fullstyle]
 name=Stile
 desc=I can climb over the fence with this.
-model=fence_loc_993
+model=fence_fullstyle
 recol1s=10400
 recol1d=10502
 recol2s=10401
@@ -715,7 +715,7 @@ blockrange=no
 [death_hermitcave_entrance]
 name=Cave Entrance
 desc=Looks like small cave.
-model=cave_entrance
+model=cave_entrance3
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -755,7 +755,7 @@ sharelight=yes
 op1=Exit
 
 [death_mountain_cavewall_face1]
-model=cavern_cavewall_face1_dark
+model=cavern_cavewall_face1
 recol1s=12580
 recol1d=11592
 sharelight=yes
@@ -806,7 +806,7 @@ blockrange=no
 [death_castledoor]
 name=Large door
 desc=A sturdy wooden door.
-model=castle_wall_ext
+model=castle_wall
 retex1s=wall
 retex1d=door2
 recol2s=6342
@@ -814,7 +814,7 @@ recol2d=11458
 op1=Open
 
 [castledoor_inactive]
-model=castle_wall_ext
+model=castle_wall
 retex1s=wall
 retex1d=door2
 recol2s=6342

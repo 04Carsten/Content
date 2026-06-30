@@ -19,14 +19,14 @@ category=watersource
 [desertwell]
 name=Well
 desc=No this is not a mirage!
-model=outdoorfurniture_loc_878
+model=outdoorfurniture_desertwell
 blockrange=no
 category=well
 
 [fountain]
 name=Fountain
 desc=Everyone needs a water feature.
-model=outdoorfurniture_loc_153
+model=outdoorfurniture_fountain
 width=2
 length=2
 mapscene=8
@@ -36,7 +36,7 @@ category=watersource
 [goldfountain]
 name=Fountain
 desc=A beautiful water feature.
-model=outdoorfurniture_loc_153
+model=outdoorfurniture_fountain
 width=2
 length=2
 mapscene=8
@@ -50,7 +50,7 @@ category=watersource
 [well]
 name=Well
 desc=Best used with a bucket.
-model=outdoorfurniture_loc_884
+model=outdoorfurniture_well
 width=2
 length=2
 blockrange=no

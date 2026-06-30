@@ -1,7 +1,7 @@
 [upass_caveentrance2]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=cave_entrance
+model=cave_entrance3
 width=4
 length=2
 op1=Enter
@@ -9,7 +9,7 @@ op1=Enter
 [cave_exit_upass]
 name=Underground Pass Exit
 desc=The easy way out...
-model=cave_entrance
+model=cave_entrance3
 width=6
 length=4
 resizex=200
@@ -43,7 +43,7 @@ active=yes
 [cavewalltunnel_upass_tocells]
 name=Cave
 desc=I can go through here.
-model=cavern_loc_1477
+model=cavern_cavewalltunnel
 op1=Enter
 sharelight=yes
 hillskew=yes
@@ -101,7 +101,7 @@ recol1d=7329
 [cavewalltunnel_upass_down]
 name=Cave Stairs
 desc=I can climb down these.
-model=cavern_loc_1477
+model=cavern_cavewalltunnel
 sharelight=yes
 hillskew=yes
 op1=Descend
@@ -133,7 +133,7 @@ recol4d=3136
 [upass_last_out]
 name=Cave
 desc=I can go through here.
-model=cavern_loc_1477
+model=cavern_cavewalltunnel
 op1=Enter
 sharelight=yes
 hillskew=yes
@@ -239,7 +239,7 @@ recol1d=7329
 [upass_pipe5]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
-model=cavern_loc_2288
+model=cavern_cavewall_face1_withpipe
 op1=Squeeze-through
 width=2
 recol1s=12580
@@ -248,7 +248,7 @@ recol1d=7329
 [upass_pipe6]
 name=Obstacle pipe
 desc=A pipe I can squeeze through.
-model=cavern_loc_2288
+model=cavern_cavewall_face1_withpipe
 op1=Squeeze-through
 width=2
 recol1s=12580
@@ -295,7 +295,7 @@ model=quest_loc_669
 [platformbase3]
 name=Platform
 desc=The base of a platform.
-model=cave_loc_3243
+model=cave_platformbase3
 width=4
 length=4
 sharelight=yes
@@ -325,7 +325,7 @@ recol1d=7329
 [bridgeplatformtop]
 name=Platform
 desc=The base of a platform.
-model=cave_loc_3246
+model=cave_bridgeplatformtop
 width=2
 length=2
 sharelight=yes
@@ -334,7 +334,7 @@ recol1d=7329
 
 [bridge1]
 name=Bridge
-model=cave_loc_3247
+model=cave_bridge1
 hillskew=yes
 sharelight=yes
 recol1s=12580
@@ -342,7 +342,7 @@ recol1d=7329
 
 [bridge2]
 name=Bridge
-model=cave_loc_3248
+model=cave_bridge2
 hillskew=yes
 sharelight=yes
 hillskew=yes
@@ -351,7 +351,7 @@ recol1d=7329
 
 [bridge3]
 name=Bridge
-model=cave_loc_3249
+model=cave_bridge3
 hillskew=yes
 sharelight=yes
 hillskew=yes
@@ -365,7 +365,7 @@ hillskew=yes
 sharelight=yes
 
 [bridge_bend_left]
-model=cave_loc_3251
+model=cave_bridge_bend
 width=2
 length=2
 sharelight=yes
@@ -373,7 +373,7 @@ recol1s=12580
 recol1d=7329
 
 [bridge_bend_right]
-model=cave_loc_3251
+model=cave_bridge_bend
 width=2
 length=2
 sharelight=yes
@@ -382,7 +382,7 @@ recol1s=12580
 recol1d=7329
 
 [bridge_threeway]
-model=cave_loc_3253
+model=cave_bridge_threeway
 sharelight=yes
 recol1s=12580
 recol1d=7329
@@ -791,7 +791,7 @@ recol5s=7332
 recol5d=4161
 
 [chute_upass]
-model=cave_loc_3306
+model=cave_chute_upass
 sharelight=yes
 
 [mudpile_upass]
@@ -822,75 +822,75 @@ recol1s=12580
 recol1d=7329
 
 [upass_falloff_1]
-model=cavern_loc_3310
+model=cavern_upass_falloff_1
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_2r]
-model=cavern_loc_3311
+model=cavern_upass_falloff_2
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_2l]
-model=cavern_loc_3311
+model=cavern_upass_falloff_2
 active=no
 sharelight=yes
 hillskew=yes
 mirror=yes
 
 [upass_falloff_3]
-model=cavern_loc_3313
+model=cavern_upass_falloff_3
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_4]
-model=cavern_loc_3314
+model=cavern_upass_falloff_4
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_5]
-model=cavern_loc_3315
+model=cavern_upass_falloff_5
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_6]
-model=cavern_loc_3316
+model=cavern_upass_falloff_6
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_7r]
-model=cavern_loc_3317
+model=cavern_upass_falloff_7
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_7l]
-model=cavern_loc_3317
+model=cavern_upass_falloff_7
 active=no
 sharelight=yes
 hillskew=yes
 mirror=yes
 
 [upass_falloff_8]
-model=cavern_loc_3319
+model=cavern_upass_falloff
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_9]
-model=cavern_loc_3320
+model=cavern_upass_falloff_9
 active=no
 sharelight=yes
 hillskew=yes
 
 [upass_falloff_10]
-model=cavern_loc_3321
+model=cavern_upass_falloff_10
 active=no
 sharelight=yes
 hillskew=yes
@@ -920,7 +920,7 @@ recol1s=15855
 recol1d=7329
 
 [upass_bridge_corner]
-model=cave_loc_3325
+model=cave_upass_bridge_corner
 width=2
 length=2
 hillskew=yes
@@ -945,27 +945,27 @@ mirror=yes
 [statue_dwarfminer_upass]
 name=Dwarf statue
 desc=A depiction of a great dwarf miner.
-model=outdoorfurniture_loc_568
+model=outdoorfurniture_statue_dwarfminer
 recol1s=15855
 recol1d=7329
 
 [upass_skulls+spikes]
-model=cave_loc_3329
+model=cave_upass_skulls+spikes
 width=4
 length=2
 active=no
 
 [upass_templedoor_right]
-model=cave_loc_3330
+model=cave_upass_templedoor
 sharelight=yes
 
 [upass_templedoor_left]
-model=cave_loc_3330
+model=cave_upass_templedoor
 sharelight=yes
 mirror=yes
 
 [upass_templedoor_top]
-model=cave_loc_3332
+model=cave_upass_templedoor_top
 length=4
 
 [upass_templedoor_closed_right]
@@ -1026,18 +1026,18 @@ recol1d=6273
 [oldbridge_guiderope]
 name=Guide rope
 desc=Looks like the rope is holding the bridge up.
-model=cave_loc_3340
+model=cave_oldbridge_guiderope
 op1=Fire-at
 active=yes
 
 [oldbridge_guiderope_left]
 name=Guide rope
 desc=Looks like the other rope is holding the bridge up.
-model=cave_loc_3340
+model=cave_oldbridge_guiderope
 mirror=yes
 
 [oldbridge_guiderope_cut]
-model=cave_loc_3342
+model=cave_oldbridge_guiderope_cut
 active=no
 
 [rocks_obstaclepit_upass]
@@ -1056,7 +1056,7 @@ recol1d=7329
 [upassdwarfbrewbarrel]
 name=Barrel
 desc=It's got dwarf brew in it.
-model=outdoorfurniture_loc_364
+model=outdoorfurniture_barrelwithtap
 forceapproach=south
 
 [iban_temple_claws_r]
@@ -1104,7 +1104,7 @@ recol2s=13537
 recol2d=6272
 
 [iban_temple_throne_top]
-model=cave_loc_3349
+model=cave_ibantemple_throne_top
 width=2
 length=2
 sharelight=yes

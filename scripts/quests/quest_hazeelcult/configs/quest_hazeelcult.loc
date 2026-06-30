@@ -51,7 +51,7 @@ param=hazeelcult_valve_idx,4
 [hazeelsewerraft]
 name=Raft
 desc=A rudimentary type of boat.
-model=outdoorfurniture_loc_1987
+model=outdoorfurniture_lograft
 length=2
 active=yes
 op1=Board
@@ -131,7 +131,7 @@ op1=Search
 [carnilleanrange]
 name=Range
 desc=Used for cooking.
-model=furniture_loc_114
+model=furniture_range
 active=yes
 length=2
 

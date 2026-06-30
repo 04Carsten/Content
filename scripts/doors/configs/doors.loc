@@ -1,7 +1,7 @@
 [loc_1512]
 name=Large door
 desc=A sturdy wooden door.
-model=castle_wall_ext
+model=castle_wall
 op1=Open
 raiseobject=no
 retex1s=wall
@@ -14,7 +14,7 @@ param=next_loc_stage,loc_1515
 [loc_1513]
 name=Large door
 desc=A sturdy wooden door.
-model=basic_loc_1513
+model=basic_thickpoordoor
 op1=Open
 raiseobject=no
 category=door_closed
@@ -23,7 +23,7 @@ param=next_loc_stage,loc_1514
 [loc_1514]
 name=Large door
 desc=A sturdy wooden door.
-model=basic_loc_1513
+model=basic_thickpoordoor
 op1=Close
 raiseobject=no
 category=door_opened
@@ -32,7 +32,7 @@ param=next_loc_stage,loc_1513
 [loc_1515]
 name=Large door
 desc=A sturdy wooden door.
-model=castle_wall_ext
+model=castle_wall
 op1=Close
 raiseobject=no
 retex1s=wall
@@ -129,7 +129,7 @@ param=next_loc_stage,loc_1536
 [loc_1539]
 name=Door
 desc=Solid bars of iron.
-model=basic_loc_37
+model=basic_prisondoor
 op1=Open
 active=yes
 blockrange=no
@@ -141,7 +141,7 @@ param=open_sound,grate_open
 [loc_1540]
 name=Door
 desc=Solid bars of iron.
-model=basic_loc_37
+model=basic_prisondoor
 op1=Close
 active=yes
 raiseobject=no

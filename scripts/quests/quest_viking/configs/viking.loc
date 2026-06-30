@@ -76,7 +76,7 @@ active=no
 [viking_trollcave_entrance]
 name=Cave Entrance
 desc=This must be Lallis' home.
-model=cave_entrance
+model=cave_entrance3
 recol1s=10400
 recol1d=11592
 recol2s=8288
@@ -215,7 +215,7 @@ mapscene=7
 [vt_mazeladderescapeladder]
 name=Escape rope
 desc=Takes me out of the maze.
-model=outdoorfurniture_loc_1762
+model=outdoorfurniture_rope
 active=yes
 op1=Climb-up
 
@@ -329,7 +329,7 @@ forceapproach=east
 [viking_seer_range]
 name=Cooking range
 desc=An appliance for cooking with.
-model=furniture_loc_114
+model=furniture_range
 retex1s=wall
 retex1d=elfwood
 recol2s=3171
@@ -340,7 +340,7 @@ forceapproach=east
 [viking_seer_trapdoor_open]
 name=Trapdoor
 desc=I wonder what's down there?
-model=furniture_loc_1570
+model=furniture_trapdoor_open
 recol1s=15617
 recol1d=16741
 recol2s=8320
@@ -1123,7 +1123,7 @@ blockrange=no
 [viking_barrel_fish]
 name=Barrel
 desc=A wooden barrel containing lots of fish.
-model=outdoorfurniture_loc_363
+model=outdoorfurniture_fishbarrel
 retex1s=wood2
 retex1d=elfwood
 recol2s=8456
@@ -1469,7 +1469,7 @@ mirror=yes
 blockrange=no
 
 [viking_cavewall_face1]
-model=cavern_cavewall_face1_dark
+model=cavern_cavewall_face1
 recol1s=12580
 recol1d=10535
 sharelight=yes
@@ -1603,7 +1603,7 @@ active=no
 [viking_treestump]
 name=Tree stump
 desc=This tree has been cut down.
-model=plants_loc_1341
+model=plants_treestump
 recol1s=4194
 recol1d=9445
 mapscene=6
@@ -1612,7 +1612,7 @@ blockrange=no
 [viking_treestump2]
 name=Tree stump
 desc=This tree has been cut down.
-model=plants_loc_1342
+model=plants_treestump2
 recol1s=4194
 recol1d=9445
 width=2
@@ -1689,7 +1689,7 @@ hillskew=yes
 active=no
 
 [viking_leaves_2]
-model=plants_loc_1265
+model=plants_ground_detail_leaves2
 hillskew=yes
 active=no
 
@@ -1831,7 +1831,7 @@ active=yes
 [viking_rubble_1]
 name=Bowl
 desc=It is a buried Bowl.
-model=floor_loc_174
+model=floor_rubble_ground_detail_1
 recol1s=17969
 recol1d=10534
 recol2s=10570
@@ -1851,7 +1851,7 @@ hillskew=yes
 active=no
 
 [viking_stalagtite_twin_grey]
-model=cave_loc_469
+model=cave_stalagtite_twin
 recol1s=13537
 recol1d=10535
 blockwalk=no
@@ -1859,7 +1859,7 @@ hillskew=yes
 active=no
 
 [viking_stalagmite_small_grey]
-model=cave_loc_534
+model=cave_stagamite_small
 recol1s=13537
 recol1d=10535
 hillskew=yes

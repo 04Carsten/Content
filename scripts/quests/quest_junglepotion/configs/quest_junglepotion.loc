@@ -20,7 +20,7 @@ recol1d=640
 [ardrigal_palm_full]
 name=Palm tree
 desc=A tall palm tree with some plants growing at it's stem.
-model=plants_loc_1311
+model=plants_palm
 width=2
 length=2
 mapscene=5
@@ -29,7 +29,7 @@ op2=Search
 [ardrigal_palm_empty]
 name=Palm tree
 desc=A tall palm tree.
-model=plants_loc_1311
+model=plants_palm
 width=2
 length=2
 mapscene=5
@@ -37,7 +37,7 @@ mapscene=5
 [sito_soil_full]
 name=Scorched earth
 desc=The burnt ground has a plant growing on it.
-model=floor_loc_2579
+model=floor_burntearth
 mapscene=5
 hillskew=yes
 op2=Search
@@ -49,7 +49,7 @@ recol2d=8352
 [sito_soil_empty]
 name=Scorched earth
 desc=The ground has been burnt here by a fire.
-model=floor_loc_2579
+model=floor_burntearth
 mapscene=5
 hillskew=yes
 recol1s=13505
@@ -60,14 +60,14 @@ recol2d=8352
 [volencia_moss_rock_full]
 name=Rock
 desc=A rock with green moss growing on it.
-model=mine_loc_453
+model=mine_rock3
 mapscene=12
 op2=Search
 
 [volencia_moss_rock_empty]
 name=Rock
 desc=A rock, it looks like something was growing here.
-model=mine_loc_453
+model=mine_rock3
 mapscene=12
 
 [rogues_purse_cave_full]
@@ -84,7 +84,7 @@ recol1d=448
 [pothole_cave_entrance]
 name=Rocks
 desc=A collection of rocks over what looks like a depression.
-model=cavern_loc_2218
+model=cavern_pothole
 width=2
 length=2
 hillskew=yes

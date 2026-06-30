@@ -97,7 +97,7 @@ forceapproach=north
 [keepgate_closed]
 name=Keep gate
 desc=An old gate for locking up undesirables.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 mirror=yes
@@ -106,17 +106,17 @@ category=observatory_dungeon_gate
 [keepgate_closed_left]
 name=Keep gate
 desc=An old gate for locking up undesirables.
-model=outdoorfurniture_loc_52
+model=outdoorfurniture_metalgateclosedl
 active=yes
 op1=Open
 category=observatory_dungeon_gate
 
 [zodiac1]
-model=floor_loc_2201
+model=floor_zodiac1
 hillskew=yes
 
 [zodiac2]
-model=floor_loc_2202
+model=floor_zodiac2
 hillskew=yes
 
 [zodiac3]
@@ -124,15 +124,15 @@ model=floor_loc_2203
 hillskew=yes
 
 [zodiac4]
-model=floor_loc_2204
+model=floor_zodiac4
 hillskew=yes
 
 [zodiac5]
-model=floor_loc_2205
+model=floor_zodiac5
 hillskew=yes
 
 [zodiac6]
-model=floor_loc_2206
+model=floor_zodiac6
 hillskew=yes
 
 [zodiac7]
@@ -150,6 +150,6 @@ hillskew=yes
 [telescope]
 name=Telescope
 desc=Looking through it makes far off things look closer!
-model=furniture_loc_2210
+model=furniture_telescope
 length=3
 op1=Use

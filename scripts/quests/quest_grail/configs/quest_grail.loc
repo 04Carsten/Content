@@ -12,7 +12,7 @@ recol2d=11458
 [percy_sacks]
 name=Sacks
 desc=Unusually lumpy looking.
-model=outdoorfurniture_loc_23
+model=outdoorfurniture_sacks
 op1=Prod
 op2=Open
 

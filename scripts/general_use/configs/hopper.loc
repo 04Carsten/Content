@@ -1,34 +1,34 @@
 [hopper_full]
 name=Hopper
 desc=Grain goes in here.
-model=mill_loc_1783
+model=mill_top1
 width=2
 
 [hopper_lumbridge]
 name=Hopper
 desc=Grain goes in here.
-model=mill_loc_1783
+model=mill_top1
 width=2
 category=hopper_nonfull
 
 [hopper_varrock]
 name=Hopper
 desc=Grain goes in here.
-model=mill_loc_1783
+model=mill_top1
 width=2
 category=hopper_nonfull
 
 [hopper_zanaris]
 name=Hopper
 desc=Grain goes in here.
-model=mill_loc_1783
+model=mill_top1
 width=2
 category=hopper_nonfull
 
 [hopper_ardougne]
 name=Hopper
 desc=Grain goes in here.
-model=mill_loc_1783
+model=mill_top1
 width=2
 category=hopper_nonfull
 

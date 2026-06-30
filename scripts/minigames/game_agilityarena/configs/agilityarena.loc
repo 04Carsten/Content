@@ -26,7 +26,7 @@ active=yes
 [agilityarena_logbalance1]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -38,7 +38,7 @@ op1=Walk-on
 [agilityarena_logbalance1_middle]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -49,7 +49,7 @@ active=yes
 [agilityarena_logbalance2]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2292
+model=floor_log_balance2
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -61,7 +61,7 @@ op1=Walk-on
 [agilityarena_logbalance2_middle]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2292
+model=floor_log_balance2
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -72,7 +72,7 @@ active=yes
 [agilityarena_logbalance3]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2293
+model=floor_log_balance3
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -84,7 +84,7 @@ op1=Walk-on
 [agilityarena_logbalance3_middle]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2293
+model=floor_log_balance3
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -141,7 +141,7 @@ active=yes
 [agilityarena_monkeybars_middle]
 name=Monkey bars
 desc=Now, I'm the king of the swingers, oh, the jungle VIP.
-model=outdoorfurniture_loc_2319
+model=outdoorfurniture_monkeybars
 recol1s=15855
 recol1d=17901
 blockwalk=no
@@ -152,7 +152,7 @@ active=yes
 [agilityarena_monkeybars_end]
 name=Monkey bars
 desc=Now, I'm the king of the swingers, oh, the jungle VIP.
-model=outdoorfurniture_loc_2320
+model=outdoorfurniture_monkeybars_end
 recol1s=15855
 recol1d=17901
 width=3

@@ -1,7 +1,7 @@
 [haunteddoorl]
 name=Large door
 desc=A large double door.
-model=castle_loc_71
+model=castle_doubledoorl
 op1=Open
 category=double_door_open_and_close_left
 param=next_loc_stage,loc_1522
@@ -9,7 +9,7 @@ param=next_loc_stage,loc_1522
 [haunteddoorr]
 name=Large door
 desc=A large double door.
-model=castle_loc_71
+model=castle_doubledoorl
 op1=Open
 mirror=yes
 category=double_door_open_and_close_right
@@ -26,7 +26,7 @@ op1=Search
 [hauntedfountain]
 name=Fountain
 desc=Ornamental!
-model=outdoorfurniture_loc_153
+model=outdoorfurniture_fountain
 width=2
 length=2
 op1=Search

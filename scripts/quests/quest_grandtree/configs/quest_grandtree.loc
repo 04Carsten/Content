@@ -71,7 +71,7 @@ category=shipyard_gate
 [grandtree_pillart]
 name=Pillar
 desc=Wonder what this pillar is for?
-model=gnome_loc_2440
+model=gnome_treestump
 blockrange=no
 active=yes
 category=grandtree_pillar
@@ -79,7 +79,7 @@ category=grandtree_pillar
 [grandtree_pillaru]
 name=Pillar
 desc=Wonder what this pillar is for?
-model=gnome_loc_2440
+model=gnome_treestump
 blockrange=no
 active=yes
 category=grandtree_pillar
@@ -87,7 +87,7 @@ category=grandtree_pillar
 [grandtree_pillarz]
 name=Pillar
 desc=Wonder what this pillar is for?
-model=gnome_loc_2440
+model=gnome_treestump
 blockrange=no
 active=yes
 category=grandtree_pillar
@@ -95,7 +95,7 @@ category=grandtree_pillar
 [grandtree_pillaro]
 name=Pillar
 desc=Wonder what this pillar is for?
-model=gnome_loc_2440
+model=gnome_treestump
 blockrange=no
 active=yes
 category=grandtree_pillar

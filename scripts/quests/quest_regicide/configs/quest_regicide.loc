@@ -435,7 +435,7 @@ length=3
 [regicide_logbalance1]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -446,7 +446,7 @@ active=yes
 [regicide_logbalance2]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2292
+model=floor_log_balance2
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -457,7 +457,7 @@ active=yes
 [regicide_logbalance1_start]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -470,7 +470,7 @@ category=regicide_logbalance
 [regicide_logbalance2_start]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -483,7 +483,7 @@ category=regicide_logbalance
 [regicide_logbalance3_start]
 name=Log balance
 desc=I can balance on this log.
-model=floor_loc_2291
+model=floor_log_balance1
 recol1s=11424
 recol1d=16808
 blockwalk=no
@@ -551,7 +551,7 @@ op1=Enter
 category=regicide_cross_over
 
 [regicide_rabbit_hutch]
-model=cave_loc_748
+model=cave_entrance5
 recol1s=25295
 recol1d=15750
 recol2s=23179
@@ -577,7 +577,7 @@ op1=Follow
 blockwalk=no
 
 [regicide_hollowlog]
-model=plants_loc_1334
+model=plants_hollowlog
 recol1s=18823
 recol1d=16808
 recol2s=20904
@@ -586,7 +586,7 @@ width=3
 active=no
 
 [regicide_hollowlogsmaller]
-model=plants_loc_1335
+model=plants_hollowlogsmaller
 recol1s=18823
 recol1d=16808
 recol2s=20904
@@ -1005,7 +1005,7 @@ blockrange=no
 active=no
 
 [regicide_spearwall_straight]
-model=castle_loc_2067
+model=castle_spearwall_row
 recol1s=15649
 recol1d=14729
 recol2s=12513
@@ -1173,7 +1173,7 @@ op1=Climb-down
 [regicide_voyage_temple_entrance]
 name=Cave entrance
 desc=It looks like I can squeeze through here.
-model=cave_entrance
+model=cave_entrance3
 recol1s=10400
 recol1d=16737
 recol2s=8288

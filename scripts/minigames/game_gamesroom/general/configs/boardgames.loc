@@ -122,7 +122,7 @@ sharelight=yes
 mapscene=7
 
 [board_game_poshwall_fencing]
-model=fence_loc_982
+model=fence_poshwall
 recol1s=15855
 recol1d=10572
 blockrange=no
@@ -181,7 +181,7 @@ category=reverse_door_right_opened
 param=next_loc_stage,posh_doubledoor_reverse_r
 
 [old_paintedbrickwall_2]
-model=basic_loc_1905
+model=basic_painted2wall
 retex1s=wall
 retex1d=mossybricks
 sharelight=yes

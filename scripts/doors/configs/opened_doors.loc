@@ -26,13 +26,13 @@ recol2s=6342
 recol2d=11458
 
 [loc_1541]
-model=basic_loc_37
+model=basic_prisondoor
 blockrange=no
 active=no
 raiseobject=no
 
 [prisondoor]
-model=basic_loc_37
+model=basic_prisondoor
 mirror=yes
 active=no
 blockrange=no

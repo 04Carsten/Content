@@ -149,7 +149,7 @@ model=loc_3637
 anim=godsorb
 
 [macro_theatrewall]
-model=basic_loc_1904
+model=basic_painted1wall
 recol1s=26423
 recol1d=2114
 sharelight=yes
@@ -313,7 +313,7 @@ ambient=60
 contrast=60
 
 [lawtemple_cavewall_face1]
-model=cavern_cavewall_face1_dark
+model=cavern_cavewall_face1
 recol1s=12580
 recol1d=6345
 sharelight=yes
@@ -546,7 +546,7 @@ hillskew=yes
 [stagamite_small_dusty]
 name=Stalagmite
 desc=A tooth shaped rock formation protruding from the floor.
-model=cave_loc_534
+model=cave_stagamite_small
 recol1s=13537
 recol1d=18953
 blockwalk=no
