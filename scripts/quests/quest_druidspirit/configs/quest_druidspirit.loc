@@ -1,29 +1,29 @@
 [swamp_plant1]
-model=loc_3501
+model=transilvania_area_priestperil_vegatation_swamp_plant1
 active=no
 hillskew=yes
 mapscene=26
 
 [swamp_plant2]
-model=loc_3502
+model=transilvania_area_priestperil_vegatation_swamp_plant2
 active=no
 hillskew=yes
 mapscene=26
 
 [swamp_plant3]
-model=loc_3503
+model=transilvania_area_priestperil_vegatation_swamp_plant3
 active=no
 hillskew=yes
 mapscene=26
 
 [swamp_plant4]
-model=loc_3504
+model=transilvania_area_priestperil_vegatation_swamp_plant4
 active=no
 hillskew=yes
 blockwalk=no
 
 [swamp_plant5]
-model=loc_3505
+model=transilvania_area_priestperil_vegatation_swamp_plant5
 active=no
 hillskew=yes
 mapscene=26
@@ -110,10 +110,10 @@ anim=pears_growing
 [peartree_druidicspirit_trunk]
 name=Rotting tree
 desc=Not sure if i should stand under that..
-model=loc_3514
+model=quest_naturespirit_peartree_druidicspirit_trunk
 
 [peartree_druidicspirit_crown]
-model=loc_3515
+model=quest_naturespirit_peartree_druidicspirit_crown
 active=no
 length=3
 width=3
@@ -121,7 +121,7 @@ width=3
 [grotto_door_druidicspirit]
 name=Grotto
 desc=A dark dank entrance to below..
-model=loc_3516
+model=quest_naturespirit_grotto_door
 op1=Enter
 
 [grotto_druidicspirit]
@@ -135,14 +135,14 @@ op1=Look-at
 op2=Search
 
 [grotto_roof1_druidicspirit]
-model=loc_3518
+model=quest_naturespirit_grotto_roof1
 active=no
 length=3
 width=3
 sharelight=yes
 
 [grotto_roof2_druidicspirit]
-model=loc_3519
+model=quest_naturespirit_grotto_roof2
 active=no
 length=3
 width=3
@@ -181,11 +181,11 @@ op1=Jump
 [druid_bench]
 name=Bench
 desc=An old bench, probably made from wood in this swamp.
-model=loc_3523
+model=quest_naturespirit_druids_bench
 blockrange=no
 
 [oldfencing]
-model=loc_3524
+model=quest_naturespirit_walls_oldfencing
 sharelight=yes
 hillskew=yes
 active=no

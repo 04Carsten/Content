@@ -31,7 +31,7 @@ model=model_3351_spotanim
 anim=g_teleport
 
 [whippingplant_attack]
-model=model_loc_1407
+model=plants_whippingplant
 anim=whippingplant_attack
 
 [iron_arrow_travel]
@@ -169,7 +169,7 @@ anim=arrow_launch
 model=proj_crossbowbolt
 
 [crossbowbolt_launch]
-model=model_3143_spotanim
+model=proj_crossbowboltlaunch
 anim=crossbowbolt_launch
 
 [rotten_tomato_travel]
@@ -665,7 +665,7 @@ ambient=75
 contrast=75
 
 [teleport_casting]
-model=model_3091_spotanim
+model=spells_teleport
 anim=teleport
 ambient=100
 contrast=100

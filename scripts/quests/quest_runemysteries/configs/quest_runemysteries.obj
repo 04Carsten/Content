@@ -2,7 +2,7 @@
 name=Research package
 desc=This contains some vital research results.
 cost=2
-model=inv_researchpackage
+model=inv_present
 recol1s=26817
 recol1d=10580
 recol2s=160

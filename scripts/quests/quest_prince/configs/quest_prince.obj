@@ -1,7 +1,7 @@
 [keyprint]
 name=Key print
 desc=An imprint of a key in a lump of clay.
-model=inv_keyprint
+model=inv_keymould
 2dyof=-9
 2dzoom=900
 2dyan=1988

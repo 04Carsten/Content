@@ -525,7 +525,7 @@ param=destroy_drop,^true
 [arcenia_root]
 name=Arcenia root
 desc=The root of an Arcenia plant.
-model=inv_limpwurt_root
+model=inv_root
 2dxof=3
 2dyof=4
 2dzoom=1130

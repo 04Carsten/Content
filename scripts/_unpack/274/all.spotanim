@@ -23,7 +23,7 @@ ambient=60
 contrast=60
 
 [spotanim_286]
-model=quest_regicide_catapult_barrel_updated
+model=quest_regicide_catapult_barrel
 anim=inair_barrel
 
 [spotanim_287]

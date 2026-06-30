@@ -1,7 +1,7 @@
 [largeroot_gnome]
 name=Root
 desc=A large root.
-model=wilderness_loc_1339
+model=wilderness_largeroot1
 width=3
 length=3
 blockrange=no
@@ -12,7 +12,7 @@ category=grandtree_root
 [largeroot2_gnome]
 name=Root
 desc=A large root.
-model=wilderness_loc_1340
+model=wilderness_largeroot2
 width=3
 length=3
 blockrange=no

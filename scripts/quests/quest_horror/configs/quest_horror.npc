@@ -146,7 +146,7 @@ wanderrange=5
 
 [horror_dagganoth_jr]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 desc=A horror from the ocean depths...
 resizeh=64
 resizev=64
@@ -176,7 +176,7 @@ huntrange=1
 
 [horror_dagganoth_jr_darker]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=12650
 recol2s=12683
@@ -214,7 +214,7 @@ huntrange=1
 
 [horror_dagganoth_jr_lighter]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -252,7 +252,7 @@ huntrange=1
 
 [horror_dagannoth_medium]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 desc=A horror from the ocean depths...
 size=2
 resizeh=85
@@ -282,7 +282,7 @@ huntrange=1
 
 [horror_dagannoth_medium_darker]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=12650
 recol2s=12683
@@ -320,7 +320,7 @@ huntrange=1
 
 [horror_dagannoth_medium_lighter]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -358,7 +358,7 @@ huntrange=1
 
 [horror_dagannoth_jr1]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -398,7 +398,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagannoth_jr2]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -439,7 +439,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagannoth_jr3]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -479,7 +479,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagannoth_jr4]
 name=Dagannoth
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=14796
 recol2s=12683
@@ -514,7 +514,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_aira]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=21140
 recol2s=12683
@@ -555,7 +555,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_airb]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=21140
 recol2s=12683
@@ -596,7 +596,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_airc]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=21140
 recol2s=12683
@@ -637,7 +637,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_air]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=21140
 recol2s=12683
@@ -679,7 +679,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_water]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=15857
 recol2s=12683
@@ -721,7 +721,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_fire]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=15723
 recol2s=12683
@@ -763,7 +763,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_earth]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=19947
 recol2s=12683
@@ -805,7 +805,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_ranged]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=9801
 recol2s=12683
@@ -847,7 +847,7 @@ param=death_sound,dagganoth_death
 
 [horror_dagganoth_melee]
 name=Dagannoth mother
-model1=npc_1338
+model1=quest_horror_npc_dagannoth
 recol1s=13740
 recol1d=20075
 recol2s=12683

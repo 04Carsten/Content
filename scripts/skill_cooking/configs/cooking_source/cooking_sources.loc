@@ -27,7 +27,7 @@ category=cooking_oven
 [fireplace]
 name=Fireplace
 desc=A fire burns brightly here.
-model=model_loc_2724
+model=furniture_fireplace
 anim=fireplace
 category=cooking_fire
 
@@ -59,7 +59,7 @@ category=cooking_fire
 [fire]
 name=Fire
 desc=Hot!
-model=model_loc_2732
+model=outdoorfurniture_fire
 anim=fire
 blockwalk=no
 blockrange=no

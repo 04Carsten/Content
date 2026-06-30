@@ -512,7 +512,7 @@ op1=Search
 [lg_winchdown_rope]
 name=Winch
 desc=Used to move earth to, and from, the dig shaft. A rope has been thrown over it.
-model=quest_loc_2350
+model=quest_ropepullthingy
 op1=Operate
 width=4
 length=5
@@ -626,7 +626,7 @@ blockwalk=no
 [yommitree_sapling]
 name=Yommi tree sapling
 desc=An adolescent looking Yommi tree, it has a mystical aura.
-model=quest_loc_2946
+model=quest_yommi_adult
 resizex=64
 resizey=64
 resizez=64
@@ -637,7 +637,7 @@ blockwalk=no
 [yommitree_saplingdead]
 name=Dead Yommi sapling
 desc= A dead Yommi tree sapling, you'll need a tough axe to remove this.
-model=quest_loc_2946
+model=quest_yommi_adult
 resizex=32
 resizey=32
 resizez=32
@@ -652,7 +652,7 @@ recol2d=16898
 [yommitree_adult]
 name=Adult Yommi tree
 desc= A fully grown Yommi tree, it won't get much taller than this.
-model=quest_loc_2946
+model=quest_yommi_adult
 width=3
 length=3
 blockwalk=no
@@ -672,7 +672,7 @@ recol2d=16898
 [yommitree_felled]
 name=Felled Yommi tree
 desc=A felled adult Yommi tree, perhaps you should trim those branches?
-model=quest_loc_2950
+model=quest_yommi_felled
 width=3
 length=3
 blockwalk=no
@@ -680,7 +680,7 @@ blockwalk=no
 [yommitree_felled_rotten]
 name=Rotten Yommi
 desc=A rotten felled Yommi tree, it was left too long in the damp jungle.
-model=quest_loc_2950
+model=quest_yommi_felled
 width=3
 length=3
 blockwalk=no
@@ -692,7 +692,7 @@ recol2d=16898
 [yommitree_trimmed]
 name=Trimmed Yommi
 desc=A trimmed Yommi tree log, perfect for sculpting into a totem pole.
-model=quest_loc_2952
+model=quest_yommi_trimmed
 width=3
 length=3
 blockwalk=no
@@ -700,7 +700,7 @@ blockwalk=no
 [yommitree_trimmed_rotten]
 name=Rotten Yommi tree
 desc=A rotten Yommi tree log, it was left too long in the damp jungle air.
-model=quest_loc_2952
+model=quest_yommi_trimmed
 width=3
 length=3
 blockwalk=no
@@ -712,7 +712,7 @@ recol2d=16898
 [yommitree_totem]
 name=Totem pole
 desc=A beatifully crafted totem pole carved from the trunk of the sacred Yommi tree.
-model=quest_loc_2954
+model=quest_yommitotem
 op1=Lift
 width=3
 length=3
@@ -721,7 +721,7 @@ blockwalk=no
 [yommitree_totem_rotten]
 name=Rotten Totem pole
 desc=A rotten totem pole, it was left to rot in the jungle.
-model=quest_loc_2954
+model=quest_yommitotem
 width=3
 length=3
 blockwalk=no

@@ -255,7 +255,7 @@ category=category6
 [cabbage]
 name=Cabbage
 desc=Yuck I don't like cabbage.
-model=plants_cabbage
+model=inv_cabbage
 2dxof=1
 2dzoom=1280
 2dyan=348
@@ -270,7 +270,7 @@ param=batta_message,You add the Cabbage to the gnome batta.
 [magic_cabbage]
 name=Cabbage
 desc=Yuck I don't like cabbage.
-model=plants_cabbage
+model=inv_cabbage
 2dxof=1
 2dzoom=1280
 2dyan=348
@@ -381,7 +381,7 @@ tradeable=no
 name=Onion
 desc=A strong smelling onion.
 cost=3
-model=plants_onion
+model=inv_garlic
 recol1s=31674
 recol1d=24108
 2dzoom=670

@@ -247,7 +247,7 @@ model4=man_arms_longsleeves2
 model5=man_hands_gloves
 model6=man_legs_viking
 model7=man_feet_viking_boots
-model8=human_weapons_battleaxe
+model8=human_weapons_axe
 model9=man_headextra_viking_horns_crush
 model10=man_torsoextra_cloak_plain
 model11=man_head_viking_helmet_basic
@@ -302,7 +302,7 @@ param=npc_forcemulti,^true
 
 [viking_draugen_safe]
 name=Butterfly
-model1=model_3022_npc
+model1=npc_butterfly
 desc=Flutter by oh butterfly.
 walkanim=butterfly_hover
 readyanim=butterfly_hover
@@ -344,7 +344,7 @@ wanderrange=2
 
 [viking_sigmund]
 name=Sigmund The Merchant
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_split
 model3=man_torso_basic
 model4=man_arms_longsleeves
@@ -534,7 +534,7 @@ wanderrange=1
 
 [viking_peer]
 name=Peer the Seer
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_long
 model3=man_torso_basic
 model4=man_arms_longsleeves
@@ -1054,7 +1054,7 @@ param=shop_title,Yrsa's Accountrements
 
 [viking_fisherman1]
 name=Fisherman
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_split
 model3=man_torso_basic
 model4=man_arms_longsleeves2
@@ -1123,7 +1123,7 @@ param=shop_title,Skulgrimen's Battle Gear
 
 [viking_sailor]
 name=Sailor
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_split
 model3=man_torso_fat
 model4=man_arms_longsleeves2
@@ -1165,7 +1165,7 @@ model6=man_headextra_viking_helmet_bolts
 model7=man_head_viking_helmet_basic
 model8=man_legs_viking
 model9=man_feet_viking_boots
-model10=human_weapons_battleaxe
+model10=human_weapons_axe
 model11=human_weapons_viking_shield
 model12=man_torsoextra_shirt2
 recol1s=6273
@@ -1253,7 +1253,7 @@ model4=man_arms_longsleeves2
 model5=man_hands_gloves
 model6=man_legs_viking
 model7=man_feet_viking_boots
-model8=human_weapons_battleaxe
+model8=human_weapons_axe
 model9=man_headextra_viking_helmet_bolts
 model10=man_head_viking_helmet_basic
 recol1s=6273
@@ -1293,7 +1293,7 @@ category=viking_citizen
 
 [viking_man4]
 name=Lanzig
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_split
 model3=man_torso_basic
 model4=man_arms_longsleeves
@@ -1809,7 +1809,7 @@ param=death_sound,null
 
 [viking_bunny_1]
 name=Bunny
-model1=npc_1192
+model1=npc_rabbit
 recol1s=15777
 recol1d=10465
 recol2s=12
@@ -1845,7 +1845,7 @@ param=death_sound,rabbit_death
 
 [viking_bunny_2]
 name=Bunny
-model1=npc_1192
+model1=npc_rabbit
 recol1s=15777
 recol1d=10465
 recol2s=12

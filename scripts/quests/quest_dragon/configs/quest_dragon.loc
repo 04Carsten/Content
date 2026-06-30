@@ -39,7 +39,7 @@ mapscene=7
 
 [dragonshipladder]
 name=Ladder
-model=model_loc_272
+model=ship_ladder
 active=yes
 op1=Climb-up
 mapscene=7
@@ -47,14 +47,14 @@ mapscene=7
 [dragonshipgangplank_on]
 name=Gangplank
 desc=Handy for boarding the ship.
-model=ship_loc_69
+model=ship_gangplank
 active=yes
 op1=Cross
 
 [dragonshipgangplank_off]
 name=Gangplank
 desc=Handy for boarding the ship.
-model=ship_loc_69
+model=ship_gangplank
 active=yes
 op1=Cross
 

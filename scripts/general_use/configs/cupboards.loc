@@ -11,7 +11,7 @@ param=cupboard_other,cupboardopen
 [cupboardhigh]
 name=Cupboard
 desc=This may be worth opening.
-model=furniture_cupboard_-high
+model=furniture_cupboard-high
 length=2
 forceapproach=east
 op1=Open
@@ -21,7 +21,7 @@ param=cupboard_other,cupboardopen_high
 [cupboard_big]
 name=Large cupboard
 desc=This may be worth opening.
-model=furniture_cupboard_-big
+model=furniture_cupboard-big
 width=2
 length=3
 forceapproach=east
@@ -66,7 +66,7 @@ param=cupboard_other,cupboard_big
 [vyvincupboardshut]
 name=Cupboard
 desc=I wonder what's inside?
-model=furniture_cupboard_-high
+model=furniture_cupboard-high
 length=2
 op1=Open
 forceapproach=east
@@ -87,7 +87,7 @@ param=cupboard_other,vyvincupboardshut
 [garliccupboardshut]
 name=Cupboard
 desc=Wonder what's in here...
-model=furniture_cupboard_-high
+model=furniture_cupboard-high
 length=2
 op1=Open
 forceapproach=east

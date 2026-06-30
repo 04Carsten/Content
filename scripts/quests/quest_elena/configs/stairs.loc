@@ -9,7 +9,7 @@ op1=Walk-Down
 [plaguehousestairsup]
 name=Spooky stairs
 desc=It's a flight of stairs.
-model=model_loc_1730
+model=spooky_stairs
 width=2
 length=3
 op1=Walk-Up

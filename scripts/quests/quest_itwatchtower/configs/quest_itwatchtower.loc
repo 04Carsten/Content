@@ -1,7 +1,7 @@
 [blacksmithtools]
 name=Blacksmith's tools
 desc=Various implements for working with metal.
-model=walldecor_loc_2784
+model=walldecor_blacksmithtools
 active=yes
 
 [ogreguardgate1]
@@ -356,7 +356,7 @@ op1=Jump-From
 [ganothbattlement]
 name=Battlement
 desc=A low wall is blocking your path.
-model=model_loc_2832
+model=quest_ogrerock
 active=yes
 blockrange=no
 op1=Climb-over

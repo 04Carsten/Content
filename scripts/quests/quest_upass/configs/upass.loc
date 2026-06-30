@@ -36,7 +36,7 @@ active=no
 [upass_mud]
 name=Mud
 desc=A pile of mud.
-model=quest_loc_3818
+model=quest_mud_upass
 forcedecor=yes
 active=yes
 
@@ -186,7 +186,7 @@ length=2
 [upass_double_springtrap_trigger]
 name=Flat rock
 desc=Looks suspicious.
-model=model_loc_3230_0
+model=quest_singlestone_0
 hillskew=yes
 blockwalk=no
 blockrange=no
@@ -284,13 +284,13 @@ active=yes
 [upass_lever_up]
 name=Lever
 desc=This lever can be operated.
-model=quest_loc_670
+model=quest_floorlever_off
 op1=Pull
 
 [upass_lever_down]
 name=Lever
 desc=This lever can be operated.
-model=quest_loc_669
+model=quest_floorlever_on
 
 [platformbase3]
 name=Platform
@@ -580,7 +580,7 @@ recol1d=7329
 
 [walkway_upass_narrow_mid_top]
 name=Stone bridge
-model=model_loc_3276
+model=cave_walkway_upass_narrow_top
 sharelight=yes
 blockrange=no
 active=yes
@@ -1001,7 +1001,7 @@ mirror=yes
 [portcullis_lever_up]
 name=Lever
 desc=This lever can be operated.
-model=quest_loc_670
+model=quest_floorlever_off
 op1=Pull
 
 [upass_logtrap]
@@ -1016,7 +1016,7 @@ blockrange=no
 [upass_logtrap_trigger]
 name=Flat rock
 desc=Looks suspicious.
-model=model_loc_3230
+model=quest_singlestone
 hillskew=yes
 blockrange=no
 op1=Search
@@ -1114,7 +1114,7 @@ recol2s=13537
 recol2d=6272
 
 [upass_cage]
-model=quest_loc_3350
+model=quest_upass_cage
 mapscene=22
 active=no
 blockwalk=no
@@ -1122,7 +1122,7 @@ blockwalk=no
 [upass_cage_dummy]
 name=Cage
 desc=I'm glad I'm on this side of those bars.
-model=model_loc_3351
+model=quest_upass_cage_dummy
 width=2
 length=2
 active=yes
@@ -1131,7 +1131,7 @@ op1=Search
 [upass_cage_dummy_dummy]
 name=Cage
 desc=I'm glad I'm on this side of those bars.
-model=model_loc_3351
+model=quest_upass_cage_dummy
 width=2
 length=2
 active=yes
@@ -1239,7 +1239,7 @@ recol5d=4161
 [cavefood1]
 name=Crate
 desc=A wooden crate for storage.
-model=warehouse_shop_loc_355
+model=warehouse_shop_crate3
 op1=Search
 
 [caveorb_vis]
@@ -1252,7 +1252,7 @@ op3=Take
 [upass_witchwindow]
 name=Window
 desc=A window.
-model=walldecor_loc_1821
+model=walldecor_window
 ambient=50
 op1=Search
 
@@ -1269,5 +1269,5 @@ blockwalk=no
 [upass_grilltrap_hand_holds]
 name=Protruding rocks
 desc=Looks like I can climb these.
-model=walldecor_loc_1444
+model=walldecor_cave_detail1
 op1=Climb

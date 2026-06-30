@@ -560,7 +560,7 @@ tradeable=no
 [horror_casket]
 name=Rusty casket
 desc=Looks old and rusty...
-model=inv_rustycasket
+model=quest_horror_inv_rusty_casket
 2dxof=1
 2dyof=-2
 2dzoom=1430

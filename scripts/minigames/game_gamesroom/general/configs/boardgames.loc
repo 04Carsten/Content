@@ -1,7 +1,7 @@
 [boardgames_fireplace_small]
 name=Fireplace
 desc=A nice and cosy fire.
-model=loc_4618
+model=outdoorfurniture_fire_boardgames_place
 retex1s=mossybricks
 retex1d=wall
 anim=fire
@@ -21,7 +21,7 @@ contrast=10
 [board_game_stairs_top]
 name=Stairs
 desc=They go down.
-model=loc_4620
+model=game_boardgames_stairs_top
 recol1s=15855
 recol1d=10572
 width=2
@@ -34,7 +34,7 @@ mapscene=7
 [board_game_stairs_top2]
 name=Stairs
 desc=They go down.
-model=loc_4620
+model=game_boardgames_stairs_top
 recol1s=15855
 recol1d=10572
 width=2
@@ -47,7 +47,7 @@ mapscene=7
 [board_game_stairs_base]
 name=Stairs
 desc=They go up.
-model=loc_4622
+model=game_boardgames_stairs_base
 recol1s=15855
 recol1d=10572
 width=2
@@ -60,7 +60,7 @@ mapscene=7
 [board_game_stairs_base2]
 name=Stairs
 desc=They go up.
-model=loc_4622
+model=game_boardgames_stairs_base
 recol1s=15855
 recol1d=10572
 width=2
@@ -85,7 +85,7 @@ mapscene=7
 [board_game_stairs_grey_top]
 name=Stairs
 desc=They go down.
-model=loc_4625
+model=game_boardgames_stairs_top_grey
 recol1s=15855
 recol1d=10572
 width=2
@@ -98,7 +98,7 @@ mapscene=7
 [board_game_stairs_grey_base]
 name=Stairs
 desc=They go up.
-model=loc_4626
+model=game_boardgames_stairs_base_grey
 recol1s=15855
 recol1d=10572
 width=2
@@ -111,7 +111,7 @@ mapscene=7
 [board_game_stairs_grey_base2]
 name=Stairs
 desc=They go up.
-model=loc_4626
+model=game_boardgames_stairs_base_grey
 recol1s=15855
 recol1d=10572
 width=2
@@ -257,12 +257,12 @@ raiseobject=no
 
 [barrel_stacked]
 name=barrel_stacked
-model=loc_4641
+model=furniture_barrel_stacked
 
 [boardgames_noticeboard]
 name=Noticeboard
 desc=Has some board games news on it.
-model=walldecor_loc_961
+model=walldecor_banknoticeboard
 ambient=50
 active=yes
 op1=Read
@@ -317,14 +317,14 @@ forceapproach=east
 active=yes
 
 [boardgames_wall]
-model=loc_4649
+model=game_boardgames_wall
 sharelight=yes
 active=no
 
 [boardgames_fireplace]
 name=Fireplace
 desc=A nice and cosy fire.
-model=loc_4618
+model=outdoorfurniture_fire_boardgames_place
 anim=fire
 length=3
 width=3
@@ -333,14 +333,14 @@ active=yes
 [boardgames_table]
 name=Table
 desc=A table for board games.
-model=loc_4651
+model=game_boardgames_table
 active=yes
 blockrange=no
 
 [boardgames_table_draughts]
 name=Table
 desc=A game of draughts is being played on this table.
-model=loc_4652
+model=game_boardgames_table_chess
 active=yes
 blockrange=no
 op1=View-game
@@ -348,13 +348,13 @@ op1=View-game
 [boardgames_table_runelink]
 name=Table
 desc=A game of Runelink is being played on this table.
-model=loc_4653
+model=game_boardgames_table_connect
 active=yes
 blockrange=no
 op1=View-game
 
 [boardgames_archtop]
-model=loc_4654
+model=game_boardgames_archtop
 length=4
 width=4
 active=no
@@ -416,7 +416,7 @@ recol1d=31649
 active=yes
 
 [ruginsidecorner_blue]
-model=loc_4662
+model=floor_ruginsidecorner
 recol1s=15360
 recol1d=9484
 recol2s=28321
@@ -426,7 +426,7 @@ recol3d=5255
 sharelight=yes
 
 [ruginsidecorner_darkknight]
-model=loc_4662
+model=floor_ruginsidecorner
 recol1s=15360
 recol1d=5252
 recol2s=28321
@@ -434,11 +434,11 @@ recol2d=14402
 sharelight=yes
 
 [ruginsidecorner]
-model=loc_4662
+model=floor_ruginsidecorner
 sharelight=yes
 
 [ruginsidecornerdiag_blue]
-model=loc_4665
+model=floor_ruginsidecornerdiag
 recol1s=15360
 recol1d=9484
 recol2s=28321
@@ -448,7 +448,7 @@ recol3d=5255
 sharelight=yes
 
 [ruginsidecornerdiag_darkknight]
-model=loc_4665
+model=floor_ruginsidecornerdiag
 recol1s=15360
 recol1d=5252
 recol2s=28321
@@ -456,10 +456,10 @@ recol2d=14402
 sharelight=yes
 
 [ruginsidecornerdiag]
-model=loc_4665
+model=floor_ruginsidecornerdiag
 sharelight=yes
 
 [runeflash]
 name=runeflash
-model=loc_4668
+model=if_runeflash
 anim=runeflash

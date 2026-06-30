@@ -23,7 +23,7 @@ forceapproach=east
 [golrie_crate_waterfall_quest]
 name=Crate
 desc=A wooden crate for storage.
-model=warehouse_shop_loc_355
+model=warehouse_shop_crate3
 op1=Search
 
 [golrie_gate_waterfall_quest]
@@ -71,7 +71,7 @@ recol1d=17921
 [crossing_rock_waterfall_quest]
 name=Rock
 desc=Looks rock solid.
-model=quest_loc_1996
+model=quest_rock_for_rope
 op1=Swim to
 shadow=no
 blockwalk=no
@@ -79,7 +79,7 @@ blockwalk=no
 [crossing_rock_roped_waterfall_quest]
 name=Rock
 desc=Looks rock solid.
-model=quest_loc_1997
+model=quest_rock_with_rope
 op1=Swim to
 shadow=no
 blockwalk=no
@@ -94,7 +94,7 @@ blockwalk=no
 [baxtorian_crate_waterfall_quest]
 name=Crate
 desc=A wooden crate for storage.
-model=warehouse_shop_loc_355
+model=warehouse_shop_crate3
 op1=Search
 
 [baxtorian_door_waterfall_quest]

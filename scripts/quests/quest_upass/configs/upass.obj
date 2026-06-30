@@ -70,7 +70,7 @@ tradeable=no
 name=Damp cloth
 desc=A damp, wet cloth.
 cost=10
-model=inv_silk
+model=inv_cloth
 recol1s=27412
 recol1d=8388
 2dyof=-15
@@ -157,7 +157,7 @@ tradeable=no
 [cavewitchcat]
 name=Witches cat
 desc=A cat.
-model=inv_growncat
+model=npc_cat_head
 recol1s=15855
 recol1d=4228
 2dxof=13

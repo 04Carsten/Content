@@ -192,7 +192,7 @@ model=plants_deadtree_burnt_stump
 [hollow_tree_stump]
 name=Tree stump
 desc=This tree has been cut down.
-model=model_4147
+model=tree_hollow_stump
 recol1s=8352
 recol1d=7428
 recol2s=7330
@@ -203,7 +203,7 @@ mapscene=6
 [regicide_tree_stump]
 name=Treestump
 desc=It's a treestump.
-model=loc_3880
+model=quest_regicide_tree_stump
 width=3
 length=3
 mapscene=10
@@ -211,7 +211,7 @@ mapscene=10
 [regicide_tree_stump_small]
 name=Treestump
 desc=It's a treestump.
-model=loc_3880
+model=quest_regicide_tree_stump
 width=2
 length=2
 mapscene=10
@@ -219,7 +219,7 @@ mapscene=10
 [hollow_tree_stump_big]
 name=Tree stump
 desc=This tree has been cut down.
-model=loc_4061
+model=tree_big_hollow_stump
 recol1s=8352
 recol1d=7428
 recol2s=7330

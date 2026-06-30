@@ -10580,7 +10580,7 @@ frame119=anim_1687
 frame120=anim_1396
 delay120=15
 
-[human_blown_end_getup_priority]
+[pilot_varrock]
 frame1=anim_5745
 frame2=anim_5751
 frame3=anim_5757
@@ -10599,7 +10599,7 @@ frame15=anim_5748
 frame16=anim_5754
 delay16=20000
 
-[seq_786]
+[pilot_mountain]
 frame1=anim_5750
 frame2=anim_5756
 frame3=anim_5761

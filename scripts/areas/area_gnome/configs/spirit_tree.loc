@@ -1,7 +1,7 @@
 [ent]
 name=Spirit tree
 desc=An ancient sentient tree.
-model=model_loc_1293
+model=npc_ent
 width=4
 length=4
 anim=entready
@@ -11,7 +11,7 @@ mapscene=0
 [stronghold_ent]
 name=Spirit tree
 desc=An ancient sentient tree.
-model=model_loc_1293
+model=npc_ent
 width=4
 length=4
 anim=entready
@@ -21,7 +21,7 @@ mapscene=0
 [spirittree_small]
 name=Spirit tree
 desc=An ancient sentient tree.
-model=model_loc_1293
+model=npc_ent
 width=4
 length=4
 anim=entendseq

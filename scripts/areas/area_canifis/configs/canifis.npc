@@ -638,7 +638,7 @@ wanderrange=5
 
 [willothewisp]
 name=Willow the wisp
-model1=npc_1043
+model1=transilvania_area_priestperil_npc_willothewisp_willowthewisp
 desc=Mysterious swamp lights...
 vislevel=hide
 walkanim=willowthewisp

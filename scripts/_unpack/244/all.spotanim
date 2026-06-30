@@ -66,7 +66,7 @@ ambient=40
 contrast=40
 
 [druidicspirit_druidsshield]
-model=druidicspirit_druidsshield
+model=quest_naturespirit_spells_druidsshield
 anim=druidicspirit_druidsshield_spotanim
 
 [sp_attack_snapshot_spotanim]
@@ -88,7 +88,7 @@ recol1s=15855
 recol1d=6476
 
 [druidicspirit_priest_bless]
-model=druidicspirit_druidsshield
+model=quest_naturespirit_spells_druidsshield
 anim=druidicspirit_druidsshield_spotanim
 recol1s=31649
 recol1d=32767

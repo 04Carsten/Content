@@ -1,7 +1,7 @@
 [catabow]
 name=Ballista
 desc=It's a war machine.
-model=model_loc_2181
+model=quest_catabow
 width=3
 length=3
 op2=Fire

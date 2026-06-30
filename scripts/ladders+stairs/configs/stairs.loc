@@ -126,7 +126,7 @@ op1=Walk-Down
 [cryptstairsup]
 name=Stairs
 desc=Phew, an exit!
-model=model_loc_1730
+model=spooky_stairs
 width=2
 length=3
 op1=Walk-Up

@@ -61,7 +61,7 @@ param=damagetype,^crush_style
 
 [priestperilevilmonk3]
 name=Monk of Zamorak
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_none
 model3=man_torso_basic
 model4=man_arms_longsleeves

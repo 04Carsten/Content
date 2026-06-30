@@ -237,7 +237,7 @@ param=grindable_ingredient_message,You grind the raw Karambwanji to form a stick
 [sardine]
 name=Sardine
 desc=Some nicely cooked fish.
-model=inv_sardine
+model=inv_fish4
 recol1s=15855
 recol1d=18827
 recol2s=26425
@@ -256,7 +256,7 @@ category=category_58
 [raw_sardine]
 name=Raw sardine
 desc=I should try cooking this.
-model=inv_sardine
+model=inv_fish4
 recol1s=15855
 recol1d=13068
 recol2s=26425
@@ -640,12 +640,12 @@ category=category_116
 [burntfish5]
 name=Burnt fish
 desc=Oops!
-model=inv_sardine
+model=inv_fish4
 recol1s=15855
 recol1d=7399
 recol2s=26425
 recol2d=10570
-model=inv_sardine
+model=inv_fish4
 2dxof=-1
 2dyof=13
 2dzoom=820

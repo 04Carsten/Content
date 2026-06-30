@@ -39,7 +39,7 @@ category=watersource
 [murdersign]
 name=Sinclair family crest
 desc=Its the Sinclair Family coat of arms.
-model=walldecor_loc_2655
+model=walldecor_familycrest
 op2=Investigate
 
 [murderbarrela]
@@ -106,7 +106,7 @@ op1=Investigate
 [loc_2666]
 name=Smashed window
 desc=looks like the killer smashed this to leave the mansion.
-model=walldecor_loc_1843_q
+model=walldecor_brokenwindow_q
 active=yes
 op2=Investigate
 retex1s=wall

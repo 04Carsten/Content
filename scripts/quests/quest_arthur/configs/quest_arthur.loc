@@ -18,7 +18,7 @@ mapscene=7
 [merlins_crystal]
 name=Giant crystal
 desc=Can I see something inside...?
-model=quest_loc_62
+model=quest_giantcrystal
 active=yes
 width=2
 length=2
@@ -52,7 +52,7 @@ recol2d=23020
 [arhein_ship_on]
 name=Gangplank
 desc=Handy for boarding boats.
-model=ship_loc_69
+model=ship_gangplank
 op1=Cross
 active=yes
 sharelight=yes

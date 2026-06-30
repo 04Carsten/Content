@@ -1,7 +1,7 @@
 [barbarian_rope_swing]
 name=Ropeswing
 desc=Use this to swing over crevices.
-model=model_loc_2282
+model=outdoorfurniture_ropeswing_long
 op1=Swing-on
 length=6
 blockwalk=no

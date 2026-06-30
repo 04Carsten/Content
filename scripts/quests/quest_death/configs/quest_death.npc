@@ -877,7 +877,7 @@ param=shop_title,Burthorpe Supplies
 
 [death_man_outdoors1]
 name=Breoca
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_none
 model3=man_torso_basic
 model4=man_arms_longsleeves3
@@ -914,7 +914,7 @@ category=citizen_burthorpe
 
 [death_man_outdoors2]
 name=Ocga
-model1=man_head_model_208
+model1=man_head_hood2
 model2=man_jaw_goaty
 model3=man_torso_basic
 model4=man_arms_longsleeves3
@@ -1152,8 +1152,8 @@ category=citizen_burthorpe
 
 [death_growncat_black]
 name=Bob
-model1=model_3010_npc
-model2=inv_growncat
+model1=npc_cat_body1
+model2=npc_cat_head
 recol1s=15855
 recol1d=3171
 recol2s=4228
@@ -1305,7 +1305,7 @@ huntrange=1
 [death_troll_leuitanant]
 name=Stick
 model1=npc_1096
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1096i3
 model5=npc_1096i4
@@ -1354,7 +1354,7 @@ huntrange=1
 [death_troll_guard1]
 name=Pee Hat
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1096i3
 model5=npc_1097
@@ -1479,7 +1479,7 @@ moverestrict=nomove
 [death_troll_cook2]
 name=Ash
 model1=npc_1096
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1099i2
 model5=npc_1100
@@ -1503,7 +1503,7 @@ moverestrict=nomove
 [death_troll_thrower1]
 name=Thrower Troll
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1099
 model4=npc_1101
 recol1s=15855
@@ -1593,7 +1593,7 @@ huntrange=8
 [death_troll_thrower3]
 name=Thrower Troll
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1101
 recol1s=15855
@@ -1638,7 +1638,7 @@ huntrange=8
 [death_troll_thrower4]
 name=Thrower Troll
 model1=npc_1096
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1099
 model4=npc_1101
 recol1s=15855
@@ -1728,7 +1728,7 @@ huntrange=8
 [death_troll_melee1]
 name=Mountain Troll
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1097
 recol1s=15855
@@ -1822,7 +1822,7 @@ huntrange=1
 [death_troll_melee3]
 name=Mountain Troll
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1095i3
 model4=npc_1097
 model5=npc_1096i3
@@ -1870,7 +1870,7 @@ huntrange=1
 [death_troll_melee4]
 name=Mountain Troll
 model1=npc_1095
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1099
 model4=npc_1096i4
 recol1s=15855
@@ -1965,7 +1965,7 @@ huntrange=1
 [death_troll_melee6]
 name=Mountain Troll
 model1=npc_1096
-model2=npc_1096i2
+model2=quest_death_npc_troll_head
 model3=npc_1099
 model4=npc_1096i4
 recol1s=15855

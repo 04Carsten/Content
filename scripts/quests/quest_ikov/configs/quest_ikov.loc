@@ -1,7 +1,7 @@
 [ikov_leverbracket]
 name=Lever bracket
 desc=Seems very old...
-model=walldecor_loc_86
+model=walldecor_leverbracket
 active=yes
 
 [ikov_mendedlever]

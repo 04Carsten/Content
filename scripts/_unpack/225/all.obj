@@ -28,7 +28,7 @@ weight=3kg
 name=Silk
 desc=It's a sheet of silk.
 cost=30
-model=inv_silk
+model=inv_cloth
 recol1s=32767
 recol1d=22870
 2dyof=-15
@@ -384,7 +384,7 @@ stackable=yes
 dummyitem=inv_only
 
 [coins_25]
-model=inv_goldpeices_25
+model=inv_goldpeices
 2dxof=3
 2dzoom=710
 2dyan=2012
@@ -853,7 +853,7 @@ category=category_715
 name=Garlic
 desc=A clove of garlic.
 cost=3
-model=plants_onion
+model=inv_garlic
 2dzoom=670
 2dyan=116
 2dxan=116

@@ -15,7 +15,7 @@ recol1d=12580
 [flag_entrance2_angled]
 name=Entrance
 desc=Flags marking the entrance to the arena.
-model=arena_loc_3112
+model=arena_flag_entrance2_angled
 width=2
 ambient=60
 contrast=60
@@ -44,7 +44,7 @@ recol1d=12580
 [flag_entrance2l_angled]
 name=Entrance
 desc=Flags marking the entrance to the arena.
-model=arena_loc_3112
+model=arena_flag_entrance2_angled
 width=2
 ambient=60
 contrast=60
@@ -59,7 +59,7 @@ recol1d=12580
 [loc_3192]
 name=Scoreboard
 desc=You can see the last 50 fights on here.
-model=arena_loc_3192
+model=arena_duel_scoreboard
 width=2
 length=3
 ambient=50
@@ -91,7 +91,7 @@ op1=Buy
 [arena_trapdoor]
 name=Trapdoor
 desc=Access to the duel arena.
-model=arena_loc_3203
+model=arena_trapdoor
 op1=Forfeit
 forcedecor=yes
 sharelight=yes
@@ -130,7 +130,7 @@ op5=Lean against
 blockrange=no
 
 [duel_arena_top_aged_2]
-model=arena_loc_3080
+model=arena_top_aged2
 forcedecor=yes
 ambient=30
 contrast=30
@@ -138,7 +138,7 @@ sharelight=yes
 active=no
 
 [duel_arena_top_aged_2_mirror]
-model=arena_loc_3080
+model=arena_top_aged2
 forcedecor=yes
 ambient=30
 contrast=30

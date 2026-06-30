@@ -67,7 +67,7 @@ recol1s=11488
 recol1d=14797
 cost=10
 desc=Some limestone.
-model=inv_limestone
+model=quest_regicide_inv_limestone
 2dxof=-7
 2dyof=-41
 2dyan=164
@@ -223,7 +223,7 @@ recol1s=27412
 recol1d=25372
 desc=A bolt of cloth.
 cost=10
-model=inv_silk
+model=inv_cloth
 2dyof=-15
 2dzoom=1360
 2dxan=368
@@ -313,7 +313,7 @@ tradeable=no
 
 [regicide_alchemy_symbol4]
 name=Symbol4
-model=quest_regicide_if_symbol4
+model=quest_regicide_if_symbol_combined
 2dxof=-2
 2dyof=7
 2dzoom=1890

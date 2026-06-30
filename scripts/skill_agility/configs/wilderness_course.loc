@@ -39,7 +39,7 @@ recol1d=10570
 [obstical_ropeswing2]
 name=Ropeswing
 desc=Use this to swing over crevices.
-model=model_loc_2282
+model=outdoorfurniture_ropeswing_long
 op1=Swing-on
 length=6
 blockwalk=no
@@ -63,7 +63,7 @@ sharelight=yes
 [wilderness_rocks]
 name=Rocks
 desc=A rocky outcrop.
-model=quest_loc_2231
+model=quest_climbingrocks
 hillskew=yes
 op1=Climb
 ambient=25

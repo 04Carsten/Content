@@ -151,21 +151,21 @@ op2=Board
 [zqclimbingrocks]
 name=Rocks
 desc=A rocky outcrop.
-model=quest_loc_2231
+model=quest_climbingrocks
 hillskew=yes
 op1=Climb
 ambient=25
 contrast=25
 
 [zqclimbingrocks_inactive]
-model=quest_loc_2232
+model=quest_climbingrocks2
 hillskew=yes
 ambient=25
 contrast=25
 forcedecor=yes
 
 [zqclimbingrocks_falloff]
-model=quest_loc_2233
+model=quest_climbingrocks3
 hillskew=yes
 ambient=25
 contrast=25
