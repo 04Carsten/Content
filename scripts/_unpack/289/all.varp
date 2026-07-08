@@ -1,16 +1,16 @@
-[varp_359]
+[misc_quest]
 
-[varp_360]
+[misc_varbit_1]
 
-[varp_361]
+[misc_varbit_2]
 
-[varp_362]
+[misc_varbit_3]
 
 [varp_363]
 
 [varp_364]
 
-[varp_365]
+[mm_main]
 
 [varp_366]
 
@@ -24,47 +24,47 @@
 
 [varp_371]
 
-[varp_372]
+[mm_gnomes]
 
 [varp_373]
 
 [varp_374]
 
-[varp_375]
+[armourhitsound]
 
 [varp_376]
 
-[varp_377]
+[castlewars_zamorak]
 
-[varp_378]
+[castlewars_saradomin]
 
-[varp_379]
+[castlewars_main]
 
-[varp_380]
+[castlewars_timer]
 
 [varp_381]
 
-[varp_382]
+[hauntedmine]
 
-[varp_383]
+[hauntedmine_bits]
 
 [varp_384]
 
-[varp_385]
+[troll_love]
 
 [varp_386]
 
-[varp_387]
+[routequest]
 
-[varp_388]
+[routequestmulti]
 
 [varp_389]
 
 [varp_390]
 
-[varp_391]
+[trawler_water_overlay]
 
 [varp_392]
 
-[varp_393]
+[karam_dungeon_varbit]
 

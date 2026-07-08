@@ -534,7 +534,7 @@ if (getqueue(eadgar_take_goutweed) > 0 | getqueue(troll_guard_knockout) > 0 | ge
 if_close;
 npc_say("!");
 npc_anim(eadgar_troll_axethrow, 0);
-~player_projectile(npc_coord, coord, uid, spotanim_290, 40, 36, 41, 15, 5, 11, 5);
+~player_projectile(npc_coord, coord, uid, eadgar_thrown_club, 40, 36, 41, 15, 5, 11, 5);
 sound_synth(throw_club, 1, 0);
 queue(troll_guard_knockout, 2, 0);
 
@@ -562,7 +562,7 @@ if(npc_findexact(0_44_157_41_27, eadgar_storeroom_guard) = true) {
     npc_say("Hm?");
     npc_facesquare(coord);
     npc_anim(eadgar_troll_axethrow, 0);
-    ~player_projectile(npc_coord, coord, uid, spotanim_290, 40, 36, 41, 15, 5, 11, 5);
+    ~player_projectile(npc_coord, coord, uid, eadgar_thrown_club, 40, 36, 41, 15, 5, 11, 5);
     sound_synth(throw_club, 1, 0);
     queue(troll_guard_knockout, 2, 0);
 }
@@ -586,7 +586,7 @@ if(inzone(0_44_157_0_0, 0_44_157_63_63, coord) = false) {
     return;
 }
 p_teleport(0_44_157_49_40);
-spotanim_pl(spotanim_291, 124, 0);
+spotanim_pl(eadgar_stunned, 124, 0);
 sound_synth(stun_all, 1, 0);
 
 [queue,eadgar_quest_complete]

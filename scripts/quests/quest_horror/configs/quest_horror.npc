@@ -170,7 +170,7 @@ param=death_anim,horror_dagannoth_death
 param=defend_sound,dagganoth_hit
 param=death_sound,dagganoth_death
 param=rangeattack_sound,dagganoth_spines
-param=proj_travel,spotanim_294
+param=proj_travel,horror_spines_travel
 huntmode=cowardly
 huntrange=1
 
@@ -208,7 +208,7 @@ param=death_anim,horror_dagannoth_death
 param=defend_sound,dagganoth_hit
 param=death_sound,dagganoth_death
 param=rangeattack_sound,dagganoth_spines
-param=proj_travel,spotanim_294
+param=proj_travel,horror_spines_travel
 huntmode=cowardly
 huntrange=1
 
@@ -246,7 +246,7 @@ param=death_anim,horror_dagannoth_death
 param=defend_sound,dagganoth_hit
 param=death_sound,dagganoth_death
 param=rangeattack_sound,dagganoth_spines
-param=proj_travel,spotanim_294
+param=proj_travel,horror_spines_travel
 huntmode=cowardly
 huntrange=1
 

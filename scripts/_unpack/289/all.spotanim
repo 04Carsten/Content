@@ -6,24 +6,24 @@ contrast=100
 recol1s=13404
 recol1d=24741
 
-[spotanim_302]
+[mm_roofcollapse]
 model=traps_rockfall
 anim=rockfall
 recol1s=15855
 recol1d=30513
 
-[spotanim_303]
+[castlewars_catapult_impact]
 model=spot_spotanim_303
 anim=seq_1432
 recol4s=13741
 recol4d=11560
 
-[spotanim_304]
+[castlewars_catapult_travel]
 model=proj_catapultload
 recol4s=13741
 recol4d=11560
 
-[spotanim_305]
+[castlewars_catapult_splash]
 model=spells_wave_impact
 anim=wave_impact
 recol1s=31297
@@ -41,27 +41,27 @@ contrast=50
 recol1s=30754
 recol1d=14352
 
-[spotanim_307]
+[pickaxe_summon_spotanim]
 model=spot_spotanim_307
 anim=seq_1448
 
-[spotanim_308]
+[pickaxe_summon_effect_spotanim]
 model=spells_teleport
-anim=seq_1447
+anim=pickaxe_projectile_summon_spotanim
 
-[spotanim_309]
+[pickaxe_travel_spotanim]
 model=spot_spotanim_307
-anim=seq_1449
+anim=pickaxe_projectile_travel
 
-[spotanim_310]
+[misty]
 model=loc_4047
 anim=misty
 contrast=30
 ambient=30
 
-[spotanim_311]
+[summon_spell]
 model=spot_spotanim_311
-anim=seq_1503
+anim=summon_spell
 
 [spotanim_312]
 model=model_3137_spotanim

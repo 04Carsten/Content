@@ -1596,7 +1596,7 @@ recol1s=15855
 recol1d=349
 active=yes
 op1=Pass
-anim=seq_1433
+anim=castlewars_portalglow
 raiseobject=no
 ambient=100
 contrast=100
@@ -1610,7 +1610,7 @@ recol1d=30753
 active=yes
 op1=Pass
 raiseobject=no
-anim=seq_1433
+anim=castlewars_portalglow
 ambient=100
 contrast=100
 

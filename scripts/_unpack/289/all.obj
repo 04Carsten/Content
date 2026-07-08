@@ -1,4 +1,4 @@
-[obj_3894]
+[misc_awful_anthem]
 name=Awful anthem
 recol1s=28434
 recol1d=14762
@@ -12,7 +12,7 @@ model=inv_certificate
 2dyan=28
 2dxan=552
 
-[obj_3895]
+[misc_good_anthem]
 name=Good anthem
 recol1s=28434
 recol1d=25128
@@ -26,7 +26,7 @@ model=inv_certificate
 2dyan=28
 2dxan=552
 
-[obj_3896]
+[misc_treaty]
 name=Treaty
 recol1s=15648
 recol1d=14762
@@ -43,7 +43,7 @@ model=inv_scrollwithseal
 2dyan=120
 2dxan=380
 
-[obj_3897]
+[misc_giant_nib]
 name=Giant nib
 desc=For making a giant pen.
 cost=1
@@ -56,7 +56,7 @@ model=obj_3897
 2dyan=2044
 2dxan=424
 
-[obj_3898]
+[misc_giant_pen]
 name=Giant pen
 desc=The King should be able to use this.
 cost=1
@@ -69,7 +69,7 @@ model=obj_3898
 2dyan=1500
 2dxan=300
 
-[obj_3899]
+[iron_sickle]
 name=Iron sickle
 recol1s=6342
 recol1d=15649
@@ -86,11 +86,7 @@ manwear=human_weapons_silver_sickle,0
 womanwear=human_weapons_silver_sickle,6
 members=yes
 
-[obj_3900]
-certlink=obj_3899
-certtemplate=template_for_cert
-
-[obj_3901]
+[misc_ghrimbook]
 name=Ghrim's book
 recol1s=13472
 recol1d=448
@@ -108,7 +104,7 @@ members=yes
 2dyan=116
 2dxan=244
 
-[obj_3902]
+[reinit]
 name=Reinit
 model=obj_3902
 2dxof=-1
@@ -117,11 +113,7 @@ model=obj_3902
 2dxan=520
 iop1=Open
 
-[obj_3903]
-certlink=obj_3902
-certtemplate=template_for_cert
-
-[obj_3904]
+[reinitialisation_01]
 name=Sliding button
 model=obj_3902
 2dxof=-1
@@ -131,11 +123,11 @@ model=obj_3902
 iop5=Move
 desc=It's a sliding button of some kind.
 
-[obj_3905]
-certlink=obj_3904
+[cert_reinitialisation_01]
+certlink=reinitialisation_01
 certtemplate=template_for_cert
 
-[obj_3906]
+[reinitialisation_02]
 name=Sliding button
 model=obj_3906
 2dxof=-1
@@ -146,10 +138,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3907]
-certlink=obj_3906
+certlink=reinitialisation_02
 certtemplate=template_for_cert
 
-[obj_3908]
+[reinitialisation_03]
 name=Sliding button
 model=obj_3908
 2dxof=-1
@@ -160,10 +152,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3909]
-certlink=obj_3908
+certlink=reinitialisation_03
 certtemplate=template_for_cert
 
-[obj_3910]
+[reinitialisation_04]
 name=Sliding button
 model=obj_3910
 2dxof=-1
@@ -174,10 +166,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3911]
-certlink=obj_3910
+certlink=reinitialisation_04
 certtemplate=template_for_cert
 
-[obj_3912]
+[reinitialisation_05]
 name=Sliding button
 model=obj_3912
 2dxof=-1
@@ -188,10 +180,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3913]
-certlink=obj_3912
+certlink=reinitialisation_05
 certtemplate=template_for_cert
 
-[obj_3914]
+[reinitialisation_06]
 name=Sliding button
 model=obj_3914
 2dxof=-1
@@ -202,10 +194,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3915]
-certlink=obj_3914
+certlink=reinitialisation_06
 certtemplate=template_for_cert
 
-[obj_3916]
+[reinitialisation_07]
 name=Sliding button
 model=obj_3916
 2dxof=-1
@@ -216,10 +208,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3917]
-certlink=obj_3916
+certlink=reinitialisation_07
 certtemplate=template_for_cert
 
-[obj_3918]
+[reinitialisation_08]
 name=Sliding button
 model=obj_3918
 2dxof=-1
@@ -230,10 +222,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3919]
-certlink=obj_3918
+certlink=reinitialisation_08
 certtemplate=template_for_cert
 
-[obj_3920]
+[reinitialisation_09]
 name=Sliding button
 model=obj_3920
 2dxof=-1
@@ -244,10 +236,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3921]
-certlink=obj_3920
+certlink=reinitialisation_09
 certtemplate=template_for_cert
 
-[obj_3922]
+[reinitialisation_10]
 name=Sliding button
 model=obj_3922
 2dxof=-1
@@ -258,10 +250,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3923]
-certlink=obj_3922
+certlink=reinitialisation_10
 certtemplate=template_for_cert
 
-[obj_3924]
+[reinitialisation_11]
 name=Sliding button
 model=obj_3924
 2dxof=-1
@@ -272,10 +264,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3925]
-certlink=obj_3924
+certlink=reinitialisation_11
 certtemplate=template_for_cert
 
-[obj_3926]
+[reinitialisation_12]
 name=Sliding button
 model=obj_3926
 2dxof=-1
@@ -286,10 +278,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3927]
-certlink=obj_3926
+certlink=reinitialisation_12
 certtemplate=template_for_cert
 
-[obj_3928]
+[reinitialisation_13]
 name=Sliding button
 model=obj_3928
 2dxof=-1
@@ -300,10 +292,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3929]
-certlink=obj_3928
+certlink=reinitialisation_13
 certtemplate=template_for_cert
 
-[obj_3930]
+[reinitialisation_14]
 name=Sliding button
 model=obj_3930
 2dxof=-1
@@ -314,10 +306,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3931]
-certlink=obj_3930
+certlink=reinitialisation_14
 certtemplate=template_for_cert
 
-[obj_3932]
+[reinitialisation_15]
 name=Sliding button
 model=obj_3932
 2dxof=-1
@@ -328,10 +320,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3933]
-certlink=obj_3932
+certlink=reinitialisation_15
 certtemplate=template_for_cert
 
-[obj_3934]
+[reinitialisation_16]
 name=Sliding button
 model=obj_3934
 2dxof=-1
@@ -342,10 +334,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3935]
-certlink=obj_3934
+certlink=reinitialisation_16
 certtemplate=template_for_cert
 
-[obj_3936]
+[reinitialisation_17]
 name=Sliding button
 model=obj_3936
 2dxof=-1
@@ -356,10 +348,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3937]
-certlink=obj_3936
+certlink=reinitialisation_17
 certtemplate=template_for_cert
 
-[obj_3938]
+[reinitialisation_18]
 name=Sliding button
 model=obj_3938
 2dxof=-1
@@ -370,10 +362,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3939]
-certlink=obj_3938
+certlink=reinitialisation_18
 certtemplate=template_for_cert
 
-[obj_3940]
+[reinitialisation_19]
 name=Sliding button
 model=obj_3940
 2dxof=-1
@@ -384,10 +376,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3941]
-certlink=obj_3940
+certlink=reinitialisation_19
 certtemplate=template_for_cert
 
-[obj_3942]
+[reinitialisation_20]
 name=Sliding button
 model=obj_3942
 2dxof=-1
@@ -398,10 +390,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3943]
-certlink=obj_3942
+certlink=reinitialisation_20
 certtemplate=template_for_cert
 
-[obj_3944]
+[reinitialisation_21]
 name=Sliding button
 model=obj_3944
 2dxof=-1
@@ -412,10 +404,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3945]
-certlink=obj_3944
+certlink=reinitialisation_21
 certtemplate=template_for_cert
 
-[obj_3946]
+[reinitialisation_22]
 name=Sliding button
 model=obj_3946
 2dxof=-1
@@ -426,10 +418,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3947]
-certlink=obj_3946
+certlink=reinitialisation_22
 certtemplate=template_for_cert
 
-[obj_3948]
+[reinitialisation_23]
 name=Sliding button
 model=obj_3948
 2dxof=-1
@@ -440,10 +432,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3949]
-certlink=obj_3948
+certlink=reinitialisation_23
 certtemplate=template_for_cert
 
-[obj_3950]
+[reinitialisation_24]
 name=Sliding button
 model=obj_3950
 2dxof=-1
@@ -454,10 +446,10 @@ iop5=Move
 desc=It's a sliding button of some kind.
 
 [obj_3951]
-certlink=obj_3950
+certlink=reinitialisation_24
 certtemplate=template_for_cert
 
-[obj_3952]
+[reinitialisation_01_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3902
@@ -468,10 +460,10 @@ model=obj_3902
 iop5=Move
 
 [obj_3953]
-certlink=obj_3952
+certlink=reinitialisation_01_inactive
 certtemplate=template_for_cert
 
-[obj_3954]
+[reinitialisation_02_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3906
@@ -482,10 +474,10 @@ model=obj_3906
 iop5=Move
 
 [obj_3955]
-certlink=obj_3954
+certlink=reinitialisation_02_inactive
 certtemplate=template_for_cert
 
-[obj_3956]
+[reinitialisation_03_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3908
@@ -496,10 +488,10 @@ model=obj_3908
 iop5=Move
 
 [obj_3957]
-certlink=obj_3956
+certlink=reinitialisation_03_inactive
 certtemplate=template_for_cert
 
-[obj_3958]
+[reinitialisation_04_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3910
@@ -510,10 +502,10 @@ model=obj_3910
 iop5=Move
 
 [obj_3959]
-certlink=obj_3958
+certlink=reinitialisation_04_inactive
 certtemplate=template_for_cert
 
-[obj_3960]
+[reinitialisation_05_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3912
@@ -524,10 +516,10 @@ model=obj_3912
 iop5=Move
 
 [obj_3961]
-certlink=obj_3960
+certlink=reinitialisation_05_inactive
 certtemplate=template_for_cert
 
-[obj_3962]
+[reinitialisation_06_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3914
@@ -538,10 +530,10 @@ model=obj_3914
 iop5=Move
 
 [obj_3963]
-certlink=obj_3962
+certlink=reinitialisation_06_inactive
 certtemplate=template_for_cert
 
-[obj_3964]
+[reinitialisation_07_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3916
@@ -552,10 +544,10 @@ model=obj_3916
 iop5=Move
 
 [obj_3965]
-certlink=obj_3964
+certlink=reinitialisation_07_inactive
 certtemplate=template_for_cert
 
-[obj_3966]
+[reinitialisation_08_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3918
@@ -566,10 +558,10 @@ model=obj_3918
 iop5=Move
 
 [obj_3967]
-certlink=obj_3966
+certlink=reinitialisation_08_inactive
 certtemplate=template_for_cert
 
-[obj_3968]
+[reinitialisation_09_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3920
@@ -580,10 +572,10 @@ model=obj_3920
 iop5=Move
 
 [obj_3969]
-certlink=obj_3968
+certlink=reinitialisation_09_inactive
 certtemplate=template_for_cert
 
-[obj_3970]
+[reinitialisation_10_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3922
@@ -594,10 +586,10 @@ model=obj_3922
 iop5=Move
 
 [obj_3971]
-certlink=obj_3970
+certlink=reinitialisation_10_inactive
 certtemplate=template_for_cert
 
-[obj_3972]
+[reinitialisation_11_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3924
@@ -608,10 +600,10 @@ model=obj_3924
 iop5=Move
 
 [obj_3973]
-certlink=obj_3972
+certlink=reinitialisation_11_inactive
 certtemplate=template_for_cert
 
-[obj_3974]
+[reinitialisation_12_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3926
@@ -622,10 +614,10 @@ model=obj_3926
 iop5=Move
 
 [obj_3975]
-certlink=obj_3974
+certlink=reinitialisation_12_inactive
 certtemplate=template_for_cert
 
-[obj_3976]
+[reinitialisation_13_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3928
@@ -636,10 +628,10 @@ model=obj_3928
 iop5=Move
 
 [obj_3977]
-certlink=obj_3976
+certlink=reinitialisation_13_inactive
 certtemplate=template_for_cert
 
-[obj_3978]
+[reinitialisation_14_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3930
@@ -650,10 +642,10 @@ model=obj_3930
 iop5=Move
 
 [obj_3979]
-certlink=obj_3978
+certlink=reinitialisation_14_inactive
 certtemplate=template_for_cert
 
-[obj_3980]
+[reinitialisation_15_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3932
@@ -664,10 +656,10 @@ model=obj_3932
 iop5=Move
 
 [obj_3981]
-certlink=obj_3980
+certlink=reinitialisation_15_inactive
 certtemplate=template_for_cert
 
-[obj_3982]
+[reinitialisation_16_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3934
@@ -678,10 +670,10 @@ model=obj_3934
 iop5=Move
 
 [obj_3983]
-certlink=obj_3982
+certlink=reinitialisation_16_inactive
 certtemplate=template_for_cert
 
-[obj_3984]
+[reinitialisation_17_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3936
@@ -692,10 +684,10 @@ model=obj_3936
 iop5=Move
 
 [obj_3985]
-certlink=obj_3984
+certlink=reinitialisation_17_inactive
 certtemplate=template_for_cert
 
-[obj_3986]
+[reinitialisation_18_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3938
@@ -706,10 +698,10 @@ model=obj_3938
 iop5=Move
 
 [obj_3987]
-certlink=obj_3986
+certlink=reinitialisation_18_inactive
 certtemplate=template_for_cert
 
-[obj_3988]
+[reinitialisation_19_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3940
@@ -720,10 +712,10 @@ model=obj_3940
 iop5=Move
 
 [obj_3989]
-certlink=obj_3988
+certlink=reinitialisation_19_inactive
 certtemplate=template_for_cert
 
-[obj_3990]
+[reinitialisation_20_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3942
@@ -734,10 +726,10 @@ model=obj_3942
 iop5=Move
 
 [obj_3991]
-certlink=obj_3990
+certlink=reinitialisation_20_inactive
 certtemplate=template_for_cert
 
-[obj_3992]
+[reinitialisation_21_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3944
@@ -748,10 +740,10 @@ model=obj_3944
 iop5=Move
 
 [obj_3993]
-certlink=obj_3992
+certlink=reinitialisation_21_inactive
 certtemplate=template_for_cert
 
-[obj_3994]
+[reinitialisation_22_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3946
@@ -762,10 +754,10 @@ model=obj_3946
 iop5=Move
 
 [obj_3995]
-certlink=obj_3994
+certlink=reinitialisation_22_inactive
 certtemplate=template_for_cert
 
-[obj_3996]
+[reinitialisation_23_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3948
@@ -776,10 +768,10 @@ model=obj_3948
 iop5=Move
 
 [obj_3997]
-certlink=obj_3996
+certlink=reinitialisation_23_inactive
 certtemplate=template_for_cert
 
-[obj_3998]
+[reinitialisation_24_inactive]
 name=Sliding button
 desc=It's a sliding button of some kind.
 model=obj_3950
@@ -790,14 +782,14 @@ model=obj_3950
 iop5=Move
 
 [obj_3999]
-certlink=obj_3998
+certlink=reinitialisation_24_inactive
 certtemplate=template_for_cert
 
-[obj_4000]
+[mm_helper]
 
 [obj_4001]
 
-[obj_4002]
+[mm_reinitialisation_hint]
 name=Spare controls
 recol1s=15855
 recol1d=5250
@@ -811,10 +803,10 @@ model=obj_4002
 iop1=View
 
 [obj_4003]
-certlink=obj_4002
+certlink=mm_reinitialisation_hint
 certtemplate=template_for_cert
 
-[obj_4004]
+[mm_gnome_royal_seal]
 name=Gnome royal seal
 desc=It's the official Royal Gnome Seal, signed by King Narnode Shareem.
 members=yes
@@ -825,7 +817,7 @@ model=inv_scrollwithseal
 2dyan=120
 2dxan=380
 
-[obj_4005]
+[mm_narnode_orders]
 name=Narnode's orders
 recol1s=29594
 recol1d=29398
@@ -838,7 +830,7 @@ model=inv_scroll
 2dyan=120
 2dxan=380
 
-[obj_4006]
+[mm_monkey_dentures]
 name=Monkey dentures
 desc=Magical monkey talking dentures! What more can we say? Ook!
 members=yes
@@ -850,7 +842,7 @@ model=obj_4006
 2dyan=1864
 2dxan=216
 
-[obj_4007]
+[mm_enchanted_gold_bar]
 name=Enchanted bar
 recol1s=11488
 recol1d=12678
@@ -865,7 +857,7 @@ model=inv_orebar
 2dxan=196
 op1=Listen
 
-[obj_4008]
+[mm_eye_of_gnome]
 name=Eye of gnome
 desc=It's ... the eye of a gnome! Now what an earth could one do with this?
 members=yes
@@ -878,10 +870,10 @@ model=inv_newtseye
 2dxan=364
 
 [obj_4009]
-certlink=obj_4008
+certlink=mm_eye_of_gnome
 certtemplate=template_for_cert
 
-[obj_4010]
+[mm_monkey_magic]
 name=Monkey magic
 desc=A small sample of monkey magic.
 members=yes
@@ -895,10 +887,10 @@ model=inv_newtseye
 2dxan=364
 
 [obj_4011]
-certlink=obj_4010
+certlink=mm_monkey_magic
 certtemplate=template_for_cert
 
-[obj_4012]
+[mm_monkey_nuts]
 name=Monkey nuts
 desc=These are monkey nuts. Yummy.
 members=yes
@@ -911,10 +903,10 @@ model=obj_4012
 iop1=Eat
 
 [obj_4013]
-certlink=obj_4012
+certlink=mm_monkey_nuts
 certtemplate=template_for_cert
 
-[obj_4014]
+[mm_monkey_bar]
 name=Monkey bar
 desc=It's a monkey bar. It looks highly nutritious.
 members=yes
@@ -928,10 +920,10 @@ model=inv_chocolate
 iop1=Eat
 
 [obj_4015]
-certlink=obj_4014
+certlink=mm_monkey_bar
 certtemplate=template_for_cert
 
-[obj_4016]
+[mm_banana_stew]
 name=Banana stew
 recol1s=21119
 recol1d=27432
@@ -945,10 +937,10 @@ model=inv_bowl-full
 iop1=Eat
 
 [obj_4017]
-certlink=obj_4016
+certlink=mm_banana_stew
 certtemplate=template_for_cert
 
-[obj_4018]
+[mm_monkey_wrench]
 name=Monkey wrench
 desc=For wrenching monkeys I'd guess.
 members=yes
@@ -961,10 +953,10 @@ model=inv_newtseye
 2dxan=364
 
 [obj_4019]
-certlink=obj_4018
+certlink=mm_monkey_wrench
 certtemplate=template_for_cert
 
-[obj_4020]
+[mm_monkey_amulet_mould]
 name=M'amulet mould
 desc=It's an amulet mould shaped like a monkey head.
 members=yes
@@ -976,7 +968,7 @@ model=obj_4020
 2dyan=96
 2dxan=340
 
-[obj_4021]
+[mm_amulet_of_monkey_speak]
 name=M'speak amulet
 desc=It's an Amulet of Monkey Speak. It makes vague chattering noises.
 members=yes
@@ -989,7 +981,7 @@ manwear=obj_4021_manwear,0
 womanwear=obj_4021_womanwear,0
 iop2=Wear
 
-[obj_4022]
+[mm_amulet_of_monkey_speak_without_string]
 name=M'speak amulet
 desc=It's an unstrung Amulet of Monkey Speak. It makes vague chattering noises.
 members=yes
@@ -999,7 +991,7 @@ model=obj_4022
 2dzoom=330
 2dxan=448
 
-[obj_4023]
+[mm_monkey_talisman]
 name=Monkey talisman
 desc=A magical talisman in the shape of a monkey head.
 members=yes
@@ -1011,7 +1003,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4024]
+[mm_monkey_greegree_for_small_ninja_monkey]
 name=Monkey greegree
 recol1s=17969
 recol1d=5285
@@ -1029,7 +1021,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4025]
+[mm_monkey_greegree_for_medium_ninja_monkey]
 name=Monkey greegree
 recol1s=17969
 recol1d=5285
@@ -1047,7 +1039,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4026]
+[mm_monkey_greegree_for_normal_gorilla]
 name=Monkey greegree
 recol1s=17969
 recol1d=6342
@@ -1065,7 +1057,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4027]
+[mm_monkey_greegree_for_bearded_gorilla]
 name=Monkey greegree
 recol1s=17969
 recol1d=6342
@@ -1083,7 +1075,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4028]
+[mm_monkey_greegree_for_ancient_monkey_skull]
 name=Monkey greegree
 recol1s=17969
 recol1d=31
@@ -1101,7 +1093,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4029]
+[mm_monkey_greegree_for_small_zombie_monkey]
 name=Monkey greegree
 recol1s=17969
 recol1d=7592
@@ -1119,7 +1111,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4030]
+[mm_monkey_greegree_for_large_zombie_monkey]
 name=Monkey greegree
 recol1s=17969
 recol1d=7592
@@ -1137,7 +1129,7 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4031]
+[mm_monkey_greegree_for_normal_monkey]
 name=Monkey greegree
 recol1s=17969
 recol1d=9409
@@ -1155,13 +1147,13 @@ model=obj_4023
 2dxan=456
 iop2=Hold
 
-[obj_4032]
+[fade_to_black_inv]
 name=Dummy
 model=obj_4032
 2dzoom=130
 2dxan=512
 
-[obj_4033]
+[mm_monkey_in_backpack]
 name=Monkey
 desc=It's a monkey in your backpack. As you look it pokes you.
 members=yes
@@ -1172,7 +1164,7 @@ model=obj_4033
 2dxan=488
 iop1=Poke
 
-[obj_4034]
+[mm_ancient_monkey_skull]
 name=Monkey skull
 desc=It's a very ancient skull from some kind of ape.
 members=yes
@@ -1183,7 +1175,7 @@ model=obj_4034
 2dyan=136
 2dxan=96
 
-[obj_4035]
+[mm_sigil]
 name=10th squad sigil
 desc=It's the official sigil of the 10th squad of the Royal Guard.
 members=yes
@@ -1198,10 +1190,10 @@ womanwear=obj_4035_womanwear,0
 iop2=Wear
 
 [obj_4036]
-certlink=obj_4032
+certlink=fade_to_black_inv
 certtemplate=template_for_cert
 
-[obj_4037]
+[castlewars_saradomin_banner]
 name=Saradomin banner
 desc=The Saradomin Team Standard.
 model=game_castlewars_banners_saradomin
@@ -1216,10 +1208,10 @@ womanwear=obj_4037_manwear,6
 members=yes
 
 [obj_4038]
-certlink=obj_4037
+certlink=castlewars_saradomin_banner
 certtemplate=template_for_cert
 
-[obj_4039]
+[castlewars_zamorak_banner]
 name=Zamorak banner
 desc=The Zamorak Team Standard.
 model=game_castlewars_banners_zamorak
@@ -1234,10 +1226,10 @@ womanwear=obj_4039_manwear,6
 members=yes
 
 [obj_4040]
-certlink=obj_4039
+certlink=castlewars_zamorak_banner
 certtemplate=template_for_cert
 
-[obj_4041]
+[castlewars_cloak_saradomin]
 name=Hooded cloak
 recol1s=14724
 recol1d=11736
@@ -1262,7 +1254,7 @@ womanhead=chat_female_head_model_107
 members=yes
 team=1
 
-[obj_4042]
+[castlewars_cloak_zamorak]
 name=Hooded cloak
 recol1s=14724
 recol1d=19684
@@ -1287,7 +1279,7 @@ womanhead=chat_female_head_model_107
 members=yes
 team=2
 
-[obj_4043]
+[castlewars_catapult_rock]
 name=Rock
 desc=I can use this with the catapult.
 model=obj_4043
@@ -1299,10 +1291,10 @@ model=obj_4043
 members=yes
 
 [obj_4044]
-certlink=obj_4043
+certlink=castlewars_catapult_rock
 certtemplate=template_for_cert
 
-[obj_4045]
+[castlewars_explosives_potion]
 name=Explosive potion
 recol1s=15855
 recol1d=29217
@@ -1315,10 +1307,10 @@ model=inv_vial
 members=yes
 
 [obj_4046]
-certlink=obj_4045
+certlink=castlewars_explosives_potion
 certtemplate=template_for_cert
 
-[obj_4047]
+[castlewars_climbing_rope]
 name=Climbing rope
 recol1s=11524
 recol1d=7296
@@ -1332,10 +1324,10 @@ model=ship_pileofrope2
 members=yes
 
 [obj_4048]
-certlink=obj_4047
+certlink=castlewars_climbing_rope
 certtemplate=template_for_cert
 
-[obj_4049]
+[castlewars_bandages]
 name=Bandages
 desc=A box of bandages for healing.
 model=obj_4049
@@ -1347,10 +1339,10 @@ iop1=Heal
 members=yes
 
 [obj_4050]
-certlink=obj_4049
+certlink=castlewars_bandages
 certtemplate=template_for_cert
 
-[obj_4051]
+[castlewars_toolkit]
 name=Toolbox
 desc=I can use this to repair things.
 model=obj_4051
@@ -1362,10 +1354,10 @@ model=obj_4051
 members=yes
 
 [obj_4052]
-certlink=obj_4051
+certlink=castlewars_toolkit
 certtemplate=template_for_cert
 
-[obj_4053]
+[castlewars_barricade]
 name=Barricade
 desc=Use these to block enemy team movement.
 model=loc_4421
@@ -1377,10 +1369,10 @@ iop1=Set-up
 members=yes
 
 [obj_4054]
-certlink=obj_4053
+certlink=castlewars_barricade
 certtemplate=template_for_cert
 
-[obj_4055]
+[castlewars_manual]
 name=Castlewars manual
 recol1s=13472
 recol1d=11558
@@ -1400,7 +1392,7 @@ model=inv_book_fancy
 members=yes
 iop1=Read
 
-[obj_4056]
+[castlewars_no0]
 name=Castlewars no0
 model=obj_4056
 2dxof=-1
@@ -1409,7 +1401,7 @@ model=obj_4056
 2dxan=520
 members=yes
 
-[obj_4057]
+[castlewars_no1]
 name=Castlewars no1
 model=obj_4057
 2dxof=-1
@@ -1418,7 +1410,7 @@ model=obj_4057
 2dxan=520
 members=yes
 
-[obj_4058]
+[castlewars_no2]
 name=Castlewars no2
 model=obj_4058
 2dxof=-1
@@ -1427,7 +1419,7 @@ model=obj_4058
 2dxan=520
 members=yes
 
-[obj_4059]
+[castlewars_no3]
 name=Castlewars no3
 model=obj_4059
 2dxof=-1
@@ -1436,7 +1428,7 @@ model=obj_4059
 2dxan=520
 members=yes
 
-[obj_4060]
+[castlewars_no4]
 name=Castlewars no4
 model=obj_4060
 2dxof=-1
@@ -1445,7 +1437,7 @@ model=obj_4060
 2dxan=520
 members=yes
 
-[obj_4061]
+[castlewars_no5]
 name=Castlewars no5
 model=obj_4061
 2dxof=-1
@@ -1454,7 +1446,7 @@ model=obj_4061
 2dxan=520
 members=yes
 
-[obj_4062]
+[castlewars_no6]
 name=Castlewars no6
 model=obj_4062
 2dxof=-1
@@ -1463,7 +1455,7 @@ model=obj_4062
 2dxan=520
 members=yes
 
-[obj_4063]
+[castlewars_no7]
 name=Castlewars no7
 model=obj_4063
 2dxof=-1
@@ -1472,7 +1464,7 @@ model=obj_4063
 2dxan=520
 members=yes
 
-[obj_4064]
+[castlewars_no8]
 name=Castlewars no8
 model=obj_4064
 2dxof=-1
@@ -1481,7 +1473,7 @@ model=obj_4064
 2dxan=520
 members=yes
 
-[obj_4065]
+[castlewars_no9]
 name=Castlewars no9
 model=obj_4065
 2dxof=-1
@@ -1490,7 +1482,7 @@ model=obj_4065
 2dxan=520
 members=yes
 
-[obj_4066]
+[castlewars_catapult]
 name=Catapult
 model=outdoorfurniture_catapult
 members=yes
@@ -1501,7 +1493,7 @@ members=yes
 2dzan=2028
 2dxan=188
 
-[obj_4067]
+[castlewars_ticket]
 name=Castle wars ticket
 recol1s=19150
 recol1d=18888
@@ -1515,7 +1507,7 @@ cost=1
 members=yes
 stackable=yes
 
-[obj_4068]
+[castlewars_sword]
 name=Decorative sword
 recol1s=9523
 recol1d=19489
@@ -1540,7 +1532,7 @@ manwear=human_weapons_blueritesword,0
 womanwear=human_weapons_blueritesword,6
 iop2=Wield
 
-[obj_4069]
+[castlewars_armour_body]
 name=Decorative armour
 recol1s=15855
 recol1d=19489
@@ -1561,7 +1553,7 @@ manwear2=man_arms_platemail
 womanwear=woman_torso_platemail,0
 womanwear2=woman_arms_platemail
 
-[obj_4070]
+[castlewars_armour_legs]
 name=Decorative armour
 recol1s=15855
 recol1d=20
@@ -1580,7 +1572,7 @@ iop2=Wear
 manwear=man_legs_platemail,0
 womanwear=woman_legs_platemail,0
 
-[obj_4071]
+[castlewars_med_helm]
 name=Decorative helm
 recol1s=15360
 recol1d=20
@@ -1601,7 +1593,7 @@ womanwear=woman_head_mediumhelmet,0
 manhead=chat_male_head_mediumhelmet
 womanhead=chat_female_head_mediumhelmet
 
-[obj_4072]
+[castlewars_shield]
 name=Decorative shield
 recol1s=15855
 recol1d=19489
@@ -1622,7 +1614,7 @@ cost=850
 manwear=human_weapons_kiteshield,0
 womanwear=human_weapons_kiteshield,6
 
-[obj_4073]
+[damp_tinderbox]
 name=Damp tinderbox
 recol1s=32767
 recol1d=21140
@@ -1638,10 +1630,10 @@ womanwear=model_488_obj_wear,0
 members=yes
 
 [obj_4074]
-certlink=obj_4073
+certlink=damp_tinderbox
 certtemplate=template_for_cert
 
-[obj_4075]
+[glowing_fungus]
 name=Glowing fungus
 desc=A bizarre fungus.  It glows with a pale blue light.
 model=obj_4075
@@ -1652,9 +1644,9 @@ model=obj_4075
 2dxan=208
 members=yes
 
-[obj_4076]
+[crystalshard_dagger]
 
-[obj_4077]
+[hauntedmine_reward_key]
 name=Crystal-mine key
 desc=A key I found in the lower levels of the Morytanian mines.
 model=inv_key
@@ -1665,7 +1657,7 @@ model=inv_key
 2dxan=328
 members=yes
 
-[obj_4078]
+[hauntedmine_lift_key]
 name=Zealot's key
 recol1s=31393
 recol1d=22197
@@ -1678,7 +1670,7 @@ model=inv_key
 2dxan=328
 members=yes
 
-[obj_4079]
+[xmas_yoyo]
 name=Yo-yo
 cost=10
 desc=A gift from Santa.
@@ -1693,13 +1685,13 @@ iop4=Crazy
 2dyan=2036
 2dxan=196
 
-[obj_4080]
+[xmas_yoyoworn]
 name=Xmas yoyoworn
 model=obj_4080
 manwear=obj_4080,0
 womanwear=obj_4080,6
 
-[obj_4081]
+[crystalshard_necklace]
 name=Salve amulet
 recol1s=13537
 recol1d=32767
@@ -1715,7 +1707,7 @@ manwear=obj_4081_manwear,0
 womanwear=obj_4081_womanwear,0
 members=yes
 
-[obj_4082]
+[crystalshard_necklace_unstrung]
 name=Salve shard
 desc=An unstrung crystal imbued with the power of Saradomin.
 model=obj_4082
@@ -1724,7 +1716,7 @@ model=obj_4082
 2dyan=2044
 members=yes
 
-[obj_4083]
+[trollromance_toboggon]
 name=Sled
 desc=It needs waxing before I can use it.
 model=obj_4083
@@ -1736,7 +1728,7 @@ womanwear=obj_4083_manwear,0
 members=yes
 cost=150
 
-[obj_4084]
+[trollromance_toboggon_waxed]
 name=Sled
 recol1s=23082
 recol1d=24107
@@ -1755,7 +1747,7 @@ womanwear=obj_4083_manwear,0
 members=yes
 cost=175
 
-[obj_4085]
+[trollromance_wax]
 name=Wax
 desc=I can use this to wax my sled.
 model=obj_4085
@@ -1769,7 +1761,7 @@ womanwear=obj_4085_manwear,0
 members=yes
 cost=15
 
-[obj_4086]
+[trollromance_rare_flower]
 name=Trollweiss
 recol1s=9702
 recol1d=13932
@@ -1793,7 +1785,7 @@ womanwear=human_weapons_flowerbunch,6
 members=yes
 cost=5
 
-[obj_4087]
+[dragon_platelegs]
 name=Dragon platelegs
 desc=These look pretty heavy.
 model=obj_4087
@@ -1807,6 +1799,6 @@ womanwear=obj_4087_womanwear,0
 members=yes
 
 [obj_4088]
-certlink=obj_4087
+certlink=dragon_platelegs
 certtemplate=template_for_cert
 

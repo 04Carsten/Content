@@ -22,11 +22,11 @@ anim=sp_d_halberd_glow
 ambient=60
 contrast=60
 
-[spotanim_286]
+[regicide_barrelflight]
 model=quest_regicide_catapult_barrel
 anim=inair_barrel
 
-[spotanim_287]
+[regicide_barrelflight_exploding]
 model=quest_regicide_barrel_explode
 anim=barrel_explode
 
@@ -42,11 +42,11 @@ resizev=64
 recol1s=64
 recol1d=12288
 
-[spotanim_290]
+[eadgar_thrown_club]
 model=proj_taxetravel_troll_club
 anim=taxe_launch
 
-[spotanim_291]
+[eadgar_stunned]
 model=spells_stunned
 anim=eadgar_stunned
 ambient=40
@@ -60,35 +60,35 @@ anim=temple_pyre_fire
 model=quest_shades_npc_attack
 anim=shade_attack2
 
-[spotanim_294]
+[horror_spines_travel]
 model=quest_horror_proj_spines
 
-[spotanim_295]
+[horror_spines_travel_air]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=19026
 
-[spotanim_296]
+[horror_spines_travel_water]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=13743
 
-[spotanim_297]
+[horror_spines_travel_fire]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=14600
 
-[spotanim_298]
+[horror_spines_travel_earth]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=18856
 
-[spotanim_299]
+[horror_spines_travel_ranged]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=8680
 
-[spotanim_300]
+[horror_spines_travel_melee]
 model=quest_horror_proj_spines
 recol3s=11626
 recol3d=17961

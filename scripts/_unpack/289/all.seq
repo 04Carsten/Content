@@ -45,7 +45,7 @@ frame6=anim_1463
 
 [seq_1366]
 replaceheldleft=hide
-replaceheldright=obj_3899
+replaceheldright=iron_sickle
 priority=6
 stretches=yes
 loops=13
@@ -90,7 +90,7 @@ frame9=anim_10108
 
 [seq_1369]
 replaceheldleft=hide
-replaceheldright=obj_3899
+replaceheldright=iron_sickle
 priority=6
 stretches=yes
 loops=13
@@ -157,7 +157,7 @@ frame11=anim_10111
 frame12=anim_10112
 frame13=anim_10113
 
-[seq_1372]
+[misc_shipjourney_to_misc]
 frame1=anim_10124
 frame2=anim_10124
 frame3=anim_10133
@@ -194,7 +194,7 @@ frame33=anim_10132
 frame34=anim_10132
 delay34=20000
 
-[seq_1373]
+[misc_shipjourney_to_rellekka]
 frame1=anim_10141
 frame2=anim_10141
 frame3=anim_10150
@@ -231,7 +231,7 @@ frame33=anim_10149
 frame34=anim_10149
 delay34=20000
 
-[seq_1374]
+[emote_blow_kiss]
 replaceheldleft=hide
 replaceheldright=hide
 priority=2
@@ -315,7 +315,7 @@ frame58=anim_10443
 frame59=anim_10444
 frame60=anim_10445
 
-[seq_1377]
+[fade_out]
 loops=1
 frame1=anim_10445
 frame2=anim_10444
@@ -488,7 +488,7 @@ frame168=anim_10443
 frame169=anim_10444
 frame170=anim_10445
 
-[seq_1378]
+[fade_in]
 loops=1
 frame1=anim_10437
 frame2=anim_10446
@@ -508,7 +508,7 @@ frame15=anim_10443
 frame16=anim_10444
 frame17=anim_10445
 
-[seq_1379]
+[human_mm_flyback]
 replaceheldleft=hide
 replaceheldright=hide
 loops=1
@@ -534,7 +534,7 @@ frame18=anim_1578
 frame19=anim_2308
 frame20=anim_1438
 
-[seq_1380]
+[m_monkey_walk]
 loops=1
 frame1=anim_10395
 frame2=anim_10396
@@ -546,7 +546,7 @@ frame7=anim_10401
 frame8=anim_10402
 frame9=anim_10403
 
-[seq_1381]
+[m_monkey_run]
 loops=1
 frame1=anim_10386
 frame2=anim_10387
@@ -558,7 +558,7 @@ frame7=anim_10392
 frame8=anim_10393
 frame9=anim_10394
 
-[seq_1382]
+[m_zombie_walk]
 loops=1
 frame1=anim_10413
 frame2=anim_10414
@@ -570,7 +570,7 @@ frame7=anim_10419
 frame8=anim_10420
 frame9=anim_10421
 
-[seq_1383]
+[m_zombie_attack]
 frame1=anim_10404
 frame2=anim_10405
 frame3=anim_10406
@@ -581,14 +581,14 @@ frame7=anim_10410
 frame8=anim_10411
 frame9=anim_10412
 
-[seq_1384]
+[m_monkey_death]
 frame1=anim_10339
 frame2=anim_10340
 frame3=anim_10341
 frame4=anim_10342
 frame5=anim_10343
 
-[seq_1385]
+[m_monkey_dh_walk]
 loops=1
 frame1=anim_10344
 frame2=anim_10345
@@ -600,7 +600,7 @@ frame7=anim_10350
 frame8=anim_10351
 frame9=anim_10352
 
-[seq_1386]
+[m_monkey_ready]
 loops=1
 frame1=anim_10362
 frame2=anim_10363
@@ -610,7 +610,7 @@ frame5=anim_10366
 frame6=anim_10367
 frame7=anim_10368
 
-[seq_1387]
+[m_monkey_acolyte_ready]
 loops=1
 frame1=anim_10369
 frame2=anim_10370
@@ -620,7 +620,7 @@ frame5=anim_10373
 frame6=anim_10374
 frame7=anim_10375
 
-[seq_1388]
+[m_monkey_jailofficer_ready]
 frame1=anim_10376
 frame2=anim_10377
 frame3=anim_10378
@@ -629,7 +629,7 @@ frame5=anim_10380
 frame6=anim_10381
 frame7=anim_10382
 
-[seq_1389]
+[m_monkey_jailofficer_getup]
 loops=7
 frame1=anim_10353
 frame2=anim_10354
@@ -648,7 +648,7 @@ frame14=anim_10380
 frame15=anim_10381
 frame16=anim_10382
 
-[seq_1390]
+[m_monkey_jailofficer_liedown]
 loops=3
 frame1=anim_10361
 frame2=anim_10360
@@ -669,7 +669,7 @@ frame1=anim_10383
 frame2=anim_10384
 frame3=anim_10385
 
-[seq_1392]
+[m_monkey_attack_scimitar]
 priority=6
 frame1=anim_10322
 frame2=anim_10323
@@ -680,12 +680,12 @@ frame6=anim_10327
 frame7=anim_10328
 frame8=anim_10329
 
-[seq_1393]
+[m_monkey_block_scimitar]
 frame1=anim_10336
 frame2=anim_10337
 frame3=anim_10338
 
-[seq_1394]
+[m_monkey_attack_bow]
 priority=6
 frame1=anim_10301
 frame2=anim_10301
@@ -698,13 +698,13 @@ frame8=anim_10307
 frame9=anim_10308
 frame10=anim_10300
 
-[seq_1395]
+[m_monkey_block_bow]
 frame1=anim_10330
 frame2=anim_10331
 frame3=anim_10332
 frame4=anim_10333
 
-[seq_1396]
+[m_monkey_attack_doublescimitar]
 priority=6
 frame1=anim_10309
 frame2=anim_10314
@@ -719,10 +719,10 @@ frame10=anim_10310
 frame11=anim_10311
 frame12=anim_10312
 
-[seq_1397]
+[m_monkey_block_doublescimitar]
 frame1=anim_10334
 
-[seq_1398]
+[m_monkey_ape_ruler_nod]
 frame1=anim_10205
 frame2=anim_10206
 frame3=anim_10207
@@ -731,7 +731,7 @@ frame5=anim_10209
 frame6=anim_10210
 frame7=anim_10211
 
-[seq_1399]
+[m_gorilla_walk]
 frame1=anim_10290
 frame2=anim_10291
 frame3=anim_10292
@@ -742,18 +742,18 @@ frame7=anim_10296
 frame8=anim_10297
 frame9=anim_10298
 
-[seq_1400]
+[m_gorilla_run]
 frame1=anim_10284
 frame2=anim_10285
 frame3=anim_10286
 frame4=anim_10287
 frame5=anim_10288
 
-[seq_1401]
+[m_gorilla_ready]
 frame1=anim_10282
 frame2=anim_10283
 
-[seq_1402]
+[m_gorilla_attack]
 frame1=anim_10249
 frame2=anim_10250
 frame3=anim_10251
@@ -762,12 +762,12 @@ frame5=anim_10253
 frame6=anim_10254
 frame7=anim_10256
 
-[seq_1403]
+[m_gorilla_block]
 frame1=anim_10265
 frame2=anim_10266
 frame3=anim_10267
 
-[seq_1404]
+[m_gorilla_death]
 loops=1
 frame1=anim_10268
 frame2=anim_10269
@@ -777,7 +777,7 @@ frame5=anim_10272
 frame6=anim_10273
 frame7=anim_10274
 
-[seq_1405]
+[m_gorilla_poundchest]
 priority=6
 frame1=anim_10281
 frame2=anim_10276
@@ -803,18 +803,18 @@ frame6=anim_10262
 frame7=anim_10263
 frame8=anim_10264
 
-[seq_1407]
+[m_human_catlike_land]
 priority=9
 loops=1
 frame1=anim_1438
 
-[seq_1408]
+[m_human_land]
 stretches=yes
 priority=9
 loops=1
 frame1=anim_8358
 
-[seq_1409]
+[m_human_land_getup]
 stretches=yes
 priority=9
 frame1=anim_8358
@@ -823,7 +823,7 @@ frame3=anim_8360
 frame4=anim_8361
 frame5=anim_8362
 
-[seq_1410]
+[m_glider_unfold]
 loops=1
 frame1=anim_10219
 frame2=anim_10230
@@ -846,15 +846,15 @@ frame18=anim_10228
 frame19=anim_10229
 frame20=anim_10231
 
-[seq_1411]
+[m_glider_ready]
 loops=1
 frame1=anim_10219
 
-[seq_1412]
+[m_assassin_ready]
 frame1=anim_10430
 frame2=anim_10431
 
-[seq_1413]
+[m_assassin_attack]
 frame1=anim_10422
 frame2=anim_10423
 frame3=anim_10424
@@ -864,7 +864,7 @@ frame6=anim_10427
 frame7=anim_10428
 frame8=anim_10429
 
-[seq_1414]
+[m_sapper_wallwipe]
 loops=11
 frame1=anim_10181
 frame2=anim_10184
@@ -878,7 +878,7 @@ frame9=anim_10191
 frame10=anim_10182
 frame11=anim_10183
 
-[seq_1415]
+[m_mage_attack]
 frame1=anim_10432
 frame2=anim_10433
 frame3=anim_10434
@@ -918,7 +918,7 @@ frame8=anim_10179
 frame9=anim_10180
 frame10=anim_10172
 
-[seq_1419]
+[m_normalmonkey_run]
 frame1=anim_10192
 frame2=anim_10193
 frame3=anim_10194
@@ -926,7 +926,7 @@ frame4=anim_10195
 frame5=anim_10196
 frame6=anim_10197
 
-[seq_1420]
+[mm_floorspikes_activate]
 loops=1
 frame1=anim_8213
 frame2=anim_8215
@@ -939,7 +939,7 @@ frame8=anim_8221
 frame9=anim_8222
 frame10=anim_8214
 
-[seq_1421]
+[human_bannerready]
 stretches=yes
 frame1=anim_10510
 frame2=anim_10514
@@ -954,7 +954,7 @@ frame10=anim_10511
 frame11=anim_10512
 frame12=anim_10513
 
-[seq_1422]
+[human_bannerwalk_f]
 stretches=yes
 frame1=anim_10494
 frame2=anim_10495
@@ -965,7 +965,7 @@ frame6=anim_10499
 frame7=anim_10500
 frame8=anim_10501
 
-[seq_1423]
+[human_bannerwalk_b]
 stretches=yes
 frame1=anim_10501
 frame2=anim_10500
@@ -976,28 +976,28 @@ frame6=anim_10496
 frame7=anim_10495
 frame8=anim_10494
 
-[seq_1424]
+[human_bannerwalk_l]
 stretches=yes
 frame1=anim_10502
 frame2=anim_10503
 frame3=anim_10504
 frame4=anim_10505
 
-[seq_1425]
+[human_bannerwalk_r]
 stretches=yes
 frame1=anim_10506
 frame2=anim_10507
 frame3=anim_10508
 frame4=anim_10509
 
-[seq_1426]
+[human_bannerturnonspot]
 stretches=yes
 frame1=anim_10490
 frame2=anim_10491
 frame3=anim_10492
 frame4=anim_10493
 
-[seq_1427]
+[human_bannerrunning]
 stretches=yes
 frame1=anim_10482
 frame2=anim_10483
@@ -1008,7 +1008,7 @@ frame6=anim_10487
 frame7=anim_10488
 frame8=anim_10489
 
-[seq_1428]
+[human_banner_spike]
 walkmerge=label_1,label_2,label_9,label_11,label_13,label_15,label_17,label_19,label_37,label_39,label_41,label_43,label_45
 priority=6
 frame1=anim_10470
@@ -1018,7 +1018,7 @@ frame4=anim_10473
 frame5=anim_10474
 frame6=anim_10475
 
-[seq_1429]
+[human_banner_block]
 walkmerge=label_1,label_2,label_9,label_11,label_13,label_15,label_17,label_19,label_37,label_39,label_41,label_43,label_45
 frame1=anim_10476
 frame2=anim_10477
@@ -1031,7 +1031,7 @@ frame8=anim_10479
 frame9=anim_10478
 frame10=anim_10477
 
-[seq_1430]
+[castlewars_banner]
 loops=10
 frame1=anim_9855
 frame2=anim_9857
@@ -1072,7 +1072,7 @@ frame14=anim_10459
 frame15=anim_10460
 frame16=anim_10461
 
-[seq_1433]
+[castlewars_portalglow]
 loops=32
 frame1=anim_10522
 frame2=anim_10531
@@ -1167,7 +1167,7 @@ frame6=anim_10634
 frame7=anim_10635
 frame8=anim_10636
 
-[seq_1437]
+[bossghost_summon]
 priority=9
 preanim_move=merge
 postanim_move=merge
@@ -1184,7 +1184,7 @@ frame10=anim_10639
 frame11=anim_10640
 frame12=anim_10641
 
-[seq_1438]
+[bossghost_fade_in]
 priority=9
 preanim_move=merge
 postanim_move=merge
@@ -1202,7 +1202,7 @@ frame11=anim_10619
 frame12=anim_10620
 delay12=200
 
-[seq_1439]
+[bossghost_fade_out]
 priority=9
 preanim_move=merge
 postanim_move=merge
@@ -1250,10 +1250,10 @@ frame9=anim_1237
 frame10=anim_2364
 frame11=anim_644
 
-[seq_1442]
+[skeleton_beforesummon]
 frame1=anim_10658
 
-[seq_1443]
+[skeleton_summon]
 frame1=anim_10658
 frame2=anim_10665
 frame3=anim_10666
@@ -1271,7 +1271,7 @@ frame14=anim_10663
 frame15=anim_10664
 delay15=50
 
-[seq_1444]
+[skeleton_sitdown]
 frame1=anim_10664
 frame2=anim_10663
 frame3=anim_10662
@@ -1289,11 +1289,11 @@ frame14=anim_10665
 frame15=anim_10658
 delay15=20
 
-[seq_1445]
+[pickaxe_beforesummon]
 frame1=anim_5120
 delay1=1
 
-[seq_1446]
+[pickaxe_summon]
 frame1=anim_5120
 delay1=1
 frame2=anim_5142
@@ -1302,7 +1302,7 @@ frame4=anim_5135
 frame5=anim_5131
 delay5=100
 
-[seq_1447]
+[pickaxe_projectile_summon_spotanim]
 frame1=anim_6445
 frame2=anim_6446
 frame3=anim_6448
@@ -1317,7 +1317,7 @@ frame3=anim_5139
 frame4=anim_5135
 frame5=anim_5131
 
-[seq_1449]
+[pickaxe_projectile_travel]
 loops=1
 frame1=anim_10650
 frame2=anim_10651
@@ -1328,11 +1328,11 @@ frame6=anim_10655
 frame7=anim_10656
 frame8=anim_10657
 
-[seq_1450]
+[possessed_key_ready]
 loops=1
 frame1=anim_10594
 
-[seq_1451]
+[possessed_key_drifting]
 frame1=anim_10586
 frame2=anim_10587
 frame3=anim_10588
@@ -1342,7 +1342,7 @@ frame6=anim_10591
 frame7=anim_10592
 frame8=anim_10593
 
-[seq_1452]
+[mining_crane_attack]
 stretches=yes
 frame1=anim_10539
 frame2=anim_10543
@@ -1357,7 +1357,7 @@ frame10=anim_10540
 frame11=anim_10541
 frame12=anim_10542
 
-[seq_1453]
+[hauntedmine_cart_travel]
 frame1=anim_10551
 frame2=anim_10552
 frame3=anim_10553
@@ -1381,7 +1381,7 @@ frame8=anim_10584
 frame9=anim_10585
 delay9=10000
 
-[seq_1455]
+[hauntedmine_cartleft]
 loops=1
 frame1=anim_10559
 frame2=anim_10560
@@ -1394,7 +1394,7 @@ frame8=anim_10566
 frame9=anim_10567
 delay9=10000
 
-[seq_1456]
+[hauntedmine_cartright]
 loops=1
 frame1=anim_10568
 frame2=anim_10569
@@ -1407,9 +1407,9 @@ frame8=anim_10575
 frame9=anim_10576
 delay9=10000
 
-[seq_1457]
+[yoyo_updown]
 replaceheldleft=hide
-replaceheldright=obj_4080
+replaceheldright=xmas_yoyoworn
 frame1=anim_10702
 frame2=anim_10703
 frame3=anim_10704
@@ -1444,9 +1444,9 @@ frame31=anim_10704
 frame32=anim_10703
 frame33=anim_10702
 
-[seq_1458]
+[yoyo_roundworld]
 replaceheldleft=hide
-replaceheldright=obj_4080
+replaceheldright=xmas_yoyoworn
 frame1=anim_10689
 frame2=anim_10694
 frame3=anim_10695
@@ -1465,9 +1465,9 @@ frame15=anim_10691
 frame16=anim_10692
 frame17=anim_10693
 
-[seq_1459]
+[yoyo_walkdog]
 replaceheldleft=hide
-replaceheldright=obj_4080
+replaceheldright=xmas_yoyoworn
 frame1=anim_10707
 frame2=anim_10710
 frame3=anim_10711
@@ -1480,9 +1480,9 @@ frame9=anim_10717
 frame10=anim_10708
 frame11=anim_10709
 
-[seq_1460]
+[yoyo_advanced]
 replaceheldleft=hide
-replaceheldright=obj_4080
+replaceheldright=xmas_yoyoworn
 frame1=anim_10673
 frame2=anim_10681
 frame3=anim_10682
@@ -1508,7 +1508,7 @@ frame22=anim_10678
 frame23=anim_10679
 frame24=anim_10680
 
-[seq_1461]
+[trollromance_toboggan_ready]
 postanim_move=abortanim
 frame1=anim_10785
 frame2=anim_10786
@@ -1518,7 +1518,7 @@ frame5=anim_10789
 frame6=anim_10790
 frame7=anim_10791
 
-[seq_1462]
+[trollromance_toboggan_moving]
 postanim_move=abortanim
 frame1=anim_10779
 frame2=anim_10780
@@ -1527,7 +1527,7 @@ frame4=anim_10782
 frame5=anim_10783
 frame6=anim_10784
 
-[seq_1463]
+[trollromance_toboggan_flying]
 loops=1
 frame1=anim_10767
 frame2=anim_10768
@@ -1536,7 +1536,7 @@ frame4=anim_10770
 frame5=anim_10771
 frame6=anim_10772
 
-[seq_1464]
+[trollromance_toboggan_crashing]
 frame1=anim_10745
 frame2=anim_10747
 frame3=anim_10748
@@ -1549,7 +1549,7 @@ frame9=anim_10754
 frame10=anim_10746
 delay10=20000
 
-[seq_1465]
+[trollromance_toboggan_getup]
 frame1=anim_1769
 frame2=anim_1769
 frame3=anim_1769
@@ -1566,7 +1566,7 @@ frame13=anim_1135
 frame14=anim_1421
 frame15=anim_1713
 
-[seq_1466]
+[trollromance_toboggan_defend]
 frame1=anim_10755
 frame2=anim_10756
 frame3=anim_10757
@@ -1575,7 +1575,7 @@ frame5=anim_10757
 frame6=anim_10756
 frame7=anim_10755
 
-[seq_1467]
+[trollromance_toboggan_stunt]
 frame1=anim_10767
 frame2=anim_10768
 frame3=anim_10769
@@ -1607,7 +1607,7 @@ frame28=anim_10770
 frame29=anim_10771
 frame30=anim_10772
 
-[seq_1468]
+[trollromance_toboggan_walking]
 frame1=anim_10792
 frame2=anim_10793
 frame3=anim_10794
@@ -1617,7 +1617,7 @@ frame6=anim_10797
 frame7=anim_10798
 frame8=anim_10799
 
-[seq_1469]
+[trollromance_toboggan_eat]
 frame1=anim_10759
 frame2=anim_10760
 frame3=anim_10761
@@ -1627,9 +1627,9 @@ frame6=anim_10764
 frame7=anim_10765
 frame8=anim_10766
 
-[seq_1470]
-replaceheldright=obj_4083
-replaceheldleft=obj_4085
+[trollromance_toboggan_waxing]
+replaceheldright=trollromance_toboggon
+replaceheldleft=trollromance_wax
 frame1=anim_10807
 frame2=anim_10811
 frame3=anim_10812
@@ -1663,8 +1663,8 @@ frame30=anim_10811
 frame31=anim_10807
 
 [seq_1471]
-replaceheldright=obj_4083
-replaceheldleft=obj_4085
+replaceheldright=trollromance_toboggon
+replaceheldleft=trollromance_wax
 frame1=anim_10807
 frame2=anim_10811
 frame3=anim_10812
@@ -1675,8 +1675,8 @@ frame7=anim_10816
 frame8=anim_10817
 
 [seq_1472]
-replaceheldright=obj_4083
-replaceheldleft=obj_4085
+replaceheldright=trollromance_toboggon
+replaceheldleft=trollromance_wax
 frame1=anim_10818
 frame2=anim_10808
 frame3=anim_10809
@@ -1695,8 +1695,8 @@ frame15=anim_10809
 frame16=anim_10810
 
 [seq_1473]
-replaceheldright=obj_4083
-replaceheldleft=obj_4085
+replaceheldright=trollromance_toboggon
+replaceheldleft=trollromance_wax
 frame1=anim_10816
 frame2=anim_10815
 frame3=anim_10814
@@ -1705,7 +1705,7 @@ frame5=anim_10812
 frame6=anim_10811
 frame7=anim_10807
 
-[seq_1474]
+[trollromance_cry_test]
 stretches=yes
 frame1=anim_10828
 frame2=anim_10829
@@ -1732,7 +1732,7 @@ frame4=anim_10831
 frame5=anim_10832
 frame6=anim_10833
 
-[seq_1476]
+[trollromance_cry_loop]
 loops=2
 stretches=yes
 frame1=anim_10832
@@ -1790,7 +1790,7 @@ frame17=anim_10821
 frame18=anim_10820
 frame19=anim_10819
 
-[seq_1480]
+[trollromance_eat]
 frame1=anim_10834
 frame2=anim_10839
 frame3=anim_10840
@@ -1809,7 +1809,7 @@ frame15=anim_10838
 frame16=anim_10834
 frame17=anim_10834
 
-[seq_1481]
+[trollromance_emote_angry]
 frame1=anim_10718
 frame2=anim_10719
 frame3=anim_10720
@@ -1826,7 +1826,7 @@ frame13=anim_10720
 frame14=anim_10719
 frame15=anim_10718
 
-[seq_1482]
+[trollromance_emote_cheer]
 frame1=anim_10738
 frame2=anim_10739
 frame3=anim_10740
@@ -1849,7 +1849,7 @@ frame19=anim_10740
 frame20=anim_10739
 frame21=anim_10738
 
-[seq_1483]
+[trollromance_emote_wave]
 frame1=anim_10801
 frame2=anim_10802
 frame3=anim_10803
@@ -1866,7 +1866,7 @@ frame13=anim_10803
 frame14=anim_10802
 frame15=anim_10801
 
-[seq_1484]
+[trollromance_emote_beckon]
 frame1=anim_10730
 frame2=anim_10731
 frame3=anim_10732
@@ -1885,7 +1885,7 @@ frame15=anim_10732
 frame16=anim_10731
 frame17=anim_10730
 
-[seq_1485]
+[trollromance_emote_clap]
 frame1=anim_10724
 frame2=anim_10725
 frame3=anim_10726
@@ -1902,7 +1902,7 @@ frame13=anim_10726
 frame14=anim_10725
 frame15=anim_10724
 
-[seq_1486]
+[human_pickuptrollweiss_down]
 walkmerge=label_1,label_2,label_9,label_11,label_13,label_15,label_17,label_19,label_37,label_39,label_41,label_43,label_45
 replaceheldleft=hide
 replaceheldright=hide
@@ -1922,9 +1922,9 @@ frame12=anim_1841
 frame13=anim_1841
 frame14=anim_1841
 
-[seq_1487]
+[human_pickuptrollweiss_up]
 replaceheldleft=hide
-replaceheldright=obj_4086
+replaceheldright=trollromance_rare_flower
 frame1=anim_1548
 frame2=anim_1548
 frame3=anim_1266
@@ -2403,7 +2403,7 @@ frame11=anim_11077
 frame12=anim_11078
 frame13=anim_11079
 
-[seq_1503]
+[summon_spell]
 frame1=anim_11162
 frame2=anim_11167
 frame3=anim_11168

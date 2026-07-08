@@ -535,15 +535,15 @@ if(last_useitem = regicide_barrel_lid_fused) {
     }
     loc_anim(fire_catapult);
     sound_synth(catapult_fire, 1, 0);
-    ~coord_projectile(0_34_49_9_49, 0_34_49_10_6, spotanim_286, 138, 75, 50, 30, 170, 0, 0);
+    ~coord_projectile(0_34_49_9_49, 0_34_49_10_6, regicide_barrelflight, 138, 75, 50, 30, 170, 0, 0);
     %regicide_catapult_used = ^false;
     p_delay(4);
     anim(regicide_player_vanish, 0);
     p_teleport(0_36_71_10_6);
     p_delay(0);
-    spotanim_map(spotanim_287, 0_36_71_10_6, 194, 100);
+    spotanim_map(regicide_barrelflight_exploding, 0_36_71_10_6, 194, 100);
     sound_synth(barrel_incoming, 1, 35);
-    ~coord_projectile(0_36_71_10_18, 0_36_71_10_7, spotanim_286, 112, 100, 10, 30, 90, 0, 0);
+    ~coord_projectile(0_36_71_10_18, 0_36_71_10_7, regicide_barrelflight, 112, 100, 10, 30, 90, 0, 0);
     p_delay(2);
     anim(regicide_player_vanish, 0);
     loc_add(0_36_71_13_6, regicide_tent_human_fire, 0, wall_straight, 10);
