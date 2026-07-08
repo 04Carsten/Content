@@ -28,13 +28,16 @@ scope=perm
 [varp_370]
 
 [mm_flags]
+scope=perm
 
 [mm_gnomes]
 scope=perm
 
 [mm_monkeys]
+scope=perm
 
 [mm_misc]
+scope=perm
 
 // todo: osrs has "armourhitsound" here?
 [varp_375]
