@@ -465,7 +465,8 @@ model6=man_hands_gloves
 model7=man_legs_tatty
 model8=man_feet_boots
 head1=chat_male_head_bald
-head2=chat_male_headextra_eyepatch
+head2=chat_male_jaw_goaty
+head3=chat_male_headextra_eyepatch
 
 [arena_bouncer]
 size=2

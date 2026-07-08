@@ -146,6 +146,7 @@ model=inv_rocks1
 2dzoom=820
 2dyan=20
 2dxan=204
+members=yes
 weight=1kg
 
 [papyrus]

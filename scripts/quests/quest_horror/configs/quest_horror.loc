@@ -18,8 +18,6 @@ name=Iron ladder
 desc=I could climb this if I wanted
 model=quest_horror_ladder_iron_down
 sharelight=yes
-active=yes
-op1=Climb
 
 [horror_ladder_top]
 name=Iron ladder

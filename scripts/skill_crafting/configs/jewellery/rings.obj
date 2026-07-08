@@ -130,6 +130,7 @@ dummyitem=inv_only
 
 [invis_ring2]
 name=Emerald ring
+desc=It's an Emerald ring
 model=floor_invisableicon_0
 param=crafting_jewelry_struct,emerald_ring
 dummyitem=inv_only

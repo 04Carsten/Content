@@ -1,5 +1,5 @@
 [holy_book_s_page1]
-name=Torn page 1
+name=Torn page 1(s)
 recol1s=23254
 recol1d=26424
 recol2s=22197
@@ -24,7 +24,7 @@ weight=5g
 category=category_759
 
 [holy_book_s_page2]
-name=Torn page 2
+name=Torn page 2(s)
 recol1s=23254
 recol1d=26424
 recol2s=22197
@@ -49,7 +49,7 @@ weight=5g
 category=category_759
 
 [holy_book_s_page3]
-name=Torn page 3
+name=Torn page 3(s)
 recol1s=23254
 recol1d=26424
 recol2s=22197
@@ -74,7 +74,7 @@ weight=5g
 category=category_759
 
 [holy_book_s_page4]
-name=Torn page 4
+name=Torn page 4(s)
 recol1s=23254
 recol1d=26424
 recol2s=22197
@@ -99,7 +99,7 @@ weight=5g
 category=category_759
 
 [holy_book_z_page1]
-name=Torn page 1
+name=Torn page 1(z)
 recol1s=23254
 recol1d=26260
 recol2s=22197
@@ -124,7 +124,7 @@ weight=5g
 category=category_759
 
 [holy_book_z_page2]
-name=Torn page 2
+name=Torn page 2(z)
 recol1s=23254
 recol1d=26260
 recol2s=22197
@@ -149,7 +149,7 @@ weight=5g
 category=category_759
 
 [holy_book_z_page3]
-name=Torn page 3
+name=Torn page 3(z)
 recol1s=23254
 recol1d=26260
 recol2s=22197
@@ -174,7 +174,7 @@ weight=5g
 category=category_759
 
 [holy_book_z_page4]
-name=Torn page 4
+name=Torn page 4(z)
 recol1s=23254
 recol1d=26260
 recol2s=22197
@@ -199,7 +199,7 @@ weight=5g
 category=category_759
 
 [holy_book_g_page1]
-name=Torn page 1
+name=Torn page 1(g)
 recol1s=23254
 recol1d=19186
 recol2s=22197
@@ -224,7 +224,7 @@ weight=5g
 category=category_759
 
 [holy_book_g_page2]
-name=Torn page 2
+name=Torn page 2(g)
 recol1s=23254
 recol1d=19186
 recol2s=22197
@@ -249,7 +249,7 @@ weight=5g
 category=category_759
 
 [holy_book_g_page3]
-name=Torn page 3
+name=Torn page 3(g)
 recol1s=23254
 recol1d=19186
 recol2s=22197
@@ -274,7 +274,7 @@ weight=5g
 category=category_759
 
 [holy_book_g_page4]
-name=Torn page 4
+name=Torn page 4(g)
 recol1s=23254
 recol1d=19186
 recol2s=22197
@@ -394,7 +394,7 @@ recol2s=15855
 recol2d=20033
 recol3s=29594
 recol3d=15855
-desc=The holy book of Zamorak.
+desc=The unholy book of Zamorak.
 model=inv_book_fancy
 iop2=Wield
 iop3=Preach

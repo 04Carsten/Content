@@ -49,7 +49,7 @@ category=category_149
 
 [mindrune]
 name=Mind rune
-desc=Used for low level missile spells.
+desc=Used for basic level missile spells.
 stackable=yes
 cost=3
 model=inv_mindrune
@@ -99,7 +99,7 @@ category=category_149
 
 [chaosrune]
 name=Chaos rune
-desc=Used for mid level missile spells.
+desc=Used for low level missile spells.
 stackable=yes
 cost=15
 model=inv_chaosrune

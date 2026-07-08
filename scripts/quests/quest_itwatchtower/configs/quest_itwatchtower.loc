@@ -85,12 +85,14 @@ name=Ladder
 desc=This leads to the watchtower.
 model=furniture_ladder
 op1=Climb-up
+mapscene=7
 
 [watchladderdown]
 name=Ladder
 desc=This leads downwards.
 model=furniture_ladderdown
 op1=Climb-down
+mapscene=7
 
 [watchtowerbush]
 name=Bush
@@ -204,6 +206,7 @@ name=Ladder
 desc=This leads downwards.
 model=furniture_dungeonladder
 op1=Climb-down
+mapscene=7
 
 [enclavecave]
 name=Cave entrance
@@ -366,12 +369,13 @@ name=Ladder
 desc=This goes up!
 model=furniture_ladder
 op1=Climb-up
+mapscene=7
 
 [tobanblock]
 name=Battlement
 desc=A low wall is blocking your path.
 model=crumbly_low
-op1=Climb_over
+op1=Climb-over
 active=yes
 
 [darkcaverock]

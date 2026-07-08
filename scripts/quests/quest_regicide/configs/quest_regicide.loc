@@ -932,7 +932,7 @@ active=no
 
 [regicide_tentroofcentre1]
 name=Tent
-desc=A Tent
+desc=A Tent.
 model=tent_roofcentre1
 recol1s=26425
 recol1d=21069
@@ -941,7 +941,7 @@ active=yes
 
 [regicide_tentroof_high]
 name=Tent
-desc=A Tent
+desc=A Tent.
 model=quest_regicide_tentroof_high
 recol1s=26425
 recol1d=9623
@@ -952,7 +952,7 @@ active=yes
 
 [regicide_tentroof_high_centre]
 name=Tent
-desc=A Tent
+desc=A Tent.
 model=quest_regicide_tentroof_high_centre
 recol1s=26425
 recol1d=21069
@@ -961,7 +961,7 @@ active=yes
 
 [regicide_tentroof_highcorner]
 name=Tent
-desc=A Tent
+desc=A Tent.
 model=loc_3986
 recol1s=26425
 recol1d=9623
@@ -970,7 +970,8 @@ recol2d=21069
 active=yes
 
 [propbarrel_burning]
-name=propbarrel_burning
+name=Barrel
+desc=A small barrel.
 model=loc_3987
 recol1s=9344
 recol1d=16808

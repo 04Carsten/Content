@@ -1,10 +1,10 @@
 [upassmage]
+vislevel=hide
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 name=Dark mage
 desc=A dark magic user.
 op1=Talk-to
-vislevel=13
 recol1s=2340
 recol1d=19588
 recol2s=14724

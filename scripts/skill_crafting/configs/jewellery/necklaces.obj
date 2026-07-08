@@ -130,6 +130,7 @@ dummyitem=inv_only
 
 [invis_necklace2]
 name=Emerald necklace
+desc=It's an Emerald necklace
 model=floor_invisableicon_0
 param=crafting_jewelry_struct,emerald_necklace
 dummyitem=inv_only

@@ -850,7 +850,7 @@ param=next_loc_stage,viking_abode_door_open
 
 [viking_abode_door_open]
 name=Door
-desc=Doesn't keep the wind out if its open!
+desc=Doesn't keep the wind out if it's open!
 model=quest_viking_abode_wooden_door
 active=yes
 ambient=30
@@ -867,14 +867,14 @@ contrast=30
 
 [viking_fur_door]
 name=Door
-desc=I'm sure the animal is glad it's fur was put to good use.
+desc=I'm sure the animal is glad its fur was put to good use.
 model=quest_viking_fur_door
 op1=Open
 active=yes
 
 [viking_fur_door_open]
 name=Door
-desc=I'm sure the animal is glad it's fur was put to good use.
+desc=I'm sure the animal is glad its fur was put to good use.
 model=quest_viking_fur_door_open
 op1=Close
 blockwalk=no

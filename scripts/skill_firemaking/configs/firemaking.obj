@@ -55,8 +55,8 @@ category=light_source_unlit
 param=product,torch_lit
 
 [unlitarrow]
-name=Unlit arrows
-desc=Unlit arrows.
+name=Bronze fire arrows
+desc=Arrows with bronze heads and oil soaked cloth.
 members=yes
 cost=10
 stackable=yes

@@ -81,7 +81,7 @@ moverestrict=indoors
 [jatix]
 vislevel=hide
 name=Jatix
-desc=He runs the Herblore Shop
+desc=He runs the Herblore Shop.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
@@ -157,7 +157,7 @@ recol4d=18785
 model1=model_2897_npc
 model2=model_2909_npc
 model3=model_2917_npc
-head1=chat_male_head_shorthair
+head1=model_139_npc_head
 param=death_anim,midget_death
 
 [druid]

@@ -328,6 +328,8 @@ model=ship_rope
 hillskew=yes
 sharelight=yes
 active=yes
+blockwalk=no
+op1=Cross
 
 [shades_experimentshelf]
 name=Shelf
@@ -770,7 +772,7 @@ retex1s=mossybricks
 retex1d=elfbrick
 recol2s=6340
 recol2d=17932
-op1=Return
+op1=Capture
 blockrange=no
 
 [castlewars_zamorak_stand]
@@ -778,7 +780,7 @@ name=Standard Stand
 desc=There should be a standard here!
 model=loc_4377
 blockrange=no
-op1=Return
+op1=Capture
 
 [castlewars_catapult_zamorak]
 name=Catapult
@@ -1086,7 +1088,6 @@ recol2d=5248
 wallwidth=32
 sharelight=yes
 occlude=yes
-blockrange=no
 
 [castlewars_castlebattlements_saradomin]
 model=castle_edge
@@ -1097,7 +1098,7 @@ blockrange=no
 
 [castlewars_steping_stone]
 name=Stepping stone
-desc=a very slipery stepping stone
+desc=A very slippery stepping stone
 model=game_castlewars_steping_stone
 op1=Jump-to
 active=yes
@@ -1112,6 +1113,7 @@ recol1d=12684
 length=3
 mapscene=7
 sharelight=yes
+forceapproach=north
 
 [castlewars_topstair]
 name=Staircase
@@ -1139,6 +1141,7 @@ length=3
 mapscene=7
 op1=Climb
 sharelight=yes
+forceapproach=north
 
 [castlewars_outsidestairs_zamorak]
 name=Staircase
@@ -1148,6 +1151,7 @@ length=3
 mapscene=7
 op1=Climb
 sharelight=yes
+forceapproach=north
 
 [castlewars_outsidestairs_saradomin_linked]
 name=Staircase
@@ -1413,6 +1417,7 @@ mirror=yes
 
 [hs_inviswall]
 model=blank
+model2=loc_4909
 shadow=no
 mapscene=22
 
@@ -1487,7 +1492,7 @@ op1=Take-from
 
 [castlewars_table_rocks]
 name=Table
-desc=There's some rock I can use with the catupult here.
+desc=There's some rock I can use with the catapult here.
 model=furniture_bigtable
 model2=game_castlewars_table_rocks
 width=2
@@ -1526,7 +1531,7 @@ op1=Take-from
 
 [castlewars_table_pickaxes]
 name=Table
-desc=There are some toolboxes on this table.
+desc=There are some pickaxes on this table.
 model=furniture_bigtable
 model2=game_castlewars_table_pickaxes
 recol1s=15855
@@ -1584,28 +1589,30 @@ op1=Lock
 raiseobject=no
 
 [castlewars_saradomin_spawndoor]
-name=Door
-desc=An elf-fashioned door.
-model=basic_wall
-retex1s=wall
-retex1d=elfdoor
-recol2s=6342
-recol2d=11458
+name=Energy Barrier
+desc=Only the Saradomin team may pass.
+model=model_4874
+recol1s=15855
+recol1d=349
 active=yes
-op1=Open
+op1=Pass
+anim=seq_1433
 raiseobject=no
+ambient=100
+contrast=100
 
 [castlewars_zamorak_spawndoor]
-name=Door
-desc=The door is closed.
-model=basic_wall
-retex1s=wall
-retex1d=door
-recol2s=6342
-recol2d=11458
+name=Energy Barrier
+desc=Only the Zamorak team may pass.
+model=model_4874
+recol1s=15855
+recol1d=30753
 active=yes
-op1=Open
+op1=Pass
 raiseobject=no
+anim=seq_1433
+ambient=100
+contrast=100
 
 [castlewars_saradomin_spawntrapdoor]
 name=Trapdoor
@@ -2310,4 +2317,3 @@ model=outdoorfurniture_statue_malewarrior
 name=Camorra
 desc=A statue of Camorra (the Fountain of Heroes has moved downstairs.)
 model=outdoorfurniture_statue_femalewarrior
-

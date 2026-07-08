@@ -1,5 +1,5 @@
 [elemental_workshop_shield_book]
-desc=A very thickley bound book.
+desc=A very thickly bound book.
 model=inv_book
 cost=10
 tradeable=no

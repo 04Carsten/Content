@@ -450,7 +450,7 @@ param=retreat,10
 [vampire_leech]
 name=Leech
 model1=quest_vampires_npc_leech
-desc=Yuk! Its all slimey!
+desc=Yuck! It's all slimey!
 walkanim=leechwalk
 readyanim=leechready
 op2=Attack

@@ -256,7 +256,8 @@ op1=Open
 raiseobject=no
 
 [barrel_stacked]
-name=barrel_stacked
+name=Stacked barrels
+desc=Mmm...beer!
 model=furniture_barrel_stacked
 
 [boardgames_noticeboard]
@@ -268,7 +269,7 @@ active=yes
 op1=Read
 
 [boardgames_runelink_ladderup_experienced]
-name=Ladder up
+name=Ladder
 desc=The ladder to the Runelink challenge room for experienced players.
 model=furniture_ladder
 forceapproach=north
@@ -284,7 +285,7 @@ active=yes
 op1=Climb-Down
 
 [boardgames_draughts_ladderup_experienced]
-name=Ladder up
+name=Ladder
 desc=The ladder to the Draughts challenge room for experienced players.
 model=furniture_ladder
 forceapproach=north
@@ -300,7 +301,7 @@ active=yes
 op1=Climb-Down
 
 [boardgames_ladderup]
-name=Ladder up
+name=Ladder
 desc=The ladder back up to the Toad and Chicken.
 model=furniture_ladder
 forceapproach=north
@@ -381,6 +382,7 @@ blockrange=no
 
 [boardgames_barstool_invis]
 model=blank
+model2=loc_4909
 blockrange=no
 
 [boardgames_draughts_plaque]

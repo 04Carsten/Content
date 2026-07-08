@@ -44,7 +44,7 @@ huntrange=1
 
 [ugthanki]
 name=Ugthanki
-desc=A vicious attaking camel.
+desc=A vicious attacking camel.
 size=2
 walkanim=camel_walk
 readyanim=camel_ready

@@ -73,7 +73,7 @@ param=dir,0
 name=A wooden log
 desc=A nearly rotten wooden log that crosses the river.
 model=floor_log_balance1
-op1=Balance
+op1=Cross
 sharelight=yes
 mapscene=13
 
@@ -81,7 +81,7 @@ mapscene=13
 name=Stepping stones
 desc=A rocky outcrop from the running water.
 model=floor_steppingstone
-op1=Balance
+op1=Cross
 active=yes
 category=karamja_stepping_stone
 
@@ -89,7 +89,7 @@ category=karamja_stepping_stone
 name=Stepping stones
 desc=A rocky outcrop from the running water.
 model=floor_steppingstone
-op1=Balance
+op1=Cross
 active=yes
 category=karamja_stepping_stone
 
@@ -97,6 +97,6 @@ category=karamja_stepping_stone
 name=Stepping stones
 desc=A rocky outcrop from the running water.
 model=floor_steppingstone
-op1=Balance
+op1=Cross
 active=yes
 category=karamja_stepping_stone

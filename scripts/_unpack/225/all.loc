@@ -36,7 +36,7 @@ recol1d=15749
 
 [junglestatue]
 name=Mysterious statue
-desc=It's eyes stare off into the distance...
+desc=Its eyes stare off into the distance...
 model=model_loc_21
 width=4
 length=4
@@ -262,14 +262,17 @@ recol2d=11458
 
 [inviswall]
 model=blank
+model2=loc_4909
 shadow=no
 mapscene=22
 
 [00]
 model=blank
+model2=loc_4909
 
 [inviswall_blockrange]
 model=blank
+model2=loc_4909
 blockrange=no
 shadow=no
 mapscene=22
@@ -5612,6 +5615,7 @@ model=furniture_shelves1
 name=Clothing shelves
 desc=Tailor made for needlework supplies
 model=walldecor_clothesequip-shelves
+blockwalk=no
 
 [cookingshelfempty_dark]
 model=walldecor_cookingshelfempty
@@ -9647,6 +9651,7 @@ model=wooden_bamboo_bridge
 sharelight=yes
 hillskew=yes
 active=no
+forcedecor=yes
 
 [loc_1724]
 name=Staircase
@@ -9911,16 +9916,18 @@ op1=Climb-up
 
 [loc_1762]
 name=Climbing rope
-desc=A rope hangs here
+desc=A rope hangs here.
 model=outdoorfurniture_rope
 op1=Climb
 
 [climbing_rope_top]
+name=Climbing rope
+desc=A rope hangs here.
 model=outdoorfurniture_rope_top
 
 [climbing_rope2]
 name=Climbing rope
-desc=A rope hangs here
+desc=A rope hangs here.
 model=outdoorfurniture_rope
 op1=Climb
 
@@ -10506,8 +10513,8 @@ active=no
 
 [marblearch]
 model=outdoorfurniture_marblearch
-width=2
 active=no
+width=2
 
 [marblepillar]
 model=outdoorfurniture_marblepillar
@@ -12811,6 +12818,7 @@ blockrange=no
 
 [inviswall_no_blockrange]
 model=blank
+model2=loc_4909
 width=2
 length=2
 

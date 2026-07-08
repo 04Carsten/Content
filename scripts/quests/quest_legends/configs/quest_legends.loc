@@ -45,6 +45,13 @@ param=cupboard_other,legends_cupboard
 name=Jungle Tree
 desc=Looks good for logging.
 model=plants_jungletree1
+recol1s=15855
+recol1d=5378
+recol2s=12684
+recol2d=5314
+recol3s=10570
+recol3d=7298
+ambient=40
 resizex=164
 resizey=164
 resizez=164
@@ -69,6 +76,13 @@ mapscene=5
 name=Jungle Tree
 desc=Home to many unusual creatures.
 model=plants_jungletree1
+recol1s=15855
+recol1d=5378
+recol2s=12684
+recol2d=5314
+recol3s=10570
+recol3d=7298
+ambient=40
 op1=Chop-down
 op3=hidden
 mapscene=5
@@ -299,6 +313,7 @@ forceapproach=east
 
 [lglockpickgatebottoml]
 name=Ancient Gate
+desc=This gate has a horribly complex locking mechanism.
 model=quest_loc_2912
 active=yes
 op1=Open
@@ -308,6 +323,7 @@ param=next_loc_stage,inac_lglockpickgatebottoml
 
 [lglockpickgatebottomr]
 name=Ancient Gate
+desc=This gate has a horribly complex locking mechanism.
 model=quest_loc_2913
 active=yes
 op1=Open
@@ -375,9 +391,8 @@ category=boulder_legends
 
 [lgstrengthtrialgatel]
 name=Ancient Gate
+desc=A heavily constructed, cast-iron, ancient gateway.
 model=model_loc_2922
-active=yes
-op1=Open
 recol1s=10570
 recol1d=1057
 recol2s=15855
@@ -386,14 +401,15 @@ recol3s=6342
 recol3d=1057
 recol4s=9512
 recol4d=11328
+active=yes
+op1=Open
 category=double_door_open_and_close_left
 param=next_loc_stage,lgstrengthtrialgate_inact_l
 
 [lgstrengthtrialgater]
 name=Ancient Gate
+desc=A heavily constructed, cast-iron, ancient gateway.
 model=quest_loc_2923
-active=yes
-op1=Open
 recol1s=10570
 recol1d=1057
 recol2s=15855
@@ -402,13 +418,15 @@ recol3s=6342
 recol3d=1057
 recol4s=9512
 recol4d=11328
+active=yes
+op1=Open
 category=double_door_open_and_close_right
 param=next_loc_stage,lgstrengthtrialgate_inact_r
 
 [lgstrengthtrialgate_inact_l]
 name=Ancient Gate
+desc=A heavily constructed, cast-iron, ancient gateway.
 model=model_loc_2922
-active=yes
 recol1s=10570
 recol1d=1057
 recol2s=15855
@@ -417,11 +435,12 @@ recol3s=6342
 recol3d=1057
 recol4s=9512
 recol4d=11328
+active=yes
 
 [lgstrengthtrialgate_inact_r]
 name=Ancient Gate
+desc=A heavily constructed, cast-iron, ancient gateway.
 model=quest_loc_2923
-active=yes
 recol1s=10570
 recol1d=1057
 recol2s=15855
@@ -430,6 +449,7 @@ recol3s=6342
 recol3d=1057
 recol4s=9512
 recol4d=11328
+active=yes
 
 [crumbled_wall]
 name=Jagged wall

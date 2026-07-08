@@ -11,6 +11,8 @@ name=Flax
 desc=A plant cultivated for fibres.
 model=plants_loc_2646
 op2=Pick
+mapscene=32
+blockwalk=no
 
 [viking_spinningwheel]
 name=Spinning wheel

@@ -153,7 +153,7 @@ womanwear=human_weapons_shears,6
 weight=4oz
 
 [cow_hide]
-name=Cow hide
+name=Cowhide
 desc=I should take this to the tannery.
 model=inv_cowhide
 2dxof=-1
@@ -251,7 +251,7 @@ members=yes
 [dragonhide_black]
 cost=80
 name=Dragonhide
-desc=The scaly rough hide from a Dragon
+desc=The scaly rough hide from a Dragon.
 model=inv_dragonhide
 recol1s=256
 recol1d=3171
@@ -269,7 +269,7 @@ param=color,black
 [dragonhide_red]
 cost=60
 name=Dragonhide
-desc=The scaly rough hide from a Dragon
+desc=The scaly rough hide from a Dragon.
 model=inv_dragonhide
 recol1s=256
 recol1d=8192
@@ -287,7 +287,7 @@ param=color,red
 [dragonhide_blue]
 cost=40
 name=Dragonhide
-desc=The scaly rough hide from a Dragon
+desc=The scaly rough hide from a Dragon.
 model=inv_dragonhide
 recol1s=256
 recol1d=11
@@ -305,7 +305,7 @@ param=color,blue
 [dragonhide_green]
 cost=20
 name=Dragonhide
-desc=The scaly rough hide from a Dragon
+desc=The scaly rough hide from a Dragon.
 model=inv_dragonhide
 2dxof=-1
 2dyof=-2

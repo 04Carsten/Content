@@ -1010,8 +1010,8 @@ recol2d=14881
 dummyitem=inv_only
 
 [litarrow]
-name=Lit arrows
-desc=These arrows are ablaze with fire.
+name=Bronze fire arrows
+desc=These bronze headed arrows are ablaze with fire.
 members=yes
 cost=10
 stackable=yes
