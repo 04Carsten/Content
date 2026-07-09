@@ -2286,14 +2286,14 @@ sharelight=yes
 op1=Crawl down
 
 [cavewall_face1_end_grey_left]
-model=loc_4916
+model=quest_hauntedmine_cavewall_face1_end
 recol1s=12580
 recol1d=11627
 hillskew=yes
 sharelight=yes
 
 [cavewall_face1_end_grey_right]
-model=loc_4916
+model=quest_hauntedmine_cavewall_face1_end
 recol1s=12580
 recol1d=11627
 hillskew=yes
@@ -4126,7 +4126,7 @@ op1=Chop-down
 op3=hidden
 
 [loc_5108]
-model=loc_5108
+model=skill_slayer_wall_cave_vine
 recol1s=6307
 recol1d=7296
 recol2s=7364
@@ -4143,7 +4143,7 @@ sharelight=yes
 hillskew=yes
 
 [loc_5109]
-model=loc_5109
+model=skill_slayer_wall_cave_lev2_vine
 recol1s=11592
 recol1d=12580
 recol2s=7364
@@ -4208,7 +4208,7 @@ blockrange=no
 [loc_5115]
 name=Fungus
 desc=I doubt that's edible.
-model=loc_5115
+model=plants_nastyfungus_small
 recol1s=31302
 recol1d=11555
 recol2s=30415
