@@ -1176,13 +1176,13 @@ sharelight=yes
 [castlewars_barricade]
 name=Barricade
 desc=A spiky barricade.
-model=castle_wars_update_barricade_unmade
+model=game_castlewars_barricade
 blockrange=no
 
 [castlewars_barricade_burning]
 name=Barricade
 desc=A spiky barricade.
-model=castle_wars_update_barricade_unmade
+model=game_castlewars_barricade
 model2=loc_4422
 recol1s=14628
 recol1d=11458

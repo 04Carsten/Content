@@ -1109,7 +1109,7 @@ members=yes
 [castlewars_barricade]
 name=Barricade
 desc=Use these to block enemy team movement.
-model=castle_wars_update_barricade_unmade
+model=game_castlewars_barricade
 2dyof=-27
 2dzoom=2760
 2dyan=1816

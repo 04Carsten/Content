@@ -3330,7 +3330,7 @@
 3329=man_legs_chap_plain
 3330=man_torsoextra_paladin_star
 3331=woman_feet_spurboots
-3332=model_3332
+3332=woman_headextra_model_3332
 3333=human_weapons_horsey
 3334=basic_prisondoor2_1
 3335=model_3335
@@ -3554,7 +3554,7 @@
 3553=transilvania_area_priestperil_vegatation_swamp_plant5
 3554=loc_3493
 3555=loc_3497
-3556=transilvania_area_priestperil_inv_dagger_wolfbane
+3556=inv_dagger_wolfbane
 3557=npc_1030
 3558=npc_willothewisp
 3559=quest_naturespirit_npc_ghast
@@ -4448,7 +4448,7 @@
 4447=loc_4385
 4448=model_4448
 4449=model_4449
-4450=castle_wars_update_barricade_unmade
+4450=game_castlewars_barricade
 4451=outdoorfurniture_statue_kursk
 4452=model_4452
 4453=loc_4493

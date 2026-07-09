@@ -732,7 +732,7 @@ model1=woman_head_dredlocks
 model2=woman_torso_thin
 model3=woman_arms_longsleeves2
 model4=woman_hands_basic
-model5=model_3332
+model5=woman_headextra_model_3332
 model6=woman_legs_model_439
 model7=woman_feet_basic
 recol1s=2340
@@ -3033,7 +3033,7 @@ vislevel=1
 
 [castlewars_barricade_saradomin]
 name=Barricade
-model1=castle_wars_update_barricade_unmade
+model1=game_castlewars_barricade
 minimap=no
 vislevel=hide
 desc=A spiky barricade.
@@ -3041,7 +3041,7 @@ op2=Attack
 
 [castlewars_barricade_burning_saradomin]
 name=Barricade
-model1=castle_wars_update_barricade_unmade
+model1=game_castlewars_barricade
 model2=loc_4422
 recol1s=14628
 recol1d=11458
@@ -3055,7 +3055,7 @@ op2=Attack
 
 [castlewars_barricade_zamorak]
 name=Barricade
-model1=castle_wars_update_barricade_unmade
+model1=game_castlewars_barricade
 minimap=no
 vislevel=hide
 desc=A spiky barricade.
@@ -3063,7 +3063,7 @@ op2=Attack
 
 [castlewars_barricade_burning_zamorak]
 name=Barricade
-model1=castle_wars_update_barricade_unmade
+model1=game_castlewars_barricade
 model2=loc_4422
 recol1s=14628
 recol1d=11458
