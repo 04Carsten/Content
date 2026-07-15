@@ -29,6 +29,7 @@ head1=chat_male_head_bald
 head2=chat_male_jaw_split
 head3=chat_male_headband
 wanderrange=2
+maxrange=0
 
 [duel_fadli]
 name=Fadli
@@ -56,7 +57,8 @@ model6=man_legs_basic
 model7=man_feet_boots
 head1=chat_male_head_dredlocks
 head2=chat_male_jaw_goaty
-wanderrange=2
+wanderrange=1
+maxrange=3
 param=owned_shop,duel_rottenfruitshop
 param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,550
@@ -95,6 +97,8 @@ head2=model_136_npc_head
 head3=model_3186_npc_head
 moverestrict=indoors
 category=healer
+wanderrange=5
+maxrange=7
 
 [duel_nurse2]
 name=Sabreen
@@ -126,6 +130,8 @@ head1=chat_female_head_shorthair
 head2=model_3186_npc_head
 moverestrict=indoors
 category=healer
+wanderrange=5
+maxrange=7
 
 [duel_nurse3]
 name=Tafani
@@ -157,6 +163,8 @@ head1=chat_female_head_longhair
 head2=model_3186_npc_head
 moverestrict=indoors
 category=healer
+wanderrange=5
+maxrange=7
 
 [duel_jaraah]
 name=Jaraah
@@ -190,6 +198,8 @@ model9=man_torsoextra_bloodsplats
 head1=chat_male_head_bald
 head2=chat_male_jaw_long
 moverestrict=indoors
+wanderrange=5
+maxrange=7
 
 [duel_injured1]
 name=Zahwa
@@ -220,6 +230,8 @@ head1=chat_male_head_spikeyhair
 head2=chat_male_jaw_short2
 head3=chat_male_headextra_eyepatch
 moverestrict=indoors
+wanderrange=5
+maxrange=7
 
 [duel_crowdmale1]
 name=Ima
@@ -250,6 +262,7 @@ head1=chat_male_head_shorthair
 head2=chat_male_jaw_short2
 head3=chat_male_model_30
 wanderrange=10
+maxrange=12
 hitpoints=7
 
 [duel_crowdmale2]
@@ -281,6 +294,7 @@ head1=chat_male_head_shorthair
 head2=chat_male_jaw_long
 head3=chat_male_model_30
 wanderrange=10
+maxrange=12
 hitpoints=7
 
 [duel_crowdmale3]
@@ -312,6 +326,7 @@ head1=chat_male_head_shorthair
 head2=chat_male_jaw_long
 head3=chat_male_model_30
 wanderrange=10
+maxrange=12
 hitpoints=7
 
 [duel_crowdfemale1]
@@ -341,6 +356,7 @@ model7=woman_feet_basic
 head1=chat_female_head_shorthair
 head2=chat_female_model_88
 wanderrange=10
+maxrange=12
 hitpoints=7
 
 [duel_crowdfemale2]
@@ -370,6 +386,7 @@ model7=woman_feet_basic
 head1=chat_female_head_shorthair
 head2=chat_female_model_88
 wanderrange=10
+maxrange=12
 hitpoints=7
 
 [duel_crowdfemale3]
@@ -397,6 +414,7 @@ model5=woman_legs_longskirt
 model6=woman_feet_basic
 head1=chat_female_head_longhair
 wanderrange=10
+maxrange=12
 hitpoints=7
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc
 

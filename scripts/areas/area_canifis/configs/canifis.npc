@@ -524,7 +524,7 @@ param=shop_buy_multiplier,700
 param=shop_delta,30
 param=shop_title,Rufus' Meat Emporium
 moverestrict=indoors
-wanderrange=5
+wanderrange=2
 
 [werewolfshopkeeper2]
 name=Barker
@@ -557,7 +557,7 @@ param=shop_buy_multiplier,400
 param=shop_delta,30
 param=shop_title,Barkers' Habidashery
 moverestrict=indoors
-wanderrange=5
+wanderrange=2
 
 [werewolfshopkeeper3]
 name=Fidelio
@@ -583,7 +583,7 @@ param=shop_buy_multiplier,100
 param=shop_delta,30
 param=shop_title,General Store
 moverestrict=indoors
-wanderrange=5
+wanderrange=3
 
 [werewolftanner]
 name=Sbott
@@ -609,7 +609,7 @@ op3=Trade
 head1=chat_male_head_bald
 head2=chat_male_jaw_split
 head3=chat_male_head_werewolf_features
-wanderrange=5
+wanderrange=2
 
 [werewolfinnkeeper]
 name=Roavar
@@ -634,7 +634,7 @@ op1=Talk-to
 op3=Trade
 head1=chat_male_head_bald
 head2=chat_male_head_werewolf_features
-wanderrange=5
+wanderrange=3
 
 [willothewisp]
 name=Willow the wisp

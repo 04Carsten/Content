@@ -311,6 +311,7 @@ model7=man_legs_turnups
 model8=man_headextra_ponytail
 head1=chat_male_head_shorthair2
 moverestrict=indoors
+wanderrange=3
 
 [makeover_mage]
 vislevel=hide
@@ -373,7 +374,7 @@ model8=man_headextra_eyepatch
 head1=chat_male_head_spikeyhair
 head2=chat_male_jaw_moustache
 head3=chat_male_headextra_eyepatch
-wanderrange=8
+wanderrange=10
 
 [squire]
 vislevel=hide

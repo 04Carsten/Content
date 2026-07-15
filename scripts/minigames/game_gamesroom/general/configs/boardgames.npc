@@ -25,6 +25,8 @@ param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,0
 param=shop_delta,10
 param=shop_title,The Toad and Chicken
+wanderrange=5
+maxrange=7
 
 [boardgames_barmaid2]
 name=Rachael
@@ -53,3 +55,5 @@ param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,0
 param=shop_delta,10
 param=shop_title,The Toad and Chicken
+wanderrange=5
+maxrange=7

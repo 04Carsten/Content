@@ -139,7 +139,7 @@ model9=man_necklaces_amulet
 head1=chat_male_head_hood2
 head2=chat_male_jaw_long
 head3=chat_male_headextra_eyepatch
-wanderrange=0
+wanderrange=1
 moverestrict=nomove
 
 [kolhuman]

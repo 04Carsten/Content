@@ -25,6 +25,7 @@ head1=chat_male_head_bald
 head2=model_77_npc_head
 head3=chat_male_jaw_short
 wanderrange=3
+maxrange=3
 
 [fishguildshop]
 vislevel=hide

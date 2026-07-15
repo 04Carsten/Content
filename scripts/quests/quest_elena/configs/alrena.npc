@@ -26,3 +26,5 @@ model6=woman_legs_longskirt_narrow
 model7=woman_torsoextra_cloak
 model8=woman_necklaces_greennecklace
 head1=chat_female_head_longhair
+wanderrange=2
+maxrange=2

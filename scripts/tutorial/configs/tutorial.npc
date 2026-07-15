@@ -309,6 +309,7 @@ param=defend_sound,chicken_hit
 param=death_sound,chicken_death
 param=death_drop,newbiebones
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3316
+wanderrange=5
 
 [0_48_48_newbiefishing]
 vislevel=hide
@@ -322,6 +323,7 @@ walkanim=fishingspot_walk
 model1=outdoorfurniture_loc_42
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 category=category_453
 

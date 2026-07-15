@@ -82,6 +82,7 @@ model8=man_feet_basic
 head1=chat_male_head_mediumhair
 head2=chat_male_model_37
 head3=chat_male_jaw_medium
+wanderrange=3
 
 [plaguesheep_1]
 vislevel=hide

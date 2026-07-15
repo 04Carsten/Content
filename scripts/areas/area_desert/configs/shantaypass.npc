@@ -21,6 +21,7 @@ model5=woman_legs_shortskirt
 model6=woman_feet_boots
 head1=chat_female_head_longhair
 wanderrange=2
+maxrange=2
 
 [shantay]
 vislevel=hide

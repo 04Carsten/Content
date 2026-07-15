@@ -34,7 +34,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op2=Attack
 vislevel=90
-wanderrange=5
+wanderrange=8
 maxrange=7
 attackrange=8
 respawnrate=60
@@ -71,7 +71,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op2=Attack
 vislevel=108
-wanderrange=5
+wanderrange=8
 maxrange=7
 attackrange=2
 respawnrate=60
@@ -106,7 +106,7 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op1=Talk-to
 head1=npc_1185_head
-wanderrange=5
+wanderrange=1
 
 [regicide_good_elf1]
 name=Idris
@@ -463,6 +463,7 @@ readyanim=human_staffready
 op1=Talk-to
 vislevel=hide
 head1=npc_1185_head
+wanderrange=8
 
 [regicide_good_elf3]
 name=Arianwyn

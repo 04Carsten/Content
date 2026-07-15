@@ -231,3 +231,4 @@ model8=human_weapons_staffstraight
 head1=chat_male_head_dredlocks
 head2=chat_male_jaw_long
 moverestrict=indoors
+wanderrange=3

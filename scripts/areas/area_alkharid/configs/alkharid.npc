@@ -368,6 +368,8 @@ param=shop_buy_multiplier,650
 param=shop_delta,20
 param=shop_title,Dommiks Crafting Store.
 moverestrict=indoors
+wanderrange=0
+maxrange=0
 
 [al_kharid_man]
 name=Man

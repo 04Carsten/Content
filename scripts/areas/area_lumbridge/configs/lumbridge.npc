@@ -20,6 +20,7 @@ model8=man_feet_basic
 model9=man_torsoextra_cloak
 head1=chat_male_head_shorthair2
 head2=chat_male_jaw_medium
+wanderrange=0
 
 [cook]
 vislevel=hide
@@ -46,6 +47,7 @@ head1=chat_male_head_shorthair
 head2=chat_male_hat_chefs
 head3=chat_male_jaw_moustache
 moverestrict=indoors
+wanderrange=0
 
 [father_aereck]
 vislevel=hide
@@ -91,6 +93,7 @@ model7=man_legs_basic
 model8=man_feet_basic
 head1=chat_male_head_priest
 moverestrict=indoors
+wanderrange=5
 
 [bob]
 vislevel=hide
@@ -127,6 +130,7 @@ param=shop_buy_multiplier,600
 param=shop_delta,20
 param=shop_title,Bob's Brilliant Axes.
 moverestrict=indoors
+wanderrange=0
 
 [hans]
 vislevel=hide
@@ -156,7 +160,7 @@ model6=man_legs_basic
 model7=man_feet_boots
 model8=man_torsoextra_jacket
 head1=chat_male_head_mediumhair
-maxrange=50
+maxrange=40
 moverestrict=outdoors
 defaultmode=patrol
 patrol1=0_50_50_7_33,0
@@ -227,6 +231,7 @@ param=shop_buy_multiplier,400
 param=shop_delta,30
 param=shop_title,Lumbridge General Store
 moverestrict=indoors
+wanderrange=0
 
 [generalassistant1]
 vislevel=hide

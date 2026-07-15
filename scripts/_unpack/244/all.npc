@@ -34,6 +34,7 @@ param=retreat,1
 category=chicken
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1174
+wanderrange=5
 
 [rooster]
 desc=He rules the...er...roost.
@@ -75,3 +76,4 @@ param=retreat,1
 category=chicken
 // Stats match osrs version but our version Vislvl is different.
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1175
+wanderrange=5

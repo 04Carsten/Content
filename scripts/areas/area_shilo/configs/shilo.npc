@@ -75,7 +75,7 @@ model6=man_legs_turnups
 model7=man_feet_basic
 head1=chat_male_head_priest
 head2=chat_male_jaw_moustache
-wanderrange=2
+wanderrange=3
 param=owned_shop,shilojunglestore
 param=shop_sell_multiplier,1500
 param=shop_buy_multiplier,500
@@ -141,7 +141,7 @@ model6=man_legs_turnups
 model7=man_feet_boots
 head1=chat_male_head_bald
 head2=chat_male_jaw_moustache
-wanderrange=3
+wanderrange=1
 
 [shiloshiptickets]
 vislevel=hide
@@ -169,7 +169,7 @@ model6=man_legs_turnups
 model7=man_feet_basic
 head1=chat_male_head_shorthair
 head2=chat_male_jaw_short2
-wanderrange=0
+wanderrange=2
 moverestrict=nomove
 
 [shiloantiques]

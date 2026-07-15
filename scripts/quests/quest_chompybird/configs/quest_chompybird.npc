@@ -67,6 +67,7 @@ readyanim=chompy_toad_ready
 walkanim=chompy_toad_walk
 model1=ogre_area_npc_chompy_toad
 timer=30
+wanderrange=5
 
 [bloated_toad]
 vislevel=hide
@@ -118,4 +119,5 @@ resizev=180
 model1=chompy_bird
 defaultmode=none
 wanderrange=0
+maxrange=0
 moverestrict=nomove

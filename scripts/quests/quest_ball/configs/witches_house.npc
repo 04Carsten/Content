@@ -23,7 +23,7 @@ model6=woman_feet_boots
 model7=woman_hat_wizards
 head1=model_122_npc_head
 head2=chat_female_wizards
-maxrange=50
+maxrange=40
 defaultmode=patrol
 patrol1=0_45_54_50_7,0
 patrol2=0_45_54_41_7,0
@@ -61,6 +61,7 @@ param=death_drop,null
 category=witches_experiment
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3996
+wanderrange=0
 
 [shapeshifterspider]
 name=Witches experiment second form
@@ -89,6 +90,7 @@ param=death_drop,null
 category=witches_experiment
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3997
+wanderrange=2
 
 [shapeshifterbear]
 name=Witches experiment third form
@@ -121,6 +123,7 @@ param=death_drop,null
 category=witches_experiment
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3998
+wanderrange=2
 
 [shapeshifterwolf]
 name=Witches experiment fourth form
@@ -153,6 +156,7 @@ category=witches_experiment
 // osrs stats and Vislvl match 1:1
 // on runescape only wolf form can drop bones.
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3999
+wanderrange=2
 
 [witchrat]
 vislevel=hide

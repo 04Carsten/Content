@@ -349,4 +349,5 @@ model11=man_torsoextra_pattern1
 head1=chat_male_head_longhair
 head2=chat_male_jaw_long
 head3=chat_male_wizards
-wanderrange=1
+wanderrange=3
+maxrange=3

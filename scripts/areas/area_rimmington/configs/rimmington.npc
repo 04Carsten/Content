@@ -61,6 +61,7 @@ param=shop_buy_multiplier,400
 param=shop_delta,30
 param=shop_title,Rimmington General Store
 moverestrict=indoors
+wanderrange=0
 
 [generalassistant6]
 vislevel=hide
@@ -95,6 +96,7 @@ param=shop_buy_multiplier,400
 param=shop_delta,30
 param=shop_title,Rimmington General Store
 moverestrict=indoors
+wanderrange=0
 
 [rommik]
 vislevel=hide

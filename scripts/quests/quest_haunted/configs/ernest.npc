@@ -19,6 +19,7 @@ model6=man_legs_basic
 model7=man_feet_basic
 model8=man_torsoextra_jacket
 head1=chat_male_head_shorthair
+wanderrange=0
 
 [questchicken]
 vislevel=hide
@@ -30,3 +31,4 @@ model1=model_2849_npc
 head1=chat_male_head_shorthair
 param=death_anim,chicken_death
 param=death_sound,chicken_death
+wanderrange=1

@@ -20,6 +20,7 @@ model4=man_arms_basic
 model5=man_hands_basic
 model6=man_legs_pirate
 head1=chat_male_head_mediumhair
+wanderrange=0
 
 [thurgo]
 vislevel=hide
@@ -149,6 +150,7 @@ model9=human_weapons_dagger
 head1=chat_male_head_shorthair
 head2=chat_male_jaw_medium
 head3=chat_male_headextra_eyepatch
+wanderrange=0
 
 [wydin]
 vislevel=hide
@@ -218,6 +220,7 @@ param=shop_buy_multiplier,600
 param=shop_delta,10
 param=shop_title,Betty's Magic Emporium.
 moverestrict=indoors
+wanderrange=1
 
 [grum]
 vislevel=hide
@@ -396,3 +399,4 @@ model8=man_hat_birdseye
 head1=chat_male_head_shorthair
 head2=chat_male_jaw_short2
 head3=chat_male_model_37
+wanderrange=0

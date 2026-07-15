@@ -29,6 +29,8 @@ head1=chat_male_head_dredlocks
 head2=chat_male_model_36
 timer=1
 moverestrict=indoors
+wanderrange=1
+maxrange=2
 
 [agilityarena_tickettrader]
 name=Pirate Jackie the Fruit
@@ -56,3 +58,5 @@ op3=Trade
 vislevel=hide
 head1=chat_female_head_pirate
 moverestrict=indoors
+wanderrange=1
+maxrange=2

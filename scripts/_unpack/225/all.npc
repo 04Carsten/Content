@@ -253,8 +253,8 @@ model7=man_feet_boots
 model8=human_weapons_farmersfork
 model9=model_4843
 head1=chat_male_head_mediumhair
-wanderrange=20
-maxrange=22
+wanderrange=14
+maxrange=14
 respawnrate=50
 hitpoints=12
 attack=3
@@ -298,7 +298,6 @@ attack=14
 strength=13
 defence=12
 param=damagetype,^crush_style
-wanderrange=7
 param=retreat,8
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3252
@@ -327,7 +326,7 @@ model7=man_feet_boots
 model8=human_weapons_shortsword
 model9=human_weapons_squareshield
 wanderrange=2
-maxrange=7
+maxrange=4
 respawnrate=100
 hitpoints=22
 attack=19
@@ -421,7 +420,7 @@ model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_longhair
 wanderrange=20
-maxrange=22
+maxrange=20
 // TODO npc removed in 2007. no info on him atm. copied from man.
 respawnrate=50
 hitpoints=7
@@ -1110,6 +1109,7 @@ param=retreat,1
 category=chicken
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1173
+wanderrange=5
 
 [sheepsheered]
 vislevel=hide
@@ -1326,6 +1326,7 @@ param=defend_sound,chicken_hit
 param=death_sound,chicken_death
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2062
+wanderrange=5
 
 [hellhound]
 size=2
@@ -1691,7 +1692,7 @@ vislevel=44
 recol1s=5284
 recol1d=11846
 model1=npc_giantspider
-wanderrange=10
+wanderrange=3
 maxrange=12
 respawnrate=60
 hitpoints=50
@@ -1933,6 +1934,7 @@ huntmode=cowardly
 huntrange=1
 // stats taken from Mountain Troll // Sounds is possible same as river troll that mean no sounds.
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_936
+wanderrange=3
 
 [zombie_unarmed]
 name=Zombie
@@ -2087,6 +2089,7 @@ huntmode=cowardly
 huntrange=1
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_69
+wanderrange=6
 
 [bat]
 name=Giant bat
@@ -2240,7 +2243,7 @@ recol2d=1057
 recol3s=0
 recol3d=16417
 model1=model_2942_npc
-wanderrange=7
+wanderrange=6
 maxrange=9
 respawnrate=60
 hitpoints=157
@@ -2411,7 +2414,7 @@ readyanim=skeleton_ready
 op2=Attack
 vislevel=25
 model1=model_2944_npc
-wanderrange=3
+wanderrange=8
 maxrange=5
 respawnrate=140
 hitpoints=17
@@ -2445,7 +2448,7 @@ readyanim=skeleton_ready
 op2=Attack
 vislevel=21
 model1=model_2944_npc
-wanderrange=8
+wanderrange=3
 maxrange=10
 respawnrate=70
 hitpoints=24
@@ -2886,7 +2889,7 @@ desc=Eek! A bear!
 op2=Attack
 vislevel=21
 model1=model_2966_npc
-wanderrange=13
+wanderrange=4
 maxrange=15
 respawnrate=100
 hitpoints=27
@@ -2917,7 +2920,7 @@ vislevel=19
 recol1s=12517
 recol1d=3171
 model1=model_2966_npc
-wanderrange=8
+wanderrange=12
 maxrange=10
 respawnrate=100
 hitpoints=25
@@ -3116,6 +3119,7 @@ huntmode=cowardly
 huntrange=2
 // Stats match osrs version but our version Vislvl is different.
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2085
+wanderrange=3
 
 [mossgiant]
 size=2
@@ -3385,7 +3389,7 @@ model3=model_2978_npc
 model4=model_2984_npc
 model5=model_2985_npc
 model6=model_2993_npc
-wanderrange=13
+wanderrange=3
 maxrange=15
 respawnrate=100
 hitpoints=16
@@ -3565,6 +3569,7 @@ huntrange=5
 category=ice_warrior
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2841
+wanderrange=3
 
 [otherworldly_being]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -3662,6 +3667,7 @@ huntmode=cowardly
 huntrange=1
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2845
+wanderrange=5
 
 [yeti]
 name=Yeti
@@ -4023,6 +4029,7 @@ huntrange=5
 category=ice_warrior
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2851
+wanderrange=3
 
 [seabird1]
 name=Gull
@@ -4034,6 +4041,7 @@ minimap=no
 vislevel=hide
 model1=npc_bird
 wanderrange=8
+maxrange=10
 moverestrict=blocked
 hitpoints=32
 attack=22
@@ -4077,6 +4085,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_282
+maxrange=100
 
 [seabird3]
 name=Albatross
@@ -4103,6 +4112,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_283
+maxrange=100
 
 [flytrap]
 vislevel=hide
@@ -4578,7 +4588,7 @@ model9=man_torsoextra_cloak
 model10=human_weapons_shortsword
 head1=chat_male_head_shorthair
 head2=chat_male_headextra_highwaymanmask
-wanderrange=12
+wanderrange=8
 maxrange=14
 attackrange=3
 huntrange=5
@@ -4637,6 +4647,7 @@ param=damagetype,^crush_style
 huntmode=ranged
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_520
+wanderrange=5
 
 [pirate1]
 name=Pirate
@@ -4909,8 +4920,8 @@ model3=man_torso_basic
 model4=man_arms_longsleeves
 model5=man_hands_basic
 model6=man_legs_robe_nofeet
-wanderrange=12
-maxrange=14
+wanderrange=7
+maxrange=7
 // TODO find repspawn rate
 respawnrate=100
 hitpoints=20
@@ -4945,8 +4956,8 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe_narrow
-wanderrange=12
-maxrange=14
+wanderrange=7
+maxrange=7
 respawnrate=100
 hitpoints=10
 attack=8
@@ -5112,6 +5123,7 @@ magic=18
 param=damagetype,^crush_style
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1025
+wanderrange=5
 
 [gunthor_the_brave]
 name=Gunthor the brave
@@ -5331,6 +5343,7 @@ model5=model_2985_npc
 head1=dwarf_chat_model4
 moverestrict=indoors
 param=death_anim,dwarf_death
+wanderrange=3
 
 [floatingtwig_broken1]
 vislevel=hide
@@ -5575,6 +5588,7 @@ model10=human_weapons_machette
 head1=chat_male_head_hood1
 head2=chat_male_jaw_long
 wanderrange=3
+maxrange=3
 param=damagetype,^slash_style
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3954
 
@@ -5604,6 +5618,7 @@ model8=woman_torsoextra_pattern1
 model9=human_weapons_machette
 head1=chat_female_head_hood2
 wanderrange=3
+maxrange=3
 param=damagetype,^slash_style
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3955
 
@@ -5696,7 +5711,7 @@ op2=Attack
 vislevel=2
 model1=model_2887_npc
 maxrange=25
-wanderrange=27
+wanderrange=25
 respawnrate=100
 hitpoints=8
 givechase=false
@@ -5744,7 +5759,7 @@ model7=man_feet_basic
 model8=model_245_npc
 head1=chat_male_head_shorthair2
 head2=chat_male_jaw_moustache
-wanderrange=2
+wanderrange=1
 
 [seth]
 vislevel=hide
@@ -5874,7 +5889,7 @@ model1=model_2853_npc
 model2=model_2854_npc
 members=yes
 wanderrange=4
-maxrange=6
+maxrange=20
 respawnrate=60
 hitpoints=75
 attack=68

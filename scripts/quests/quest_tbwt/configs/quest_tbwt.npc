@@ -58,7 +58,7 @@ op1=Talk-to
 vislevel=hide
 head1=chat_male_head_tribal
 head2=chat_male_headband
-wanderrange=5
+wanderrange=0
 
 [tbwt_tiadeche_final]
 name=Tiadeche
@@ -306,7 +306,7 @@ readyanim=lion_ready
 minimap=no
 op2=Attack
 vislevel=83
-wanderrange=12
+wanderrange=32
 maxrange=64
 respawnrate=50
 hitpoints=100
@@ -337,7 +337,8 @@ readyanim=lion_ready
 minimap=no
 vislevel=83
 defaultmode=none
-wanderrange=0
+wanderrange=32
+maxrange=64
 moverestrict=nomove
 // respawnrate= TODO
 hitpoints=100

@@ -71,6 +71,7 @@ param=proj_travel,iron_arrow_travel
 param=proj_height,48
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6095
+wanderrange=5
 
 [darkskinned_gnome]
 name=Gnome
@@ -113,6 +114,7 @@ param=proj_travel,iron_arrow_travel
 param=proj_height,48
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6096
+wanderrange=5
 
 [terrorbird]
 name=Terrorbird
@@ -253,6 +255,7 @@ model2=model_2900_npc
 model3=model_2915_npc
 head1=gnome_chat_model_23
 wanderrange=3
+maxrange=3
 category=shop_keeper
 param=owned_shop,blurberrybar
 param=shop_title,Blurberry Bar
@@ -296,6 +299,7 @@ model2=model_2900_npc
 model3=model_2915_npc
 head1=gnome_chat_model_23
 wanderrange=3
+maxrange=3
 category=shop_keeper
 param=owned_shop,giannerestaurant
 param=shop_title,Gianne's Restaurant
@@ -648,6 +652,7 @@ model3=model_2915_npc
 head1=gnome_chat_model_18
 param=death_anim,midget_death
 param=death_sound,gnome_death
+wanderrange=3
 
 [gnome_hudo]
 name=Hudo
@@ -777,7 +782,8 @@ model1=model_2909_npc
 model2=model_2891_npc
 model3=model_2916_npc
 head1=gnome_chat_model_20
-wanderrange=2
+wanderrange=1
+maxrange=1
 param=death_anim,midget_death
 param=death_sound,gnome_death
 
@@ -888,7 +894,8 @@ model1=model_2909_npc
 model2=model_2890_npc
 model3=model_2917_npc
 head1=gnome_chat_head
-wanderrange=0
+wanderrange=5
+maxrange=10
 moverestrict=nomove
 hitpoints=3
 attack=3
@@ -909,7 +916,8 @@ model1=model_2909_npc
 model2=model_2890_npc
 model3=model_2917_npc
 head1=gnome_chat_head
-wanderrange=0
+wanderrange=1
+maxrange=1
 moverestrict=nomove
 hitpoints=3
 attack=3
@@ -937,6 +945,8 @@ defence=3
 param=death_anim,midget_death
 param=death_sound,gnome_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4980
+wanderrange=5
+maxrange=10
 
 [gnomeknight]
 name=Gnome troop

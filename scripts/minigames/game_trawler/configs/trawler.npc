@@ -27,6 +27,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_284
+maxrange=100
 
 [gull2]
 name=Gull
@@ -53,6 +54,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_285
+maxrange=100
 
 [murphy]
 vislevel=hide
@@ -87,6 +89,7 @@ head1=chat_male_head_mediumhair
 head2=chat_male_jaw_goaty
 head3=chat_male_model_37
 wanderrange=2
+maxrange=2
 
 [murphy_normal]
 vislevel=hide
@@ -120,7 +123,8 @@ model10=man_jaw_goaty
 head1=chat_male_head_mediumhair
 head2=chat_male_jaw_goaty
 head3=chat_male_model_37
-wanderrange=7
+wanderrange=0
+maxrange=7
 defaultmode=patrol
 patrol1=^trawler_start_patrol1
 patrol2=^trawler_start_patrol2
@@ -158,7 +162,8 @@ model10=man_jaw_goaty
 head1=chat_male_head_mediumhair
 head2=chat_male_jaw_goaty
 head3=chat_male_model_37
-wanderrange=7
+wanderrange=0
+maxrange=7
 defaultmode=patrol
 patrol1=^trawler_flood_patrol1
 patrol2=^trawler_flood_patrol2
@@ -197,6 +202,7 @@ head1=chat_male_head_mediumhair
 head2=chat_male_jaw_goaty
 head3=chat_male_model_37
 wanderrange=1
+maxrange=1
 timer=1
 
 [fin1]

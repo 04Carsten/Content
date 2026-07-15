@@ -6,7 +6,7 @@ walkanim=bat_walk
 readyanim=bat_ready
 op2=Attack
 vislevel=6
-wanderrange=20
+wanderrange=30
 maxrange=32
 // respawnrate=TODO
 hitpoints=8
@@ -55,6 +55,7 @@ readyanim=human_ready
 alwaysontop=yes
 vislevel=1
 timer=5
+wanderrange=0
 
 [macro_theatre_saradomin]
 name=Strange watcher
@@ -80,6 +81,7 @@ vislevel=hide
 desc=A member of the audience.
 readyanim=human_sitting_chair
 minimap=no
+wanderrange=0
 
 [macro_theatre_guthix]
 name=Strange watcher
@@ -103,6 +105,7 @@ vislevel=hide
 desc=A member of the audience.
 readyanim=human_sitting_chair
 minimap=no
+wanderrange=0
 
 [macro_theatre_zamorak]
 name=Strange watcher
@@ -127,3 +130,4 @@ vislevel=hide
 desc=A member of the audience.
 readyanim=human_sitting_chair
 minimap=no
+wanderrange=0

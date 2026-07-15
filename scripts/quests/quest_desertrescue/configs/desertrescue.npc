@@ -82,6 +82,7 @@ model8=human_weapons_pickaxe
 head1=chat_male_head_mediumhair
 head2=chat_male_jaw_long
 wanderrange=3
+maxrange=1
 //There are 2 male slave npc on the osrs side that have
 //a different id than the others, they have wander 3
 //these 2 are the original id versions from before the rework.
@@ -113,6 +114,7 @@ model6=man_legs_robe
 model7=man_feet_boots
 head1=chat_male_head_mediumhair
 head2=chat_male_jaw_long
+wanderrange=3
 
 [slave_rowdy]
 name=Rowdy slave
@@ -350,7 +352,7 @@ model9=man_feet_boots
 head1=chat_male_head_shorthair
 head2=chat_male_headband
 head3=chat_male_jaw_short
-wanderrange=3
+wanderrange=0
 
 [mining_cart_driver]
 vislevel=hide

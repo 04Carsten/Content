@@ -98,6 +98,8 @@ model8=human_weapons_spear
 head1=chat_male_head_tribal
 huntmode=gujuo
 huntrange=3
+wanderrange=5
+maxrange=5
 
 [ungadulu_good]
 name=Ungadulu
@@ -474,6 +476,7 @@ vislevel=hide
 minimap=no
 model1=npc_boulder
 wanderrange=0
+maxrange=10
 blockwalk=all
 defaultmode=none
 
@@ -499,3 +502,4 @@ param=death_anim,ghost_death
 param=death_sound,ghost_death
 param=death_drop,null
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3968
+wanderrange=0

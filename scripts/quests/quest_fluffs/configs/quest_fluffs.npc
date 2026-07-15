@@ -59,6 +59,8 @@ timer=1
 param=pet_item_id,kittenobject
 param=cat_next_id,growncat
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [kittenpet_light]
 vislevel=hide
@@ -86,6 +88,8 @@ timer=1
 param=pet_item_id,kittenobject_light
 param=cat_next_id,growncat_light
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [kittenpet_brown]
 vislevel=hide
@@ -113,6 +117,8 @@ timer=1
 param=pet_item_id,kittenobject_brown
 param=cat_next_id,growncat_brown
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [kittenpet_black]
 vislevel=hide
@@ -140,6 +146,8 @@ timer=1
 param=pet_item_id,kittenobject_black
 param=cat_next_id,growncat_black
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [kittenpet_browngrey]
 vislevel=hide
@@ -165,6 +173,8 @@ timer=1
 param=pet_item_id,kittenobject_browngrey
 param=cat_next_id,growncat_browngrey
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [kittenpet_bluegrey]
 vislevel=hide
@@ -190,6 +200,7 @@ timer=1
 param=pet_item_id,kittenobject_bluegrey
 param=cat_next_id,growncat_bluegrey
 blockwalk=none
+wanderrange=30000
 
 [growncat]
 vislevel=hide
@@ -211,6 +222,8 @@ timer=1
 param=pet_item_id,growncatobject
 param=cat_next_id,overgrowncat
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [growncat_light]
 vislevel=hide
@@ -238,6 +251,8 @@ timer=1
 param=pet_item_id,growncatobject_light
 param=cat_next_id,overgrowncat_light
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [growncat_brown]
 vislevel=hide
@@ -265,6 +280,8 @@ timer=1
 param=pet_item_id,growncatobject_brown
 param=cat_next_id,overgrowncat_brown
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [growncat_black]
 vislevel=hide
@@ -292,6 +309,8 @@ timer=1
 param=pet_item_id,growncatobject_black
 param=cat_next_id,overgrowncat_black
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [growncat_browngrey]
 vislevel=hide
@@ -317,6 +336,8 @@ timer=1
 param=pet_item_id,growncatobject_browngrey
 param=cat_next_id,overgrowncat_browngrey
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [growncat_bluegrey]
 vislevel=hide
@@ -342,6 +363,8 @@ timer=1
 param=pet_item_id,growncatobject_bluegrey
 param=cat_next_id,overgrowncat_bluegrey
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat]
 vislevel=hide
@@ -362,6 +385,8 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat_light]
 vislevel=hide
@@ -388,6 +413,8 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject_light
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat_brown]
 vislevel=hide
@@ -414,6 +441,8 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject_brown
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat_black]
 vislevel=hide
@@ -440,6 +469,8 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject_black
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat_browngrey]
 vislevel=hide
@@ -464,6 +495,8 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject_browngrey
 blockwalk=none
+wanderrange=30000
+maxrange=30000
 
 [overgrowncat_bluegrey]
 vislevel=hide
@@ -488,3 +521,5 @@ category=petcat
 timer=1
 param=pet_item_id,overgrowncatobject_bluegrey
 blockwalk=none
+wanderrange=30000
+maxrange=30000

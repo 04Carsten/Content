@@ -76,6 +76,7 @@ defence=10
 ranged=0
 param=damagetype,^stab_style
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3302
+wanderrange=5
 
 [chuck_woodman]
 name=Chuck
@@ -576,6 +577,8 @@ model8=man_hat_wizards
 head1=chat_male_head_shorthair
 head2=chat_male_wizards
 moverestrict=indoors
+wanderrange=4
+maxrange=4
 
 [horacio]
 vislevel=hide
@@ -598,7 +601,7 @@ model9=man_torsoextra_pattern1fat
 model10=human_weapons_farmersfork
 head1=chat_male_head_longhair
 head2=chat_male_jaw_long
-wanderrange=2
+wanderrange=0
 
 [captain_barnaby]
 vislevel=hide
@@ -630,6 +633,7 @@ model8=man_torsoextra_buttons2
 head1=chat_male_head_longhair
 head2=chat_male_jaw_long
 wanderrange=6
+maxrange=8
 
 [aemad]
 vislevel=hide

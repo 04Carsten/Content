@@ -262,6 +262,8 @@ param=death_drop,big_bones
 //This npc probably shares the same stats as the city guard according to the osrs cache.
 //but the animations and sounds are quess.
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4369
+wanderrange=2
+maxrange=3
 
 [ogre_guard2]
 name=Ogre guard

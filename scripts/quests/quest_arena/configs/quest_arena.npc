@@ -20,7 +20,7 @@ model7=man_feet_boots
 model8=human_weapons_axe
 head1=chat_male_head_bald
 head2=chat_male_jaw_split
-wanderrange=3
+wanderrange=1
 maxrange=5
 respawnrate=100
 hitpoints=25
@@ -187,7 +187,7 @@ model7=man_feet_boots
 model8=human_weapons_axe
 head1=chat_male_head_bald
 head2=chat_male_jaw_split
-wanderrange=0
+wanderrange=4
 respawnrate=100
 hitpoints=25
 attack=20
@@ -268,6 +268,7 @@ model7=man_feet_basic
 model8=man_torsoextra_buttons2
 head1=chat_male_head_bald
 head2=chat_male_jaw_moustache
+wanderrange=2
 
 [fightslave_kelvin]
 vislevel=hide
@@ -291,6 +292,7 @@ model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_longhair
 wanderrange=1
+maxrange=1
 
 [fightslave_joe]
 vislevel=hide
@@ -319,6 +321,7 @@ model7=man_feet_basic
 model8=man_torsoextra_buttons2
 head1=chat_male_head_spikeyhair
 wanderrange=1
+maxrange=1
 
 [fightslave]
 vislevel=hide
@@ -340,6 +343,7 @@ model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_longhair
 wanderrange=1
+maxrange=1
 
 [hengrad]
 vislevel=hide
@@ -363,6 +367,7 @@ model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_bald
 wanderrange=1
+maxrange=1
 
 [lady_servil]
 vislevel=hide
@@ -384,6 +389,7 @@ model4=woman_hands_basic
 model5=woman_legs_longskirt
 model6=woman_feet_basic
 head1=chat_female_head_bun
+wanderrange=1
 
 [jeremy_servil]
 vislevel=hide
@@ -401,6 +407,7 @@ model2=model_2910_npc
 model3=model_2906_npc
 head1=chat_male_head_shorthair
 wanderrange=1
+maxrange=1
 param=death_anim,midget_death
 
 [jeremy_servil_arena]
@@ -418,7 +425,8 @@ model1=model_2918_npc
 model2=model_2910_npc
 model3=model_2906_npc
 head1=chat_male_head_shorthair
-wanderrange=1
+wanderrange=0
+maxrange=0
 param=death_anim,midget_death
 
 [justin_servil]
@@ -441,7 +449,8 @@ model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_bald
 head2=chat_male_jaw_long
-wanderrange=7
+wanderrange=0
+maxrange=0
 hitpoints=20
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_12035
 
@@ -479,7 +488,7 @@ vislevel=137
 model1=model_2997_npc
 // Guess, based off old videos they will likely hunt through the whole arena: https://youtu.be/qRUXxpnYUp4?si=o4ePw20m2vZrLNBG&t=416
 // wanderrange=TODO
-maxrange=25
+maxrange=35
 respawnrate=100
 hitpoints=116
 attack=120
@@ -509,7 +518,8 @@ model1=model_2880_npc
 model2=model_2876_npc
 // wanderrange=TODO
 // Guess, based off old videos they will likely hunt through the whole arena: https://youtu.be/qRUXxpnYUp4?si=o4ePw20m2vZrLNBG&t=416
-maxrange=25
+wanderrange=15
+maxrange=35
 // TODO respawnrate might be wrong, copying bouncers
 respawnrate=100
 hitpoints=60
@@ -547,7 +557,8 @@ recol2d=6342
 model1=model_2967_npc
 // wanderrange=TODO
 // Guess, based off old videos they will likely hunt through the whole arena: https://youtu.be/qRUXxpnYUp4?si=o4ePw20m2vZrLNBG&t=416
-maxrange=25
+wanderrange=15
+maxrange=35
 // TODO respawnrate might be wrong, copying bouncers
 respawnrate=100
 hitpoints=40

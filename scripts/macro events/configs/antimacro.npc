@@ -88,6 +88,7 @@ head3=chat_male_jaw_split
 // probably the same as mysterious old man
 timer=20
 param=follow_player_on_logout,^true
+maxrange=1
 
 [macro_mage]
 vislevel=hide
@@ -144,8 +145,8 @@ strength=10
 attack=50
 hitpoints=255
 // these ranges are based off https://www.youtube.com/watch?v=ohRbhtCRL2c&list=PLn23LiLYLb1bhaCSJgRd1zQet3DFcY0yG&index=4
-wanderrange=3
-maxrange=3
+wanderrange=15
+maxrange=15
 // attack rate is 7 ticks https://youtu.be/5NgTccJZh1o
 param=attackrate,7
 param=damagetype,^stab_style
@@ -1440,8 +1441,8 @@ model7=model_2992_npc
 head1=dwarf_chat_model4
 head2=dwarf_chat_model6
 // https://youtu.be/Ww-PkAr4vt4?list=PLn23LiLYLb1Y3P9S9qZbijcJihiD416jT
-wanderrange=50
-maxrange=52
+wanderrange=10000
+maxrange=10000
 timer=10
 // https://youtu.be/azxoPxBRe3c  //Video shows npc havent defend or death animation.
 hitpoints=255

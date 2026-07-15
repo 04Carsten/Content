@@ -25,7 +25,7 @@ model8=man_torsoextra_jacket
 head1=chat_male_head_shorthair
 defaultmode=none
 wanderrange=0
-maxrange=2
+maxrange=4
 moverestrict=nomove
 category=bank_teller
 
@@ -54,7 +54,7 @@ model6=woman_feet_basic
 head1=chat_female_head_bun
 defaultmode=none
 wanderrange=0
-maxrange=2
+maxrange=4
 moverestrict=nomove
 category=bank_teller
 
@@ -87,7 +87,7 @@ model8=man_torsoextra_jacket
 head1=chat_male_head_shorthair
 defaultmode=none
 wanderrange=0
-maxrange=2
+maxrange=1
 moverestrict=nomove
 category=bank_teller
 
@@ -118,7 +118,7 @@ model6=woman_feet_basic
 head1=chat_female_head_bun
 defaultmode=none
 wanderrange=0
-maxrange=2
+maxrange=1
 moverestrict=nomove
 category=bank_teller
 param=death_sound,female_death

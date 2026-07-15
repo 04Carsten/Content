@@ -116,3 +116,4 @@ param=attack_sound,unarmed_kick
 // TODO
 // attack anim guesses
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4929
+wanderrange=0

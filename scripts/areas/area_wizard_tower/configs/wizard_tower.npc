@@ -29,6 +29,8 @@ attack=20
 strength=10
 defence=15
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_7746
+wanderrange=0
+maxrange=0
 
 [wizard_grayzag]
 name=Wizard Grayzag
@@ -98,3 +100,4 @@ param=defend_sound,imp_hit
 param=death_sound,imp_death
 param=death_drop,ashes
 param=retreat,4
+wanderrange=5

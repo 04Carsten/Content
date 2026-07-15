@@ -30,6 +30,8 @@ strength=38
 defence=40
 param=damagetype,^slash_style
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4923
+wanderrange=1
+maxrange=2
 
 [helemos]
 vislevel=hide

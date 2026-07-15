@@ -25,6 +25,8 @@ model9=man_necklaces_goldnecklace
 model10=man_hat_headband
 head1=chat_male_head_mediumhair
 head2=chat_male_headband
+wanderrange=2
+maxrange=2
 
 [claus_carnillean]
 vislevel=hide
@@ -53,6 +55,8 @@ model7=man_feet_basic
 model8=man_hat_chefs
 head1=chat_male_head_bald
 head2=chat_male_hat_chefs
+wanderrange=1
+maxrange=1
 
 [guard_carnillean]
 vislevel=hide
@@ -72,6 +76,7 @@ model4=man_hands_gloves
 model5=man_legs_turnups
 model6=man_feet_boots
 head1=chat_male_head_otherhelmetclosed
+wanderrange=2
 
 [philipe_carnillean]
 vislevel=hide
@@ -95,6 +100,8 @@ model2=model_2909_npc
 model3=model_2918_npc
 head1=chat_male_head_shorthair
 param=death_anim,midget_death
+wanderrange=1
+maxrange=1
 
 [carnillean_wife]
 vislevel=hide
@@ -125,6 +132,8 @@ model8=woman_necklaces_greennecklace
 model9=woman_headextra_model_412
 head1=chat_female_head_bun
 head2=model_128_npc_head
+wanderrange=2
+maxrange=2
 
 [butler_jones_hazeel_cultist]
 vislevel=hide
@@ -181,8 +190,8 @@ model6=man_legs_robe_nofeet
 model7=man_necklaces_stylezamarock
 head1=chat_male_head_hood2
 head2=chat_male_jaw_medium
-wanderrange=3
-maxrange=7
+wanderrange=2
+maxrange=2
 respawnrate=100
 hitpoints=25
 attack=10
@@ -229,6 +238,7 @@ head1=chat_male_head_tribal
 head2=chat_male_headextra_model_71
 defaultmode=none
 wanderrange=0
+maxrange=7
 moverestrict=nomove
 
 [clivet_hazeel_cultist]
@@ -317,3 +327,5 @@ param=attack_sound,staff_hit
 // TODO try to get information about the wanderrange/maxrange
 // The npc in question is no longer killable after the release of the Secrets of the North quest.
 // https://www.youtube.com/watch?v=tYXi3dBooB4
+wanderrange=4
+maxrange=4

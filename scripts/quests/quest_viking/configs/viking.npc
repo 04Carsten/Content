@@ -312,7 +312,7 @@ walkanim=butterfly_hover
 readyanim=butterfly_hover
 minimap=no
 vislevel=hide
-wanderrange=20
+wanderrange=40
 
 [viking_sigli]
 name=Sigli the Huntsman
@@ -503,7 +503,7 @@ readyanim=viking_drinking_ready
 op1=Talk-to
 head1=chat_male_head_spikeyhair
 head2=chat_male_jaw_split
-wanderrange=5
+wanderrange=2
 
 [vt_council_workmen]
 name=Council workman
@@ -810,7 +810,7 @@ head1=chat_male_head_viking_helmet_basic
 head2=chat_male_jaw_long
 head3=chat_male_headextra_eyepatch
 head4=obj_3748_manhead2
-wanderrange=3
+wanderrange=2
 
 [viking_askelapen]
 name=Askeladden
@@ -1017,6 +1017,7 @@ param=shop_sell_multiplier,1300
 param=shop_buy_multiplier,700
 param=shop_delta,30
 param=shop_title,Rellekka Longhall Bar
+wanderrange=1
 
 [viking_clothing_shopkeeper]
 name=Yrsa
@@ -1047,7 +1048,7 @@ readyanim=human_ready
 op1=Talk-to
 op3=Trade
 head1=chat_female_head_bun
-wanderrange=5
+wanderrange=4
 moverestrict=indoors
 category=shop_keeper
 param=owned_shop,viking_clothes_shop
@@ -1087,6 +1088,7 @@ head1=chat_male_head_hood2
 head2=chat_male_jaw_split
 defaultmode=none
 wanderrange=0
+maxrange=0
 moverestrict=nomove
 timer=30
 
@@ -1117,7 +1119,7 @@ op3=Trade
 vislevel=hide
 head1=chat_male_head_spikeyhair
 head2=chat_male_jaw_split
-wanderrange=1
+wanderrange=2
 category=shop_keeper
 param=owned_shop,viking_weapons_shop
 param=shop_sell_multiplier,1300
@@ -1790,7 +1792,7 @@ readyanim=dog_ready
 vislevel=hide
 resizeh=100
 resizev=100
-wanderrange=5
+wanderrange=6
 maxrange=7
 respawnrate=20
 hitpoints=30
@@ -1916,6 +1918,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // This npc was removed in the osrs sailing update. This npc still exists in rs3.
+maxrange=100
 
 [viking_seagull2]
 name=Gull
@@ -1949,6 +1952,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // This npc was removed in the osrs sailing update. This npc still exists in rs3.
+maxrange=100
 
 [viking_seagull3]
 name=Gull
@@ -1982,6 +1986,7 @@ param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
 // This npc was removed in the osrs sailing update. This npc still exists in srs3.
+maxrange=100
 
 [viking_seagull4]
 name=Gull
@@ -2015,6 +2020,7 @@ param=defend_sound,bird_hit
 param=death_sound,bird_death
 // This npc was removed in the osrs sailing update. This npc still exists in rs3.
 // This npc patrols instead of normal wandering.
+maxrange=100
 
 [brownbear_cub_1]
 name=Bear Cub

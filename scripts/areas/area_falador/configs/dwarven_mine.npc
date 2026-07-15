@@ -115,3 +115,4 @@ param=strengthbonus,5
 param=damagetype,^stab_style
 param=death_anim,dwarf_death
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4985
+wanderrange=5

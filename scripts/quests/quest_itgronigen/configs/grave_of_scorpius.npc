@@ -39,6 +39,7 @@ model2=model_2964_npc
 model3=model_2965_npc
 head1=ghost_chat_model_10
 wanderrange=2
+maxrange=5
 param=undead,^true
 param=death_anim,ghost_death
 param=death_sound,ghost_death

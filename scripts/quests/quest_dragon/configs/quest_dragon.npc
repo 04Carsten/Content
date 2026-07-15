@@ -34,7 +34,8 @@ huntmode=elvarg_hunt
 // https://youtu.be/uETjjZFKWus?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=134
 // https://youtu.be/2TJp-tnFyxc?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=45
 attackrange=8
-maxrange=7
+wanderrange=32
+maxrange=32
 huntrange=7
 // all the stats information matches otherwise osrs but we only have 120hp
 // instead of 80 hp. and osrs Vislvl is also 83 while we have 86 again.
@@ -298,3 +299,4 @@ model6=man_legs_basic2
 model7=man_feet_basic
 head1=chat_male_head_pirate
 head2=chat_male_jaw_goaty
+wanderrange=0

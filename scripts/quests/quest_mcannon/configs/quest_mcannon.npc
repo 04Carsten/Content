@@ -82,6 +82,7 @@ head1=dwarf_chat_model0
 param=death_anim,dwarf_death
 hitpoints=16
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5191
+wanderrange=2
 
 [nulodion]
 vislevel=hide

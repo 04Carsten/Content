@@ -53,7 +53,7 @@ model6=man_legs_basic
 model7=man_feet_basic
 head1=chat_male_head_shorthair2
 head2=chat_male_jaw_moustache
-wanderrange=2
+wanderrange=0
 
 [reldo]
 vislevel=hide
@@ -131,6 +131,7 @@ model5=man_legs_basic
 model6=man_feet_boots
 head1=chat_male_head_fullhelmet
 moverestrict=indoors
+wanderrange=3
 
 [captain_rovin]
 vislevel=52
@@ -571,6 +572,7 @@ model7=man_legs_basic
 model8=man_headextra_monacle
 head1=chat_male_head_shorthair
 head2=chat_male_headextra_monacle
+wanderrange=4
 
 [tramppg]
 vislevel=hide
@@ -634,6 +636,7 @@ param=attack_sound,stabsword_slash
 param=defend_sound,blade3
 // osrs stats and Vislvl match 1:1
 // https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_14137
+wanderrange=5
 
 [straven]
 name=Straven
@@ -819,6 +822,8 @@ model7=man_legs_robe_narrow
 model8=man_feet_basic
 head1=chat_male_head_priest
 moverestrict=indoors
+wanderrange=3
+maxrange=3
 
 [dimintheis]
 vislevel=hide
@@ -908,7 +913,7 @@ model6=man_hands_basic
 model7=man_feet_basic
 head1=chat_male_head_shorthair2
 head2=chat_male_jaw_moustache
-wanderrange=2
+wanderrange=3
 param=owned_shop,teashop
 param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,600
@@ -941,6 +946,7 @@ model6=woman_feet_basic
 model7=woman_necklaces_basic
 head1=chat_female_head_longhair
 members=yes
+wanderrange=0
 
 [shilop]
 vislevel=hide
@@ -983,6 +989,7 @@ head1=model_139_npc_head
 moverestrict=indoors
 members=yes
 param=death_anim,midget_death
+wanderrange=0
 
 [wilough]
 vislevel=hide
@@ -1021,3 +1028,4 @@ head1=model_139_npc_head
 moverestrict=indoors
 members=yes
 param=death_anim,midget_death
+wanderrange=0

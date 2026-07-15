@@ -24,6 +24,8 @@ head1=chat_male_head_bald
 head2=model_77_npc_head
 head3=chat_male_party
 timer=1
+wanderrange=5
+maxrange=7
 
 [partyroom_knight]
 name=Knight
@@ -40,6 +42,7 @@ model5=man_legs_platemail
 model6=man_feet_boots
 head1=chat_male_head_fullhelmet
 wanderrange=0
+maxrange=0
 moverestrict=nomove
 
 [partyroom_barmaid]
@@ -62,6 +65,8 @@ model6=woman_legs_shortskirt
 model7=woman_feet_basic
 head1=chat_female_head_longhair
 head2=chat_female_party
+wanderrange=5
+maxrange=7
 
 [partyroom_barmaid2]
 name=Lucy
@@ -85,3 +90,5 @@ model6=woman_legs_shortskirt
 model7=woman_feet_basic
 head1=chat_female_head_longhair
 head2=chat_female_party
+wanderrange=5
+maxrange=7

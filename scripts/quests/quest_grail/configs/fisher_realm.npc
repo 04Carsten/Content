@@ -195,6 +195,7 @@ model8=man_jaw_goaty
 head1=chat_male_head_priest
 head2=chat_male_jaw_goaty
 moverestrict=indoors
+wanderrange=0
 
 [grail_fisherman]
 vislevel=hide

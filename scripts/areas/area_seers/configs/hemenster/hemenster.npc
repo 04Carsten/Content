@@ -50,6 +50,7 @@ model7=man_feet_boots
 model8=man_hat_berret
 head1=chat_male_head_bald
 head2=chat_male_berret
+wanderrange=0
 
 [grandpa_jack]
 vislevel=hide

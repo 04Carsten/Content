@@ -12,6 +12,8 @@ defaultmode=none
 moverestrict=nomove
 timer=1
 category=category_453
+wanderrange=0
+maxrange=20
 
 [0_41_53_sinisterfishspot]
 vislevel=hide
@@ -26,6 +28,8 @@ defaultmode=none
 moverestrict=nomove
 timer=1
 category=category_453
+wanderrange=0
+maxrange=20
 
 [0_41_53_bigdavefishspot]
 vislevel=hide
@@ -40,6 +44,8 @@ defaultmode=none
 moverestrict=nomove
 timer=1
 category=category_453
+wanderrange=0
+maxrange=20
 
 [0_41_53_joshuafishspot]
 vislevel=hide
@@ -57,6 +63,8 @@ category=category_453
 //--- Fishing contest
 
 //--- (Lure/Bait) Gnome Stronghold
+wanderrange=0
+maxrange=20
 [0_37_53_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -78,6 +86,8 @@ param=fishing_movement_enum,fishing_movement_gnome_stronghold_enum
 //--- (Lure/Bait) Gnome Stronghold
 
 //--- (Lure/Bait) Baxtorian Falls
+wanderrange=0
+maxrange=50
 [0_39_53_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -99,6 +109,8 @@ param=fishing_movement_enum,fishing_movement_baxtorian_falls_enum
 //--- (Lure/Bait) Baxtorian Falls
 
 //--- (Lure/Bait) Ardougne River
+wanderrange=0
+maxrange=50
 [0_40_52_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -120,6 +132,8 @@ param=fishing_movement_enum,fishing_movement_ardougne_river_enum
 //--- (Lure/Bait) Ardougne River
 
 //--- (Cage/Harpoon) Fishing guild
+wanderrange=0
+maxrange=50
 [0_40_53_rarefish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -141,6 +155,8 @@ param=fishing_movement_enum,fishing_movement_fishing_guild_enum
 //--- (Cage/Harpoon) Fishing guild
 
 //--- (Net/Harpoon) Fishing guild
+wanderrange=0
+maxrange=50
 [0_40_53_memberfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -162,6 +178,8 @@ param=fishing_movement_enum,fishing_movement_fishing_guild_enum
 //--- (Net/Harpoon) Fishing guild
 
 //--- (Lure/Bait) Fisher kingdom
+wanderrange=0
+maxrange=50
 [0_41_73_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -183,6 +201,8 @@ param=fishing_movement_enum,fishing_movement_fisher_realm_enum
 //--- (Lure/Bait) Fisher kingdom
 
 //--- (Lure/Bait) Seer's village
+wanderrange=0
+maxrange=50
 [0_42_55_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -204,6 +224,8 @@ param=fishing_movement_enum,fishing_movement_seers_village_enum
 //--- (Lure/Bait) Seer's village
 
 //--- (Net/Bait) Fishing platform
+wanderrange=0
+maxrange=50
 [0_43_51_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -225,6 +247,8 @@ param=fishing_movement_enum,fishing_movement_fishing_platform_enum
 //--- (Net/Bait) Fishing platform
 
 //--- (Lure/Bait) Shilo village
+wanderrange=0
+maxrange=50
 [0_44_46_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -246,6 +270,8 @@ param=fishing_movement_enum,fishing_movement_shilo_village_enum
 //--- (Lure/Bait) Shilo village
 
 //--- (Lure/Bait) Entrana
+wanderrange=0
+maxrange=50
 [0_44_52_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -267,6 +293,8 @@ param=fishing_movement_enum,fishing_movement_entrana1_enum
 //--- (Lure/Bait) Entrana
 
 //--- (Net/Bait) Entrana
+wanderrange=0
+maxrange=50
 [0_44_52_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -288,6 +316,8 @@ param=fishing_movement_enum,fishing_movement_entrana2_enum
 //--- (Net/Bait) Entrana
 
 //--- (Net/Bait) Catherby
+wanderrange=0
+maxrange=50
 [0_44_53_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -309,6 +339,8 @@ param=fishing_movement_enum,fishing_movement_catherby_enum
 //--- (Net/Bait) Catherby
 
 //--- (Cage/Harpoon) Catherby
+wanderrange=0
+maxrange=50
 [0_44_53_rarefish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -330,6 +362,8 @@ param=fishing_movement_enum,fishing_movement_catherby_enum
 //--- (Cage/Harpoon) Catherby
 
 //--- (Net/Harpoon) Catherby
+wanderrange=0
+maxrange=50
 [0_44_53_memberfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -351,6 +385,8 @@ param=fishing_movement_enum,fishing_movement_catherby_enum
 //--- (Net/Harpoon) Catherby
 
 //--- (Net/Bait) Musa point
+wanderrange=0
+maxrange=50
 [0_45_49_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -372,6 +408,8 @@ param=fishing_movement_enum,fishing_movement_musa_point_enum
 //--- (Net/Bait) Musa point
 
 //--- (Cage/Harpoon) Musa point
+wanderrange=0
+maxrange=50
 [0_45_49_rarefish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -393,6 +431,8 @@ param=fishing_movement_enum,fishing_movement_musa_point_enum
 //--- (Cage/Harpoon) Musa point
 
 //--- (Net/Bait) Rimmington
+wanderrange=0
+maxrange=50
 [0_46_49_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -414,6 +454,8 @@ param=fishing_movement_enum,fishing_movement_rimmington_enum
 //--- (Net/Bait) Rimmington
 
 //--- (Net/Bait) Bandit Camp Wilderness
+wanderrange=0
+maxrange=50
 [0_47_57_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -435,6 +477,8 @@ param=fishing_movement_enum,fishing_movement_wilderness_camp_enum
 //--- (Net/Bait) Bandit Camp Wilderness
 
 //--- (Net/Bait) Draynor village
+wanderrange=0
+maxrange=50
 [0_48_50_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -456,6 +500,8 @@ param=fishing_movement_enum,fishing_movement_draynor_village_enum
 //--- (Net/Bait) Draynor village
 
 //--- (Lure/Bait) Barbarian village
+wanderrange=0
+maxrange=50
 [0_48_53_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -477,6 +523,8 @@ param=fishing_movement_enum,fishing_movement_barbarian_village_enum
 //--- (Lure/Bait) Barbarian village
 
 //--- (Lure/Bait) Lumbridge
+wanderrange=0
+maxrange=50
 [0_50_50_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -498,6 +546,8 @@ param=fishing_movement_enum,fishing_movement_lumbridge_river_enum
 //--- (Lure/Bait) Lumbridge
 
 //--- (Net/Bait) Al-Kharid
+wanderrange=0
+maxrange=50
 [0_51_49_saltfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -519,6 +569,8 @@ param=fishing_movement_enum,fishing_movement_al_kharid_enum
 //--- (Net/Bait) Al-Kharid
 
 //--- lava eel Taverley Dungeon
+wanderrange=0
+maxrange=50
 [0_45_152_lavafish]
 vislevel=hide
 readyanim=lava_ripples
@@ -536,6 +588,7 @@ param=fishing_movement_enum,fishing_movement_taverley_dungeon_enum
 //--- lava eel Taverley Dungeon
 
 //--- (Lure/Bait) Observatory
+maxrange=20
 [0_38_49_freshfish]
 vislevel=hide
 readyanim=fishingspot_ready
@@ -557,6 +610,8 @@ param=fishing_movement_enum,fishing_movement_observatory_enum
 //--- (Lure/Bait) Observatory
 
 // --- (Net) Karambwanji/Karambwan
+wanderrange=0
+maxrange=50
 [0_43_47_karambwanji]
 name=Fishing spot
 model1=outdoorfurniture_loc_42
@@ -569,6 +624,7 @@ op1=Net
 op4=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 category=category_632
 
@@ -598,6 +654,7 @@ minimap=no
 op1=Fish
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 category=category_633
 
@@ -612,6 +669,7 @@ minimap=no
 op1=Fish
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 category=category_633
 
@@ -626,6 +684,7 @@ minimap=no
 op1=Fish
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 category=category_633
 // --- (Net) Karambwanji/Karambwan
@@ -645,6 +704,7 @@ op4=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=freshfish
@@ -665,6 +725,7 @@ op4=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=freshfish
@@ -706,6 +767,7 @@ op4=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=saltfish
@@ -726,6 +788,7 @@ op4=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=rarefish
@@ -746,6 +809,7 @@ op4=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=memberfish
@@ -766,6 +830,7 @@ op3=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=slimeyfish
@@ -785,6 +850,7 @@ op3=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=slimeyfish
@@ -804,6 +870,7 @@ op3=hidden
 op5=hidden
 defaultmode=none
 wanderrange=0
+maxrange=50
 moverestrict=nomove
 timer=1
 category=slimeyfish

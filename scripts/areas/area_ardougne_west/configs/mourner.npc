@@ -243,6 +243,7 @@ model4=man_legs_plaguesuit
 model5=man_feet_boots
 model6=man_torsoextra_cloak
 head1=chat_male_head_gasmask
+wanderrange=1
 
 [headmourner]
 vislevel=hide
