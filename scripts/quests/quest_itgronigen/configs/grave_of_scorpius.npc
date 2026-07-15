@@ -51,7 +51,6 @@ op2=Attack
 vislevel=12
 model1=model_2968_npc
 wanderrange=4
-maxrange=6
 attack=11
 defence=14
 strength=12

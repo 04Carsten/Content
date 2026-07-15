@@ -18,7 +18,6 @@ head1=dwarf_chat_model0
 head2=dwarf_chat_model6
 recol1s=15426
 recol1d=8354
-wanderrange=5
 maxrange=12
 attack=8
 defence=9

@@ -120,7 +120,6 @@ recol3s=6273
 recol3d=7296
 recol4s=2340
 recol4d=8359
-wanderrange=3
 param=owned_shop,runeplateshop
 param=shop_sell_multiplier,1300
 param=shop_buy_multiplier,400

@@ -28,7 +28,6 @@ recol5s=26527
 recol5d=30588
 recol6s=15855
 recol6d=15360
-wanderrange=5
 
 [tbwt_tiadeche]
 name=Tiadeche
@@ -90,7 +89,6 @@ recol4d=10857
 recol5s=15855
 recol5d=15360
 category=shop_keeper
-wanderrange=5
 param=owned_shop,tbwt_tiadeche_final_inventory
 param=shop_sell_multiplier,550
 param=shop_buy_multiplier,450
@@ -128,7 +126,6 @@ recol5s=24075
 recol5d=9410
 recol6s=15855
 recol6d=15360
-wanderrange=5
 
 [tbwt_tinsay_final]
 name=Tinsay
@@ -161,7 +158,6 @@ recol5s=24075
 recol5d=9410
 recol6s=15855
 recol6d=15360
-wanderrange=5
 
 [tbwt_tamayu]
 name=Tamayu
@@ -187,7 +183,6 @@ recol2s=14801
 recol2d=9410
 recol3s=15855
 recol3d=15360
-wanderrange=5
 
 [tbwt_tamayu_final]
 name=Tamayu
@@ -245,7 +240,6 @@ recol2s=14801
 recol2d=9410
 recol3s=15855
 recol3d=15360
-wanderrange=0
 timer=3
 moverestrict=nomove
 defaultmode=none
@@ -273,7 +267,6 @@ recol2s=14801
 recol2d=9410
 recol3s=15855
 recol3d=15360
-wanderrange=0
 moverestrict=nomove
 defaultmode=none
 
@@ -294,7 +287,6 @@ head1=chat_male_head_bald
 head2=chat_male_jaw_goaty
 recol1s=6273
 recol1d=21371
-wanderrange=5
 
 [tbwt_beast]
 name=The Shaikahan

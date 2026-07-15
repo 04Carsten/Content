@@ -273,7 +273,6 @@ desc=Overgrown vermin.
 op2=Attack
 model1=model_2959_npc
 wanderrange=6
-maxrange=8
 attack=3
 defence=3
 strength=3
@@ -351,7 +350,6 @@ recol3d=24075
 recol4s=6273
 recol4d=10570
 wanderrange=0
-maxrange=2
 moverestrict=nomove
 defaultmode=none
 

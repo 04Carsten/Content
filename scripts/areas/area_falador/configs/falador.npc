@@ -451,5 +451,4 @@ model4=woman_hands_gloves
 model5=woman_legs_basic
 model6=woman_feet_basic
 head1=chat_female_head_bun
-wanderrange=4
 moverestrict=indoors

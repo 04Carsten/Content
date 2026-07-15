@@ -647,5 +647,4 @@ minimap=no
 ambient=70
 contrast=70
 model1=npc_willothewisp
-wanderrange=5
 moverestrict=blocked

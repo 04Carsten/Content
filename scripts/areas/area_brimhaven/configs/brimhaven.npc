@@ -113,7 +113,6 @@ recol3d=14807
 recol4s=6144
 recol4d=30106
 category=shop_keeper
-wanderrange=0
 moverestrict=nomove
 defaultmode=none
 param=owned_shop,amuletshop

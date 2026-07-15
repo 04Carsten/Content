@@ -33,7 +33,6 @@ recol2s=2340
 recol2d=14724
 recol3s=6144
 recol3d=14724
-wanderrange=0
 moverestrict=nomove
 
 [mining_slave_female]
@@ -78,7 +77,6 @@ recol1s=2340
 recol1d=14724
 recol2s=6144
 recol2d=14724
-wanderrange=3
 maxrange=1
 
 [escaped_slave]
@@ -285,7 +283,6 @@ recol4d=22689
 recol5s=15853
 recol5d=25313
 wanderrange=3
-maxrange=5
 attack=32
 defence=32
 strength=29

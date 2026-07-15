@@ -233,7 +233,6 @@ recol4s=14801
 recol4d=30552
 recol5s=7298
 recol5d=30552
-wanderrange=0
 maxrange=7
 moverestrict=nomove
 defaultmode=none

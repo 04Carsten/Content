@@ -7,7 +7,6 @@ op2=Attack
 vislevel=6
 model1=model_3782
 wanderrange=30
-maxrange=32
 attack=5
 defence=5
 strength=5

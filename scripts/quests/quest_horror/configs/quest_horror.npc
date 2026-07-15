@@ -31,7 +31,6 @@ recol5d=11394
 recol6s=5299
 recol6d=13475
 category=shop_keeper
-wanderrange=5
 param=owned_shop,lighthouseshop
 param=shop_sell_multiplier,1100
 param=shop_buy_multiplier,550
@@ -109,7 +108,6 @@ recol5s=6273
 recol5d=25193
 recol6s=15855
 recol6d=11456
-wanderrange=5
 
 [horror_girlfriend_postquest]
 vislevel=hide
@@ -143,7 +141,6 @@ recol5s=6273
 recol5d=25193
 recol6s=15855
 recol6d=11456
-wanderrange=5
 
 [horror_dagganoth_jr]
 name=Dagannoth
