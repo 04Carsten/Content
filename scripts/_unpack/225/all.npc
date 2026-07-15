@@ -7,10 +7,6 @@ name=Man
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=4226
 model1=man_head_shorthair
 model2=man_jaw_none
 model3=man_torso_basic
@@ -19,17 +15,19 @@ model5=man_hands_basic
 model6=man_legs_basic
 model7=man_feet_basic
 head1=chat_male_head_shorthair
-respawnrate=50
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=4226
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
 param=magicdefence,-21
 param=rangedefence,-21
 param=damagetype,^crush_style
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3106
 
 [man2]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -40,6 +38,15 @@ name=Man
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
+model1=man_head_mediumhair
+model2=man_jaw_none
+model3=man_torso_basic
+model4=man_arms_longsleeves
+model5=man_hands_basic
+model6=man_legs_turnups
+model7=man_feet_boots
+model8=man_torsoextra_buttons2
+head1=chat_male_head_mediumhair
 recol1s=2340
 recol1d=6344
 recol2s=14724
@@ -52,26 +59,15 @@ recol5s=4192
 recol5d=7298
 recol6s=7298
 recol6d=8355
-model1=man_head_mediumhair
-model2=man_jaw_none
-model3=man_torso_basic
-model4=man_arms_longsleeves
-model5=man_hands_basic
-model6=man_legs_turnups
-model7=man_feet_boots
-model8=man_torsoextra_buttons2
-head1=chat_male_head_mediumhair
-respawnrate=50
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
 param=magicdefence,-21
 param=rangedefence,-21
 param=damagetype,^crush_style
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3107
 
 [man3]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -82,12 +78,6 @@ name=Man
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
-recol1s=2340
-recol1d=11522
-recol2s=14724
-recol2d=8354
-recol3s=14801
-recol3d=24075
 model1=man_head_shorthair2
 model2=man_jaw_short2
 model3=man_torso_basic
@@ -97,17 +87,21 @@ model6=man_legs_flares
 model7=man_feet_basic
 model8=man_torsoextra_buttons2
 head1=chat_male_head_shorthair2
-respawnrate=50
+recol1s=2340
+recol1d=11522
+recol2s=14724
+recol2d=8354
+recol3s=14801
+recol3d=24075
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
 param=magicdefence,-21
 param=rangedefence,-21
 param=damagetype,^crush_style
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3108
 
 [woman]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -118,12 +112,6 @@ name=Woman
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=13325
-recol3s=14801
-recol3d=24075
 model1=woman_head_longhair
 model2=woman_torso_basic
 model3=woman_arms_basic
@@ -131,8 +119,15 @@ model4=woman_hands_basic
 model5=woman_legs_longskirt_narrow
 model6=woman_feet_basic
 head1=chat_female_head_longhair
-respawnrate=50
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=13325
+recol3s=14801
+recol3d=24075
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
@@ -141,9 +136,6 @@ param=rangedefence,-21
 param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3111
 
 [woman2]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -154,6 +146,15 @@ name=Woman
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
+model1=woman_head_shorthair
+model2=woman_torso_basic4
+model3=woman_arms_basic
+model4=woman_hands_basic
+model5=woman_legs_basic
+model6=woman_feet_basic
+model7=woman_headextra_ponytail2
+head1=chat_female_head_shorthair
+head2=model_131_npc_head
 recol1s=2340
 recol1d=8354
 recol2s=14724
@@ -164,17 +165,9 @@ recol4s=6273
 recol4d=14594
 recol5s=14724
 recol5d=10434
-model1=woman_head_shorthair
-model2=woman_torso_basic4
-model3=woman_arms_basic
-model4=woman_hands_basic
-model5=woman_legs_basic
-model6=woman_feet_basic
-model7=woman_headextra_ponytail2
-head1=chat_female_head_shorthair
-head2=model_131_npc_head
-respawnrate=50
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
@@ -183,9 +176,6 @@ param=rangedefence,-21
 param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3112
 
 [woman3]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -197,6 +187,14 @@ name=Woman
 desc=One of RuneScape's many citizens.
 op1=Talk-to
 vislevel=2
+model1=woman_head_mediumhair
+model2=woman_torso_basic
+model3=woman_arms_bare
+model4=woman_hands_basic
+model5=woman_legs_elfbootsshortskirt
+model6=woman_headextra_ponytail2
+head1=chat_female_head_mediumhair
+head2=model_131_npc_head
 recol1s=14724
 recol1d=17573
 recol2s=4160
@@ -207,16 +205,9 @@ recol4s=14801
 recol4d=24075
 recol5s=6273
 recol5d=27207
-model1=woman_head_mediumhair
-model2=woman_torso_basic
-model3=woman_arms_bare
-model4=woman_hands_basic
-model5=woman_legs_elfbootsshortskirt
-model6=woman_headextra_ponytail2
-head1=chat_female_head_mediumhair
-head2=model_131_npc_head
-respawnrate=50
+category=citizen
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
@@ -225,9 +216,6 @@ param=rangedefence,-21
 param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=citizen
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3113
 
 [farmer1]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -237,12 +225,6 @@ op2=Attack
 name=Farmer
 desc=He grows the crops in this area.
 vislevel=7
-recol1s=2340
-recol1d=24171
-recol2s=14724
-recol2d=8353
-recol3s=14801
-recol3d=24075
 model1=man_head_mediumhair
 model2=man_jaw_none
 model3=man_torso_basic
@@ -253,13 +235,19 @@ model7=man_feet_boots
 model8=human_weapons_farmersfork
 model9=model_4843
 head1=chat_male_head_mediumhair
+recol1s=2340
+recol1d=24171
+recol2s=14724
+recol2d=8353
+recol3s=14801
+recol3d=24075
 wanderrange=14
 maxrange=14
-respawnrate=50
-hitpoints=12
 attack=3
-strength=4
 defence=8
+strength=4
+hitpoints=12
+respawnrate=50
 param=attackrate,6
 param=attackbonus,5
 param=strengthbonus,6
@@ -267,8 +255,6 @@ param=damagetype,^stab_style
 param=attack_anim,human_farmersfork_stab
 param=defend_anim,human_farmersfork_def
 param=attack_sound,farmersfork_stab
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3114
 
 [thief1]
 name=Thief
@@ -277,10 +263,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=16
-recol1s=2340
-recol1d=9452
-recol2s=14724
-recol2d=8353
 model1=man_head_shorthair
 model2=man_jaw_none
 model3=man_torso_basic
@@ -290,17 +272,19 @@ model6=man_legs_basic
 model7=man_feet_boots
 model8=man_torsoextra_jacket
 head1=chat_male_head_shorthair
+recol1s=2340
+recol1d=9452
+recol2s=14724
+recol2d=8353
 wanderrange=8
 maxrange=10
-respawnrate=50
-hitpoints=17
 attack=14
-strength=13
 defence=12
+strength=13
+hitpoints=17
+respawnrate=50
 param=damagetype,^crush_style
 param=retreat,8
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3252
 
 [guard1]
 name=Guard
@@ -310,12 +294,6 @@ readyanim=human_ready
 op2=Attack
 op3=Pickpocket
 vislevel=21
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=8353
-recol3s=15855
-recol3d=8354
 model1=man_head_mediumhelmet2
 model2=man_jaw_none
 model3=man_torso_chainmail
@@ -325,13 +303,20 @@ model6=man_legs_basic
 model7=man_feet_boots
 model8=human_weapons_shortsword
 model9=human_weapons_squareshield
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=8353
+recol3s=15855
+recol3d=8354
+category=guard
 wanderrange=2
 maxrange=4
-respawnrate=100
-hitpoints=22
 attack=19
-strength=18
 defence=14
+strength=18
+hitpoints=22
+respawnrate=100
 param=attackbonus,4
 param=strengthbonus,5
 param=stabdefence,18
@@ -344,9 +329,6 @@ param=attack_anim,human_sword_stab
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_stab
 param=defend_sound,blade4
-category=guard
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3254
 
 [guard2]
 name=Guard
@@ -356,12 +338,6 @@ readyanim=human_ready
 op2=Attack
 op3=Pickpocket
 vislevel=22
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=8353
-recol3s=15855
-recol3d=8354
 model1=man_head_mediumhelmet2
 model2=man_jaw_none
 model3=man_torso_chainmail
@@ -370,15 +346,22 @@ model5=man_hands_basic
 model6=man_legs_basic
 model7=man_feet_boots
 model8=human_weapons_crossbow
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=8353
+recol3s=15855
+recol3d=8354
+category=guard
 wanderrange=2
 maxrange=4
-attackrange=5
-respawnrate=100
-hitpoints=22
 attack=15
-strength=15
 defence=16
+strength=15
+hitpoints=22
 ranged=26
+respawnrate=100
+attackrange=5
 param=attackrate,6
 param=attackbonus,6
 param=strengthbonus,10
@@ -390,13 +373,8 @@ param=magicdefence,-4
 param=rangedefence,15
 param=damagetype,^ranged_style
 param=attack_anim,human_crossbow
-// param=rangeattack_sound,crossbow
 param=proj_launch,crossbowbolt_launch
 param=proj_travel,crossbowbolt_travel
-category=guard
-// osrs stats and Vislvl match 1:1
-// This npc havent any attack sound.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3270
 
 [tramp]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -405,12 +383,6 @@ op2=Attack
 name=Tramp
 desc=A man down on his luck.
 vislevel=2
-recol1s=2340
-recol1d=8354
-recol2s=14724
-recol2d=8355
-recol3s=14801
-recol3d=24075
 model1=man_head_longhair
 model2=man_jaw_none
 model3=man_torso_tatty
@@ -419,11 +391,16 @@ model5=man_hands_basic
 model6=man_legs_tatty
 model7=man_feet_basic
 head1=chat_male_head_longhair
+recol1s=2340
+recol1d=8354
+recol2s=14724
+recol2d=8355
+recol3s=14801
+recol3d=24075
 wanderrange=20
 maxrange=20
-// TODO npc removed in 2007. no info on him atm. copied from man.
-respawnrate=50
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
@@ -439,14 +416,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=7
-recol1s=2340
-recol1d=8354
-recol2s=15360
-recol2d=15855
-recol3s=6273
-recol3d=27240
-recol4s=14724
-recol4d=13539
 model1=man_head_mediumhelmet
 model2=man_jaw_split
 model3=man_torso_leather
@@ -459,30 +428,34 @@ model9=human_weapons_axe
 head1=chat_male_head_mediumhelmet
 head2=chat_male_jaw_split
 head3=chat_male_headextra_model_75
+recol1s=2340
+recol1d=8354
+recol2s=15360
+recol2d=15855
+recol3s=6273
+recol3d=27240
+recol4s=14724
+recol4d=13539
+category=barbarian
 wanderrange=10
 maxrange=12
-respawnrate=50
-hitpoints=14
 attack=6
-strength=6
 defence=2
+strength=6
+hitpoints=14
+respawnrate=50
 param=attackrate,5
-// attackbonus is guess. TODO Try get real values
 param=attackbonus,8
 param=strengthbonus,7
 param=stabdefence,12
 param=slashdefence,15
 param=crushdefence,13
 param=magicdefence,3
-// rangedefence is guess. TODO Try get real values
 param=rangedefence,6
 param=damagetype,^slash_style
 param=attack_anim,human_axe_hack
 param=defend_anim,human_axe_def
 param=attack_sound,baxe_slash
-category=barbarian
-// animations and taken Gunthor the Brave
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3256
 
 [wizard]
 name=Wizard
@@ -491,16 +464,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=9
-recol1s=14724
-recol1d=272
-recol2s=2340
-recol2d=173
-recol3s=6273
-recol3d=32767
-recol4s=239
-recol4d=4471
-recol5s=32727
-recol5d=4471
 model1=man_head_shorthair
 model2=man_feet_basic
 model3=man_jaw_none
@@ -513,17 +476,25 @@ model9=man_torsoextra_cloak2
 model10=man_torsoextra_buttons2
 head1=chat_male_head_shorthair
 head2=chat_male_wizards
-attackrange=8
-respawnrate=60
-hitpoints=14
+recol1s=14724
+recol1d=272
+recol2s=2340
+recol2d=173
+recol3s=6273
+recol3d=32767
+recol4s=239
+recol4d=4471
+recol5s=32727
+recol5d=4471
 attack=8
-strength=8
 defence=5
+strength=8
+hitpoints=14
 magic=10
+respawnrate=60
+attackrange=8
 param=magicdefence,3
 param=damagetype,^crush_style
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3257
 
 [warrior_woman]
 name=Warrior woman
@@ -533,10 +504,6 @@ readyanim=human_ready
 op3=Pickpocket
 op2=Attack
 vislevel=24
-recol1s=6273
-recol1d=27240
-recol2s=7298
-recol2d=6342
 model1=woman_head_longhair
 model2=woman_torso_platemail
 model3=woman_arms_basicforplate
@@ -546,11 +513,15 @@ model6=woman_feet_boots
 model7=woman_hat_headband
 model8=human_weapons_shortsword
 model9=human_weapons_squareshield
-respawnrate=100
-hitpoints=20
+recol1s=6273
+recol1d=27240
+recol2s=7298
+recol2d=6342
 attack=22
-strength=22
 defence=22
+strength=22
+hitpoints=20
+respawnrate=100
 param=attackbonus,6
 param=strengthbonus,7
 param=stabdefence,40
@@ -564,8 +535,6 @@ param=defend_anim,human_sword_def
 param=attack_sound,hacksword_stab
 param=defend_sound,steel
 param=death_sound,female_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3260
 
 [barbarian_woman]
 name=Barbarian woman
@@ -574,12 +543,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op2=Attack
 vislevel=8
-recol1s=15360
-recol1d=7328
-recol2s=14724
-recol2d=7328
-recol3s=6273
-recol3d=27240
 model1=woman_head_longhair
 model2=woman_torso_basic2
 model3=woman_arms_basic
@@ -591,13 +554,20 @@ model8=human_weapons_spear
 model9=woman_headextra_ponytail2
 head1=chat_female_head_longhair
 head2=chat_female_headband
+recol1s=15360
+recol1d=7328
+recol2s=14724
+recol2d=7328
+recol3s=6273
+recol3d=27240
+category=barbarian
 wanderrange=10
 maxrange=12
-respawnrate=50
-hitpoints=14
 attack=6
-strength=5
 defence=5
+strength=5
+hitpoints=14
+respawnrate=50
 param=attackrate,6
 param=attackbonus,8
 param=strengthbonus,10
@@ -609,10 +579,6 @@ param=defend_anim,human_spear_block
 param=attack_sound,staff_stab
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=barbarian
-// data taken from this npc https://oldschool.runescape.wiki/w/Barbarian (wander 5 / maxrange 7).
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3262
 
 [paladin]
 name=Paladin
@@ -622,14 +588,6 @@ readyanim=human_ready
 op3=Pickpocket
 op2=Attack
 vislevel=62
-recol1s=7298
-recol1d=6342
-recol2s=6273
-recol2d=27240
-recol3s=15375
-recol3d=19126
-recol4s=14801
-recol4d=24075
 model1=man_head_mediumhair
 model2=man_jaw_short
 model3=man_torso_paladin
@@ -640,17 +598,21 @@ model7=man_feet_boots
 model8=human_weapons_longsword
 model9=human_weapons_squareshield
 model10=man_torsoextra_paladin_star
-// osrs (ardougne castle)
+recol1s=7298
+recol1d=6342
+recol2s=6273
+recol2d=27240
+recol3s=15375
+recol3d=19126
+recol4s=14801
+recol4d=24075
 wanderrange=2
 maxrange=4
-// osrs (ardougne market)
-//wanderrange=5
-//maxrange=7
-respawnrate=100
-hitpoints=57
 attack=54
-strength=54
 defence=54
+strength=54
+hitpoints=57
+respawnrate=100
 param=attackrate,5
 param=attackbonus,20
 param=strengthbonus,22
@@ -664,8 +626,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,blade3
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3293
 
 [hero]
 name=Hero
@@ -675,6 +635,15 @@ readyanim=human_ready
 op2=Attack
 op3=Pickpocket
 vislevel=69
+model1=man_head_mediumhair
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_gloves
+model5=man_legs_platemail
+model6=man_feet_boots
+model7=human_weapons_longsword
+model8=man_jaw_none
+model9=human_weapons_squareshield
 recol1s=17969
 recol1d=6476
 recol2s=10468
@@ -687,20 +656,11 @@ recol5s=14798
 recol5d=6476
 recol6s=24075
 recol6d=18790
-model1=man_head_mediumhair
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_gloves
-model5=man_legs_platemail
-model6=man_feet_boots
-model7=human_weapons_longsword
-model8=man_jaw_none
-model9=human_weapons_squareshield
-respawnrate=100
-hitpoints=82
 attack=54
-strength=55
 defence=54
+strength=55
+hitpoints=82
+respawnrate=100
 param=attackrate,5
 param=attackbonus,20
 param=strengthbonus,22
@@ -714,8 +674,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_blunt_block
 param=attack_sound,hacksword_slash
 param=defend_sound,brassclash
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3295
 
 [forester]
 name=Forester
@@ -724,14 +682,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=15
-recol1s=8386
-recol1d=7424
-recol2s=14724
-recol2d=6336
-recol3s=14801
-recol3d=24075
-recol4s=31649
-recol4d=4226
 model1=man_head_mediumhair
 model2=man_jaw_moustache
 model3=man_torso_basic
@@ -743,11 +693,19 @@ model8=man_hat_elf
 model9=man_torsoextra_buttons2
 model10=man_torsoextra_cloak
 model11=human_weapons_hatchet
-respawnrate=100
-hitpoints=17
+recol1s=8386
+recol1d=7424
+recol2s=14724
+recol2d=6336
+recol3s=14801
+recol3d=24075
+recol4s=31649
+recol4d=4226
 attack=14
-strength=13
 defence=8
+strength=13
+hitpoints=17
+respawnrate=100
 param=attackrate,4
 param=stabdefence,4
 param=slashdefence,3
@@ -756,8 +714,6 @@ param=damagetype,^slash_style
 param=attack_anim,human_axe_hack
 param=defend_anim,human_axe_def
 param=attack_sound,baxe_slash
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3296
 
 [knight_of_ardougne]
 name=Knight of Ardougne
@@ -767,14 +723,6 @@ op2=Attack
 op3=Pickpocket
 readyanim=human_ready
 vislevel=46
-recol1s=25313
-recol1d=17459
-recol2s=10468
-recol2d=21140
-recol3s=32735
-recol3d=10271
-recol4s=6273
-recol4d=10271
 model1=man_head_fullhelmet
 model2=man_torso_paladin
 model3=man_arms_platemail
@@ -783,13 +731,21 @@ model5=man_legs_platemail
 model6=man_feet_boots
 model7=human_weapons_longsword
 model8=man_torsoextra_paladin_star
+recol1s=25313
+recol1d=17459
+recol2s=10468
+recol2d=21140
+recol3s=32735
+recol3d=10271
+recol4s=6273
+recol4d=10271
 wanderrange=15
 maxrange=17
-respawnrate=50
-hitpoints=52
 attack=38
-strength=40
 defence=31
+strength=40
+hitpoints=52
+respawnrate=50
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -803,8 +759,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_slash
 param=defend_sound,blade5
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3297
 
 [ardougnian_male1]
 name=Man
@@ -816,10 +770,6 @@ op1=Talk-to
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=2
-recol1s=14801
-recol1d=24075
-recol2s=2340
-recol2d=15649
 model1=man_head_bald
 model2=man_feet_boots
 model3=man_torso_fat
@@ -832,16 +782,18 @@ model9=man_hat_cavalier
 head1=chat_male_head_bald
 head2=chat_male_jaw_split
 head3=chat_male_cavalier
-respawnrate=50
+recol1s=14801
+recol1d=24075
+recol2s=2340
+recol2d=15649
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
 param=magicdefence,-21
 param=rangedefence,-21
 param=damagetype,^crush_style
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3298
 
 [ardougnian_female1]
 name=Woman
@@ -853,10 +805,6 @@ op1=Talk-to
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=2
-recol1s=14801
-recol1d=24075
-recol2s=2340
-recol2d=15682
 model1=woman_head_bun
 model2=woman_feet_boots
 model3=woman_torso_fat
@@ -866,8 +814,12 @@ model6=woman_legs_longskirt
 model7=woman_torsoextra_buttons2
 model8=woman_necklaces_goldnecklace
 head1=chat_female_head_bun
-respawnrate=50
+recol1s=14801
+recol1d=24075
+recol2s=2340
+recol2d=15682
 hitpoints=7
+respawnrate=50
 param=stabdefence,-21
 param=slashdefence,-21
 param=crushdefence,-21
@@ -876,8 +828,6 @@ param=rangedefence,-21
 param=damagetype,^crush_style
 param=defend_sound,female_hit
 param=death_sound,female_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3299
 
 [knight_of_ardougne2]
 name=Knight of Ardougne
@@ -886,14 +836,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 op2=Attack
 op3=Pickpocket
 vislevel=46
-recol1s=25313
-recol1d=17459
-recol2s=10468
-recol2d=21140
-recol3s=32735
-recol3d=10271
-recol4s=6273
-recol4d=10271
 model1=man_head_otherhelmetopen
 model2=man_torso_paladin
 model3=man_arms_platemail
@@ -902,14 +844,21 @@ model5=man_legs_platemail
 model6=man_feet_boots
 model7=human_weapons_longsword
 model8=man_torsoextra_paladin_star
-// Todo: proof
+recol1s=25313
+recol1d=17459
+recol2s=10468
+recol2d=21140
+recol3s=32735
+recol3d=10271
+recol4s=6273
+recol4d=10271
 wanderrange=15
 maxrange=17
-respawnrate=50
-hitpoints=52
 attack=38
-strength=40
 defence=31
+strength=40
+hitpoints=52
+respawnrate=50
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -923,7 +872,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_slash
 param=defend_sound,blade5
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3300
 
 [yanille_watchman]
 name=Watchman
@@ -933,10 +881,6 @@ readyanim=human_ready
 op2=Attack
 op3=Pickpocket
 vislevel=33
-recol1s=2340
-recol1d=19522
-recol2s=14724
-recol2d=17
 model1=man_head_mediumhelmet
 model2=man_torso_chainmail2
 model3=man_arms_buff
@@ -944,11 +888,15 @@ model4=man_hands_gloves
 model5=man_legs_turnups
 model6=man_feet_boots
 model7=man_jaw_goaty
-respawnrate=100
-hitpoints=22
+recol1s=2340
+recol1d=19522
+recol2s=14724
+recol2d=17
 attack=31
-strength=31
 defence=31
+strength=31
+hitpoints=22
+respawnrate=100
 param=stabdefence,24
 param=slashdefence,14
 param=crushdefence,19
@@ -956,8 +904,6 @@ param=magicdefence,-4
 param=rangedefence,16
 param=damagetype,^crush_style
 param=defend_sound,blade3_mail
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5420
 
 [yanille_soldier]
 name=Soldier
@@ -966,10 +912,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=28
-recol1s=2340
-recol1d=19522
-recol2s=14724
-recol2d=17
 model1=man_head_mediumhelmet
 model2=man_torso_chainmail2
 model3=man_arms_buff
@@ -978,11 +920,15 @@ model5=man_legs_turnups
 model6=man_feet_boots
 model7=man_jaw_goaty
 model8=human_weapons_longsword
-respawnrate=100
-hitpoints=22
+recol1s=2340
+recol1d=19522
+recol2s=14724
+recol2d=17
 attack=26
-strength=25
 defence=26
+strength=25
+hitpoints=22
+respawnrate=100
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -996,8 +942,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,blade3_mail
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5421
 
 [shipyardworker1]
 name=Shipyard worker
@@ -1007,12 +951,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=11
-recol1s=2340
-recol1d=8420
-recol2s=6273
-recol2d=14594
-recol3s=14724
-recol3d=15855
 model1=man_head_shorthair
 model2=man_jaw_moustache
 model3=man_torso_apron
@@ -1022,17 +960,21 @@ model6=man_legs_basic
 model7=man_feet_boots
 head1=chat_male_head_shorthair
 head2=chat_male_jaw_moustache
-respawnrate=100
-hitpoints=10
-attack=10
-strength=10
-defence=10
-magic=0
-ranged=0
-param=damagetype,^crush_style
+recol1s=2340
+recol1d=8420
+recol2s=6273
+recol2d=14594
+recol3s=14724
+recol3d=15855
 category=shipyardworker
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5457
+attack=10
+defence=10
+strength=10
+hitpoints=10
+ranged=0
+magic=0
+respawnrate=100
+param=damagetype,^crush_style
 
 [shipyardworker2]
 name=Shipyard worker
@@ -1042,10 +984,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=11
-recol1s=2340
-recol1d=8420
-recol2s=14724
-recol2d=15855
 model1=man_head_bald
 model2=man_jaw_none
 model3=man_torso_apron
@@ -1055,13 +993,18 @@ model6=man_legs_basic2
 model7=man_feet_boots
 model8=human_weapons_hammer
 head1=chat_male_head_bald
-respawnrate=100
-hitpoints=10
+recol1s=2340
+recol1d=8420
+recol2s=14724
+recol2d=15855
+category=shipyardworker
 attack=10
-strength=10
 defence=10
-magic=0
+strength=10
+hitpoints=10
 ranged=0
+magic=0
+respawnrate=100
 param=attackrate,6
 param=attackbonus,6
 param=strengthbonus,6
@@ -1069,9 +1012,6 @@ param=damagetype,^crush_style
 param=attack_anim,human_blunt_pound
 param=defend_anim,human_blunt_block
 param=attack_sound,warhammer_crush
-category=shipyardworker
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5729
 
 [shark]
 name=Shark
@@ -1089,8 +1029,10 @@ readyanim=chicken_ready
 op2=Attack
 vislevel=1
 model1=model_2849_npc
-respawnrate=50
+category=chicken
+wanderrange=5
 hitpoints=3
+respawnrate=50
 param=attackbonus,-47
 param=strengthbonus,-42
 param=stabdefence,-42
@@ -1106,10 +1048,6 @@ param=attack_sound,chicken_attack
 param=defend_sound,chicken_hit
 param=death_sound,chicken_death
 param=retreat,1
-category=chicken
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1173
-wanderrange=5
 
 [sheepsheered]
 vislevel=hide
@@ -1148,13 +1086,13 @@ op2=Attack
 minimap=no
 vislevel=1
 model1=model_2847_npc
-// todo: proof  recheck wanderranges / maxrange is 40 confirmed.
+category=duck
 wanderrange=35
 maxrange=40
-moverestrict=blocked
-respawnrate=100
-timer=25
 hitpoints=3
+timer=25
+respawnrate=100
+moverestrict=blocked
 param=attackbonus,-47
 param=strengthbonus,-42
 param=stabdefence,-42
@@ -1171,9 +1109,6 @@ param=defend_sound,duck_hit
 param=death_sound,duck_death
 param=death_drop,null
 param=retreat,1
-category=duck
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1838
 
 [duck_female]
 name=Duck
@@ -1183,20 +1118,20 @@ readyanim=duck_swim
 op2=Attack
 minimap=no
 vislevel=1
+model1=model_2847_npc
 recol1s=7493
 recol1d=13604
 recol2s=16912
 recol2d=11491
 recol3s=22197
 recol3d=10433
-model1=model_2847_npc
-// todo: proof  recheck wanderranges / maxrange is 40 confirmed.
+category=duck
 wanderrange=35
 maxrange=40
-moverestrict=blocked
-respawnrate=100
-timer=25
 hitpoints=3
+timer=25
+respawnrate=100
+moverestrict=blocked
 param=attackbonus,-47
 param=strengthbonus,-42
 param=stabdefence,-42
@@ -1213,9 +1148,6 @@ param=defend_sound,duck_hit
 param=death_sound,duck_death
 param=death_drop,null
 param=retreat,1
-category=duck
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1839
 
 [duckling]
 name=Duckling
@@ -1227,19 +1159,22 @@ resizeh=64
 resizev=64
 minimap=no
 vislevel=1
+model1=model_2847_npc
 recol1s=7493
 recol1d=28267
 recol2s=16912
 recol2d=28267
 recol3s=22197
 recol3d=10433
-model1=model_2847_npc
+category=duckling
 wanderrange=35
 maxrange=40
-moverestrict=blocked
-respawnrate=100
-timer=50
 hitpoints=3
+huntrange=2
+timer=50
+respawnrate=100
+moverestrict=blocked
+huntmode=duck_hunt
 defaultmode=none
 param=attackbonus,-47
 param=strengthbonus,-42
@@ -1256,12 +1191,7 @@ param=attack_sound,quack
 param=defend_sound,duck_hit
 param=death_sound,duck_death
 param=death_drop,null
-category=duckling
-huntmode=duck_hunt
 param=retreat,1
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2001
 
 [rat]
 name=Rat
@@ -1274,8 +1204,8 @@ vislevel=1
 model1=npc_rat
 wanderrange=15
 maxrange=17
-respawnrate=4
 hitpoints=2
+respawnrate=4
 param=attackbonus,-47
 param=strengthbonus,-53
 param=stabdefence,-42
@@ -1291,8 +1221,6 @@ param=attack_sound,rat_attack
 param=defend_sound,rat_hit
 param=death_sound,rat_death
 param=death_drop,null
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2854
 
 [oomlie_bird]
 name=Oomlie Bird
@@ -1303,6 +1231,7 @@ op2=Attack
 resizeh=180
 resizev=180
 vislevel=46
+model1=model_2849_npc
 recol1s=32767
 recol1d=9413
 recol2s=15360
@@ -1311,12 +1240,12 @@ recol3s=15855
 recol3d=15360
 recol4s=21104
 recol4d=15360
-model1=model_2849_npc
-respawnrate=50
-hitpoints=40
+wanderrange=5
 attack=40
-strength=40
 defence=40
+strength=40
+hitpoints=40
+respawnrate=50
 param=damagetype,^stab_style
 param=attack_anim,chicken_attack
 param=defend_anim,chicken_block
@@ -1324,9 +1253,6 @@ param=death_anim,chicken_death
 param=attack_sound,chicken_attack
 param=defend_sound,chicken_hit
 param=death_sound,chicken_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2062
-wanderrange=5
 
 [hellhound]
 size=2
@@ -1339,11 +1265,13 @@ vislevel=122
 model1=model_2997_npc
 wanderrange=3
 maxrange=5
-respawnrate=178
-hitpoints=116
 attack=105
-strength=104
 defence=102
+strength=104
+hitpoints=116
+huntrange=2
+respawnrate=178
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,hell_attack
 param=defend_anim,hell_block
@@ -1351,10 +1279,6 @@ param=death_anim,hell_death
 param=attack_sound,growl6
 param=defend_sound,growl5
 param=death_sound,growl3
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_104
 
 [babydragon]
 size=2
@@ -1365,14 +1289,15 @@ desc=Young but still dangerous.
 op2=Attack
 vislevel=48
 model1=model_2998_npc
-// todo: proof
 wanderrange=4
 maxrange=6
-respawnrate=60
-hitpoints=50
 attack=40
-strength=40
 defence=40
+strength=40
+hitpoints=50
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,30
 param=slashdefence,50
 param=crushdefence,50
@@ -1386,10 +1311,6 @@ param=attack_sound,babydragon_attack
 param=defend_sound,babydragon_hit
 param=death_sound,babydragon_death
 param=death_drop,babydragon_bones
-huntmode=cowardly
-huntrange=2
-// https://oldschool.runescape.wiki/w/Baby_dragon_(unused)
-// all data taken Baby blue dragon.
 
 [babybluedragon]
 size=2
@@ -1399,16 +1320,18 @@ name=Baby blue dragon
 desc=Young but still dangerous.
 op2=Attack
 vislevel=48
+model1=model_2998_npc
 recol1s=15855
 recol1d=4335
-model1=model_2998_npc
 wanderrange=4
 maxrange=6
-respawnrate=60
-hitpoints=50
 attack=40
-strength=40
 defence=40
+strength=40
+hitpoints=50
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,30
 param=slashdefence,50
 param=crushdefence,50
@@ -1422,10 +1345,6 @@ param=attack_sound,babydragon_attack
 param=defend_sound,babydragon_hit
 param=death_sound,babydragon_death
 param=death_drop,babydragon_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_241
 
 [red_dragon]
 size=4
@@ -1435,17 +1354,19 @@ name=Red dragon
 desc=A big powerful dragon.
 op2=Attack
 vislevel=152
-recol1s=15855
-recol1d=19588
 model1=model_2853_npc
 model2=model_2854_npc
+recol1s=15855
+recol1d=19588
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=140
 attack=130
-strength=130
 defence=130
+strength=130
+hitpoints=140
+huntrange=4
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,50
 param=slashdefence,70
 param=crushdefence,70
@@ -1459,10 +1380,6 @@ param=attack_sound,dragon_attack
 param=defend_sound,dragon_hit
 param=death_sound,dragon_death
 param=death_drop,dragon_bones
-huntmode=cowardly
-huntrange=4
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_249
 
 [black_dragon]
 size=4
@@ -1472,18 +1389,20 @@ name=Black dragon
 desc=A fierce dragon with black scales!
 op2=Attack
 vislevel=227
-recol1s=15855
-recol1d=4228
 model1=model_2853_npc
 model2=model_2854_npc
+recol1s=15855
+recol1d=4228
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=190
 attack=200
-strength=200
 defence=200
+strength=200
+hitpoints=190
 magic=100
+huntrange=4
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,50
 param=slashdefence,70
 param=crushdefence,70
@@ -1497,10 +1416,6 @@ param=attack_sound,dragon_attack
 param=defend_sound,dragon_hit
 param=death_sound,dragon_death
 param=death_drop,dragon_bones
-huntmode=cowardly
-huntrange=4
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_252
 
 [blue_dragon]
 size=4
@@ -1510,17 +1425,19 @@ name=Blue dragon
 desc=A mother dragon.
 op2=Attack
 vislevel=111
-recol1s=15855
-recol1d=4335
 model1=model_2853_npc
 model2=model_2854_npc
+recol1s=15855
+recol1d=4335
 wanderrange=4
 maxrange=6
-respawnrate=60
-hitpoints=105
 attack=95
-strength=95
 defence=95
+strength=95
+hitpoints=105
+huntrange=4
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,50
 param=slashdefence,70
 param=crushdefence,70
@@ -1534,10 +1451,6 @@ param=attack_sound,dragon_attack
 param=defend_sound,dragon_hit
 param=death_sound,dragon_death
 param=death_drop,dragon_bones
-huntmode=cowardly
-huntrange=4
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_265
 
 [dryhad]
 name=Dryad
@@ -1564,11 +1477,13 @@ vislevel=52
 model1=npc_giantspider
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=55
 attack=44
-strength=42
 defence=44
+strength=42
+hitpoints=55
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,20
 param=slashdefence,15
 param=crushdefence,10
@@ -1582,10 +1497,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3016
 
 [giantspider1]
 walkanim=giantspider_walk
@@ -1594,13 +1505,15 @@ name=Giant spider
 desc=I think this spider has been genetically modified.
 op2=Attack
 vislevel=2
+model1=npc_giantspider
 recol1s=5284
 recol1d=10464
-model1=npc_giantspider
 wanderrange=10
 maxrange=12
-respawnrate=60
 hitpoints=5
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=attackbonus,-10
 param=strengthbonus,-10
 param=stabdefence,-10
@@ -1616,10 +1529,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3017
 
 [giantspider2]
 walkanim=giantspider_walk
@@ -1628,16 +1537,18 @@ name=Giant spider
 desc=I think this spider has been genetically modified.
 op2=Attack
 vislevel=27
+model1=npc_giantspider
 recol1s=5284
 recol1d=10464
-model1=npc_giantspider
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=32
 attack=20
-strength=24
 defence=21
+strength=24
+hitpoints=32
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,giantspider_attack
 param=defend_anim,giantspider_block
@@ -1646,10 +1557,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3018
 
 [spider]
 walkanim=spider_walk
@@ -1660,8 +1567,8 @@ vislevel=1
 model1=model_2996_npc
 wanderrange=8
 maxrange=10
-respawnrate=70
 hitpoints=2
+respawnrate=70
 param=attackbonus,-35
 param=strengthbonus,-58
 param=stabdefence,-53
@@ -1677,9 +1584,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-// osrs stats and Vislvl match 1:1
-// osrs sounds small_spider_attack, small_spider_hit, small_spider_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3019
 
 [jungle_spider]
 walkanim=giantspider_walk
@@ -1689,16 +1593,18 @@ name=Jungle spider
 desc=A barely visible deadly jungle spider.
 op2=Attack
 vislevel=44
+model1=npc_giantspider
 recol1s=5284
 recol1d=11846
-model1=npc_giantspider
 wanderrange=3
 maxrange=12
-respawnrate=60
-hitpoints=50
 attack=35
-strength=37
 defence=35
+strength=37
+hitpoints=50
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,20
 param=slashdefence,20
 param=crushdefence,10
@@ -1712,11 +1618,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// osrs wander=3 / max=5
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3020
 
 [deadly_red_spider]
 walkanim=giantspider_walk
@@ -1725,16 +1626,18 @@ name=Deadly red spider
 desc=I think this spider has been genetically modified.
 op2=Attack
 vislevel=34
+model1=npc_giantspider
 recol1s=5284
 recol1d=15362
-model1=npc_giantspider
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=35
 attack=30
-strength=25
 defence=30
+strength=25
+hitpoints=35
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,15
 param=slashdefence,16
 param=crushdefence,7
@@ -1748,10 +1651,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3021
 
 [ice_spider]
 walkanim=giantspider_walk
@@ -1764,11 +1663,13 @@ vislevel=61
 model1=model_2885_npc
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=65
 attack=50
-strength=55
 defence=43
+strength=55
+hitpoints=65
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,20
 param=slashdefence,17
 param=crushdefence,12
@@ -1782,10 +1683,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3022
 
 [leprechaun]
 walkanim=midget_walk
@@ -1797,11 +1694,11 @@ vislevel=12
 model1=model_2909_npc
 model2=model_2896_npc
 model3=model_2915_npc
-respawnrate=100
-hitpoints=16
 attack=10
-strength=10
 defence=7
+strength=10
+hitpoints=16
+respawnrate=100
 param=damagetype,^crush_style
 param=attack_anim,midget_attackunarmed
 param=defend_anim,midget_block
@@ -1809,8 +1706,6 @@ param=death_anim,midget_death
 param=attack_sound,gnome_attack
 param=defend_sound,gnome_hit
 param=death_sound,gnome_death
-// stats taken Lost city leprechaun shamus. stats match to Vislvl
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1162
 
 [lizardman]
 name=Lizard man
@@ -1821,24 +1716,14 @@ readyanim=lizardman_ready
 op2=Attack
 vislevel=22
 model1=npc_lizardman
-// wanderrange=
-// maxrange=
-// respawnrate=
-// hitpoints=
-// attack=
-// strength=
-// defence=
-// magic=
-// ranged=
+huntrange=2
+huntmode=cowardly
 param=attack_anim,lizardman_attack
 param=defend_anim,lizardman_block
 param=death_anim,lizardman_death
 param=attack_sound,lizardman_attack
 param=defend_sound,lizardman_hit
 param=death_sound,lizardman_death
-huntmode=cowardly
-huntrange=2
-// TODO
 
 [mummy]
 name=Mummy
@@ -1848,24 +1733,14 @@ readyanim=mummy_ready
 op2=Attack
 vislevel=47
 model1=npc_mummy
-// wanderrange=
-// maxrange=
-// respawnrate=
-// hitpoints=
-// attack=
-// strength=
-// defence=
-// magic=
-// ranged=
+huntrange=1
+huntmode=cowardly
 param=attack_anim,mummy_attack
 param=defend_anim,mummy_block
 param=death_anim,mummy_death
 param=attack_sound,mummy_attack
 param=defend_sound,mummy_hit
 param=death_sound,mummy_death
-huntmode=cowardly
-huntrange=1
-// TODO
 
 [orc]
 name=Orc
@@ -1875,18 +1750,18 @@ readyanim=orc_ready
 op2=Attack
 vislevel=20
 model1=npc_orc
-hitpoints=29
 attack=13
-strength=16
 defence=14
+strength=16
+hitpoints=29
+huntrange=1
+huntmode=cowardly
 param=attackrate,5
-// param=attackbonus, TODO
 param=strengthbonus,5
 param=stabdefence,12
 param=slashdefence,14
 param=crushdefence,13
 param=magicdefence,5
-// param=rangedefence, TODO
 param=damagetype,^crush_style
 param=attack_anim,orc_attack
 param=defend_anim,orc_block
@@ -1894,11 +1769,6 @@ param=death_anim,orc_death
 param=attack_sound,orc_attack
 param=defend_sound,orc_hit
 param=death_sound,orc_death
-huntmode=cowardly
-huntrange=1
-// This npc has probably replaced this npc in the cache.
-// Strangely, Vislvl matches perfectly and the npc still has stats, although it can't be killed.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2106
 
 [troll]
 name=Troll
@@ -1908,14 +1778,15 @@ readyanim=troll_ready
 op2=Attack
 vislevel=69
 model1=npc_troll
-// wanderrange= TODO
-// maxrange= TODO
-hitpoints=90
+wanderrange=3
 attack=40
-strength=75
 defence=40
-magic=0
+strength=75
+hitpoints=90
 ranged=0
+magic=0
+huntrange=1
+huntmode=cowardly
 param=attackrate,6
 param=attackbonus,20
 param=strengthbonus,20
@@ -1930,11 +1801,6 @@ param=attack_sound,troll_attack
 param=defend_sound,troll_hit
 param=death_sound,troll_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=1
-// stats taken from Mountain Troll // Sounds is possible same as river troll that mean no sounds.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_936
-wanderrange=3
 
 [zombie_unarmed]
 name=Zombie
@@ -1946,11 +1812,13 @@ vislevel=13
 model1=model_2931_npc
 wanderrange=9
 maxrange=11
-respawnrate=70
-hitpoints=22
 attack=8
-strength=9
 defence=10
+strength=9
+hitpoints=22
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,zombie_attack
 param=defend_anim,zombie_block
@@ -1959,10 +1827,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_26
 
 [zombie2]
 name=Zombie
@@ -1974,11 +1838,13 @@ vislevel=18
 model1=model_2931_npc
 wanderrange=9
 maxrange=11
-respawnrate=70
-hitpoints=24
 attack=13
-strength=13
 defence=18
+strength=13
+hitpoints=24
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,zombie_attack
 param=defend_anim,zombie_block
@@ -1987,10 +1853,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_42
 
 [zombie_armed]
 name=Zombie
@@ -2003,11 +1865,13 @@ model1=model_2931_npc
 model2=model_2932_npc
 wanderrange=9
 maxrange=11
-respawnrate=70
-hitpoints=30
 attack=19
-strength=21
 defence=16
+strength=21
+hitpoints=30
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=attackrate,5
 param=attackbonus,5
 param=strengthbonus,7
@@ -2024,10 +1888,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_49
 
 [zombie_entranan]
 name=Zombie
@@ -2040,11 +1900,13 @@ model1=model_2931_npc
 model2=model_2932_npc
 wanderrange=9
 maxrange=11
-respawnrate=70
-hitpoints=30
 attack=19
-strength=21
 defence=21
+strength=21
+hitpoints=30
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=attackbonus,5
 param=strengthbonus,7
 param=stabdefence,10
@@ -2060,10 +1922,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_64
 
 [summonedzombie]
 name=Summoned Zombie
@@ -2073,10 +1931,13 @@ readyanim=zombie_ready
 op2=Attack
 vislevel=13
 model1=model_2931_npc
-hitpoints=22
+wanderrange=6
 attack=8
-strength=9
 defence=10
+strength=9
+hitpoints=22
+huntrange=1
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,zombie_attack
 param=defend_anim,zombie_block
@@ -2085,11 +1946,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_69
-wanderrange=6
 
 [bat]
 name=Giant bat
@@ -2100,14 +1956,16 @@ readyanim=bat_ready
 op2=Attack
 vislevel=27
 model1=model_2941_npc
-members=yes
 wanderrange=8
 maxrange=10
-respawnrate=70
-hitpoints=32
 attack=22
-strength=22
 defence=22
+strength=22
+hitpoints=32
+huntrange=2
+respawnrate=70
+huntmode=cowardly
+members=yes
 param=stabdefence,10
 param=slashdefence,10
 param=crushdefence,12
@@ -2121,10 +1979,6 @@ param=attack_sound,bat_attack
 param=defend_sound,bat_hit
 param=death_sound,bat_death
 param=death_drop,bat_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2834
 
 [cow]
 size=2
@@ -2142,9 +1996,10 @@ recol2s=32765
 recol2d=10434
 recol3s=8423
 recol3d=32766
+category=cow
+hitpoints=8
 timer=25
 respawnrate=90
-hitpoints=8
 param=attackbonus,-15
 param=strengthbonus,-15
 param=stabdefence,-21
@@ -2159,9 +2014,6 @@ param=death_anim,cow_death
 param=attack_sound,cow_attack
 param=defend_sound,cow_hit
 param=death_sound,cow_death
-category=cow
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2790
 
 [lesser_demon]
 size=2
@@ -2174,11 +2026,13 @@ vislevel=82
 model1=model_2943_npc
 wanderrange=6
 maxrange=16
-respawnrate=60
-hitpoints=79
 attack=68
-strength=70
 defence=71
+strength=70
+hitpoints=79
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=magicdefence,-10
 param=damagetype,^slash_style
 param=attack_anim,demon_attack
@@ -2189,11 +2043,6 @@ param=defend_sound,demon_hit
 param=death_sound,demon_death
 param=demonbane_vulnerable,yes
 param=death_drop,ashes
-huntmode=cowardly
-huntrange=2
-// huntrange: https://youtu.be/bU8sQbojKH4?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=127
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2005
 
 [greater_demon]
 size=3
@@ -2208,11 +2057,13 @@ vislevel=92
 model1=model_2942_npc
 wanderrange=6
 maxrange=8
-respawnrate=30
-hitpoints=87
 attack=76
-strength=78
 defence=81
+strength=78
+hitpoints=87
+huntrange=3
+respawnrate=30
+huntmode=cowardly
 param=magicdefence,-10
 param=damagetype,^slash_style
 param=attack_anim,demon_attack
@@ -2223,10 +2074,6 @@ param=defend_sound,black_demon_hit
 param=death_sound,black_demon_death
 param=demonbane_vulnerable,yes
 param=death_drop,ashes
-huntmode=cowardly
-huntrange=3
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2025
 
 [black_demon]
 size=3
@@ -2236,20 +2083,23 @@ name=Black Demon
 desc=A big, scary, jet-black demon.
 op2=Attack
 vislevel=172
+model1=model_2942_npc
 recol1s=11264
 recol1d=1057
 recol2s=15393
 recol2d=1057
 recol3s=0
 recol3d=16417
-model1=model_2942_npc
+category=black_demon
 wanderrange=6
 maxrange=9
-respawnrate=60
-hitpoints=157
 attack=145
-strength=148
 defence=152
+strength=148
+hitpoints=157
+huntrange=3
+respawnrate=60
+huntmode=cowardly
 param=magicdefence,-10
 param=damagetype,^slash_style
 param=attack_anim,demon_attack
@@ -2260,11 +2110,6 @@ param=defend_sound,demon_hit
 param=death_sound,demon_death
 param=demonbane_vulnerable,yes
 param=death_drop,ashes
-category=black_demon
-huntmode=cowardly
-huntrange=3
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2048
 
 [golem]
 name=Golem
@@ -2275,10 +2120,10 @@ readyanim=golem_ready
 op2=Attack
 vislevel=55
 model1=npc_golem
-hitpoints=70
 attack=35
-strength=60
 defence=30
+strength=60
+hitpoints=70
 param=stabdefence,30
 param=slashdefence,40
 param=crushdefence,20
@@ -2290,8 +2135,6 @@ param=attack_sound,golem_attack
 param=defend_sound,golem_hit
 param=death_sound,golem_death
 param=death_drop,null
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2836
-// TODO try get more infos param stats, wander and max ranges.
 
 [giantrat]
 size=2
@@ -2302,13 +2145,14 @@ desc=Overgrown vermin.
 op2=Attack
 vislevel=3
 model1=model_2959_npc
+category=giantrat
 wanderrange=6
 maxrange=8
-respawnrate=60
-hitpoints=5
 attack=2
-strength=3
 defence=2
+strength=3
+hitpoints=5
+respawnrate=60
 param=damagetype,^stab_style
 param=attack_anim,giantrat_attack
 param=defend_anim,giantrat_block
@@ -2316,9 +2160,6 @@ param=death_anim,giantrat_death
 param=attack_sound,rat_attack
 param=defend_sound,rat_hit
 param=death_sound,rat_death
-category=giantrat
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2856
 
 [giantrat1]
 size=2
@@ -2329,13 +2170,16 @@ desc=Overgrown vermin.
 op2=Attack
 vislevel=6
 model1=model_2959_npc
+category=giantrat
 wanderrange=6
 maxrange=8
-respawnrate=60
-hitpoints=10
 attack=6
-strength=5
 defence=2
+strength=5
+hitpoints=10
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,giantrat_attack
 param=defend_anim,giantrat_block
@@ -2343,11 +2187,6 @@ param=death_anim,giantrat_death
 param=attack_sound,rat_attack
 param=defend_sound,rat_hit
 param=death_sound,rat_death
-huntmode=cowardly
-huntrange=1
-category=giantrat
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2862
 
 [dungeon_rat]
 size=2
@@ -2357,16 +2196,18 @@ name=Dungeon rat
 desc=Overgrown vermin.
 op2=Attack
 vislevel=12
+model1=model_2959_npc
 recol1s=6347
 recol1d=17969
-model1=model_2959_npc
 wanderrange=6
 maxrange=8
-respawnrate=50
-hitpoints=12
 attack=10
-strength=10
 defence=10
+strength=10
+hitpoints=12
+huntrange=2
+respawnrate=50
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,giantrat_attack
 param=defend_anim,giantrat_block
@@ -2374,10 +2215,6 @@ param=death_anim,giantrat_death
 param=attack_sound,rat_attack
 param=defend_sound,rat_hit
 param=death_sound,rat_death
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2865
 
 [unicorn]
 size=2
@@ -2388,13 +2225,14 @@ desc=Horse with a horn.
 op2=Attack
 vislevel=15
 model1=model_2933_npc
+category=unicorn
 wanderrange=17
 maxrange=19
-respawnrate=180
-hitpoints=19
 attack=11
-strength=13
 defence=13
+strength=13
+hitpoints=19
+respawnrate=180
 param=damagetype,^stab_style
 param=attack_anim,unicorn_attack
 param=defend_anim,unicorn_block
@@ -2402,9 +2240,6 @@ param=death_anim,unicorn_death
 param=attack_sound,cow_attack
 param=defend_sound,horse_hit
 param=retreat,6
-category=unicorn
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2837
 
 [skeleton_unarmed]
 name=Skeleton
@@ -2416,11 +2251,13 @@ vislevel=25
 model1=model_2944_npc
 wanderrange=8
 maxrange=5
-respawnrate=140
-hitpoints=17
 attack=24
-strength=24
 defence=24
+strength=24
+hitpoints=17
+huntrange=1
+respawnrate=140
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,5
 param=crushdefence,-5
@@ -2433,12 +2270,6 @@ param=attack_sound,skeleton_attack
 param=defend_sound,skelly_hit
 param=death_sound,skeleton_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// Todo: proof old wander/maxranges early 2004 / rsc wander 8 / osrs wander 3 max 5
-// osrs stats and Vislvl match 1:1
-// https://www.youtube.com/watch?v=fqNKyRfgElw (late 2004 this skeleton is level 21.)
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_74
 
 [skeleton_unagressive]
 name=Skeleton
@@ -2450,11 +2281,13 @@ vislevel=21
 model1=model_2944_npc
 wanderrange=3
 maxrange=10
-respawnrate=70
-hitpoints=24
 attack=17
-strength=17
 defence=17
+strength=17
+hitpoints=24
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,5
 param=crushdefence,-5
@@ -2467,10 +2300,6 @@ param=attack_sound,skeleton_attack
 param=defend_sound,skelly_hit
 param=death_sound,skeleton_death
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_70
 
 [skeleton_armed]
 name=Skeleton
@@ -2483,11 +2312,13 @@ model1=model_2944_npc
 model2=model_2946_npc
 wanderrange=9
 maxrange=11
-respawnrate=140
-hitpoints=29
 attack=15
-strength=18
 defence=17
+strength=18
+hitpoints=29
+huntrange=1
+respawnrate=140
+huntmode=cowardly
 param=attackbonus,15
 param=strengthbonus,14
 param=stabdefence,9
@@ -2503,11 +2334,6 @@ param=attack_sound,stabsword_slash
 param=defend_sound,skelly_hit
 param=death_sound,skeleton_death
 param=undead,^true
-huntmode=cowardly
-// huntrange: https://youtu.be/bU8sQbojKH4?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=127
-huntrange=1
-// stats taken dragonslayer_skeleton (22lv) // Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_77
 
 [giantskeleton]
 name=Skeleton
@@ -2522,11 +2348,13 @@ model1=model_2944_npc
 model2=model_2946_npc
 wanderrange=9
 maxrange=11
-respawnrate=120
-hitpoints=59
 attack=32
-strength=35
 defence=36
+strength=35
+hitpoints=59
+huntrange=1
+respawnrate=120
+huntmode=cowardly
 param=attackbonus,15
 param=strengthbonus,14
 param=stabdefence,9
@@ -2542,11 +2370,6 @@ param=attack_sound,stabsword_slash
 param=defend_sound,skelly_hit
 param=death_sound,skeleton_death
 param=undead,^true
-huntmode=cowardly
-// huntrange: https://youtu.be/bU8sQbojKH4?list=PLn23LiLYLb1aqrojPTi1_Np81LJku2Nd0&t=127
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_82
 
 [skeletonmage]
 name=Skeleton Mage
@@ -2555,31 +2378,29 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=16
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=4226
-recol3s=6273
-recol3d=4226
 model1=man_head_skull
 model2=man_jaw_medium
 model3=man_torso_basic
 model4=man_arms_longsleeves
 model5=man_legs_robe_nofeet
 model6=man_torsoextra_priestdecor
-respawnrate=50
-hitpoints=17
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=4226
+recol3s=6273
+recol3d=4226
 attack=14
-strength=14
 defence=14
+strength=14
+hitpoints=17
 magic=18
+respawnrate=50
 param=damagetype,^crush_style
 param=attack_sound,skeleton_attack
 param=defend_sound,skelly_hit
 param=death_sound,skeleton_death
 param=undead,^true
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_84
 
 [wolf]
 name=Wolf
@@ -2592,11 +2413,13 @@ vislevel=64
 model1=model_2937_npc
 wanderrange=6
 maxrange=8
-respawnrate=180
-hitpoints=69
 attack=50
-strength=55
 defence=52
+strength=55
+hitpoints=69
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -2605,10 +2428,6 @@ param=attack_sound,wolf_attack
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
 param=death_drop,wolf_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_106
 
 [whitewolf_sentry]
 size=2
@@ -2618,18 +2437,20 @@ name=White wolf
 desc=A vicious mountain wolf.
 op2=Attack
 vislevel=25
+model1=model_2937_npc
 recol1s=15855
 recol1d=32767
 recol2s=15855
 recol2d=32767
-model1=model_2937_npc
 wanderrange=3
 maxrange=5
-respawnrate=180
-hitpoints=34
 attack=20
-strength=16
 defence=22
+strength=16
+hitpoints=34
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -2638,10 +2459,6 @@ param=attack_sound,wolf_attack
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
 param=death_drop,wolf_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_107
 
 [whitewolf]
 size=2
@@ -2651,18 +2468,20 @@ name=White wolf
 desc=A vicious mountain wolf.
 op2=Attack
 vislevel=38
+model1=model_2937_npc
 recol1s=15855
 recol1d=32767
 recol2s=15855
 recol2d=32767
-model1=model_2937_npc
 wanderrange=3
 maxrange=5
-respawnrate=180
-hitpoints=44
 attack=30
-strength=31
 defence=32
+strength=31
+hitpoints=44
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -2671,10 +2490,6 @@ param=attack_sound,wolf_attack
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
 param=death_drop,wolf_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_108
 
 [dog]
 name=Dog
@@ -2697,11 +2512,13 @@ vislevel=44
 model1=model_2936_npc
 wanderrange=3
 maxrange=5
-respawnrate=50
-hitpoints=49
 attack=35
-strength=36
 defence=37
+strength=36
+hitpoints=49
+huntrange=1
+respawnrate=50
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -2709,11 +2526,6 @@ param=death_anim,dog_death
 param=attack_sound,wolf_attack
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
-huntmode=cowardly
-huntrange=1
-// TODO sounds are guess need confirm.
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_114
 
 [goblin]
 name=Goblin
@@ -2728,8 +2540,8 @@ model3=model_2955_npc
 model4=model_2956_npc
 wanderrange=15
 maxrange=17
-respawnrate=140
 hitpoints=5
+respawnrate=140
 param=attackbonus,-21
 param=strengthbonus,-15
 param=stabdefence,-15
@@ -2744,8 +2556,6 @@ param=death_anim,goblin_death
 param=attack_sound,goblin_attack
 param=defend_sound,goblin_hit
 param=death_sound,goblin_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3028
 
 [goblin_armed]
 name=Goblin
@@ -2761,10 +2571,10 @@ model4=model_2956_npc
 model5=model_2957_npc
 wanderrange=15
 maxrange=17
-respawnrate=140
-hitpoints=12
 attack=3
 defence=4
+hitpoints=12
+respawnrate=140
 param=attackrate,6
 param=attackbonus,12
 param=strengthbonus,12
@@ -2775,8 +2585,6 @@ param=death_anim,goblin_death
 param=attack_sound,goblin_attack
 param=defend_sound,goblin_hit
 param=death_sound,goblin_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3045
 
 [goblin_helmet]
 name=Goblin
@@ -2791,12 +2599,12 @@ model3=model_2955_npc
 model4=model_2956_npc
 wanderrange=15
 maxrange=17
-respawnrate=140
-respawnrate=140
-hitpoints=16
 attack=12
-strength=13
 defence=7
+strength=13
+hitpoints=16
+respawnrate=140
+respawnrate=140
 param=stabdefence,4
 param=slashdefence,6
 param=crushdefence,8
@@ -2809,8 +2617,6 @@ param=death_anim,goblin_death
 param=attack_sound,goblin_attack
 param=defend_sound,goblin_hit
 param=death_sound,goblin_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3046
 
 [ghost]
 name=Ghost
@@ -2824,11 +2630,13 @@ model2=model_2964_npc
 model3=model_2965_npc
 wanderrange=8
 maxrange=10
-respawnrate=80
-hitpoints=25
 attack=13
-strength=13
 defence=18
+strength=13
+hitpoints=25
+huntrange=1
+respawnrate=80
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,5
 param=crushdefence,5
@@ -2843,10 +2651,6 @@ param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
 param=undead,^true
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_85
 
 [house_ghost]
 name=Ghost
@@ -2858,11 +2662,11 @@ vislevel=19
 model1=model_2961_npc
 model2=model_2964_npc
 model3=model_2965_npc
-respawnrate=80
-hitpoints=25
 attack=13
-strength=13
 defence=18
+strength=13
+hitpoints=25
+respawnrate=80
 param=stabdefence,5
 param=slashdefence,5
 param=crushdefence,5
@@ -2877,8 +2681,6 @@ param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
 param=undead,^true
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_473
 
 [brownbear]
 size=2
@@ -2889,13 +2691,16 @@ desc=Eek! A bear!
 op2=Attack
 vislevel=21
 model1=model_2966_npc
+category=bear
 wanderrange=4
 maxrange=15
-respawnrate=100
-hitpoints=27
 attack=17
-strength=18
 defence=15
+strength=18
+hitpoints=27
+huntrange=1
+respawnrate=100
+huntmode=cowardly
 param=damagetype,^slash_style
 param=attack_anim,bear_attack
 param=defend_anim,bear_block
@@ -2903,11 +2708,6 @@ param=death_anim,bear_death
 param=attack_sound,bear_attack
 param=defend_sound,bear_hit
 param=death_sound,bear_death
-category=bear
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2838
 
 [darkbear]
 size=2
@@ -2917,16 +2717,19 @@ name=Bear
 desc=Eek! A bear!
 op2=Attack
 vislevel=19
+model1=model_2966_npc
 recol1s=12517
 recol1d=3171
-model1=model_2966_npc
+category=bear
 wanderrange=12
 maxrange=10
-respawnrate=100
-hitpoints=25
 attack=15
-strength=16
 defence=13
+strength=16
+hitpoints=25
+huntrange=1
+respawnrate=100
+huntmode=cowardly
 param=damagetype,^slash_style
 param=attack_anim,bear_attack
 param=defend_anim,bear_block
@@ -2934,11 +2737,6 @@ param=death_anim,bear_death
 param=attack_sound,bear_attack
 param=defend_sound,bear_hit
 param=death_sound,bear_death
-category=bear
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2839
 
 [scorpion]
 size=2
@@ -2951,11 +2749,13 @@ vislevel=14
 model1=model_2967_npc
 wanderrange=12
 maxrange=14
-respawnrate=50
-hitpoints=17
 attack=11
-strength=12
 defence=11
+strength=12
+hitpoints=17
+huntrange=2
+respawnrate=50
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,15
 param=crushdefence,15
@@ -2968,11 +2768,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// osrs sounds scorpion_attack, scorpion_hit, scorpion_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3024
 
 [poison_scorpion]
 size=2
@@ -2985,11 +2780,13 @@ vislevel=20
 model1=model_2967_npc
 wanderrange=12
 maxrange=14
-respawnrate=50
-hitpoints=23
 attack=16
-strength=17
 defence=15
+strength=17
+hitpoints=23
+huntrange=2
+respawnrate=50
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,15
 param=crushdefence,15
@@ -3003,11 +2800,6 @@ param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
 param=poison_severity,15
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// osrs sounds scorpion_attack, scorpion_hit, scorpion_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3025
 
 [smallscorpion]
 name=Pit Scorpion
@@ -3019,11 +2811,13 @@ vislevel=28
 model1=model_2968_npc
 wanderrange=4
 maxrange=6
-respawnrate=100
-hitpoints=32
 attack=23
-strength=23
 defence=23
+strength=23
+hitpoints=32
+huntrange=1
+respawnrate=100
+huntmode=cowardly
 param=slashdefence,5
 param=crushdefence,5
 param=damagetype,^stab_style
@@ -3034,11 +2828,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// osrs sounds scorpion_attack, scorpion_hit, scorpion_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3026
 
 [firegiant]
 size=2
@@ -3048,23 +2837,25 @@ name=Fire giant
 desc=A very large elemental adversary.
 op2=Attack
 vislevel=86
+model1=model_2870_npc
+model2=npc_giant_head_fire
+model3=npc_1582i2
+model4=npc_1583
 recol1s=24075
 recol1d=30753
 recol2s=21279
 recol2d=15655
 recol3s=11520
 recol3d=15655
-model1=model_2870_npc
-model2=npc_giant_head_fire
-model3=npc_1582i2
-model4=npc_1583
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=111
 attack=65
-strength=65
 defence=65
+strength=65
+hitpoints=111
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=attackrate,5
 param=attackbonus,29
 param=strengthbonus,31
@@ -3078,10 +2869,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2078
 
 [icegiant]
 size=2
@@ -3091,17 +2878,18 @@ name=Ice giant
 desc=He's got icicles in his beard.
 op2=Attack
 vislevel=53
-recol1s=24075
-recol1d=22431
 model1=model_2870_npc
 model2=model_2868_npc
-//wanderrange=3
-//maxrange=5
-respawnrate=60
-hitpoints=70
+recol1s=24075
+recol1d=22431
+wanderrange=3
 attack=40
-strength=40
 defence=40
+strength=40
+hitpoints=70
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=attackrate,5
 param=attackbonus,29
 param=strengthbonus,31
@@ -3115,11 +2903,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=2
-// Stats match osrs version but our version Vislvl is different.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2085
-wanderrange=3
 
 [mossgiant]
 size=2
@@ -3129,20 +2912,22 @@ name=Moss giant
 desc=His beard seems to have a life of its own.
 op2=Attack
 vislevel=42
+model1=model_2870_npc
+model2=model_2865_npc
+model3=npc_1583
 recol1s=24075
 recol1d=290
 recol2s=21279
 recol2d=9472
-model1=model_2870_npc
-model2=model_2865_npc
-model3=npc_1583
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=60
 attack=30
-strength=30
 defence=30
+strength=30
+hitpoints=60
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=attackrate,6
 param=attackbonus,33
 param=strengthbonus,31
@@ -3154,10 +2939,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2090
 
 [jogre]
 size=2
@@ -3167,21 +2948,23 @@ name=Jogre
 desc=An aggressive humanoid.
 op2=Attack
 vislevel=53
+model1=model_2870_npc
+model2=model_2866_npc
 recol1s=24075
 recol1d=10688
 recol2s=21279
 recol2d=5378
 recol3s=17927
 recol3d=10688
-model1=model_2870_npc
-model2=model_2866_npc
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=60
 attack=43
-strength=43
 defence=43
+strength=43
+hitpoints=60
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=attackrate,6
 param=attackbonus,22
 param=strengthbonus,20
@@ -3193,10 +2976,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,tbwt_jogre_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2094
 
 [cyclops]
 size=2
@@ -3210,11 +2989,13 @@ model1=model_2870_npc
 model2=model_2867_npc
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=55
 attack=47
-strength=50
 defence=46
+strength=50
+hitpoints=55
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,giant_attack
 param=defend_anim,giant_block
@@ -3223,10 +3004,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2097
 
 [giant]
 size=2
@@ -3240,11 +3017,13 @@ model1=model_2870_npc
 model2=model_2862_npc
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=35
 attack=18
-strength=22
 defence=26
+strength=22
+hitpoints=35
+huntrange=2
+respawnrate=60
+huntmode=cowardly
 param=attackrate,6
 param=attackbonus,18
 param=strengthbonus,16
@@ -3256,10 +3035,6 @@ param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2098
 
 [dwarf_normal]
 walkanim=dwarf_walk
@@ -3268,21 +3043,21 @@ name=Dwarf
 desc=A short angry guy.
 op2=Attack
 vislevel=10
-recol1s=15426
-recol1d=8354
 model1=model_2970_npc
 model2=model_2981_npc
 model3=model_2979_npc
 model4=model_2983_npc
 model5=model_2985_npc
 model6=model_2990_npc
+recol1s=15426
+recol1d=8354
 wanderrange=13
 maxrange=15
-respawnrate=100
-hitpoints=16
 attack=8
-strength=8
 defence=6
+strength=8
+hitpoints=16
+respawnrate=100
 param=attackrate,5
 param=attackbonus,5
 param=strengthbonus,7
@@ -3294,8 +3069,6 @@ param=death_anim,dwarf_death
 param=attack_sound,baxe_crush
 param=defend_sound,dwarf_hit
 param=death_sound,dwarf_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_290
 
 [dwarf_chaos]
 walkanim=dwarf_walk
@@ -3304,10 +3077,6 @@ name=Chaos dwarf
 desc=A dwarf gone bad.
 op2=Attack
 vislevel=48
-recol1s=15785
-recol1d=15855
-recol2s=24075
-recol2d=22855
 model1=model_2970_npc
 model2=model_2982_npc
 model3=model_2977_npc
@@ -3316,13 +3085,19 @@ model5=model_2985_npc
 model6=model_2989_npc
 model7=model_2993_npc
 model8=model_2991_npc
+recol1s=15785
+recol1d=15855
+recol2s=24075
+recol2d=22855
 wanderrange=20
 maxrange=22
-respawnrate=300
-hitpoints=61
 attack=38
-strength=42
 defence=28
+strength=42
+hitpoints=61
+huntrange=1
+respawnrate=300
+huntmode=cowardly
 param=attackbonus,13
 param=strengthbonus,9
 param=stabdefence,40
@@ -3337,10 +3112,6 @@ param=death_anim,dwarf_death
 param=attack_sound,warhammer_crush
 param=defend_sound,dwarf_hit
 param=death_sound,dwarf_death
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_291
 
 [dwarf_mountain]
 walkanim=dwarf_walk
@@ -3357,11 +3128,11 @@ model5=model_2985_npc
 model6=model_2993_npc
 wanderrange=13
 maxrange=15
-respawnrate=50
-hitpoints=26
 attack=15
-strength=16
 defence=16
+strength=16
+hitpoints=26
+respawnrate=50
 param=attackrate,6
 param=attackbonus,11
 param=strengthbonus,9
@@ -3373,8 +3144,6 @@ param=death_anim,dwarf_death
 param=attack_sound,warhammer_crush
 param=defend_sound,dwarf_hit
 param=death_sound,dwarf_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_292
 
 [dwarf_tunnel]
 walkanim=dwarf_walk
@@ -3391,11 +3160,11 @@ model5=model_2985_npc
 model6=model_2993_npc
 wanderrange=3
 maxrange=15
-respawnrate=100
-hitpoints=16
 attack=8
-strength=8
 defence=6
+strength=8
+hitpoints=16
+respawnrate=100
 param=attackrate,6
 param=attackbonus,11
 param=strengthbonus,9
@@ -3407,7 +3176,6 @@ param=death_anim,dwarf_death
 param=attack_sound,warhammer_crush
 param=defend_sound,dwarf_hit
 param=death_sound,dwarf_death
-// params, stats, animations, sounds is competely guess. the npc data no longer exists in the cache.. mostly taken other dwarves.
 
 [hobgoblin_unarmed]
 walkanim=hobgoblin_walk
@@ -3419,10 +3187,12 @@ vislevel=28
 model1=model_2994_npc
 wanderrange=15
 maxrange=17
-hitpoints=29
 attack=22
-strength=24
 defence=24
+strength=24
+hitpoints=29
+huntrange=1
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,hobgoblin_attackunarmed
 param=defend_anim,hobgoblin_block
@@ -3430,10 +3200,6 @@ param=death_anim,hobgoblin_death
 param=attack_sound,goblin_attack
 param=defend_sound,goblin_hit
 param=death_sound,goblin_death
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3049
 
 [hobgoblin_armed]
 walkanim=hobgoblin_walk
@@ -3446,10 +3212,12 @@ model1=model_2994_npc
 model2=model_2995_npc
 wanderrange=3
 maxrange=5
-hitpoints=49
 attack=33
-strength=31
 defence=36
+strength=31
+hitpoints=49
+huntrange=1
+huntmode=cowardly
 param=attackrate,6
 param=attackbonus,8
 param=strengthbonus,10
@@ -3462,10 +3230,6 @@ param=death_anim,hobgoblin_death
 param=attack_sound,goblin_attack
 param=defend_sound,goblin_hit
 param=death_sound,goblin_death
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3050
 
 [earthwarrior]
 walkanim=human_transwalk_f
@@ -3476,6 +3240,13 @@ name=Earth warrior
 desc=A strange inhuman elemental warrior.
 op2=Attack
 vislevel=51
+model1=man_head_icewarriorfullhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_basic
+model5=man_legs_platemail
+model6=man_feet_icewarriorboots
+model7=human_weapons_model_520
 recol1s=15855
 recol1d=12547
 recol2s=10570
@@ -3488,20 +3259,15 @@ recol5s=3171
 recol5d=12547
 recol6s=14801
 recol6d=12547
-model1=man_head_icewarriorfullhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_basic
-model5=man_legs_platemail
-model6=man_feet_icewarriorboots
-model7=human_weapons_model_520
 wanderrange=4
 maxrange=6
-respawnrate=60
-hitpoints=54
 attack=42
-strength=42
 defence=42
+strength=42
+hitpoints=54
+huntrange=5
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,30
 param=slashdefence,40
 param=crushdefence,20
@@ -3513,11 +3279,6 @@ param=defend_anim,human_axe_def
 param=death_anim,human_transdeath
 param=attack_sound,warhammer_crush
 param=defend_sound,blade5
-huntmode=cowardly
-huntrange=5
-// hunt - https://www.youtube.com/watch?v=T2ztjZEch5Y&t=153s
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2840
 
 [icewarrior]
 walkanim=human_transwalk_f
@@ -3526,6 +3287,13 @@ name=Ice warrior
 desc=A cold hearted elemental warrior.
 op2=Attack
 vislevel=57
+model1=man_head_icewarriorfullhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_basic
+model5=man_legs_platemail
+model6=man_feet_icewarriorboots
+model7=human_weapons_icewarriorsword
 recol1s=15855
 recol1d=9023
 recol2s=10570
@@ -3538,20 +3306,15 @@ recol5s=3171
 recol5d=9023
 recol6s=6342
 recol6d=9023
-model1=man_head_icewarriorfullhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_basic
-model5=man_legs_platemail
-model6=man_feet_icewarriorboots
-model7=human_weapons_icewarriorsword
-//wanderrange=3
-//maxrange=5
-respawnrate=60
-hitpoints=59
+category=ice_warrior
+wanderrange=3
 attack=47
-strength=47
 defence=47
+strength=47
+hitpoints=59
+huntrange=5
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,30
 param=slashdefence,40
 param=crushdefence,20
@@ -3564,12 +3327,6 @@ param=death_anim,human_transdeath
 param=attack_sound,hacksword_slash
 param=defend_sound,ice_warrior_hit
 param=death_sound,ice_warrior_death
-huntmode=cowardly
-huntrange=5
-category=ice_warrior
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2841
-wanderrange=3
 
 [otherworldly_being]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -3578,6 +3335,10 @@ name=Otherworldly being
 desc=Is he invisible or just a set of floating clothing?
 op2=Attack
 vislevel=64
+model1=man_torso_basic
+model2=man_arms_longsleeves
+model3=man_legs_robe_narrow
+model4=man_hat_wizards
 recol1s=2340
 recol1d=4226
 recol2s=239
@@ -3586,17 +3347,13 @@ recol3s=14724
 recol3d=4226
 recol4s=24075
 recol4d=4226
-model1=man_torso_basic
-model2=man_arms_longsleeves
-model3=man_legs_robe_narrow
-model4=man_hat_wizards
 wanderrange=3
 maxrange=5
-respawnrate=40
-hitpoints=66
 attack=56
-strength=56
 defence=46
+strength=56
+hitpoints=66
+respawnrate=40
 param=stabdefence,15
 param=slashdefence,10
 param=crushdefence,20
@@ -3607,8 +3364,6 @@ param=attack_sound,otherworld_attack
 param=defend_sound,otherworld_hit
 param=death_sound,otherworld_death
 param=death_drop,null
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2843
 
 [magicaxe]
 walkanim=magicaxe_walk
@@ -3620,11 +3375,13 @@ vislevel=42
 model1=model_3000_npc
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=44
 attack=38
-strength=38
 defence=29
+strength=38
+hitpoints=44
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,10
 param=slashdefence,5
 param=crushdefence,15
@@ -3638,10 +3395,6 @@ param=attack_sound,baxe_slash
 param=defend_sound,sword_hit2
 param=death_sound,brassclash2
 param=death_drop,iron_battleaxe
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2844
 
 [snake]
 name=Snake
@@ -3651,11 +3404,14 @@ readyanim=snake_ready
 op2=Attack
 vislevel=5
 model1=npc_snake
-respawnrate=60
-hitpoints=6
+wanderrange=5
 attack=4
-strength=5
 defence=3
+strength=5
+hitpoints=6
+huntrange=1
+respawnrate=60
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,snake_attack
 param=defend_anim,snake_block
@@ -3663,11 +3419,6 @@ param=death_anim,snake_death
 param=attack_sound,snake_attack
 param=defend_sound,snake_hit
 param=death_sound,snake_death
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2845
-wanderrange=5
 
 [yeti]
 name=Yeti
@@ -3678,10 +3429,10 @@ readyanim=yeti_ready
 op2=Attack
 vislevel=58
 model1=model_3001_npc
-hitpoints=55
 attack=48
-strength=60
 defence=39
+strength=60
+hitpoints=55
 param=damagetype,^crush_style
 param=attack_anim,yeti_attack
 param=defend_anim,yeti_block
@@ -3689,8 +3440,6 @@ param=death_anim,yeti_death
 param=attack_sound,giant_attack
 param=defend_sound,giant_hit
 param=death_sound,giant_death
-// Sounds are guesses they were taken from a giant.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2847
 
 [penguin]
 name=Penguin
@@ -3702,10 +3451,10 @@ vislevel=2
 model1=model_3003_npc
 wanderrange=3
 maxrange=5
-respawnrate=60
-hitpoints=4
-strength=2
 defence=2
+strength=2
+hitpoints=4
+respawnrate=60
 param=damagetype,^stab_style
 param=attack_anim,penguin_attack
 param=defend_anim,penguin_block
@@ -3713,8 +3462,6 @@ param=death_anim,penguin_death
 param=attack_sound,penguin_attack
 param=defend_sound,penguin_hit
 param=death_sound,penguin_death
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2063
 
 [monkey]
 name=Monkey
@@ -3726,11 +3473,11 @@ vislevel=3
 model1=npc_monkey
 wanderrange=11
 maxrange=13
-respawnrate=74
-hitpoints=6
 attack=2
-strength=3
 defence=2
+strength=3
+hitpoints=6
+respawnrate=74
 param=damagetype,^crush_style
 param=attack_anim,monkey_attack
 param=defend_anim,monkey_block
@@ -3739,8 +3486,6 @@ param=attack_sound,monkey_attack
 param=defend_sound,monkey_hit
 param=death_sound,monkey_death
 param=death_drop,null
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2848
 
 [black_unicorn]
 size=2
@@ -3750,6 +3495,7 @@ name=Black unicorn
 desc=A unicorn with a blackened heart.
 op2=Attack
 vislevel=27
+model1=model_2933_npc
 recol1s=32732
 recol1d=2114
 recol2s=30543
@@ -3758,14 +3504,16 @@ recol3s=27413
 recol3d=3138
 recol4s=29596
 recol4d=7366
-model1=model_2933_npc
+category=unicorn
 wanderrange=17
 maxrange=19
-respawnrate=180
-hitpoints=29
 attack=21
-strength=23
 defence=23
+strength=23
+hitpoints=29
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 members=yes
 param=damagetype,^stab_style
 param=attack_anim,unicorn_attack
@@ -3773,12 +3521,7 @@ param=defend_anim,unicorn_block
 param=death_anim,unicorn_death
 param=attack_sound,cow_attack
 param=defend_sound,horse_hit
-huntmode=cowardly
-huntrange=2
 param=retreat,7
-category=unicorn
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2849
 
 [poisonspider]
 walkanim=giantspider_walk
@@ -3788,14 +3531,16 @@ desc=I think this spider has been genetically modified.
 op2=Attack
 vislevel=64
 model1=model_2883_npc
-members=yes
 wanderrange=10
 maxrange=12
-respawnrate=60
-hitpoints=64
 attack=50
-strength=58
 defence=52
+strength=58
+hitpoints=64
+huntrange=1
+respawnrate=60
+huntmode=cowardly
+members=yes
 param=stabdefence,20
 param=slashdefence,17
 param=crushdefence,10
@@ -3810,10 +3555,6 @@ param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
 param=poison_severity,27
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3023
 
 [mammoth]
 size=3
@@ -3824,15 +3565,8 @@ readyanim=mammoth_ready
 op2=Attack
 vislevel=41
 model1=model_3005_npc
-// wanderrange=
-// maxrange=
-// respawnrate=
-// hitpoints=
-// attack=
-// strength=
-// defence=
-// magic=
-// ranged=
+huntrange=3
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,mammoth_attack
 param=defend_anim,mammoth_block
@@ -3841,11 +3575,6 @@ param=attack_sound,mammoth_attack
 param=defend_sound,mammoth_hit
 param=death_sound,mammoth_death
 param=death_drop,big_bones
-huntmode=cowardly
-huntrange=3
-// The original variation data has been removed from the cache.
-// This NPC stats data is not original, so do not use it.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6604
 
 [souless]
 walkanim=souless_walk
@@ -3857,11 +3586,13 @@ vislevel=18
 model1=npc_souless
 wanderrange=3
 maxrange=5
-respawnrate=70
-hitpoints=24
 attack=13
-strength=13
 defence=18
+strength=13
+hitpoints=24
+huntrange=1
+respawnrate=70
+huntmode=cowardly
 param=damagetype,^crush_style
 param=attack_anim,souless_attack
 param=defend_anim,souless_block
@@ -3870,10 +3601,6 @@ param=attack_sound,zombie_attack
 param=defend_sound,zombie_hit
 param=death_sound,zombie_death
 param=retreat,9
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_508
 
 [wolfpack_leader]
 size=2
@@ -3885,18 +3612,20 @@ name=Big Wolf
 desc=Must be the pack leader.
 op2=Attack
 vislevel=73
+model1=model_2937_npc
 recol1s=15855
 recol1d=32767
 recol2s=15855
 recol2d=32767
-model1=model_2937_npc
 wanderrange=20
 maxrange=22
-respawnrate=180
-hitpoints=74
 attack=60
-strength=61
 defence=62
+strength=61
+hitpoints=74
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -3905,10 +3634,6 @@ param=attack_sound,wolf_attack2
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
 param=death_drop,wolf_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_109
 
 [pack_wolf]
 size=2
@@ -3918,18 +3643,20 @@ name=Wolf
 desc=A social killer.
 op2=Attack
 vislevel=25
+model1=model_2937_npc
 recol1s=15855
 recol1d=32767
 recol2s=15855
 recol2d=32767
-model1=model_2937_npc
 wanderrange=20
 maxrange=22
-respawnrate=180
-hitpoints=34
 attack=20
-strength=16
 defence=22
+strength=16
+hitpoints=34
+huntrange=2
+respawnrate=180
+huntmode=cowardly
 param=damagetype,^stab_style
 param=attack_anim,dog_attack
 param=defend_anim,dog_block
@@ -3938,10 +3665,6 @@ param=attack_sound,wolf_attack2
 param=defend_sound,wolf_hit
 param=death_sound,wolf_death
 param=death_drop,wolf_bones
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_110
 
 [kingscorpion]
 size=2
@@ -3956,11 +3679,13 @@ vislevel=32
 model1=model_2967_npc
 wanderrange=8
 maxrange=10
-respawnrate=50
-hitpoints=30
 attack=30
-strength=29
 defence=23
+strength=29
+hitpoints=30
+huntrange=2
+respawnrate=50
+huntmode=cowardly
 param=stabdefence,5
 param=slashdefence,15
 param=crushdefence,15
@@ -3973,11 +3698,6 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=2
-// osrs stats and Vislvl match 1:1
-// osrs sounds scorpion_attack, scorpion_hit, scorpion_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3027
 
 [icewarrior_queen]
 walkanim=human_transwalk_f
@@ -3986,6 +3706,13 @@ name=Ice warrior
 desc=The Ice Queen's Royal Guard.
 op2=Attack
 vislevel=57
+model1=man_head_icewarriorfullhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_basic
+model5=man_legs_platemail
+model6=man_feet_icewarriorboots
+model7=human_weapons_icewarriorsword
 recol1s=15855
 recol1d=14815
 recol2s=10570
@@ -3998,20 +3725,15 @@ recol5s=3171
 recol5d=14815
 recol6s=6342
 recol6d=16959
-model1=man_head_icewarriorfullhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_basic
-model5=man_legs_platemail
-model6=man_feet_icewarriorboots
-model7=human_weapons_icewarriorsword
-//wanderrange=3
-//maxrange=5
-respawnrate=60
-hitpoints=59
+category=ice_warrior
+wanderrange=3
 attack=47
-strength=47
 defence=47
+strength=47
+hitpoints=59
+huntrange=5
+respawnrate=60
+huntmode=cowardly
 param=stabdefence,30
 param=slashdefence,40
 param=crushdefence,20
@@ -4024,12 +3746,6 @@ param=death_anim,human_transdeath
 param=attack_sound,hacksword_slash
 param=defend_sound,ice_warrior_hit
 param=death_sound,ice_warrior_death
-huntmode=cowardly
-huntrange=5
-category=ice_warrior
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2851
-wanderrange=3
 
 [seabird1]
 name=Gull
@@ -4042,11 +3758,11 @@ vislevel=hide
 model1=npc_bird
 wanderrange=8
 maxrange=10
-moverestrict=blocked
-hitpoints=32
 attack=22
-strength=22
 defence=17
+strength=22
+hitpoints=32
+moverestrict=blocked
 param=stabdefence,12
 param=slashdefence,10
 param=crushdefence,16
@@ -4058,7 +3774,6 @@ param=death_anim,bird_death
 param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_281
 
 [seabird2]
 name=Cormorant
@@ -4069,10 +3784,11 @@ readyanim=bird_ready
 minimap=no
 vislevel=hide
 model1=npc_bird
-hitpoints=32
+maxrange=100
 attack=22
-strength=22
 defence=17
+strength=22
+hitpoints=32
 param=stabdefence,12
 param=slashdefence,10
 param=crushdefence,16
@@ -4084,8 +3800,6 @@ param=death_anim,bird_death
 param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_282
-maxrange=100
 
 [seabird3]
 name=Albatross
@@ -4096,10 +3810,11 @@ readyanim=bird_ready
 minimap=no
 vislevel=hide
 model1=npc_bird
-hitpoints=32
+maxrange=100
 attack=22
-strength=22
 defence=17
+strength=22
+hitpoints=32
 param=stabdefence,12
 param=slashdefence,10
 param=crushdefence,16
@@ -4111,8 +3826,6 @@ param=death_anim,bird_death
 param=attack_sound,bird_attack
 param=defend_sound,bird_hit
 param=death_sound,bird_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_283
-maxrange=100
 
 [flytrap]
 vislevel=hide
@@ -4120,43 +3833,42 @@ name=Fly trap
 desc=No flies on me.
 minimap=no
 model1=model_loc_1395
-defaultmode=none
 wanderrange=0
+attack=15
+defence=30
+strength=15
+hitpoints=100
+huntrange=1
 moverestrict=nomove
 blockwalk=all
-hitpoints=100
-attack=15
-strength=15
-defence=30
+huntmode=aggressive_melee
+defaultmode=none
 param=stabdefence,30
 param=slashdefence,8
 param=crushdefence,45
 param=damagetype,^stab_style
 param=attack_sound,null
-huntmode=aggressive_melee
-huntrange=1
-// attack anim is 1247, released sometime around sept 2004
-// https://oldschool.runescape.wiki/w/Fly_trap
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2852
 
 [nasty_tree]
 vislevel=hide
 name=Tree
 desc=Its bark is worse than its swipe.
 minimap=no
+model1=npc_deadtree
 recol1s=7296
 recol1d=4194
 recol2s=6240
 recol2d=4194
-model1=npc_deadtree
-defaultmode=none
 wanderrange=0
+attack=20
+defence=40
+strength=20
+hitpoints=250
+huntrange=1
 moverestrict=nomove
 blockwalk=all
-hitpoints=250
-attack=20
-strength=20
-defence=40
+huntmode=aggressive_melee
+defaultmode=none
 param=stabdefence,40
 param=slashdefence,10
 param=crushdefence,60
@@ -4164,11 +3876,6 @@ param=magicdefence,10
 param=damagetype,^crush_style
 param=attack_anim,deadtree_attack
 param=attack_sound,nasty_tree_attack
-huntmode=aggressive_melee
-huntrange=1
-// https://vxtwitter.com/JagexAsh/status/1775970463061049645?t=dBzjxnZ88IdFRi86mMgqjw&s=19
-// "They have level 20 Attack & Strength" - ash
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4418
 
 [butterfly]
 name=Butterfly
@@ -4197,13 +3904,13 @@ walkanim=butterfly_hover
 readyanim=butterfly_hover
 minimap=no
 vislevel=hide
+model1=npc_butterfly2
 recol1s=10847
 recol1d=667
 recol2s=13983
 recol2d=5759
 recol3s=29695
 recol3d=6274
-model1=npc_butterfly2
 wanderrange=10
 
 [butterfly_tigerswallowtail]
@@ -4213,13 +3920,13 @@ walkanim=butterfly_hover
 readyanim=butterfly_hover
 minimap=no
 vislevel=hide
+model1=npc_butterfly2
 recol1s=10847
 recol1d=6342
 recol2s=13983
 recol2d=31651
 recol3s=29695
 recol3d=6342
-model1=npc_butterfly2
 wanderrange=10
 
 [butterfly_viceroy]
@@ -4229,13 +3936,13 @@ walkanim=butterfly_hover
 readyanim=butterfly_hover
 minimap=no
 vislevel=hide
+model1=npc_butterfly2
 recol1s=10847
 recol1d=20934
 recol2s=13983
 recol2d=20934
 recol3s=29695
 recol3d=6273
-model1=npc_butterfly2
 wanderrange=10
 
 [bearded_dark_wizard]
@@ -4245,12 +3952,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=20
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=4226
-recol3s=6273
-recol3d=4226
 model1=man_head_hood2
 model2=man_feet_basic
 model3=man_jaw_medium
@@ -4258,21 +3959,25 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=4226
+recol3s=6273
+recol3d=4226
 wanderrange=3
 maxrange=5
-attackrange=5
+attack=17
+defence=14
+strength=17
+hitpoints=24
+magic=22
 huntrange=5
 respawnrate=100
-hitpoints=24
-attack=17
-strength=17
-defence=14
-magic=22
+attackrange=5
+huntmode=ranged
 param=magicdefence,3
 param=damagetype,^crush_style
-huntmode=ranged
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_510
 
 [invrigar_the_necromancer]
 name=Invrigar the Necromancer
@@ -4281,12 +3986,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=20
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=4226
-recol3s=6273
-recol3d=4226
 model1=man_head_hood2
 model2=man_feet_basic
 model3=man_jaw_medium
@@ -4294,16 +3993,20 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe
-respawnrate=100
-hitpoints=24
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=4226
+recol3s=6273
+recol3d=4226
 attack=17
-strength=17
 defence=14
+strength=17
+hitpoints=24
 magic=18
+respawnrate=100
 param=magicdefence,3
 param=damagetype,^crush_style
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_511
 
 [young_dark_wizard]
 name=Dark wizard
@@ -4312,12 +4015,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=7
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=4226
-recol3s=6273
-recol3d=4226
 model1=man_head_hood2
 model2=man_feet_basic
 model3=man_jaw_none
@@ -4325,21 +4022,25 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=4226
+recol3s=6273
+recol3d=4226
 wanderrange=3
 maxrange=5
-attackrange=5
-respawnrate=100
-hitpoints=12
 attack=5
-strength=2
 defence=5
+strength=2
+hitpoints=12
 magic=6
+huntrange=3
+respawnrate=100
+attackrange=5
+huntmode=ranged
 param=magicdefence,3
 param=damagetype,^crush_style
-huntmode=ranged
-huntrange=3
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_512
 
 [mugger]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4348,14 +4049,6 @@ name=Mugger
 desc=He jumps out and attacks people.
 op2=Attack
 vislevel=6
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=12452
-recol3s=6273
-recol3d=14594
-recol4s=14801
-recol4d=12452
 model1=man_head_bald
 model2=man_jaw_none
 model3=man_torso_tatty
@@ -4364,20 +4057,26 @@ model5=man_hands_basic
 model6=man_legs_tatty
 model7=man_feet_boots
 model8=man_headextra_highwaymanmask
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=12452
+recol3s=6273
+recol3d=14594
+recol4s=14801
+recol4d=12452
 wanderrange=12
 maxrange=14
-respawnrate=100
-hitpoints=8
 attack=5
-strength=5
 defence=5
+strength=5
+hitpoints=8
+huntrange=5
+respawnrate=100
+huntmode=cowardly
 param=strengthbonus,-21
 param=damagetype,^crush_style
 param=defend_anim,human_unarmedblock
-huntmode=cowardly
-huntrange=5
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_513
 
 [witch1]
 name=Witch
@@ -4386,6 +4085,13 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=25
+model1=woman_head_witch
+model2=woman_torso_basic3
+model3=woman_arms_longsleeves
+model4=woman_hands_basic
+model5=woman_legs_longskirt
+model6=woman_feet_boots
+model7=woman_hat_wizards
 recol1s=2340
 recol1d=4226
 recol2s=14724
@@ -4396,33 +4102,22 @@ recol4s=455
 recol4d=24075
 recol5s=14724
 recol5d=4226
-model1=woman_head_witch
-model2=woman_torso_basic3
-model3=woman_arms_longsleeves
-model4=woman_hands_basic
-model5=woman_legs_longskirt
-model6=woman_feet_boots
-model7=woman_hat_wizards
-// attackrange, and respawnrate are taken from dark_wizard_earth
+category=witch
 wanderrange=3
 maxrange=5
-attackrange=5
-//respawnrate is guesses
-respawnrate=100
-hitpoints=10
 attack=25
-strength=25
 defence=25
+strength=25
+hitpoints=10
 magic=30
+respawnrate=100
+attackrange=5
 param=magicdefence,3
 param=damagetype,^crush_style
 param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=witch
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_514
 
 [witch2]
 name=Witch
@@ -4431,6 +4126,13 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=25
+model1=woman_head_witch
+model2=woman_torso_basic3
+model3=woman_arms_longsleeves
+model4=woman_hands_basic
+model5=woman_legs_longskirt
+model6=woman_feet_boots
+model7=woman_hat_wizards
 recol1s=2340
 recol1d=4226
 recol2s=14724
@@ -4439,33 +4141,22 @@ recol3s=239
 recol3d=4226
 recol4s=14724
 recol4d=4226
-model1=woman_head_witch
-model2=woman_torso_basic3
-model3=woman_arms_longsleeves
-model4=woman_hands_basic
-model5=woman_legs_longskirt
-model6=woman_feet_boots
-model7=woman_hat_wizards
-// attackrange, and respawnrate are taken from dark_wizard_earth
+category=witch
 wanderrange=3
 maxrange=5
-attackrange=5
-// respawnrate is guessed
-respawnrate=100
-hitpoints=10
 attack=25
-strength=25
 defence=25
+strength=25
+hitpoints=10
 magic=30
+respawnrate=100
+attackrange=5
 param=magicdefence,3
 param=damagetype,^crush_style
 param=attack_anim,human_unarmedkick
 param=attack_sound,unarmed_kick
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=witch
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_515
 
 [black_knight]
 name=Black Knight
@@ -4474,6 +4165,13 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=33
+model1=man_head_fullhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_gloves
+model5=man_legs_platemail
+model6=man_feet_boots
+model7=human_weapons_longsword
 recol1s=17969
 recol1d=6342
 recol2s=10468
@@ -4484,20 +4182,13 @@ recol4s=15855
 recol4d=6342
 recol5s=14798
 recol5d=6342
-model1=man_head_fullhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_gloves
-model5=man_legs_platemail
-model6=man_feet_boots
-model7=human_weapons_longsword
 wanderrange=10
 maxrange=12
-respawnrate=50
-hitpoints=42
 attack=25
-strength=25
 defence=25
+strength=25
+hitpoints=42
+respawnrate=50
 param=attackrate,5
 param=attackbonus,18
 param=strengthbonus,16
@@ -4511,8 +4202,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,steel
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_516
 
 [aggressive_black_knight]
 name=Black Knight
@@ -4521,6 +4210,13 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=33
+model1=man_head_fullhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_gloves
+model5=man_legs_platemail
+model6=man_feet_boots
+model7=human_weapons_longsword
 recol1s=17969
 recol1d=6342
 recol2s=10468
@@ -4531,20 +4227,15 @@ recol4s=15855
 recol4d=6342
 recol5s=14798
 recol5d=6342
-model1=man_head_fullhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_gloves
-model5=man_legs_platemail
-model6=man_feet_boots
-model7=human_weapons_longsword
 wanderrange=10
 maxrange=12
-respawnrate=50
-hitpoints=42
 attack=25
-strength=25
 defence=25
+strength=25
+hitpoints=42
+huntrange=5
+respawnrate=50
+huntmode=cowardly
 param=attackrate,5
 param=attackbonus,18
 param=strengthbonus,16
@@ -4558,10 +4249,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,2H_slash
 param=defend_sound,steel
-huntmode=cowardly
-huntrange=5
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_517
 
 [highwayman]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4570,12 +4257,6 @@ name=Highwayman
 desc=He holds up passers by.
 op2=Attack
 vislevel=5
-recol1s=8386
-recol1d=3171
-recol2s=31649
-recol2d=7271
-recol3s=15360
-recol3d=3171
 model1=man_head_shorthair
 model2=man_jaw_none
 model3=man_torso_basic
@@ -4588,14 +4269,21 @@ model9=man_torsoextra_cloak
 model10=human_weapons_shortsword
 head1=chat_male_head_shorthair
 head2=chat_male_headextra_highwaymanmask
+recol1s=8386
+recol1d=3171
+recol2s=31649
+recol2d=7271
+recol3s=15360
+recol3d=3171
 wanderrange=8
 maxrange=14
-attackrange=3
-huntrange=5
-hitpoints=13
 attack=2
-strength=2
 defence=2
+strength=2
+hitpoints=13
+huntrange=5
+attackrange=3
+huntmode=ranged
 param=attackbonus,6
 param=strengthbonus,7
 param=slashdefence,3
@@ -4605,15 +4293,6 @@ param=damagetype,^stab_style
 param=attack_anim,human_sword_stab
 param=defend_anim,human_sword_block
 param=attack_sound,hacksword_slash
-// https://oldschool.runescape.wiki/w/Highwayman#Trivia
-// year ???? attack seq_390 defend seq_388 these seqs used some reason after update x
-// seq_386 seq_388
-// https://www.youtube.com/watch?v=QqLSZgZLwvA
-// https://www.youtube.com/watch?v=ympIobOpG4M
-// year 2024 attack seq_386 defend seq_387 and same animations used 2007 + original osrs launch
-huntmode=ranged
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_518
 
 [chaos_druid]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4622,12 +4301,6 @@ name=Chaos druid
 desc=A crazy, evil druid.
 op2=Attack
 vislevel=13
-recol1s=2340
-recol1d=19588
-recol2s=14724
-recol2d=19588
-recol3s=6273
-recol3d=32767
 model1=man_head_shorthair2
 model2=man_feet_basic
 model3=man_jaw_goaty
@@ -4635,19 +4308,23 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe_narrow
-respawnrate=50
-hitpoints=20
-attack=8
-strength=8
-defence=12
-magic=10
-attackrange=8
-huntrange=3
-param=damagetype,^crush_style
-huntmode=ranged
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_520
+recol1s=2340
+recol1d=19588
+recol2s=14724
+recol2d=19588
+recol3s=6273
+recol3d=32767
 wanderrange=5
+attack=8
+defence=12
+strength=8
+hitpoints=20
+magic=10
+huntrange=3
+respawnrate=50
+attackrange=8
+huntmode=ranged
+param=damagetype,^crush_style
 
 [pirate1]
 name=Pirate
@@ -4657,10 +4334,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=23
-recol1s=2340
-recol1d=15424
-recol2s=14724
-recol2d=8354
 model1=man_head_pirate
 model2=man_jaw_none
 model3=man_torso_basic
@@ -4672,11 +4345,16 @@ model8=human_weapons_scimitar
 model9=man_headextra_eyepatch
 head1=chat_male_head_pirate
 head2=chat_male_headextra_eyepatch
-respawnrate=50
-hitpoints=20
+recol1s=2340
+recol1d=15424
+recol2s=14724
+recol2d=8354
+category=pirate
 attack=20
-strength=20
 defence=20
+strength=20
+hitpoints=20
+respawnrate=50
 param=attackbonus,10
 param=strengthbonus,9
 param=slashdefence,1
@@ -4684,9 +4362,6 @@ param=damagetype,^slash_style
 param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
-category=pirate
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_521
 
 [pirate2]
 name=Pirate
@@ -4696,12 +4371,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=23
-recol1s=6273
-recol1d=4226
-recol2s=14724
-recol2d=4226
-recol3s=14801
-recol3d=24075
 model1=man_head_shorthair
 model2=man_jaw_split
 model3=man_torso_fat
@@ -4715,11 +4384,18 @@ head1=chat_male_head_shorthair
 head2=chat_male_jaw_split
 head3=chat_male_headextra_eyepatch
 head4=chat_male_model_36
-respawnrate=50
-hitpoints=20
+recol1s=6273
+recol1d=4226
+recol2s=14724
+recol2d=4226
+recol3s=14801
+recol3d=24075
+category=pirate
 attack=21
-strength=21
 defence=21
+strength=21
+hitpoints=20
+respawnrate=50
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -4729,9 +4405,6 @@ param=damagetype,^slash_style
 param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
-category=pirate
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_522
 
 [pirate_aggressive]
 name=Pirate
@@ -4740,12 +4413,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=26
-recol1s=6273
-recol1d=4226
-recol2s=14724
-recol2d=19489
-recol3s=14801
-recol3d=24075
 model1=man_head_shorthair
 model2=man_jaw_long
 model3=man_torso_fat
@@ -4759,11 +4426,20 @@ head1=chat_male_head_shorthair
 head2=chat_male_jaw_long
 head3=chat_male_headextra_eyepatch
 head4=chat_male_piratehat
-respawnrate=50
-hitpoints=23
+recol1s=6273
+recol1d=4226
+recol2s=14724
+recol2d=19489
+recol3s=14801
+recol3d=24075
+category=pirate
 attack=23
-strength=23
 defence=23
+strength=23
+hitpoints=23
+huntrange=1
+respawnrate=50
+huntmode=cowardly
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -4773,11 +4449,6 @@ param=damagetype,^slash_style
 param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
-category=pirate
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_523
 
 [lady_pirate]
 name=Pirate
@@ -4787,12 +4458,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=23
-recol1s=14724
-recol1d=7328
-recol2s=6273
-recol2d=27240
-recol3s=21279
-recol3d=7328
 model1=woman_head_pirate
 model2=woman_torso_basic2
 model3=woman_arms_longsleeves
@@ -4804,11 +4469,18 @@ model8=human_weapons_scimitar
 head1=chat_female_head_pirate
 head2=model_136_npc_head
 head3=chat_female_headextra_eyepatch
-respawnrate=50
-hitpoints=20
+recol1s=14724
+recol1d=7328
+recol2s=6273
+recol2d=27240
+recol3s=21279
+recol3d=7328
+category=pirate
 attack=20
-strength=20
 defence=20
+strength=20
+hitpoints=20
+respawnrate=50
 param=attackbonus,10
 param=strengthbonus,9
 param=slashdefence,1
@@ -4818,9 +4490,6 @@ param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,female_hit
 param=death_sound,female_death
-category=pirate
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_524
 
 [thug]
 name=Thug
@@ -4829,10 +4498,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=10
-recol1s=2340
-recol1d=4234
-recol2s=14724
-recol2d=4226
 model1=man_head_shorthair
 model2=man_jaw_short
 model3=man_torso_fat
@@ -4841,11 +4506,18 @@ model5=man_hands_basic
 model6=man_legs_basic
 model7=man_feet_basic
 model8=human_weapons_dagger
-respawnrate=100
-hitpoints=18
+recol1s=2340
+recol1d=4234
+recol2s=14724
+recol2d=4226
 attack=7
-strength=5
 defence=9
+strength=5
+hitpoints=18
+huntrange=3
+respawnrate=100
+huntmode=cowardly
+members=yes
 param=attackbonus,5
 param=strengthbonus,5
 param=stabdefence,2
@@ -4855,12 +4527,6 @@ param=damagetype,^stab_style
 param=attack_anim,human_sword_stab
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_stab
-// only spawns in wilderness, might be cowardly
-huntmode=cowardly
-huntrange=3
-members=yes
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_525
 
 [rogue]
 name=Rogue
@@ -4870,12 +4536,6 @@ readyanim=human_ready
 op2=Attack
 op3=Pickpocket
 vislevel=15
-recol1s=2340
-recol1d=4226
-recol2s=14724
-recol2d=10434
-recol3s=14801
-recol3d=24075
 model1=man_head_bald
 model2=man_jaw_short
 model3=man_torso_leather
@@ -4884,11 +4544,17 @@ model5=man_hands_basic
 model6=man_legs_basic
 model7=man_feet_basic
 model8=human_weapons_dagger
-respawnrate=100
-hitpoints=17
+recol1s=2340
+recol1d=4226
+recol2s=14724
+recol2d=10434
+recol3s=14801
+recol3d=24075
 attack=13
-strength=13
 defence=13
+strength=13
+hitpoints=17
+respawnrate=100
 param=attackbonus,5
 param=strengthbonus,5
 param=stabdefence,6
@@ -4898,8 +4564,6 @@ param=damagetype,^stab_style
 param=attack_anim,human_sword_stab
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_stab
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_526
 
 [chaosmonk1]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4908,33 +4572,30 @@ name=Monk of Zamorak
 desc=An evil human cleric.
 op2=Attack
 vislevel=22
-recol1s=2340
-recol1d=16450
-recol2s=14724
-recol2d=16450
-recol3s=6273
-recol3d=32767
 model1=man_head_bald
 model2=man_jaw_none
 model3=man_torso_basic
 model4=man_arms_longsleeves
 model5=man_hands_basic
 model6=man_legs_robe_nofeet
+recol1s=2340
+recol1d=16450
+recol2s=14724
+recol2d=16450
+recol3s=6273
+recol3d=32767
+category=monk_of_zamorak
 wanderrange=7
 maxrange=7
-// TODO find repspawn rate
-respawnrate=100
-hitpoints=20
 attack=18
-strength=18
 defence=22
+strength=18
+hitpoints=20
 magic=25
-param=damagetype,^crush_style
-category=monk_of_zamorak
-huntmode=cowardly
 huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_527
+respawnrate=100
+huntmode=cowardly
+param=damagetype,^crush_style
 
 [chaosmonk2]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4943,12 +4604,6 @@ name=Monk of Zamorak
 desc=An evil human cleric.
 op2=Attack
 vislevel=17
-recol1s=2340
-recol1d=19588
-recol2s=14724
-recol2d=19588
-recol3s=6273
-recol3d=32767
 model1=man_head_bald
 model2=man_feet_basic
 model3=man_jaw_none
@@ -4956,20 +4611,24 @@ model4=man_torso_basic
 model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe_narrow
+recol1s=2340
+recol1d=19588
+recol2s=14724
+recol2d=19588
+recol3s=6273
+recol3d=32767
+category=monk_of_zamorak
 wanderrange=7
 maxrange=7
-respawnrate=100
-hitpoints=10
 attack=8
-strength=8
 defence=12
+strength=8
+hitpoints=10
 magic=25
-param=damagetype,^crush_style
-category=monk_of_zamorak
-huntmode=cowardly
 huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_528
+respawnrate=100
+huntmode=cowardly
+param=damagetype,^crush_style
 
 [chaosmonk3]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -4978,32 +4637,30 @@ name=Monk of Zamorak
 desc=An evil human cleric.
 op2=Attack
 vislevel=45
-recol1s=2340
-recol1d=14336
-recol2s=14724
-recol2d=14336
-recol3s=6273
-recol3d=32767
 model1=man_head_hood2
 model2=man_jaw_none
 model3=man_torso_basic
 model4=man_arms_longsleeves
 model5=man_hands_basic
 model6=man_legs_robe_nofeet
+recol1s=2340
+recol1d=14336
+recol2s=14724
+recol2d=14336
+recol3s=6273
+recol3d=32767
+category=monk_of_zamorak
 wanderrange=12
 maxrange=14
-respawnrate=500
-hitpoints=40
 attack=38
-strength=38
 defence=42
+strength=38
+hitpoints=40
 magic=40
-param=damagetype,^crush_style
-category=monk_of_zamorak
-huntmode=cowardly
 huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_529
+respawnrate=500
+huntmode=cowardly
+param=damagetype,^crush_style
 
 [tribesman]
 name=Tribesman
@@ -5012,10 +4669,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
 op2=Attack
 vislevel=32
-recol1s=24075
-recol1d=9410
-recol2s=14801
-recol2d=9410
 model1=man_head_tribal
 model2=man_feet_basic
 model3=man_jaw_none
@@ -5025,11 +4678,17 @@ model6=man_hands_basic
 model7=man_legs_bare
 model8=human_weapons_spear
 model9=man_hat_headband
-respawnrate=100
-hitpoints=39
+recol1s=24075
+recol1d=9410
+recol2s=14801
+recol2d=9410
 attack=23
-strength=27
 defence=26
+strength=27
+hitpoints=39
+huntrange=1
+respawnrate=100
+huntmode=cowardly
 param=attackbonus,8
 param=strengthbonus,5
 param=stabdefence,4
@@ -5040,11 +4699,6 @@ param=attack_anim,human_spear_spike
 param=defend_anim,human_spear_block
 param=attack_sound,staff_stab
 param=poison_severity,55
-// huntmode is just a guess
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_530
 
 [dark_warrior]
 name=Dark warrior
@@ -5053,6 +4707,14 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=8
+model1=man_head_mediumhelmet
+model2=man_torso_platemail
+model3=man_arms_platemail
+model4=man_hands_gloves
+model5=man_legs_platemail
+model6=man_feet_boots
+model7=human_weapons_longsword
+model8=man_jaw_none
 recol1s=24075
 recol1d=18790
 recol2s=8416
@@ -5065,19 +4727,13 @@ recol5s=15360
 recol5d=6342
 recol6s=14798
 recol6d=6342
-model1=man_head_mediumhelmet
-model2=man_torso_platemail
-model3=man_arms_platemail
-model4=man_hands_gloves
-model5=man_legs_platemail
-model6=man_feet_boots
-model7=human_weapons_longsword
-model8=man_jaw_none
-respawnrate=100
-hitpoints=17
 attack=5
-strength=5
 defence=5
+strength=5
+hitpoints=17
+huntrange=1
+respawnrate=100
+huntmode=cowardly
 param=attackbonus,20
 param=strengthbonus,16
 param=stabdefence,96
@@ -5088,10 +4744,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,steel
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_531
 
 [necromancer]
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
@@ -5100,12 +4752,6 @@ name=Necromancer
 desc=A crazy evil necromancer.
 op2=Attack
 vislevel=26
-recol1s=2340
-recol1d=19588
-recol2s=14724
-recol2d=19588
-recol3s=6273
-recol3d=32767
 model1=man_head_bald
 model2=man_feet_basic
 model3=man_jaw_long
@@ -5114,16 +4760,20 @@ model5=man_arms_longsleeves
 model6=man_hands_basic
 model7=man_legs_robe_narrow
 model8=man_torsoextra_necromancerdecor
-respawnrate=500
-hitpoints=40
-attack=18
-strength=18
-defence=18
-magic=18
-param=damagetype,^crush_style
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1025
+recol1s=2340
+recol1d=19588
+recol2s=14724
+recol2d=19588
+recol3s=6273
+recol3d=32767
 wanderrange=5
+attack=18
+defence=18
+strength=18
+hitpoints=40
+magic=18
+respawnrate=500
+param=damagetype,^crush_style
 
 [gunthor_the_brave]
 name=Gunthor the brave
@@ -5133,14 +4783,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=29
-recol1s=2340
-recol1d=8354
-recol2s=15360
-recol2d=15855
-recol3s=6273
-recol3d=27240
-recol4s=14724
-recol4d=22850
 model1=man_head_mediumhelmet
 model2=man_jaw_medium
 model3=man_torso_fat
@@ -5154,11 +4796,19 @@ model10=human_weapons_roundshield4
 head1=chat_male_head_mediumhelmet
 head2=chat_male_jaw_medium
 head3=chat_male_headextra_model_75
-respawnrate=100
-hitpoints=35
+recol1s=2340
+recol1d=8354
+recol2s=15360
+recol2d=15855
+recol3s=6273
+recol3d=27240
+recol4s=14724
+recol4d=22850
 attack=22
-strength=22
 defence=25
+strength=22
+hitpoints=35
+respawnrate=100
 param=attackrate,6
 param=attackbonus,8
 param=strengthbonus,13
@@ -5172,8 +4822,6 @@ param=attack_anim,human_axe_hack
 param=defend_anim,human_axe_def
 param=attack_sound,baxe_slash
 param=defend_sound,swordclash2
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_299
 
 [mcgruborforester]
 vislevel=hide
@@ -5182,14 +4830,6 @@ desc=He likes to cut down trees.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=8386
-recol1d=7424
-recol2s=14724
-recol2d=6336
-recol3s=14801
-recol3d=24075
-recol4s=31649
-recol4d=4226
 model1=man_head_mediumhair
 model2=man_jaw_moustache
 model3=man_torso_basic
@@ -5204,6 +4844,14 @@ model11=human_weapons_hatchet
 head1=chat_male_head_mediumhair
 head2=chat_male_jaw_moustache
 head3=chat_male_model_39
+recol1s=8386
+recol1d=7424
+recol2s=14724
+recol2d=6336
+recol3s=14801
+recol3d=24075
+recol4s=31649
+recol4d=4226
 
 [thrantax]
 name=Thrantax The Mighty
@@ -5212,6 +4860,10 @@ walkanim=ghost_walk
 readyanim=ghost_ready
 op2=Attack
 vislevel=92
+model1=model_2961_npc
+model2=model_2964_npc
+model3=model_2965_npc
+head1=model_3454_npc_head
 recol1s=15855
 recol1d=5285
 recol2s=1189
@@ -5220,17 +4872,12 @@ recol3s=6144
 recol3d=0
 recol4s=25471
 recol4d=10240
-model1=model_2961_npc
-model2=model_2964_npc
-model3=model_2965_npc
-head1=model_3454_npc_head
-// TODO respawnrate
 wanderrange=0
 maxrange=2
-hitpoints=80
 attack=80
-strength=80
 defence=80
+strength=80
+hitpoints=80
 param=damagetype,^crush_style
 param=attack_anim,ghost_attack
 param=defend_anim,ghost_block
@@ -5240,8 +4887,6 @@ param=defend_sound,ghost_hit
 param=death_sound,ghost_death
 param=death_drop,null
 param=undead,^true
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3518
 
 [thief_blanket]
 name=Thief
@@ -5250,8 +4895,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=14
-recol1s=2340
-recol1d=9452
 model1=man_head_shorthair
 model2=man_jaw_none
 model3=man_torso_leather
@@ -5260,13 +4903,17 @@ model5=man_hands_gloves
 model6=man_legs_basic
 model7=man_feet_boots
 model8=human_weapons_shortsword
-respawnrate=50
-hitpoints=17
+recol1s=2340
+recol1d=9452
 attack=14
-strength=10
 defence=9
-magic=0
+strength=10
+hitpoints=17
 ranged=2
+magic=0
+huntrange=1
+respawnrate=50
+huntmode=cowardly
 param=attackbonus,6
 param=strengthbonus,7
 param=stabdefence,8
@@ -5279,10 +4926,6 @@ param=attack_anim,human_sword_stab
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_stab
 param=retreat,8
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4247
 
 [headthief_blanket]
 name=Head Thief
@@ -5291,8 +4934,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=26
-recol1s=2340
-recol1d=9452
 model1=man_head_shorthair
 model2=man_jaw_moustache
 model3=man_torso_leather
@@ -5301,13 +4942,17 @@ model5=man_hands_gloves
 model6=man_legs_basic
 model7=man_feet_boots
 model8=human_weapons_longsword
-respawnrate=50
-hitpoints=37
+recol1s=2340
+recol1d=9452
 attack=24
-strength=18
 defence=16
-magic=0
+strength=18
+hitpoints=37
 ranged=2
+magic=0
+huntrange=1
+respawnrate=50
+huntmode=cowardly
 param=attackrate,5
 param=strengthbonus,10
 param=stabdefence,8
@@ -5319,10 +4964,6 @@ param=damagetype,^slash_style
 param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_slash
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4248
 
 [doric]
 vislevel=hide
@@ -5331,19 +4972,19 @@ readyanim=dwarf_ready
 op1=Talk-to
 name=Doric
 desc=A dwarf smith, quite handy with a hammer.
-recol1s=10434
-recol1d=15552
-recol2s=15426
-recol2d=14728
 model1=model_2974_npc
 model2=model_2981_npc
 model3=model_2979_npc
 model4=model_2983_npc
 model5=model_2985_npc
 head1=dwarf_chat_model4
+recol1s=10434
+recol1d=15552
+recol2s=15426
+recol2d=14728
+wanderrange=3
 moverestrict=indoors
 param=death_anim,dwarf_death
-wanderrange=3
 
 [floatingtwig_broken1]
 vislevel=hide
@@ -5363,9 +5004,9 @@ op3=Bait
 op4=hidden
 op5=hidden
 model1=outdoorfurniture_loc_42
-defaultmode=none
 wanderrange=0
 moverestrict=nomove
+defaultmode=none
 
 [saltfish]
 vislevel=hide
@@ -5379,9 +5020,9 @@ op3=Bait
 op4=hidden
 op5=hidden
 model1=outdoorfurniture_loc_42
-defaultmode=none
 wanderrange=0
 moverestrict=nomove
+defaultmode=none
 
 [rarefish]
 vislevel=hide
@@ -5395,9 +5036,9 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 model1=outdoorfurniture_loc_42
-defaultmode=none
 wanderrange=0
 moverestrict=nomove
+defaultmode=none
 
 [memberfish]
 vislevel=hide
@@ -5411,9 +5052,9 @@ op3=Harpoon
 op4=hidden
 op5=hidden
 model1=outdoorfurniture_loc_42
-defaultmode=none
 wanderrange=0
 moverestrict=nomove
+defaultmode=none
 
 [ardougne_paladin2]
 name=Paladin
@@ -5422,6 +5063,17 @@ op2=Attack
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 vislevel=59
+model1=man_head_otherhelmetclosed
+model2=man_feet_boots
+model3=man_torso_paladin
+model4=man_arms_platemail
+model5=man_hands_gloves
+model6=man_legs_platemail
+model7=man_torsoextra_cloak
+model8=man_headextra_ponytail2
+model9=human_weapons_longsword
+model10=human_weapons_roundshield4
+model11=man_torsoextra_paladin_star
 recol1s=8386
 recol1d=24675
 recol2s=31649
@@ -5434,36 +5086,21 @@ recol5s=24075
 recol5d=11458
 recol6s=7296
 recol6d=24675
-model1=man_head_otherhelmetclosed
-model2=man_feet_boots
-model3=man_torso_paladin
-model4=man_arms_platemail
-model5=man_hands_gloves
-model6=man_legs_platemail
-model7=man_torsoextra_cloak
-model8=man_headextra_ponytail2
-model9=human_weapons_longsword
-model10=human_weapons_roundshield4
-model11=man_torsoextra_paladin_star
-respawnrate=100
-hitpoints=13
 attack=63
 defence=63
 strength=63
+hitpoints=13
+respawnrate=100
 param=attackrate,5
-// param=attackbonus, TODO
 param=strengthbonus,10
 param=stabdefence,60
 param=slashdefence,50
 param=crushdefence,42
-// param=rangedefence, TODO
 param=damagetype,^crush_style
 param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,hacksword_slash
 param=defend_sound,blade3
-// all are guess information taken from the paladin.
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_1144
 
 [guilddwarf]
 vislevel=hide
@@ -5472,10 +5109,6 @@ readyanim=dwarf_ready
 name=Dwarf
 desc=A dwarf who looks after the mining guild.
 op1=Talk-to
-recol1s=15426
-recol1d=8354
-recol2s=31649
-recol2d=11396
 model1=model_2970_npc
 model2=model_2981_npc
 model3=model_2979_npc
@@ -5485,6 +5118,10 @@ model6=model_2990_npc
 model7=model_2988_npc
 head1=dwarf_chat_model0
 head2=dwarf_chat_model8
+recol1s=15426
+recol1d=8354
+recol2s=31649
+recol2d=11396
 wanderrange=2
 param=death_anim,dwarf_death
 
@@ -5495,18 +5132,6 @@ desc=Nice hat.
 op1=Talk-to
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_staffready
-recol1s=14724
-recol1d=239
-recol2s=2340
-recol2d=239
-recol3s=14801
-recol3d=24075
-recol4s=6273
-recol4d=22200
-recol5s=15649
-recol5d=5
-recol6s=23263
-recol6d=20799
 model1=man_hat_wizards
 model2=man_head_longhair
 model3=man_jaw_long
@@ -5520,6 +5145,18 @@ model10=human_weaponsextra_stafforb
 head1=chat_male_wizards
 head2=chat_male_head_longhair
 head3=chat_male_jaw_long
+recol1s=14724
+recol1d=239
+recol2s=2340
+recol2d=239
+recol3s=14801
+recol3d=24075
+recol4s=6273
+recol4d=22200
+recol5s=15649
+recol5d=5
+recol6s=23263
+recol6d=20799
 
 [cow2]
 size=2
@@ -5531,17 +5168,18 @@ op2=Attack
 resizeh=115
 resizev=115
 vislevel=2
+model1=model_3341_npc
+model2=model_3342_npc
 recol1s=32765
 recol1d=10434
 recol2s=7366
 recol2d=10434
 recol3s=8423
 recol3d=10434
-model1=model_3341_npc
-model2=model_3342_npc
+category=cow
+hitpoints=8
 timer=25
 respawnrate=90
-hitpoints=8
 param=attackbonus,-15
 param=strengthbonus,-15
 param=stabdefence,-21
@@ -5556,9 +5194,6 @@ param=death_anim,cow_death
 param=attack_sound,cow_attack
 param=defend_sound,cow_hit
 param=death_sound,cow_death
-category=cow
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2791
 
 [jungleforester_m]
 vislevel=hide
@@ -5567,14 +5202,6 @@ desc=He deals in exotic types of wood.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=2340
-recol1d=14724
-recol2s=31649
-recol2d=14724
-recol3s=15360
-recol3d=7329
-recol4s=8384
-recol4d=7329
 model1=man_head_hood1
 model2=man_jaw_long
 model3=man_torso_basic
@@ -5587,18 +5214,6 @@ model9=man_torsoextra_pattern1
 model10=human_weapons_machette
 head1=chat_male_head_hood1
 head2=chat_male_jaw_long
-wanderrange=3
-maxrange=3
-param=damagetype,^slash_style
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3954
-
-[jungleforester_f]
-vislevel=hide
-name=Jungle Forester
-desc=She deals in exotic types of wood.
-walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
-readyanim=human_ready
-op1=Talk-to
 recol1s=2340
 recol1d=14724
 recol2s=31649
@@ -5607,6 +5222,17 @@ recol3s=15360
 recol3d=7329
 recol4s=8384
 recol4d=7329
+wanderrange=3
+maxrange=3
+param=damagetype,^slash_style
+
+[jungleforester_f]
+vislevel=hide
+name=Jungle Forester
+desc=She deals in exotic types of wood.
+walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
+readyanim=human_ready
+op1=Talk-to
 model1=woman_head_hood2
 model2=woman_torso_basic
 model3=woman_arms_buff
@@ -5617,10 +5243,17 @@ model7=woman_torsoextra_cloak
 model8=woman_torsoextra_pattern1
 model9=human_weapons_machette
 head1=chat_female_head_hood2
+recol1s=2340
+recol1d=14724
+recol2s=31649
+recol2d=14724
+recol3s=15360
+recol3d=7329
+recol4s=8384
+recol4d=7329
 wanderrange=3
 maxrange=3
 param=damagetype,^slash_style
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_3955
 
 [suit_of_armour]
 name=Suit of armour
@@ -5628,6 +5261,15 @@ desc=A dusty old suit of armour.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 op2=Attack
 vislevel=19
+model1=man_head_fullhelmet
+model2=man_torso_paladin
+model3=man_arms_platemail
+model4=man_hands_gloves
+model5=man_legs_platemail
+model6=man_feet_boots
+model7=human_weapons_longsword
+model8=human_weapons_kiteshield
+model9=man_torsoextra_paladin_star
 recol1s=6273
 recol1d=15360
 recol2s=10570
@@ -5640,20 +5282,10 @@ recol5s=14798
 recol5d=10570
 recol6s=7296
 recol6d=15360
-model1=man_head_fullhelmet
-model2=man_torso_paladin
-model3=man_arms_platemail
-model4=man_hands_gloves
-model5=man_legs_platemail
-model6=man_feet_boots
-model7=human_weapons_longsword
-model8=human_weapons_kiteshield
-model9=man_torsoextra_paladin_star
-// TODO respawnrate?
-hitpoints=29
 attack=16
-strength=14
 defence=9
+strength=14
+hitpoints=29
 param=attackrate,5
 param=attackbonus,8
 param=strengthbonus,10
@@ -5669,9 +5301,6 @@ param=attack_sound,stabsword_slash
 param=defend_sound,brassclash
 param=death_sound,swordclash2
 param=death_drop,null
-// osrs stats and Vislvl match 1:1
-// original sounds?? animated_hit, animated_death
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5043
 
 [captain_shanks]
 vislevel=hide
@@ -5680,16 +5309,6 @@ desc=He's the Captain of the 'Lady of the Waves'.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=24075
-recol1d=20804
-recol2s=2340
-recol2d=4234
-recol3s=14724
-recol3d=4334
-recol4s=14801
-recol4d=24075
-recol5s=6273
-recol5d=4226
 model1=man_head_longhair
 model2=man_jaw_goaty
 model3=man_torso_basic
@@ -5701,6 +5320,16 @@ model8=man_hat_birdseye
 head1=chat_male_head_longhair
 head2=chat_male_jaw_goaty
 head3=chat_male_model_37
+recol1s=24075
+recol1d=20804
+recol2s=2340
+recol2d=4234
+recol3s=14724
+recol3d=4334
+recol4s=14801
+recol4d=24075
+recol5s=6273
+recol5d=4226
 
 [imp]
 name=Imp
@@ -5710,12 +5339,12 @@ readyanim=imp_ready
 op2=Attack
 vislevel=2
 model1=model_2887_npc
-maxrange=25
 wanderrange=25
-respawnrate=100
+maxrange=25
 hitpoints=8
-givechase=false
 timer=70
+respawnrate=100
+givechase=false
 param=attackbonus,-42
 param=strengthbonus,-37
 param=stabdefence,-42
@@ -5732,9 +5361,6 @@ param=defend_sound,imp_hit
 param=death_sound,imp_death
 param=death_drop,ashes
 param=retreat,4
-// https://oldschool.runescape.wiki/w/Demon_(attribute)
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5007
 
 [donkey_bartender]
 vislevel=hide
@@ -5743,12 +5369,6 @@ desc=I could get a beer from him.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=2340
-recol1d=14594
-recol2s=14724
-recol2d=8354
-recol3s=14801
-recol3d=24075
 model1=man_head_shorthair2
 model2=man_jaw_moustache
 model3=man_torso_fat
@@ -5759,6 +5379,12 @@ model7=man_feet_basic
 model8=model_245_npc
 head1=chat_male_head_shorthair2
 head2=chat_male_jaw_moustache
+recol1s=2340
+recol1d=14594
+recol2s=14724
+recol2d=8354
+recol3s=14801
+recol3d=24075
 wanderrange=1
 
 [seth]
@@ -5768,6 +5394,15 @@ desc=Slightly fishy smelling.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
+model1=man_head_shorthair
+model2=man_jaw_none
+model3=man_torso_basic
+model4=man_torsoextra_buttons
+model5=man_legs_basic
+model6=man_feet_boots
+model7=man_arms_basic
+model8=man_hands_basic
+head1=chat_male_head_shorthair
 recol1s=24075
 recol1d=14596
 recol2s=14724
@@ -5778,15 +5413,6 @@ recol4s=6273
 recol4d=21140
 recol5s=24329
 recol5d=3171
-model1=man_head_shorthair
-model2=man_jaw_none
-model3=man_torso_basic
-model4=man_torsoextra_buttons
-model5=man_legs_basic
-model6=man_feet_boots
-model7=man_arms_basic
-model8=man_hands_basic
-head1=chat_male_head_shorthair
 
 [ice_queen]
 name=Ice Queen
@@ -5795,6 +5421,14 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=111
+model1=woman_head_spikeyhair2
+model2=woman_hat_crown
+model3=woman_torso_platemail
+model4=woman_legs_longskirt-nofeet
+model5=woman_hands_basic
+model6=woman_arms_bareforplate
+head1=chat_female_head_spikeyhair2
+head2=chat_female_model_93
 recol1s=10570
 recol1d=14815
 recol2s=15855
@@ -5807,19 +5441,11 @@ recol5s=2340
 recol5d=14815
 recol6s=6273
 recol6d=16959
-model1=woman_head_spikeyhair2
-model2=woman_hat_crown
-model3=woman_torso_platemail
-model4=woman_legs_longskirt-nofeet
-model5=woman_hands_basic
-model6=woman_arms_bareforplate
-head1=chat_female_head_spikeyhair2
-head2=chat_female_model_93
-respawnrate=100
-hitpoints=104
 attack=95
-strength=94
 defence=95
+strength=94
+hitpoints=104
+respawnrate=100
 param=stabdefence,30
 param=slashdefence,40
 param=crushdefence,20
@@ -5829,8 +5455,6 @@ param=damagetype,^crush_style
 param=defend_sound,ice_warrior_hit
 param=death_sound,female_death
 param=death_drop,ice_gloves
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4922
 
 [pirate_guard]
 name=Pirate Guard
@@ -5840,12 +5464,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=19
-recol1s=14724
-recol1d=3171
-recol2s=2340
-recol2d=3171
-recol3s=15855
-recol3d=3171
 model1=man_head_mediumhelmet
 model2=man_torso_chainmail
 model3=man_arms_basic
@@ -5855,13 +5473,19 @@ model6=man_hands_gloves
 model7=man_jaw_none
 model8=human_weapons_longsword
 head1=chat_male_head_mediumhelmet
+recol1s=14724
+recol1d=3171
+recol2s=2340
+recol2d=3171
+recol3s=15855
+recol3d=3171
 wanderrange=1
 maxrange=3
-respawnrate=100
-hitpoints=25
 attack=18
-strength=16
 defence=10
+strength=16
+hitpoints=25
+respawnrate=100
 param=attackbonus,20
 param=strengthbonus,16
 param=stabdefence,30
@@ -5872,8 +5496,6 @@ param=attack_anim,human_sword_slash
 param=defend_anim,human_sword_def
 param=attack_sound,stabsword_slash
 param=defend_sound,big_bar_mail
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_4926
 
 [green_dragon]
 size=4
@@ -5883,19 +5505,21 @@ name=Green dragon
 desc=Must be related to Elvarg.
 op2=Attack
 vislevel=79
-recol1s=15855
-recol1d=4516
 model1=model_2853_npc
 model2=model_2854_npc
-members=yes
+recol1s=15855
+recol1d=4516
 wanderrange=4
 maxrange=20
-respawnrate=60
-hitpoints=75
 attack=68
-strength=68
 defence=68
+strength=68
+hitpoints=75
 magic=68
+huntrange=4
+respawnrate=60
+huntmode=cowardly
+members=yes
 param=stabdefence,20
 param=slashdefence,40
 param=crushdefence,40
@@ -5909,13 +5533,6 @@ param=attack_sound,dragon_attack
 param=defend_sound,dragon_hit
 param=death_sound,dragon_death
 param=death_drop,dragon_bones
-huntmode=cowardly
-huntrange=4
-// osrs stats and Vislvl match 1:1
-// but the defense stats matches according to this site 1:1
-// http://web.archive.org/web/20190722072117/https://oldschool.runescape.wiki/w/Green_dragon
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_260
-// and this variation have old stats npc_13010
 
 [cow_beef]
 size=2
@@ -5925,17 +5542,18 @@ name=Cow
 desc=It's a dairy cow.
 op2=Attack
 vislevel=2
+model1=model_3341_npc
+model2=model_3342_npc
 recol1s=32765
 recol1d=10434
 recol2s=7366
 recol2d=10434
 recol3s=28371
 recol3d=12616
-model1=model_3341_npc
-model2=model_3342_npc
+category=cow
+hitpoints=8
 timer=25
 respawnrate=90
-hitpoints=8
 param=attackbonus,-15
 param=strengthbonus,-15
 param=stabdefence,-21
@@ -5950,9 +5568,6 @@ param=death_anim,cow_death
 param=attack_sound,cow_attack
 param=defend_sound,cow_hit
 param=death_sound,cow_death
-category=cow
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_2793
 
 [dungeonspider]
 walkanim=giantspider_walk
@@ -5962,13 +5577,14 @@ desc=A nasty poisonous arachnid.
 op2=Attack
 vislevel=31
 model1=model_2883_npc
-// TODO respawnrates
 wanderrange=10
 maxrange=12
-hitpoints=25
 attack=28
-strength=28
 defence=28
+strength=28
+hitpoints=25
+huntrange=1
+huntmode=cowardly
 param=stabdefence,20
 param=slashdefence,17
 param=crushdefence,10
@@ -5982,9 +5598,3 @@ param=attack_sound,insect_attack
 param=defend_sound,insect_hit
 param=death_sound,insect_death
 param=death_drop,null
-huntmode=cowardly
-huntrange=1
-// osrs stats and Vislvl match 1:1
-// osrs sounds big_spider_attack, big_spider_hit, big_spider_death
-// Tested this npc in osrs, doesnt seem to poison? Seems like the chests have a chance to poison
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_5373

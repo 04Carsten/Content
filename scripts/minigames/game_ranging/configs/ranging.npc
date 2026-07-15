@@ -6,8 +6,6 @@ readyanim=human_ready
 op1=Talk-to
 op2=Attack
 vislevel=37
-recol1s=7330
-recol1d=23009
 model1=man_head_coif
 model2=man_feet_boots
 model3=man_jaw_short2
@@ -19,15 +17,17 @@ model8=human_weapons_longbow
 head1=chat_male_head_bald
 head2=chat_male_jaw_short2
 head3=chat_male_model_32
+recol1s=7330
+recol1d=23009
 wanderrange=1
 maxrange=20
-attackrange=10
-respawnrate=50
-hitpoints=50
 attack=20
-strength=20
 defence=20
+strength=20
+hitpoints=50
 ranged=40
+respawnrate=50
+attackrange=10
 param=attackrate,6
 param=attackbonus,19
 param=strengthbonus,8
@@ -44,9 +44,6 @@ param=death_sound,null
 param=rangeattack_sound,arrowlaunch2
 param=proj_launch,iron_arrow_launch
 param=proj_travel,iron_arrow_travel
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6056
-// this npc havent any hit or death sounds...
 
 [ranging_guild_doorman]
 vislevel=hide
@@ -55,8 +52,6 @@ desc=The keeper of the gates to the ranging guild.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=7330
-recol1d=23009
 model1=man_head_coif
 model2=man_feet_boots
 model3=man_jaw_short2
@@ -68,12 +63,13 @@ model8=human_weapons_longbow
 head1=chat_male_head_bald
 head2=chat_male_jaw_short2
 head3=chat_male_model_32
+recol1s=7330
+recol1d=23009
 wanderrange=1
-hitpoints=50
 attack=20
-strength=20
 defence=40
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6057
+strength=20
+hitpoints=50
 
 [ranging_guild_leatherworker]
 vislevel=hide
@@ -82,16 +78,6 @@ desc=An expert leatherworker.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=6273
-recol1d=23009
-recol2s=14724
-recol2d=19713
-recol3s=2340
-recol3d=9518
-recol4s=6273
-recol4d=10570
-recol5s=14801
-recol5d=7364
 model1=woman_head_coif
 model2=woman_feet_elfboots
 model3=man_torso_halfleather
@@ -102,6 +88,16 @@ model7=woman_torsoextra_cloak_plain
 model8=woman_necklaces_basic
 head1=chat_female_head_bald
 head2=chat_female_model_90
+recol1s=6273
+recol1d=23009
+recol2s=14724
+recol2d=19713
+recol3s=2340
+recol3d=9518
+recol4s=6273
+recol4d=10570
+recol5s=14801
+recol5d=7364
 wanderrange=2
 
 [ranging_guild_poison_salesman]
@@ -111,10 +107,6 @@ desc=Supplier of deadly liquids.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=6273
-recol1d=23009
-recol2s=14724
-recol2d=5250
 model1=man_head_rangershood
 model2=man_feet_boots
 model3=man_jaw_moustache
@@ -124,6 +116,10 @@ model6=man_hands_gloves
 model7=man_legs_chap
 head1=chat_male_head_rangerhood
 head2=chat_male_jaw_moustache
+recol1s=6273
+recol1d=23009
+recol2s=14724
+recol2d=5250
 
 [ranging_guild_armour_salesman]
 vislevel=hide
@@ -133,6 +129,14 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
 op3=Trade
+model1=man_head_rangershood
+model2=man_feet_boots
+model3=man_jaw_none
+model4=man_torso_leather_studded
+model5=man_arms_buff
+model6=man_legs_chap
+model7=man_hands_gloves
+head1=chat_male_head_rangerhood
 recol1s=7330
 recol1d=23009
 recol2s=289
@@ -143,16 +147,8 @@ recol4s=2340
 recol4d=10240
 recol5s=14724
 recol5d=10240
-model1=man_head_rangershood
-model2=man_feet_boots
-model3=man_jaw_none
-model4=man_torso_leather_studded
-model5=man_arms_buff
-model6=man_legs_chap
-model7=man_hands_gloves
-head1=chat_male_head_rangerhood
-wanderrange=2
 category=shop_keeper
+wanderrange=2
 param=owned_shop,ranging_guild_armourshop
 param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,500
@@ -167,8 +163,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
 op3=Trade
-recol1s=14724
-recol1d=2340
 model1=man_head_coif
 model2=man_feet_boots
 model3=man_jaw_short2
@@ -179,8 +173,10 @@ model7=man_legs_chap
 model8=man_torsoextra_cloak_plain
 head1=chat_male_head_bald
 head2=chat_male_model_32
-wanderrange=2
+recol1s=14724
+recol1d=2340
 category=shop_keeper
+wanderrange=2
 param=owned_shop,ranging_guild_bowshop
 param=shop_sell_multiplier,1000
 param=shop_buy_multiplier,500
@@ -205,10 +201,10 @@ model8=human_weapons_longbow
 model9=man_torsoextra_cloak_plain
 head1=chat_male_head_hood2
 head2=chat_male_jaw_short2
+category=tower_advisor
 wanderrange=0
 maxrange=0
 moverestrict=nomove
-category=tower_advisor
 
 [ranging_advisor2]
 vislevel=hide
@@ -228,10 +224,10 @@ model8=human_weapons_longbow
 model9=man_torsoextra_cloak_plain
 head1=chat_male_head_hood2
 head2=chat_male_jaw_short2
+category=tower_advisor
 wanderrange=0
 maxrange=0
 moverestrict=nomove
-category=tower_advisor
 
 [ranging_advisor3]
 vislevel=hide
@@ -251,10 +247,10 @@ model8=human_weapons_longbow
 model9=man_torsoextra_cloak_plain
 head1=chat_male_head_hood2
 head2=chat_male_jaw_short2
+category=tower_advisor
 wanderrange=0
 maxrange=0
 moverestrict=nomove
-category=tower_advisor
 
 [ranging_advisor4]
 vislevel=hide
@@ -274,10 +270,10 @@ model8=human_weapons_longbow
 model9=man_torsoextra_cloak_plain
 head1=chat_male_head_hood2
 head2=chat_male_jaw_short2
+category=tower_advisor
 wanderrange=0
 maxrange=0
 moverestrict=nomove
-category=tower_advisor
 
 [guild_towerarcher1]
 name=Tower Archer
@@ -286,12 +282,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=19
-recol1s=7330
-recol1d=23009
-recol2s=11630
-recol2d=7363
-recol3s=14801
-recol3d=7364
 model1=man_head_coif
 model2=man_jaw_short2
 model3=man_torso_leather
@@ -300,14 +290,22 @@ model5=man_hands_basic
 model6=man_legs_chap
 model7=man_feet_boots
 model8=human_weapons_longbow
+recol1s=7330
+recol1d=23009
+recol2s=11630
+recol2d=7363
+recol3s=14801
+recol3d=7364
 wanderrange=0
 maxrange=11
-attackrange=11
-hitpoints=30
 attack=10
-strength=10
 defence=10
+strength=10
+hitpoints=30
 ranged=20
+huntrange=11
+attackrange=11
+huntmode=aggressive_ranged
 param=attackrate,6
 param=rangebonus,16
 param=magicdefence,6
@@ -320,12 +318,6 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,iron_arrow_launch
 param=proj_travel,iron_arrow_travel
 param=npc_ammo,iron_arrow
-huntmode=aggressive_ranged
-// https://oldschool.runescape.wiki/w/Tower_Archer
-huntrange=11
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6065
-// this npc havent any hit or death sounds...
 
 [guild_towerarcher2]
 name=Tower Archer
@@ -334,10 +326,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=34
-recol1s=7330
-recol1d=20004
-recol2s=14801
-recol2d=7364
 model1=man_head_coif
 model2=man_jaw_short2
 model3=man_torso_leather_hard
@@ -346,14 +334,20 @@ model5=man_hands_basic
 model6=man_legs_chap
 model7=man_feet_boots
 model8=human_weapons_longbow
+recol1s=7330
+recol1d=20004
+recol2s=14801
+recol2d=7364
 wanderrange=0
 maxrange=11
-attackrange=11
-hitpoints=50
 attack=10
-strength=10
 defence=10
+strength=10
+hitpoints=50
 ranged=40
+huntrange=11
+attackrange=11
+huntmode=aggressive_ranged
 param=attackrate,6
 param=rangebonus,22
 param=magicdefence,24
@@ -366,12 +360,6 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,steel_arrow_launch
 param=proj_travel,steel_arrow_travel
 param=npc_ammo,steel_arrow
-huntmode=aggressive_ranged
-// https://oldschool.runescape.wiki/w/Tower_Archer
-huntrange=11
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6065
-// this npc havent any hit or death sounds...
 
 [guild_towerarcher3]
 name=Tower Archer
@@ -380,10 +368,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=49
-recol1s=7330
-recol1d=21040
-recol2s=14801
-recol2d=256
 model1=man_head_coif
 model2=man_jaw_short2
 model3=man_torso_leather_studded
@@ -392,14 +376,20 @@ model5=man_hands_basic
 model6=man_legs_chap_studded
 model7=man_feet_boots
 model8=human_weapons_longbow
+recol1s=7330
+recol1d=21040
+recol2s=14801
+recol2d=256
 wanderrange=0
 maxrange=11
-attackrange=11
-hitpoints=70
 attack=10
-strength=10
 defence=10
+strength=10
+hitpoints=70
 ranged=60
+huntrange=11
+attackrange=11
+huntmode=aggressive_ranged
 param=attackrate,6
 param=rangebonus,31
 param=magicdefence,20
@@ -412,12 +402,6 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,mithril_arrow_launch
 param=proj_travel,mithril_arrow_travel
 param=npc_ammo,mithril_arrow
-huntmode=aggressive_ranged
-// https://oldschool.runescape.wiki/w/Tower_Archer
-huntrange=11
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6067
-// this npc havent any hit or death sounds...
 
 [guild_towerarcher4]
 name=Tower Archer
@@ -426,10 +410,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op2=Attack
 vislevel=64
-recol1s=7330
-recol1d=23073
-recol2s=14801
-recol2d=256
 model1=man_head_coif
 model2=man_jaw_short2
 model3=man_torso_leather_dragonhide
@@ -438,14 +418,20 @@ model5=man_hands_basic
 model6=man_legs_chap_dragonhide
 model7=man_feet_boots
 model8=human_weapons_longbow
+recol1s=7330
+recol1d=23073
+recol2s=14801
+recol2d=256
 wanderrange=0
 maxrange=11
-attackrange=11
-hitpoints=90
 attack=10
-strength=10
 defence=10
+strength=10
+hitpoints=90
 ranged=80
+huntrange=11
+attackrange=11
+huntmode=aggressive_ranged
 param=attackrate,6
 param=rangebonus,49
 param=magicdefence,34
@@ -458,12 +444,6 @@ param=rangeattack_sound,arrowlaunch2
 param=proj_launch,adamant_arrow_launch
 param=proj_travel,adamant_arrow_travel
 param=npc_ammo,adamant_arrow
-huntmode=aggressive_ranged
-// https://oldschool.runescape.wiki/w/Tower_Archer
-huntrange=11
-// osrs stats and Vislvl match 1:1
-// https://raw.githubusercontent.com/Joshua-F/osrs-dumps/refs/heads/master/config/dump.npc npc_6068
-// this npc havent any hit or death sounds...
 
 [ranging_guild_tribal_salesman]
 vislevel=hide
@@ -473,10 +453,6 @@ walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
 op3=Trade
-recol1s=24075
-recol1d=9410
-recol2s=14801
-recol2d=9410
 model1=man_head_tribal
 model2=man_feet_basic
 model3=man_jaw_none
@@ -488,13 +464,16 @@ model8=man_torsoextra_cloak
 model9=man_hat_headband
 head1=chat_male_head_tribal
 head2=chat_male_headband
+recol1s=24075
+recol1d=9410
+recol2s=14801
+recol2d=9410
 category=shop_keeper
 param=owned_shop,ranging_guild_tribalshop
 param=shop_sell_multiplier,1300
 param=shop_buy_multiplier,500
 param=shop_delta,10
 param=shop_title,Authentic throwing weapons.
-// https://web.archive.org/web/20060521172929/http://runehq.com/images/otherguides/Throwing_weapons.jpg (Authentic throwing weapons.)
 
 [ranging_guild_competition_judge]
 vislevel=hide
@@ -503,8 +482,6 @@ desc=Overseer of the Archery competition.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
-recol1s=7330
-recol1d=23009
 model1=man_head_coif
 model2=man_feet_boots
 model3=man_jaw_short2
@@ -516,6 +493,8 @@ model8=human_weapons_longbow
 head1=chat_male_head_bald
 head2=chat_male_jaw_short2
 head3=chat_male_model_32
+recol1s=7330
+recol1d=23009
 wanderrange=1
 
 [ranging_guild_ticket_exchange]
@@ -525,6 +504,14 @@ desc=Exchanges your tickets for equipment.
 walkanim=human_walk_f,human_walk_b,human_walk_l,human_walk_r
 readyanim=human_ready
 op1=Talk-to
+model1=man_head_rangershood
+model2=man_feet_boots
+model3=man_jaw_none
+model4=man_torso_leather_studded
+model5=man_arms_buff
+model6=man_legs_chap
+model7=man_hands_gloves
+head1=chat_male_head_rangerhood
 recol1s=7330
 recol1d=23009
 recol2s=289
@@ -535,12 +522,4 @@ recol4s=2340
 recol4d=10240
 recol5s=14724
 recol5d=10240
-model1=man_head_rangershood
-model2=man_feet_boots
-model3=man_jaw_none
-model4=man_torso_leather_studded
-model5=man_arms_buff
-model6=man_legs_chap
-model7=man_hands_gloves
-head1=chat_male_head_rangerhood
 wanderrange=3
