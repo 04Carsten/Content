@@ -11856,7 +11856,7 @@
 11855=hauntedmine_controls:com_369
 11856=hauntedmine_controls:com_370
 11857=questlist:com_90
-11858=questlist:com_92
+11858=questlist:troll_love
 11859=inter_209
 11860=inter_209:com_0
 11861=inter_209:com_1
@@ -11875,9 +11875,9 @@
 11874=inter_211:com_3
 11875=inter_211:com_4
 11876=inter_211:com_5
-11877=inter_212
-11878=inter_212:com_0
-11879=inter_212:com_1
+11877=overlay_atmosphere_snow_flakes
+11878=overlay_atmosphere_snow_flakes:com_0
+11879=overlay_atmosphere_snow_flakes:com_1
 11880=music:com_292
 11881=music:com_293
 11882=music:com_294

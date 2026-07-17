@@ -1731,6 +1731,14 @@ womanwear=human_weapons_toboggan,0
 weight=18g
 members=yes
 cost=175
+param=ready_baseanim,trollromance_toboggan_ready
+param=turnonspot_baseanim,trollromance_toboggan_walking
+param=walk_f_baseanim,trollromance_toboggan_walking
+param=walk_b_baseanim,trollromance_toboggan_walking
+param=walk_l_baseanim,trollromance_toboggan_walking
+param=walk_r_baseanim,trollromance_toboggan_walking
+param=running_baseanim,trollromance_toboggan_walking
+param=defend_anim,trollromance_toboggan_defend
 tradeable=no
 
 [trollromance_wax]
@@ -1744,6 +1752,7 @@ womanwear=human_weapons_sledwax,0
 2dzoom=520
 2dyan=1936
 2dxan=176
+wearpos=lefthand
 weight=25g
 members=yes
 cost=15
