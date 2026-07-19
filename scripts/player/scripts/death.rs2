@@ -11,6 +11,15 @@ p_delay(3);
 if (.finduid(%duel2accept) = true & ~.in_duel_arena(.coord) = true) {
     @player_death_duel;
 }
+if (~in_castlewars_game(coord) = true) {
+    if (findhero = true) {
+        .queue(castlewars_increment_kills, 0, 0);
+    }
+    if (p_finduid(uid) = true) @player_death_castlewars;
+}
+if (~in_castlewars_waitingroom(coord) = true) {
+    if (p_finduid(uid) = true) @player_death_castlewars_waitingroom;
+}
 ~player_death;
 ~music_jingle(death2);
 // https://storage.googleapis.com/tannerdino/images/6543.jpg

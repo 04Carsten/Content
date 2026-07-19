@@ -3718,6 +3718,7 @@ recol2s=7488
 recol2d=3233
 
 [castlewars_judge]
+timer=5
 vislevel=hide
 name=Lanthus
 desc=He must run this place.
@@ -3848,6 +3849,11 @@ recol4s=31649
 recol4d=8455
 
 [castlewars_barricade_saradomin]
+category=castlewars_barricade
+timer=100
+param=next_npc_type,castlewars_barricade_burning_saradomin
+param=defend_anim,null
+param=defend_sound,null
 minimap=no
 vislevel=hide
 name=Barricade
@@ -3862,6 +3868,11 @@ blockwalk=all
 defaultmode=none
 
 [castlewars_barricade_burning_saradomin]
+category=castlewars_barricade
+timer=100
+param=next_npc_type,castlewars_barricade_saradomin
+param=defend_anim,null
+param=defend_sound,null
 minimap=no
 vislevel=hide
 name=Barricade
@@ -3882,6 +3893,11 @@ blockwalk=all
 defaultmode=none
 
 [castlewars_barricade_zamorak]
+category=castlewars_barricade
+timer=100
+param=next_npc_type,castlewars_barricade_burning_zamorak
+param=defend_anim,null
+param=defend_sound,null
 minimap=no
 vislevel=hide
 name=Barricade
@@ -3896,6 +3912,11 @@ blockwalk=all
 defaultmode=none
 
 [castlewars_barricade_burning_zamorak]
+category=castlewars_barricade
+timer=100
+param=next_npc_type,castlewars_barricade_zamorak
+param=defend_anim,null
+param=defend_sound,null
 minimap=no
 vislevel=hide
 name=Barricade

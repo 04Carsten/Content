@@ -71,6 +71,9 @@ if(~inzone_coord_pair_table(mortton_temple_zones, coord) = true) {
     if_openoverlay(null);
 }
 
+if (~in_castlewars_game(coord) = true | ~in_castlewars_waitingroom(coord) = true) {
+    return;
+}
 p_telejump($coord);
 cam_reset;
 anim(null, 0);
@@ -127,6 +130,10 @@ if (~inzone_coord_pair_table(random_event_maze_zones, $coord) = true) {
 if (~in_duel_arena($coord) = true) {
     mes("Coward! You can't teleport from a duel."); //RS3 message: https://archive.org/details/runelibris
     //Colored in #AB0908 in RS3, but was likely not colored in 2004
+    return(false);
+}
+if (~in_castlewars_game(coord) = true | ~in_castlewars_waitingroom(coord) = true) {
+    ~mesbox("You can't leave just like that!");
     return(false);
 }
 
