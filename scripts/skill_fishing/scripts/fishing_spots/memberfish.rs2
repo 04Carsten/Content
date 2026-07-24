@@ -13,7 +13,8 @@ if(~mm_wearing_greegree = true) {
 }
 if (stat(fishing) < 76) {
     anim(null, 0);
-    ~mesbox("You need at least 76 Fishing to harpoon these fish.");
+    // https://web.archive.org/web/*/http://runescape.salmoneus.net/cities/images/atollfish2.png
+    ~mesbox("You need at least 76 Fishing to Harpoon these fish.");
     return;
 }
 // check if they have fishing equipment
@@ -54,7 +55,8 @@ if(~mm_wearing_greegree = true) {
 }
 if (stat(fishing) < 76) {
     anim(null, 0);
-    ~mesbox("You need at least 76 Fishing to harpoon these fish.");
+    // https://web.archive.org/web/*/http://runescape.salmoneus.net/cities/images/atollfish2.png
+    ~mesbox("You need at least 76 Fishing to Harpoon these fish.");
     return;
 }
 // check if they have fishing equipment
