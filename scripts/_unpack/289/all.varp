@@ -14,31 +14,6 @@ scope=perm
 
 [varp_364]
 
-[mm_main]
-scope=perm
-
-[varp_366]
-
-[varp_367]
-
-[varp_368]
-
-[varp_369]
-
-[varp_370]
-
-[mm_flags]
-scope=perm
-
-[mm_gnomes]
-scope=perm
-
-[mm_monkeys]
-scope=perm
-
-[mm_misc]
-scope=perm
-
 // todo: osrs has "armourhitsound" here?
 [varp_375]
 

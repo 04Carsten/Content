@@ -78,6 +78,9 @@ p_telejump($coord);
 cam_reset;
 anim(null, 0);
 // todo: ensure this proc is used for other teleports too
+~post_tele_checks;
+
+[proc,post_tele_checks]
 ~reset_haunted_levers;
 def_int $rum = inv_total(inv, karamja_rum);
 if ($rum > 0) {
@@ -99,6 +102,11 @@ if (inv_getobj(worn, ^wearpos_rhand) = trollromance_toboggon_waxed) { // Troll R
     }
 }
 ~clear_peer_trial_items;
+if(inv_total(inv, mm_monkey_in_backpack) > 0) {
+    // this does delete all if you have multiple (confirmed on OSRS)
+    inv_del(inv, mm_monkey_in_backpack, ^max_32bit_int);
+    mes("The monkey in your backpack disappears in a puff of smoke!");
+}
 
 [proc,tele_checks]()
 if(inv_total(inv, thanainabarrel) > 0) {

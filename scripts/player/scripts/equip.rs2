@@ -57,6 +57,10 @@ if (p_finduid(uid) = true) {
     } else if($obj = ibanstaff) {
         // https://youtu.be/n_ip_vEDbCA?si=0uESoOC98Fvl7HqS&t=2333
         mes("You equip the staff of Iban.");
+    } else if(oc_category($obj) = mm_greegree) {
+        spotanim_pl(windwave_impact, 124, 0);
+        anim(null, 0);
+        sound_synth(oc_param($obj, transform_sound), 0, 0);
     }
 
     ~update_all($previous);
@@ -92,6 +96,17 @@ if($obj = elemental_shield & inv_getobj(worn, ^wearpos_lhand) = null) {
 }
 if (oc_param($obj, specwep) = ^true) {
     %sa_attack = ^false;
+}
+if(oc_category($obj) = mm_greegree) {
+    p_transmogrify(null);
+    cleartimer(mm_greegree_timer);
+    p_animprotect(^false);
+    spotanim_pl(windwave_impact, 124, 0);
+    sound_synth(oc_param($obj, revert_sound), 0, 0);
+    if_settab(magic, ^tab_magic);
+}
+if($obj = mm_sigil) {
+    cleartimer(teleport_mm_sigil);
 }
 if($update_all = ^true) ~update_all($obj);
 if ($obj = castlewars_saradomin_banner | $obj = castlewars_zamorak_banner) {
