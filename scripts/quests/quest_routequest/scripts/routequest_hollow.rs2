@@ -123,6 +123,46 @@ switch_coord (loc_coord) {
     case default : ~displaymessage(^dm_default);
 }
 
+[oploc5,swamp_bridge1]
+switch_coord (loc_coord) {
+    case 0_54_53_46_35 : mes("This bridge rung already looks fixed; that's why you're able to stand on it.");
+    case 0_54_53_46_36 :
+        if(%bridgerung1 = ^true) {
+            mes("You have already fixed this part of the bridge.");
+            return;
+        }
+        if(~routequest_try_fix_rung = true) {
+            %bridgerung1 = 1;
+            anim(human_smithing, 0);
+            p_delay(2);
+            ~forcemove(movecoord(coord, 0, 0, 1));
+        }
+        mes("This bridge rung already looks fixed; that's why you're able to stand on it.");
+    case 0_54_53_46_37 :
+        if(%bridgerung2 = ^true) {
+            mes("You have already fixed this part of the bridge.");
+            return;
+        }
+        if(~routequest_try_fix_rung = true) {
+            %bridgerung2 = 1;
+            anim(human_smithing, 0);
+            p_delay(2);
+            ~forcemove(movecoord(coord, 0, 0, 1));
+        }
+    case 0_54_53_46_38 :
+        if(%bridgerung3 = ^true) {
+            mes("You have already fixed this part of the bridge.");
+            return;
+        }
+        if(~routequest_try_fix_rung = true) {
+            %bridgerung3 = 1;
+            anim(human_smithing, 0);
+            p_delay(2);
+            ~forcemove(movecoord(coord, 0, 0, 1));
+        }
+    case default : ~displaymessage(^dm_default);
+}
+
 [proc,routequest_try_fix_rung]()(boolean)
 if(inv_total(inv, woodplank) = 0) {
     // RS3
@@ -213,10 +253,8 @@ if(%routequest < ^routequest_answered_questions) {
 ~chatplayer("<p,neutral>I don't have to answer to you!");
 ~chatnpc("<p,neutral>You do if you know what's good for you!");
 mes("Curpile punches you.");
-npc_setmode(playerface);
-npc_anim(human_sword_slash, 0);
-sound_synth(hacksword_slash, 0, 0);
-// remove 1hp
+npc_anim(human_unarmedpunch, 0);
+~damage_self(3);
 
 [label,route_curpile_no_reason]
 ~chatplayer("<p,neutral>No reason.");
@@ -254,8 +292,7 @@ switch_int($q) {
     case 2 : return ("Who is the leader of the Myreque?");
     case 3 : return ("Which member of the Myreque was originally a scholar?");
     case 4 : return ("What is the boatman's name?");
-    case 5 : return ("What family is rumoured to rule Morytania.");
-    case default : return ("Unknown question. Please report this bug.");
+    case default : return ("What family is rumoured to rule Morytania.");
 }
 
 [proc,route_ask_question](int $q)
