@@ -6,7 +6,7 @@ if(%cookquest = 0) {
 } else if(%cookquest = 1) {
     // https://github.com/Indio3/quest-journals/blob/master/quest_cook/qca_02b.jpg?raw=true
     // https://github.com/Indio3/quest-journals/blob/master/quest_cook/qca_07.jpg
-    $text = "@dbl@It's the @dre@Duke of Lumbridges'@dbl@ birthday and I have to help @dbl@his @dre@Cook@dbl@ make him a @dre@birthday cake.@dbl@ To do this I need to @dbl@bring him the following ingredients:|";
+    $text = "@dbl@It's the @dre@Duke of Lumbridges'@dbl@ birthday and I have to help @dbl@his @dre@Cook@dbl@ make him a @dre@birthday cake.@dbl@ To do this I need to bring him the following ingredients:|";
     if(inv_total(inv, bucket_milk) > 0) {
         $text = append($text, "@str@I have a bucket of milk with me|");
     } else {
