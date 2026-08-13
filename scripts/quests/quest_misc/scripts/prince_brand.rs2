@@ -24,9 +24,9 @@ if (%misc_quest >= ^misc_complete) {
 ~chatnpc("<p,neutral>You've come to the right bard! I'll write one for you immediately!");
 ~chatplayer("<p,neutral>You can take your time, really...");
 ~chatnpc("<p,neutral>No problem, I'm already done! Here, listen!");
-~chatnpc("<p,neutral>'Etceteria, Etceteria, Oh what a great country it is, Etceteria, Etceteria, So I wrote a song about it.'");
-~chatnpc("<p,neutral>'It's somewhere in the sea, And it looks very nice, If it weren't for your ancestors, It wouldn't be there at all,'");
-~chatnpc("<p,neutral>'And when things aren't going too well, We sing this lovely song, And then we'll all feel so much better, It won't take very long.'");
+~chatnpc("<p,laugh>'Etceteria, Etceteria,|Oh what a great country it is,|Etceteria, Etceteria,|So I wrote a song about it.'");
+~chatnpc("<p,laugh>'It's somewhere in the sea, And it looks very nice, If it weren't for your ancestors, It wouldn't be there at all,'");
+~chatnpc("<p,laugh>'And when things aren't going too well, We sing this lovely song, And then we'll all feel so much better, It won't take very long.'");
 inv_add(inv, misc_awful_anthem, 1);
 if (%misc_quest = 40) {
     %misc_quest = 50;

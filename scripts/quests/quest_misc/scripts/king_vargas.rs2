@@ -30,7 +30,7 @@ switch_int (%misc_quest) {
 ~chatnpc("<p,neutral>Who are you? Who seeks audience with the King of this fair land of Miscellania?");
 ~chatplayer("<p,neutral>I am known in these lands as <~get_viking_name>, Your Majesty. I come in search of a quest.");
 ~chatnpc("<p,happy>Ah, it pleases me to see such enthusiasm!");
-~chatnpc("<p,neutral>I was once an adventurer such as yourself; even while fulfilling my duties as King of Miscellania, I would roam the lands in search of adventure...");
+~chatnpc("<p,neutral>I was once an adventurer such as yourself; even while fulfilling my duties as King of Miscellania, I would roam the lands in search of adventure, and strike down mighty foes with a single blow!");
 ~chatnpc("<p,sad>Unfortunately, I was a little too daring, and attempted to brave the icelands, where I finally met my match.");
 ~chatnpc("<p,sad>I survived, barely, but I was cursed for the rest of my life to stay in this form. Which leaves me incapable of performing my duties as ruler.");
 ~chatnpc("<p,neutral>This is why I am looking for an exceptional soul to be regent of this fair kingdom of Miscellania.");
@@ -41,7 +41,7 @@ switch_int (%misc_quest) {
 
 [label,king_vargas_no_quest]
 ~chatplayer("<p,neutral>I'm afraid I must decline, Your Majesty. The call of adventure is too strong for me to accept a sedentary life.");
-~chatnpc("<p,neutral>I can assure you that I managed to heed that same call... However, I understand your decision. Fare thee well!");
+~chatnpc("<p,neutral>I can assure you that I managed to heed that same call, and ruling this land was no hindrance to me. However, I understand your decision. Fare thee well!");
 
 [label,king_vargas_yes_quest]
 if (%misc_quest = 0) {
@@ -49,9 +49,9 @@ if (%misc_quest = 0) {
 }
 ~chatplayer("<p,neutral>If I may be so bold, Your Majesty, I think Miscellania would rest in capable hands with me.");
 ~chatnpc("<p,happy>Hahaha! You are bold, <~get_viking_name>, but then I have yet to see a good ruler who was not.");
-~chatnpc("<p,neutral>You will first have to demonstrate your worth... ruling also requires a good grasp of diplomacy.");
+~chatnpc("<p,neutral>You will first have to demonstrate your worth. You are a good warrior, that I do not doubt; however ruling also requires a good grasp of diplomacy.");
 ~chatnpc("<p,neutral>We have been at war with neighbouring Etceteria for hundreds of years; however, I think both of us have rather lost our appetite for hostilities.");
-~chatnpc("<p,neutral>If you manage to negotiate peace with them, then you will truly have shown your skill as a diplomat.");
+~chatnpc("<p,neutral>Now may be an opportune time to make amends. If you manage to negotiate peace with them, then you will truly have shown your skill as a diplomat.");
 ~chatplayer("<p,neutral>Then do not stray far, Your Majesty, for I shall soon return.");
 ~chatnpc("<p,neutral>Wait! There is one more matter to discuss... a mere formality, of course.");
 ~chatnpc("<p,neutral>By Miscellanious tradition, one may not become ruler of the kingdom if one is not part of the royal family.");
@@ -64,12 +64,12 @@ if (gender = ^gender_male) {
 [label,king_vargas_is_male_starting]
 ~chatnpc("<p,neutral>You will have to convince my daughter, Princess Astrid, to marry you.");
 ~chatplayer("<p,confused>And you say this is a mere formality, Your Majesty?");
-~chatnpc("<p,happy>I am sure she won't be able to resist your heroic charms. You can ask Ghrim for advice.");
+~chatnpc("<p,happy>I am sure she won't be able to resist your heroic charms. You can ask Ghrim for advice; that's what he's here for, after all.");
 
 [label,king_vargas_is_female_starting]
 ~chatnpc("<p,neutral>You will have to convince my son, Prince Brand, to marry you.");
 ~chatplayer("<p,confused>And you say this is a mere formality, Your Majesty?");
-~chatnpc("<p,happy>I am sure he won't be able to resist your heroic charms. You can ask Ghrim for advice.");
+~chatnpc("<p,happy>I am sure he won't be able to resist your heroic charms. You can ask Ghrim for advice; that's what he's here for, after all.");
 
 [label,king_vargas_quest_stage_10] // https://youtu.be/RSjXfUd2uyo
 ~chatplayer("<p,neutral>Your Majesty.");
@@ -114,6 +114,7 @@ if (%misc_quest = 70) {
 ~chatplayer("<p,sad>Not yet, Your Majesty.");
 
 [label,king_vargas_quest_stage_80]
+~chatplayer("<p,neutral>Your Majesty.");
 ~chatnpc("<p,neutral>How are you getting on, <~get_viking_name>? Have you found me a pen yet?");
 if (inv_total(inv, misc_giant_pen) >= 1) {
     @king_vargas_has_pen;
@@ -135,12 +136,13 @@ if (%misc_quest = 80) {
 @king_vargas_ismarried;
 
 [label,king_vargas_quest_stage_90]
+~chatplayer("<p,neutral>Your Majesty.");
 ~chatnpc("<p,neutral>How are you getting on, <~get_viking_name>? Has my <text_gender("daughter", "son")> agreed to marry you?");
 @king_vargas_ismarried;
 
 [label,king_vargas_ismarried]
 if (%misc_affection >= ^misc_affection_complete) {
-    ~chatplayer("<p,happy> <text_gender("She", "He")> has, Your Majesty.");
+    ~chatplayer("<p,happy> <text_gender("She", "He")> has, your Majesty."); // https://i.imgur.com/Ti7aFjN.png
     ~chatnpc("<p,happy>Excellent, excellent.");
 } else {
     ~chatplayer("<p,sad>Not yet, Your Majesty.");
@@ -152,7 +154,7 @@ if (%misc_affection >= ^misc_affection_complete) {
 if (%misc_approval >= ^MISC_APPROVAL_75_PERCENT) {
     ~chatnpc("<p,neutral>Ghrim tells me that the population would be glad to have you as a ruler.");
 } else {
-    ~chatnpc("<p,neutral>Ghrim tells me that the population is not yet very supportive... You should try to gain their support.");
+    ~chatnpc("<p,neutral>Ghrim tells me that the population is not yet very supportive of the idea of having you as ruler. You should try to gain their support.");
 }
 @king_vargas_finalcheck;
 

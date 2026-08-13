@@ -87,7 +87,7 @@ if (%misc_quest = 10) {
 ~chatnpc("<p,neutral>Hello. Have you talked to Vargas yet?");
 ~chatplayer("<p,neutral>I have, Your Majesty. He says he will recognise the country when you change your anthem.");
 ~chatnpc("<p,neutral>What? But it's a great anthem, I composed it myself! Listen!");
-~chatnpc("<p,neutral>\"You're stupid, we're the best, Etceteria beats the rest! and Queen Sigrid is very pretty, King Vargas is a fool, hey, nonny-nonny!\"");
+~chatnpc("<p,laugh>\"You're stupid, we're the best,|Etceteria beats the rest!|and Queen Sigrid is very pretty,|King Vargas is a fool, hey, nonny-nonny!\"");
 ~chatplayer("<p,neutral>I'm afraid he insisted, Your Majesty.");
 ~chatnpc("<p,neutral>Well, it can't be helped I suppose...");
 ~chatnpc("<p,neutral>You'll have to find a bard to write a new one though. And there isn't a bard to be had for love nor money in Etceteria.");
@@ -111,9 +111,9 @@ if (inv_total(inv, misc_awful_anthem) >= 1) {
 [label,hasawfulanthem]
 ~chatplayer("<p,neutral>Yes, Your Majesty, but I'm afraid it isn't very good.");
 ~chatnpc("<p,neutral>Let's see now...");
-~chatnpc("<p,neutral>'Etceteria, Etceteria, Oh what a great country it is, Etceteria, Etceteria, So I wrote a song about it.'");
-~chatnpc("<p,neutral>'It's somewhere in the sea, And it looks very nice, If it weren't for your ancestors, It wouldn't be there at all,'");
-~chatnpc("<p,neutral>'And when things aren't going too well, We sing this lovely song, And then we'll all feel so much better, It won't take very long.'");
+~chatnpc("<p,laugh>'Etceteria, Etceteria,|Oh what a great country it is,|Etceteria, Etceteria,|So I wrote a song about it.'");
+~chatnpc("<p,laugh>'It's somewhere in the sea, And it looks very nice, If it weren't for your ancestors, It wouldn't be there at all,'");
+~chatnpc("<p,laugh>'And when things aren't going too well, We sing this lovely song, And then we'll all feel so much better, It won't take very long.'");
 ~chatnpc("<p,neutral>Oh dear, no, this simply won't do. Find a better one.");
 
 [label,queen_sigrid_quest_stage_60]
@@ -129,9 +129,9 @@ if (inv_total(inv, misc_good_anthem) >= 1) {
 [label,hasgoodanthem]
 ~chatplayer("<p,neutral>Yes, Your Majesty.");
 ~chatnpc("<p,neutral>Let's see now...");
-~chatnpc("<p,neutral>'Etceteria, Etceteria, Of our country we are proud! Etceteria, Etceteria, Let all sing its name out loud!'");
-~chatnpc("<p,neutral>'Rising high above the water, The jewel of the North! Our mothers and our fathers, To build this land came forth!'");
-~chatnpc("<p,neutral>'And in the times of darkness, Sing praises of our land! And in our hearts we can be sure, Our victory is at hand!'");
+~chatnpc("<p,laugh>'Etceteria, Etceteria,|Of our country we are proud!|Etceteria, Etceteria,|Let all sing its name out loud!'");
+~chatnpc("<p,laugh>'Rising high above the water,|The jewel of the North!|Our mothers and our fathers,|To build this land came forth!'");
+~chatnpc("<p,laugh>'And in the times of darkness,|Sing praises of our land!|And in our hearts we can be sure,|Our victory is at hand!'");
 ~chatnpc("<p,neutral>Why, this is quite good! I'm surprised!");
 ~chatnpc("<p,neutral>Here is a treaty declaring what we've mutually agreed to. I've already signed, so all it needs is King Vargas' signature and it'll be official.");
 if (inv_total(inv, misc_good_anthem) >= 1) {
