@@ -10,18 +10,18 @@ switch_int(stat_base(runecraft)) {
     case 20 : ~objbox(bodyrune,"You can now craft @dbl@Body Runes.", 250, 0, 0);
     // case 22 : ~objbox(airrune,"You can now receive 3 @dbl@Air Runes@bla@.", 250, 0, 0);
     // case 26 : ~objbox(earthrune,"You can now receive 2 @dbl@Earth Runes@bla@.", 250, 0, 0);
-    case 27 : ~objbox(cosmicrune,"You can now craft @dbl@Cosmic Runes.", 250, 0, 0);
+    case 27 : ~objbox(cosmicrune,"Members can now craft @dbl@Cosmic Runes.", 250, 0, 0);
     // case 28 : ~objbox(mindrune,"You can now receive 3 @dbl@Mind Runes@bla@.", 250, 0, 0);
     // case 33 : ~objbox(airrune,"You can now receive 4 @dbl@Air Runes@bla@.", 250, 0, 0);
-    case 35 : ~objbox(chaosrune,"You can now craft @dbl@Chaos Runes.", 250, 0, 0);
+    case 35 : ~objbox(chaosrune,"Members can now craft @dbl@Chaos Runes.", 250, 0, 0); 
     // case 38 : ~objbox(waterrune,"You can now receive 3 @dbl@Water Runes@bla@.", 250, 0, 0);
     // case 42 : ~objbox(mindrune,"You can now receive 4 @dbl@Mind Runes@bla@.", 250, 0, 0);
-    case 44 : ~objbox(naturerune,"You can now craft @dbl@Nature Runes.", 250, 0, 0); // imgur.com/bz6j0wl
+    case 44 : ~objbox(naturerune,"Members can now craft @dbl@Nature Runes.", 250, 0, 0); // imgur.com/bz6j0wl (Changed to Members by at least jan05)
     // case 46 : ~objbox(bodyrune,"You can now receive 2 @dbl@Body Runes@bla@.", 250, 0, 0);
     // case 52 : ~objbox(earthrune,"You can now receive 3 @dbl@Earth Runes@bla@.", 250, 0, 0);
     // https://oldschool.runescape.wiki/w/Law_Altar
     // 08/24/2004
-    case 54 : ~objbox(lawrune,"You can now craft @dbl@Law Runes@bla@.", 250, 0, 0);
+    case 54 : ~objbox(lawrune,"Members can now craft @dbl@Law Runes@bla@.", 250, 0, 0); // https://i.imgur.com/It2qwnY.png (jan 05)
     // case 55 : ~objbox(airrune,"You can now receive 4 @dbl@Air Runes@bla@.", 250, 0, 0);
     // case 56 : ~objbox(mindrune,"You can now receive 5 @dbl@Mind Runes@bla@.", 250, 0, 0);
     // case 57 : ~objbox(waterrune,"You can now receive 4 @dbl@Water Runes@bla@.", 250, 0, 0);
