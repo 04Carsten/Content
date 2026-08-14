@@ -26,7 +26,7 @@ if (%misc_quest = 80) {
 [label,derrik_strangerequest]
 ~chatplayer("<p,neutral>I have a slightly strange request...");
 ~chatplayer("<p,neutral>The King needs to sign a treaty, but is unable to because he lacks a pen large enough for him to hold. Could you make me a nib of the right size?");
-~chatnpc("<p,neutral>Hm... I may be able to manage that. What sort of size?");
+~chatnpc("<p,neutral>Hm...I may be able to manage that. What sort of size?");
 ~chatplayer("<p,neutral>About the size of a helm should do it.");
 ~chatnpc("<p,neutral>All right, but I'll need an iron bar to make it from.");
 if (inv_total(inv, iron_bar) >= 1) {
