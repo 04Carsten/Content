@@ -105,10 +105,11 @@ data=level,75
 // gives 16 xp instead of 160 xp
 data=experience,160
 data=respawn_ticks,600
-data=loot,uncut_sapphire,1,1,105,an uncut sapphire
-data=loot,uncut_emerald,1,1,17,an uncut emerald
-data=loot,uncut_ruby,1,1,5,an uncut ruby
-data=loot,uncut_diamond,1,1,1,an uncut diamond
+// https://i.imgur.com/OgJMi0d.png
+data=loot,uncut_sapphire,1,1,105,an Uncut sapphire
+data=loot,uncut_emerald,1,1,17,an Uncut emerald
+data=loot,uncut_ruby,1,1,5,an Uncut ruby
+data=loot,uncut_diamond,1,1,1,an Uncut diamond
 data=loot_total,128
 data=stall,gem stall
 data=stall,a gem
